@@ -88,10 +88,9 @@ El reproductor respeta `prefers-reduced-motion`: sin autoplay, solo navegación 
 
 ## Desplegar en GitHub Pages
 
-El workflow `.github/workflows/deploy-teoria-suiza.yml` construye y publica `teoria-suiza/dist` en GitHub Pages en cada push a `main` que toque `teoria-suiza/**` (o manualmente con "Run workflow"). Pasos únicos para activarlo en el repo:
+El workflow `.github/workflows/deploy.yml` construye y publica `dist` en GitHub Pages en cada push a `main` (o manualmente con "Run workflow"). Paso único para activarlo en el repo:
 
-1. Mergear la rama a `main`.
-2. En **Settings → Pages**, poner **Source: GitHub Actions**.
+1. En **Settings → Pages**, poner **Source: GitHub Actions**.
 
 La URL resultante sirve la PWA (instalable, offline) en `https://<usuario>.github.io/<repo>/`.
 
