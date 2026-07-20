@@ -1,6 +1,7 @@
 {
   "name": "teoria-suiza",
   "private": true,
+  "license": "UNLICENSED",
   "version": "0.1.0",
   "type": "module",
   "description": "App de estudio bilingüe (DE/ES) para el examen de conducir suizo, categorías B y A",
