@@ -1,3 +1,5 @@
+import { LANGS } from './i18n'
+
 const PREFIX = 'chfahren.'
 
 // Claves globales del dispositivo (compartidas entre perfiles).
@@ -19,6 +21,19 @@ function gwrite(key, value) {
   } catch {
     // localStorage lleno o bloqueado: la app sigue funcionando sin persistencia
   }
+}
+
+// Sin preferencia guardada: usar el idioma del navegador si está soportado,
+// si no caer a alemán.
+function detectBrowserLang() {
+  if (typeof navigator === 'undefined') return 'de'
+  const supported = new Set(LANGS.map((l) => l.id))
+  const candidates = navigator.languages?.length ? navigator.languages : [navigator.language]
+  for (const raw of candidates || []) {
+    const code = String(raw).slice(0, 2).toLowerCase()
+    if (supported.has(code)) return code
+  }
+  return 'de'
 }
 
 let activeId = 'default'
@@ -126,7 +141,7 @@ function isValidEntryShape(rest, rawValue) {
 }
 
 export const storage = {
-  getLang: () => gread('lang', 'de'),
+  getLang: () => gread('lang', null) ?? detectBrowserLang(),
   setLang: (v) => gwrite('lang', v),
 
   getTheme() {
