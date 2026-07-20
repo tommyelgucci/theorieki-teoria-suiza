@@ -1,14 +1,14 @@
 # 🇨🇭 TheorieKI — Teoría Suiza (B + A)
 
-App web multilingüe (**alemán, español, francés, italiano e inglés**) para estudiar la teoría del examen de conducir suizo y repasar consejos para el examen práctico. Cubre las categorías **B** (coche) y **A/A1** (moto).
+App web multilingüe (**alemán, español, francés, italiano, inglés y portugués**) para estudiar la teoría del examen de conducir suizo y repasar consejos para el examen práctico. Cubre las categorías **B** (coche) y **A/A1** (moto).
 
-> **Idiomas**: toda la app —interfaz, banco de preguntas completo, señales, maniobras, tips y módulo Nothelfer— está disponible en los 5 idiomas. Si a algún contenido futuro le faltara una traducción, se muestra en alemán automáticamente (fallback vía `tr()` en `src/i18n.js`).
+> **Idiomas**: toda la app —interfaz, banco de preguntas completo, señales, maniobras, tips y módulo Nothelfer— está disponible en los 6 idiomas. Si a algún contenido futuro le faltara una traducción, se muestra en alemán automáticamente (fallback vía `tr()` en `src/i18n.js`).
 
 > El examen teórico básico (*Basistheorieprüfung*) es idéntico para A, A1 y B: 50 preguntas, aprobado con máx. 15 puntos de penalización. Por eso el banco de preguntas es compartido y solo los tips prácticos difieren por categoría.
 
 ## Funcionalidades
 
-- **Pantalla inicial**: elegir Coche (B) o Moto (A) + selector de idioma (DE/ES/FR/IT/EN) siempre visible
+- **Pantalla inicial**: elegir Coche (B) o Moto (A) + selector de idioma (DE/ES/FR/IT/EN/PT) siempre visible
 - **Modo estudio**: preguntas una a una con feedback inmediato, explicación bilingüe y filtro por tema
 - **Modo examen**: simulación con preguntas aleatorias, temporizador, puntos de penalización y repaso de errores al final. Con el banco actual (108 preguntas) ya alcanza el formato real: 50 preguntas, máx. 15 puntos, 45 min; con un banco menor escala proporcionalmente
 - **Preguntas visuales**: parte del banco incluye una señal dibujada (`image: { type: "sign", id }`) o un diagrama de cruce/rotonda con vehículos etiquetados (`image: { type: "scene", id }`, ver `SceneDiagram.jsx` y `src/data/diagrams.js`) para preguntas de prioridad tipo "¿quién pasa primero?"
@@ -100,7 +100,7 @@ La app es una PWA. Para publicarla en las tiendas:
 
 - **Google Play**: acepta PWAs empaquetadas como *Trusted Web Activity* (herramienta [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap) o [PWABuilder](https://www.pwabuilder.com/)).
 - **Apple App Store**: normalmente exige un wrapper nativo (p. ej. [Capacitor](https://capacitorjs.com/)) — una PWA "pelada" suele rechazarse por la regla 4.2 (funcionalidad mínima).
-- Ambas tiendas piden una **URL de política de privacidad** en la ficha: usa `https://<usuario>.github.io/<repo>/privacy.html` (`public/privacy.html`, sin dependencias, en los 5 idiomas).
+- Ambas tiendas piden una **URL de política de privacidad** en la ficha: usa `https://<usuario>.github.io/<repo>/privacy.html` (`public/privacy.html`, sin dependencias, en 5 idiomas — aún sin portugués).
 
 ## Seguridad y privacidad
 
@@ -115,3 +115,7 @@ Sin backend, sin cuentas, sin analítica ni rastreadores de terceros: todo el pr
 **Herramienta de estudio independiente.** No está afiliada, aprobada ni asociada con la asa (Asociación de las oficinas de tráfico / Vereinigung der Strassenverkehrsämter) ni con ninguna oficina de tráfico cantonal.
 
 Todas las preguntas, textos, escenarios e ilustraciones de esta app son **creaciones 100 % originales**, redactadas desde cero a partir de la legislación suiza de circulación (SVG, VRV, SSV — textos legales de dominio público). No se copia, parafrasea ni deriva contenido del banco oficial de preguntas de la asa, que está protegido por derechos de autor. Las señales de tráfico se muestran como representaciones simplificadas propias con fines didácticos. Esta app no es material oficial del examen, no sustituye a los cursos ni al material oficial, y se ofrece sin garantía.
+
+## Licencia
+
+Todos los derechos reservados © 2026 Sharon Steffen Valdivia. Este repositorio es público para que la app pueda desplegarse en GitHub Pages, pero el código, los textos, las preguntas y las ilustraciones **no son de código abierto**: no está permitido copiar, redistribuir, modificar ni reutilizar nada de este repositorio sin autorización explícita de la titular. Ver [`LICENSE`](./LICENSE).
