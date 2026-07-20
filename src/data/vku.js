@@ -12,6 +12,7 @@ export const VKU_BLOCKS = [
       fr: 'Voir la circulation – détecter les dangers',
       it: 'Vedere il traffico – riconoscere i pericoli',
       en: 'Traffic vision – spotting hazards',
+      pt: 'Visão do trânsito – identificar perigos',
     },
     bullets: [
       {
@@ -20,6 +21,7 @@ export const VKU_BLOCKS = [
         fr: 'Voir n’est pas reconnaître : l’œil met ~0,1 s à fixer – regarde consciemment là où naissent les dangers (débouchés, voitures parquées, trottoirs).',
         it: 'Vedere non è riconoscere: l’occhio impiega ~0,1 s a fissare – guarda consapevolmente dove nascono i pericoli (sbocchi, auto parcheggiate, marciapiedi).',
         en: 'Seeing is not recognising: the eye needs ~0.1 s to fix – consciously look where hazards arise (junctions, parked cars, pavements).',
+        pt: 'Ver não é reconhecer: o olho precisa de ~0,1 s para fixar – olha conscientemente para onde surgem os perigos (cruzamentos, carros estacionados, passeios).',
       },
       {
         de: 'Blicksystematik: weit voraus – nah – Spiegel – Seiten. Alle paar Sekunden wiederholen, nie an einem Punkt «kleben».',
@@ -27,6 +29,7 @@ export const VKU_BLOCKS = [
         fr: 'Systématique du regard : loin devant – près – rétros – côtés. Répéter le cycle toutes les quelques secondes, ne jamais rester « collé » à un point.',
         it: 'Sistematica dello sguardo: lontano – vicino – specchietti – lati. Ripeti il ciclo ogni pochi secondi, mai restare «incollato» a un punto.',
         en: 'Scanning system: far ahead – near – mirrors – sides. Repeat the cycle every few seconds, never "stick" to one point.',
+        pt: 'Sistemática de observação: longe – perto – espelhos – laterais. Repete o ciclo a cada poucos segundos, nunca fiques «colado» a um ponto.',
       },
       {
         de: 'Der tote Winkel wächst mit der Fahrzeuggrösse: neben Lastwagen nie warten, Blick über die Schulter vor jeder Richtungsänderung.',
@@ -34,6 +37,7 @@ export const VKU_BLOCKS = [
         fr: 'L’angle mort grandit avec la taille du véhicule : ne jamais attendre à côté d’un camion, regard par-dessus l’épaule avant chaque changement de direction.',
         it: 'L’angolo morto cresce con la taglia del veicolo: mai aspettare accanto a un camion, sguardo sopra la spalla prima di ogni cambio di direzione.',
         en: 'The blind spot grows with vehicle size: never wait next to a lorry, look over your shoulder before every change of direction.',
+        pt: 'O ângulo morto cresce com o tamanho do veículo: nunca esperes ao lado de um camião, olha por cima do ombro antes de cada mudança de direção.',
       },
       {
         de: 'Nachts und bei Dämmerung sinkt die Sehleistung stark: Kontraste verschwinden, Distanzen werden unterschätzt – Tempo anpassen.',
@@ -41,6 +45,7 @@ export const VKU_BLOCKS = [
         fr: 'De nuit et au crépuscule, la performance visuelle chute : les contrastes disparaissent, les distances sont sous-estimées – adapter la vitesse.',
         it: 'Di notte e al crepuscolo la vista cala molto: i contrasti spariscono, le distanze si sottovalutano – adatta la velocità.',
         en: 'At night and dusk, vision drops sharply: contrasts vanish, distances are underestimated – adjust your speed.',
+        pt: 'De noite e ao anoitecer a visão piora muito: os contrastes desaparecem, as distâncias são subestimadas – ajusta a velocidade.',
       },
     ],
   },
@@ -53,6 +58,7 @@ export const VKU_BLOCKS = [
       fr: 'Environnement routier – partenaires sur la route',
       it: 'Ambiente stradale – partner sulla strada',
       en: 'Traffic environment – partners on the road',
+      pt: 'Ambiente rodoviário – parceiros na via',
     },
     bullets: [
       {
@@ -61,6 +67,7 @@ export const VKU_BLOCKS = [
         fr: 'Chaque partenaire a ses faiblesses : les enfants agissent par impulsion, les aînés réagissent plus lentement, les vélos oscillent, les camions ne te voient souvent pas.',
         it: 'Ogni partner ha le sue debolezze: i bambini agiscono d’impulso, gli anziani reagiscono più lentamente, le bici oscillano, i camion spesso non ti vedono.',
         en: 'Every road user has weaknesses: children act on impulse, the elderly react slower, bikes wobble, lorries often cannot see you.',
+        pt: 'Cada utente tem as suas fragilidades: as crianças agem por impulso, os idosos reagem mais devagar, as bicicletas oscilam, os camiões muitas vezes não te veem.',
       },
       {
         de: 'Defensive Grundhaltung: Rechne mit Fehlern der anderen und verzichte im Zweifel auf deinen Vortritt – Recht haben nützt nichts im Spital.',
@@ -68,6 +75,7 @@ export const VKU_BLOCKS = [
         fr: 'Attitude défensive : compte avec les erreurs des autres et, en cas de doute, renonce à ta priorité – avoir raison ne sert à rien à l’hôpital.',
         it: 'Atteggiamento difensivo: metti in conto gli errori altrui e nel dubbio rinuncia alla tua precedenza – avere ragione non serve in ospedale.',
         en: 'Defensive attitude: expect others to make mistakes and, if in doubt, waive your priority – being right is no use in hospital.',
+        pt: 'Atitude defensiva: conta com os erros dos outros e, em caso de dúvida, abdica da tua prioridade – ter razão não serve de nada no hospital.',
       },
       {
         de: 'Kommunikation im Verkehr: Blickkontakt, rechtzeitiges Blinken und klare Fahrzeugposition sagen den anderen, was du vorhast.',
@@ -75,6 +83,7 @@ export const VKU_BLOCKS = [
         fr: 'Communication dans le trafic : contact visuel, clignotant à temps et position claire du véhicule disent aux autres ce que tu prévois.',
         it: 'Comunicazione nel traffico: contatto visivo, freccia per tempo e posizione chiara del veicolo dicono agli altri cosa intendi fare.',
         en: 'Communication in traffic: eye contact, timely indicating and a clear vehicle position tell others what you intend.',
+        pt: 'Comunicação no trânsito: contacto visual, pisca a tempo e uma posição clara do veículo dizem aos outros o que pretendes fazer.',
       },
       {
         de: 'Witterung verändert die Umwelt: Nässe, Schnee, Laub und Nebel verlangen mehr Abstand, weniger Tempo und sanfte Bedienung.',
@@ -82,6 +91,7 @@ export const VKU_BLOCKS = [
         fr: 'La météo change l’environnement : pluie, neige, feuilles et brouillard exigent plus de distance, moins de vitesse et des commandes douces.',
         it: 'Il meteo cambia l’ambiente: pioggia, neve, foglie e nebbia richiedono più distanza, meno velocità e comandi dolci.',
         en: 'Weather changes the environment: rain, snow, leaves and fog demand more distance, less speed and gentle inputs.',
+        pt: 'O tempo muda o ambiente: chuva, neve, folhas e nevoeiro exigem mais distância, menos velocidade e comandos suaves.',
       },
     ],
   },
@@ -94,6 +104,7 @@ export const VKU_BLOCKS = [
       fr: 'Dynamique – la physique au volant',
       it: 'Dinamica – la fisica al volante',
       en: 'Traffic dynamics – physics at the wheel',
+      pt: 'Dinâmica do trânsito – física ao volante',
     },
     bullets: [
       {
@@ -102,6 +113,7 @@ export const VKU_BLOCKS = [
         fr: 'Distance d’arrêt = réaction + freinage. À 50 km/h, tu parcours déjà ~15 m pendant la seconde de réaction.',
         it: 'Spazio di arresto = reazione + frenata. A 50 km/h percorri già ~15 m durante il secondo di reazione.',
         en: 'Stopping distance = reaction + braking. At 50 km/h you already travel ~15 m during the reaction second.',
+        pt: 'Distância de paragem = reação + travagem. A 50 km/h já percorres ~15 m durante o segundo de reação.',
       },
       {
         de: 'Doppeltes Tempo = vierfacher Bremsweg. Der Unterschied zwischen 50 und 60 km/h entscheidet, ob das Kind noch stehen bleibt oder nicht.',
@@ -109,6 +121,7 @@ export const VKU_BLOCKS = [
         fr: 'Vitesse doublée = freinage quadruplé. La différence entre 50 et 60 km/h décide si l’enfant s’en sort ou non.',
         it: 'Velocità doppia = frenata quadrupla. La differenza tra 50 e 60 km/h decide se il bambino resta illeso o no.',
         en: 'Double the speed = four times the braking distance. The difference between 50 and 60 km/h decides whether the child is unharmed or not.',
+        pt: 'Velocidade a dobrar = distância de travagem a quadruplicar. A diferença entre 50 e 60 km/h decide se a criança fica ilesa ou não.',
       },
       {
         de: 'Aquaplaning, Schnee und Eis: Die Reifen übertragen nur begrenzte Kräfte – wer gleichzeitig stark bremst UND lenkt, verliert beides.',
@@ -116,6 +129,7 @@ export const VKU_BLOCKS = [
         fr: 'Aquaplaning, neige et verglas : les pneus ne transmettent que des forces limitées – freiner fort ET tourner en même temps fait perdre les deux.',
         it: 'Aquaplaning, neve e ghiaccio: gli pneumatici trasmettono forze limitate – chi frena forte E sterza insieme perde entrambe.',
         en: 'Aquaplaning, snow and ice: tyres transmit only limited forces – braking hard AND steering at once loses you both.',
+        pt: 'Aquaplanagem, neve e gelo: os pneus só transmitem forças limitadas – travar com força E virar ao mesmo tempo faz perder as duas coisas.',
       },
       {
         de: 'Kräfte in der Kurve wachsen im Quadrat zum Tempo: vor der Kurve bremsen, in der Kurve gleichmässig, nach dem Scheitel beschleunigen.',
@@ -123,6 +137,7 @@ export const VKU_BLOCKS = [
         fr: 'Les forces en virage croissent au carré de la vitesse : freiner avant le virage, allure régulière dedans, accélérer après le point de corde.',
         it: 'Le forze in curva crescono col quadrato della velocità: frena prima della curva, regolare dentro, accelera dopo l’apice.',
         en: 'Cornering forces grow with the square of speed: brake before the bend, steady through it, accelerate after the apex.',
+        pt: 'As forças em curva crescem com o quadrado da velocidade: trava antes da curva, mantém-te estável dentro dela, acelera depois do vértice.',
       },
     ],
   },
@@ -135,6 +150,7 @@ export const VKU_BLOCKS = [
       fr: 'Tactique – ton propre état',
       it: 'Tattica – il tuo stato personale',
       en: 'Traffic tactics – your own condition',
+      pt: 'Tática de condução – o teu próprio estado',
     },
     bullets: [
       {
@@ -143,6 +159,7 @@ export const VKU_BLOCKS = [
         fr: 'L’aptitude à conduire dépend de la forme du jour : fatigue, stress, émotions, alcool, drogues et médicaments rallongent massivement la réaction.',
         it: 'L’idoneità alla guida dipende dalla forma del giorno: stanchezza, stress, emozioni, alcol, droghe e farmaci allungano molto la reazione.',
         en: 'Fitness to drive depends on the day: tiredness, stress, emotions, alcohol, drugs and medicines massively lengthen reaction time.',
+        pt: 'A aptidão para conduzir depende do dia: cansaço, stress, emoções, álcool, drogas e medicamentos aumentam muito o tempo de reação.',
       },
       {
         de: 'Sekundenschlaf kündigt sich an: brennende Augen, Gedankenabschweifen, Spurabweichungen. Einzige Massnahme: anhalten und schlafen.',
@@ -150,6 +167,7 @@ export const VKU_BLOCKS = [
         fr: 'Le micro-sommeil s’annonce : yeux qui brûlent, pensées qui dérivent, écarts de trajectoire. Seule mesure : s’arrêter et dormir.',
         it: 'Il colpo di sonno si annuncia: occhi che bruciano, mente che vaga, sbandamenti. Unica misura: fermarsi e dormire.',
         en: 'Microsleep announces itself: burning eyes, drifting thoughts, lane deviations. The only remedy: stop and sleep.',
+        pt: 'O microssono avisa: olhos a arder, pensamentos a divagar, desvios de faixa. Única solução: parar e dormir.',
       },
       {
         de: 'Taktik heisst vorausplanen: Reserve einbauen (Zeit, Abstand, Tempo), Konfliktstellen früh erkennen und Handlungsalternativen bereithalten.',
@@ -157,6 +175,7 @@ export const VKU_BLOCKS = [
         fr: 'La tactique, c’est planifier : prévoir des réserves (temps, distance, vitesse), repérer tôt les points de conflit et garder des alternatives.',
         it: 'Tattica è pianificare: crea riserve (tempo, distanza, velocità), individua presto i punti di conflitto e tieni pronte alternative.',
         en: 'Tactics means planning ahead: build in reserves (time, distance, speed), spot conflict points early and keep alternatives ready.',
+        pt: 'Tática significa planear com antecedência: criar margens (tempo, distância, velocidade), identificar cedo pontos de conflito e ter alternativas prontas.',
       },
       {
         de: 'Ablenkung ist die neue Hauptgefahr: Handy weglegen – ein Blick von 2 Sekunden bei 50 km/h ist Blindflug über 28 Meter.',
@@ -164,26 +183,27 @@ export const VKU_BLOCKS = [
         fr: 'La distraction est le nouveau danger majeur : range le téléphone – 2 secondes de regard à 50 km/h, c’est 28 mètres à l’aveugle.',
         it: 'La distrazione è il nuovo pericolo principale: via il telefono – uno sguardo di 2 secondi a 50 km/h sono 28 metri alla cieca.',
         en: 'Distraction is the new main danger: put the phone away – a 2-second glance at 50 km/h is 28 metres of blind flight.',
+        pt: 'A distração é o novo grande perigo: guarda o telemóvel – um olhar de 2 segundos a 50 km/h são 28 metros às cegas.',
       },
     ],
   },
 ]
 
 export const VKU_CARDS = [
-  { id: 'v01', front: { de: 'Woraus besteht der Anhalteweg?', es: '¿De qué se compone la distancia de detención?', fr: 'De quoi se compose la distance d’arrêt ?', it: 'Da cosa è composto lo spazio di arresto?', en: 'What makes up the stopping distance?' }, back: { de: 'Reaktionsweg + Bremsweg', es: 'Reacción + frenado', fr: 'Réaction + freinage', it: 'Reazione + frenata', en: 'Reaction + braking distance' } },
-  { id: 'v02', front: { de: 'Reaktionsweg bei 50 km/h (1 s)?', es: '¿Distancia de reacción a 50 km/h (1 s)?', fr: 'Distance de réaction à 50 km/h (1 s) ?', it: 'Spazio di reazione a 50 km/h (1 s)?', en: 'Reaction distance at 50 km/h (1 s)?' }, back: { de: 'ca. 15 m', es: '~15 m', fr: 'env. 15 m', it: 'circa 15 m', en: 'approx. 15 m' } },
-  { id: 'v03', front: { de: 'Doppeltes Tempo – Bremsweg?', es: 'Doble velocidad, ¿frenado?', fr: 'Vitesse doublée – freinage ?', it: 'Velocità doppia – frenata?', en: 'Double the speed – braking distance?' }, back: { de: 'Vierfach (wächst im Quadrat)', es: 'Cuádruple (crece al cuadrado)', fr: 'Quadruplé (croît au carré)', it: 'Quadrupla (cresce al quadrato)', en: 'Four times (grows with the square)' } },
-  { id: 'v04', front: { de: 'Blicksystematik in 4 Schritten?', es: '¿Sistemática de mirada en 4 pasos?', fr: 'Systématique du regard en 4 étapes ?', it: 'Sistematica dello sguardo in 4 passi?', en: 'Scanning system in 4 steps?' }, back: { de: 'Weit voraus – nah – Spiegel – Seiten', es: 'Lejos – cerca – espejos – laterales', fr: 'Loin – près – rétros – côtés', it: 'Lontano – vicino – specchietti – lati', en: 'Far ahead – near – mirrors – sides' } },
-  { id: 'v05', front: { de: '2 Sekunden Handy bei 50 km/h = ?', es: '2 segundos de móvil a 50 km/h = ¿?', fr: '2 secondes de téléphone à 50 km/h = ?', it: '2 secondi di telefono a 50 km/h = ?', en: '2 seconds on the phone at 50 km/h = ?' }, back: { de: 'ca. 28 m Blindflug', es: '~28 m a ciegas', fr: 'env. 28 m à l’aveugle', it: 'circa 28 m alla cieca', en: 'approx. 28 m blind' } },
-  { id: 'v06', front: { de: 'Erste Zeichen von Sekundenschlaf?', es: '¿Primeras señales del microsueño?', fr: 'Premiers signes du micro-sommeil ?', it: 'Primi segnali del colpo di sonno?', en: 'First signs of microsleep?' }, back: { de: 'Brennende Augen, Gedanken schweifen ab, Spur wandert', es: 'Ojos que arden, mente que divaga, el coche se sale del carril', fr: 'Yeux qui brûlent, pensées qui dérivent, trajectoire qui dévie', it: 'Occhi che bruciano, mente che vaga, traiettoria che devia', en: 'Burning eyes, drifting thoughts, wandering lane position' } },
-  { id: 'v07', front: { de: 'Einziges Mittel gegen Müdigkeit?', es: '¿Único remedio real contra la fatiga?', fr: 'Seul remède contre la fatigue ?', it: 'Unico rimedio contro la stanchezza?', en: 'Only real remedy for tiredness?' }, back: { de: 'Anhalten und schlafen (Kurzschlaf)', es: 'Parar y dormir (siesta corta)', fr: 'S’arrêter et dormir (courte sieste)', it: 'Fermarsi e dormire (breve sonnellino)', en: 'Stop and sleep (short nap)' } },
-  { id: 'v08', front: { de: 'Defensiv fahren heisst…?', es: 'Conducir defensivo significa…', fr: 'Conduire défensivement signifie… ?', it: 'Guidare in modo difensivo significa…?', en: 'Defensive driving means…?' }, back: { de: 'Mit Fehlern anderer rechnen, im Zweifel auf Vortritt verzichten', es: 'Contar con errores ajenos y renunciar a la prioridad en caso de duda', fr: 'Compter avec les erreurs des autres, renoncer à la priorité en cas de doute', it: 'Mettere in conto gli errori altrui, nel dubbio rinunciare alla precedenza', en: 'Expect others’ mistakes; if in doubt, waive your priority' } },
-  { id: 'v09', front: { de: 'Gefährlichste Stellen für Kinder?', es: '¿Lugares más peligrosos con niños?', fr: 'Endroits les plus dangereux pour les enfants ?', it: 'Punti più pericolosi per i bambini?', en: 'Most dangerous spots for children?' }, back: { de: 'Zwischen parkierten Autos, Schulen, Spielplätze, Bushaltestellen', es: 'Entre coches aparcados, escuelas, parques y paradas de bus', fr: 'Entre voitures parquées, écoles, places de jeux, arrêts de bus', it: 'Tra auto parcheggiate, scuole, parchi giochi, fermate del bus', en: 'Between parked cars, schools, playgrounds, bus stops' } },
-  { id: 'v10', front: { de: 'Kurve richtig fahren?', es: '¿Cómo se toma bien una curva?', fr: 'Comment prendre un virage correctement ?', it: 'Come si affronta bene una curva?', en: 'How to take a bend correctly?' }, back: { de: 'Vorher bremsen – drin gleichmässig – nach dem Scheitel beschleunigen', es: 'Frenar antes, ritmo constante dentro, acelerar tras el vértice', fr: 'Freiner avant – régulier dedans – accélérer après le point de corde', it: 'Frenare prima – regolare dentro – accelerare dopo l’apice', en: 'Brake before – steady through – accelerate after the apex' } },
-  { id: 'v11', front: { de: 'Wo lauert Aquaplaning zuerst?', es: '¿Dónde acecha antes el aquaplaning?', fr: 'Où guette d’abord l’aquaplaning ?', it: 'Dove è in agguato prima l’aquaplaning?', en: 'Where does aquaplaning lurk first?' }, back: { de: 'Spurrinnen, Senken, hohe Geschwindigkeit + abgefahrene Reifen', es: 'Rodadas, vaguadas, alta velocidad y neumáticos gastados', fr: 'Ornières, creux, vitesse élevée + pneus usés', it: 'Solchi, avvallamenti, alta velocità + gomme consumate', en: 'Ruts, dips, high speed + worn tyres' } },
-  { id: 'v12', front: { de: 'Was tun bei starken Emotionen (Wut, Stress)?', es: '¿Qué hacer con emociones fuertes (ira, estrés)?', fr: 'Que faire en cas d’émotions fortes (colère, stress) ?', it: 'Cosa fare con emozioni forti (rabbia, stress)?', en: 'What to do with strong emotions (anger, stress)?' }, back: { de: 'Fahrt verschieben oder Pause machen – Emotionen fahren mit', es: 'Aplazar el viaje o hacer una pausa: las emociones conducen contigo', fr: 'Reporter le trajet ou faire une pause – les émotions conduisent avec toi', it: 'Rimandare il viaggio o fare una pausa – le emozioni guidano con te', en: 'Postpone the trip or take a break – emotions ride along' } },
-  { id: 'v13', front: { de: 'Reserve einbauen heisst…?', es: 'Meter reservas significa…', fr: 'Prévoir des réserves signifie… ?', it: 'Creare riserve significa…?', en: 'Building in reserves means…?' }, back: { de: 'Mehr Abstand, weniger Tempo, früh planen – Spielraum für Fehler', es: 'Más distancia, menos velocidad y planificar pronto: margen para errores', fr: 'Plus de distance, moins de vitesse, planifier tôt – de la marge pour les erreurs', it: 'Più distanza, meno velocità, pianificare presto – margine per gli errori', en: 'More distance, less speed, plan early – margin for mistakes' } },
-  { id: 'v14', front: { de: 'Nachtfahrt: grösste Gefahren?', es: 'Conducción nocturna: ¿mayores peligros?', fr: 'Conduite de nuit : plus grands dangers ?', it: 'Guida notturna: pericoli maggiori?', en: 'Night driving: biggest dangers?' }, back: { de: 'Distanzen unterschätzen, Blendung, dunkle Fussgänger/Velos, Müdigkeit', es: 'Subestimar distancias, deslumbramiento, peatones/bicis oscuros, fatiga', fr: 'Sous-estimer les distances, éblouissement, piétons/vélos sombres, fatigue', it: 'Sottovalutare le distanze, abbagliamento, pedoni/bici scuri, stanchezza', en: 'Underestimating distances, glare, dark pedestrians/bikes, tiredness' } },
+  { id: 'v01', front: { de: 'Woraus besteht der Anhalteweg?', es: '¿De qué se compone la distancia de detención?', fr: 'De quoi se compose la distance d’arrêt ?', it: 'Da cosa è composto lo spazio di arresto?', en: 'What makes up the stopping distance?', pt: 'Do que é composta a distância de paragem?' }, back: { de: 'Reaktionsweg + Bremsweg', es: 'Reacción + frenado', fr: 'Réaction + freinage', it: 'Reazione + frenata', en: 'Reaction + braking distance', pt: 'Distância de reação + travagem' } },
+  { id: 'v02', front: { de: 'Reaktionsweg bei 50 km/h (1 s)?', es: '¿Distancia de reacción a 50 km/h (1 s)?', fr: 'Distance de réaction à 50 km/h (1 s) ?', it: 'Spazio di reazione a 50 km/h (1 s)?', en: 'Reaction distance at 50 km/h (1 s)?', pt: 'Distância de reação a 50 km/h (1 s)?' }, back: { de: 'ca. 15 m', es: '~15 m', fr: 'env. 15 m', it: 'circa 15 m', en: 'approx. 15 m', pt: 'cerca de 15 m' } },
+  { id: 'v03', front: { de: 'Doppeltes Tempo – Bremsweg?', es: 'Doble velocidad, ¿frenado?', fr: 'Vitesse doublée – freinage ?', it: 'Velocità doppia – frenata?', en: 'Double the speed – braking distance?', pt: 'Velocidade a dobrar – distância de travagem?' }, back: { de: 'Vierfach (wächst im Quadrat)', es: 'Cuádruple (crece al cuadrado)', fr: 'Quadruplé (croît au carré)', it: 'Quadrupla (cresce al quadrato)', en: 'Four times (grows with the square)', pt: 'Quatro vezes (cresce com o quadrado)' } },
+  { id: 'v04', front: { de: 'Blicksystematik in 4 Schritten?', es: '¿Sistemática de mirada en 4 pasos?', fr: 'Systématique du regard en 4 étapes ?', it: 'Sistematica dello sguardo in 4 passi?', en: 'Scanning system in 4 steps?', pt: 'Sistemática de observação em 4 passos?' }, back: { de: 'Weit voraus – nah – Spiegel – Seiten', es: 'Lejos – cerca – espejos – laterales', fr: 'Loin – près – rétros – côtés', it: 'Lontano – vicino – specchietti – lati', en: 'Far ahead – near – mirrors – sides', pt: 'Longe – perto – espelhos – laterais' } },
+  { id: 'v05', front: { de: '2 Sekunden Handy bei 50 km/h = ?', es: '2 segundos de móvil a 50 km/h = ¿?', fr: '2 secondes de téléphone à 50 km/h = ?', it: '2 secondi di telefono a 50 km/h = ?', en: '2 seconds on the phone at 50 km/h = ?', pt: '2 segundos ao telemóvel a 50 km/h = ?' }, back: { de: 'ca. 28 m Blindflug', es: '~28 m a ciegas', fr: 'env. 28 m à l’aveugle', it: 'circa 28 m alla cieca', en: 'approx. 28 m blind', pt: 'cerca de 28 m às cegas' } },
+  { id: 'v06', front: { de: 'Erste Zeichen von Sekundenschlaf?', es: '¿Primeras señales del microsueño?', fr: 'Premiers signes du micro-sommeil ?', it: 'Primi segnali del colpo di sonno?', en: 'First signs of microsleep?', pt: 'Primeiros sinais de microssono?' }, back: { de: 'Brennende Augen, Gedanken schweifen ab, Spur wandert', es: 'Ojos que arden, mente que divaga, el coche se sale del carril', fr: 'Yeux qui brûlent, pensées qui dérivent, trajectoire qui dévie', it: 'Occhi che bruciano, mente che vaga, traiettoria che devia', en: 'Burning eyes, drifting thoughts, wandering lane position', pt: 'Olhos a arder, pensamentos a divagar, faixa a oscilar' } },
+  { id: 'v07', front: { de: 'Einziges Mittel gegen Müdigkeit?', es: '¿Único remedio real contra la fatiga?', fr: 'Seul remède contre la fatigue ?', it: 'Unico rimedio contro la stanchezza?', en: 'Only real remedy for tiredness?', pt: 'Único remédio real contra o cansaço?' }, back: { de: 'Anhalten und schlafen (Kurzschlaf)', es: 'Parar y dormir (siesta corta)', fr: 'S’arrêter et dormir (courte sieste)', it: 'Fermarsi e dormire (breve sonnellino)', en: 'Stop and sleep (short nap)', pt: 'Parar e dormir (soneca curta)' } },
+  { id: 'v08', front: { de: 'Defensiv fahren heisst…?', es: 'Conducir defensivo significa…', fr: 'Conduire défensivement signifie… ?', it: 'Guidare in modo difensivo significa…?', en: 'Defensive driving means…?', pt: 'Conduzir de forma defensiva significa…?' }, back: { de: 'Mit Fehlern anderer rechnen, im Zweifel auf Vortritt verzichten', es: 'Contar con errores ajenos y renunciar a la prioridad en caso de duda', fr: 'Compter avec les erreurs des autres, renoncer à la priorité en cas de doute', it: 'Mettere in conto gli errori altrui, nel dubbio rinunciare alla precedenza', en: 'Expect others’ mistakes; if in doubt, waive your priority', pt: 'Contar com os erros dos outros; em caso de dúvida, abdicar da prioridade' } },
+  { id: 'v09', front: { de: 'Gefährlichste Stellen für Kinder?', es: '¿Lugares más peligrosos con niños?', fr: 'Endroits les plus dangereux pour les enfants ?', it: 'Punti più pericolosi per i bambini?', en: 'Most dangerous spots for children?', pt: 'Locais mais perigosos para crianças?' }, back: { de: 'Zwischen parkierten Autos, Schulen, Spielplätze, Bushaltestellen', es: 'Entre coches aparcados, escuelas, parques y paradas de bus', fr: 'Entre voitures parquées, écoles, places de jeux, arrêts de bus', it: 'Tra auto parcheggiate, scuole, parchi giochi, fermate del bus', en: 'Between parked cars, schools, playgrounds, bus stops', pt: 'Entre carros estacionados, escolas, parques infantis, paragens de autocarro' } },
+  { id: 'v10', front: { de: 'Kurve richtig fahren?', es: '¿Cómo se toma bien una curva?', fr: 'Comment prendre un virage correctement ?', it: 'Come si affronta bene una curva?', en: 'How to take a bend correctly?', pt: 'Como fazer bem uma curva?' }, back: { de: 'Vorher bremsen – drin gleichmässig – nach dem Scheitel beschleunigen', es: 'Frenar antes, ritmo constante dentro, acelerar tras el vértice', fr: 'Freiner avant – régulier dedans – accélérer après le point de corde', it: 'Frenare prima – regolare dentro – accelerare dopo l’apice', en: 'Brake before – steady through – accelerate after the apex', pt: 'Trava antes – estável dentro – acelera depois do vértice' } },
+  { id: 'v11', front: { de: 'Wo lauert Aquaplaning zuerst?', es: '¿Dónde acecha antes el aquaplaning?', fr: 'Où guette d’abord l’aquaplaning ?', it: 'Dove è in agguato prima l’aquaplaning?', en: 'Where does aquaplaning lurk first?', pt: 'Onde surge primeiro a aquaplanagem?' }, back: { de: 'Spurrinnen, Senken, hohe Geschwindigkeit + abgefahrene Reifen', es: 'Rodadas, vaguadas, alta velocidad y neumáticos gastados', fr: 'Ornières, creux, vitesse élevée + pneus usés', it: 'Solchi, avvallamenti, alta velocità + gomme consumate', en: 'Ruts, dips, high speed + worn tyres', pt: 'Rodeiras, depressões, velocidade alta + pneus gastos' } },
+  { id: 'v12', front: { de: 'Was tun bei starken Emotionen (Wut, Stress)?', es: '¿Qué hacer con emociones fuertes (ira, estrés)?', fr: 'Que faire en cas d’émotions fortes (colère, stress) ?', it: 'Cosa fare con emozioni forti (rabbia, stress)?', en: 'What to do with strong emotions (anger, stress)?', pt: 'O que fazer com emoções fortes (raiva, stress)?' }, back: { de: 'Fahrt verschieben oder Pause machen – Emotionen fahren mit', es: 'Aplazar el viaje o hacer una pausa: las emociones conducen contigo', fr: 'Reporter le trajet ou faire une pause – les émotions conduisent avec toi', it: 'Rimandare il viaggio o fare una pausa – le emozioni guidano con te', en: 'Postpone the trip or take a break – emotions ride along', pt: 'Adiar a viagem ou fazer uma pausa – as emoções vão contigo' } },
+  { id: 'v13', front: { de: 'Reserve einbauen heisst…?', es: 'Meter reservas significa…', fr: 'Prévoir des réserves signifie… ?', it: 'Creare riserve significa…?', en: 'Building in reserves means…?', pt: 'Criar margens significa…?' }, back: { de: 'Mehr Abstand, weniger Tempo, früh planen – Spielraum für Fehler', es: 'Más distancia, menos velocidad y planificar pronto: margen para errores', fr: 'Plus de distance, moins de vitesse, planifier tôt – de la marge pour les erreurs', it: 'Più distanza, meno velocità, pianificare presto – margine per gli errori', en: 'More distance, less speed, plan early – margin for mistakes', pt: 'Mais distância, menos velocidade, planear cedo – margem para erros' } },
+  { id: 'v14', front: { de: 'Nachtfahrt: grösste Gefahren?', es: 'Conducción nocturna: ¿mayores peligros?', fr: 'Conduite de nuit : plus grands dangers ?', it: 'Guida notturna: pericoli maggiori?', en: 'Night driving: biggest dangers?', pt: 'Condução noturna: maiores perigos?' }, back: { de: 'Distanzen unterschätzen, Blendung, dunkle Fussgänger/Velos, Müdigkeit', es: 'Subestimar distancias, deslumbramiento, peatones/bicis oscuros, fatiga', fr: 'Sous-estimer les distances, éblouissement, piétons/vélos sombres, fatigue', it: 'Sottovalutare le distanze, abbagliamento, pedoni/bici scuri, stanchezza', en: 'Underestimating distances, glare, dark pedestrians/bikes, tiredness', pt: 'Subestimar distâncias, encadeamento, peões/bicicletas escuros, cansaço' } },
 ]
 
 export const VKU_QUESTIONS = [
@@ -197,11 +217,12 @@ export const VKU_QUESTIONS = [
       fr: 'Tu roules à 50 km/h. Quelle distance parcours-tu pendant 1 seconde de réaction ?',
       it: 'Viaggi a 50 km/h. Quanto percorri solo durante 1 secondo di reazione?',
       en: 'You drive at 50 km/h. How far do you travel during 1 second of reaction time alone?',
+      pt: 'Conduzes a 50 km/h. Que distância percorres apenas durante 1 segundo de tempo de reação?',
     },
     options: [
-      { id: 'a', text: { de: 'ca. 15 m', es: '~15 m', fr: 'env. 15 m', it: 'circa 15 m', en: 'approx. 15 m' }, correct: true },
-      { id: 'b', text: { de: 'ca. 5 m', es: '~5 m', fr: 'env. 5 m', it: 'circa 5 m', en: 'approx. 5 m' }, correct: false },
-      { id: 'c', text: { de: 'ca. 30 m', es: '~30 m', fr: 'env. 30 m', it: 'circa 30 m', en: 'approx. 30 m' }, correct: false },
+      { id: 'a', text: { de: 'ca. 15 m', es: '~15 m', fr: 'env. 15 m', it: 'circa 15 m', en: 'approx. 15 m', pt: 'cerca de 15 m' }, correct: true },
+      { id: 'b', text: { de: 'ca. 5 m', es: '~5 m', fr: 'env. 5 m', it: 'circa 5 m', en: 'approx. 5 m', pt: 'cerca de 5 m' }, correct: false },
+      { id: 'c', text: { de: 'ca. 30 m', es: '~30 m', fr: 'env. 30 m', it: 'circa 30 m', en: 'approx. 30 m', pt: 'cerca de 30 m' }, correct: false },
     ],
     explanation: {
       de: '50 km/h ≈ 14 m/s. Bevor du überhaupt bremst, ist das Auto schon rund 15 m weitergerollt.',
@@ -209,6 +230,7 @@ export const VKU_QUESTIONS = [
       fr: '50 km/h ≈ 14 m/s. Avant même de freiner, la voiture a déjà parcouru environ 15 m.',
       it: '50 km/h ≈ 14 m/s. Prima ancora di frenare, l’auto ha già percorso circa 15 m.',
       en: '50 km/h ≈ 14 m/s. Before you even brake, the car has already rolled about 15 m.',
+      pt: '50 km/h ≈ 14 m/s. Antes sequer de travares, o carro já percorreu cerca de 15 m.',
     },
   },
   {
@@ -221,11 +243,12 @@ export const VKU_QUESTIONS = [
       fr: 'Un ballon surgit entre des voitures parquées. Quelle est la réaction tactique correcte ?',
       it: 'Tra le auto parcheggiate spunta un pallone. Qual è la reazione tattica corretta?',
       en: 'A ball appears between parked cars. What is the tactically correct reaction?',
+      pt: 'Aparece uma bola entre carros estacionados. Qual é a reação taticamente correta?',
     },
     options: [
-      { id: 'a', text: { de: 'Sofort stark verlangsamen und bremsbereit sein – ein Kind kann folgen', es: 'Reducir mucho de inmediato y estar listo para frenar: puede venir un niño', fr: 'Ralentir fortement tout de suite, prêt à freiner – un enfant peut suivre', it: 'Rallentare subito molto e stare pronto a frenare – può seguire un bambino', en: 'Slow down sharply at once and be ready to brake – a child may follow' }, correct: true },
-      { id: 'b', text: { de: 'Kurz hupen und Tempo halten', es: 'Pitar y mantener la velocidad', fr: 'Klaxonner et garder la vitesse', it: 'Suonare e mantenere la velocità', en: 'Honk briefly and keep your speed' }, correct: false },
-      { id: 'c', text: { de: 'Nur dem Ball ausweichen', es: 'Solo esquivar el balón', fr: 'Seulement éviter le ballon', it: 'Solo scansare il pallone', en: 'Just swerve around the ball' }, correct: false },
+      { id: 'a', text: { de: 'Sofort stark verlangsamen und bremsbereit sein – ein Kind kann folgen', es: 'Reducir mucho de inmediato y estar listo para frenar: puede venir un niño', fr: 'Ralentir fortement tout de suite, prêt à freiner – un enfant peut suivre', it: 'Rallentare subito molto e stare pronto a frenare – può seguire un bambino', en: 'Slow down sharply at once and be ready to brake – a child may follow', pt: 'Abrandar muito de imediato e ficar pronto para travar – pode vir uma criança a seguir' }, correct: true },
+      { id: 'b', text: { de: 'Kurz hupen und Tempo halten', es: 'Pitar y mantener la velocidad', fr: 'Klaxonner et garder la vitesse', it: 'Suonare e mantenere la velocità', en: 'Honk briefly and keep your speed', pt: 'Buzinar rapidamente e manter a velocidade' }, correct: false },
+      { id: 'c', text: { de: 'Nur dem Ball ausweichen', es: 'Solo esquivar el balón', fr: 'Seulement éviter le ballon', it: 'Solo scansare il pallone', en: 'Just swerve around the ball', pt: 'Só desviar-te da bola' }, correct: false },
     ],
     explanation: {
       de: 'Gefahren erkennen heisst vorausdenken: Der Ball ist das Warnsignal, das Kind die eigentliche Gefahr.',
@@ -233,6 +256,7 @@ export const VKU_QUESTIONS = [
       fr: 'Détecter les dangers, c’est anticiper : le ballon est le signal, l’enfant le vrai danger.',
       it: 'Riconoscere i pericoli è anticipare: il pallone è il segnale, il bambino il vero pericolo.',
       en: 'Hazard perception means thinking ahead: the ball is the warning, the child the real danger.',
+      pt: 'Perceber o perigo significa pensar com antecedência: a bola é o aviso, a criança é o verdadeiro perigo.',
     },
   },
   {
@@ -245,11 +269,12 @@ export const VKU_QUESTIONS = [
       fr: 'Comment change la distance de freinage si tu passes de 50 à 100 km/h ?',
       it: 'Come cambia lo spazio di frenata passando da 50 a 100 km/h?',
       en: 'How does the braking distance change if you drive 100 km/h instead of 50 km/h?',
+      pt: 'Como muda a distância de travagem se conduzires a 100 km/h em vez de 50 km/h?',
     },
     options: [
-      { id: 'a', text: { de: 'Er wird viermal so lang', es: 'Se multiplica por cuatro', fr: 'Elle est quadruplée', it: 'Diventa quattro volte più lungo', en: 'It becomes four times as long' }, correct: true },
-      { id: 'b', text: { de: 'Er verdoppelt sich', es: 'Se duplica', fr: 'Elle double', it: 'Raddoppia', en: 'It doubles' }, correct: false },
-      { id: 'c', text: { de: 'Er bleibt gleich, ABS gleicht es aus', es: 'Igual: el ABS lo compensa', fr: 'Pareille, l’ABS compense', it: 'Uguale, l’ABS compensa', en: 'The same, ABS compensates' }, correct: false },
+      { id: 'a', text: { de: 'Er wird viermal so lang', es: 'Se multiplica por cuatro', fr: 'Elle est quadruplée', it: 'Diventa quattro volte più lungo', en: 'It becomes four times as long', pt: 'Fica quatro vezes maior' }, correct: true },
+      { id: 'b', text: { de: 'Er verdoppelt sich', es: 'Se duplica', fr: 'Elle double', it: 'Raddoppia', en: 'It doubles', pt: 'Duplica' }, correct: false },
+      { id: 'c', text: { de: 'Er bleibt gleich, ABS gleicht es aus', es: 'Igual: el ABS lo compensa', fr: 'Pareille, l’ABS compense', it: 'Uguale, l’ABS compensa', en: 'The same, ABS compensates', pt: 'Igual, o ABS compensa' }, correct: false },
     ],
     explanation: {
       de: 'Der Bremsweg wächst im Quadrat: doppeltes Tempo = 4-facher Bremsweg. Physik lässt sich nicht überlisten.',
@@ -257,6 +282,7 @@ export const VKU_QUESTIONS = [
       fr: 'Le freinage croît au carré : vitesse doublée = freinage ×4. La physique ne se laisse pas tromper.',
       it: 'La frenata cresce al quadrato: velocità doppia = frenata ×4. La fisica non si inganna.',
       en: 'Braking distance grows with the square: double speed = 4× braking distance. Physics cannot be cheated.',
+      pt: 'A distância de travagem cresce com o quadrado: velocidade a dobrar = travagem ×4. A física não se engana.',
     },
   },
   {
@@ -269,12 +295,13 @@ export const VKU_QUESTIONS = [
       fr: 'Quels signes exigent d’interrompre IMMÉDIATEMENT le trajet ? (Plusieurs réponses possibles)',
       it: 'Quali segnali chiedono di interrompere SUBITO il viaggio? (Più risposte possibili)',
       en: 'Which signs mean you should interrupt the journey IMMEDIATELY? (Several answers possible)',
+      pt: 'Que sinais significam que deves interromper a viagem IMEDIATAMENTE? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Brennende Augen und schwere Lider', es: 'Ojos que arden y párpados pesados', fr: 'Yeux qui brûlent et paupières lourdes', it: 'Occhi che bruciano e palpebre pesanti', en: 'Burning eyes and heavy eyelids' }, correct: true },
-      { id: 'b', text: { de: 'Du erinnerst dich nicht an die letzten Kilometer', es: 'No recuerdas los últimos kilómetros', fr: 'Tu ne te souviens pas des derniers kilomètres', it: 'Non ricordi gli ultimi chilometri', en: 'You cannot remember the last kilometres' }, correct: true },
-      { id: 'c', text: { de: 'Das Auto wandert unbemerkt aus der Spur', es: 'El coche se sale del carril sin darte cuenta', fr: 'La voiture dévie de la voie sans que tu t’en rendes compte', it: 'L’auto esce dalla corsia senza che te ne accorga', en: 'The car drifts out of the lane unnoticed' }, correct: true },
-      { id: 'd', text: { de: 'Leichter Hunger', es: 'Un poco de hambre', fr: 'Une petite faim', it: 'Un po’ di fame', en: 'Slight hunger' }, correct: false },
+      { id: 'a', text: { de: 'Brennende Augen und schwere Lider', es: 'Ojos que arden y párpados pesados', fr: 'Yeux qui brûlent et paupières lourdes', it: 'Occhi che bruciano e palpebre pesanti', en: 'Burning eyes and heavy eyelids', pt: 'Olhos a arder e pálpebras pesadas' }, correct: true },
+      { id: 'b', text: { de: 'Du erinnerst dich nicht an die letzten Kilometer', es: 'No recuerdas los últimos kilómetros', fr: 'Tu ne te souviens pas des derniers kilomètres', it: 'Non ricordi gli ultimi chilometri', en: 'You cannot remember the last kilometres', pt: 'Não te lembras dos últimos quilómetros' }, correct: true },
+      { id: 'c', text: { de: 'Das Auto wandert unbemerkt aus der Spur', es: 'El coche se sale del carril sin darte cuenta', fr: 'La voiture dévie de la voie sans que tu t’en rendes compte', it: 'L’auto esce dalla corsia senza che te ne accorga', en: 'The car drifts out of the lane unnoticed', pt: 'O carro sai da faixa sem te aperceberes' }, correct: true },
+      { id: 'd', text: { de: 'Leichter Hunger', es: 'Un poco de hambre', fr: 'Une petite faim', it: 'Un po’ di fame', en: 'Slight hunger', pt: 'Um pouco de fome' }, correct: false },
     ],
     explanation: {
       de: 'Alles Vorboten des Sekundenschlafs. Dagegen hilft nur anhalten und schlafen – Musik und offene Fenster sind Placebos.',
@@ -282,6 +309,7 @@ export const VKU_QUESTIONS = [
       fr: 'Ce sont les signes avant-coureurs du micro-sommeil. Seul remède : s’arrêter et dormir – musique et fenêtre ouverte sont des placebos.',
       it: 'Sono i precursori del colpo di sonno. Serve solo fermarsi e dormire – musica e finestrino aperto sono placebo.',
       en: 'All harbingers of microsleep. Only stopping and sleeping helps – music and open windows are placebos.',
+      pt: 'São todos sinais precursores do microssono. Só parar e dormir ajuda – música e janela aberta são placebos.',
     },
   },
   {
@@ -294,12 +322,13 @@ export const VKU_QUESTIONS = [
       fr: 'Forte pluie sur l’autoroute. Comment conduire tactiquement juste ? (Plusieurs réponses possibles)',
       it: 'Pioggia forte in autostrada. Come guidi con la giusta tattica? (Più risposte possibili)',
       en: 'Heavy rain on the motorway. How do you drive tactically right? (Several answers possible)',
+      pt: 'Chuva forte na autoestrada. Como conduzes taticamente de forma correta? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Tempo deutlich reduzieren', es: 'Reducir claramente la velocidad', fr: 'Réduire nettement la vitesse', it: 'Ridurre nettamente la velocità', en: 'Reduce speed considerably' }, correct: true },
-      { id: 'b', text: { de: 'Abstand mindestens verdoppeln', es: 'Al menos duplicar la distancia', fr: 'Au moins doubler la distance', it: 'Almeno raddoppiare la distanza', en: 'At least double the distance' }, correct: true },
-      { id: 'c', text: { de: 'Spurrinnen mit stehendem Wasser meiden', es: 'Evitar las rodadas con agua acumulada', fr: 'Éviter les ornières avec de l’eau stagnante', it: 'Evitare i solchi con acqua stagnante', en: 'Avoid ruts with standing water' }, correct: true },
-      { id: 'd', text: { de: 'Tempomat auf 120 stellen, um konstant zu bleiben', es: 'Poner el control de crucero a 120 para ir constante', fr: 'Régler le régulateur sur 120 pour rester constant', it: 'Impostare il cruise control a 120 per andare costante', en: 'Set cruise control to 120 to stay constant' }, correct: false },
+      { id: 'a', text: { de: 'Tempo deutlich reduzieren', es: 'Reducir claramente la velocidad', fr: 'Réduire nettement la vitesse', it: 'Ridurre nettamente la velocità', en: 'Reduce speed considerably', pt: 'Reduzir bastante a velocidade' }, correct: true },
+      { id: 'b', text: { de: 'Abstand mindestens verdoppeln', es: 'Al menos duplicar la distancia', fr: 'Au moins doubler la distance', it: 'Almeno raddoppiare la distanza', en: 'At least double the distance', pt: 'Pelo menos duplicar a distância' }, correct: true },
+      { id: 'c', text: { de: 'Spurrinnen mit stehendem Wasser meiden', es: 'Evitar las rodadas con agua acumulada', fr: 'Éviter les ornières avec de l’eau stagnante', it: 'Evitare i solchi con acqua stagnante', en: 'Avoid ruts with standing water', pt: 'Evitar rodeiras com água parada' }, correct: true },
+      { id: 'd', text: { de: 'Tempomat auf 120 stellen, um konstant zu bleiben', es: 'Poner el control de crucero a 120 para ir constante', fr: 'Régler le régulateur sur 120 pour rester constant', it: 'Impostare il cruise control a 120 per andare costante', en: 'Set cruise control to 120 to stay constant', pt: 'Definir o piloto automático para 120 para ficar constante' }, correct: false },
     ],
     explanation: {
       de: 'Bei Aquaplaninggefahr: Tempo runter, Abstand rauf, Wasserlachen meiden. Tempomat ist bei Aquaplaning gefährlich.',
@@ -307,6 +336,7 @@ export const VKU_QUESTIONS = [
       fr: 'Risque d’aquaplaning : moins de vitesse, plus de distance, éviter les flaques. Le régulateur est dangereux en cas d’aquaplaning.',
       it: 'Con rischio aquaplaning: meno velocità, più distanza, evitare le pozze. Il cruise control è pericoloso in aquaplaning.',
       en: 'With aquaplaning risk: speed down, distance up, avoid puddles. Cruise control is dangerous in aquaplaning.',
+      pt: 'Com risco de aquaplanagem: menos velocidade, mais distância, evitar poças. O piloto automático é perigoso em aquaplanagem.',
     },
   },
   {
@@ -319,11 +349,12 @@ export const VKU_QUESTIONS = [
       fr: 'Une connaissance veut rentrer « prudemment » après deux verres de vin. Quelle est la bonne attitude ?',
       it: 'Un conoscente vuole tornare a casa «con prudenza» dopo due bicchieri di vino. Qual è l’atteggiamento giusto?',
       en: 'An acquaintance wants to drive home "carefully" after two glasses of wine. What is the right attitude?',
+      pt: 'Um conhecido quer ir para casa «com cuidado» depois de dois copos de vinho. Qual é a atitude correta?',
     },
     options: [
-      { id: 'a', text: { de: 'Fahren verhindern: Taxi, ÖV oder nüchterner Fahrer – Alkohol und «vorsichtig» gibt es nicht', es: 'Impedir que conduzca: taxi, transporte público o conductor sobrio; «alcohol con cuidado» no existe', fr: 'L’empêcher de conduire : taxi, transports publics ou conducteur sobre – « alcool prudent » n’existe pas', it: 'Impedirgli di guidare: taxi, mezzi pubblici o guidatore sobrio – «alcol con prudenza» non esiste', en: 'Stop them driving: taxi, public transport or a sober driver – "careful" drink-driving does not exist' }, correct: true },
-      { id: 'b', text: { de: 'Okay, wenn er langsam fährt', es: 'Vale si conduce despacio', fr: 'D’accord s’il roule lentement', it: 'Va bene se guida piano', en: 'Okay if they drive slowly' }, correct: false },
-      { id: 'c', text: { de: 'Ein starker Kaffee macht ihn wieder fahrfähig', es: 'Un café cargado lo deja apto otra vez', fr: 'Un café fort le rend de nouveau apte', it: 'Un caffè forte lo rende di nuovo idoneo', en: 'A strong coffee makes them fit to drive again' }, correct: false },
+      { id: 'a', text: { de: 'Fahren verhindern: Taxi, ÖV oder nüchterner Fahrer – Alkohol und «vorsichtig» gibt es nicht', es: 'Impedir que conduzca: taxi, transporte público o conductor sobrio; «alcohol con cuidado» no existe', fr: 'L’empêcher de conduire : taxi, transports publics ou conducteur sobre – « alcool prudent » n’existe pas', it: 'Impedirgli di guidare: taxi, mezzi pubblici o guidatore sobrio – «alcol con prudenza» non esiste', en: 'Stop them driving: taxi, public transport or a sober driver – "careful" drink-driving does not exist', pt: 'Impedir que conduza: táxi, transportes públicos ou um condutor sóbrio – «álcool com cuidado» não existe' }, correct: true },
+      { id: 'b', text: { de: 'Okay, wenn er langsam fährt', es: 'Vale si conduce despacio', fr: 'D’accord s’il roule lentement', it: 'Va bene se guida piano', en: 'Okay if they drive slowly', pt: 'Tudo bem se conduzir devagar' }, correct: false },
+      { id: 'c', text: { de: 'Ein starker Kaffee macht ihn wieder fahrfähig', es: 'Un café cargado lo deja apto otra vez', fr: 'Un café fort le rend de nouveau apte', it: 'Un caffè forte lo rende di nuovo idoneo', en: 'A strong coffee makes them fit to drive again', pt: 'Um café forte torna-o apto para conduzir outra vez' }, correct: false },
     ],
     explanation: {
       de: 'Alkohol verlängert Reaktionszeit und Risikobereitschaft steigt – Kaffee ändert daran nichts. Mitverantwortung gehört zur Verkehrssensibilisierung.',
@@ -331,6 +362,7 @@ export const VKU_QUESTIONS = [
       fr: 'L’alcool rallonge la réaction et augmente la prise de risque – le café n’y change rien. La coresponsabilité fait partie de la sensibilisation.',
       it: 'L’alcol allunga la reazione e aumenta la propensione al rischio – il caffè non cambia nulla. La corresponsabilità fa parte della sensibilizzazione.',
       en: 'Alcohol lengthens reaction time and increases risk-taking – coffee changes nothing. Shared responsibility is part of road awareness.',
+      pt: 'O álcool aumenta o tempo de reação e a propensão ao risco – o café não muda nada. A corresponsabilidade faz parte da sensibilização rodoviária.',
     },
   },
   {
@@ -343,11 +375,12 @@ export const VKU_QUESTIONS = [
       fr: 'Matin d’automne, 5 °C, la route brille à l’ombre sous les arbres. À quoi penses-tu ?',
       it: 'Mattina d’autunno, 5 °C, la strada luccica all’ombra sotto gli alberi. A cosa pensi?',
       en: 'Autumn morning, 5 °C, the road glistens in the shade under trees. What comes to mind?',
+      pt: 'Manhã de outono, 5 °C, a estrada brilha à sombra debaixo das árvores. Em que pensas?',
     },
     options: [
-      { id: 'a', text: { de: 'Nasses Laub und lokal Glätte möglich – sanft fahren, Abstand vergrössern', es: 'Hojas mojadas y posible hielo local: conducir suave y aumentar distancia', fr: 'Feuilles mouillées et verglas local possible – conduite douce, plus de distance', it: 'Foglie bagnate e possibile ghiaccio locale – guida dolce, più distanza', en: 'Wet leaves and local ice possible – drive gently, increase distance' }, correct: true },
-      { id: 'b', text: { de: 'Nichts Besonderes – es ist ja über 0 °C', es: 'Nada especial: hace más de 0 °C', fr: 'Rien de spécial – il fait plus de 0 °C', it: 'Niente di particolare – ci sono più di 0 °C', en: 'Nothing special – it is above 0 °C' }, correct: false },
-      { id: 'c', text: { de: 'Schneller durch, bevor es glatt wird', es: 'Pasar rápido antes de que resbale', fr: 'Passer vite avant que ça glisse', it: 'Passare veloce prima che diventi scivoloso', en: 'Get through quickly before it gets slippery' }, correct: false },
+      { id: 'a', text: { de: 'Nasses Laub und lokal Glätte möglich – sanft fahren, Abstand vergrössern', es: 'Hojas mojadas y posible hielo local: conducir suave y aumentar distancia', fr: 'Feuilles mouillées et verglas local possible – conduite douce, plus de distance', it: 'Foglie bagnate e possibile ghiaccio locale – guida dolce, più distanza', en: 'Wet leaves and local ice possible – drive gently, increase distance', pt: 'Folhas molhadas e possível gelo localizado – conduzir com suavidade, aumentar a distância' }, correct: true },
+      { id: 'b', text: { de: 'Nichts Besonderes – es ist ja über 0 °C', es: 'Nada especial: hace más de 0 °C', fr: 'Rien de spécial – il fait plus de 0 °C', it: 'Niente di particolare – ci sono più di 0 °C', en: 'Nothing special – it is above 0 °C', pt: 'Nada de especial – está acima de 0 °C' }, correct: false },
+      { id: 'c', text: { de: 'Schneller durch, bevor es glatt wird', es: 'Pasar rápido antes de que resbale', fr: 'Passer vite avant que ça glisse', it: 'Passare veloce prima che diventi scivoloso', en: 'Get through quickly before it gets slippery', pt: 'Passar depressa antes que fique escorregadio' }, correct: false },
     ],
     explanation: {
       de: 'Im Schatten kann es auch über 0 °C glatt sein (Bodenfrost, nasses Laub). Verkehrssehen heisst solche Stellen aktiv erwarten.',
@@ -355,6 +388,7 @@ export const VKU_QUESTIONS = [
       fr: 'À l’ombre, ça peut glisser même au-dessus de 0 °C (gel au sol, feuilles mouillées). Voir la circulation, c’est anticiper ces endroits.',
       it: 'All’ombra può essere scivoloso anche sopra 0 °C (gelo al suolo, foglie bagnate). Vedere il traffico significa aspettarsi attivamente questi punti.',
       en: 'In the shade it can be slippery even above 0 °C (ground frost, wet leaves). Traffic vision means actively expecting such spots.',
+      pt: 'À sombra pode estar escorregadio mesmo acima de 0 °C (geada no solo, folhas molhadas). Ver o trânsito significa antecipar ativamente estes pontos.',
     },
   },
   {
@@ -367,11 +401,12 @@ export const VKU_QUESTIONS = [
       fr: 'Un camion devant toi clignote à droite avant une entrée étroite et déboîte d’abord à GAUCHE. Que fais-tu ?',
       it: 'Un camion davanti mette la freccia a destra prima di un accesso stretto e prima si allarga a SINISTRA. Cosa fai?',
       en: 'A lorry ahead indicates right before a narrow entrance and first swings out to the LEFT. What do you do?',
+      pt: 'Um camião à tua frente pisca à direita antes de uma entrada estreita e primeiro desvia-se para a ESQUERDA. O que fazes?',
     },
     options: [
-      { id: 'a', text: { de: 'Zurückbleiben und Platz lassen – Lastwagen brauchen Schleppkurvenraum, nie rechts vorbeischlüpfen', es: 'Quedarme atrás y dejar sitio: los camiones necesitan espacio de giro; nunca colarse por la derecha', fr: 'Rester derrière et laisser de la place – les camions ont besoin d’espace de braquage, jamais se faufiler à droite', it: 'Restare dietro e lasciare spazio – i camion hanno bisogno di spazio di manovra, mai infilarsi a destra', en: 'Stay back and leave room – lorries need swing-out space, never slip past on the right' }, correct: true },
-      { id: 'b', text: { de: 'Rechts an ihm vorbeifahren, solange Platz ist', es: 'Pasar por su derecha mientras quepa', fr: 'Le dépasser par la droite tant qu’il y a de la place', it: 'Passargli a destra finché c’è spazio', en: 'Pass on his right while there is room' }, correct: false },
-      { id: 'c', text: { de: 'Hupen, weil er falsch blinkt', es: 'Pitar porque señaliza mal', fr: 'Klaxonner parce qu’il clignote faux', it: 'Suonare perché segnala male', en: 'Honk because he is indicating wrongly' }, correct: false },
+      { id: 'a', text: { de: 'Zurückbleiben und Platz lassen – Lastwagen brauchen Schleppkurvenraum, nie rechts vorbeischlüpfen', es: 'Quedarme atrás y dejar sitio: los camiones necesitan espacio de giro; nunca colarse por la derecha', fr: 'Rester derrière et laisser de la place – les camions ont besoin d’espace de braquage, jamais se faufiler à droite', it: 'Restare dietro e lasciare spazio – i camion hanno bisogno di spazio di manovra, mai infilarsi a destra', en: 'Stay back and leave room – lorries need swing-out space, never slip past on the right', pt: 'Ficar atrás e dar espaço – os camiões precisam de espaço para a manobra, nunca passar por dentro à direita' }, correct: true },
+      { id: 'b', text: { de: 'Rechts an ihm vorbeifahren, solange Platz ist', es: 'Pasar por su derecha mientras quepa', fr: 'Le dépasser par la droite tant qu’il y a de la place', it: 'Passargli a destra finché c’è spazio', en: 'Pass on his right while there is room', pt: 'Ultrapassá-lo pela direita enquanto houver espaço' }, correct: false },
+      { id: 'c', text: { de: 'Hupen, weil er falsch blinkt', es: 'Pitar porque señaliza mal', fr: 'Klaxonner parce qu’il clignote faux', it: 'Suonare perché segnala male', en: 'Honk because he is indicating wrongly', pt: 'Buzinar porque ele está a piscar mal' }, correct: false },
     ],
     explanation: {
       de: 'Lastwagen holen vor engen Kurven aus – der rechte Blinker gilt. Wer in die Lücke schlüpft, landet in der Schleppkurve.',
@@ -379,6 +414,7 @@ export const VKU_QUESTIONS = [
       fr: 'Les camions s’écartent avant les virages serrés – le clignotant droit fait foi. Qui se faufile finit dans la courbe de balayage.',
       it: 'I camion si allargano prima delle curve strette – vale la freccia destra. Chi si infila finisce nella traiettoria del rimorchio.',
       en: 'Lorries swing out before tight turns – the right indicator counts. Whoever slips into the gap ends up in the swept path.',
+      pt: 'Os camiões desviam-se antes de curvas apertadas – conta o pisca direito. Quem se mete no espaço acaba na trajetória do reboque.',
     },
   },
   {
@@ -391,12 +427,13 @@ export const VKU_QUESTIONS = [
       fr: 'Qu’est-ce qui fait partie d’une bonne « réserve » en conduite anticipée ? (Plusieurs réponses possibles)',
       it: 'Cosa fa parte di una buona «riserva» nella guida previdente? (Più risposte possibili)',
       en: 'What is part of a good "reserve" in anticipatory driving? (Several answers possible)',
+      pt: 'O que faz parte de uma boa «margem» na condução previdente? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Genügend Zeitpolster – ohne Termindruck losfahren', es: 'Colchón de tiempo: salir sin presión de horario', fr: 'Une marge de temps – partir sans pression d’horaire', it: 'Margine di tempo – partire senza pressione di orari', en: 'Enough time buffer – leave without schedule pressure' }, correct: true },
-      { id: 'b', text: { de: 'Abstand als Sicherheitsraum nach vorne', es: 'La distancia como espacio de seguridad por delante', fr: 'La distance comme espace de sécurité devant', it: 'La distanza come spazio di sicurezza davanti', en: 'Distance as a safety space ahead' }, correct: true },
-      { id: 'c', text: { de: 'Tempo, das Handlungsspielraum lässt', es: 'Una velocidad que deje margen de maniobra', fr: 'Une vitesse qui laisse une marge de manœuvre', it: 'Una velocità che lascia margine di manovra', en: 'A speed that leaves room for action' }, correct: true },
-      { id: 'd', text: { de: 'Immer maximal erlaubtes Tempo ausnützen', es: 'Aprovechar siempre el máximo permitido', fr: 'Toujours exploiter le maximum autorisé', it: 'Sfruttare sempre il massimo consentito', en: 'Always use the maximum allowed speed' }, correct: false },
+      { id: 'a', text: { de: 'Genügend Zeitpolster – ohne Termindruck losfahren', es: 'Colchón de tiempo: salir sin presión de horario', fr: 'Une marge de temps – partir sans pression d’horaire', it: 'Margine di tempo – partire senza pressione di orari', en: 'Enough time buffer – leave without schedule pressure', pt: 'Margem de tempo suficiente – partir sem pressão de horários' }, correct: true },
+      { id: 'b', text: { de: 'Abstand als Sicherheitsraum nach vorne', es: 'La distancia como espacio de seguridad por delante', fr: 'La distance comme espace de sécurité devant', it: 'La distanza come spazio di sicurezza davanti', en: 'Distance as a safety space ahead', pt: 'Distância como espaço de segurança à frente' }, correct: true },
+      { id: 'c', text: { de: 'Tempo, das Handlungsspielraum lässt', es: 'Una velocidad que deje margen de maniobra', fr: 'Une vitesse qui laisse une marge de manœuvre', it: 'Una velocità che lascia margine di manovra', en: 'A speed that leaves room for action', pt: 'Uma velocidade que deixe margem de manobra' }, correct: true },
+      { id: 'd', text: { de: 'Immer maximal erlaubtes Tempo ausnützen', es: 'Aprovechar siempre el máximo permitido', fr: 'Toujours exploiter le maximum autorisé', it: 'Sfruttare sempre il massimo consentito', en: 'Always use the maximum allowed speed', pt: 'Usar sempre a velocidade máxima permitida' }, correct: false },
     ],
     explanation: {
       de: 'Reserven bei Zeit, Raum und Tempo sind der Kern der Verkehrstaktik: Sie verwandeln Überraschungen in lösbare Situationen.',
@@ -404,6 +441,7 @@ export const VKU_QUESTIONS = [
       fr: 'Les réserves de temps, d’espace et de vitesse sont le cœur de la tactique : elles transforment les surprises en situations gérables.',
       it: 'Le riserve di tempo, spazio e velocità sono il cuore della tattica: trasformano le sorprese in situazioni gestibili.',
       en: 'Reserves of time, space and speed are the core of traffic tactics: they turn surprises into solvable situations.',
+      pt: 'As margens de tempo, espaço e velocidade são o núcleo da tática de condução: transformam surpresas em situações resolúveis.',
     },
   },
   {
@@ -416,11 +454,12 @@ export const VKU_QUESTIONS = [
       fr: 'Ton téléphone sonne en conduisant et tu attends un message important. Quelle est la bonne tactique ?',
       it: 'Il telefono suona mentre guidi e aspetti un messaggio importante. Qual è la tattica corretta?',
       en: 'Your phone rings while driving and you are expecting an important message. What is tactically correct?',
+      pt: 'O teu telemóvel toca enquanto conduzes e estás à espera de uma mensagem importante. O que é taticamente correto?',
     },
     options: [
-      { id: 'a', text: { de: 'Ignorieren oder an sicherer Stelle anhalten – kein Blick aufs Display während der Fahrt', es: 'Ignorarlo o parar en un lugar seguro: ni una mirada a la pantalla en marcha', fr: 'Ignorer ou s’arrêter à un endroit sûr – aucun regard à l’écran en roulant', it: 'Ignorarlo o fermarsi in un posto sicuro – nessuno sguardo allo schermo in marcia', en: 'Ignore it or stop somewhere safe – no glance at the screen while driving' }, correct: true },
-      { id: 'b', text: { de: 'Nur kurz lesen, ohne zu antworten', es: 'Leerlo un momento sin contestar', fr: 'Lire vite fait sans répondre', it: 'Leggerlo un attimo senza rispondere', en: 'Just read it quickly without replying' }, correct: false },
-      { id: 'c', text: { de: 'An der roten Ampel schnell antworten', es: 'Contestar rápido en el semáforo en rojo', fr: 'Répondre vite au feu rouge', it: 'Rispondere in fretta al semaforo rosso', en: 'Reply quickly at the red light' }, correct: false },
+      { id: 'a', text: { de: 'Ignorieren oder an sicherer Stelle anhalten – kein Blick aufs Display während der Fahrt', es: 'Ignorarlo o parar en un lugar seguro: ni una mirada a la pantalla en marcha', fr: 'Ignorer ou s’arrêter à un endroit sûr – aucun regard à l’écran en roulant', it: 'Ignorarlo o fermarsi in un posto sicuro – nessuno sguardo allo schermo in marcia', en: 'Ignore it or stop somewhere safe – no glance at the screen while driving', pt: 'Ignorar ou parar num local seguro – nenhum olhar ao ecrã enquanto conduzes' }, correct: true },
+      { id: 'b', text: { de: 'Nur kurz lesen, ohne zu antworten', es: 'Leerlo un momento sin contestar', fr: 'Lire vite fait sans répondre', it: 'Leggerlo un attimo senza rispondere', en: 'Just read it quickly without replying', pt: 'Só ler rapidamente sem responder' }, correct: false },
+      { id: 'c', text: { de: 'An der roten Ampel schnell antworten', es: 'Contestar rápido en el semáforo en rojo', fr: 'Répondre vite au feu rouge', it: 'Rispondere in fretta al semaforo rosso', en: 'Reply quickly at the red light', pt: 'Responder depressa no semáforo vermelho' }, correct: false },
     ],
     explanation: {
       de: 'Ablenkung ist eine Hauptunfallursache. Auch an der Ampel ist das Handy am Steuer verboten – die Aufmerksamkeit gehört dem Verkehr.',
@@ -428,6 +467,7 @@ export const VKU_QUESTIONS = [
       fr: 'La distraction est une cause majeure d’accidents. Même au feu, le téléphone au volant est interdit – l’attention appartient au trafic.',
       it: 'La distrazione è una causa principale di incidenti. Anche al semaforo il telefono al volante è vietato – l’attenzione è del traffico.',
       en: 'Distraction is a main cause of accidents. Even at the lights, the phone is forbidden at the wheel – attention belongs to the traffic.',
+      pt: 'A distração é uma das principais causas de acidentes. Mesmo no semáforo, o telemóvel ao volante é proibido – a atenção pertence ao trânsito.',
     },
   },
   {
@@ -440,11 +480,12 @@ export const VKU_QUESTIONS = [
       fr: 'Œil au danger : tu es A. Quel est le plus grand danger ici ?',
       it: 'Occhio al pericolo: sei A. Qual è il pericolo maggiore qui?',
       en: 'Hazard eye: you are A. What is the biggest hazard here?',
+      pt: 'Olho de perigo: és A. Qual é o maior perigo aqui?',
     },
     options: [
-      { id: 'a', text: { de: 'Das Tram von links: Es hat Vortritt, und die Schienen sind für Zweiräder rutschig', es: 'El tranvía por la izquierda: tiene prioridad y los raíles resbalan para las dos ruedas', fr: 'Le tram venant de gauche : il a la priorité et les rails sont glissants pour les deux-roues', it: 'Il tram da sinistra: ha la precedenza e le rotaie sono scivolose per le due ruote', en: 'The tram from the left: it has priority, and the rails are slippery for two-wheelers' }, correct: true },
-      { id: 'b', text: { de: 'Keine – ich habe Rechtsvortritt vor dem Tram', es: 'Ninguno: tengo prioridad de la derecha sobre el tranvía', fr: 'Aucun – j’ai la priorité de droite sur le tram', it: 'Nessuno – ho la precedenza da destra sul tram', en: 'None – I have priority to the right over the tram' }, correct: false },
-      { id: 'c', text: { de: 'Nur die Fahrbahnmarkierung', es: 'Solo las marcas viales', fr: 'Seulement le marquage au sol', it: 'Solo la segnaletica orizzontale', en: 'Only the road markings' }, correct: false },
+      { id: 'a', text: { de: 'Das Tram von links: Es hat Vortritt, und die Schienen sind für Zweiräder rutschig', es: 'El tranvía por la izquierda: tiene prioridad y los raíles resbalan para las dos ruedas', fr: 'Le tram venant de gauche : il a la priorité et les rails sont glissants pour les deux-roues', it: 'Il tram da sinistra: ha la precedenza e le rotaie sono scivolose per le due ruote', en: 'The tram from the left: it has priority, and the rails are slippery for two-wheelers', pt: 'O elétrico pela esquerda: tem prioridade, e os carris são escorregadios para veículos de duas rodas' }, correct: true },
+      { id: 'b', text: { de: 'Keine – ich habe Rechtsvortritt vor dem Tram', es: 'Ninguno: tengo prioridad de la derecha sobre el tranvía', fr: 'Aucun – j’ai la priorité de droite sur le tram', it: 'Nessuno – ho la precedenza da destra sul tram', en: 'None – I have priority to the right over the tram', pt: 'Nenhum – tenho prioridade à direita sobre o elétrico' }, correct: false },
+      { id: 'c', text: { de: 'Nur die Fahrbahnmarkierung', es: 'Solo las marcas viales', fr: 'Seulement le marquage au sol', it: 'Solo la segnaletica orizzontale', en: 'Only the road markings', pt: 'Só a sinalização horizontal' }, correct: false },
     ],
     explanation: {
       de: 'Trams haben grundsätzlich Vortritt – auch von links. Gefahrenblick heisst: Tram, Fahrgäste UND rutschige Schienen gleichzeitig im Auge behalten.',
@@ -452,6 +493,7 @@ export const VKU_QUESTIONS = [
       fr: 'Les trams ont en principe la priorité – même de gauche. Voir le danger, c’est surveiller à la fois le tram, les passagers ET les rails glissants.',
       it: 'I tram hanno di norma la precedenza – anche da sinistra. Vedere il pericolo significa tenere d’occhio insieme tram, passeggeri E rotaie scivolose.',
       en: 'Trams generally have priority – even from the left. Hazard vision means watching the tram, passengers AND slippery rails at the same time.',
+      pt: 'Os elétricos têm, por norma, prioridade – mesmo vindo da esquerda. Ver o perigo significa vigiar ao mesmo tempo o elétrico, os passageiros E os carris escorregadios.',
     },
     image: { type: 'scene', id: 'tram_links' },
   },
@@ -465,11 +507,12 @@ export const VKU_QUESTIONS = [
       fr: 'Œil au danger : tu es B sur la route. À quoi dois-tu t’attendre ?',
       it: 'Occhio al pericolo: sei B sulla strada. Cosa devi aspettarti?',
       en: 'Hazard eye: you are B on the road. What must you expect?',
+      pt: 'Olho de perigo: és B na via. Com que deves contar?',
     },
     options: [
-      { id: 'a', text: { de: 'A könnte ausfahren, ohne mich zu sehen – trotz meines Vortritts bremsbereit bleiben', es: 'A podría salir sin verme: aunque tengo prioridad, sigo listo para frenar', fr: 'A pourrait sortir sans me voir – malgré ma priorité, je reste prêt à freiner', it: 'A potrebbe uscire senza vedermi – nonostante la mia precedenza resto pronto a frenare', en: 'A might pull out without seeing me – despite my priority I stay ready to brake' }, correct: true },
-      { id: 'b', text: { de: 'Nichts – A muss warten, also fahre ich unverändert weiter', es: 'Con nada: A debe esperar, así que sigo igual', fr: 'À rien – A doit attendre, donc je continue tel quel', it: 'A niente – A deve aspettare, quindi proseguo uguale', en: 'Nothing – A must wait, so I carry on unchanged' }, correct: false },
-      { id: 'c', text: { de: 'A hat Vortritt, weil er von rechts kommt', es: 'A tiene prioridad porque viene de la derecha', fr: 'A a la priorité car il vient de droite', it: 'A ha la precedenza perché viene da destra', en: 'A has priority because he comes from the right' }, correct: false },
+      { id: 'a', text: { de: 'A könnte ausfahren, ohne mich zu sehen – trotz meines Vortritts bremsbereit bleiben', es: 'A podría salir sin verme: aunque tengo prioridad, sigo listo para frenar', fr: 'A pourrait sortir sans me voir – malgré ma priorité, je reste prêt à freiner', it: 'A potrebbe uscire senza vedermi – nonostante la mia precedenza resto pronto a frenare', en: 'A might pull out without seeing me – despite my priority I stay ready to brake', pt: 'A pode sair sem me ver – apesar da minha prioridade, mantenho-me pronto para travar' }, correct: true },
+      { id: 'b', text: { de: 'Nichts – A muss warten, also fahre ich unverändert weiter', es: 'Con nada: A debe esperar, así que sigo igual', fr: 'À rien – A doit attendre, donc je continue tel quel', it: 'A niente – A deve aspettare, quindi proseguo uguale', en: 'Nothing – A must wait, so I carry on unchanged', pt: 'Com nada – A tem de esperar, por isso continuo na mesma' }, correct: false },
+      { id: 'c', text: { de: 'A hat Vortritt, weil er von rechts kommt', es: 'A tiene prioridad porque viene de la derecha', fr: 'A a la priorité car il vient de droite', it: 'A ha la precedenza perché viene da destra', en: 'A has priority because he comes from the right', pt: 'A tem prioridade porque vem da direita' }, correct: false },
     ],
     explanation: {
       de: 'Wer aus einer Ausfahrt kommt, hat keinen Vortritt – aber defensive Taktik rechnet damit, dass A dich übersieht. Recht haben schützt nicht vor dem Unfall.',
@@ -477,6 +520,7 @@ export const VKU_QUESTIONS = [
       fr: 'Qui sort d’une entrée n’a pas la priorité – mais la tactique défensive prévoit que A ne te voie pas. Avoir raison ne protège pas de l’accident.',
       it: 'Chi esce da un accesso non ha la precedenza – ma la tattica difensiva mette in conto che A non ti veda. Avere ragione non evita l’incidente.',
       en: 'Whoever exits a driveway has no priority – but defensive tactics assume A might not see you. Being right does not prevent the accident.',
+      pt: 'Quem sai de uma entrada não tem prioridade – mas a tática defensiva conta com a possibilidade de A não te ver. Ter razão não evita o acidente.',
     },
     image: { type: 'scene', id: 'ausfahrt' },
   },
@@ -491,6 +535,7 @@ export const VKU_LINKS = [
       fr: 'ch.ch – Cours de sensibilisation (VKU)',
       it: 'ch.ch – Corso di sensibilizzazione (VKU)',
       en: 'ch.ch – Traffic awareness course (VKU)',
+      pt: 'ch.ch – Curso de sensibilização para o trânsito (VKU)',
     },
   },
 ]
