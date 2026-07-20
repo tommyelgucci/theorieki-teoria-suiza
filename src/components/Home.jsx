@@ -1,7 +1,7 @@
+import { useEffect, useState } from 'react'
 import { useLang, t } from '../i18n'
 import { storage } from '../storage'
 import { questionsForCategory, readinessScore } from '../utils'
-import { maneuversForCategory } from '../data/maneuvers'
 import { topicLabel } from '../data/topics'
 import ProgressRing from './ProgressRing'
 import { CarIcon, MotoIcon } from './CategoryIcons'
@@ -153,7 +153,18 @@ export default function Home({ category, setCategory, navigate, profile }) {
   }).length
   const history = storage.getExamHistory()
   const lastExam = history[history.length - 1]
-  const maneuverCount = maneuversForCategory(category).length
+  // El banco de maniobras (keyframes, captions en 6 idiomas) es pesado y solo
+  // hace falta aquí para este contador; se carga aparte en vez de en el bundle inicial.
+  const [maneuverCount, setManeuverCount] = useState(null)
+  useEffect(() => {
+    let alive = true
+    import('../data/maneuvers').then(({ maneuversForCategory }) => {
+      if (alive) setManeuverCount(maneuversForCategory(category).length)
+    })
+    return () => {
+      alive = false
+    }
+  }, [category])
 
   return (
     <div className="mx-auto max-w-xl space-y-4 px-4 py-5">

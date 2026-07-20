@@ -1,20 +1,32 @@
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import { LangContext, t } from './i18n'
 import { storage } from './storage'
 import Header from './components/Header'
 import Home from './components/Home'
-import Study from './components/Study'
-import Exam from './components/Exam'
-import Review from './components/Review'
-import Tips from './components/Tips'
-import Maneuvers from './components/Maneuvers'
-import FirstAid from './components/FirstAid'
-import Signs from './components/Signs'
-import Stats from './components/Stats'
-import Kontrollfahrt from './components/Kontrollfahrt'
-import Vku from './components/Vku'
-import Wab from './components/Wab'
-import Profiles from './components/Profiles'
+
+// Vistas secundarias: se cargan bajo demanda (code-splitting) para que la
+// carga inicial no incluya el banco de maniobras, señales, primeros auxilios,
+// VKU, Kontrollfahrt, WAB ni tips hasta que el usuario realmente navegue ahí.
+const Study = lazy(() => import('./components/Study'))
+const Exam = lazy(() => import('./components/Exam'))
+const Review = lazy(() => import('./components/Review'))
+const Tips = lazy(() => import('./components/Tips'))
+const Maneuvers = lazy(() => import('./components/Maneuvers'))
+const FirstAid = lazy(() => import('./components/FirstAid'))
+const Signs = lazy(() => import('./components/Signs'))
+const Stats = lazy(() => import('./components/Stats'))
+const Kontrollfahrt = lazy(() => import('./components/Kontrollfahrt'))
+const Vku = lazy(() => import('./components/Vku'))
+const Wab = lazy(() => import('./components/Wab'))
+const Profiles = lazy(() => import('./components/Profiles'))
+
+function ViewLoading() {
+  return (
+    <div className="flex justify-center py-16">
+      <div className="h-8 w-8 animate-spin rounded-full border-4 border-red-200 border-t-red-500 dark:border-gray-700 dark:border-t-red-500" />
+    </div>
+  )
+}
 
 export default function App() {
   const [lang, setLangState] = useState(storage.getLang)
@@ -77,20 +89,26 @@ export default function App() {
           profile={profile}
           onProfiles={() => setShowProfiles(true)}
         />
-        {showProfiles && <Profiles onClose={() => setShowProfiles(false)} />}
+        {showProfiles && (
+          <Suspense fallback={<ViewLoading />}>
+            <Profiles onClose={() => setShowProfiles(false)} />
+          </Suspense>
+        )}
         <div key={view} className="view-in">
         {view === 'home' && <Home category={category} setCategory={setCategory} navigate={go} profile={profile} />}
-        {view === 'study' && <Study key={studyTopic || 'all'} category={category} initialTopic={studyTopic} />}
-        {view === 'exam' && <Exam category={category} onExit={() => setView('home')} />}
-        {view === 'review' && <Review />}
-        {view === 'tips' && <Tips category={category} />}
-        {view === 'maneuvers' && <Maneuvers category={category} />}
-        {view === 'firstaid' && <FirstAid />}
-        {view === 'signs' && <Signs />}
-        {view === 'stats' && <Stats />}
-        {view === 'kontrollfahrt' && <Kontrollfahrt navigate={go} />}
-        {view === 'vku' && <Vku />}
-        {view === 'wab' && <Wab />}
+        <Suspense fallback={<ViewLoading />}>
+          {view === 'study' && <Study key={studyTopic || 'all'} category={category} initialTopic={studyTopic} />}
+          {view === 'exam' && <Exam category={category} onExit={() => setView('home')} />}
+          {view === 'review' && <Review />}
+          {view === 'tips' && <Tips category={category} />}
+          {view === 'maneuvers' && <Maneuvers category={category} />}
+          {view === 'firstaid' && <FirstAid />}
+          {view === 'signs' && <Signs />}
+          {view === 'stats' && <Stats />}
+          {view === 'kontrollfahrt' && <Kontrollfahrt navigate={go} />}
+          {view === 'vku' && <Vku />}
+          {view === 'wab' && <Wab />}
+        </Suspense>
         </div>
       </div>
     </LangContext.Provider>
