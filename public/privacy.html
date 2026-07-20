@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TheorieKI — Datenschutz / Privacidad / Confidentialité / Privacy / Privacy Policy</title>
+<title>TheorieKI — Datenschutz / Privacidad / Confidentialité / Privacy / Privacy Policy / Privacidade</title>
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -44,15 +44,16 @@
 <body>
 <header>
   <h1>🚗 TheorieKI</h1>
-  <p>Datenschutzerklärung · Política de privacidad · Politique de confidentialité · Informativa sulla privacy · Privacy Policy</p>
+  <p>Datenschutzerklärung · Política de privacidad · Politique de confidentialité · Informativa sulla privacy · Privacy Policy · Política de privacidade</p>
 </header>
 <main>
-  <select id="langSelect" aria-label="Sprache / Idioma / Langue / Lingua / Language">
+  <select id="langSelect" aria-label="Sprache / Idioma / Langue / Lingua / Language / Idioma">
     <option value="de">Deutsch</option>
     <option value="es" selected>Español</option>
     <option value="fr">Français</option>
     <option value="it">Italiano</option>
     <option value="en">English</option>
+    <option value="pt">Português</option>
   </select>
 
   <div class="card">
@@ -140,11 +141,28 @@
       <h2>Legal notice</h2>
       <p>TheorieKI is an independent study tool. It is not affiliated with, endorsed by, or associated with asa or any cantonal road traffic office.</p>
     </section>
+
+    <section class="lang-section" data-lang="pt">
+      <h2>Em resumo</h2>
+      <p><strong>A TheorieKI não recolhe nenhum dado.</strong> Não há conta, não há servidor, não há ferramentas de análise nem de rastreio. Todo o teu progresso (estatísticas, cartões de estudo, histórico de exames, perfis criados) é guardado apenas no teu dispositivo (<code>localStorage</code> do navegador) e nunca sai dele.</p>
+      <h2>Que dados são guardados localmente?</h2>
+      <p>Respostas e estatísticas das perguntas, progresso dos cartões de estudo (Nothelfer, sinais, VKU), histórico de exames, listas de verificação, idioma/tema escolhidos, e os nomes/emojis dos perfis que criares. Tudo permanece no teu dispositivo.</p>
+      <h2>Os dados são enviados a terceiros?</h2>
+      <p>Não. A app não contém análise, publicidade nem rastreadores. Única exceção: se tocares num dos links oficiais externos (por exemplo, para ch.ch), sais da app e aplica-se a política de privacidade desse site.</p>
+      <h2>Como apago os meus dados?</h2>
+      <p>Apaga o perfil na app (seletor de perfis → ícone do caixote do lixo) ou apaga os dados deste site no teu navegador. Podes exportar uma cópia de segurança antes em "Cópia de segurança" nas Estatísticas.</p>
+      <h2>Menores</h2>
+      <p>A app não recolhe nenhum dado pessoal, independentemente da idade de quem a usa.</p>
+      <h2>Contacto</h2>
+      <p>Perguntas sobre esta política: <a href="mailto:gatowobbuffet@gmail.com">gatowobbuffet@gmail.com</a></p>
+      <h2>Aviso legal</h2>
+      <p>A TheorieKI é uma ferramenta de estudo independente. Não está afiliada, aprovada nem associada à asa nem a nenhum serviço cantonal de trânsito.</p>
+    </section>
   </div>
 
   <p style="text-align:center"><a href="./">← TheorieKI</a></p>
 </main>
-<footer>TheorieKI · Last updated / Última actualización: 2026-07-17</footer>
+<footer>TheorieKI · Last updated / Última actualización: 2026-07-20</footer>
 
 <script>
   var select = document.getElementById('langSelect')
@@ -153,7 +171,7 @@
     sections.forEach(function (s) { s.classList.toggle('active', s.dataset.lang === lang) })
   }
   var browserLang = (navigator.language || 'es').slice(0, 2)
-  var supported = ['de', 'es', 'fr', 'it', 'en']
+  var supported = ['de', 'es', 'fr', 'it', 'en', 'pt']
   var initial = supported.indexOf(browserLang) >= 0 ? browserLang : 'es'
   select.value = initial
   apply(initial)

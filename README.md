@@ -100,7 +100,7 @@ La app es una PWA. Para publicarla en las tiendas:
 
 - **Google Play**: acepta PWAs empaquetadas como *Trusted Web Activity* (herramienta [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap) o [PWABuilder](https://www.pwabuilder.com/)).
 - **Apple App Store**: normalmente exige un wrapper nativo (p. ej. [Capacitor](https://capacitorjs.com/)) — una PWA "pelada" suele rechazarse por la regla 4.2 (funcionalidad mínima).
-- Ambas tiendas piden una **URL de política de privacidad** en la ficha: usa `https://<usuario>.github.io/<repo>/privacy.html` (`public/privacy.html`, sin dependencias, en 5 idiomas — aún sin portugués).
+- Ambas tiendas piden una **URL de política de privacidad** en la ficha: usa `https://<usuario>.github.io/<repo>/privacy.html` (`public/privacy.html`, sin dependencias, en los 6 idiomas).
 
 ## Seguridad y privacidad
 
