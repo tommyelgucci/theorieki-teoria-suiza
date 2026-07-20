@@ -12,6 +12,7 @@ export const FIRSTAID_TOPICS = [
       fr: "Numéros d'urgence en Suisse",
       it: 'Numeri di emergenza in Svizzera',
       en: 'Emergency numbers in Switzerland',
+      pt: 'Números de emergência na Suíça',
     },
     bullets: [
       {
@@ -20,15 +21,17 @@ export const FIRSTAID_TOPICS = [
         fr: "144 – Urgences sanitaires (ambulance). LE numéro en cas d'urgence médicale.",
         it: '144 – Emergenza sanitaria (ambulanza). IL numero nelle emergenze mediche.',
         en: '144 – Medical emergency (ambulance). THE number for medical emergencies.',
+        pt: '144 – Emergência médica (ambulância). O número para emergências médicas.',
       },
-      { de: '117 – Polizei.', es: '117 – Policía.', fr: '117 – Police.', it: '117 – Polizia.', en: '117 – Police.' },
-      { de: '118 – Feuerwehr.', es: '118 – Bomberos.', fr: '118 – Pompiers.', it: '118 – Pompieri.', en: '118 – Fire brigade.' },
+      { de: '117 – Polizei.', es: '117 – Policía.', fr: '117 – Police.', it: '117 – Polizia.', en: '117 – Police.', pt: '117 – Polícia.' },
+      { de: '118 – Feuerwehr.', es: '118 – Bomberos.', fr: '118 – Pompiers.', it: '118 – Pompieri.', en: '118 – Fire brigade.', pt: '118 – Bombeiros.' },
       {
         de: '112 – Europäische Notrufnummer, funktioniert mit jedem Handy, auch ohne SIM oder Guthaben.',
         es: '112 – Número de emergencia europeo; funciona con cualquier móvil, incluso sin SIM ni saldo.',
         fr: "112 – Numéro d'urgence européen ; fonctionne avec tout portable, même sans SIM ni crédit.",
         it: '112 – Numero di emergenza europeo; funziona con ogni cellulare, anche senza SIM o credito.',
         en: '112 – European emergency number; works with any mobile phone, even without SIM or credit.',
+        pt: '112 – Número de emergência europeu; funciona com qualquer telemóvel, mesmo sem SIM ou saldo.',
       },
       {
         de: '145 – Tox Info Suisse (Vergiftungen), rund um die Uhr.',
@@ -36,6 +39,7 @@ export const FIRSTAID_TOPICS = [
         fr: '145 – Tox Info Suisse (intoxications), 24 h/24.',
         it: '145 – Tox Info Suisse (avvelenamenti), 24 ore su 24.',
         en: '145 – Tox Info Suisse (poisoning), around the clock.',
+        pt: '145 – Tox Info Suisse (intoxicações), 24 horas por dia.',
       },
       {
         de: '1414 – Rega (Rettungshelikopter), z. B. in den Bergen.',
@@ -43,6 +47,7 @@ export const FIRSTAID_TOPICS = [
         fr: '1414 – Rega (hélicoptère de sauvetage), p. ex. en montagne.',
         it: '1414 – Rega (elicottero di soccorso), ad es. in montagna.',
         en: '1414 – Rega (rescue helicopter), e.g. in the mountains.',
+        pt: '1414 – Rega (helicóptero de resgate), por exemplo nas montanhas.',
       },
       {
         de: 'Beim Anruf: WO ist es passiert, WAS ist passiert, WIE VIELE Verletzte, WER ruft an – und nie zuerst auflegen!',
@@ -50,6 +55,7 @@ export const FIRSTAID_TOPICS = [
         fr: "Au téléphone : OÙ c'est arrivé, QUOI, COMBIEN de blessés, QUI appelle – et ne raccroche jamais en premier !",
         it: 'Alla chiamata: DOVE è successo, COSA è successo, QUANTI feriti, CHI chiama – e non riagganciare mai per primo!',
         en: 'When calling: WHERE it happened, WHAT happened, HOW MANY injured, WHO is calling – and never hang up first!',
+        pt: 'Ao ligar: ONDE aconteceu, O QUE aconteceu, QUANTOS feridos, QUEM está a ligar – e nunca desligues tu primeiro!',
       },
     ],
   },
@@ -62,6 +68,7 @@ export const FIRSTAID_TOPICS = [
       fr: "Sécuriser le lieu de l'accident",
       it: 'Mettere in sicurezza il luogo dell’incidente',
       en: 'Securing the accident scene',
+      pt: 'Proteger o local do acidente',
     },
     bullets: [
       {
@@ -70,6 +77,7 @@ export const FIRSTAID_TOPICS = [
         fr: "Schéma de base : Observer – Réfléchir – Agir. D'abord une vue d'ensemble, puis réfléchir, puis agir.",
         it: 'Schema di base: Osservare – Riflettere – Agire. Prima una visione d’insieme, poi rifletti, poi agisci.',
         en: 'Basic scheme: Look – Think – Act. First get an overview, then think, then act.',
+        pt: 'Esquema básico: Olhar – Pensar – Agir. Primeiro ganha uma visão geral, depois pensa, depois age.',
       },
       {
         de: 'Eigenschutz zuerst! Ein verletzter Helfer hilft niemandem.',
@@ -77,6 +85,7 @@ export const FIRSTAID_TOPICS = [
         fr: "Ta propre sécurité d'abord ! Un sauveteur blessé n'aide personne.",
         it: 'Prima la tua sicurezza! Un soccorritore ferito non aiuta nessuno.',
         en: 'Your own safety first! An injured helper helps no one.',
+        pt: 'A tua segurança primeiro! Um socorrista ferido não ajuda ninguém.',
       },
       {
         de: 'Warnblinker einschalten und die Leuchtweste ANZIEHEN, BEVOR du aussteigst.',
@@ -84,6 +93,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Allume les feux de détresse et METS le gilet réfléchissant AVANT de descendre.',
         it: 'Accendi le luci di emergenza e INDOSSA il gilet catarifrangente PRIMA di scendere.',
         en: 'Switch on the hazard lights and PUT ON the high-visibility vest BEFORE getting out.',
+        pt: 'Liga as luzes de emergência e VESTE o colete refletor ANTES de saíres do carro.',
       },
       {
         de: 'Pannendreieck aufstellen: mindestens 50 m vom Fahrzeug, auf schnellen Strassen (Autobahn/Autostrasse) mindestens 100 m.',
@@ -91,6 +101,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Place le triangle de panne : au moins 50 m du véhicule ; sur routes rapides (autoroute/semi-autoroute) au moins 100 m.',
         it: 'Colloca il triangolo: almeno 50 m dal veicolo; su strade veloci (autostrada/semiautostrada) almeno 100 m.',
         en: 'Set up the warning triangle: at least 50 m from the vehicle; on fast roads (motorway/expressway) at least 100 m.',
+        pt: 'Coloca o triângulo de sinalização: pelo menos 50 m do veículo; em vias rápidas (autoestrada/via rápida) pelo menos 100 m.',
       },
       {
         de: 'Auf der Autobahn: nie auf der Fahrbahn bleiben – hinter die Leitplanke stehen!',
@@ -98,6 +109,7 @@ export const FIRSTAID_TOPICS = [
         fr: "Sur l'autoroute : ne reste jamais sur la chaussée – place-toi derrière la glissière !",
         it: 'In autostrada: non restare mai sulla carreggiata – mettiti dietro il guardrail!',
         en: 'On the motorway: never stay on the carriageway – stand behind the guardrail!',
+        pt: 'Na autoestrada: nunca fiques na faixa de rodagem – fica atrás do rail de proteção!',
       },
       {
         de: 'Verletzte nur aus der Gefahrenzone bewegen, wenn akute Gefahr besteht (z. B. Feuer).',
@@ -105,6 +117,7 @@ export const FIRSTAID_TOPICS = [
         fr: "Ne déplace un blessé que s'il y a un danger immédiat (p. ex. incendie).",
         it: 'Sposta un ferito solo se c’è un pericolo immediato (ad es. incendio).',
         en: 'Move an injured person only if there is immediate danger (e.g. fire).',
+        pt: 'Só move uma pessoa ferida se houver perigo imediato (por exemplo, fogo).',
       },
     ],
   },
@@ -117,6 +130,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Schéma GABI : évaluation du patient',
       it: 'Schema GABI: valutazione del paziente',
       en: 'GABI scheme: assessing the patient',
+      pt: 'Esquema GABI: avaliar o doente',
     },
     bullets: [
       {
@@ -125,6 +139,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'G – Gefahren (dangers) : repérer et éliminer les dangers pour toi, le patient et les autres.',
         it: 'G – Gefahren (pericoli): individua ed elimina i pericoli per te, il paziente e gli altri.',
         en: 'G – Gefahren (dangers): spot and remove dangers for you, the patient and others.',
+        pt: 'G – Gefahren (perigos): identifica e elimina perigos para ti, o doente e os outros.',
       },
       {
         de: 'A – Ansprechen: Ist die Person ansprechbar? Laut ansprechen, sanft an den Schultern rütteln.',
@@ -132,6 +147,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'A – Ansprechen (parler) : réagit-elle ? Parle fort, secoue doucement les épaules.',
         it: 'A – Ansprechen (parlare): risponde? Parlale ad alta voce, scuotile dolcemente le spalle.',
         en: 'A – Ansprechen (address): is the person responsive? Speak loudly, gently shake the shoulders.',
+        pt: 'A – Ansprechen (interpelar): a pessoa reage? Fala alto, abana-lhe suavemente os ombros.',
       },
       {
         de: 'B – Beatmung/Atmung: Atmet die Person normal? Kopf nackenwärts strecken, sehen – hören – fühlen (max. 10 Sekunden).',
@@ -139,6 +155,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'B – Beatmung (respiration) : respire-t-elle normalement ? Bascule la tête en arrière, regarde – écoute – sens (max. 10 secondes).',
         it: 'B – Beatmung (respirazione): respira normalmente? Estendi la testa all’indietro, guarda – ascolta – senti (max 10 secondi).',
         en: 'B – Beatmung (breathing): is the person breathing normally? Tilt the head back, look – listen – feel (max. 10 seconds).',
+        pt: 'B – Beatmung (respiração): a pessoa respira normalmente? Inclina a cabeça para trás, olha – escuta – sente (máx. 10 segundos).',
       },
       {
         de: 'I – Informieren: Notruf 144 alarmieren (oder alarmieren lassen) und Anweisungen folgen.',
@@ -146,6 +163,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'I – Informieren (alerter) : appelle le 144 (ou fais appeler) et suis les instructions.',
         it: 'I – Informieren (informare): chiama il 144 (o fai chiamare) e segui le istruzioni.',
         en: 'I – Informieren (inform): call 144 (or have someone call) and follow the instructions.',
+        pt: 'I – Informieren (informar): liga para o 144 (ou pede a alguém que ligue) e segue as instruções.',
       },
       {
         de: 'Bewusstlos + normale Atmung → stabile Seitenlage. Bewusstlos + keine normale Atmung → sofort BLS-AED (Reanimation).',
@@ -153,6 +171,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Inconscient + respiration normale → position latérale de sécurité. Inconscient + respiration anormale → BLS-AED (réanimation) immédiatement.',
         it: 'Incosciente + respiro normale → posizione laterale di sicurezza. Incosciente + respiro NON normale → subito BLS-DAE (rianimazione).',
         en: 'Unconscious + normal breathing → recovery position. Unconscious + no normal breathing → BLS-AED (resuscitation) immediately.',
+        pt: 'Inconsciente + respiração normal → posição lateral de segurança. Inconsciente + sem respiração normal → BLS-DAE (reanimação) de imediato.',
       },
     ],
   },
@@ -165,6 +184,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Position latérale de sécurité',
       it: 'Posizione laterale di sicurezza',
       en: 'Recovery position',
+      pt: 'Posição lateral de segurança',
     },
     bullets: [
       {
@@ -173,6 +193,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Quand : la personne est inconsciente mais respire normalement.',
         it: 'Quando: la persona è incosciente ma respira normalmente.',
         en: 'When: the person is unconscious but breathing normally.',
+        pt: 'Quando: a pessoa está inconsciente mas respira normalmente.',
       },
       {
         de: 'Warum: Die Atemwege bleiben frei; Erbrochenes oder Blut kann abfliessen und die Zunge blockiert nicht.',
@@ -180,6 +201,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Pourquoi : les voies respiratoires restent libres ; vomi ou sang peuvent s’écouler et la langue ne bloque pas.',
         it: 'Perché: le vie respiratorie restano libere; vomito o sangue possono defluire e la lingua non ostruisce.',
         en: 'Why: the airway stays clear; vomit or blood can drain and the tongue does not block it.',
+        pt: 'Porquê: as vias respiratórias mantêm-se livres; vómito ou sangue podem escoar e a língua não bloqueia.',
       },
       {
         de: 'Grob: näheren Arm anwinkeln, ferne Hand an die Wange, fernes Knie anziehen und die Person zu dir herüberrollen.',
@@ -187,6 +209,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'En gros : bras proche plié, main éloignée contre la joue, genou éloigné plié, puis roule la personne vers toi.',
         it: 'In sintesi: braccio vicino piegato, mano lontana alla guancia, ginocchio lontano piegato e ruota la persona verso di te.',
         en: 'Roughly: bend the near arm, far hand to the cheek, pull up the far knee and roll the person towards you.',
+        pt: 'Resumidamente: dobra o braço mais próximo, leva a mão mais afastada à face, dobra o joelho mais afastado e rola a pessoa na tua direção.',
       },
       {
         de: 'Kopf leicht nackenwärts gestreckt, Mund als tiefster Punkt.',
@@ -194,6 +217,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Tête légèrement basculée en arrière, la bouche au point le plus bas.',
         it: 'Testa leggermente estesa all’indietro, la bocca è il punto più basso.',
         en: 'Head slightly tilted back, mouth at the lowest point.',
+        pt: 'Cabeça ligeiramente inclinada para trás, boca no ponto mais baixo.',
       },
       {
         de: 'Atmung dauernd überwachen, zudecken, bis die Rettung eintrifft. Hört die normale Atmung auf → sofort Reanimation.',
@@ -201,6 +225,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Surveille la respiration en continu, couvre la personne jusqu’aux secours. Si la respiration normale cesse → réanimation immédiate.',
         it: 'Controlla continuamente il respiro, copri la persona fino all’arrivo dei soccorsi. Se il respiro normale cessa → rianimazione immediata.',
         en: 'Monitor breathing continuously, keep the person warm until rescue arrives. If normal breathing stops → resuscitate immediately.',
+        pt: 'Vigia a respiração continuamente, mantém a pessoa quente até chegar ajuda. Se a respiração normal parar → reanima de imediato.',
       },
     ],
   },
@@ -213,6 +238,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Réanimation (BLS) et défibrillateur (DAE)',
       it: 'Rianimazione (BLS) e defibrillatore (DAE)',
       en: 'Resuscitation (BLS) and AED',
+      pt: 'Reanimação (BLS) e DAE',
     },
     bullets: [
       {
@@ -221,6 +247,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Inconscient et respiration anormale (le gasping ne compte PAS comme normal) → appelle le 144 et commence immédiatement le massage cardiaque.',
         it: 'Incosciente e senza respiro normale (il respiro agonico NON conta come normale) → chiama il 144 e inizia subito il massaggio cardiaco.',
         en: 'Unconscious and no normal breathing (gasping does NOT count as normal) → call 144 and start chest compressions immediately.',
+        pt: 'Inconsciente e sem respiração normal (respiração agónica NÃO conta como normal) → liga para o 144 e começa já as compressões torácicas.',
       },
       {
         de: 'Verhältnis 30:2 – 30 Kompressionen, 2 Beatmungen.',
@@ -228,6 +255,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Rapport 30:2 – 30 compressions, 2 insufflations.',
         it: 'Rapporto 30:2 – 30 compressioni, 2 ventilazioni.',
         en: 'Ratio 30:2 – 30 compressions, 2 rescue breaths.',
+        pt: 'Relação 30:2 – 30 compressões, 2 ventilações.',
       },
       {
         de: 'Drucktiefe 5–6 cm, Tempo 100–120 pro Minute, Mitte des Brustkorbs, Arme gestreckt.',
@@ -235,6 +263,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Profondeur 5–6 cm, rythme 100–120 par minute, au centre du thorax, bras tendus.',
         it: 'Profondità 5–6 cm, ritmo 100–120 al minuto, al centro del torace, braccia tese.',
         en: 'Depth 5–6 cm, rate 100–120 per minute, centre of the chest, arms straight.',
+        pt: 'Profundidade 5–6 cm, ritmo 100–120 por minuto, no centro do peito, braços esticados.',
       },
       {
         de: 'Nach jeder Kompression den Brustkorb vollständig entlasten.',
@@ -242,6 +271,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Relâche complètement le thorax après chaque compression.',
         it: 'Dopo ogni compressione lascia riespandere completamente il torace.',
         en: 'Allow the chest to fully recoil after each compression.',
+        pt: 'Deixa o peito expandir-se completamente depois de cada compressão.',
       },
       {
         de: 'AED holen lassen und einschalten, sobald verfügbar – das Gerät führt dich mit Sprachanweisungen. Auch Laien dürfen ihn benutzen!',
@@ -249,6 +279,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Fais chercher un DAE et allume-le dès qu’il est là – l’appareil te guide par la voix. Même les non-professionnels peuvent l’utiliser !',
         it: 'Fai portare un DAE e accendilo appena disponibile: l’apparecchio ti guida con la voce. Anche i non professionisti possono usarlo!',
         en: 'Have someone fetch an AED and switch it on as soon as available – the device guides you by voice. Laypeople may use it too!',
+        pt: 'Manda alguém buscar um DAE e liga-o assim que estiver disponível – o aparelho guia-te por voz. Qualquer pessoa pode usá-lo!',
       },
       {
         de: 'Nicht aufhören, bis der Rettungsdienst übernimmt, die Person reagiert oder du völlig erschöpft bist.',
@@ -256,6 +287,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'N’arrête pas avant que les secours prennent le relais, que la personne réagisse ou que tu sois totalement épuisé.',
         it: 'Non fermarti finché i soccorsi non subentrano, la persona reagisce o sei completamente esausto.',
         en: 'Do not stop until the emergency services take over, the person responds or you are completely exhausted.',
+        pt: 'Não pares até os serviços de emergência assumirem, a pessoa reagir ou ficares completamente exausto.',
       },
     ],
   },
@@ -268,6 +300,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Hémorragie importante et choc',
       it: 'Emorragia forte e shock',
       en: 'Severe bleeding and shock',
+      pt: 'Hemorragia grave e choque',
     },
     bullets: [
       {
@@ -276,6 +309,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Mets des gants si possible (protection personnelle).',
         it: 'Indossa i guanti se possibile (autoprotezione).',
         en: 'Put on gloves if possible (self-protection).',
+        pt: 'Coloca luvas se possível (autoproteção).',
       },
       {
         de: 'Direkten Druck auf die Wunde ausüben und einen Druckverband anlegen.',
@@ -283,6 +317,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Exerce une pression directe sur la plaie et pose un pansement compressif.',
         it: 'Esercita pressione diretta sulla ferita e applica una fasciatura compressiva.',
         en: 'Apply direct pressure to the wound and put on a pressure bandage.',
+        pt: 'Aplica pressão direta sobre a ferida e coloca um penso compressivo.',
       },
       {
         de: 'Blutet es durch: zweite Lage darüber, weiter drücken – den Verband nicht entfernen.',
@@ -290,6 +325,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Si ça traverse : deuxième couche par-dessus, continue d’appuyer – ne retire pas le pansement.',
         it: 'Se il sangue attraversa: secondo strato sopra, continua a premere – non togliere la fasciatura.',
         en: 'If blood soaks through: second layer on top, keep pressing – do not remove the bandage.',
+        pt: 'Se o sangue ensopar: coloca outra camada por cima, continua a pressionar – não retires o penso.',
       },
       {
         de: 'Schockzeichen: blasse, kaltschweissige Haut, schneller Puls, Unruhe.',
@@ -297,6 +333,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Signes de choc : peau pâle et moite, pouls rapide, agitation.',
         it: 'Segni di shock: pelle pallida e sudata fredda, polso rapido, agitazione.',
         en: 'Signs of shock: pale, cold-sweaty skin, fast pulse, restlessness.',
+        pt: 'Sinais de choque: pele pálida e com suor frio, pulso acelerado, agitação.',
       },
       {
         de: 'Bei Schock: Person hinlegen, vor Kälte schützen (Rettungsdecke), beruhigen, nichts zu trinken geben, 144.',
@@ -304,6 +341,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'En cas de choc : allonger la personne, protéger du froid (couverture de survie), rassurer, ne rien donner à boire, 144.',
         it: 'In caso di shock: sdraia la persona, proteggila dal freddo (coperta isotermica), tranquillizzala, non darle da bere, 144.',
         en: 'In shock: lay the person down, protect from cold (rescue blanket), reassure, give nothing to drink, call 144.',
+        pt: 'Em choque: deita a pessoa, protege-a do frio (manta térmica), tranquiliza-a, não dês nada para beber, liga 144.',
       },
     ],
   },
@@ -316,6 +354,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Infarctus, AVC, brûlures',
       it: 'Infarto, ictus, ustioni',
       en: 'Heart attack, stroke, burns',
+      pt: 'Enfarte, AVC, queimaduras',
     },
     bullets: [
       {
@@ -324,6 +363,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Infarctus : pression/douleur thoracique (irradiant souvent bras/mâchoire), essoufflement, nausées → 144 immédiatement, buste surélevé, rassurer.',
         it: 'Infarto: pressione/dolore al petto (spesso irradiato a braccio/mandibola), affanno, nausea → subito 144, busto sollevato, tranquillizzare.',
         en: 'Heart attack: pressure/pain in the chest (often radiating to arm/jaw), shortness of breath, nausea → call 144 at once, position with raised upper body, reassure.',
+        pt: 'Enfarte: pressão/dor no peito (muitas vezes irradiando para o braço/maxilar), falta de ar, náuseas → liga já para o 144, posiciona com o tronco elevado, tranquiliza.',
       },
       {
         de: 'Hirnschlag – FAST-Test: Face (hängender Mundwinkel), Arms (ein Arm sinkt), Speech (verwaschene Sprache), Time (sofort 144 – Zeit ist Hirn!).',
@@ -331,6 +371,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'AVC – test FAST : Face (coin de bouche tombant), Arms (un bras s’affaisse), Speech (parole confuse), Time (144 immédiatement – le temps, c’est du cerveau !).',
         it: 'Ictus – test FAST: Face (angolo della bocca cadente), Arms (un braccio scende), Speech (parola impastata), Time (subito 144 – il tempo è cervello!).',
         en: 'Stroke – FAST test: Face (drooping mouth corner), Arms (one arm drifts down), Speech (slurred speech), Time (call 144 at once – time is brain!).',
+        pt: 'AVC – teste FAST: Face (canto da boca caído), Arms (um braço cai), Speech (fala arrastada), Time (liga já para o 144 – tempo é cérebro!).',
       },
       {
         de: 'Verbrennungen: mit fliessendem, handwarmem Wasser 10–20 Minuten kühlen. KEIN Eis, keine Salben, Brandblasen nicht öffnen.',
@@ -338,6 +379,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Brûlures : refroidir 10–20 minutes à l’eau courante tiède. PAS de glace, pas de pommades, ne pas percer les cloques.',
         it: 'Ustioni: raffredda 10–20 minuti con acqua corrente tiepida. NIENTE ghiaccio, niente pomate, non aprire le vesciche.',
         en: 'Burns: cool with running, lukewarm water for 10–20 minutes. NO ice, no ointments, do not open blisters.',
+        pt: 'Queimaduras: arrefece com água corrente morna durante 10–20 minutos. SEM gelo, sem pomadas, não abras bolhas.',
       },
       {
         de: 'Amputat: steril einwickeln, in einen wasserdichten Beutel, diesen indirekt kühlen (nie direkt auf Eis).',
@@ -345,6 +387,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Membre amputé : envelopper stérilement, dans un sac étanche, refroidir indirectement (jamais directement sur la glace).',
         it: 'Parte amputata: avvolgila sterilmente, in un sacchetto impermeabile, raffreddala indirettamente (mai direttamente sul ghiaccio).',
         en: 'Amputated part: wrap sterile, place in a waterproof bag, cool indirectly (never directly on ice).',
+        pt: 'Parte amputada: envolve de forma estéril, coloca num saco impermeável, arrefece indiretamente (nunca diretamente sobre gelo).',
       },
     ],
   },
@@ -357,6 +400,7 @@ export const FIRSTAID_TOPICS = [
       fr: 'Obligations et attestation de sauveteur',
       it: 'Obblighi e attestato di soccorritore',
       en: 'Duties & first-aid certificate',
+      pt: 'Deveres e certificado de socorrista',
     },
     bullets: [
       {
@@ -365,6 +409,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'En Suisse, porter secours est obligatoire dans la mesure du raisonnable (art. 128 CP : l’omission de prêter secours est punissable).',
         it: 'In Svizzera aiutare è obbligatorio nei limiti del ragionevole (art. 128 CP: l’omissione di soccorso è punibile).',
         en: 'In Switzerland, helping is a duty as far as reasonable (Art. 128 Criminal Code: failure to render aid is punishable).',
+        pt: 'Na Suíça, ajudar é um dever dentro do razoável (art. 128.º do Código Penal: a omissão de auxílio é punível).',
       },
       {
         de: 'Wer nach bestem Wissen hilft, muss keine rechtlichen Folgen fürchten – der grösste Fehler ist, NICHTS zu tun.',
@@ -372,6 +417,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Qui aide au mieux de ses connaissances ne doit pas craindre de conséquences juridiques – la plus grande erreur est de ne RIEN faire.',
         it: 'Chi aiuta al meglio delle sue conoscenze non deve temere conseguenze legali: l’errore più grande è NON fare nulla.',
         en: 'Anyone who helps to the best of their knowledge need not fear legal consequences – the biggest mistake is doing NOTHING.',
+        pt: 'Quem ajuda da melhor forma que sabe não precisa de recear consequências legais – o maior erro é NÃO FAZER NADA.',
       },
       {
         de: 'Der Nothelferkurs (10 Stunden) ist obligatorisch für den Lernfahrausweis (Kat. A und B).',
@@ -379,6 +425,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Le cours de sauveteur (10 heures) est obligatoire pour le permis d’élève conducteur (cat. A et B).',
         it: 'Il corso soccorritori (10 ore) è obbligatorio per la licenza per allievo conducente (cat. A e B).',
         en: 'The first-aid course (10 hours) is mandatory for the learner’s permit (cat. A and B).',
+        pt: 'O curso de primeiros socorros (10 horas) é obrigatório para a carta de aprendizagem (cat. A e B).',
       },
       {
         de: 'Der Nothelferausweis ist 6 Jahre gültig.',
@@ -386,6 +433,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'L’attestation de sauveteur est valable 6 ans.',
         it: 'L’attestato di soccorritore è valido 6 anni.',
         en: 'The first-aid certificate is valid for 6 years.',
+        pt: 'O certificado de socorrista é válido por 6 anos.',
       },
       {
         de: 'Kurs bei SSB/Samariter, SLRG oder anderen anerkannten Anbietern – auch auf Englisch, teils Spanisch.',
@@ -393,6 +441,7 @@ export const FIRSTAID_TOPICS = [
         fr: 'Cours auprès des samaritains (ASS), de la SSS ou d’autres organismes reconnus – aussi en anglais, parfois en espagnol.',
         it: 'Corso presso i samaritani, la SSS o altri enti riconosciuti – anche in inglese, a volte in spagnolo.',
         en: 'Course with the Samaritans, SLRG or other recognised providers – also in English, sometimes Spanish.',
+        pt: 'Curso com os Samaritanos, a SLRG ou outros fornecedores reconhecidos – também em inglês, por vezes em espanhol.',
       },
     ],
   },
@@ -401,39 +450,40 @@ export const FIRSTAID_TOPICS = [
 export const FIRSTAID_CARDS = [
   {
     id: 'c01',
-    front: { de: 'Notruf: Ambulanz?', es: '¿Número de la ambulancia?', fr: 'Urgences : ambulance ?', it: 'Emergenza: ambulanza?', en: 'Emergency number: ambulance?' },
-    back: { de: '144', es: '144', fr: '144', it: '144', en: '144' },
+    front: { de: 'Notruf: Ambulanz?', es: '¿Número de la ambulancia?', fr: 'Urgences : ambulance ?', it: 'Emergenza: ambulanza?', en: 'Emergency number: ambulance?', pt: 'Número de emergência: ambulância?' },
+    back: { de: '144', es: '144', fr: '144', it: '144', en: '144', pt: '144' },
   },
   {
     id: 'c02',
-    front: { de: 'Notruf: Polizei?', es: '¿Número de la policía?', fr: 'Urgences : police ?', it: 'Emergenza: polizia?', en: 'Emergency number: police?' },
-    back: { de: '117', es: '117', fr: '117', it: '117', en: '117' },
+    front: { de: 'Notruf: Polizei?', es: '¿Número de la policía?', fr: 'Urgences : police ?', it: 'Emergenza: polizia?', en: 'Emergency number: police?', pt: 'Número de emergência: polícia?' },
+    back: { de: '117', es: '117', fr: '117', it: '117', en: '117', pt: '117' },
   },
   {
     id: 'c03',
-    front: { de: 'Notruf: Feuerwehr?', es: '¿Número de los bomberos?', fr: 'Urgences : pompiers ?', it: 'Emergenza: pompieri?', en: 'Emergency number: fire brigade?' },
-    back: { de: '118', es: '118', fr: '118', it: '118', en: '118' },
+    front: { de: 'Notruf: Feuerwehr?', es: '¿Número de los bomberos?', fr: 'Urgences : pompiers ?', it: 'Emergenza: pompieri?', en: 'Emergency number: fire brigade?', pt: 'Número de emergência: bombeiros?' },
+    back: { de: '118', es: '118', fr: '118', it: '118', en: '118', pt: '118' },
   },
   {
     id: 'c04',
-    front: { de: 'Europäische Notrufnummer?', es: '¿Número de emergencia europeo?', fr: "Numéro d'urgence européen ?", it: 'Numero di emergenza europeo?', en: 'European emergency number?' },
+    front: { de: 'Europäische Notrufnummer?', es: '¿Número de emergencia europeo?', fr: "Numéro d'urgence européen ?", it: 'Numero di emergenza europeo?', en: 'European emergency number?', pt: 'Número de emergência europeu?' },
     back: {
       de: '112 – funktioniert mit jedem Handy, auch ohne SIM',
       es: '112 — funciona con cualquier móvil, incluso sin SIM',
       fr: '112 – fonctionne avec tout portable, même sans SIM',
       it: '112 – funziona con ogni cellulare, anche senza SIM',
       en: '112 – works with any mobile, even without SIM',
+      pt: '112 – funciona com qualquer telemóvel, mesmo sem SIM',
     },
   },
   {
     id: 'c05',
-    front: { de: 'Nummer bei Vergiftungen?', es: '¿Número para intoxicaciones?', fr: 'Numéro en cas d’intoxication ?', it: 'Numero per avvelenamenti?', en: 'Number for poisoning?' },
-    back: { de: '145 (Tox Info Suisse)', es: '145 (Tox Info Suisse)', fr: '145 (Tox Info Suisse)', it: '145 (Tox Info Suisse)', en: '145 (Tox Info Suisse)' },
+    front: { de: 'Nummer bei Vergiftungen?', es: '¿Número para intoxicaciones?', fr: 'Numéro en cas d’intoxication ?', it: 'Numero per avvelenamenti?', en: 'Number for poisoning?', pt: 'Número para intoxicações?' },
+    back: { de: '145 (Tox Info Suisse)', es: '145 (Tox Info Suisse)', fr: '145 (Tox Info Suisse)', it: '145 (Tox Info Suisse)', en: '145 (Tox Info Suisse)', pt: '145 (Tox Info Suisse)' },
   },
   {
     id: 'c06',
-    front: { de: 'Nummer der Rega?', es: '¿Número de la Rega (rescate aéreo)?', fr: 'Numéro de la Rega ?', it: 'Numero della Rega?', en: 'Number of Rega (air rescue)?' },
-    back: { de: '1414', es: '1414', fr: '1414', it: '1414', en: '1414' },
+    front: { de: 'Nummer der Rega?', es: '¿Número de la Rega (rescate aéreo)?', fr: 'Numéro de la Rega ?', it: 'Numero della Rega?', en: 'Number of Rega (air rescue)?', pt: 'Número da Rega (resgate aéreo)?' },
+    back: { de: '1414', es: '1414', fr: '1414', it: '1414', en: '1414', pt: '1414' },
   },
   {
     id: 'c07',
@@ -443,8 +493,9 @@ export const FIRSTAID_CARDS = [
       fr: 'Triangle de panne : distance sur route normale ?',
       it: 'Triangolo: distanza su strada normale?',
       en: 'Warning triangle: distance on a normal road?',
+      pt: 'Triângulo de sinalização: distância numa estrada normal?',
     },
-    back: { de: 'Mindestens 50 m vom Fahrzeug', es: 'Mínimo 50 m del vehículo', fr: 'Au moins 50 m du véhicule', it: 'Almeno 50 m dal veicolo', en: 'At least 50 m from the vehicle' },
+    back: { de: 'Mindestens 50 m vom Fahrzeug', es: 'Mínimo 50 m del vehículo', fr: 'Au moins 50 m du véhicule', it: 'Almeno 50 m dal veicolo', en: 'At least 50 m from the vehicle', pt: 'Pelo menos 50 m do veículo' },
   },
   {
     id: 'c08',
@@ -454,8 +505,9 @@ export const FIRSTAID_CARDS = [
       fr: 'Triangle : distance sur autoroute/route rapide ?',
       it: 'Triangolo: distanza in autostrada/strada veloce?',
       en: 'Triangle: distance on motorway/fast roads?',
+      pt: 'Triângulo: distância em autoestrada/vias rápidas?',
     },
-    back: { de: 'Mindestens 100 m', es: 'Mínimo 100 m', fr: 'Au moins 100 m', it: 'Almeno 100 m', en: 'At least 100 m' },
+    back: { de: 'Mindestens 100 m', es: 'Mínimo 100 m', fr: 'Au moins 100 m', it: 'Almeno 100 m', en: 'At least 100 m', pt: 'Pelo menos 100 m' },
   },
   {
     id: 'c09',
@@ -465,6 +517,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Que fais-tu AVANT de descendre sur un lieu d’accident ?',
       it: 'Cosa fai PRIMA di scendere sul luogo dell’incidente?',
       en: 'What do you do BEFORE getting out at an accident?',
+      pt: 'O que fazes ANTES de sair do carro num acidente?',
     },
     back: {
       de: 'Warnblinker ein + Leuchtweste anziehen',
@@ -472,6 +525,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Feux de détresse + mettre le gilet réfléchissant',
       it: 'Luci di emergenza + indossare il gilet catarifrangente',
       en: 'Hazard lights on + put on the high-visibility vest',
+      pt: 'Luzes de emergência ligadas + vestir o colete refletor',
     },
   },
   {
@@ -482,6 +536,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Où attends-tu en cas de panne sur l’autoroute ?',
       it: 'Dove aspetti in caso di guasto in autostrada?',
       en: 'Where do you wait after a breakdown on the motorway?',
+      pt: 'Onde esperas depois de uma avaria na autoestrada?',
     },
     back: {
       de: 'Hinter der Leitplanke – nie auf der Fahrbahn',
@@ -489,61 +544,67 @@ export const FIRSTAID_CARDS = [
       fr: 'Derrière la glissière – jamais sur la chaussée',
       it: 'Dietro il guardrail – mai sulla carreggiata',
       en: 'Behind the guardrail – never on the carriageway',
+      pt: 'Atrás do rail de proteção – nunca na faixa de rodagem',
     },
   },
   {
     id: 'c11',
-    front: { de: 'Grundschema jedes Notfalls?', es: '¿Esquema básico en toda emergencia?', fr: 'Schéma de base de toute urgence ?', it: 'Schema di base di ogni emergenza?', en: 'Basic scheme for every emergency?' },
+    front: { de: 'Grundschema jedes Notfalls?', es: '¿Esquema básico en toda emergencia?', fr: 'Schéma de base de toute urgence ?', it: 'Schema di base di ogni emergenza?', en: 'Basic scheme for every emergency?', pt: 'Esquema básico de qualquer emergência?' },
     back: {
       de: 'Schauen – Denken – Handeln',
       es: 'Mirar – Pensar – Actuar (Schauen–Denken–Handeln)',
       fr: 'Observer – Réfléchir – Agir (Schauen–Denken–Handeln)',
       it: 'Osservare – Riflettere – Agire (Schauen–Denken–Handeln)',
       en: 'Look – Think – Act (Schauen–Denken–Handeln)',
+      pt: 'Olhar – Pensar – Agir (Schauen–Denken–Handeln)',
     },
   },
   {
     id: 'c12',
-    front: { de: 'GABI: Wofür steht das G?', es: 'GABI: ¿qué significa la G?', fr: 'GABI : que signifie le G ?', it: 'GABI: cosa significa la G?', en: 'GABI: what does the G stand for?' },
+    front: { de: 'GABI: Wofür steht das G?', es: 'GABI: ¿qué significa la G?', fr: 'GABI : que signifie le G ?', it: 'GABI: cosa significa la G?', en: 'GABI: what does the G stand for?', pt: 'GABI: o que significa o G?' },
     back: {
       de: 'Gefahren erkennen und beseitigen',
       es: 'Gefahren: detectar y eliminar peligros',
       fr: 'Gefahren : repérer et éliminer les dangers',
       it: 'Gefahren: individuare ed eliminare i pericoli',
       en: 'Gefahren: spot and remove dangers',
+      pt: 'Gefahren: identificar e eliminar perigos',
     },
   },
   {
     id: 'c13',
-    front: { de: 'GABI: Wofür steht das A?', es: 'GABI: ¿qué significa la A?', fr: 'GABI : que signifie le A ?', it: 'GABI: cosa significa la A?', en: 'GABI: what does the A stand for?' },
+    front: { de: 'GABI: Wofür steht das A?', es: 'GABI: ¿qué significa la A?', fr: 'GABI : que signifie le A ?', it: 'GABI: cosa significa la A?', en: 'GABI: what does the A stand for?', pt: 'GABI: o que significa o A?' },
     back: {
       de: 'Ansprechen – ist die Person ansprechbar?',
       es: 'Ansprechen: hablarle, ¿está consciente?',
       fr: 'Ansprechen : parler – la personne réagit-elle ?',
       it: 'Ansprechen: parlarle – la persona risponde?',
       en: 'Ansprechen: address – is the person responsive?',
+      pt: 'Ansprechen: interpelar – a pessoa reage?',
     },
   },
   {
     id: 'c14',
-    front: { de: 'GABI: Wofür steht das B?', es: 'GABI: ¿qué significa la B?', fr: 'GABI : que signifie le B ?', it: 'GABI: cosa significa la B?', en: 'GABI: what does the B stand for?' },
+    front: { de: 'GABI: Wofür steht das B?', es: 'GABI: ¿qué significa la B?', fr: 'GABI : que signifie le B ?', it: 'GABI: cosa significa la B?', en: 'GABI: what does the B stand for?', pt: 'GABI: o que significa o B?' },
     back: {
       de: 'Beatmung/Atmung kontrollieren (max. 10 s)',
       es: 'Beatmung: comprobar la respiración (máx. 10 s)',
       fr: 'Beatmung : contrôler la respiration (max. 10 s)',
       it: 'Beatmung: controllare il respiro (max 10 s)',
       en: 'Beatmung: check breathing (max. 10 s)',
+      pt: 'Beatmung: verificar a respiração (máx. 10 s)',
     },
   },
   {
     id: 'c15',
-    front: { de: 'GABI: Wofür steht das I?', es: 'GABI: ¿qué significa la I?', fr: 'GABI : que signifie le I ?', it: 'GABI: cosa significa la I?', en: 'GABI: what does the I stand for?' },
+    front: { de: 'GABI: Wofür steht das I?', es: 'GABI: ¿qué significa la I?', fr: 'GABI : que signifie le I ?', it: 'GABI: cosa significa la I?', en: 'GABI: what does the I stand for?', pt: 'GABI: o que significa o I?' },
     back: {
       de: 'Informieren – Notruf 144 alarmieren',
       es: 'Informieren: avisar, llamar al 144',
       fr: 'Informieren : alerter – appeler le 144',
       it: 'Informieren: informare – chiamare il 144',
       en: 'Informieren: inform – call 144',
+      pt: 'Informieren: informar – ligar 144',
     },
   },
   {
@@ -554,6 +615,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Inconscient, respire normalement – que faire ?',
       it: 'Incosciente, respira normalmente – cosa fare?',
       en: 'Unconscious, breathing normally – what to do?',
+      pt: 'Inconsciente, a respirar normalmente – o que fazer?',
     },
     back: {
       de: 'Stabile Seitenlage, Atmung überwachen, 144',
@@ -561,6 +623,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Position latérale de sécurité, surveiller la respiration, 144',
       it: 'Posizione laterale di sicurezza, controllare il respiro, 144',
       en: 'Recovery position, monitor breathing, 144',
+      pt: 'Posição lateral de segurança, vigiar a respiração, 144',
     },
   },
   {
@@ -571,6 +634,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Inconscient, ne respire PAS normalement – que faire ?',
       it: 'Incosciente e NON respira normalmente – cosa fare?',
       en: 'Unconscious, NOT breathing normally – what to do?',
+      pt: 'Inconsciente, SEM respiração normal – o que fazer?',
     },
     back: {
       de: '144 + sofort Reanimation (30:2) + AED holen lassen',
@@ -578,6 +642,7 @@ export const FIRSTAID_CARDS = [
       fr: '144 + réanimation immédiate (30:2) + faire chercher un DAE',
       it: '144 + rianimazione immediata (30:2) + far portare un DAE',
       en: '144 + immediate CPR (30:2) + have an AED fetched',
+      pt: '144 + reanimação imediata (30:2) + mandar buscar um DAE',
     },
   },
   {
@@ -588,23 +653,25 @@ export const FIRSTAID_CARDS = [
       fr: 'Rapport compressions : insufflations ?',
       it: 'Rapporto compressioni : ventilazioni?',
       en: 'Ratio compressions : breaths?',
+      pt: 'Relação compressões : ventilações?',
     },
-    back: { de: '30 : 2', es: '30 : 2', fr: '30 : 2', it: '30 : 2', en: '30 : 2' },
+    back: { de: '30 : 2', es: '30 : 2', fr: '30 : 2', it: '30 : 2', en: '30 : 2', pt: '30 : 2' },
   },
   {
     id: 'c19',
-    front: { de: 'Tempo der Herzdruckmassage?', es: '¿Ritmo de las compresiones?', fr: 'Rythme du massage cardiaque ?', it: 'Ritmo del massaggio cardiaco?', en: 'Rate of chest compressions?' },
-    back: { de: '100–120 pro Minute', es: '100–120 por minuto', fr: '100–120 par minute', it: '100–120 al minuto', en: '100–120 per minute' },
+    front: { de: 'Tempo der Herzdruckmassage?', es: '¿Ritmo de las compresiones?', fr: 'Rythme du massage cardiaque ?', it: 'Ritmo del massaggio cardiaco?', en: 'Rate of chest compressions?', pt: 'Ritmo das compressões torácicas?' },
+    back: { de: '100–120 pro Minute', es: '100–120 por minuto', fr: '100–120 par minute', it: '100–120 al minuto', en: '100–120 per minute', pt: '100–120 por minuto' },
   },
   {
     id: 'c20',
-    front: { de: 'Drucktiefe bei Erwachsenen?', es: '¿Profundidad de compresión en adultos?', fr: 'Profondeur de compression chez l’adulte ?', it: 'Profondità di compressione negli adulti?', en: 'Compression depth in adults?' },
+    front: { de: 'Drucktiefe bei Erwachsenen?', es: '¿Profundidad de compresión en adultos?', fr: 'Profondeur de compression chez l’adulte ?', it: 'Profondità di compressione negli adulti?', en: 'Compression depth in adults?', pt: 'Profundidade da compressão em adultos?' },
     back: {
       de: '5–6 cm, Mitte des Brustkorbs',
       es: '5–6 cm, en el centro del pecho',
       fr: '5–6 cm, au centre du thorax',
       it: '5–6 cm, al centro del torace',
       en: '5–6 cm, centre of the chest',
+      pt: '5–6 cm, no centro do peito',
     },
   },
   {
@@ -615,6 +682,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Quand peux-tu arrêter la réanimation ?',
       it: 'Quando puoi interrompere la rianimazione?',
       en: 'When may you stop CPR?',
+      pt: 'Quando podes parar a reanimação?',
     },
     back: {
       de: 'Rettungsdienst übernimmt, Person reagiert oder totale Erschöpfung',
@@ -622,39 +690,43 @@ export const FIRSTAID_CARDS = [
       fr: 'Les secours prennent le relais, la personne réagit ou épuisement total',
       it: 'I soccorsi subentrano, la persona reagisce o esaurimento totale',
       en: 'Emergency services take over, the person responds, or total exhaustion',
+      pt: 'Os serviços de emergência assumem, a pessoa reage, ou exaustão total',
     },
   },
   {
     id: 'c22',
-    front: { de: 'Starke Blutung – was tun?', es: 'Hemorragia fuerte, ¿qué haces?', fr: 'Hémorragie importante – que faire ?', it: 'Emorragia forte – cosa fare?', en: 'Severe bleeding – what to do?' },
+    front: { de: 'Starke Blutung – was tun?', es: 'Hemorragia fuerte, ¿qué haces?', fr: 'Hémorragie importante – que faire ?', it: 'Emorragia forte – cosa fare?', en: 'Severe bleeding – what to do?', pt: 'Hemorragia grave – o que fazer?' },
     back: {
       de: 'Handschuhe, direkter Druck, Druckverband, 144',
       es: 'Guantes, presión directa, vendaje compresivo, 144',
       fr: 'Gants, pression directe, pansement compressif, 144',
       it: 'Guanti, pressione diretta, fasciatura compressiva, 144',
       en: 'Gloves, direct pressure, pressure bandage, 144',
+      pt: 'Luvas, pressão direta, penso compressivo, 144',
     },
   },
   {
     id: 'c23',
-    front: { de: 'Hirnschlag: Welcher Schnelltest?', es: 'Ictus: ¿qué test rápido usas?', fr: 'AVC : quel test rapide ?', it: 'Ictus: quale test rapido?', en: 'Stroke: which quick test?' },
+    front: { de: 'Hirnschlag: Welcher Schnelltest?', es: 'Ictus: ¿qué test rápido usas?', fr: 'AVC : quel test rapide ?', it: 'Ictus: quale test rapido?', en: 'Stroke: which quick test?', pt: 'AVC: qual o teste rápido?' },
     back: {
       de: 'FAST: Face – Arms – Speech – Time (sofort 144)',
       es: 'FAST: cara – brazos – habla – tiempo (144 ya)',
       fr: 'FAST : visage – bras – parole – temps (144 immédiatement)',
       it: 'FAST: viso – braccia – parola – tempo (subito 144)',
       en: 'FAST: Face – Arms – Speech – Time (call 144 at once)',
+      pt: 'FAST: Face – Arms – Speech – Time (ligar já para o 144)',
     },
   },
   {
     id: 'c24',
-    front: { de: 'Verbrennung – richtig kühlen?', es: 'Quemadura: ¿cómo se enfría bien?', fr: 'Brûlure – comment bien refroidir ?', it: 'Ustione – come raffreddare bene?', en: 'Burn – how to cool correctly?' },
+    front: { de: 'Verbrennung – richtig kühlen?', es: 'Quemadura: ¿cómo se enfría bien?', fr: 'Brûlure – comment bien refroidir ?', it: 'Ustione – come raffreddare bene?', en: 'Burn – how to cool correctly?', pt: 'Queimadura – como arrefecer corretamente?' },
     back: {
       de: '10–20 Min. fliessendes, handwarmes Wasser – kein Eis',
       es: '10–20 min con agua corriente templada; nada de hielo',
       fr: '10–20 min à l’eau courante tiède – pas de glace',
       it: '10–20 min con acqua corrente tiepida – niente ghiaccio',
       en: '10–20 min running lukewarm water – no ice',
+      pt: '10–20 min de água corrente morna – sem gelo',
     },
   },
   {
@@ -665,8 +737,9 @@ export const FIRSTAID_CARDS = [
       fr: 'Validité de l’attestation de sauveteur ?',
       it: 'Validità dell’attestato di soccorritore?',
       en: 'How long is the first-aid certificate valid?',
+      pt: 'Quanto tempo é válido o certificado de socorrista?',
     },
-    back: { de: '6 Jahre', es: '6 años', fr: '6 ans', it: '6 anni', en: '6 years' },
+    back: { de: '6 Jahre', es: '6 años', fr: '6 ans', it: '6 anni', en: '6 years', pt: '6 anos' },
   },
   {
     id: 'c26',
@@ -676,6 +749,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Sortir un blessé de la voiture – quand ?',
       it: 'Estrarre un ferito dall’auto – quando?',
       en: 'Pull an injured person out of the car – when?',
+      pt: 'Tirar uma pessoa ferida do carro – quando?',
     },
     back: {
       de: 'Nur bei akuter Gefahr (z. B. Feuer)',
@@ -683,6 +757,7 @@ export const FIRSTAID_CARDS = [
       fr: 'Seulement en cas de danger immédiat (p. ex. incendie)',
       it: 'Solo in caso di pericolo immediato (ad es. incendio)',
       en: 'Only in case of immediate danger (e.g. fire)',
+      pt: 'Só em caso de perigo imediato (por exemplo, fogo)',
     },
   },
 ]
@@ -698,11 +773,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Quel numéro composes-tu pour l’ambulance en Suisse ?',
       it: 'Quale numero componi per l’ambulanza in Svizzera?',
       en: 'Which number do you dial for the ambulance in Switzerland?',
+      pt: 'Que número marcas para a ambulância na Suíça?',
     },
     options: [
-      { id: 'a', text: { de: '144', es: '144', fr: '144', it: '144', en: '144' }, correct: true },
-      { id: 'b', text: { de: '117', es: '117', fr: '117', it: '117', en: '117' }, correct: false },
-      { id: 'c', text: { de: '118', es: '118', fr: '118', it: '118', en: '118' }, correct: false },
+      { id: 'a', text: { de: '144', es: '144', fr: '144', it: '144', en: '144', pt: '144' }, correct: true },
+      { id: 'b', text: { de: '117', es: '117', fr: '117', it: '117', en: '117', pt: '117' }, correct: false },
+      { id: 'c', text: { de: '118', es: '118', fr: '118', it: '118', en: '118', pt: '118' }, correct: false },
     ],
     explanation: {
       de: '144 ist der Sanitätsnotruf. 117 Polizei, 118 Feuerwehr, 112 europäischer Notruf.',
@@ -710,6 +786,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Le 144 est l’urgence sanitaire. 117 police, 118 pompiers, 112 urgence européenne.',
       it: 'Il 144 è l’emergenza sanitaria. 117 polizia, 118 pompieri, 112 emergenza europea.',
       en: '144 is the medical emergency number. 117 police, 118 fire brigade, 112 European emergency.',
+      pt: 'O 144 é o número de emergência médica. 117 polícia, 118 bombeiros, 112 emergência europeia.',
     },
   },
   {
@@ -722,11 +799,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'À quelle distance places-tu le triangle de panne sur l’autoroute ?',
       it: 'A che distanza collochi il triangolo in autostrada?',
       en: 'At what distance do you set up the warning triangle on the motorway?',
+      pt: 'A que distância colocas o triângulo de sinalização na autoestrada?',
     },
     options: [
-      { id: 'a', text: { de: 'Mindestens 100 m', es: 'A mínimo 100 metros', fr: 'Au moins 100 m', it: 'Almeno 100 m', en: 'At least 100 m' }, correct: true },
-      { id: 'b', text: { de: 'Mindestens 20 m', es: 'A mínimo 20 metros', fr: 'Au moins 20 m', it: 'Almeno 20 m', en: 'At least 20 m' }, correct: false },
-      { id: 'c', text: { de: 'Direkt hinter dem Fahrzeug', es: 'Justo detrás del vehículo', fr: 'Juste derrière le véhicule', it: 'Subito dietro il veicolo', en: 'Right behind the vehicle' }, correct: false },
+      { id: 'a', text: { de: 'Mindestens 100 m', es: 'A mínimo 100 metros', fr: 'Au moins 100 m', it: 'Almeno 100 m', en: 'At least 100 m', pt: 'Pelo menos 100 m' }, correct: true },
+      { id: 'b', text: { de: 'Mindestens 20 m', es: 'A mínimo 20 metros', fr: 'Au moins 20 m', it: 'Almeno 20 m', en: 'At least 20 m', pt: 'Pelo menos 20 m' }, correct: false },
+      { id: 'c', text: { de: 'Direkt hinter dem Fahrzeug', es: 'Justo detrás del vehículo', fr: 'Juste derrière le véhicule', it: 'Subito dietro il veicolo', en: 'Right behind the vehicle', pt: 'Mesmo atrás do veículo' }, correct: false },
     ],
     explanation: {
       de: 'Auf schnellen Strassen mindestens 100 m, sonst mindestens 50 m vom Fahrzeug.',
@@ -734,6 +812,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Sur routes rapides au moins 100 m ; sinon au moins 50 m du véhicule.',
       it: 'Su strade veloci almeno 100 m; altrimenti almeno 50 m dal veicolo.',
       en: 'On fast roads at least 100 m, otherwise at least 50 m from the vehicle.',
+      pt: 'Em vias rápidas pelo menos 100 m, caso contrário pelo menos 50 m do veículo.',
     },
   },
   {
@@ -746,12 +825,13 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Comment sécuriser correctement un lieu d’accident ? (Plusieurs réponses possibles)',
       it: 'Come metti in sicurezza il luogo di un incidente? (Più risposte possibili)',
       en: 'How do you secure an accident scene correctly? (Several answers possible)',
+      pt: 'Como proteges corretamente o local de um acidente? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Warnblinker einschalten', es: 'Encender las luces de emergencia', fr: 'Allumer les feux de détresse', it: 'Accendere le luci di emergenza', en: 'Switch on the hazard lights' }, correct: true },
-      { id: 'b', text: { de: 'Leuchtweste anziehen, bevor ich aussteige', es: 'Ponerme el chaleco antes de bajar', fr: 'Mettre le gilet avant de descendre', it: 'Indossare il gilet prima di scendere', en: 'Put on the vest before getting out' }, correct: true },
-      { id: 'c', text: { de: 'Pannendreieck in genügendem Abstand aufstellen', es: 'Colocar el triángulo a suficiente distancia', fr: 'Placer le triangle à distance suffisante', it: 'Collocare il triangolo a distanza sufficiente', en: 'Set up the triangle at a sufficient distance' }, correct: true },
-      { id: 'd', text: { de: 'Mitten auf der Fahrbahn stehen und winken', es: 'Ponerme en medio de la calzada a hacer señas', fr: 'Rester au milieu de la chaussée à faire signe', it: 'Stare in mezzo alla carreggiata a fare segni', en: 'Stand in the middle of the road waving' }, correct: false },
+      { id: 'a', text: { de: 'Warnblinker einschalten', es: 'Encender las luces de emergencia', fr: 'Allumer les feux de détresse', it: 'Accendere le luci di emergenza', en: 'Switch on the hazard lights', pt: 'Ligar as luzes de emergência' }, correct: true },
+      { id: 'b', text: { de: 'Leuchtweste anziehen, bevor ich aussteige', es: 'Ponerme el chaleco antes de bajar', fr: 'Mettre le gilet avant de descendre', it: 'Indossare il gilet prima di scendere', en: 'Put on the vest before getting out', pt: 'Vestir o colete antes de sair' }, correct: true },
+      { id: 'c', text: { de: 'Pannendreieck in genügendem Abstand aufstellen', es: 'Colocar el triángulo a suficiente distancia', fr: 'Placer le triangle à distance suffisante', it: 'Collocare il triangolo a distanza sufficiente', en: 'Set up the triangle at a sufficient distance', pt: 'Colocar o triângulo a uma distância suficiente' }, correct: true },
+      { id: 'd', text: { de: 'Mitten auf der Fahrbahn stehen und winken', es: 'Ponerme en medio de la calzada a hacer señas', fr: 'Rester au milieu de la chaussée à faire signe', it: 'Stare in mezzo alla carreggiata a fare segni', en: 'Stand in the middle of the road waving', pt: 'Ficar no meio da via a acenar' }, correct: false },
     ],
     explanation: {
       de: 'Eigenschutz zuerst: Warnblinker, Weste, Dreieck – und nie ungeschützt auf der Fahrbahn stehen.',
@@ -759,6 +839,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Ta sécurité d’abord : feux, gilet, triangle – et ne jamais rester sans protection sur la chaussée.',
       it: 'Prima la tua sicurezza: luci, gilet, triangolo – e mai restare senza protezione sulla carreggiata.',
       en: 'Your safety first: hazard lights, vest, triangle – and never stand unprotected on the road.',
+      pt: 'A tua segurança primeiro: luzes de emergência, colete, triângulo – e nunca fiques desprotegido na via.',
     },
   },
   {
@@ -771,6 +852,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Quelle est la première chose à faire sur un lieu d’accident ?',
       it: 'Qual è la prima cosa da fare sul luogo di un incidente?',
       en: 'What is the first thing you do at an accident scene?',
+      pt: 'Qual é a primeira coisa que fazes no local de um acidente?',
     },
     options: [
       {
@@ -781,11 +863,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Prendre une vue d’ensemble et repérer les dangers (Observer–Réfléchir–Agir)',
           it: 'Farsi una visione d’insieme e individuare i pericoli (Osservare–Riflettere–Agire)',
           en: 'Get an overview and spot dangers (Look–Think–Act)',
+          pt: 'Ganhar uma visão geral e identificar perigos (Olhar–Pensar–Agir)',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Sofort zum Verletzten rennen', es: 'Correr de inmediato hacia el herido', fr: 'Courir immédiatement vers le blessé', it: 'Correre subito dal ferito', en: 'Run straight to the injured person' }, correct: false },
-      { id: 'c', text: { de: 'Fotos für die Versicherung machen', es: 'Hacer fotos para el seguro', fr: 'Prendre des photos pour l’assurance', it: 'Fare foto per l’assicurazione', en: 'Take photos for the insurance' }, correct: false },
+      { id: 'b', text: { de: 'Sofort zum Verletzten rennen', es: 'Correr de inmediato hacia el herido', fr: 'Courir immédiatement vers le blessé', it: 'Correre subito dal ferito', en: 'Run straight to the injured person', pt: 'Correr diretamente para a pessoa ferida' }, correct: false },
+      { id: 'c', text: { de: 'Fotos für die Versicherung machen', es: 'Hacer fotos para el seguro', fr: 'Prendre des photos pour l’assurance', it: 'Fare foto per l’assicurazione', en: 'Take photos for the insurance', pt: 'Tirar fotos para o seguro' }, correct: false },
     ],
     explanation: {
       de: 'Erst schauen und denken, dann handeln – wer blind hineinrennt, gefährdet sich selbst.',
@@ -793,6 +876,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'D’abord observer et réfléchir, puis agir – qui fonce à l’aveugle se met en danger.',
       it: 'Prima osservare e riflettere, poi agire: chi si butta alla cieca si mette in pericolo.',
       en: 'First look and think, then act – rushing in blindly endangers yourself.',
+      pt: 'Primeiro olha e pensa, depois age – atirares-te às cegas põe-te em perigo.',
     },
   },
   {
@@ -805,6 +889,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Que signifie le « A » du schéma GABI ?',
       it: 'Cosa significa la «A» dello schema GABI?',
       en: 'What does the “A” in the GABI scheme stand for?',
+      pt: 'O que significa o «A» no esquema GABI?',
     },
     options: [
       {
@@ -815,11 +900,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Ansprechen : parler pour vérifier la conscience',
           it: 'Ansprechen: parlare per verificare la coscienza',
           en: 'Ansprechen: address to check consciousness',
+          pt: 'Ansprechen: interpelar para verificar a consciência',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Atemwege absaugen', es: 'Aspirar la vía aérea', fr: 'Aspirer les voies respiratoires', it: 'Aspirare le vie aeree', en: 'Suction the airway' }, correct: false },
-      { id: 'c', text: { de: 'Auto sichern', es: 'Asegurar el coche', fr: 'Sécuriser la voiture', it: 'Mettere in sicurezza l’auto', en: 'Secure the car' }, correct: false },
+      { id: 'b', text: { de: 'Atemwege absaugen', es: 'Aspirar la vía aérea', fr: 'Aspirer les voies respiratoires', it: 'Aspirare le vie aeree', en: 'Suction the airway', pt: 'Aspirar as vias respiratórias' }, correct: false },
+      { id: 'c', text: { de: 'Auto sichern', es: 'Asegurar el coche', fr: 'Sécuriser la voiture', it: 'Mettere in sicurezza l’auto', en: 'Secure the car', pt: 'Proteger o carro' }, correct: false },
     ],
     explanation: {
       de: 'GABI: Gefahren – Ansprechen – Beatmung – Informieren.',
@@ -827,6 +913,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'GABI : Gefahren (dangers) – Ansprechen (conscience) – Beatmung (respiration) – Informieren (alerter).',
       it: 'GABI: Gefahren (pericoli) – Ansprechen (coscienza) – Beatmung (respirazione) – Informieren (informare).',
       en: 'GABI: Gefahren (dangers) – Ansprechen (consciousness) – Beatmung (breathing) – Informieren (inform).',
+      pt: 'GABI: Gefahren (perigos) – Ansprechen (consciência) – Beatmung (respiração) – Informieren (informar).',
     },
   },
   {
@@ -839,6 +926,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Une personne est inconsciente mais respire normalement. Que fais-tu ?',
       it: 'Una persona è incosciente ma respira normalmente. Cosa fai?',
       en: 'A person is unconscious but breathing normally. What do you do?',
+      pt: 'Uma pessoa está inconsciente mas respira normalmente. O que fazes?',
     },
     options: [
       {
@@ -849,11 +937,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Position latérale de sécurité, surveiller la respiration, appeler le 144',
           it: 'Posizione laterale di sicurezza, controllare il respiro, chiamare il 144',
           en: 'Recovery position, monitor breathing, call 144',
+          pt: 'Posição lateral de segurança, vigiar a respiração, ligar 144',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Sofort mit der Herzdruckmassage beginnen', es: 'Empezar compresiones torácicas de inmediato', fr: 'Commencer immédiatement le massage cardiaque', it: 'Iniziare subito il massaggio cardiaco', en: 'Start chest compressions immediately' }, correct: false },
-      { id: 'c', text: { de: 'Aufsetzen und Wasser geben', es: 'Sentarla y darle agua', fr: 'L’asseoir et lui donner de l’eau', it: 'Metterla seduta e darle acqua', en: 'Sit them up and give water' }, correct: false },
+      { id: 'b', text: { de: 'Sofort mit der Herzdruckmassage beginnen', es: 'Empezar compresiones torácicas de inmediato', fr: 'Commencer immédiatement le massage cardiaque', it: 'Iniziare subito il massaggio cardiaco', en: 'Start chest compressions immediately', pt: 'Começar já as compressões torácicas' }, correct: false },
+      { id: 'c', text: { de: 'Aufsetzen und Wasser geben', es: 'Sentarla y darle agua', fr: 'L’asseoir et lui donner de l’eau', it: 'Metterla seduta e darle acqua', en: 'Sit them up and give water', pt: 'Sentá-la e dar-lhe água' }, correct: false },
     ],
     explanation: {
       de: 'Bewusstlos + normale Atmung = stabile Seitenlage. Reanimiert wird nur, wenn die Atmung nicht normal ist.',
@@ -861,6 +950,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Inconscient + respiration normale = position latérale. On ne réanime que si la respiration n’est pas normale.',
       it: 'Incosciente + respiro normale = posizione laterale. Si rianima solo se il respiro NON è normale.',
       en: 'Unconscious + normal breathing = recovery position. CPR only if breathing is not normal.',
+      pt: 'Inconsciente + respiração normal = posição lateral de segurança. Só se reanima se a respiração não for normal.',
     },
   },
   {
@@ -873,12 +963,13 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Une personne est inconsciente et ne respire pas normalement. Que fais-tu ? (Plusieurs réponses possibles)',
       it: 'Una persona è incosciente e non respira normalmente. Cosa fai? (Più risposte possibili)',
       en: 'A person is unconscious and not breathing normally. What do you do? (Several answers possible)',
+      pt: 'Uma pessoa está inconsciente e não respira normalmente. O que fazes? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: '144 alarmieren (lassen)', es: 'Llamar (o hacer llamar) al 144', fr: 'Appeler (ou faire appeler) le 144', it: 'Chiamare (o far chiamare) il 144', en: 'Call (or have someone call) 144' }, correct: true },
-      { id: 'b', text: { de: 'Sofort mit 30 Kompressionen beginnen', es: 'Empezar ya con 30 compresiones', fr: 'Commencer tout de suite par 30 compressions', it: 'Iniziare subito con 30 compressioni', en: 'Start with 30 compressions right away' }, correct: true },
-      { id: 'c', text: { de: 'Einen AED holen lassen', es: 'Pedir que traigan un DEA', fr: 'Faire chercher un DAE', it: 'Far portare un DAE', en: 'Have an AED fetched' }, correct: true },
-      { id: 'd', text: { de: 'Warten, ob sie von selbst wieder atmet', es: 'Esperar a ver si vuelve a respirar sola', fr: 'Attendre de voir si elle respire à nouveau seule', it: 'Aspettare che ricominci a respirare da sola', en: 'Wait to see if they breathe again by themselves' }, correct: false },
+      { id: 'a', text: { de: '144 alarmieren (lassen)', es: 'Llamar (o hacer llamar) al 144', fr: 'Appeler (ou faire appeler) le 144', it: 'Chiamare (o far chiamare) il 144', en: 'Call (or have someone call) 144', pt: 'Ligar (ou pedir a alguém que ligue) 144' }, correct: true },
+      { id: 'b', text: { de: 'Sofort mit 30 Kompressionen beginnen', es: 'Empezar ya con 30 compresiones', fr: 'Commencer tout de suite par 30 compressions', it: 'Iniziare subito con 30 compressioni', en: 'Start with 30 compressions right away', pt: 'Começar já com 30 compressões' }, correct: true },
+      { id: 'c', text: { de: 'Einen AED holen lassen', es: 'Pedir que traigan un DEA', fr: 'Faire chercher un DAE', it: 'Far portare un DAE', en: 'Have an AED fetched', pt: 'Mandar buscar um DAE' }, correct: true },
+      { id: 'd', text: { de: 'Warten, ob sie von selbst wieder atmet', es: 'Esperar a ver si vuelve a respirar sola', fr: 'Attendre de voir si elle respire à nouveau seule', it: 'Aspettare che ricominci a respirare da sola', en: 'Wait to see if they breathe again by themselves', pt: 'Esperar para ver se volta a respirar sozinha' }, correct: false },
     ],
     explanation: {
       de: 'Keine normale Atmung = Kreislaufstillstand: sofort alarmieren, drücken und den AED einsetzen. Warten kostet Leben.',
@@ -886,6 +977,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Pas de respiration normale = arrêt cardiaque : alerter, comprimer et utiliser le DAE immédiatement. Attendre coûte des vies.',
       it: 'Niente respiro normale = arresto: allertare, comprimere e usare il DAE subito. Aspettare costa vite.',
       en: 'No normal breathing = cardiac arrest: alert, compress and use the AED immediately. Waiting costs lives.',
+      pt: 'Sem respiração normal = paragem cardíaca: alertar, comprimir e usar o DAE de imediato. Esperar custa vidas.',
     },
   },
   {
@@ -898,11 +990,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Quel est le rapport compressions/insufflations en réanimation ?',
       it: 'Qual è il rapporto compressioni/ventilazioni nella rianimazione?',
       en: 'What is the ratio of compressions to breaths in CPR?',
+      pt: 'Qual é a relação entre compressões e ventilações na reanimação?',
     },
     options: [
-      { id: 'a', text: { de: '30 : 2', es: '30:2', fr: '30 : 2', it: '30 : 2', en: '30 : 2' }, correct: true },
-      { id: 'b', text: { de: '15 : 1', es: '15:1', fr: '15 : 1', it: '15 : 1', en: '15 : 1' }, correct: false },
-      { id: 'c', text: { de: '10 : 5', es: '10:5', fr: '10 : 5', it: '10 : 5', en: '10 : 5' }, correct: false },
+      { id: 'a', text: { de: '30 : 2', es: '30:2', fr: '30 : 2', it: '30 : 2', en: '30 : 2', pt: '30 : 2' }, correct: true },
+      { id: 'b', text: { de: '15 : 1', es: '15:1', fr: '15 : 1', it: '15 : 1', en: '15 : 1', pt: '15 : 1' }, correct: false },
+      { id: 'c', text: { de: '10 : 5', es: '10:5', fr: '10 : 5', it: '10 : 5', en: '10 : 5', pt: '10 : 5' }, correct: false },
     ],
     explanation: {
       de: '30 Kompressionen, dann 2 Beatmungen – Tempo 100–120/min, Tiefe 5–6 cm.',
@@ -910,6 +1003,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: '30 compressions, puis 2 insufflations – rythme 100–120/min, profondeur 5–6 cm.',
       it: '30 compressioni, poi 2 ventilazioni – ritmo 100–120/min, profondità 5–6 cm.',
       en: '30 compressions, then 2 breaths – rate 100–120/min, depth 5–6 cm.',
+      pt: '30 compressões, depois 2 ventilações – ritmo 100–120/min, profundidade 5–6 cm.',
     },
   },
   {
@@ -922,11 +1016,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'À quel rythme fais-tu le massage cardiaque ?',
       it: 'A che ritmo esegui il massaggio cardiaco?',
       en: 'At what rate do you perform chest compressions?',
+      pt: 'A que ritmo fazes as compressões torácicas?',
     },
     options: [
-      { id: 'a', text: { de: '100–120 pro Minute', es: '100–120 por minuto', fr: '100–120 par minute', it: '100–120 al minuto', en: '100–120 per minute' }, correct: true },
-      { id: 'b', text: { de: '60 pro Minute', es: '60 por minuto', fr: '60 par minute', it: '60 al minuto', en: '60 per minute' }, correct: false },
-      { id: 'c', text: { de: 'So schnell wie möglich, über 160', es: 'Lo más rápido posible, más de 160', fr: 'Le plus vite possible, plus de 160', it: 'Il più veloce possibile, oltre 160', en: 'As fast as possible, over 160' }, correct: false },
+      { id: 'a', text: { de: '100–120 pro Minute', es: '100–120 por minuto', fr: '100–120 par minute', it: '100–120 al minuto', en: '100–120 per minute', pt: '100–120 por minuto' }, correct: true },
+      { id: 'b', text: { de: '60 pro Minute', es: '60 por minuto', fr: '60 par minute', it: '60 al minuto', en: '60 per minute', pt: '60 por minuto' }, correct: false },
+      { id: 'c', text: { de: 'So schnell wie möglich, über 160', es: 'Lo más rápido posible, más de 160', fr: 'Le plus vite possible, plus de 160', it: 'Il più veloce possibile, oltre 160', en: 'As fast as possible, over 160', pt: 'O mais rápido possível, mais de 160' }, correct: false },
     ],
     explanation: {
       de: '100–120/min – etwa im Takt von «Stayin’ Alive».',
@@ -934,6 +1029,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: '100–120/min – environ au rythme de « Stayin’ Alive ».',
       it: '100–120/min – più o meno al ritmo di «Stayin’ Alive».',
       en: '100–120/min – roughly to the beat of “Stayin’ Alive”.',
+      pt: '100–120/min – mais ou menos ao ritmo de «Stayin’ Alive».',
     },
   },
   {
@@ -946,6 +1042,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Peux-tu utiliser un DAE sans formation médicale ?',
       it: 'Puoi usare un DAE senza formazione medica?',
       en: 'May you use an AED as a layperson?',
+      pt: 'Podes usar um DAE sem seres profissional de saúde?',
     },
     options: [
       {
@@ -956,11 +1053,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Oui – l’appareil guide par la voix à chaque étape',
           it: 'Sì – l’apparecchio guida con la voce a ogni passo',
           en: 'Yes – the device guides you by voice through everything',
+          pt: 'Sim – o aparelho guia-te por voz em tudo',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Nein, nur Sanitäter dürfen das', es: 'No, solo el personal sanitario', fr: 'Non, seulement le personnel sanitaire', it: 'No, solo il personale sanitario', en: 'No, only paramedics may' }, correct: false },
-      { id: 'c', text: { de: 'Nur mit schriftlicher Bewilligung', es: 'Solo con una autorización escrita', fr: 'Seulement avec une autorisation écrite', it: 'Solo con un’autorizzazione scritta', en: 'Only with written authorisation' }, correct: false },
+      { id: 'b', text: { de: 'Nein, nur Sanitäter dürfen das', es: 'No, solo el personal sanitario', fr: 'Non, seulement le personnel sanitaire', it: 'No, solo il personale sanitario', en: 'No, only paramedics may', pt: 'Não, só os paramédicos podem' }, correct: false },
+      { id: 'c', text: { de: 'Nur mit schriftlicher Bewilligung', es: 'Solo con una autorización escrita', fr: 'Seulement avec une autorisation écrite', it: 'Solo con un’autorizzazione scritta', en: 'Only with written authorisation', pt: 'Só com autorização escrita' }, correct: false },
     ],
     explanation: {
       de: 'AEDs sind für Laien gebaut: einschalten, zuhören, kleben, Abstand beim Schock – das Gerät entscheidet selbst.',
@@ -968,6 +1066,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Les DAE sont conçus pour tous : allumer, écouter, coller les électrodes, s’écarter au choc – l’appareil décide seul.',
       it: 'I DAE sono fatti per tutti: accendi, ascolta, attacca gli elettrodi, allontanati allo shock – l’apparecchio decide da solo.',
       en: 'AEDs are built for laypeople: switch on, listen, stick the pads, stand clear for the shock – the device decides by itself.',
+      pt: 'Os DAE são feitos para qualquer pessoa: liga, escuta, cola os elétrodos, afasta-te para o choque – o aparelho decide sozinho.',
     },
   },
   {
@@ -980,6 +1079,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Comment arrêter une plaie qui saigne beaucoup ?',
       it: 'Come fermi una ferita che sanguina molto?',
       en: 'How do you stop a heavily bleeding wound?',
+      pt: 'Como paras uma ferida que sangra muito?',
     },
     options: [
       {
@@ -990,11 +1090,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Pression directe sur la plaie et pansement compressif',
           it: 'Pressione diretta sulla ferita e fasciatura compressiva',
           en: 'Direct pressure on the wound and a pressure bandage',
+          pt: 'Pressão direta sobre a ferida e um penso compressivo',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Die Wunde zuerst gründlich auswaschen', es: 'Primero lavar bien la herida', fr: 'D’abord bien laver la plaie', it: 'Prima lavare bene la ferita', en: 'First wash the wound thoroughly' }, correct: false },
-      { id: 'c', text: { de: 'Nichts tun, bis die Ambulanz kommt', es: 'No hacer nada hasta que llegue la ambulancia', fr: 'Ne rien faire jusqu’à l’arrivée de l’ambulance', it: 'Non fare nulla fino all’arrivo dell’ambulanza', en: 'Do nothing until the ambulance arrives' }, correct: false },
+      { id: 'b', text: { de: 'Die Wunde zuerst gründlich auswaschen', es: 'Primero lavar bien la herida', fr: 'D’abord bien laver la plaie', it: 'Prima lavare bene la ferita', en: 'First wash the wound thoroughly', pt: 'Primeiro lavar bem a ferida' }, correct: false },
+      { id: 'c', text: { de: 'Nichts tun, bis die Ambulanz kommt', es: 'No hacer nada hasta que llegue la ambulancia', fr: 'Ne rien faire jusqu’à l’arrivée de l’ambulance', it: 'Non fare nulla fino all’arrivo dell’ambulanza', en: 'Do nothing until the ambulance arrives', pt: 'Não fazer nada até a ambulância chegar' }, correct: false },
     ],
     explanation: {
       de: 'Druck stoppt die Blutung. Handschuhe anziehen, durchgeblutete Verbände nicht entfernen, sondern überwickeln.',
@@ -1002,6 +1103,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'La pression arrête l’hémorragie. Mets des gants ; si le pansement est imbibé, ajoute des couches sans le retirer.',
       it: 'La pressione ferma l’emorragia. Metti i guanti; se la fasciatura si impregna, aggiungi strati senza toglierla.',
       en: 'Pressure stops the bleeding. Wear gloves; if the bandage soaks through, add layers without removing it.',
+      pt: 'A pressão para a hemorragia. Usa luvas; se o penso ensopar, acrescenta camadas sem o retirar.',
     },
   },
   {
@@ -1014,12 +1116,13 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Quels signes évoquent un AVC ? (Plusieurs réponses possibles)',
       it: 'Quali segni fanno pensare a un ictus? (Più risposte possibili)',
       en: 'Which signs point to a stroke? (Several answers possible)',
+      pt: 'Que sinais apontam para um AVC? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Hängender Mundwinkel', es: 'Un lado de la boca caído', fr: 'Coin de bouche tombant', it: 'Angolo della bocca cadente', en: 'Drooping corner of the mouth' }, correct: true },
-      { id: 'b', text: { de: 'Ein Arm sinkt beim Hochhalten ab', es: 'Un brazo se cae al intentar mantenerlo en alto', fr: 'Un bras s’affaisse quand on le tient levé', it: 'Un braccio scende quando lo si tiene alzato', en: 'One arm drifts down when held up' }, correct: true },
-      { id: 'c', text: { de: 'Verwaschene, undeutliche Sprache', es: 'Habla confusa o arrastrada', fr: 'Parole confuse, indistincte', it: 'Parola impastata, indistinta', en: 'Slurred, unclear speech' }, correct: true },
-      { id: 'd', text: { de: 'Juckende Hände', es: 'Picor en las manos', fr: 'Mains qui démangent', it: 'Prurito alle mani', en: 'Itchy hands' }, correct: false },
+      { id: 'a', text: { de: 'Hängender Mundwinkel', es: 'Un lado de la boca caído', fr: 'Coin de bouche tombant', it: 'Angolo della bocca cadente', en: 'Drooping corner of the mouth', pt: 'Canto da boca caído' }, correct: true },
+      { id: 'b', text: { de: 'Ein Arm sinkt beim Hochhalten ab', es: 'Un brazo se cae al intentar mantenerlo en alto', fr: 'Un bras s’affaisse quand on le tient levé', it: 'Un braccio scende quando lo si tiene alzato', en: 'One arm drifts down when held up', pt: 'Um braço cai quando levantado' }, correct: true },
+      { id: 'c', text: { de: 'Verwaschene, undeutliche Sprache', es: 'Habla confusa o arrastrada', fr: 'Parole confuse, indistincte', it: 'Parola impastata, indistinta', en: 'Slurred, unclear speech', pt: 'Fala arrastada, pouco clara' }, correct: true },
+      { id: 'd', text: { de: 'Juckende Hände', es: 'Picor en las manos', fr: 'Mains qui démangent', it: 'Prurito alle mani', en: 'Itchy hands', pt: 'Comichão nas mãos' }, correct: false },
     ],
     explanation: {
       de: 'FAST-Test: Face, Arms, Speech – und Time: sofort 144, jede Minute zählt.',
@@ -1027,6 +1130,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Test FAST : visage, bras, parole – et temps : 144 immédiatement, chaque minute compte.',
       it: 'Test FAST: viso, braccia, parola – e tempo: subito 144, ogni minuto conta.',
       en: 'FAST test: Face, Arms, Speech – and Time: call 144 at once, every minute counts.',
+      pt: 'Teste FAST: Face, Arms, Speech – e Time: liga já para o 144, cada minuto conta.',
     },
   },
   {
@@ -1039,6 +1143,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Comment traiter correctement une brûlure ?',
       it: 'Come tratti correttamente un’ustione?',
       en: 'How do you treat a burn correctly?',
+      pt: 'Como tratas corretamente uma queimadura?',
     },
     options: [
       {
@@ -1049,11 +1154,12 @@ export const FIRSTAID_QUESTIONS = [
           fr: 'Refroidir 10–20 minutes à l’eau courante tiède',
           it: 'Raffreddare 10–20 minuti con acqua corrente tiepida',
           en: 'Cool with running lukewarm water for 10–20 minutes',
+          pt: 'Arrefecer com água corrente morna durante 10–20 minutos',
         },
         correct: true,
       },
-      { id: 'b', text: { de: 'Eiswürfel direkt auf die Haut legen', es: 'Poner cubitos de hielo directamente en la piel', fr: 'Mettre des glaçons directement sur la peau', it: 'Mettere cubetti di ghiaccio direttamente sulla pelle', en: 'Put ice cubes directly on the skin' }, correct: false },
-      { id: 'c', text: { de: 'Butter oder Salbe auftragen', es: 'Aplicar mantequilla o pomada', fr: 'Appliquer du beurre ou une pommade', it: 'Applicare burro o pomata', en: 'Apply butter or ointment' }, correct: false },
+      { id: 'b', text: { de: 'Eiswürfel direkt auf die Haut legen', es: 'Poner cubitos de hielo directamente en la piel', fr: 'Mettre des glaçons directement sur la peau', it: 'Mettere cubetti di ghiaccio direttamente sulla pelle', en: 'Put ice cubes directly on the skin', pt: 'Colocar cubos de gelo diretamente na pele' }, correct: false },
+      { id: 'c', text: { de: 'Butter oder Salbe auftragen', es: 'Aplicar mantequilla o pomada', fr: 'Appliquer du beurre ou une pommade', it: 'Applicare burro o pomata', en: 'Apply butter or ointment', pt: 'Aplicar manteiga ou pomada' }, correct: false },
     ],
     explanation: {
       de: 'Kühlen ja, aber nie mit Eis. Keine Hausmittel, Blasen nicht öffnen, bei grossen Flächen 144.',
@@ -1061,6 +1167,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Refroidir oui, mais jamais avec de la glace. Pas de remèdes maison, ne pas percer les cloques ; grandes surfaces → 144.',
       it: 'Raffreddare sì, ma mai con il ghiaccio. Niente rimedi casalinghi, non aprire le vesciche; superfici estese → 144.',
       en: 'Cool yes, but never with ice. No home remedies, do not open blisters; for large areas call 144.',
+      pt: 'Arrefecer sim, mas nunca com gelo. Sem remédios caseiros, não abras bolhas; em áreas extensas liga 144.',
     },
   },
   {
@@ -1073,11 +1180,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Quand peux-tu sortir un blessé de la voiture ?',
       it: 'Quando puoi estrarre un ferito dall’auto?',
       en: 'When may you pull an injured person out of the car?',
+      pt: 'Quando podes tirar uma pessoa ferida do carro?',
     },
     options: [
-      { id: 'a', text: { de: 'Nur bei akuter Gefahr, z. B. Feuer', es: 'Solo si hay peligro inmediato, p. ej. fuego', fr: 'Seulement en cas de danger immédiat, p. ex. incendie', it: 'Solo in caso di pericolo immediato, ad es. incendio', en: 'Only in immediate danger, e.g. fire' }, correct: true },
-      { id: 'b', text: { de: 'Immer sofort', es: 'Siempre, de inmediato', fr: 'Toujours, immédiatement', it: 'Sempre, subito', en: 'Always, immediately' }, correct: false },
-      { id: 'c', text: { de: 'Nie, unter keinen Umständen', es: 'Nunca, bajo ninguna circunstancia', fr: 'Jamais, en aucune circonstance', it: 'Mai, in nessuna circostanza', en: 'Never, under any circumstances' }, correct: false },
+      { id: 'a', text: { de: 'Nur bei akuter Gefahr, z. B. Feuer', es: 'Solo si hay peligro inmediato, p. ej. fuego', fr: 'Seulement en cas de danger immédiat, p. ex. incendie', it: 'Solo in caso di pericolo immediato, ad es. incendio', en: 'Only in immediate danger, e.g. fire', pt: 'Só em perigo imediato, por exemplo fogo' }, correct: true },
+      { id: 'b', text: { de: 'Immer sofort', es: 'Siempre, de inmediato', fr: 'Toujours, immédiatement', it: 'Sempre, subito', en: 'Always, immediately', pt: 'Sempre, de imediato' }, correct: false },
+      { id: 'c', text: { de: 'Nie, unter keinen Umständen', es: 'Nunca, bajo ninguna circunstancia', fr: 'Jamais, en aucune circonstance', it: 'Mai, in nessuna circostanza', en: 'Never, under any circumstances', pt: 'Nunca, em nenhuma circunstância' }, correct: false },
     ],
     explanation: {
       de: 'Bewegen kann Verletzungen verschlimmern – ausser die Gefahr am Ort ist grösser (Feuer, Verkehr).',
@@ -1085,6 +1193,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Le déplacer peut aggraver les blessures – sauf si le danger sur place est plus grand (feu, trafic).',
       it: 'Spostarlo può aggravare le lesioni – salvo che il pericolo sul posto sia maggiore (fuoco, traffico).',
       en: 'Moving can worsen injuries – unless the danger on site is greater (fire, traffic).',
+      pt: 'Mover pode agravar as lesões – a menos que o perigo no local seja maior (fogo, trânsito).',
     },
   },
   {
@@ -1097,11 +1206,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Que dit le droit suisse sur le devoir d’aider ?',
       it: 'Cosa dice il diritto svizzero sull’aiutare?',
       en: 'What does Swiss law say about helping?',
+      pt: 'O que diz a lei suíça sobre ajudar?',
     },
     options: [
-      { id: 'a', text: { de: 'Helfen ist Pflicht, soweit es zumutbar ist', es: 'Ayudar es obligatorio dentro de lo razonable', fr: 'Aider est un devoir, dans la mesure du raisonnable', it: 'Aiutare è un obbligo, nei limiti del ragionevole', en: 'Helping is a duty, as far as reasonable' }, correct: true },
-      { id: 'b', text: { de: 'Helfen ist freiwillig', es: 'Ayudar es totalmente voluntario', fr: 'Aider est volontaire', it: 'Aiutare è volontario', en: 'Helping is voluntary' }, correct: false },
-      { id: 'c', text: { de: 'Nur Ärzte müssen helfen', es: 'Solo los médicos están obligados', fr: 'Seuls les médecins doivent aider', it: 'Solo i medici devono aiutare', en: 'Only doctors must help' }, correct: false },
+      { id: 'a', text: { de: 'Helfen ist Pflicht, soweit es zumutbar ist', es: 'Ayudar es obligatorio dentro de lo razonable', fr: 'Aider est un devoir, dans la mesure du raisonnable', it: 'Aiutare è un obbligo, nei limiti del ragionevole', en: 'Helping is a duty, as far as reasonable', pt: 'Ajudar é um dever, dentro do razoável' }, correct: true },
+      { id: 'b', text: { de: 'Helfen ist freiwillig', es: 'Ayudar es totalmente voluntario', fr: 'Aider est volontaire', it: 'Aiutare è volontario', en: 'Helping is voluntary', pt: 'Ajudar é voluntário' }, correct: false },
+      { id: 'c', text: { de: 'Nur Ärzte müssen helfen', es: 'Solo los médicos están obligados', fr: 'Seuls les médecins doivent aider', it: 'Solo i medici devono aiutare', en: 'Only doctors must help', pt: 'Só os médicos têm de ajudar' }, correct: false },
     ],
     explanation: {
       de: 'Art. 128 StGB: Unterlassung der Nothilfe ist strafbar. Wer nach bestem Wissen hilft, riskiert nichts.',
@@ -1109,6 +1219,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Art. 128 CP : l’omission de prêter secours est punissable. Qui aide au mieux de ses connaissances ne risque rien.',
       it: 'Art. 128 CP: l’omissione di soccorso è punibile. Chi aiuta al meglio delle sue conoscenze non rischia nulla.',
       en: 'Art. 128 Criminal Code: failure to render aid is punishable. Whoever helps to the best of their knowledge risks nothing.',
+      pt: 'Art. 128.º do Código Penal: a omissão de auxílio é punível. Quem ajuda da melhor forma que sabe não arrisca nada.',
     },
   },
   {
@@ -1121,11 +1232,12 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Combien de temps l’attestation de sauveteur est-elle valable ?',
       it: 'Quanto è valido l’attestato di soccorritore?',
       en: 'How long is the first-aid certificate valid?',
+      pt: 'Quanto tempo é válido o certificado de socorrista?',
     },
     options: [
-      { id: 'a', text: { de: '6 Jahre', es: '6 años', fr: '6 ans', it: '6 anni', en: '6 years' }, correct: true },
-      { id: 'b', text: { de: '2 Jahre', es: '2 años', fr: '2 ans', it: '2 anni', en: '2 years' }, correct: false },
-      { id: 'c', text: { de: 'Unbeschränkt', es: 'Para siempre', fr: 'Illimité', it: 'Illimitato', en: 'Unlimited' }, correct: false },
+      { id: 'a', text: { de: '6 Jahre', es: '6 años', fr: '6 ans', it: '6 anni', en: '6 years', pt: '6 anos' }, correct: true },
+      { id: 'b', text: { de: '2 Jahre', es: '2 años', fr: '2 ans', it: '2 anni', en: '2 years', pt: '2 anos' }, correct: false },
+      { id: 'c', text: { de: 'Unbeschränkt', es: 'Para siempre', fr: 'Illimité', it: 'Illimitato', en: 'Unlimited', pt: 'Ilimitado' }, correct: false },
     ],
     explanation: {
       de: 'Der Ausweis ist 6 Jahre gültig und muss beim Gesuch für den Lernfahrausweis noch gültig sein.',
@@ -1133,6 +1245,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Elle est valable 6 ans et doit l’être encore lors de la demande du permis d’élève.',
       it: 'Vale 6 anni e deve essere ancora valido alla richiesta della licenza per allievo.',
       en: 'It is valid for 6 years and must still be valid when applying for the learner’s permit.',
+      pt: 'É válido por 6 anos e tem de estar ainda válido ao pedir a carta de aprendizagem.',
     },
   },
   {
@@ -1145,12 +1258,13 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Que signales-tu au 144 ? (Plusieurs réponses possibles)',
       it: 'Cosa comunichi al 144? (Più risposte possibili)',
       en: 'What do you report when calling 144? (Several answers possible)',
+      pt: 'O que comunicas ao ligar para o 144? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Wo es passiert ist', es: 'Dónde ha ocurrido', fr: 'Où c’est arrivé', it: 'Dove è successo', en: 'Where it happened' }, correct: true },
-      { id: 'b', text: { de: 'Was passiert ist und wie viele Verletzte', es: 'Qué ha pasado y cuántos heridos hay', fr: 'Ce qui s’est passé et combien de blessés', it: 'Cosa è successo e quanti feriti', en: 'What happened and how many injured' }, correct: true },
-      { id: 'c', text: { de: 'Wer anruft', es: 'Quién llama', fr: 'Qui appelle', it: 'Chi chiama', en: 'Who is calling' }, correct: true },
-      { id: 'd', text: { de: 'Nichts – einfach auflegen, damit sie schnell kommen', es: 'Nada: colgar rápido para que vengan antes', fr: 'Rien – raccrocher vite pour qu’ils arrivent plus tôt', it: 'Niente – riagganciare subito perché arrivino prima', en: 'Nothing – just hang up so they come faster' }, correct: false },
+      { id: 'a', text: { de: 'Wo es passiert ist', es: 'Dónde ha ocurrido', fr: 'Où c’est arrivé', it: 'Dove è successo', en: 'Where it happened', pt: 'Onde aconteceu' }, correct: true },
+      { id: 'b', text: { de: 'Was passiert ist und wie viele Verletzte', es: 'Qué ha pasado y cuántos heridos hay', fr: 'Ce qui s’est passé et combien de blessés', it: 'Cosa è successo e quanti feriti', en: 'What happened and how many injured', pt: 'O que aconteceu e quantos feridos' }, correct: true },
+      { id: 'c', text: { de: 'Wer anruft', es: 'Quién llama', fr: 'Qui appelle', it: 'Chi chiama', en: 'Who is calling', pt: 'Quem está a ligar' }, correct: true },
+      { id: 'd', text: { de: 'Nichts – einfach auflegen, damit sie schnell kommen', es: 'Nada: colgar rápido para que vengan antes', fr: 'Rien – raccrocher vite pour qu’ils arrivent plus tôt', it: 'Niente – riagganciare subito perché arrivino prima', en: 'Nothing – just hang up so they come faster', pt: 'Nada – desligar logo para chegarem mais depressa' }, correct: false },
     ],
     explanation: {
       de: 'Wo – was – wie viele – wer. Und nie zuerst auflegen: die Zentrale gibt dir Anweisungen.',
@@ -1158,6 +1272,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Où – quoi – combien – qui. Et ne raccroche jamais en premier : la centrale te donne des instructions.',
       it: 'Dove – cosa – quanti – chi. E non riagganciare mai per primo: la centrale ti dà istruzioni.',
       en: 'Where – what – how many – who. And never hang up first: the dispatcher gives you instructions.',
+      pt: 'Onde – o quê – quantos – quem. E nunca desligues primeiro: a central dá-te instruções.',
     },
   },
   {
@@ -1170,12 +1285,13 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Une personne montre des signes de choc (pâle, sueurs froides, agitée). Que fais-tu ? (Plusieurs réponses possibles)',
       it: 'Una persona mostra segni di shock (pallida, sudore freddo, agitata). Cosa fai? (Più risposte possibili)',
       en: 'A person shows signs of shock (pale, cold sweat, restless). What do you do? (Several answers possible)',
+      pt: 'Uma pessoa mostra sinais de choque (pálida, suor frio, agitada). O que fazes? (Podem ser várias respostas)',
     },
     options: [
-      { id: 'a', text: { de: 'Hinlegen und vor Kälte schützen', es: 'Tumbarla y protegerla del frío', fr: 'L’allonger et la protéger du froid', it: 'Sdraiarla e proteggerla dal freddo', en: 'Lay them down and protect from cold' }, correct: true },
-      { id: 'b', text: { de: 'Beruhigen und bei ihr bleiben', es: 'Tranquilizarla y quedarme con ella', fr: 'La rassurer et rester avec elle', it: 'Tranquillizzarla e restare con lei', en: 'Reassure them and stay with them' }, correct: true },
-      { id: 'c', text: { de: 'Etwas Warmes zu trinken geben', es: 'Darle una bebida caliente', fr: 'Donner une boisson chaude', it: 'Darle una bevanda calda', en: 'Give a warm drink' }, correct: false },
-      { id: 'd', text: { de: '144 alarmieren', es: 'Llamar al 144', fr: 'Appeler le 144', it: 'Chiamare il 144', en: 'Call 144' }, correct: true },
+      { id: 'a', text: { de: 'Hinlegen und vor Kälte schützen', es: 'Tumbarla y protegerla del frío', fr: 'L’allonger et la protéger du froid', it: 'Sdraiarla e proteggerla dal freddo', en: 'Lay them down and protect from cold', pt: 'Deitá-la e protegê-la do frio' }, correct: true },
+      { id: 'b', text: { de: 'Beruhigen und bei ihr bleiben', es: 'Tranquilizarla y quedarme con ella', fr: 'La rassurer et rester avec elle', it: 'Tranquillizzarla e restare con lei', en: 'Reassure them and stay with them', pt: 'Tranquilizá-la e ficar com ela' }, correct: true },
+      { id: 'c', text: { de: 'Etwas Warmes zu trinken geben', es: 'Darle una bebida caliente', fr: 'Donner une boisson chaude', it: 'Darle una bevanda calda', en: 'Give a warm drink', pt: 'Dar uma bebida quente' }, correct: false },
+      { id: 'd', text: { de: '144 alarmieren', es: 'Llamar al 144', fr: 'Appeler le 144', it: 'Chiamare il 144', en: 'Call 144', pt: 'Ligar 144' }, correct: true },
     ],
     explanation: {
       de: 'Hinlegen, Wärmeerhalt, betreuen, 144 – aber nichts zu essen oder zu trinken geben.',
@@ -1183,6 +1299,7 @@ export const FIRSTAID_QUESTIONS = [
       fr: 'Allonger, garder au chaud, accompagner, 144 – mais ne rien donner à manger ni à boire.',
       it: 'Sdraiare, mantenere il calore, assistere, 144 – ma non dare né da mangiare né da bere.',
       en: 'Lay down, keep warm, look after them, call 144 – but give nothing to eat or drink.',
+      pt: 'Deitar, manter quente, cuidar dela, ligar 144 – mas não dar nada para comer nem beber.',
     },
   },
 ]
