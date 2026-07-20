@@ -8,7 +8,8 @@
       "es": "Aparcar en paralelo (Längseinparken)",
       "fr": "Stationnement en parallèle (Längseinparken)",
       "it": "Parcheggio in parallelo (Längseinparken)",
-      "en": "Parallel parking (Längseinparken)"
+      "en": "Parallel parking (Längseinparken)",
+      "pt": "Estacionamento em paralelo (Längseinparken)"
     },
     "tips": [
       {
@@ -16,35 +17,40 @@
         "es": "Pon el intermitente con antelación y detente en paralelo junto al coche delantero, a unos 50 cm.",
         "fr": "Clignote tôt et arrête-toi en parallèle à côté du véhicule avant, à env. 50 cm.",
         "it": "Metti la freccia per tempo e fermati in parallelo accanto al veicolo davanti, a circa 50 cm.",
-        "en": "Indicate early and stop parallel to the front car, about 50 cm away."
+        "en": "Indicate early and stop parallel to the front car, about 50 cm away.",
+        "pt": "Liga o pisca com antecedência e para em paralelo junto ao carro da frente, a cerca de 50 cm."
       },
       {
         "de": "Langsam rückwärts, voll einschlagen, wenn dein Heck auf Höhe des Hecks des Nachbarautos ist.",
         "es": "Marcha atrás despacio; gira a tope cuando tu parte trasera esté a la altura de la trasera del coche vecino.",
         "fr": "Recule lentement ; braque à fond quand ton arrière est à la hauteur de l'arrière de la voiture voisine.",
         "it": "Retromarcia lenta; sterza a fondo quando la tua coda è all'altezza della coda dell'auto vicina.",
-        "en": "Reverse slowly; turn fully when your rear is level with the rear of the neighbouring car."
+        "en": "Reverse slowly; turn fully when your rear is level with the rear of the neighbouring car.",
+        "pt": "Anda em marcha-atrás devagar; vira o volante a fundo quando a tua traseira estiver ao nível da traseira do carro vizinho."
       },
       {
         "de": "Bei ca. 45° gegenlenken und in die Lücke gleiten; vorne und hinten Platz lassen.",
         "es": "A unos 45°, contravuelve y deslízate en el hueco; deja espacio delante y detrás.",
         "fr": "À env. 45°, contre-braque et glisse dans la place ; laisse de l'espace devant et derrière.",
         "it": "A circa 45°, controsterza e scivola nel posto; lascia spazio davanti e dietro.",
-        "en": "At about 45°, counter-steer and glide into the space; leave room front and back."
+        "en": "At about 45°, counter-steer and glide into the space; leave room front and back.",
+        "pt": "A cerca de 45°, contravira o volante e desliza para o espaço; deixa espaço à frente e atrás."
       },
       {
         "de": "Während des ganzen Manövers rundum beobachten – der Experte achtet auf deine Blicke, nicht nur aufs Resultat.",
         "es": "Observa alrededor durante toda la maniobra: el examinador se fija en tus miradas, no solo en el resultado.",
         "fr": "Observe tout autour pendant toute la manœuvre – l'expert regarde tes contrôles visuels, pas seulement le résultat.",
         "it": "Osserva tutt'intorno durante tutta la manovra: l'esperto guarda i tuoi controlli visivi, non solo il risultato.",
-        "en": "Keep looking all around during the whole manoeuvre – the examiner watches your checks, not just the result."
+        "en": "Keep looking all around during the whole manoeuvre – the examiner watches your checks, not just the result.",
+        "pt": "Observa à tua volta durante toda a manobra – o examinador repara nos teus olhares, não só no resultado."
       },
       {
         "de": "Korrigieren ist erlaubt! Lieber ruhig nachkorrigieren als hektisch werden.",
         "es": "¡Corregir está permitido! Mejor una corrección tranquila que ponerse nervioso.",
         "fr": "Corriger est permis ! Mieux vaut une correction calme que de s'agiter.",
         "it": "Correggere è permesso! Meglio una correzione tranquilla che agitarsi.",
-        "en": "Correcting is allowed! Better a calm correction than getting hectic."
+        "en": "Correcting is allowed! Better a calm correction than getting hectic.",
+        "pt": "Corrigir é permitido! Mais vale uma correção calma do que ficares nervoso."
       }
     ]
   },
@@ -57,7 +63,8 @@
       "es": "Marcha atrás en tramo largo",
       "fr": "Marche arrière (longue distance)",
       "it": "Retromarcia (tratto lungo)",
-      "en": "Reversing (longer distance)"
+      "en": "Reversing (longer distance)",
+      "pt": "Marcha-atrás (troço longo)"
     },
     "tips": [
       {
@@ -65,28 +72,32 @@
         "es": "Gira el cuerpo y mira por la luneta trasera, no solo por los espejos.",
         "fr": "Tourne le corps et regarde par la lunette arrière – pas seulement dans les rétroviseurs.",
         "it": "Gira il corpo e guarda dal lunotto posteriore, non solo dagli specchietti.",
-        "en": "Turn your body and look through the rear window – not just the mirrors."
+        "en": "Turn your body and look through the rear window – not just the mirrors.",
+        "pt": "Roda o corpo e olha pelo vidro traseiro – não uses só os espelhos."
       },
       {
         "de": "Schritttempo halten, die Kupplung schleifen lassen (bei Schaltwagen).",
         "es": "Mantén paso de peatón, jugando con el embrague (en coche manual).",
         "fr": "Reste au pas, en faisant patiner l'embrayage (boîte manuelle).",
         "it": "Mantieni il passo d'uomo, facendo slittare la frizione (cambio manuale).",
-        "en": "Keep walking pace, slipping the clutch (manual gearbox)."
+        "en": "Keep walking pace, slipping the clutch (manual gearbox).",
+        "pt": "Mantém o ritmo de passo, deixando a embraiagem patinar (caixa manual)."
       },
       {
         "de": "Parallel und nah am rechten Rand bleiben; kleine Lenkkorrekturen genügen.",
         "es": "Mantente paralelo y cerca del borde derecho; bastan pequeñas correcciones de volante.",
         "fr": "Reste parallèle et près du bord droit ; de petites corrections de volant suffisent.",
         "it": "Resta parallelo e vicino al bordo destro; bastano piccole correzioni di sterzo.",
-        "en": "Stay parallel and close to the right edge; small steering corrections are enough."
+        "en": "Stay parallel and close to the right edge; small steering corrections are enough.",
+        "pt": "Mantém-te paralelo e perto do bordo direito; pequenas correções de volante bastam."
       },
       {
         "de": "Für Fussgänger und Fahrzeuge sofort anhalten – Rückwärtsfahrende haben nie Vortritt.",
         "es": "Detente de inmediato ante peatones y vehículos: marcha atrás nunca tienes prioridad.",
         "fr": "Arrête-toi immédiatement pour les piétons et véhicules – en marche arrière tu n'as jamais la priorité.",
         "it": "Fermati subito per pedoni e veicoli: in retromarcia non hai mai la precedenza.",
-        "en": "Stop immediately for pedestrians and vehicles – when reversing you never have priority."
+        "en": "Stop immediately for pedestrians and vehicles – when reversing you never have priority.",
+        "pt": "Pára de imediato perante peões e veículos – em marcha-atrás nunca tens prioridade."
       }
     ]
   },
@@ -99,7 +110,8 @@
       "es": "Prioridad de la derecha",
       "fr": "Priorité de droite",
       "it": "Precedenza da destra",
-      "en": "Priority to the right"
+      "en": "Priority to the right",
+      "pt": "Prioridade à direita"
     },
     "tips": [
       {
@@ -107,28 +119,32 @@
         "es": "En los barrios, escanea cada cruce: sin señales = prioridad de la derecha.",
         "fr": "Dans les quartiers, scanne chaque intersection : pas de signaux = priorité de droite.",
         "it": "Nei quartieri, scandaglia ogni incrocio: nessun segnale = precedenza da destra.",
-        "en": "In residential areas, scan every junction: no signs = priority to the right."
+        "en": "In residential areas, scan every junction: no signs = priority to the right.",
+        "pt": "Nos bairros, analisa cada cruzamento: sem sinais = prioridade à direita."
       },
       {
         "de": "Bremsbereit anfahren und den Fuss vom Gas nehmen, auch wenn du Vortritt hast.",
         "es": "Acércate listo para frenar y suelta el acelerador, incluso si tienes prioridad.",
         "fr": "Approche prêt à freiner et lève le pied, même si tu as la priorité.",
         "it": "Avvicinati pronto a frenare e alza il piede dal gas, anche se hai la precedenza.",
-        "en": "Approach ready to brake and ease off the gas, even if you have priority."
+        "en": "Approach ready to brake and ease off the gas, even if you have priority.",
+        "pt": "Aproxima-te pronto para travar e tira o pé do acelerador, mesmo tendo prioridade."
       },
       {
         "de": "Deutliche Kopfbewegung nach rechts und links – der Experte muss sehen, dass du schaust.",
         "es": "Movimiento de cabeza claro a derecha e izquierda: el examinador debe ver que miras.",
         "fr": "Mouvement de tête net à droite et à gauche – l'expert doit voir que tu regardes.",
         "it": "Movimento di testa chiaro a destra e a sinistra: l'esperto deve vedere che guardi.",
-        "en": "Clear head movement right and left – the examiner must see that you are looking."
+        "en": "Clear head movement right and left – the examiner must see that you are looking.",
+        "pt": "Movimento de cabeça claro para a direita e esquerda – o examinador tem de ver que estás a olhar."
       },
       {
         "de": "Ein übersehener Rechtsvortritt ist ein klassischer Durchfallgrund – lieber einmal zu viel verlangsamen.",
         "es": "Una prioridad de la derecha no respetada es motivo clásico de suspenso: mejor reducir de más.",
         "fr": "Une priorité de droite manquée est un motif d'échec classique – mieux vaut ralentir une fois de trop.",
         "it": "Una precedenza da destra mancata è un classico motivo di bocciatura: meglio rallentare una volta di troppo.",
-        "en": "A missed right-of-way is a classic reason to fail – better to slow down once too often."
+        "en": "A missed right-of-way is a classic reason to fail – better to slow down once too often.",
+        "pt": "Não respeitar a prioridade à direita é um motivo clássico de reprovação – mais vale abrandar a mais do que a menos."
       }
     ]
   },
@@ -141,7 +157,8 @@
       "es": "Rotondas",
       "fr": "Giratoire",
       "it": "Rotatoria",
-      "en": "Roundabouts"
+      "en": "Roundabouts",
+      "pt": "Rotundas"
     },
     "tips": [
       {
@@ -149,28 +166,32 @@
         "es": "Antes de entrar, mira a la izquierda y cede el paso al tráfico de la rotonda, ¡también a las bicis!",
         "fr": "Avant d'entrer, regarde à gauche et laisse la priorité au trafic dans le giratoire – vélos compris !",
         "it": "Prima di entrare, guarda a sinistra e dai la precedenza al traffico nella rotatoria – anche alle bici!",
-        "en": "Before entering, look left and give way to traffic in the roundabout – including bikes!"
+        "en": "Before entering, look left and give way to traffic in the roundabout – including bikes!",
+        "pt": "Antes de entrar, olha para a esquerda e cede a passagem ao trânsito na rotunda – incluindo bicicletas!"
       },
       {
         "de": "Beim Einfahren nicht blinken; beim Verlassen rechts blinken (auf Höhe der Ausfahrt davor).",
         "es": "Al entrar no pongas intermitente; al salir, intermitente derecho (a la altura de la salida anterior).",
         "fr": "N'indique pas en entrant ; en sortant, clignotant à droite (à la hauteur de la sortie précédente).",
         "it": "Entrando non mettere la freccia; uscendo, freccia a destra (all'altezza dell'uscita precedente).",
-        "en": "Don't indicate when entering; indicate right when leaving (level with the exit before yours)."
+        "en": "Don't indicate when entering; indicate right when leaving (level with the exit before yours).",
+        "pt": "Não ligues o pisca ao entrar; ao sair, pisca à direita (ao nível da saída anterior à tua)."
       },
       {
         "de": "Velos im Kreisel nie überholen – sie dürfen in der Fahrbahnmitte fahren.",
         "es": "Nunca adelantes a una bici dentro de la rotonda: puede circular por el centro del carril.",
         "fr": "Ne dépasse jamais un vélo dans le giratoire – il peut rouler au milieu de la voie.",
         "it": "Non sorpassare mai una bici nella rotatoria: può circolare al centro della corsia.",
-        "en": "Never overtake bikes in the roundabout – they may ride in the middle of the lane."
+        "en": "Never overtake bikes in the roundabout – they may ride in the middle of the lane.",
+        "pt": "Nunca ultrapasses bicicletas dentro da rotunda – podem circular no meio da faixa."
       },
       {
         "de": "Tempo anpassen: flüssig, aber langsam genug, um reagieren zu können.",
         "es": "Ajusta la velocidad: fluido, pero lo bastante despacio para poder reaccionar.",
         "fr": "Adapte la vitesse : fluide, mais assez lent pour pouvoir réagir.",
         "it": "Adegua la velocità: fluido, ma abbastanza lento da poter reagire.",
-        "en": "Adjust your speed: smooth, but slow enough to be able to react."
+        "en": "Adjust your speed: smooth, but slow enough to be able to react.",
+        "pt": "Ajusta a velocidade: fluido, mas devagar o suficiente para conseguires reagir."
       }
     ]
   },
@@ -183,7 +204,8 @@
       "es": "Mirada de seguridad (ángulo muerto)",
       "fr": "Contrôle par-dessus l'épaule (angle mort)",
       "it": "Controllo sopra la spalla (angolo morto)",
-      "en": "Shoulder check (blind spot)"
+      "en": "Shoulder check (blind spot)",
+      "pt": "Verificação de segurança (ângulo morto)"
     },
     "tips": [
       {
@@ -191,28 +213,32 @@
         "es": "Mirada por encima del hombro antes de: arrancar, cambiar de carril, girar, salir de la rotonda y aparcar/salir.",
         "fr": "Regard par-dessus l'épaule avant : démarrer, changer de voie, tourner, sortir du giratoire, se garer/sortir.",
         "it": "Sguardo sopra la spalla prima di: partire, cambiare corsia, svoltare, uscire dalla rotatoria, parcheggiare/uscire.",
-        "en": "Shoulder check before: pulling away, lane changes, turning, leaving the roundabout, parking in/out."
+        "en": "Shoulder check before: pulling away, lane changes, turning, leaving the roundabout, parking in/out.",
+        "pt": "Verificação de segurança antes de: arrancar, mudar de faixa, virar, sair da rotunda, estacionar/sair do estacionamento."
       },
       {
         "de": "Beim Rechtsabbiegen immer den Blick nach rechts hinten – Velos und E-Trottis kommen schnell.",
         "es": "Al girar a la derecha, mira siempre atrás a la derecha: bicis y patinetes llegan rápido.",
         "fr": "En tournant à droite, regarde toujours derrière à droite – vélos et trottinettes arrivent vite.",
         "it": "Svoltando a destra, guarda sempre dietro a destra: bici e monopattini arrivano veloci.",
-        "en": "When turning right, always look back to the right – bikes and e-scooters come fast."
+        "en": "When turning right, always look back to the right – bikes and e-scooters come fast.",
+        "pt": "Ao virar à direita, olha sempre para trás à direita – bicicletas e trotinetes chegam depressa."
       },
       {
         "de": "Reihenfolge: Innenspiegel → Aussenspiegel → Sicherheitsblick → blinken → Manöver.",
         "es": "Orden: retrovisor interior → exterior → mirada de seguridad → intermitente → maniobra.",
         "fr": "Ordre : rétro intérieur → extérieur → contrôle épaule → clignotant → manœuvre.",
         "it": "Ordine: specchietto interno → esterno → controllo spalla → freccia → manovra.",
-        "en": "Order: interior mirror → exterior mirror → shoulder check → indicate → manoeuvre."
+        "en": "Order: interior mirror → exterior mirror → shoulder check → indicate → manoeuvre.",
+        "pt": "Ordem: espelho interior → espelho exterior → verificação de segurança → pisca → manobra."
       },
       {
         "de": "Mach den Blick deutlich sichtbar – ein «gedachter» Sicherheitsblick zählt für den Experten nicht.",
         "es": "Haz la mirada bien visible: una mirada «mental» no cuenta para el examinador.",
         "fr": "Rends le contrôle bien visible – un contrôle « mental » ne compte pas pour l'expert.",
         "it": "Rendi il controllo ben visibile: un controllo «mentale» non conta per l'esperto.",
-        "en": "Make the check clearly visible – an \"imagined\" shoulder check doesn't count for the examiner."
+        "en": "Make the check clearly visible – an \"imagined\" shoulder check doesn't count for the examiner.",
+        "pt": "Torna o movimento bem visível – uma verificação «imaginada» não conta para o examinador."
       }
     ]
   },
@@ -225,7 +251,8 @@
       "es": "Conducción en autopista",
       "fr": "Conduite sur autoroute",
       "it": "Guida in autostrada",
-      "en": "Motorway driving"
+      "en": "Motorway driving",
+      "pt": "Condução em autoestrada"
     },
     "tips": [
       {
@@ -233,28 +260,32 @@
         "es": "En el carril de aceleración, acelera con decisión hasta la velocidad del tráfico: incorporarse dubitativo es un error frecuente.",
         "fr": "Sur la voie d'accélération, accélère franchement jusqu'à la vitesse du trafic – une insertion hésitante est une erreur fréquente.",
         "it": "Sulla corsia di accelerazione, accelera con decisione fino alla velocità del traffico: immettersi esitanti è un errore frequente.",
-        "en": "On the slip road, accelerate briskly to traffic speed – hesitant merging is a common mistake."
+        "en": "On the slip road, accelerate briskly to traffic speed – hesitant merging is a common mistake.",
+        "pt": "Na via de aceleração, acelera com decisão até à velocidade do trânsito – entrar hesitante é um erro comum."
       },
       {
         "de": "Spiegel – blinken – Sicherheitsblick vor jedem Spurwechsel.",
         "es": "Espejo – intermitente – mirada de seguridad antes de cada cambio de carril.",
         "fr": "Rétro – clignotant – contrôle épaule avant chaque changement de voie.",
         "it": "Specchietto – freccia – controllo spalla prima di ogni cambio di corsia.",
-        "en": "Mirror – indicate – shoulder check before every lane change."
+        "en": "Mirror – indicate – shoulder check before every lane change.",
+        "pt": "Espelho – pisca – verificação de segurança antes de cada mudança de faixa."
       },
       {
         "de": "Mindestens 2 Sekunden Abstand («halber Tacho»), rechts fahren, links überholen.",
         "es": "Mínimo 2 segundos de distancia («medio velocímetro»), circula por la derecha y adelanta por la izquierda.",
         "fr": "Au moins 2 secondes de distance (« demi-compteur »), rouler à droite, dépasser à gauche.",
         "it": "Almeno 2 secondi di distanza («mezzo tachimetro»), circola a destra, sorpassa a sinistra.",
-        "en": "At least 2 seconds' distance (\"half your speedo\"), keep right, overtake on the left."
+        "en": "At least 2 seconds' distance (\"half your speedo\"), keep right, overtake on the left.",
+        "pt": "Pelo menos 2 segundos de distância («metade do velocímetro»), circula pela direita, ultrapassa pela esquerda."
       },
       {
         "de": "Bei stockendem Verkehr Rettungsgasse bilden: linke Spur ganz links, übrige Spuren ganz rechts.",
         "es": "Con tráfico detenido, forma el pasillo de emergencia: carril izquierdo a la izquierda, el resto a la derecha.",
         "fr": "En cas de bouchon, forme le couloir de secours : voie de gauche tout à gauche, les autres tout à droite.",
         "it": "Con traffico fermo, forma il corridoio di emergenza: corsia sinistra tutta a sinistra, le altre tutte a destra.",
-        "en": "In slow traffic, form the rescue lane: left lane far left, all other lanes far right."
+        "en": "In slow traffic, form the rescue lane: left lane far left, all other lanes far right.",
+        "pt": "Em trânsito parado, forma o corredor de emergência: faixa esquerda totalmente à esquerda, as restantes totalmente à direita."
       }
     ]
   },
@@ -267,7 +298,8 @@
       "es": "El día del examen (coche)",
       "fr": "Le jour de l'examen (voiture)",
       "it": "Il giorno dell'esame (auto)",
-      "en": "On exam day (car)"
+      "en": "On exam day (car)",
+      "pt": "No dia do exame (carro)"
     },
     "tips": [
       {
@@ -275,28 +307,32 @@
         "es": "Antes de salir: ajusta asiento, espejos, volante y cinturón; forma parte del examen.",
         "fr": "Avant de partir : régler siège, rétroviseurs, volant et ceinture – ça fait partie de l'examen.",
         "it": "Prima di partire: regola sedile, specchietti, volante e cintura – fa parte dell'esame.",
-        "en": "Before setting off: adjust seat, mirrors, steering wheel and belt – it's part of the exam."
+        "en": "Before setting off: adjust seat, mirrors, steering wheel and belt – it's part of the exam.",
+        "pt": "Antes de arrancar: ajusta o banco, os espelhos, o volante e o cinto – faz parte do exame."
       },
       {
         "de": "Anweisungen nicht verstanden? Ruhig nachfragen – das ist erlaubt und wirkt souverän.",
         "es": "¿No entendiste una indicación? Pregunta con calma: está permitido y transmite seguridad.",
         "fr": "Instruction pas comprise ? Redemande calmement – c'est permis et ça fait pro.",
         "it": "Non hai capito un'indicazione? Richiedi con calma: è permesso e trasmette sicurezza.",
-        "en": "Didn't understand an instruction? Calmly ask again – it's allowed and looks confident."
+        "en": "Didn't understand an instruction? Calmly ask again – it's allowed and looks confident.",
+        "pt": "Não percebeste uma instrução? Pergunta com calma outra vez – é permitido e transmite confiança."
       },
       {
         "de": "Nach einem Fehler: ruhig weiterfahren. Ein Fehler heisst nicht automatisch durchgefallen.",
         "es": "Tras un error: sigue conduciendo tranquilo. Un error no significa suspenso automático.",
         "fr": "Après une erreur : continue calmement. Une erreur ne veut pas dire échec automatique.",
         "it": "Dopo un errore: continua con calma. Un errore non significa bocciatura automatica.",
-        "en": "After a mistake: keep driving calmly. One mistake doesn't automatically mean failing."
+        "en": "After a mistake: keep driving calmly. One mistake doesn't automatically mean failing.",
+        "pt": "Depois de um erro: continua a conduzir com calma. Um erro não significa reprovação automática."
       },
       {
         "de": "Fahre «kommentiert» im Kopf: das hält dich fokussiert und verhindert Blackouts.",
         "es": "Conduce «comentando» mentalmente lo que haces: te mantiene concentrado y evita quedarte en blanco.",
         "fr": "Conduis en « commentant » dans ta tête : ça garde la concentration et évite les trous noirs.",
         "it": "Guida «commentando» mentalmente: ti tiene concentrato ed evita i vuoti.",
-        "en": "Drive with a mental \"commentary\": it keeps you focused and prevents blackouts."
+        "en": "Drive with a mental \"commentary\": it keeps you focused and prevents blackouts.",
+        "pt": "Conduz «comentando» mentalmente: mantém-te concentrado e evita bloqueios."
       }
     ]
   },
@@ -309,7 +345,8 @@
       "es": "Spurgasse (circuito lento)",
       "fr": "Couloir étroit (conduite lente)",
       "it": "Corridoio stretto (guida lenta)",
-      "en": "Narrow lane (slow riding)"
+      "en": "Narrow lane (slow riding)",
+      "pt": "Corredor estreito (condução lenta)"
     },
     "tips": [
       {
@@ -317,28 +354,32 @@
         "es": "Mantén el embrague en el punto de fricción y dosifica la velocidad con el freno trasero.",
         "fr": "Garde l'embrayage au point de patinage et dose la vitesse avec le frein arrière.",
         "it": "Tieni la frizione al punto di attrito e dosa la velocità con il freno posteriore.",
-        "en": "Hold the clutch at the friction point and control speed with the rear brake."
+        "en": "Hold the clutch at the friction point and control speed with the rear brake.",
+        "pt": "Mantém a embraiagem no ponto de fricção e controla a velocidade com o travão traseiro."
       },
       {
         "de": "Blick weit nach vorne – nie aufs Vorderrad schauen, sonst kippst du.",
         "es": "Mira lejos hacia delante, nunca a la rueda delantera, o perderás el equilibrio.",
         "fr": "Regarde loin devant – jamais la roue avant, sinon tu bascules.",
         "it": "Guarda lontano davanti – mai la ruota anteriore, altrimenti perdi l'equilibrio.",
-        "en": "Look far ahead – never at the front wheel, or you'll tip over."
+        "en": "Look far ahead – never at the front wheel, or you'll tip over.",
+        "pt": "Olha bem em frente – nunca para a roda dianteira, ou perdes o equilíbrio."
       },
       {
         "de": "Knie an den Tank, Oberkörper locker, Balance über die Fussrasten.",
         "es": "Rodillas contra el depósito, torso relajado, equilibrio sobre las estriberas.",
         "fr": "Genoux contre le réservoir, buste détendu, équilibre sur les repose-pieds.",
         "it": "Ginocchia contro il serbatoio, busto rilassato, equilibrio sulle pedane.",
-        "en": "Knees against the tank, upper body relaxed, balance over the footpegs."
+        "en": "Knees against the tank, upper body relaxed, balance over the footpegs.",
+        "pt": "Joelhos contra o depósito, tronco relaxado, equilíbrio sobre os pousa-pés."
       },
       {
         "de": "Zuhause üben: so langsam wie möglich geradeaus fahren, ohne die Füsse abzusetzen.",
         "es": "Practica: circula recto lo más despacio posible sin poner los pies en el suelo.",
         "fr": "Entraîne-toi : rouler tout droit le plus lentement possible sans poser les pieds.",
         "it": "Allenati: vai dritto il più lentamente possibile senza mettere i piedi a terra.",
-        "en": "Practise: ride straight as slowly as possible without putting your feet down."
+        "en": "Practise: ride straight as slowly as possible without putting your feet down.",
+        "pt": "Pratica: anda a direito o mais devagar possível sem pousar os pés no chão."
       }
     ]
   },
@@ -351,7 +392,8 @@
       "es": "Slalom",
       "fr": "Slalom",
       "it": "Slalom",
-      "en": "Slalom"
+      "en": "Slalom",
+      "pt": "Slalom"
     },
     "tips": [
       {
@@ -359,28 +401,32 @@
         "es": "Mantén un ritmo uniforme: gas constante y regula la velocidad con el freno trasero.",
         "fr": "Garde un rythme régulier – gaz constant, régule la vitesse avec le frein arrière.",
         "it": "Mantieni un ritmo uniforme: gas costante, regola la velocità con il freno posteriore.",
-        "en": "Keep an even pace – constant throttle, regulate speed with the rear brake."
+        "en": "Keep an even pace – constant throttle, regulate speed with the rear brake.",
+        "pt": "Mantém um ritmo uniforme – acelerador constante, regula a velocidade com o travão traseiro."
       },
       {
         "de": "Blick immer zum übernächsten Tor, nicht zur nächsten Pylone.",
         "es": "Mira siempre a la puerta siguiente a la próxima, no al cono más cercano.",
         "fr": "Regarde toujours la porte d'après, pas le prochain cône.",
         "it": "Guarda sempre la porta successiva alla prossima, non il cono più vicino.",
-        "en": "Always look at the gate after next, not at the nearest cone."
+        "en": "Always look at the gate after next, not at the nearest cone.",
+        "pt": "Olha sempre para a próxima-próxima baliza, não para o cone mais perto."
       },
       {
         "de": "Mit dem Oberkörper locker bleiben; das Motorrad unter dir arbeiten lassen.",
         "es": "Torso relajado; deja que la moto trabaje debajo de ti.",
         "fr": "Buste détendu ; laisse la moto travailler sous toi.",
         "it": "Busto rilassato; lascia lavorare la moto sotto di te.",
-        "en": "Keep your upper body relaxed; let the bike work beneath you."
+        "en": "Keep your upper body relaxed; let the bike work beneath you.",
+        "pt": "Mantém o tronco relaxado; deixa a mota trabalhar debaixo de ti."
       },
       {
         "de": "Fällt eine Pylone: ruhig bleiben und sauber weiterfahren – Nervosität kostet mehr Punkte.",
         "es": "Si cae un cono: mantén la calma y sigue limpio; los nervios cuestan más puntos.",
         "fr": "Un cône tombe ? Reste calme et continue proprement – la nervosité coûte plus de points.",
         "it": "Cade un cono? Resta calmo e continua pulito – il nervosismo costa più punti.",
-        "en": "If a cone falls: stay calm and continue cleanly – nerves cost more points."
+        "en": "If a cone falls: stay calm and continue cleanly – nerves cost more points.",
+        "pt": "Se cair um cone: mantém a calma e continua de forma limpa – os nervos custam mais pontos."
       }
     ]
   },
@@ -393,7 +439,8 @@
       "es": "Frenada de emergencia",
       "fr": "Freinage d'urgence",
       "it": "Frenata d'emergenza",
-      "en": "Emergency braking"
+      "en": "Emergency braking",
+      "pt": "Travagem de emergência"
     },
     "tips": [
       {
@@ -401,28 +448,32 @@
         "es": "Usa ambos frenos: delante fuerte y progresivo, detrás dosificado.",
         "fr": "Utilise les deux freins : devant fort et progressif, derrière dosé.",
         "it": "Usa entrambi i freni: davanti forte e progressivo, dietro dosato.",
-        "en": "Use both brakes: front firm and progressive, rear measured."
+        "en": "Use both brakes: front firm and progressive, rear measured.",
+        "pt": "Usa os dois travões: dianteiro firme e progressivo, traseiro doseado."
       },
       {
         "de": "Motorrad aufrecht, Lenker gerade, Blick nach vorne – nicht auf den Boden.",
         "es": "Moto recta, manillar derecho, mirada al frente, no al suelo.",
         "fr": "Moto droite, guidon droit, regard devant – pas au sol.",
         "it": "Moto dritta, manubrio dritto, sguardo avanti – non a terra.",
-        "en": "Bike upright, handlebars straight, look ahead – not at the ground."
+        "en": "Bike upright, handlebars straight, look ahead – not at the ground.",
+        "pt": "Mota direita, guiador a direito, olhar em frente – não para o chão."
       },
       {
         "de": "Arme locker lassen und mit den Knien am Tank abstützen.",
         "es": "Brazos sueltos y apóyate con las rodillas en el depósito.",
         "fr": "Bras détendus, appui avec les genoux contre le réservoir.",
         "it": "Braccia rilassate, appoggiati con le ginocchia al serbatoio.",
-        "en": "Arms loose, brace with your knees against the tank."
+        "en": "Arms loose, brace with your knees against the tank.",
+        "pt": "Braços soltos, apoia-te com os joelhos contra o depósito."
       },
       {
         "de": "Auf trockenem, sicherem Gelände üben, bis der Ablauf automatisch sitzt.",
         "es": "Practica en terreno seco y seguro hasta que la secuencia salga automática.",
         "fr": "Entraîne-toi sur terrain sec et sûr jusqu'à ce que la séquence soit automatique.",
         "it": "Allenati su terreno asciutto e sicuro finché la sequenza è automatica.",
-        "en": "Practise on dry, safe ground until the sequence is automatic."
+        "en": "Practise on dry, safe ground until the sequence is automatic.",
+        "pt": "Pratica em terreno seco e seguro até a sequência ser automática."
       }
     ]
   },
@@ -435,7 +486,8 @@
       "es": "El ocho (Achterfahren)",
       "fr": "Le huit (Achterfahren)",
       "it": "L'otto (Achterfahren)",
-      "en": "Figure of eight (Achterfahren)"
+      "en": "Figure of eight (Achterfahren)",
+      "pt": "Oito (Achterfahren)"
     },
     "tips": [
       {
@@ -443,28 +495,32 @@
         "es": "¡Gira la cabeza! Mira adonde quieres ir: la trayectoria sigue a la mirada.",
         "fr": "Tourne la tête ! Regarde où tu veux aller – la trajectoire suit le regard.",
         "it": "Gira la testa! Guarda dove vuoi andare: la traiettoria segue lo sguardo.",
-        "en": "Turn your head! Look where you want to go – the line follows your gaze."
+        "en": "Turn your head! Look where you want to go – the line follows your gaze.",
+        "pt": "Vira a cabeça! Olha para onde queres ir – a trajetória segue o olhar."
       },
       {
         "de": "Konstantes Gas mit schleifender Kupplung, Tempo über die Hinterradbremse.",
         "es": "Gas constante con embrague en fricción; controla el ritmo con el freno trasero.",
         "fr": "Gaz constant avec embrayage patinant, vitesse via le frein arrière.",
         "it": "Gas costante con frizione che slitta, velocità con il freno posteriore.",
-        "en": "Constant throttle with slipping clutch, speed via the rear brake."
+        "en": "Constant throttle with slipping clutch, speed via the rear brake.",
+        "pt": "Acelerador constante com embraiagem a patinar, velocidade através do travão traseiro."
       },
       {
         "de": "Bei langsamer Fahrt: Motorrad kippen lassen, Körper bleibt aufrecht (Drücken).",
         "es": "A baja velocidad: inclina la moto y mantén el cuerpo vertical.",
         "fr": "À basse vitesse : incline la moto, le corps reste droit.",
         "it": "A bassa velocità: inclina la moto, il corpo resta dritto.",
-        "en": "At low speed: lean the bike, keep your body upright."
+        "en": "At low speed: lean the bike, keep your body upright.",
+        "pt": "A baixa velocidade: inclina a mota, mantém o corpo direito."
       },
       {
         "de": "Grosse, runde Bögen fahren – enger werden kannst du immer noch.",
         "es": "Traza curvas amplias y redondas; ya podrás cerrarlas más adelante.",
         "fr": "Trace de grands arcs ronds – tu pourras toujours resserrer ensuite.",
         "it": "Traccia archi ampi e rotondi – potrai sempre stringerli dopo.",
-        "en": "Ride big, round arcs – you can always tighten them later."
+        "en": "Ride big, round arcs – you can always tighten them later.",
+        "pt": "Faz curvas grandes e redondas – podes sempre apertá-las mais tarde."
       }
     ]
   },
@@ -477,7 +533,8 @@
       "es": "Equipamiento y posición",
       "fr": "Équipement et position",
       "it": "Equipaggiamento e posizione",
-      "en": "Gear & riding position"
+      "en": "Gear & riding position",
+      "pt": "Equipamento e posição de condução"
     },
     "tips": [
       {
@@ -485,28 +542,32 @@
         "es": "Casco homologado obligatorio; lleva ropa de protección completa con protectores, guantes y calzado firme.",
         "fr": "Casque homologué obligatoire ; porte une tenue de protection complète avec protecteurs, gants et chaussures solides.",
         "it": "Casco omologato obbligatorio; indossa abbigliamento protettivo completo con protezioni, guanti e scarpe solide.",
-        "en": "Approved helmet is mandatory; wear full protective clothing with armour, gloves and sturdy shoes."
+        "en": "Approved helmet is mandatory; wear full protective clothing with armour, gloves and sturdy shoes.",
+        "pt": "Capacete homologado é obrigatório; usa vestuário de proteção completo com proteções, luvas e calçado resistente."
       },
       {
         "de": "Vor der Prüfung Maschine checken: Reifen, Bremsen, Lichter, Blinker, Spiegel.",
         "es": "Antes del examen revisa la moto: neumáticos, frenos, luces, intermitentes y espejos.",
         "fr": "Avant l'examen, vérifie la machine : pneus, freins, feux, clignotants, rétroviseurs.",
         "it": "Prima dell'esame controlla la moto: pneumatici, freni, luci, frecce, specchietti.",
-        "en": "Before the exam, check the bike: tyres, brakes, lights, indicators, mirrors."
+        "en": "Before the exam, check the bike: tyres, brakes, lights, indicators, mirrors.",
+        "pt": "Antes do exame, verifica a mota: pneus, travões, luzes, piscas, espelhos."
       },
       {
         "de": "Lockere, aufrechte Sitzposition: Ellbogen leicht gebeugt, Blick hoch, zwei Finger an der Bremse bereit.",
         "es": "Posición relajada y erguida: codos algo flexionados, mirada alta y dos dedos listos sobre el freno.",
         "fr": "Position détendue et droite : coudes légèrement fléchis, regard haut, deux doigts prêts sur le frein.",
         "it": "Posizione rilassata ed eretta: gomiti leggermente flessi, sguardo alto, due dita pronte sul freno.",
-        "en": "Relaxed, upright position: elbows slightly bent, eyes up, two fingers ready on the brake."
+        "en": "Relaxed, upright position: elbows slightly bent, eyes up, two fingers ready on the brake.",
+        "pt": "Posição relaxada e direita: cotovelos ligeiramente dobrados, olhar alto, dois dedos prontos no travão."
       },
       {
         "de": "Helle oder reflektierende Kleidung erhöht deine Sichtbarkeit massiv.",
         "es": "La ropa clara o reflectante aumenta muchísimo tu visibilidad.",
         "fr": "Des vêtements clairs ou réfléchissants augmentent énormément ta visibilité.",
         "it": "Abbigliamento chiaro o riflettente aumenta enormemente la tua visibilità.",
-        "en": "Bright or reflective clothing massively increases your visibility."
+        "en": "Bright or reflective clothing massively increases your visibility.",
+        "pt": "Roupa clara ou refletora aumenta muito a tua visibilidade."
       }
     ]
   },
@@ -519,7 +580,8 @@
       "es": "El día del examen (moto)",
       "fr": "Le jour de l'examen (moto)",
       "it": "Il giorno dell'esame (moto)",
-      "en": "On exam day (motorcycle)"
+      "en": "On exam day (motorcycle)",
+      "pt": "No dia do exame (mota)"
     },
     "tips": [
       {
@@ -527,28 +589,32 @@
         "es": "La prueba de maniobras va primero: memoriza antes el orden de los ejercicios.",
         "fr": "L'examen de manœuvres vient en premier : connais par cœur l'ordre des exercices.",
         "it": "La prova di manovre viene prima: impara a memoria l'ordine degli esercizi.",
-        "en": "The manoeuvre test comes first: know the order of the exercises by heart."
+        "en": "The manoeuvre test comes first: know the order of the exercises by heart.",
+        "pt": "A prova de manobras vem primeiro: sabe de cor a ordem dos exercícios."
       },
       {
         "de": "Vor jedem Manöver kurz durchatmen und die Linie im Kopf visualisieren.",
         "es": "Antes de cada maniobra, respira hondo y visualiza la trayectoria.",
         "fr": "Avant chaque manœuvre, respire un coup et visualise la trajectoire.",
         "it": "Prima di ogni manovra, respira e visualizza la traiettoria.",
-        "en": "Before each manoeuvre, take a breath and visualise the line."
+        "en": "Before each manoeuvre, take a breath and visualise the line.",
+        "pt": "Antes de cada manobra, respira fundo e visualiza a trajetória."
       },
       {
         "de": "Auf der Strasse gilt: sichtbar fahren, Sicherheitsblick deutlich zeigen, Abstand halten.",
         "es": "En carretera: hazte visible, muestra claramente la mirada de seguridad y mantén distancia.",
         "fr": "Sur la route : rouler visible, montrer clairement le contrôle épaule, garder ses distances.",
         "it": "Su strada: guida visibile, mostra chiaramente il controllo spalla, mantieni la distanza.",
-        "en": "On the road: ride visibly, show your shoulder checks clearly, keep your distance."
+        "en": "On the road: ride visibly, show your shoulder checks clearly, keep your distance.",
+        "pt": "Na estrada: conduz de forma visível, mostra claramente as verificações de segurança, mantém a distância."
       },
       {
         "de": "Der Experte fährt hinter dir und gibt Anweisungen per Funk – ruhig bleiben und normal fahren.",
         "es": "El examinador va detrás y da instrucciones por radio: mantén la calma y conduce con normalidad.",
         "fr": "L'expert roule derrière toi et donne les instructions par radio – reste calme et roule normalement.",
         "it": "L'esperto guida dietro di te e dà istruzioni via radio – resta calmo e guida normalmente.",
-        "en": "The examiner rides behind you giving instructions by radio – stay calm and ride normally."
+        "en": "The examiner rides behind you giving instructions by radio – stay calm and ride normally.",
+        "pt": "O examinador segue atrás de ti e dá instruções por rádio – mantém a calma e conduz normalmente."
       }
     ]
   },
@@ -561,7 +627,8 @@
       "es": "Colores de los indicadores de dirección",
       "fr": "Couleurs des indicateurs de direction",
       "it": "Colori degli indicatori di direzione",
-      "en": "Direction sign colours"
+      "en": "Direction sign colours",
+      "pt": "Cores dos sinais de direção"
     },
     "tips": [
       {
@@ -569,28 +636,32 @@
         "es": "Verde: indica el camino hacia la autopista (Autobahn).",
         "fr": "Vert : direction de l'autoroute.",
         "it": "Verde: direzione dell'autostrada.",
-        "en": "Green: direction to the motorway."
+        "en": "Green: direction to the motorway.",
+        "pt": "Verde: indica o caminho para a autoestrada."
       },
       {
         "de": "Blau: Wegweiser zu Hauptstrassen.",
         "es": "Azul: indica el camino hacia carreteras principales (Hauptstrasse).",
         "fr": "Bleu : direction des routes principales.",
         "it": "Blu: direzione delle strade principali.",
-        "en": "Blue: direction along main roads."
+        "en": "Blue: direction along main roads.",
+        "pt": "Azul: indica o caminho pelas estradas principais."
       },
       {
         "de": "Weiss: Wegweiser zu Neben- oder Ortsstrassen.",
         "es": "Blanco: indica el camino hacia carreteras secundarias o locales.",
         "fr": "Blanc : direction des routes secondaires ou locales.",
         "it": "Bianco: direzione di strade secondarie o locali.",
-        "en": "White: direction along secondary or local roads."
+        "en": "White: direction along secondary or local roads.",
+        "pt": "Branco: indica o caminho por estradas secundárias ou locais."
       },
       {
         "de": "Diese Farben helfen dir, dich auf Wegweisern schnell zu orientieren, ohne jedes Wort zu lesen.",
         "es": "Estos colores ayudan a orientarte rápido en los carteles, sin tener que leer cada palabra.",
         "fr": "Ces couleurs t'aident à t'orienter vite sur les panneaux, sans lire chaque mot.",
         "it": "Questi colori ti aiutano a orientarti in fretta sui cartelli, senza leggere ogni parola.",
-        "en": "These colours help you orient yourself quickly on signs without reading every word."
+        "en": "These colours help you orient yourself quickly on signs without reading every word.",
+        "pt": "Estas cores ajudam-te a orientar-te depressa nos sinais, sem teres de ler cada palavra."
       }
     ]
   },
@@ -603,7 +674,8 @@
       "es": "Órdenes del examinador (glosario)",
       "fr": "Ordres de l'expert (glossaire)",
       "it": "Comandi dell'esperto (glossario)",
-      "en": "Examiner's commands (glossary)"
+      "en": "Examiner's commands (glossary)",
+      "pt": "Ordens do examinador (glossário)"
     },
     "tips": [
       {
@@ -611,56 +683,64 @@
         "es": "«Einspuren»: colocarte con antelación en el carril correcto, sobre todo antes de girar a la izquierda.",
         "fr": "« Einspuren » : te placer à temps dans la bonne voie, surtout avant de tourner à gauche.",
         "it": "«Einspuren»: posizionarti per tempo nella corsia giusta, soprattutto prima di svoltare a sinistra.",
-        "en": "\"Einspuren\": position yourself in the correct lane in good time, especially before turning left."
+        "en": "\"Einspuren\": position yourself in the correct lane in good time, especially before turning left.",
+        "pt": "«Einspuren»: colocares-te a tempo na faixa correta, sobretudo antes de virar à esquerda."
       },
       {
         "de": "«Vortritt gewähren»: den Vortritt abgeben und andere zuerst durchfahren lassen.",
         "es": "«Vortritt gewähren»: ceder el paso y dejar pasar primero a los demás.",
         "fr": "« Vortritt gewähren » : céder la priorité et laisser passer les autres d'abord.",
         "it": "«Vortritt gewähren»: dare la precedenza e lasciar passare prima gli altri.",
-        "en": "\"Vortritt gewähren\": give way and let others through first."
+        "en": "\"Vortritt gewähren\": give way and let others through first.",
+        "pt": "«Vortritt gewähren»: ceder a prioridade e deixar passar primeiro os outros."
       },
       {
         "de": "«Vollstopp»: vollständig anhalten, z. B. beim Stopsignal.",
         "es": "«Vollstopp»: parada completa, por ejemplo en la señal de STOP.",
         "fr": "« Vollstopp » : arrêt complet, p. ex. au signal stop.",
         "it": "«Vollstopp»: fermata completa, ad es. al segnale di stop.",
-        "en": "\"Vollstopp\": complete stop, e.g. at the stop sign."
+        "en": "\"Vollstopp\": complete stop, e.g. at the stop sign.",
+        "pt": "«Vollstopp»: parar completamente, por exemplo no sinal de stop."
       },
       {
         "de": "«Abstand halten»: genügend Sicherheitsabstand zum Vordermann einhalten – nicht zu nah auffahren.",
         "es": "«Abstand halten»: mantener suficiente distancia de seguridad con el de delante, sin pegarte demasiado.",
         "fr": "« Abstand halten » : garder assez de distance de sécurité avec celui de devant – ne pas coller.",
         "it": "«Abstand halten»: mantenere sufficiente distanza di sicurezza da chi precede – non attaccarti.",
-        "en": "\"Abstand halten\": keep enough safe distance from the vehicle ahead – don't tailgate."
+        "en": "\"Abstand halten\": keep enough safe distance from the vehicle ahead – don't tailgate.",
+        "pt": "«Abstand halten»: manter distância de segurança suficiente em relação ao da frente – não colar."
       },
       {
         "de": "«Anhalten»: am Strassenrand halten – dort, wo es erlaubt ist (siehe Manöver «Anhalten am Strassenrand»).",
         "es": "«Anhalten»: detente en el borde de la calle, donde esté permitido (ver la maniobra «Parar en el borde»).",
         "fr": "« Anhalten » : s'arrêter au bord de la route – là où c'est permis (voir la manœuvre « S'arrêter au bord »).",
         "it": "«Anhalten»: fermarsi al bordo della strada – dove è permesso (vedi la manovra «Fermarsi al bordo»).",
-        "en": "\"Anhalten\": stop at the roadside – where it is allowed (see the \"Stopping at the roadside\" manoeuvre)."
+        "en": "\"Anhalten\": stop at the roadside – where it is allowed (see the \"Stopping at the roadside\" manoeuvre).",
+        "pt": "«Anhalten»: parar na berma – onde for permitido (ver a manobra «Parar na berma»)."
       },
       {
         "de": "«Wenden» / «Umkehren»: die Fahrtrichtung umkehren, meist mit einer 3-Punkte-Wende.",
         "es": "«Wenden» / «Umkehren»: cambiar de sentido de la marcha, normalmente con un giro en 3 tiempos.",
         "fr": "« Wenden » / « Umkehren » : faire demi-tour, généralement en 3 temps.",
         "it": "«Wenden» / «Umkehren»: invertire il senso di marcia, di solito in 3 tempi.",
-        "en": "\"Wenden\" / \"Umkehren\": reverse your direction of travel, usually with a 3-point turn."
+        "en": "\"Wenden\" / \"Umkehren\": reverse your direction of travel, usually with a 3-point turn.",
+        "pt": "«Wenden» / «Umkehren»: inverter o sentido de marcha, normalmente com uma manobra em 3 tempos."
       },
       {
         "de": "«Vollbremsung»: eine Notbremsung ausführen – eine normale Übung, kein Grund zur Sorge.",
         "es": "«Vollbremsung»: hacer una frenada de emergencia. Es un ejercicio normal del examen, no motivo de preocupación.",
         "fr": "« Vollbremsung » : faire un freinage d'urgence – un exercice normal, pas de quoi s'inquiéter.",
         "it": "«Vollbremsung»: fare una frenata d'emergenza – un esercizio normale, niente di cui preoccuparsi.",
-        "en": "\"Vollbremsung\": perform an emergency stop – a normal exercise, nothing to worry about."
+        "en": "\"Vollbremsung\": perform an emergency stop – a normal exercise, nothing to worry about.",
+        "pt": "«Vollbremsung»: fazer uma travagem de emergência – um exercício normal, sem motivo de preocupação."
       },
       {
         "de": "«Rückwärtsfahren»: ein Stück rückwärtsfahren, oft nach einer Linksabbiegung.",
         "es": "«Rückwärtsfahren»: retroceder marcha atrás un tramo, a menudo después de girar a la izquierda.",
         "fr": "« Rückwärtsfahren » : reculer sur une certaine distance, souvent après un virage à gauche.",
         "it": "«Rückwärtsfahren»: fare retromarcia per un tratto, spesso dopo una svolta a sinistra.",
-        "en": "\"Rückwärtsfahren\": reverse for a stretch, often after a left turn."
+        "en": "\"Rückwärtsfahren\": reverse for a stretch, often after a left turn.",
+        "pt": "«Rückwärtsfahren»: fazer marcha-atrás por um troço, muitas vezes depois de uma viragem à esquerda."
       }
     ]
   }
