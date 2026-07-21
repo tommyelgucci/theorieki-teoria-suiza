@@ -47,6 +47,10 @@ export default function App() {
     document.documentElement.classList.toggle('dark', theme === 'dark')
   }, [theme])
 
+  useEffect(() => {
+    document.documentElement.setAttribute('lang', lang)
+  }, [lang])
+
   const toggleTheme = () => {
     const next = theme === 'dark' ? 'light' : 'dark'
     storage.setTheme(next)
