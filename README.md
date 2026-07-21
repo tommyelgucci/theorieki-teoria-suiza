@@ -45,10 +45,14 @@ Cada módulo incluye enlaces a la información oficial (ch.ch, oficinas cantonal
 
 ```bash
 npm install
-npm run dev      # servidor de desarrollo
-npm run build    # build de producción en dist/
-npm run preview  # previsualizar el build
+npm run dev         # servidor de desarrollo
+npm run build       # build de producción en dist/
+npm run preview     # previsualizar el build
+npm test            # tests unitarios (Vitest), una sola pasada
+npm run test:watch  # tests en modo watch
 ```
+
+Los tests cubren la lógica pura de `src/utils.js` (filtrado de preguntas por categoría, corrección de respuestas, cálculo de preparación para el examen) y la detección de idioma del navegador en `src/storage.js` (`src/utils.test.js`, `src/storage.test.js`). El workflow de despliegue (`.github/workflows/deploy.yml`) corre `npm test` antes del build: si un test falla, no se despliega.
 
 ## Modelo de datos
 
