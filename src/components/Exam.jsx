@@ -330,7 +330,11 @@ export default function Exam({ category, onExit }) {
         <div className={`flex justify-center ${result.passed ? 'text-green-600' : 'text-red-500'}`}>
           {result.passed ? <IconConfetti className="h-14 w-14" /> : <IconSadFace className="h-14 w-14" />}
         </div>
-        <h2 className={`mt-2 text-2xl font-bold ${result.passed ? 'text-green-700 dark:text-green-400' : 'text-red-700 dark:text-red-400'}`}>
+        <h2
+          role="status"
+          aria-live="polite"
+          className={`mt-2 text-2xl font-bold ${result.passed ? 'text-green-700 dark:text-green-400' : 'text-red-700 dark:text-red-400'}`}
+        >
           {result.passed ? t('passed', lang) : t('failed', lang)}
         </h2>
         <p className="mt-2 text-gray-700 dark:text-gray-300">
