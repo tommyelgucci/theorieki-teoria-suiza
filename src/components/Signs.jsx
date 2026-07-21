@@ -327,9 +327,13 @@ function Quiz() {
         )}
       </div>
 
-      {revealed && (
-        <p className={`flex items-center justify-center gap-1.5 text-center text-lg font-bold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>
-          {isCorrect ? (
+      <p
+        role="status"
+        aria-live="polite"
+        className={`flex items-center justify-center gap-1.5 text-center text-lg font-bold ${revealed ? (isCorrect ? 'text-green-600' : 'text-red-600') : ''}`}
+      >
+        {revealed &&
+          (isCorrect ? (
             <>
               <IconCheck className="h-5 w-5" /> {t('correct', lang)}
             </>
@@ -337,9 +341,8 @@ function Quiz() {
             <>
               <IconCross className="h-5 w-5" /> {t('wrong', lang)}
             </>
-          )}
-        </p>
-      )}
+          ))}
+      </p>
 
       {revealed && (
         <button
