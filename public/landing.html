@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>TheorieKI — Führerschein-Theorie Schweiz</title>
 <meta name="description" content="146 Prüfungsfragen, animierte Manöver und ein KI-gestütztes Wiederholungssystem für die Schweizer Theorieprüfung — auf Deutsch, Français, Italiano, English, Português und Español." />
 <meta property="og:type" content="website" />
@@ -263,7 +268,10 @@
   /* ---------- Hero ---------- */
   .hero {
     position: relative;
-    padding: 64px 0 40px;
+    /* sólo vertical: el shorthand pisaba el padding lateral de .wrap y dejaba
+       el hero pegado al borde en móvil y desalineado del resto en desktop */
+    padding-top: 64px;
+    padding-bottom: 40px;
   }
   .hero-grid {
     display: grid;
@@ -490,6 +498,8 @@
     .reveal { animation: none; opacity: 1; transform: none; }
   }
 </style>
+</head>
+<body>
 
 <div class="spine" aria-hidden="true"></div>
 
@@ -944,3 +954,6 @@
   applyLang(saved || 'de');
 })();
 </script>
+
+</body>
+</html>
