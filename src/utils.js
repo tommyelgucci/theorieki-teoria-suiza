@@ -1,5 +1,6 @@
-import questions from './data/questions.json'
-
+// Sin import del banco de preguntas a propósito: utils lo usa la pantalla de
+// inicio, que va en el bundle inicial, así que las funciones reciben el banco
+// como argumento en vez de arrastrarlo. Además las vuelve puras para testear.
 export function shuffle(array) {
   const a = [...array]
   for (let i = a.length - 1; i > 0; i--) {
@@ -9,7 +10,7 @@ export function shuffle(array) {
   return a
 }
 
-export function questionsForCategory(category) {
+export function questionsForCategory(category, questions) {
   return questions.filter((q) => q.category === 'both' || q.category === category)
 }
 
@@ -42,8 +43,8 @@ export function speakDe(text) {
 
 // El examen real: 50 preguntas, máx. 15 puntos de penalización, 45 minutos.
 // Con un banco menor, se escala proporcionalmente.
-export function examConfig(category) {
-  const pool = questionsForCategory(category)
+export function examConfig(category, questions) {
+  const pool = questionsForCategory(category, questions)
   const size = Math.min(50, pool.length)
   const maxPenalty = Math.round((15 * size) / 50)
   const timeLimitSec = Math.round((45 * 60 * size) / 50)

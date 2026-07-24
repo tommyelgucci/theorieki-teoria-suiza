@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useLang, t } from '../i18n'
 import { storage } from '../storage'
 import { questionsForCategory, readinessScore } from '../utils'
+import { loadQuestions } from '../data/questionBank'
 import { topicLabel } from '../data/topics'
 import ProgressRing from './ProgressRing'
 import { CarIcon, MotoIcon } from './CategoryIcons'
@@ -83,12 +84,13 @@ function GroupLabel({ children }) {
   )
 }
 
-function Hero({ profile, category, navigate }) {
+function Hero({ profile, navigate, pool }) {
   const { lang } = useLang()
   const stats = storage.getStats()
   const history = storage.getExamHistory()
-  const pool = questionsForCategory(category)
-  const { score, level, weakTopics } = readinessScore(stats, history, pool)
+  // pool es null hasta que llega el banco: readinessScore devuelve el estado
+  // inicial con una lista vacía, que es justo lo que hay que mostrar mientras.
+  const { score, level, weakTopics } = readinessScore(stats, history, pool || [])
   const streak = storage.getStreak()
   const daily = storage.getDailyCount()
   const dailyPct = Math.min(100, Math.round((100 * daily) / DAILY_GOAL))
@@ -145,12 +147,29 @@ export default function Home({ category, setCategory, navigate, profile }) {
   const { lang } = useLang()
   const failedCount = storage.getFailed().length
   const stats = storage.getStats()
-  const pool = questionsForCategory(category)
-  const seen = pool.filter((q) => stats[q.id]?.seen > 0).length
-  const mastered = pool.filter((q) => {
-    const s = stats[q.id]
-    return s && s.correct > s.wrong
-  }).length
+  // El banco de preguntas (6 idiomas) es lo más pesado de la app y acá sólo hace
+  // falta para contadores, así que se pide aparte y no viaja en el chunk inicial.
+  const [pool, setPool] = useState(null)
+  useEffect(() => {
+    let alive = true
+    loadQuestions()
+      .then((questions) => {
+        if (alive) setPool(questionsForCategory(category, questions))
+      })
+      .catch(() => {
+        // los contadores son informativos: si el banco no llega, quedan en '·'
+      })
+    return () => {
+      alive = false
+    }
+  }, [category])
+  const seen = pool ? pool.filter((q) => stats[q.id]?.seen > 0).length : null
+  const mastered = pool
+    ? pool.filter((q) => {
+        const s = stats[q.id]
+        return s && s.correct > s.wrong
+      }).length
+    : null
   const history = storage.getExamHistory()
   const lastExam = history[history.length - 1]
   // El banco de maniobras (keyframes, captions en 6 idiomas) es pesado y solo
@@ -168,7 +187,7 @@ export default function Home({ category, setCategory, navigate, profile }) {
 
   return (
     <div className="mx-auto max-w-xl space-y-4 px-4 py-5">
-      <Hero profile={profile} category={category} navigate={navigate} />
+      <Hero profile={profile} navigate={navigate} pool={pool} />
 
       <div className="flex gap-3">
         <CategoryButton
@@ -189,10 +208,10 @@ export default function Home({ category, setCategory, navigate, profile }) {
 
       <div className="flex items-center justify-between rounded-xl bg-white dark:bg-gray-800 px-4 py-2.5 text-xs text-gray-600 dark:text-gray-300 shadow-card ring-1 ring-gray-200/70 dark:ring-gray-700">
         <span className="inline-flex items-center gap-1">
-          <IconStack className="h-3.5 w-3.5" /> {pool.length} {t('categoryQuestions', lang)}
+          <IconStack className="h-3.5 w-3.5" /> {pool ? pool.length : '·'} {t('categoryQuestions', lang)}
         </span>
         <span>
-          {seen} {t('progressSeen', lang)} · {mastered} {t('progressMastered', lang)}
+          {seen ?? '·'} {t('progressSeen', lang)} · {mastered ?? '·'} {t('progressMastered', lang)}
         </span>
       </div>
 

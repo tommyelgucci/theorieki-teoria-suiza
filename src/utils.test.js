@@ -27,7 +27,7 @@ describe('shuffle', () => {
 describe('questionsForCategory', () => {
   it('includes every question flagged "both" or the requested category, and nothing else', () => {
     for (const category of ['A', 'B']) {
-      const result = questionsForCategory(category)
+      const result = questionsForCategory(category, questions)
       const expected = questions.filter((q) => q.category === 'both' || q.category === category)
       expect(result.map((q) => q.id).sort()).toEqual(expected.map((q) => q.id).sort())
       expect(result.every((q) => q.category === 'both' || q.category === category)).toBe(true)
@@ -104,8 +104,8 @@ describe('hasMultipleCorrect', () => {
 describe('examConfig', () => {
   it('scales penalty and time proportionally to the pool size, capped at the real-exam size', () => {
     for (const category of ['A', 'B']) {
-      const pool = questionsForCategory(category)
-      const { size, maxPenalty, timeLimitSec } = examConfig(category)
+      const pool = questionsForCategory(category, questions)
+      const { size, maxPenalty, timeLimitSec } = examConfig(category, questions)
       expect(size).toBe(Math.min(50, pool.length))
       expect(maxPenalty).toBe(Math.round((15 * size) / 50))
       expect(timeLimitSec).toBe(Math.round((45 * 60 * size) / 50))
