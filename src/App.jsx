@@ -1,24 +1,39 @@
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { LangContext, t } from './i18n'
 import { storage } from './storage'
+import { lazyWithReload, wasReloadedForChunk } from './lazyWithReload'
 import Header from './components/Header'
 import Home from './components/Home'
 
 // Vistas secundarias: se cargan bajo demanda (code-splitting) para que la
 // carga inicial no incluya el banco de maniobras, señales, primeros auxilios,
 // VKU, Kontrollfahrt, WAB ni tips hasta que el usuario realmente navegue ahí.
-const Study = lazy(() => import('./components/Study'))
-const Exam = lazy(() => import('./components/Exam'))
-const Review = lazy(() => import('./components/Review'))
-const Tips = lazy(() => import('./components/Tips'))
-const Maneuvers = lazy(() => import('./components/Maneuvers'))
-const FirstAid = lazy(() => import('./components/FirstAid'))
-const Signs = lazy(() => import('./components/Signs'))
-const Stats = lazy(() => import('./components/Stats'))
-const Kontrollfahrt = lazy(() => import('./components/Kontrollfahrt'))
-const Vku = lazy(() => import('./components/Vku'))
-const Wab = lazy(() => import('./components/Wab'))
-const Profiles = lazy(() => import('./components/Profiles'))
+const Study = lazyWithReload(() => import('./components/Study'))
+const Exam = lazyWithReload(() => import('./components/Exam'))
+const Review = lazyWithReload(() => import('./components/Review'))
+const Tips = lazyWithReload(() => import('./components/Tips'))
+const Maneuvers = lazyWithReload(() => import('./components/Maneuvers'))
+const FirstAid = lazyWithReload(() => import('./components/FirstAid'))
+const Signs = lazyWithReload(() => import('./components/Signs'))
+const Stats = lazyWithReload(() => import('./components/Stats'))
+const Kontrollfahrt = lazyWithReload(() => import('./components/Kontrollfahrt'))
+const Vku = lazyWithReload(() => import('./components/Vku'))
+const Wab = lazyWithReload(() => import('./components/Wab'))
+const Profiles = lazyWithReload(() => import('./components/Profiles'))
+
+const VIEW_KEY = 'theorieki.view'
+
+// Si la página se recargó porque faltaba un chunk, volvemos a la sección que el
+// usuario había pedido en vez de dejarlo de vuelta en el inicio. En cualquier
+// otro arranque (incluido abrir la app de cero) se empieza en 'home'.
+function initialView() {
+  if (!wasReloadedForChunk()) return 'home'
+  try {
+    return sessionStorage.getItem(VIEW_KEY) || 'home'
+  } catch {
+    return 'home'
+  }
+}
 
 function ViewLoading() {
   return (
@@ -31,7 +46,7 @@ function ViewLoading() {
 export default function App() {
   const [lang, setLangState] = useState(storage.getLang)
   const [category, setCategoryState] = useState(() => storage.getCategory() || 'B')
-  const [view, setView] = useState('home')
+  const [view, setView] = useState(initialView)
   const [studyTopic, setStudyTopic] = useState(null)
   const [theme, setThemeState] = useState(storage.getTheme)
   const [showProfiles, setShowProfiles] = useState(false)
@@ -50,6 +65,14 @@ export default function App() {
   useEffect(() => {
     document.documentElement.setAttribute('lang', lang)
   }, [lang])
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(VIEW_KEY, view)
+    } catch {
+      // sin sessionStorage sólo se pierde la restauración de vista tras recargar
+    }
+  }, [view])
 
   const toggleTheme = () => {
     const next = theme === 'dark' ? 'light' : 'dark'
