@@ -123,7 +123,7 @@ export default function Exam({ category, onExit }) {
             <li>• {t('examIntro2', lang, { n: config.size, p: config.maxPenalty })}</li>
             <li>• {t('examIntro3', lang, { t: Math.round(config.timeLimitSec / 60) })}</li>
           </ul>
-          <p className="mt-3 text-[11px] leading-relaxed text-gray-400 dark:text-gray-500">{t('independenceShort', lang)}</p>
+          <p className="mt-3 text-[11px] leading-relaxed text-gray-600 dark:text-gray-400">{t('independenceShort', lang)}</p>
         </div>
         <button
           onClick={start}

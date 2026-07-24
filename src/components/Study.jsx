@@ -95,7 +95,7 @@ export default function Study({ category, initialTopic }) {
         </div>
       ) : (
         <>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             {t('question', lang)} {index + 1} {t('of', lang)} {pool.length}
           </p>
 
