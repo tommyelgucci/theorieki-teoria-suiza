@@ -9,8 +9,8 @@ App web multilingüe (**alemán, español, francés, italiano, inglés y portugu
 ## Funcionalidades
 
 - **Pantalla inicial**: elegir Coche (B) o Moto (A) + selector de idioma (DE/ES/FR/IT/EN/PT) siempre visible
-- **Modo estudio**: preguntas una a una con feedback inmediato, explicación bilingüe y filtro por tema
-- **Modo examen**: simulación con preguntas aleatorias, temporizador, puntos de penalización y repaso de errores al final. Con el banco actual (108 preguntas) ya alcanza el formato real: 50 preguntas, máx. 15 puntos, 45 min; con un banco menor escala proporcionalmente
+- **Modo estudio**: preguntas una a una con feedback inmediato, explicación en los 6 idiomas y filtro por tema
+- **Modo examen**: simulación con preguntas aleatorias, temporizador, puntos de penalización y repaso de errores al final. Con el banco actual (146 preguntas para categoría B; 158 para A, que suma 12 propias) ya alcanza el formato real: 50 preguntas, máx. 15 puntos, 45 min; con un banco menor escala proporcionalmente
 - **Preguntas visuales**: parte del banco incluye una señal dibujada (`image: { type: "sign", id }`) o un diagrama de cruce/rotonda con vehículos etiquetados (`image: { type: "scene", id }`, ver `SceneDiagram.jsx` y `src/data/diagrams.js`) para preguntas de prioridad tipo "¿quién pasa primero?"
 - **Repaso de falladas**: las preguntas falladas se guardan en `localStorage` y se eliminan al responderlas bien
 - **Maniobras animadas**: animaciones SVG limpias en vista cenital (estilo "vídeo explicativo") con coche animado, indicador de volante, intermitentes, marcha atrás y captions paso a paso, bilingües. 10 maniobras de categoría B: aparcar en paralelo, en perpendicular y de frente, girar a la izquierda con Einspuren, tramo largo marcha atrás, cambio de sentido en 3 tiempos, parada en el STOP, frenada de emergencia (Vollbremsung), dónde parar ("Anhalten") y la regla de los 2 segundos
@@ -19,7 +19,7 @@ App web multilingüe (**alemán, español, francés, italiano, inglés y portugu
 - **Primeros auxilios (Nothelfer)**: módulo de repaso del Nothelferkurs obligatorio (temario en `src/data/firstaid.js`): 8 temas de lectura (números de emergencia, asegurar el accidente, GABI, posición lateral, RCP 30:2 y DEA, hemorragias/shock, infarto/ictus/quemaduras, obligaciones legales), 26 flashcards con progreso persistente y quiz de 10 preguntas con feedback. No sustituye el curso oficial presencial.
 - **Repetición espaciada (SRS)** en las flashcards de Nothelfer y Señales: cada tarjeta tiene un nivel (0–5) con intervalos crecientes (1, 3, 7, 14, 30 días); la baraja del día son las tarjetas nuevas o vencidas. "Me la sé" sube de nivel, "Repasar" la reinicia.
 - **Estadísticas** (`Stats.jsx`): racha de días de estudio, aciertos por tema (ordenados de peor a mejor), historial de exámenes y progreso de flashcards de ambos módulos.
-- **App instalable (PWA)**: manifest + service worker propio (`public/sw.js`, cache-first con actualización en segundo plano) — "Añadir a pantalla de inicio" en el móvil da un icono propio y funcionamiento offline. Se sirve vía GitHub Pages (ver más abajo); el registro del service worker se omite automáticamente si la app se abre como archivo local (`file://`), así el HTML de un solo archivo sigue funcionando igual.
+- **App instalable (PWA)**: manifest + service worker propio (`public/sw.js`: red primero para el HTML, caché primero para los assets con hash, y precache del build entero al instalar) — "Añadir a pantalla de inicio" en el móvil da un icono propio y funcionamiento offline. Se sirve vía GitHub Pages (ver más abajo); el registro del service worker se omite automáticamente si la app se abre como archivo local (`file://`), así el HTML de un solo archivo sigue funcionando igual.
 
 ## El camino completo a la licencia
 
@@ -52,7 +52,7 @@ npm test            # tests unitarios (Vitest), una sola pasada
 npm run test:watch  # tests en modo watch
 ```
 
-Los tests cubren la lógica pura de `src/utils.js` (filtrado de preguntas por categoría, corrección de respuestas, cálculo de preparación para el examen) y la detección de idioma del navegador en `src/storage.js` (`src/utils.test.js`, `src/storage.test.js`). El workflow de despliegue (`.github/workflows/deploy.yml`) corre `npm test` antes del build: si un test falla, no se despliega.
+Los tests cubren la lógica pura de `src/utils.js` (filtrado de preguntas por categoría, corrección de respuestas, cálculo de preparación para el examen) y la detección de idioma del navegador en `src/storage.js` (`src/utils.test.js`, `src/storage.test.js`, `src/lazyWithReload.test.js`). El workflow de despliegue (`.github/workflows/deploy.yml`) corre `npm test` antes del build: si un test falla, no se despliega.
 
 ## Modelo de datos
 
@@ -74,7 +74,7 @@ Cada pregunta en `src/data/questions.json`:
 }
 ```
 
-Se soportan preguntas con **varias respuestas correctas** (checkboxes, como en el examen real). Los tips viven en `src/data/tips.json` con la misma estructura bilingüe.
+Se soportan preguntas con **varias respuestas correctas** (checkboxes, como en el examen real). Los tips viven en `src/data/tips.json` con la misma estructura multilingüe.
 
 ## Añadir preguntas
 
