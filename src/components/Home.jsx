@@ -36,7 +36,7 @@ function CategoryButton({ active, onClick, icon, label, sub }) {
     >
       {icon}
       <span className="font-bold text-gray-900 dark:text-gray-100">{label}</span>
-      <span className="text-xs text-gray-500 dark:text-gray-400">{sub}</span>
+      <span className="text-xs text-gray-600 dark:text-gray-400">{sub}</span>
     </button>
   )
 }
@@ -78,7 +78,7 @@ function MenuButton({ onClick, icon, label, sub, badge, tint = 'red' }) {
 
 function GroupLabel({ children }) {
   return (
-    <p className="px-1 pt-2 text-[11px] font-bold uppercase tracking-wider text-gray-400 dark:text-gray-500">
+    <p className="px-1 pt-2 text-[11px] font-bold uppercase tracking-wider text-gray-600 dark:text-gray-400">
       {children}
     </p>
   )
@@ -119,7 +119,7 @@ function Hero({ profile, navigate, pool }) {
             {score != null ? levelText : t('readinessEmpty', lang)}
           </p>
           {weakTopics.length > 0 && (
-            <p className="mt-1 truncate text-xs text-gray-400 dark:text-gray-500">
+            <p className="mt-1 truncate text-xs text-gray-600 dark:text-gray-400">
               {t('weakTopicsLabel', lang)} {weakTopics.map((tp) => topicLabel(tp, lang)).join(' · ')}
             </p>
           )}
@@ -289,9 +289,9 @@ export default function Home({ category, setCategory, navigate, profile }) {
         </p>
       )}
 
-      <p className="pt-2 text-center text-[11px] leading-relaxed text-gray-400">{t('disclaimer', lang)}</p>
+      <p className="pt-2 text-center text-[11px] leading-relaxed text-gray-600 dark:text-gray-400">{t('disclaimer', lang)}</p>
       <p className="text-center text-[11px]">
-        <a href="./privacy.html" target="_blank" rel="noreferrer" className="text-gray-400 underline hover:text-swiss">
+        <a href="./privacy.html" target="_blank" rel="noreferrer" className="text-gray-600 underline hover:text-swiss dark:text-gray-400">
           {t('privacyPolicy', lang)}
         </a>
       </p>

@@ -68,8 +68,8 @@ export default function Kontrollfahrt({ navigate }) {
       <Accordion items={KF_SECTIONS} />
 
       <div>
-        <h3 className="mb-1 font-bold text-gray-900 dark:text-gray-100">❌ {t('kfMistakesTitle', lang)}</h3>
-        <p className="mb-3 text-xs text-gray-500 dark:text-gray-400">{t('kfMistakesSub', lang)}</p>
+        <h2 className="mb-1 font-bold text-gray-900 dark:text-gray-100">❌ {t('kfMistakesTitle', lang)}</h2>
+        <p className="mb-3 text-xs text-gray-600 dark:text-gray-400">{t('kfMistakesSub', lang)}</p>
         <Accordion
           items={KF_MISTAKES}
           renderExtra={(item) =>
@@ -98,8 +98,8 @@ export default function Kontrollfahrt({ navigate }) {
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="font-bold text-gray-900 dark:text-gray-100">✅ {t('kfChecklistTitle', lang)}</h3>
-        <p className="mb-3 text-xs text-gray-500 dark:text-gray-400">{t('kfChecklistSub', lang)}</p>
+        <h2 className="font-bold text-gray-900 dark:text-gray-100">✅ {t('kfChecklistTitle', lang)}</h2>
+        <p className="mb-3 text-xs text-gray-600 dark:text-gray-400">{t('kfChecklistSub', lang)}</p>
         <ul className="space-y-2.5">
           {KF_CHECKLIST.map((item) => {
             const done = checked.includes(item.id)
@@ -127,7 +127,7 @@ export default function Kontrollfahrt({ navigate }) {
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="mb-2 font-bold text-gray-900 dark:text-gray-100">🔗 {t('officialLinks', lang)}</h3>
+        <h2 className="mb-2 font-bold text-gray-900 dark:text-gray-100">🔗 {t('officialLinks', lang)}</h2>
         <ul className="space-y-1.5">
           {KF_LINKS.map((l) => (
             <li key={l.url}>
