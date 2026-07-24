@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect, useRef, useState } from 'react'
 import { LangContext, t } from './i18n'
 import { storage } from './storage'
 import { lazyWithReload, wasReloadedForChunk } from './lazyWithReload'
@@ -51,6 +51,8 @@ export default function App() {
   const [theme, setThemeState] = useState(storage.getTheme)
   const [showProfiles, setShowProfiles] = useState(false)
   const profile = storage.getActiveProfile()
+  const mainRef = useRef(null)
+  const isFirstView = useRef(true)
 
   // navegación con filtro de tema opcional (cross-links desde Kontrollfahrt)
   const go = (nextView, topic = null) => {
@@ -72,6 +74,19 @@ export default function App() {
     } catch {
       // sin sessionStorage sólo se pierde la restauración de vista tras recargar
     }
+  }, [view])
+
+  // Al navegar, el contenido cambia pero el foco se queda donde estaba (o vuelve
+  // al <body>), así que con teclado o lector de pantalla hay que recorrer el
+  // encabezado otra vez. Movemos el foco al <main> de la nueva vista y subimos
+  // la página; en el arranque no, para no robarle el foco a nadie.
+  useEffect(() => {
+    if (isFirstView.current) {
+      isFirstView.current = false
+      return
+    }
+    window.scrollTo(0, 0)
+    mainRef.current?.focus({ preventScroll: true })
   }, [view])
 
   const toggleTheme = () => {
@@ -121,7 +136,13 @@ export default function App() {
             <Profiles onClose={() => setShowProfiles(false)} />
           </Suspense>
         )}
-        <div key={view} className="view-in">
+        <main
+          key={view}
+          ref={mainRef}
+          tabIndex={-1}
+          aria-label={titles[view] || t('appName', lang)}
+          className="view-in focus:outline-none"
+        >
         {view === 'home' && <Home category={category} setCategory={setCategory} navigate={go} profile={profile} />}
         <Suspense fallback={<ViewLoading />}>
           {view === 'study' && <Study key={studyTopic || 'all'} category={category} initialTopic={studyTopic} />}
@@ -136,7 +157,7 @@ export default function App() {
           {view === 'vku' && <Vku />}
           {view === 'wab' && <Wab />}
         </Suspense>
-        </div>
+        </main>
       </div>
     </LangContext.Provider>
   )
