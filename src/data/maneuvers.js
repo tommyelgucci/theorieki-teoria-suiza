@@ -544,9 +544,9 @@ export const MANEUVERS = [
         duration: 2200,
         keyframes: [
           { t: 0, x: 236, y: 320, angle: 0 },
-          { t: 0.35, x: 222, y: 300, angle: -25 },
-          { t: 0.7, x: 190, y: 285, angle: -58 },
-          { t: 1, x: 148, y: 292, angle: -90 },
+          { t: 0.35, x: 228, y: 308, angle: -22 },
+          { t: 0.7, x: 198, y: 300, angle: -58 },
+          { t: 1, x: 148, y: 300, angle: -90 },
         ],
         wheel: 'left',
         blinker: 'left',
@@ -562,8 +562,8 @@ export const MANEUVERS = [
         },
         duration: 1400,
         keyframes: [
-          { t: 0, x: 148, y: 292, angle: -90 },
-          { t: 1, x: 70, y: 292, angle: -90 },
+          { t: 0, x: 148, y: 300, angle: -90 },
+          { t: 1, x: 70, y: 300, angle: -90 },
         ],
         wheel: 'straight',
       },
@@ -641,6 +641,7 @@ export const MANEUVERS = [
         ],
         wheel: 'straight',
         reverse: true,
+        blinker: 'left',
       },
       {
         caption: {
@@ -658,6 +659,7 @@ export const MANEUVERS = [
         ],
         wheel: 'straight',
         reverse: true,
+        blinker: 'left',
       },
       {
         caption: {
@@ -671,12 +673,13 @@ export const MANEUVERS = [
         duration: 2600,
         keyframes: [
           { t: 0, x: 180, y: 255, angle: 0 },
-          { t: 0.35, x: 158, y: 278, angle: 30 },
-          { t: 0.7, x: 118, y: 291, angle: 65 },
-          { t: 1, x: 88, y: 293, angle: 90 },
+          { t: 0.35, x: 158, y: 284, angle: 30 },
+          { t: 0.7, x: 118, y: 300, angle: 65 },
+          { t: 1, x: 88, y: 302, angle: 90 },
         ],
         wheel: 'left',
         reverse: true,
+        blinker: 'left',
         guides: [
           { x1: 136, y1: 280, x2: 30, y2: 280 },
           { x1: 136, y1: 308, x2: 30, y2: 308 },
@@ -693,8 +696,8 @@ export const MANEUVERS = [
         },
         duration: 1600,
         keyframes: [
-          { t: 0, x: 88, y: 293, angle: 90 },
-          { t: 1, x: 76, y: 293, angle: 90 },
+          { t: 0, x: 88, y: 302, angle: 90 },
+          { t: 1, x: 76, y: 302, angle: 90 },
         ],
         wheel: 'straight',
         reverse: true,
@@ -760,9 +763,9 @@ export const MANEUVERS = [
         duration: 2600,
         keyframes: [
           { t: 0, x: 180, y: 225, angle: 0 },
-          { t: 0.35, x: 205, y: 258, angle: -35 },
-          { t: 0.7, x: 240, y: 285, angle: -70 },
-          { t: 1, x: 265, y: 292, angle: -90 },
+          { t: 0.35, x: 205, y: 262, angle: -35 },
+          { t: 0.7, x: 240, y: 291, angle: -70 },
+          { t: 1, x: 265, y: 298, angle: -90 },
         ],
         wheel: 'right',
         reverse: true,
@@ -783,8 +786,8 @@ export const MANEUVERS = [
         },
         duration: 1400,
         keyframes: [
-          { t: 0, x: 265, y: 292, angle: -90 },
-          { t: 1, x: 265, y: 292, angle: -90 },
+          { t: 0, x: 265, y: 298, angle: -90 },
+          { t: 1, x: 265, y: 298, angle: -90 },
         ],
         wheel: 'straight',
         blinker: 'left',
@@ -801,8 +804,8 @@ export const MANEUVERS = [
         },
         duration: 2600,
         keyframes: [
-          { t: 0, x: 265, y: 292, angle: -90 },
-          { t: 0.35, x: 225, y: 305, angle: -115 },
+          { t: 0, x: 265, y: 298, angle: -90 },
+          { t: 0.35, x: 225, y: 308, angle: -115 },
           { t: 0.6, x: 175, y: 340, angle: -155 },
           { t: 0.8, x: 130, y: 390, angle: -175 },
           { t: 1, x: 100, y: 435, angle: -180 },
@@ -853,16 +856,25 @@ export const MANEUVERS = [
               pt: 'Passo 2: Inverte numa única curva ampla para a esquerda – usa toda a largura sem fazer marcha-atrás.',
             },
             duration: 3600,
+            // Primero abrirse a la derecha dentro del bulbo (sin pisar el césped
+            // del tallo, que sólo mide 120 px de ancho) y recién ahí trazar un
+            // arco circular de 180° a la izquierda: radio 85 alrededor de
+            // (170, 120), o sea x = 170 + 85·cos(ángulo), y = 120 + 85·sen(ángulo).
             keyframes: [
               { t: 0, x: 200, y: 310, angle: 0 },
-              { t: 0.15, x: 245, y: 235, angle: 10 },
-              { t: 0.35, x: 272, y: 160, angle: -25 },
-              { t: 0.55, x: 240, y: 70, angle: -90 },
-              { t: 0.75, x: 150, y: 55, angle: -150 },
-              { t: 0.9, x: 90, y: 120, angle: -175 },
-              { t: 1, x: 88, y: 185, angle: -180 },
+              { t: 0.12, x: 206, y: 258, angle: 6 },
+              { t: 0.24, x: 226, y: 200, angle: 10 },
+              { t: 0.34, x: 248, y: 155, angle: 4 },
+              { t: 0.42, x: 255, y: 120, angle: 0 },
+              { t: 0.52, x: 244, y: 78, angle: -30 },
+              { t: 0.62, x: 213, y: 46, angle: -60 },
+              { t: 0.72, x: 170, y: 35, angle: -90 },
+              { t: 0.82, x: 128, y: 46, angle: -120 },
+              { t: 0.92, x: 96, y: 78, angle: -150 },
+              { t: 1, x: 85, y: 120, angle: -180 },
             ],
             wheel: 'left',
+            blinker: 'left',
           },
           {
             caption: {
@@ -874,11 +886,16 @@ export const MANEUVERS = [
               pt: 'Passo 3: Do outro lado, endireita e sai no sentido oposto.',
             },
             duration: 2200,
+            // Desde el borde oeste del bulbo hay que meterse en el tallo, que
+            // empieza en x=120: el coche se desplaza al este ANTES de llegar a
+            // y=240, si no la esquina trasera queda sobre el césped.
             keyframes: [
-              { t: 0, x: 88, y: 185, angle: -180 },
-              { t: 0.35, x: 125, y: 270, angle: -174 },
-              { t: 0.65, x: 160, y: 350, angle: -180 },
-              { t: 1, x: 160, y: 520, angle: -180 },
+              { t: 0, x: 85, y: 120, angle: -180 },
+              { t: 0.2, x: 100, y: 160, angle: -205 },
+              { t: 0.42, x: 142, y: 202, angle: -212 },
+              { t: 0.62, x: 163, y: 258, angle: -196 },
+              { t: 0.8, x: 165, y: 330, angle: -180 },
+              { t: 1, x: 165, y: 520, angle: -180 },
             ],
             wheel: 'straight',
           },
@@ -921,6 +938,7 @@ export const MANEUVERS = [
               { t: 1, x: 85, y: 135, angle: -105 },
             ],
             wheel: 'left',
+            blinker: 'left',
           },
           {
             caption: {
@@ -939,6 +957,7 @@ export const MANEUVERS = [
             ],
             wheel: 'right',
             reverse: true,
+            blinker: 'right',
           },
           {
             caption: {
@@ -956,6 +975,7 @@ export const MANEUVERS = [
               { t: 1, x: 160, y: 290, angle: -180 },
             ],
             wheel: 'left',
+            blinker: 'left',
           },
           {
             caption: {
@@ -1216,6 +1236,9 @@ export const MANEUVERS = [
           pt: 'Correto: pelo menos 2 segundos de distância – conta «21, 22» a partir de um ponto fixo.',
         },
         duration: 2200,
+        // No continúa el paso anterior: es el mismo tramo mostrado otra vez, ahora
+        // con la distancia correcta. El validador de continuidad lo salta por esto.
+        restart: true,
         keyframes: [
           { t: 0, x: 222, y: 430, angle: 0 },
           { t: 1, x: 222, y: 270, angle: 0 },
