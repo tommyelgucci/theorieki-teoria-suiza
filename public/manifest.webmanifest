@@ -1,7 +1,7 @@
 {
   "name": "TheorieKI — Teoría Suiza",
   "short_name": "TheorieKI",
-  "description": "Theorie & Praxis für die Schweizer Führerprüfung (B/A) — Teoría y práctica para el examen de conducir suizo",
+  "description": "146 Prüfungsfragen, animierte Manöver und ein KI-gestütztes Wiederholungssystem für die Schweizer Theorieprüfung (Kat. B/A) — auf Deutsch, Français, Italiano, English, Português und Español.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
