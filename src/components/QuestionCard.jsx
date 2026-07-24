@@ -85,10 +85,16 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
             <button
               key={opt.id}
               disabled={revealed}
+              // Sin esto, el estado de la opción sólo existía en el color y en un
+              // ✓ que se oculta con text-transparent: sigue en el árbol de
+              // accesibilidad, así que un lector de pantalla leía "✓" en todas
+              // las opciones, estuvieran marcadas o no.
+              aria-pressed={isSelected}
               onClick={() => onToggle(opt.id)}
               className={`flex w-full items-start gap-3 rounded-xl border p-3 text-left text-sm transition-colors ${cls}`}
             >
               <span
+                aria-hidden
                 className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-xs font-bold ${
                   isSelected
                     ? 'border-swiss bg-swiss text-white'

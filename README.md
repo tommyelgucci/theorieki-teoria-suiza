@@ -52,7 +52,14 @@ npm test            # tests unitarios (Vitest), una sola pasada
 npm run test:watch  # tests en modo watch
 ```
 
-Los tests cubren la lógica pura de `src/utils.js` (filtrado de preguntas por categoría, corrección de respuestas, cálculo de preparación para el examen) y la detección de idioma del navegador en `src/storage.js` (`src/utils.test.js`, `src/storage.test.js`, `src/lazyWithReload.test.js`). El workflow de despliegue (`.github/workflows/deploy.yml`) corre `npm test` antes del build: si un test falla, no se despliega.
+Los tests van en dos capas:
+
+- **Lógica pura** (`src/utils.test.js`, `src/storage.test.js`, `src/lazyWithReload.test.js`): filtrado de preguntas por categoría, corrección de respuestas, cálculo de preparación, detección de idioma del navegador y recuperación ante un chunk que ya no existe.
+- **Componentes**, con Testing Library sobre jsdom (`src/App.test.jsx`, `src/components/*.test.jsx`): navegación entre vistas y foco al `<main>` de la vista nueva, contadores del inicio con el banco cargado bajo demanda, flujo de responder en modo estudio (incluido el anuncio en `aria-live` y lo que queda guardado en el progreso), formato de la simulación de examen y el fallback del `ErrorBoundary`.
+
+Los textos esperados salen de `src/i18n.js` en vez de estar escritos a mano, así que reescribir una etiqueta no rompe los tests; y `src/test/setup.js` limpia `localStorage` entre tests y simula lo que jsdom no trae (`matchMedia`, `scrollTo`).
+
+El workflow de despliegue (`.github/workflows/deploy.yml`) corre `npm test` antes del build: si un test falla, no se despliega.
 
 ## Modelo de datos
 
