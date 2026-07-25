@@ -3,6 +3,7 @@ import { useLang, t, tr } from '../i18n'
 import { TOPICS } from '../data/topics'
 import { storage } from '../storage'
 import { questionsForCategory, shuffle, isAnswerCorrect } from '../utils'
+import questionBank from '../data/questions.json'
 import QuestionCard from './QuestionCard'
 import { IconCheck, IconCross } from './Icons'
 
@@ -15,13 +16,13 @@ export default function Study({ category, initialTopic }) {
   const [revealed, setRevealed] = useState(false)
 
   const pool = useMemo(() => {
-    const qs = questionsForCategory(category).filter((q) => topic === 'all' || q.topic === topic)
+    const qs = questionsForCategory(category, questionBank).filter((q) => topic === 'all' || q.topic === topic)
     return shuffle(qs)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category, topic, round])
 
   const availableTopics = useMemo(() => {
-    const ids = new Set(questionsForCategory(category).map((q) => q.topic))
+    const ids = new Set(questionsForCategory(category, questionBank).map((q) => q.topic))
     return TOPICS.filter((tp) => ids.has(tp.id))
   }, [category])
 
@@ -94,7 +95,7 @@ export default function Study({ category, initialTopic }) {
         </div>
       ) : (
         <>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             {t('question', lang)} {index + 1} {t('of', lang)} {pool.length}
           </p>
 

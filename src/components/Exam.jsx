@@ -3,6 +3,7 @@ import { useLang, t } from '../i18n'
 import Confetti from './Confetti'
 import { storage } from '../storage'
 import { examConfig, shuffle, isAnswerCorrect } from '../utils'
+import questionBank from '../data/questions.json'
 import QuestionCard from './QuestionCard'
 import { IconStopwatch, IconFlagMark, IconGrid, IconHourglass, IconCheck, IconConfetti, IconSadFace, IconAlarm, IconCross } from './Icons'
 
@@ -27,7 +28,7 @@ function Overlay({ onClose, children }) {
 
 export default function Exam({ category, onExit }) {
   const { lang } = useLang()
-  const config = useMemo(() => examConfig(category), [category])
+  const config = useMemo(() => examConfig(category, questionBank), [category])
   const [phase, setPhase] = useState('intro') // intro | running | result
   const [questions, setQuestions] = useState([])
   const [index, setIndex] = useState(0)
@@ -122,7 +123,7 @@ export default function Exam({ category, onExit }) {
             <li>• {t('examIntro2', lang, { n: config.size, p: config.maxPenalty })}</li>
             <li>• {t('examIntro3', lang, { t: Math.round(config.timeLimitSec / 60) })}</li>
           </ul>
-          <p className="mt-3 text-[11px] leading-relaxed text-gray-400 dark:text-gray-500">{t('independenceShort', lang)}</p>
+          <p className="mt-3 text-[11px] leading-relaxed text-gray-600 dark:text-gray-400">{t('independenceShort', lang)}</p>
         </div>
         <button
           onClick={start}

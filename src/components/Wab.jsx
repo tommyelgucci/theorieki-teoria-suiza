@@ -44,7 +44,7 @@ export default function Wab() {
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="mb-2 font-bold text-gray-900 dark:text-gray-100">🔗 {t('officialLinks', lang)}</h3>
+        <h2 className="mb-2 font-bold text-gray-900 dark:text-gray-100">🔗 {t('officialLinks', lang)}</h2>
         <ul className="space-y-1.5">
           {WAB_LINKS.map((l) => (
             <li key={l.url}>
