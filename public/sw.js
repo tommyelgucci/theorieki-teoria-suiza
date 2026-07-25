@@ -58,6 +58,18 @@ function cacheable(response) {
   return response.ok && response.type === 'basic'
 }
 
+/* `ignoreVary` es imprescindible y sin él el modo sin conexión no funciona.
+   Los servidores estáticos suelen responder con `Vary: Origin` (vite preview lo
+   hace). El precache guarda cada archivo con `cache.add()`, cuya petición no
+   lleva cabecera `Origin`; en cambio el navegador pide los módulos JS y el CSS
+   en modo `cors`, que sí la lleva. Con `Vary: Origin` en la respuesta, esas dos
+   peticiones se consideran distintas y `cache.match` falla aunque el archivo
+   esté guardado — verificado: dentro del SW daba `hit=false` sobre una entrada
+   que existía en ese mismo caché. */
+function match(cache, request) {
+  return cache.match(request, { ignoreVary: true })
+}
+
 async function networkFirst(request) {
   const cache = await caches.open(CACHE)
   try {
@@ -66,13 +78,13 @@ async function networkFirst(request) {
     return response
   } catch {
     // Sin conexión: servimos el documento guardado, o el shell como último recurso.
-    return (await cache.match(request)) || (await cache.match('./index.html')) || Response.error()
+    return (await match(cache, request)) || (await match(cache, './index.html')) || Response.error()
   }
 }
 
 async function cacheFirst(request) {
   const cache = await caches.open(CACHE)
-  const cached = await cache.match(request)
+  const cached = await match(cache, request)
   if (cached) return cached
   const response = await fetch(request)
   if (cacheable(response)) cache.put(request, response.clone())
@@ -81,7 +93,7 @@ async function cacheFirst(request) {
 
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE)
-  const cached = await cache.match(request)
+  const cached = await match(cache, request)
   const network = fetch(request)
     .then((response) => {
       if (cacheable(response)) cache.put(request, response.clone())

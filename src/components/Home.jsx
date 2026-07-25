@@ -177,9 +177,18 @@ export default function Home({ category, setCategory, navigate, profile }) {
   const [maneuverCount, setManeuverCount] = useState(null)
   useEffect(() => {
     let alive = true
-    import('../data/maneuvers').then(({ maneuversForCategory }) => {
-      if (alive) setManeuverCount(maneuversForCategory(category).length)
-    })
+    import('../data/maneuvers')
+      .then(({ maneuversForCategory }) => {
+        if (alive) setManeuverCount(maneuversForCategory(category).length)
+      })
+      .catch(() => {
+        // Dato accesorio: si no carga, sólo se queda sin insignia. No reintentamos
+        // aquí porque Vite memoriza la promesa de cada import() dinámico, así que
+        // repetir el mismo import devuelve el mismo rechazo sin volver a la red.
+        // Tampoco recargamos la página por un contador: si el fallo viene de un
+        // despliegue nuevo, se resuelve en cuanto el usuario entre a una sección,
+        // que sí pasa por lazyWithReload.
+      })
     return () => {
       alive = false
     }
