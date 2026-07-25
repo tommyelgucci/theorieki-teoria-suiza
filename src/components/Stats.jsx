@@ -142,9 +142,9 @@ function Backup() {
 
   return (
     <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-      <h3 className="flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+      <h2 className="flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
         <IconSave className="h-5 w-5" /> {t('backupTitle', lang)}
-      </h3>
+      </h2>
       <p className="mb-3 text-xs text-gray-500 dark:text-gray-400">{t('backupHint', lang)}</p>
       <div className="flex gap-2">
         <button
@@ -210,17 +210,17 @@ export default function Stats() {
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+        <h2 className="flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
           <IconStack className="h-5 w-5" /> {t('byTopic', lang)}
-        </h3>
-        <p className="mb-3 text-xs text-gray-400">{t('byTopicHint', lang)}</p>
+        </h2>
+        <p className="mb-3 text-xs text-gray-600 dark:text-gray-400">{t('byTopicHint', lang)}</p>
         <TopicBars />
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="mb-3 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+        <h2 className="mb-3 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
           <IconStopwatch className="h-5 w-5" /> {t('examHistoryTitle', lang)}
-        </h3>
+        </h2>
         {history.length === 0 ? (
           <p className="text-sm text-gray-500 dark:text-gray-400">{t('noStatsYet', lang)}</p>
         ) : (
@@ -246,9 +246,9 @@ export default function Stats() {
       </div>
 
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="mb-3 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+        <h2 className="mb-3 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
           <IconCards className="h-5 w-5" /> {t('cardsProgress', lang)}
-        </h3>
+        </h2>
         <ul className="space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
           <li className="flex justify-between">
             <span className="inline-flex items-center gap-1.5">

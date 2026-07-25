@@ -1,4 +1,12 @@
 /* Service worker de TheorieKI.
+
+   En la instalación se precachea el build entero (todos los chunks con hash más
+   los iconos), no sólo el shell. Sin eso, una sección que el usuario nunca abrió
+   estando online no está en el caché y sin conexión depende del caché HTTP del
+   navegador, que se desaloja cuando quiere: el modo sin conexión funcionaba de
+   casualidad. El nombre del caché lleva el id del build, así que cada despliegue
+   arranca con uno limpio y el viejo se borra en 'activate'.
+
    Estrategia por tipo de recurso:
    - Navegación (el HTML): red primero, caché sólo como respaldo sin conexión.
      Es lo que garantiza que un despliegue nuevo se tome de inmediato. Si el
@@ -7,14 +15,32 @@
    - Assets con hash en el nombre (/assets/...): caché primero. Son inmutables:
      si el contenido cambia, cambia el nombre, así que nunca sirven algo viejo.
    - El resto (iconos, manifest, imágenes de public/): stale-while-revalidate. */
-const CACHE = 'theorieki-v2'
-const SHELL = ['./', './index.html', './manifest.webmanifest']
+// Ambos marcadores los reemplaza el plugin precache-service-worker del build
+// (ver vite.config.js). En desarrollo quedan como están: no hay archivos con
+// hash que precachear y el caché se llama siempre igual.
+const BUILD_ID = '__BUILD_ID__'
+const BUILD_ASSETS = /* __BUILD_ASSETS__ */ []
+
+const CACHE = `theorieki-${BUILD_ID}`
+// Sin el shell la app no arranca sin conexión, así que su descarga es obligatoria.
+const SHELL = ['./', './index.html']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(CACHE)
-      .then((cache) => cache.addAll(SHELL))
+      .then(async (cache) => {
+        await cache.addAll(SHELL)
+        // El resto (JS, CSS, iconos) se guarda entero acá, en la primera visita:
+        // es lo que hace que después funcione sin conexión una sección que el
+        // usuario nunca abrió. Best-effort — que falle un archivo suelto no debe
+        // tumbar la instalación y dejar a la app sin service worker.
+        const results = await Promise.allSettled(
+          BUILD_ASSETS.map((url) => cache.add(url)),
+        )
+        const fallaron = results.filter((r) => r.status === 'rejected').length
+        if (fallaron) console.warn(`[sw] ${fallaron}/${BUILD_ASSETS.length} archivos no se pudieron precachear`)
+      })
       .then(() => self.skipWaiting()),
   )
 })

@@ -324,9 +324,9 @@ export default function Vku() {
         <HubCard onClick={() => setView('quiz')} icon={<IconQuestionBubble className="h-8 w-8" />} label={t('faQuizTitle', lang)} sub={t('vkuQuizSub', lang)} />
       </div>
       <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <h3 className="mb-2 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+        <h2 className="mb-2 flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
           <IconExternalLink className="h-5 w-5" /> {t('officialLinks', lang)}
-        </h3>
+        </h2>
         <ul className="space-y-1.5">
           {VKU_LINKS.map((l) => (
             <li key={l.url}>
