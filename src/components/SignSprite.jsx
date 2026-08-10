@@ -14,7 +14,7 @@ const GREY = '#8a9096'
 const ORANGE = '#f07d00'
 const INK = '#1c2024'
 
-export const PICTOGRAMS = {
+const PICTOGRAMS = {
   exclamation: (c = INK) => (
     <g fill={c}>
       <rect x={-4} y={-24} width={8} height={30} rx={3.5} />
