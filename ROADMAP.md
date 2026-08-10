@@ -5,9 +5,12 @@ abordarlo. Última actualización: 2026-08-10 (ver `CHECKPOINT.md` para el detal
 
 ## Estado actual (verificado, no solo documentado)
 
-- 104/104 tests pasan (`npm test`, 16 archivos), `npm run lint` en 0 errores, `npm run
-  build` compila sin errores. Verificado con 8 corridas completas seguidas (los tests
-  usan bancos de preguntas barajados al azar, así que una sola corrida verde no basta).
+- 104/104 tests pasan (`npm test`, 16 archivos), `npm run lint` en **0 errores y 0
+  warnings**, `npm run build` compila sin errores. Verificado con 8 corridas completas
+  seguidas (los tests usan bancos de preguntas barajados al azar, así que una sola
+  corrida verde no basta).
+- Deploy en `main` (`.github/workflows/deploy.yml`) verde de nuevo tras el fix del test
+  flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
 - 158 preguntas (146 categoría B, 158 categoría A — 146 compartidas + 12 propias de A),
@@ -28,14 +31,10 @@ Orden aproximado de prioridad, no estricto — reordénalo si cambia el contexto
    analítica ni trackers de terceros), pero implica que un fallo en producción solo se
    sabe si un usuario escribe. Si esto cambia de prioridad, evaluar algo self-hosted o
    sin PII antes de añadir un SDK de terceros.
-2. **`react-refresh/only-export-components` en `SignSprite.jsx`** — el archivo exporta
-   el componente por defecto y también constantes/helpers de dibujo. Es solo un warning
-   (no rompe el lint), pero si se quiere limpiar del todo habría que separar las
-   constantes de color/pictograma a un módulo propio.
-3. **VKU y Nothelfer declaran explícitamente "no sustituye el curso oficial"** —
+2. **VKU y Nothelfer declaran explícitamente "no sustituye el curso oficial"** —
    limitación de diseño consciente, no bug. Si se quisiera ampliar el temario, revisar
    primero si sigue siendo fiel a esa promesa antes de sumar contenido.
-4. **Patrón de test frágil con banco barajado**: cualquier test que busque un botón por
+3. **Patrón de test frágil con banco barajado**: cualquier test que busque un botón por
    texto parcial (regex) en una pantalla donde también se renderizan opciones de
    pregunta tomadas al azar del banco corre el riesgo de que una opción real contenga esa
    misma subcadena (pasó de verdad: ver "Cerrado" más abajo). Si se añade contenido
@@ -59,6 +58,9 @@ Orden aproximado de prioridad, no estricto — reordénalo si cambia el contexto
   botón (el helper genérico de la etiqueta de menú no puede llevar límite de palabra: en
   el inicio, la etiqueta va pegada sin espacio al subtítulo, p. ej. "LernmodusFragen mit
   sofortigem Feedback").
+- ~~`react-refresh/only-export-components` en `SignSprite.jsx`~~ → `PICTOGRAMS` no se
+  importaba desde ningún otro archivo, así que le sobraba el `export`: quitarlo bastó
+  para que el lint quedara en 0 warnings, sin tener que mover nada a un módulo nuevo.
 
 ## Ideas a futuro (sin comprometer, solo capturadas)
 
