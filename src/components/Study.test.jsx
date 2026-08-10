@@ -7,6 +7,14 @@ import { storage } from '../storage'
 
 const LANG = 'de'
 const text = (key) => new RegExp(t(key, LANG).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i')
+// Sólo para botones de acción de una palabra sola (p. ej. "Weiter →"): sin el
+// \b final, t('next') = 'Weiter' matchea por subcadena una opción real del
+// banco como "Weiterfahrt nur mit montierten Schneeketten" (pregunta de
+// cadenas de nieve) cuando el shuffle la pone primera, y getByRole revienta
+// por encontrar dos botones. No se puede usar en los botones de menú del
+// inicio: ahí la etiqueta va pegada sin espacio al subtítulo ("LernmodusFragen
+// mit sofortigem Feedback"), así que el \b final nunca encontraría borde.
+const actionWord = (key) => new RegExp(`^${t(key, LANG).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i')
 
 beforeEach(() => {
   localStorage.setItem('chfahren.lang', JSON.stringify(LANG))
@@ -71,7 +79,7 @@ describe('Modo estudio', () => {
     )
 
     expect(Object.keys(storage.getStats())).toHaveLength(1)
-    expect(screen.getByRole('button', { name: text('next') })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: actionWord('next') })).toBeInTheDocument()
   })
 
   it('una respuesta incorrecta va a la lista de repaso', async () => {
