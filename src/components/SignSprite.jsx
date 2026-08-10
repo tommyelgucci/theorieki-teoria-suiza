@@ -292,7 +292,7 @@ function Content({ draw, color, scale = 1, dy = 0 }) {
 }
 
 export default function SignSprite({ draw, size = 96 }) {
-  let body = null
+  let body
   switch (draw.shape) {
     case 'triangle':
       body = (
