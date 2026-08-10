@@ -8,6 +8,34 @@ recordar.
 
 ---
 
+## 2026-08-10 (4) — PR mergeado, deploy verde, y último hueco menor cerrado
+
+**Contexto:** el usuario mergeó el PR (#4) de la sesión anterior mientras seguía
+trabajando; el deploy en `main` volvió a estar verde (confirmado con
+`mcp__github__actions_list`, run `31411035461`, commit `2b0f625`). Solo quedaba en el
+roadmap el warning de `SignSprite.jsx` (los otros dos huecos son decisiones de producto,
+no tareas de código).
+
+**Qué se hizo:**
+- `SignSprite.jsx`: `PICTOGRAMS` estaba exportado pero ningún otro archivo lo importaba
+  — el `export` sobraba. Quitarlo resolvió el warning de `react-refresh/only-export-components`
+  sin necesidad de separar constantes a un módulo nuevo. `npm run lint` queda en **0
+  errores y 0 warnings**.
+- Como el PR ya estaba mergeado, se repitió el protocolo de rama ya mergeada: `git fetch
+  origin main && git checkout -B claude/theorieki-project-16nnbf origin/main` (diff
+  vacío antes de resetear) y se commiteó el fix encima.
+
+**Verificación:** `npm run lint` (0/0), `npm test` (104/104), `npm run build` sin
+errores.
+
+**Estado del roadmap:** de los huecos originales solo quedan dos, y ambos son
+decisiones de producto que no tiene sentido tomar sin el usuario: monitoreo de errores
+en producción (choca con la postura de privacidad) y si ampliar VKU/Nothelfer más allá
+de "no sustituye el curso oficial". El resto de la lista son notas de mantenimiento
+(patrón de test frágil), no tareas pendientes.
+
+---
+
 ## 2026-08-10 (3) — Cobertura de tests + fix de un bug que rompió el deploy en `main`
 
 **Contexto:** siguiente hueco del `ROADMAP.md`: cobertura de tests desigual (7 módulos
