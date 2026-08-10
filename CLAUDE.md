@@ -20,11 +20,12 @@ npm run dev         # servidor de desarrollo
 npm run build       # build de producción en dist/ (falla si algo no compila)
 npm test            # vitest run — una sola pasada, así se corre en CI/scripts
 npm run test:watch  # vitest en modo watch, para desarrollo interactivo
+npm run lint        # eslint . — reglas clásicas de hooks + no-unused-vars
 ```
 
-No hay `npm run lint` (no hay ESLint configurado — ver ROADMAP.md). Antes de dar por
-terminado un cambio: `npm test` y, si tocaste algo que afecta el bundle o el SW,
-`npm run build`.
+Antes de dar por terminado un cambio: `npm run lint` y `npm test` y, si tocaste algo
+que afecta el bundle o el SW, `npm run build`. Los pull requests corren estos tres pasos
+automáticamente vía `.github/workflows/ci.yml`.
 
 ## Reglas de oro de este repo
 
@@ -73,12 +74,14 @@ terminado un cambio: `npm test` y, si tocaste algo que afecta el bundle o el SW,
 
 ## Antes de terminar cualquier tarea
 
-1. `npm test` — debe seguir en 76+/76 verde (el número crece si añades tests).
-2. Si tocaste `src/data/*.json` o `*.js` con contenido multilingüe: verifica que los 6
+1. `npm run lint` — 0 errores (el warning de `react-refresh` en `SignSprite.jsx` es
+   conocido y no bloquea, ver `ROADMAP.md`).
+2. `npm test` — debe seguir en 76+/76 verde (el número crece si añades tests).
+3. Si tocaste `src/data/*.json` o `*.js` con contenido multilingüe: verifica que los 6
    idiomas estén presentes (no hay lint automático para esto todavía, revísalo a mano o
    con un script puntual).
-3. Si tocaste algo que afecta el bundle, el SW o el build: `npm run build` sin errores.
-4. No crees documentación nueva (`*.md`) salvo que se pida explícitamente.
+4. Si tocaste algo que afecta el bundle, el SW o el build: `npm run build` sin errores.
+5. No crees documentación nueva (`*.md`) salvo que se pida explícitamente.
 
 ## Estado del proyecto / qué falta
 

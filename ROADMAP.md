@@ -1,12 +1,14 @@
 # ROADMAP — TheorieKI
 
 Rumbo del proyecto: qué está sólido, qué falta y en qué orden tendría sentido
-abordarlo. Última auditoría: 2026-08-10 (ver `CHECKPOINT.md` para el detalle de esa
-sesión).
+abordarlo. Última actualización: 2026-08-10 (ver `CHECKPOINT.md` para el detalle de cada sesión).
 
 ## Estado actual (verificado, no solo documentado)
 
-- 76/76 tests pasan (`npm test`), `npm run build` compila sin errores.
+- 76/76 tests pasan (`npm test`), `npm run lint` en 0 errores, `npm run build` compila
+  sin errores.
+- CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
+  contra `main`.
 - 158 preguntas (146 categoría B, 158 categoría A — 146 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
 - Sin TODOs/FIXMEs reales pendientes en el código.
@@ -18,23 +20,29 @@ sesión).
 
 Orden aproximado de prioridad, no estricto — reordénalo si cambia el contexto.
 
-1. **Sin ESLint** — no hay `.eslintrc`/`eslint.config.*` ni script `lint`. Con React 19 +
-   hooks + Tailwind v4 conviene al menos `eslint-plugin-react-hooks` para pescar
-   dependencias de `useEffect` mal puestas antes de que lleguen a producción.
-2. **Sin CI en pull requests** — `.github/workflows/deploy.yml` solo corre en push a
-   `main` (antes del deploy). No hay un workflow que corra `npm test` (y build) en cada
-   PR antes de mergear, así que un PR roto solo se detecta al hacer merge.
-3. **Sin monitoreo de errores en producción** — decisión de privacidad consciente (sin
+1. **Sin monitoreo de errores en producción** — decisión de privacidad consciente (sin
    analítica ni trackers de terceros), pero implica que un fallo en producción solo se
    sabe si un usuario escribe. Si esto cambia de prioridad, evaluar algo self-hosted o
    sin PII antes de añadir un SDK de terceros.
-4. **Cobertura de tests por módulo desigual** — hay tests de lógica pura (`utils`,
+2. **Cobertura de tests por módulo desigual** — hay tests de lógica pura (`utils`,
    `storage`, `lazyWithReload`) y de componentes clave (`App`, `Home`, `Study`, `Exam`,
    `ErrorBoundary`), pero módulos como Signs, FirstAid, Vku, Kontrollfahrt, Wab, Stats,
    Maneuvers (componente, no solo datos) no tienen test de componente propio todavía.
-5. **VKU y Nothelfer declaran explícitamente "no sustituye el curso oficial"** —
+3. **`react-refresh/only-export-components` en `SignSprite.jsx`** — el archivo exporta
+   el componente por defecto y también constantes/helpers de dibujo. Es solo un warning
+   (no rompe el lint), pero si se quiere limpiar del todo habría que separar las
+   constantes de color/pictograma a un módulo propio.
+4. **VKU y Nothelfer declaran explícitamente "no sustituye el curso oficial"** —
    limitación de diseño consciente, no bug. Si se quisiera ampliar el temario, revisar
    primero si sigue siendo fiel a esa promesa antes de sumar contenido.
+
+## Cerrado
+
+- ~~Sin ESLint~~ → `eslint.config.js` con reglas clásicas de `react-hooks`
+  (`rules-of-hooks` + `exhaustive-deps`, sin las reglas experimentales de React
+  Compiler que el proyecto no usa) + `no-unused-vars` + `react-refresh`. `npm run lint`.
+- ~~Sin CI en pull requests~~ → `.github/workflows/ci.yml` corre lint + test + build en
+  cada PR contra `main`.
 
 ## Ideas a futuro (sin comprometer, solo capturadas)
 
