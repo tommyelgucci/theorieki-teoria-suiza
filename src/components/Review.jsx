@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import questions from '../data/questions.json'
 import { useLang, t } from '../i18n'
 import { storage } from '../storage'
