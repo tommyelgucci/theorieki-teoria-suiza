@@ -8,6 +8,63 @@ recordar.
 
 ---
 
+## 2026-08-10 (3) — Cobertura de tests + fix de un bug que rompió el deploy en `main`
+
+**Contexto:** siguiente hueco del `ROADMAP.md`: cobertura de tests desigual (7 módulos
+sin test de componente propio). A mitad de sesión, el usuario mandó una captura del
+workflow "Deploy TheorieKI a GitHub Pages" fallando en `main` — el PR de la sesión
+anterior (#3) ya se había mergeado, y ese merge rompió el deploy real.
+
+**Qué se hizo:**
+- Tests de componente nuevos para los 7 módulos que no los tenían: `Wab.test.jsx`,
+  `Kontrollfahrt.test.jsx`, `Maneuvers.test.jsx`, `Stats.test.jsx`, `Signs.test.jsx`,
+  `FirstAid.test.jsx`, `Vku.test.jsx`. Siguen el patrón ya establecido (render de `<App
+  />` completo, navegación por texto real de `i18n.js`, storage limpiado entre tests).
+- **Investigación del fallo de deploy** (vía `mcp__github__actions_list` /
+  `get_job_logs`, herramientas del MCP de GitHub): el run que falló (`31409399956`, en
+  `main`, commit `1578ebf` = merge del PR #3) no tenía nada que ver con el trabajo nuevo
+  de esta sesión (todavía sin commitear en ese momento) — era un bug preexistente en
+  `Study.test.jsx`, ya en el repo desde antes: `text('next')` construía una regex de
+  subcadena sin límite de palabra a partir de `t('next', 'de')` = `'Weiter'`. El banco de
+  preguntas se baraja al azar en cada montaje de `Study`, y la pregunta sobre cadenas de
+  nieve tiene una opción real `"Weiterfahrt nur mit montierten Schneeketten"` que también
+  matchea `/Weiter/i`. Cuando el shuffle pone esa pregunta primera, `getByRole('button',
+  {name: /Weiter/i})` encuentra DOS botones (el de "Weiter →" y la opción) y revienta.
+  Es decir: bug de fiabilidad del test, no de la app — pero bloqueaba el deploy real.
+- **Fix**: no se puede poner un límite de palabra (`\b`) en el helper genérico `text()`
+  porque se usa también para encontrar botones de menú del inicio, donde la etiqueta va
+  pegada sin espacio al subtítulo (p. ej. accessible name `"LernmodusFragen mit
+  sofortigem Feedback"` — sin espacio entre "Lernmodus" y "Fragen"), así que un `\b` al
+  final ahí nunca encontraría borde de palabra y rompería esa búsqueda. Se añadió un
+  helper aparte, `actionWord()`, con `^texto\b` (ancla al inicio + borde al final), usado
+  solo en el único sitio que lo necesita: el botón "Weiter" de `Study.test.jsx` tras
+  revelar una respuesta. Se revirtió por el mismo motivo un cambio equivalente que se
+  había aplicado de más en `Exam.test.jsx` (ese archivo no tiene el bug: no busca el
+  botón "next" por regex ahí). Se aplicó el mismo patrón (`word()`, con `\b` a ambos
+  lados) al único punto de riesgo real en el test nuevo de `FirstAid.test.jsx` (botón
+  "Weiter" del quiz, mismo tipo de colisión potencial aunque hoy no se dé con el banco
+  actual de Nothelfer).
+- **Verificación de la reproducibilidad**: como el bug depende del orden aleatorio del
+  banco, una sola corrida verde no prueba nada. Se corrió `Study.test.jsx` +
+  `Exam.test.jsx` 10 veces seguidas (10/10 verde) y la suite completa 8 veces seguidas
+  (8/8 verde, 104/104 tests cada vez) antes de dar el fix por bueno.
+- Corregido un error real de lint que aparecía en el nuevo `Stats.test.jsx` (`afterEach`
+  importado sin usar).
+- Como el PR #3 ya estaba mergeado a `main`, se siguió el protocolo de la sesión para
+  ramas ya mergeadas: `git fetch origin main && git checkout -B
+  claude/theorieki-project-16nnbf origin/main` (contenido idéntico, sin pérdida —
+  verificado con `git diff HEAD origin/main` vacío antes de resetear) y se commiteó el
+  trabajo nuevo encima de esa base.
+
+**Verificación final:** `npm run lint` (0 errores, 1 warning conocido), `npm test` ×8
+(104/104 cada vez), `npm run build` sin errores.
+
+**Pendiente / a comunicar al usuario:** `main` sigue roto hasta que este commit se
+mergee — el deploy no se volverá a intentar hasta el próximo push a `main`. No se abrió
+PR en esta sesión (no se pidió explícitamente); avisar al usuario de la urgencia.
+
+---
+
 ## 2026-08-10 (2) — ESLint + CI en pull requests
 
 **Contexto:** primeros dos huecos del `ROADMAP.md` de la sesión anterior.
