@@ -33,8 +33,8 @@ describe('Modo estudio', () => {
 
     await openStudy(user)
 
-    // 146 preguntas para B: si el banco no cargara, no habría contador ni opciones
-    expect(screen.getByText(`${t('question', LANG)} 1 ${t('of', LANG)} 146`)).toBeInTheDocument()
+    // 182 preguntas para B: si el banco no cargara, no habría contador ni opciones
+    expect(screen.getByText(`${t('question', LANG)} 1 ${t('of', LANG)} 182`)).toBeInTheDocument()
     expect(screen.getAllByRole('button', { pressed: false }).length).toBeGreaterThan(1)
   })
 

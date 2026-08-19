@@ -8,6 +8,74 @@ recordar.
 
 ---
 
+## 2026-08-19 — Ampliación grande del banco de preguntas + VKU + Nothelfer
+
+**Contexto:** pedido explícito del usuario de ampliar mucho el banco de preguntas y el
+contenido de VKU/Nothelfer, "buscando información en internet". Restricción legal del
+proyecto: nada de copiar/parafrasear el banco de la asa, todo debe redactarse desde cero
+a partir de legislación suiza de dominio público (SVG/VRV/SSV) u otras fuentes públicas
+(BFU, ASTRA, guías de primeros auxilios estándar SRC/ERC).
+
+**Investigación previa** (vía `WebSearch`, antes de escribir nada): se identificaron 9
+huecos temáticos reales en `questions.json` con base legal concreta — cinturón/silla
+infantil (art. 3a VRV), móvil al volante (art. 3 VRV), carril de emergencia/Rettungsgasse
+(art. 27 SVG, obligatorio desde 2021), paso a nivel, sujeción de carga (art. 57/58/73
+VRV), distancia al adelantar ciclistas (sin valor fijo en la ley, art. 34 SVG exige
+"distancia suficiente" — se verificó que esto no contradecía la pregunta ya existente
+q078 sobre el margen práctico de ~1,5 m), neumáticos de invierno (sin obligación legal
+explícita, pero deber general de diligencia del art. 31 SVG), túneles y remolcado (art.
+23 VRV). Se verificó primero que ninguno de estos temas duplicara contenido ya cubierto
+bajo otro topic (p. ej. ya existían preguntas de paso a nivel bajo el topic "umwelt"
+sobre apagar el motor, y de distancia con ciclistas bajo "ueberholen" — los temas nuevos
+son complementarios, no repetidos).
+
+**Qué se hizo:**
+- `questions.json`: +36 preguntas nuevas (q159–q194), 9 topics nuevos (`gurte`,
+  `ablenkung`, `rettungsgasse`, `bahnuebergang`, `ladung`, `velo`, `reifen`, `tunnel`,
+  `abschleppen`), 4 preguntas cada uno, las 6 idiomas completos, generadas con un script
+  Python (`json.dump`) para evitar errores de sintaxis en un archivo tan grande. Banco:
+  158 → 194 (182 categoría B, 194 categoría A).
+- `vku.js`: +6 preguntas de quiz (vk13–vk18: fatiga+alcohol combinados, distancia tras
+  camiones, niebla, fauna silvestre/Wildwechsel, puentes que hielan antes, zona escolar)
+  y +4 flashcards (v15–v18). No se tocó `VKU_BLOCKS` (los 4 bloques oficiales del curso
+  no deben alterarse).
+- `firstaid.js`: +2 temas nuevos completos (`ersticken` = atragantamiento/Heimlich,
+  `brueche` = fracturas y esguinces — huecos reales del temario estándar de primeros
+  auxilios, ausentes del módulo), +8 flashcards (c27–c34), +6 preguntas de quiz
+  (fa19–fa24). Nothelfer pasa de 8 a 10 temas, de 26 a 34 tarjetas, de 18 a 24 preguntas
+  en el pool (el quiz sigue sacando 10 al azar, `QUIZ_SIZE` sin cambios).
+- `Icons.jsx`: los dos temas nuevos de Nothelfer necesitaban iconos (`lungs`, `bandage`)
+  que no existían en `ICON_MAP` — sin ellos, `Icon()` devuelve `null` silenciosamente (no
+  rompe nada, pero deja el icono en blanco). Se añadieron `IconLungs` e `IconBandage`
+  siguiendo el estilo de línea ya establecido (viewBox 24×24, `currentColor`, sin fill).
+- Verificación de idiomas: script Node que importa los `.js` como módulos ES reales
+  (el proyecto es `"type": "module"`) y revisa que cada `question`/`option`/`explanation`/
+  `title`/`bullet`/`front`/`back` tenga los 6 idiomas no vacíos — 0 errores en los tres
+  archivos. Aparte, verificación de que cada pregunta nueva tenga exactamente 1 opción
+  correcta (todas de una sola respuesta, a diferencia de algunas preguntas antiguas tipo
+  checkbox con "Mehrere Antworten möglich").
+- Tests: `Home.test.jsx` y `Study.test.jsx` tenían los conteos 146/158 hardcodeados en el
+  texto esperado (`catalogo(146)`, etc.) — se actualizaron a 182/194. Corregido también
+  el comentario de tamaño del bundle en `questionBank.js` (158→194 preguntas, ~350→~470
+  KB minificado, verificado con `JSON.stringify` real, no estimado).
+- `README.md`: actualizados los conteos de preguntas (146/158 → 182/194) y el detalle del
+  módulo Nothelfer (8→10 temas, 26→34 tarjetas).
+
+**Verificación:** `npm run lint` (0/0), `npm test` × 6 corridas seguidas (104/104 cada
+vez, incluida la corrida que ya incorporaba los fixes de conteo), `npm run build` sin
+errores.
+
+**Decisión de alcance:** se priorizaron 9 temas de circulación con base legal verificable
+y 2 temas de primeros auxilios con hueco real de temario, en vez de intentar cubrir "todo
+lo posible" sin criterio — cada tema nuevo se investigó primero (fuentes: fedlex.admin.ch,
+BFU, ACS, TCS, Pro Velo Schweiz) antes de redactar una sola pregunta, para cumplir la
+restricción legal del proyecto de no derivar contenido de ningún banco de preguntas
+existente. Si el usuario quiere seguir ampliando, quedan temas candidatos sin cubrir:
+Autobahnvignette/etiqueta ambiental, transporte de animales, luces de circulación diurna,
+cruce de peatones fuera de paso marcado, prioridad en cruces con semáforo intermitente.
+
+---
+
 ## 2026-08-10 (4) — PR mergeado, deploy verde, y último hueco menor cerrado
 
 **Contexto:** el usuario mergeó el PR (#4) de la sesión anterior mientras seguía

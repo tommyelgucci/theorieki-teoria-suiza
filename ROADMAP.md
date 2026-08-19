@@ -1,20 +1,22 @@
 # ROADMAP — TheorieKI
 
 Rumbo del proyecto: qué está sólido, qué falta y en qué orden tendría sentido
-abordarlo. Última actualización: 2026-08-10 (ver `CHECKPOINT.md` para el detalle de cada sesión).
+abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detalle de cada sesión).
 
 ## Estado actual (verificado, no solo documentado)
 
 - 104/104 tests pasan (`npm test`, 16 archivos), `npm run lint` en **0 errores y 0
-  warnings**, `npm run build` compila sin errores. Verificado con 8 corridas completas
-  seguidas (los tests usan bancos de preguntas barajados al azar, así que una sola
-  corrida verde no basta).
+  warnings**, `npm run build` compila sin errores. Verificado con varias corridas
+  completas seguidas (los tests usan bancos de preguntas barajados al azar, así que una
+  sola corrida verde no basta).
 - Deploy en `main` (`.github/workflows/deploy.yml`) verde de nuevo tras el fix del test
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 158 preguntas (146 categoría B, 158 categoría A — 146 compartidas + 12 propias de A),
+- 194 preguntas (182 categoría B, 194 categoría A — 182 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
+  Ampliado en la sesión de 2026-08-19 con 9 temas nuevos (36 preguntas) redactados desde
+  cero a partir de VRV/SVG, ver `CHECKPOINT.md`.
 - Sin TODOs/FIXMEs reales pendientes en el código.
 - Funcionalidad cubierta: estudio, examen simulado, repaso de falladas, maniobras
   animadas, señales (explorar/flashcards SRS/quiz), Nothelfer, VKU, Kontrollfahrt, WAB,
