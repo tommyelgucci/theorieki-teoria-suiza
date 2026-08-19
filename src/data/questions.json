@@ -9890,5 +9890,2237 @@
       "pt": "A bagagem mal arrumada desestabiliza a mota; pendurada no guiador é claramente perigosa."
     },
     "image": null
+  },
+  {
+    "id": "q159",
+    "category": "both",
+    "topic": "gurte",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "In deinem Auto sitzt ein 8-jähriges Kind auf dem Rücksitz. Was schreibt die VRV vor?",
+      "es": "En tu coche viaja un niño de 8 años en el asiento trasero. ¿Qué exige la VRV?",
+      "fr": "Un enfant de 8 ans est assis à l'arrière de ta voiture. Que prescrit l'OCR ?",
+      "it": "Nella tua auto un bambino di 8 anni siede sul sedile posteriore. Cosa prescrive l'ONC?",
+      "en": "An 8-year-old child is sitting in the back seat of your car. What does the Traffic Rules Ordinance (VRV) require?",
+      "pt": "Uma criança de 8 anos vai sentada no banco de trás do teu carro. O que exige o regulamento (VRV)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das Kind muss mit einem für Alter und Grösse geeigneten Kindersitz oder einer Sitzerhöhung gesichert werden",
+          "es": "El niño debe ir sujeto con una silla infantil o un alzador adecuados a su edad y tamaño",
+          "fr": "L'enfant doit être attaché avec un siège pour enfant ou un rehausseur adapté à son âge et sa taille",
+          "it": "Il bambino deve essere assicurato con un seggiolino o un rialzo adatti alla sua età e statura",
+          "en": "The child must be secured with a child seat or booster seat suited to their age and size",
+          "pt": "A criança tem de ir presa com uma cadeira ou um assento elevatório adequados à idade e ao tamanho"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ab 6 Jahren reicht der normale Sicherheitsgurt allein",
+          "es": "A partir de los 6 años basta con el cinturón de seguridad normal",
+          "fr": "Dès 6 ans, la ceinture de sécurité normale suffit",
+          "it": "Dai 6 anni in su basta la normale cintura di sicurezza",
+          "en": "From age 6, the ordinary seatbelt alone is enough",
+          "pt": "A partir dos 6 anos basta o cinto de segurança normal"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Kindersicherung ist nur auf Autobahnen Pflicht",
+          "es": "La sujeción infantil solo es obligatoria en autopista",
+          "fr": "Le dispositif de retenue n'est obligatoire que sur autoroute",
+          "it": "Il seggiolino è obbligatorio solo in autostrada",
+          "en": "Child restraint is only mandatory on motorways",
+          "pt": "A cadeira infantil só é obrigatória em autoestrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 3a VRV verpflichtet dazu, Kinder unter 12 Jahren bzw. unter 150 cm Körpergrösse auf Sitzplätzen mit Gurt mit einem geeigneten Kindersitz oder einer Sitzerhöhung zu sichern.",
+      "es": "El art. 3a VRV obliga a sujetar a los niños menores de 12 años o de menos de 150 cm de estatura, en plazas con cinturón, con una silla infantil o un alzador adecuados.",
+      "fr": "L'art. 3a OCR oblige à attacher les enfants de moins de 12 ans ou de moins de 150 cm avec un dispositif de retenue adapté sur les places équipées d'une ceinture.",
+      "it": "L'art. 3a ONC obbliga ad assicurare i bambini sotto i 12 anni o sotto i 150 cm, sui sedili dotati di cintura, con un seggiolino o un rialzo adeguati.",
+      "en": "Art. 3a VRV requires children under 12 years old or under 150 cm in height to be secured on belted seats with a suitable child seat or booster.",
+      "pt": "O art. 3a VRV obriga a prender crianças com menos de 12 anos ou menos de 150 cm de altura, em lugares com cinto, com uma cadeira ou assento elevatório adequados."
+    },
+    "image": null
+  },
+  {
+    "id": "q160",
+    "category": "both",
+    "topic": "gurte",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Wer trägt die Verantwortung dafür, dass mitfahrende Kinder unter 12 Jahren richtig gesichert sind?",
+      "es": "¿Quién es responsable de que los niños menores de 12 años que viajan en el coche vayan bien sujetos?",
+      "fr": "Qui est responsable du fait que les enfants de moins de 12 ans transportés soient correctement attachés ?",
+      "it": "Chi è responsabile del fatto che i bambini sotto i 12 anni trasportati siano assicurati correttamente?",
+      "en": "Who is responsible for ensuring that child passengers under 12 are properly secured?",
+      "pt": "Quem é responsável por garantir que as crianças com menos de 12 anos transportadas vão bem presas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Fahrzeugführer",
+          "es": "El conductor del vehículo",
+          "fr": "Le conducteur du véhicule",
+          "it": "Il conducente del veicolo",
+          "en": "The vehicle's driver",
+          "pt": "O condutor do veículo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ausschliesslich die Eltern des Kindes, egal wer fährt",
+          "es": "Únicamente los padres del niño, sea quien sea quien conduzca",
+          "fr": "Uniquement les parents de l'enfant, quel que soit le conducteur",
+          "it": "Solo i genitori del bambino, indipendentemente da chi guida",
+          "en": "Only the child's parents, regardless of who is driving",
+          "pt": "Apenas os pais da criança, independentemente de quem conduz"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Niemand – ab dem Kindergartenalter entscheidet das Kind selbst",
+          "es": "Nadie: a partir de la edad de preescolar el niño decide por sí mismo",
+          "fr": "Personne – dès l'âge préscolaire, l'enfant décide lui-même",
+          "it": "Nessuno – dall'età della scuola materna decide il bambino stesso",
+          "en": "No one – from preschool age the child decides for themself",
+          "pt": "Ninguém – a partir da idade pré-escolar a criança decide sozinha"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 3a VRV verpflichtet den Fahrzeugführer, dafür zu sorgen, dass Kinder unter 12 Jahren mit einer geeigneten Rückhalteeinrichtung gesichert sind – unabhängig davon, wer die Eltern sind.",
+      "es": "El art. 3a VRV obliga al conductor a garantizar que los niños menores de 12 años vayan sujetos con un sistema de retención adecuado, independientemente de quiénes sean sus padres.",
+      "fr": "L'art. 3a OCR oblige le conducteur à veiller à ce que les enfants de moins de 12 ans soient attachés avec un dispositif de retenue adapté, quels que soient leurs parents.",
+      "it": "L'art. 3a ONC obbliga il conducente a garantire che i bambini sotto i 12 anni siano assicurati con un sistema di ritenuta adeguato, indipendentemente da chi siano i genitori.",
+      "en": "Art. 3a VRV obliges the driver to ensure that children under 12 are secured with a suitable restraint system, regardless of who the parents are.",
+      "pt": "O art. 3a VRV obriga o condutor a garantir que as crianças com menos de 12 anos vão presas com um sistema de retenção adequado, independentemente de quem sejam os pais."
+    },
+    "image": null
+  },
+  {
+    "id": "q161",
+    "category": "both",
+    "topic": "gurte",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was gilt, wenn ein ärztliches Attest bestätigt, dass ein Kind aus medizinischen Gründen keinen Kindersitz benutzen kann?",
+      "es": "¿Qué ocurre si un certificado médico confirma que un niño no puede usar una silla infantil por motivos médicos?",
+      "fr": "Que se passe-t-il si un certificat médical confirme qu'un enfant ne peut pas utiliser de siège pour enfant pour des raisons médicales ?",
+      "it": "Cosa vale se un certificato medico conferma che un bambino non può usare un seggiolino per motivi medici?",
+      "en": "What applies if a medical certificate confirms that a child cannot use a child seat for medical reasons?",
+      "pt": "O que se aplica se um atestado médico confirmar que uma criança não pode usar uma cadeira infantil por motivos médicos?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mit dem Attest kann ausnahmsweise auf Kindersitz und Gurt verzichtet werden",
+          "es": "Con el certificado, excepcionalmente, se puede prescindir de la silla y del cinturón",
+          "fr": "Avec ce certificat, on peut exceptionnellement renoncer au siège et à la ceinture",
+          "it": "Con il certificato si può eccezionalmente rinunciare a seggiolino e cintura",
+          "en": "With the certificate, the child seat and belt can exceptionally be dispensed with",
+          "pt": "Com o atestado, pode excecionalmente prescindir-se da cadeira e do cinto"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Kind darf dann grundsätzlich nicht mehr im Auto mitfahren",
+          "es": "En ese caso, el niño ya no puede viajar en coche en absoluto",
+          "fr": "Dans ce cas, l'enfant ne peut plus du tout voyager en voiture",
+          "it": "In tal caso il bambino non può più viaggiare in auto",
+          "en": "In that case the child may no longer travel by car at all",
+          "pt": "Nesse caso, a criança já não pode viajar de carro de todo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Ausnahme gilt nur für Fahrten unter 1 km",
+          "es": "La excepción solo vale para trayectos de menos de 1 km",
+          "fr": "L'exception ne vaut que pour les trajets de moins de 1 km",
+          "it": "L'eccezione vale solo per tragitti inferiori a 1 km",
+          "en": "The exception only applies to journeys under 1 km",
+          "pt": "A exceção só se aplica a trajetos com menos de 1 km"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 3a Abs. 2 Bst. a VRV sieht eine Ausnahme vor, wenn ein ärztliches Zeugnis bestätigt, dass Kindersitz oder Gurt dem Kind aus medizinischen Gründen nicht zugemutet werden können.",
+      "es": "El art. 3a párr. 2 letra a VRV prevé una excepción cuando un certificado médico confirma que la silla o el cinturón no son exigibles al niño por motivos médicos.",
+      "fr": "L'art. 3a al. 2 let. a OCR prévoit une exception lorsqu'un certificat médical confirme que le siège ou la ceinture ne peuvent raisonnablement être exigés de l'enfant pour des raisons médicales.",
+      "it": "L'art. 3a cpv. 2 lett. a ONC prevede un'eccezione quando un certificato medico conferma che seggiolino o cintura non sono ragionevolmente esigibili dal bambino per motivi medici.",
+      "en": "Art. 3a para. 2 let. a VRV provides an exception when a medical certificate confirms that the child seat or belt cannot reasonably be expected of the child for medical reasons.",
+      "pt": "O art. 3a n.º 2 al. a VRV prevê uma exceção quando um atestado médico confirma que a cadeira ou o cinto não são exigíveis à criança por motivos médicos."
+    },
+    "image": null
+  },
+  {
+    "id": "q162",
+    "category": "both",
+    "topic": "gurte",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein älteres Fahrzeug hat auf dem Rücksitz keinen Sicherheitsgurt. Musst du trotzdem einen Gurt tragen?",
+      "es": "Tu coche antiguo no tiene cinturón de seguridad en el asiento trasero. ¿Debes llevarlo igualmente?",
+      "fr": "Ta vieille voiture n'a pas de ceinture de sécurité à l'arrière. Dois-tu quand même en porter une ?",
+      "it": "La tua vecchia auto non ha la cintura di sicurezza sul sedile posteriore. Devi comunque indossarla?",
+      "en": "Your older car has no seatbelt in the back seat. Do you still have to wear one?",
+      "pt": "O teu carro antigo não tem cinto de segurança no banco de trás. Ainda assim tens de o usar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, die Tragpflicht gilt nur für Sitzplätze, die mit einem Gurt ausgerüstet sind",
+          "es": "No, la obligación de usarlo solo se aplica a las plazas que tienen cinturón instalado",
+          "fr": "Non, l'obligation ne vaut que pour les places équipées d'une ceinture",
+          "it": "No, l'obbligo vale solo per i sedili dotati di cintura",
+          "en": "No, the requirement only applies to seats fitted with a belt",
+          "pt": "Não, a obrigação só se aplica aos lugares equipados com cinto"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, du musst vor der Fahrt nachträglich einen Gurt einbauen lassen",
+          "es": "Sí, debes instalar un cinturón antes de emprender el viaje",
+          "fr": "Oui, tu dois faire installer une ceinture avant de partir",
+          "it": "Sì, devi far installare una cintura prima di partire",
+          "en": "Yes, you must have a belt fitted before setting off",
+          "pt": "Sim, tens de mandar instalar um cinto antes de partires"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, ein provisorischer Beckengurt aus dem Kofferraum reicht",
+          "es": "Sí, basta con un cinturón abdominal provisional sacado del maletero",
+          "fr": "Oui, une ceinture ventrale de fortune prise dans le coffre suffit",
+          "it": "Sì, basta una cintura addominale improvvisata presa dal bagagliaio",
+          "en": "Yes, an improvised lap belt from the boot is enough",
+          "pt": "Sim, basta um cinto abdominal improvisado tirado da bagageira"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Gurtentragpflicht nach Art. 3a VRV betrifft Sitzplätze, die mit einem Sicherheitsgurt ausgerüstet sind. Fehlt dieser bauartbedingt, entfällt an diesem Platz die Tragpflicht.",
+      "es": "La obligación de llevar cinturón (art. 3a VRV) se refiere a las plazas equipadas con cinturón de seguridad. Si no lo tienen por diseño, en esa plaza no existe esa obligación.",
+      "fr": "L'obligation de porter la ceinture (art. 3a OCR) concerne les places équipées d'une ceinture de sécurité. Si elle est absente de construction, l'obligation ne s'applique pas à cette place.",
+      "it": "L'obbligo di indossare la cintura (art. 3a ONC) riguarda i sedili dotati di cintura di sicurezza. Se questa manca per costruzione, su quel sedile l'obbligo non si applica.",
+      "en": "The seatbelt requirement under Art. 3a VRV applies to seats fitted with a seatbelt. If a seat has none by design, the requirement does not apply there.",
+      "pt": "A obrigação de usar cinto (art. 3a VRV) aplica-se aos lugares equipados com cinto de segurança. Se este não existir de fábrica, nesse lugar a obrigação não se aplica."
+    },
+    "image": null
+  },
+  {
+    "id": "q163",
+    "category": "both",
+    "topic": "ablenkung",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst und möchtest kurz eine Nachricht auf dem Handy lesen. Ist das erlaubt?",
+      "es": "Vas conduciendo y quieres leer un momento un mensaje del móvil. ¿Está permitido?",
+      "fr": "Tu conduis et veux lire rapidement un message sur ton téléphone. Est-ce autorisé ?",
+      "it": "Stai guidando e vuoi leggere velocemente un messaggio sul cellulare. È permesso?",
+      "en": "You are driving and want to quickly read a message on your phone. Is that allowed?",
+      "pt": "Estás a conduzir e queres ler rapidamente uma mensagem no telemóvel. É permitido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, das Halten und Bedienen des Telefons während der Fahrt ist untersagt",
+          "es": "No, sujetar y manejar el teléfono mientras conduces está prohibido",
+          "fr": "Non, tenir et utiliser le téléphone en conduisant est interdit",
+          "it": "No, tenere in mano e usare il telefono mentre si guida è vietato",
+          "en": "No, holding and operating the phone while driving is forbidden",
+          "pt": "Não, segurar e mexer no telemóvel enquanto conduzes é proibido"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, solange du weniger als 5 Sekunden hinschaust",
+          "es": "Sí, siempre que mires menos de 5 segundos",
+          "fr": "Oui, tant que tu regardes moins de 5 secondes",
+          "it": "Sì, purché guardi meno di 5 secondi",
+          "en": "Yes, as long as you look for less than 5 seconds",
+          "pt": "Sim, desde que olhes menos de 5 segundos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, ausserorts ist es erlaubt",
+          "es": "Sí, fuera de poblado está permitido",
+          "fr": "Oui, hors localité c'est autorisé",
+          "it": "Sì, fuori dalle località è permesso",
+          "en": "Yes, it is allowed outside built-up areas",
+          "pt": "Sim, fora das localidades é permitido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 3 Abs. 1 VRV verpflichtet den Führer, seine Aufmerksamkeit stets der Strasse und dem Verkehr zu widmen. Das Halten eines Mobiltelefons während der Fahrt verstösst dagegen – unabhängig von Dauer oder Streckenart.",
+      "es": "El art. 3 párr. 1 VRV obliga al conductor a prestar siempre atención a la carretera y al tráfico. Sujetar el móvil mientras conduces vulnera esto, sin importar la duración o el tipo de vía.",
+      "fr": "L'art. 3 al. 1 OCR oblige le conducteur à porter en tout temps son attention à la route et au trafic. Tenir un téléphone en conduisant y contrevient, quelle que soit la durée ou le type de route.",
+      "it": "L'art. 3 cpv. 1 ONC obbliga il conducente a prestare sempre attenzione alla strada e al traffico. Tenere in mano il cellulare mentre si guida viola questa regola, indipendentemente da durata o tipo di strada.",
+      "en": "Art. 3 para. 1 VRV requires the driver to pay constant attention to the road and traffic. Holding a mobile phone while driving breaches this, regardless of duration or road type.",
+      "pt": "O art. 3 n.º 1 VRV obriga o condutor a prestar sempre atenção à estrada e ao trânsito. Segurar o telemóvel enquanto conduz viola isso, independentemente da duração ou do tipo de via."
+    },
+    "image": null
+  },
+  {
+    "id": "q164",
+    "category": "both",
+    "topic": "ablenkung",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du stehst an der roten Ampel, der Motor läuft. Darfst du jetzt dein Handy in die Hand nehmen, um eine Nachricht zu tippen?",
+      "es": "Estás parado en un semáforo en rojo con el motor en marcha. ¿Puedes coger el móvil para escribir un mensaje?",
+      "fr": "Tu es arrêté au feu rouge, moteur allumé. Peux-tu prendre ton téléphone pour taper un message ?",
+      "it": "Sei fermo al semaforo rosso con il motore acceso. Puoi prendere il cellulare per scrivere un messaggio?",
+      "en": "You are stopped at a red light with the engine running. Can you pick up your phone to type a message?",
+      "pt": "Estás parado num semáforo vermelho com o motor ligado. Podes pegar no telemóvel para escrever uma mensagem?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, das Verbot gilt auch bei laufendem Motor im Stillstand, nicht nur während der Fahrt",
+          "es": "No, la prohibición también rige con el motor en marcha y el coche parado, no solo mientras se conduce",
+          "fr": "Non, l'interdiction s'applique aussi à l'arrêt moteur allumé, pas seulement en roulant",
+          "it": "No, il divieto vale anche da fermi a motore acceso, non solo mentre si guida",
+          "en": "No, the ban also applies while stationary with the engine running, not only while driving",
+          "pt": "Não, a proibição também se aplica parado com o motor ligado, não só a conduzir"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, solange das Fahrzeug steht, ist es erlaubt",
+          "es": "Sí, mientras el vehículo esté parado está permitido",
+          "fr": "Oui, tant que le véhicule est à l'arrêt, c'est autorisé",
+          "it": "Sì, finché il veicolo è fermo è permesso",
+          "en": "Yes, it is allowed as long as the vehicle is stationary",
+          "pt": "Sim, enquanto o veículo estiver parado é permitido"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, wenn die Handbremse angezogen ist",
+          "es": "Sí, si el freno de mano está puesto",
+          "fr": "Oui, si le frein à main est serré",
+          "it": "Sì, se il freno a mano è tirato",
+          "en": "Yes, if the handbrake is applied",
+          "pt": "Sim, se o travão de mão estiver puxado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Verbot gilt, solange das Fahrzeug in Betrieb ist – auch im Stau oder an der Ampel mit laufendem Motor. Sicher ist die Handynutzung erst bei ausgeschaltetem Motor.",
+      "es": "La prohibición rige mientras el vehículo esté en marcha, también en un atasco o en el semáforo con el motor encendido. Usar el móvil solo es seguro con el motor apagado.",
+      "fr": "L'interdiction s'applique tant que le véhicule est en service, même dans un embouteillage ou au feu, moteur allumé. L'usage du téléphone n'est sûr qu'avec le moteur éteint.",
+      "it": "Il divieto vale finché il veicolo è in funzione, anche in coda o al semaforo con il motore acceso. Usare il cellulare è sicuro solo a motore spento.",
+      "en": "The ban applies as long as the vehicle is in operation – even in a traffic jam or at a light with the engine running. Using the phone is only safe with the engine switched off.",
+      "pt": "A proibição aplica-se enquanto o veículo estiver em funcionamento, mesmo num engarrafamento ou no semáforo com o motor ligado. Usar o telemóvel só é seguro com o motor desligado."
+    },
+    "image": null
+  },
+  {
+    "id": "q165",
+    "category": "both",
+    "topic": "ablenkung",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie darfst du während der Fahrt legal telefonieren?",
+      "es": "¿Cómo puedes hablar por teléfono legalmente mientras conduces?",
+      "fr": "Comment peux-tu téléphoner légalement en conduisant ?",
+      "it": "Come puoi telefonare legalmente mentre guidi?",
+      "en": "How may you legally make phone calls while driving?",
+      "pt": "Como podes telefonar legalmente enquanto conduzes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nur freihändig, z. B. über Freisprechanlage oder Sprachsteuerung",
+          "es": "Solo con manos libres, p. ej. con altavoz del coche o control por voz",
+          "fr": "Uniquement en mode mains libres, p. ex. via le kit mains libres ou la commande vocale",
+          "it": "Solo a mani libere, ad es. tramite vivavoce o comandi vocali",
+          "en": "Only hands-free, e.g. via a hands-free kit or voice control",
+          "pt": "Só com mãos livres, por exemplo com kit mãos-livres ou comando de voz"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit dem Telefon in der linken Hand, wenn die rechte am Lenkrad bleibt",
+          "es": "Con el teléfono en la mano izquierda, si la derecha se queda en el volante",
+          "fr": "Avec le téléphone dans la main gauche, si la droite reste sur le volant",
+          "it": "Con il telefono nella mano sinistra, se la destra resta sul volante",
+          "en": "With the phone in your left hand, if your right hand stays on the wheel",
+          "pt": "Com o telemóvel na mão esquerda, se a direita ficar no volante"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Kurze Anrufe unter einer Minute sind auch ohne Freisprecheinrichtung erlaubt",
+          "es": "Las llamadas cortas de menos de un minuto se permiten aunque no haya manos libres",
+          "fr": "Les appels courts de moins d'une minute sont autorisés même sans kit mains libres",
+          "it": "Le chiamate brevi sotto un minuto sono permesse anche senza vivavoce",
+          "en": "Short calls under a minute are allowed even without a hands-free kit",
+          "pt": "As chamadas curtas com menos de um minuto são permitidas mesmo sem mãos-livres"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Telefonieren am Steuer ist nur mit Freisprecheinrichtung oder Sprachsteuerung zulässig, ohne dass das Gerät gehalten oder bedient werden muss.",
+      "es": "Hablar por teléfono al volante solo se permite con manos libres o control por voz, sin necesidad de sujetar o manejar el aparato.",
+      "fr": "Téléphoner au volant n'est autorisé qu'avec un kit mains libres ou une commande vocale, sans avoir à tenir ou manipuler l'appareil.",
+      "it": "Telefonare alla guida è consentito solo con vivavoce o comandi vocali, senza dover tenere in mano o utilizzare l'apparecchio.",
+      "en": "Making calls at the wheel is only permitted using a hands-free kit or voice control, without needing to hold or operate the device.",
+      "pt": "Telefonar ao volante só é permitido com mãos-livres ou comando de voz, sem ser necessário segurar ou mexer no aparelho."
+    },
+    "image": null
+  },
+  {
+    "id": "q166",
+    "category": "both",
+    "topic": "ablenkung",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Welche Folgen kann das Bedienen des Handys am Steuer haben, wenn es zu einem Unfall führt?",
+      "es": "¿Qué consecuencias puede tener usar el móvil al volante si provoca un accidente?",
+      "fr": "Quelles conséquences peut avoir l'usage du téléphone au volant s'il provoque un accident ?",
+      "it": "Quali conseguenze può avere usare il cellulare alla guida se provoca un incidente?",
+      "en": "What consequences can using a phone at the wheel have if it causes an accident?",
+      "pt": "Que consequências pode ter usar o telemóvel ao volante se causar um acidente?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es kann als grobe Verkehrsregelverletzung gewertet werden, mit Busse und möglichem Führerausweisentzug",
+          "es": "Puede considerarse una infracción grave de circulación, con multa y posible retirada del permiso",
+          "fr": "Cela peut être qualifié de violation grave des règles de la circulation, avec amende et retrait de permis possible",
+          "it": "Può essere considerata una grave violazione delle norme di circolazione, con multa e possibile ritiro della patente",
+          "en": "It can be classed as a serious traffic offence, with a fine and possible licence withdrawal",
+          "pt": "Pode ser considerada uma infração grave de trânsito, com multa e possível retirada da carta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es hat keine rechtlichen Folgen, wenn niemand verletzt wurde",
+          "es": "No tiene consecuencias legales si nadie resulta herido",
+          "fr": "Cela n'a aucune conséquence juridique si personne n'est blessé",
+          "it": "Non ha conseguenze legali se nessuno è rimasto ferito",
+          "en": "It has no legal consequences if no one was injured",
+          "pt": "Não tem consequências legais se ninguém ficar ferido"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die Versicherung des Unfallgegners haftet",
+          "es": "Solo responde el seguro de la otra parte implicada",
+          "fr": "Seule l'assurance de l'autre partie est responsable",
+          "it": "Risponde solo l'assicurazione della controparte",
+          "en": "Only the other party's insurer is liable",
+          "pt": "Só responde o seguro da outra parte envolvida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ablenkung durch Mobiltelefone wird von Polizei und Gerichten streng geahndet; je nach Schwere drohen Busse, Strafverfahren und Führerausweisentzug – auch bei Sachschaden ohne Verletzte.",
+      "es": "La distracción por el móvil se sanciona con dureza por policía y tribunales; según la gravedad, hay multa, proceso penal y retirada del permiso, incluso con solo daños materiales.",
+      "fr": "La distraction due au téléphone est sévèrement sanctionnée par la police et les tribunaux ; selon la gravité, amende, poursuites pénales et retrait de permis sont possibles, même avec seulement des dégâts matériels.",
+      "it": "La distrazione da cellulare viene punita severamente da polizia e tribunali; a seconda della gravità si rischiano multa, procedimento penale e ritiro della patente, anche con soli danni materiali.",
+      "en": "Distraction from mobile phones is punished strictly by police and courts; depending on severity, a fine, criminal proceedings and licence withdrawal are possible, even with only property damage.",
+      "pt": "A distração pelo telemóvel é punida com rigor pela polícia e pelos tribunais; consoante a gravidade, arrisca-se multa, processo penal e retirada da carta, mesmo só com danos materiais."
+    },
+    "image": null
+  },
+  {
+    "id": "q167",
+    "category": "both",
+    "topic": "rettungsgasse",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Auf der Autobahn (zwei Fahrstreifen pro Richtung) bildet sich plötzlich Stau. Wann musst du eine Rettungsgasse bilden?",
+      "es": "En la autopista (dos carriles por sentido) se forma de repente un atasco. ¿Cuándo debes formar el pasillo de emergencia?",
+      "fr": "Sur l'autoroute (deux voies par sens), un bouchon se forme soudainement. Quand dois-tu former le couloir de secours ?",
+      "it": "In autostrada (due corsie per senso di marcia) si forma improvvisamente una coda. Quando devi formare la corsia di emergenza?",
+      "en": "On the motorway (two lanes per direction), a traffic jam suddenly forms. When must you form an emergency corridor?",
+      "pt": "Na autoestrada (duas faixas por sentido) forma-se de repente um engarrafamento. Quando deves formar o corredor de emergência?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sofort, sobald der Verkehr stockt – nicht erst wenn ein Einsatzfahrzeug mit Blaulicht naht",
+          "es": "De inmediato, en cuanto el tráfico se detiene, no solo cuando se acerca un vehículo de emergencia con luces",
+          "fr": "Immédiatement, dès que le trafic ralentit – pas seulement quand un véhicule prioritaire s'approche",
+          "it": "Subito, non appena il traffico rallenta – non solo quando si avvicina un veicolo di soccorso con i lampeggianti",
+          "en": "Immediately, as soon as traffic stalls – not only once an emergency vehicle with flashing lights approaches",
+          "pt": "De imediato, assim que o trânsito para – não só quando se aproxima um veículo de emergência com luzes"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Erst wenn du eine Sirene hörst",
+          "es": "Solo cuando escuches una sirena",
+          "fr": "Seulement quand tu entends une sirène",
+          "it": "Solo quando senti una sirena",
+          "en": "Only once you hear a siren",
+          "pt": "Só quando ouvires uma sirene"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur auf ausdrückliche Anweisung der Polizei",
+          "es": "Solo por indicación expresa de la policía",
+          "fr": "Uniquement sur instruction expresse de la police",
+          "it": "Solo su indicazione esplicita della polizia",
+          "en": "Only on explicit police instruction",
+          "pt": "Só por indicação expressa da polícia"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Seit 2021 ist die Rettungsgasse gesetzlich Pflicht (Art. 27 Abs. 2 SVG). Sie muss gebildet werden, sobald der Verkehr auf Autobahnen/Autostrassen mit mehreren Fahrstreifen pro Richtung stockt – nicht erst beim Herannahen eines Einsatzfahrzeugs.",
+      "es": "Desde 2021 el pasillo de emergencia es obligatorio por ley (art. 27 párr. 2 SVG). Debe formarse en cuanto se detiene el tráfico en autopistas/semiautopistas con varios carriles por sentido, no solo cuando se acerca un vehículo de emergencia.",
+      "fr": "Depuis 2021, le couloir de secours est une obligation légale (art. 27 al. 2 LCR). Il doit être formé dès que le trafic ralentit sur les autoroutes/semi-autoroutes à plusieurs voies par sens, pas seulement à l'approche d'un véhicule prioritaire.",
+      "it": "Dal 2021 la corsia di emergenza è obbligatoria per legge (art. 27 cpv. 2 LCStr). Va formata non appena il traffico rallenta su autostrade/semiautostrade con più corsie per senso, non solo quando si avvicina un veicolo di soccorso.",
+      "en": "Since 2021, the emergency corridor has been a legal requirement (Art. 27 para. 2 SVG). It must be formed as soon as traffic stalls on motorways/expressways with several lanes per direction – not only when an emergency vehicle approaches.",
+      "pt": "Desde 2021, o corredor de emergência é obrigatório por lei (art. 27, n.º 2, SVG). Deve ser formado assim que o trânsito para em autoestradas/vias rápidas com várias faixas por sentido, não só quando se aproxima um veículo de emergência."
+    },
+    "image": null
+  },
+  {
+    "id": "q168",
+    "category": "both",
+    "topic": "rettungsgasse",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie bildest du korrekt eine Rettungsgasse bei zwei Fahrstreifen pro Richtung?",
+      "es": "¿Cómo formas correctamente el pasillo de emergencia con dos carriles por sentido?",
+      "fr": "Comment former correctement un couloir de secours avec deux voies par sens ?",
+      "it": "Come si forma correttamente una corsia di emergenza con due corsie per senso di marcia?",
+      "en": "How do you correctly form an emergency corridor with two lanes per direction?",
+      "pt": "Como formas corretamente um corredor de emergência com duas faixas por sentido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fahrzeuge auf dem linken Streifen fahren an den linken Rand, alle anderen an den rechten Rand",
+          "es": "Los vehículos del carril izquierdo se desplazan al borde izquierdo, y el resto al borde derecho",
+          "fr": "Les véhicules sur la voie de gauche se placent contre le bord gauche, tous les autres contre le bord droit",
+          "it": "I veicoli sulla corsia sinistra si spostano verso il bordo sinistro, tutti gli altri verso il bordo destro",
+          "en": "Vehicles in the left lane move to the left edge, all others move to the right edge",
+          "pt": "Os veículos na faixa esquerda deslocam-se para o bordo esquerdo, todos os outros para o bordo direito"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Alle Fahrzeuge fahren so weit wie möglich nach rechts",
+          "es": "Todos los vehículos se desplazan lo máximo posible hacia la derecha",
+          "fr": "Tous les véhicules se placent le plus possible à droite",
+          "it": "Tutti i veicoli si spostano il più possibile verso destra",
+          "en": "All vehicles move as far right as possible",
+          "pt": "Todos os veículos se deslocam o máximo possível para a direita"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Gasse wird genau in der Mitte zwischen den beiden Streifen gebildet",
+          "es": "El pasillo se forma exactamente en el centro entre los dos carriles",
+          "fr": "Le couloir se forme exactement au milieu entre les deux voies",
+          "it": "La corsia si forma esattamente al centro tra le due corsie",
+          "en": "The corridor forms exactly in the middle between the two lanes",
+          "pt": "O corredor forma-se exatamente no meio entre as duas faixas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei zwei Streifen pro Richtung hält der linke Streifen links, die übrigen Streifen rechts – dazwischen entsteht die Gasse für Einsatzfahrzeuge.",
+      "es": "Con dos carriles por sentido, el carril izquierdo se mantiene a la izquierda y los demás a la derecha; entre ambos queda libre el pasillo para vehículos de emergencia.",
+      "fr": "Avec deux voies par sens, la voie de gauche reste à gauche, les autres à droite ; le couloir pour les véhicules prioritaires se forme entre les deux.",
+      "it": "Con due corsie per senso, la corsia sinistra resta a sinistra, le altre a destra; tra le due si forma la corsia per i veicoli di soccorso.",
+      "en": "With two lanes per direction, the left lane keeps left and the remaining lanes keep right – the corridor for emergency vehicles forms between them.",
+      "pt": "Com duas faixas por sentido, a faixa esquerda mantém-se à esquerda e as restantes à direita; entre ambas forma-se o corredor para os veículos de emergência."
+    },
+    "image": null
+  },
+  {
+    "id": "q169",
+    "category": "both",
+    "topic": "rettungsgasse",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Darfst du den Pannenstreifen befahren, um zusätzlichen Platz für die Rettungsgasse zu schaffen?",
+      "es": "¿Puedes circular por el arcén para dejar más espacio al pasillo de emergencia?",
+      "fr": "Peux-tu circuler sur la bande d'arrêt d'urgence pour laisser plus de place au couloir de secours ?",
+      "it": "Puoi percorrere la corsia d'emergenza per lasciare più spazio alla corsia di soccorso?",
+      "en": "May you drive on the hard shoulder to create extra room for the emergency corridor?",
+      "pt": "Podes circular na berma de emergência para deixar mais espaço ao corredor de emergência?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Grundsätzlich nicht – der Pannenstreifen bleibt frei, ausser in einer echten Notlage",
+          "es": "En principio no; el arcén queda libre, salvo en una situación de emergencia real",
+          "fr": "En principe non – la bande d'arrêt d'urgence reste libre, sauf en cas de réelle urgence",
+          "it": "In linea di massima no – la corsia d'emergenza resta libera, salvo reale necessità",
+          "en": "Generally not – the hard shoulder stays clear, except in a genuine emergency",
+          "pt": "Em princípio não – a berma de emergência mantém-se livre, exceto numa emergência real"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, der Pannenstreifen gehört immer zur Rettungsgasse dazu",
+          "es": "Sí, el arcén siempre forma parte del pasillo de emergencia",
+          "fr": "Oui, la bande d'arrêt d'urgence fait toujours partie du couloir de secours",
+          "it": "Sì, la corsia d'emergenza fa sempre parte della corsia di soccorso",
+          "en": "Yes, the hard shoulder is always part of the emergency corridor",
+          "pt": "Sim, a berma de emergência faz sempre parte do corredor de emergência"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, dort darfst du sogar überholen, solange Stau herrscht",
+          "es": "Sí, incluso puedes adelantar por ahí mientras haya atasco",
+          "fr": "Oui, tu peux même y dépasser tant qu'il y a un bouchon",
+          "it": "Sì, puoi persino sorpassare lì finché c'è coda",
+          "en": "Yes, you may even overtake there while the jam lasts",
+          "pt": "Sim, podes até ultrapassar por ali enquanto houver engarrafamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der Pannenstreifen ist grundsätzlich für Pannen- und Notfälle freizuhalten; die Rettungsgasse entsteht zwischen den regulären Fahrstreifen, nicht auf dem Pannenstreifen.",
+      "es": "El arcén debe mantenerse libre en principio para averías y emergencias; el pasillo de emergencia se forma entre los carriles normales, no en el arcén.",
+      "fr": "La bande d'arrêt d'urgence doit en principe rester libre pour les pannes et urgences ; le couloir de secours se forme entre les voies normales, pas sur la bande d'arrêt.",
+      "it": "La corsia d'emergenza va in linea di massima tenuta libera per guasti ed emergenze; la corsia di soccorso si forma tra le corsie normali, non sulla corsia d'emergenza.",
+      "en": "The hard shoulder must generally be kept clear for breakdowns and emergencies; the emergency corridor forms between the regular lanes, not on the hard shoulder.",
+      "pt": "A berma de emergência deve, em princípio, manter-se livre para avarias e emergências; o corredor de emergência forma-se entre as faixas normais, não na berma."
+    },
+    "image": null
+  },
+  {
+    "id": "q170",
+    "category": "both",
+    "topic": "rettungsgasse",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was droht, wenn du bei stockendem Verkehr keine Rettungsgasse bildest?",
+      "es": "¿Qué te puede pasar si no formas el pasillo de emergencia con el tráfico parado?",
+      "fr": "Que risques-tu si tu ne formes pas de couloir de secours en cas de trafic ralenti ?",
+      "it": "Cosa rischi se non formi la corsia di emergenza quando il traffico rallenta?",
+      "en": "What can happen if you fail to form an emergency corridor when traffic stalls?",
+      "pt": "O que arriscas se não formares o corredor de emergência quando o trânsito para?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Ordnungsbusse",
+          "es": "Una multa de orden",
+          "fr": "Une amende d'ordre",
+          "it": "Una multa disciplinare",
+          "en": "An on-the-spot fine",
+          "pt": "Uma multa administrativa"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, solange kein Unfall passiert",
+          "es": "Nada, mientras no ocurra ningún accidente",
+          "fr": "Rien, tant qu'aucun accident ne se produit",
+          "it": "Niente, finché non accade alcun incidente",
+          "en": "Nothing, as long as no accident happens",
+          "pt": "Nada, desde que não ocorra nenhum acidente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur ein mündlicher Verweis der Polizei",
+          "es": "Solo una advertencia verbal de la policía",
+          "fr": "Seulement un avertissement oral de la police",
+          "it": "Solo un richiamo verbale della polizia",
+          "en": "Only a verbal warning from the police",
+          "pt": "Só uma advertência verbal da polícia"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Nichtbilden der Rettungsgasse wird mit einer Ordnungsbusse geahndet und kann bei Behinderung der Rettungskräfte weitere strafrechtliche Folgen haben.",
+      "es": "No formar el pasillo de emergencia se sanciona con una multa de orden y, si se obstaculiza a los servicios de rescate, puede tener consecuencias penales adicionales.",
+      "fr": "Ne pas former le couloir de secours est sanctionné par une amende d'ordre et peut entraîner d'autres conséquences pénales en cas d'entrave aux secours.",
+      "it": "Il mancato formare la corsia di emergenza è punito con una multa disciplinare e può avere ulteriori conseguenze penali se ostacola i soccorsi.",
+      "en": "Failing to form the emergency corridor is punished with an on-the-spot fine and can lead to further criminal consequences if it obstructs rescue services.",
+      "pt": "Não formar o corredor de emergência é punido com multa administrativa e pode ter mais consequências penais se obstruir os serviços de socorro."
+    },
+    "image": null
+  },
+  {
+    "id": "q171",
+    "category": "both",
+    "topic": "bahnuebergang",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du näherst dich einem unbewachten Bahnübergang ohne Schranken oder Blinklichter. Was musst du tun?",
+      "es": "Te acercas a un paso a nivel sin guarda, sin barreras ni luces intermitentes. ¿Qué debes hacer?",
+      "fr": "Tu approches d'un passage à niveau non gardé, sans barrières ni feux clignotants. Que dois-tu faire ?",
+      "it": "Ti avvicini a un passaggio a livello incustodito senza barriere né luci lampeggianti. Cosa devi fare?",
+      "en": "You approach an unguarded level crossing with no barriers or flashing lights. What must you do?",
+      "pt": "Aproximas-te de uma passagem de nível sem guarda, sem barreiras nem luzes intermitentes. O que deves fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dich vergewissern, dass kein Schienenfahrzeug naht, bevor du den Übergang befährst",
+          "es": "Asegurarte de que no se acerca ningún tren antes de cruzar",
+          "fr": "T'assurer qu'aucun véhicule ferroviaire n'approche avant de franchir le passage",
+          "it": "Accertarti che non si avvicini alcun veicolo su rotaia prima di attraversare",
+          "en": "Make sure no train is approaching before crossing",
+          "pt": "Certificar-te de que não se aproxima nenhum veículo ferroviário antes de atravessar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ohne anzuhalten durchfahren, da grundsätzlich Vortritt für die Strasse gilt",
+          "es": "Cruzar sin detenerte, porque en principio la carretera tiene prioridad",
+          "fr": "Traverser sans t'arrêter, la route ayant en principe la priorité",
+          "it": "Attraversare senza fermarti, poiché in linea di massima la strada ha la precedenza",
+          "en": "Drive through without stopping, since the road generally has priority",
+          "pt": "Atravessar sem parar, pois em princípio a estrada tem prioridade"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur bei Nebel besonders auf einen Zug achten",
+          "es": "Solo prestar atención especial al tren cuando hay niebla",
+          "fr": "Ne faire spécialement attention au train qu'en cas de brouillard",
+          "it": "Fare particolare attenzione al treno solo in caso di nebbia",
+          "en": "Only pay special attention to a train when it is foggy",
+          "pt": "Só prestar atenção especial ao comboio em caso de nevoeiro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "An unbewachten Bahnübergängen muss sich jeder Strassenbenützer vergewissern, dass kein Schienenfahrzeug naht und der Übergang frei ist, bevor er ihn befährt – Schienenfahrzeuge haben grundsätzlich Vortritt.",
+      "es": "En los pasos a nivel sin guarda, todo usuario de la vía debe asegurarse de que no se acerca ningún tren y de que el paso está libre antes de cruzarlo; el tren tiene prioridad por principio.",
+      "fr": "Aux passages à niveau non gardés, tout usager doit s'assurer qu'aucun véhicule ferroviaire n'approche et que le passage est libre avant de le franchir ; les véhicules ferroviaires ont en principe la priorité.",
+      "it": "Ai passaggi a livello incustoditi, ogni utente della strada deve accertarsi che non si avvicini alcun veicolo su rotaia e che il passaggio sia libero prima di attraversarlo; i veicoli su rotaia hanno di norma la precedenza.",
+      "en": "At unguarded level crossings, every road user must make sure no rail vehicle is approaching and the crossing is clear before driving onto it – rail vehicles generally have priority.",
+      "pt": "Nas passagens de nível sem guarda, todo o utente da via deve certificar-se de que não se aproxima nenhum veículo ferroviário e de que a passagem está livre antes de a atravessar; os veículos ferroviários têm, em princípio, prioridade."
+    },
+    "image": null
+  },
+  {
+    "id": "q172",
+    "category": "both",
+    "topic": "bahnuebergang",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Die Warnlichter an einem Bahnübergang beginnen zu blinken, die Schranken senken sich noch nicht. Was tust du?",
+      "es": "Las luces de aviso de un paso a nivel empiezan a parpadear, pero las barreras aún no bajan. ¿Qué haces?",
+      "fr": "Les feux d'avertissement d'un passage à niveau commencent à clignoter, les barrières ne descendent pas encore. Que fais-tu ?",
+      "it": "Le luci di avvertimento di un passaggio a livello iniziano a lampeggiare, le barriere non si sono ancora abbassate. Cosa fai?",
+      "en": "The warning lights at a level crossing start flashing, but the barriers have not yet lowered. What do you do?",
+      "pt": "As luzes de aviso de uma passagem de nível começam a piscar, mas as barreiras ainda não desceram. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Anhalten – das Blinklicht allein ist bereits ein verbindliches Haltegebot",
+          "es": "Parar: el parpadeo ya es por sí solo una orden de detención obligatoria",
+          "fr": "S'arrêter – le feu clignotant est déjà à lui seul un ordre d'arrêt obligatoire",
+          "it": "Fermarsi – la luce lampeggiante da sola è già un obbligo di arresto vincolante",
+          "en": "Stop – the flashing light alone is already a binding order to halt",
+          "pt": "Parar – a luz intermitente já é, por si só, uma ordem de paragem obrigatória"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Noch schnell durchfahren, solange die Schranke offen ist",
+          "es": "Cruzar deprisa mientras la barrera siga abierta",
+          "fr": "Passer vite tant que la barrière est encore ouverte",
+          "it": "Attraversare in fretta finché la barriera è ancora aperta",
+          "en": "Quickly drive through while the barrier is still open",
+          "pt": "Atravessar depressa enquanto a barreira ainda está aberta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weiterfahren, wenn kein Zug sichtbar ist",
+          "es": "Seguir adelante si no se ve ningún tren",
+          "fr": "Continuer si aucun train n'est visible",
+          "it": "Proseguire se non si vede alcun treno",
+          "en": "Continue driving if no train is visible",
+          "pt": "Continuar a andar se não se vir nenhum comboio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei blinkenden Warnlichtern gilt ein sofortiges Haltegebot, unabhängig vom Zustand der Schranken – der Zug kann bereits sehr nah sein, auch wenn er noch nicht sichtbar ist.",
+      "es": "Con las luces de aviso parpadeando rige un mandato de detención inmediata, independientemente del estado de las barreras; el tren puede estar ya muy cerca aunque aún no se vea.",
+      "fr": "Avec les feux clignotants, l'ordre d'arrêt immédiat s'applique, indépendamment de l'état des barrières ; le train peut déjà être très proche même s'il n'est pas encore visible.",
+      "it": "Con le luci lampeggianti vale l'obbligo di arresto immediato, indipendentemente dallo stato delle barriere; il treno può già essere molto vicino anche se non ancora visibile.",
+      "en": "When the warning lights flash, an immediate stop is required regardless of the barriers' position – the train may already be very close even if it is not yet visible.",
+      "pt": "Com as luzes de aviso a piscar, vigora a ordem de paragem imediata, independentemente do estado das barreiras; o comboio pode já estar muito perto mesmo que ainda não seja visível."
+    },
+    "image": null
+  },
+  {
+    "id": "q173",
+    "category": "both",
+    "topic": "bahnuebergang",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Vor einem Bahnübergang steht dichter Verkehr, sodass du ihn möglicherweise nicht ohne Halt überqueren kannst. Was tust du?",
+      "es": "Delante de un paso a nivel hay mucho tráfico, así que quizá no puedas cruzarlo sin detenerte. ¿Qué haces?",
+      "fr": "Devant un passage à niveau, la circulation est dense au point que tu risques de ne pas pouvoir le franchir sans t'arrêter. Que fais-tu ?",
+      "it": "Davanti a un passaggio a livello c'è traffico intenso, per cui potresti non riuscire ad attraversarlo senza fermarti. Cosa fai?",
+      "en": "There is heavy traffic ahead of a level crossing, so you might not be able to cross it without stopping. What do you do?",
+      "pt": "Há trânsito intenso antes de uma passagem de nível, pelo que talvez não consigas atravessá-la sem parar. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Warten, bis du sicher bist, den Bahnübergang ohne Anhalten vollständig überqueren zu können",
+          "es": "Esperar hasta tener la certeza de poder cruzar el paso a nivel por completo sin detenerte",
+          "fr": "Attendre d'être sûr de pouvoir franchir entièrement le passage à niveau sans t'arrêter",
+          "it": "Aspettare finché sei sicuro di poter attraversare completamente il passaggio a livello senza fermarti",
+          "en": "Wait until you are certain you can cross the level crossing fully without stopping",
+          "pt": "Esperar até teres a certeza de que consegues atravessar totalmente a passagem de nível sem parar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Trotzdem auffahren – im Notfall kannst du auf den Gleisen anhalten",
+          "es": "Avanzar igualmente: en caso necesario puedes detenerte sobre las vías",
+          "fr": "Avancer quand même – en cas de besoin, tu peux t'arrêter sur les rails",
+          "it": "Avanzare comunque – in caso di necessità puoi fermarti sui binari",
+          "en": "Drive onto it anyway – if necessary you can stop on the tracks",
+          "pt": "Avançar mesmo assim – em caso de necessidade podes parar em cima dos carris"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Rückwärts über den Übergang ausweichen, um Platz zu schaffen",
+          "es": "Retroceder sobre el paso a nivel para hacer sitio",
+          "fr": "Reculer sur le passage à niveau pour faire de la place",
+          "it": "Fare retromarcia sul passaggio a livello per fare spazio",
+          "en": "Reverse back over the crossing to make room",
+          "pt": "Fazer marcha-atrás sobre a passagem para abrir espaço"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei stockendem Verkehr darf ein Bahnübergang erst befahren werden, wenn er ohne Verzögerung vollständig überquert werden kann – auf den Gleisen anhalten ist lebensgefährlich und verboten.",
+      "es": "Con tráfico denso, un paso a nivel solo puede cruzarse cuando se pueda hacerlo por completo sin demora; detenerse sobre las vías es mortalmente peligroso y está prohibido.",
+      "fr": "En cas de trafic dense, un passage à niveau ne doit être franchi que si on peut le traverser entièrement sans délai ; s'arrêter sur les rails est mortellement dangereux et interdit.",
+      "it": "In caso di traffico intenso, un passaggio a livello va attraversato solo se lo si può fare completamente senza ritardo; fermarsi sui binari è mortalmente pericoloso e vietato.",
+      "en": "In heavy traffic, a level crossing may only be entered if it can be fully crossed without delay – stopping on the tracks is life-threatening and forbidden.",
+      "pt": "Com trânsito intenso, uma passagem de nível só pode ser atravessada se for possível fazê-lo por completo sem demora; parar sobre os carris é mortalmente perigoso e proibido."
+    },
+    "image": null
+  },
+  {
+    "id": "q174",
+    "category": "both",
+    "topic": "bahnuebergang",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie sollst du einen Bahnübergang generell überqueren?",
+      "es": "¿Cómo debes cruzar en general un paso a nivel?",
+      "fr": "Comment dois-tu généralement franchir un passage à niveau ?",
+      "it": "Come dovresti attraversare in generale un passaggio a livello?",
+      "en": "How should you generally cross a level crossing?",
+      "pt": "Como deves, em geral, atravessar uma passagem de nível?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mit angepasster Geschwindigkeit und ohne jede Verzögerung durchqueren",
+          "es": "Cruzarlo a una velocidad adecuada y sin ninguna demora",
+          "fr": "Le franchir à une vitesse adaptée et sans aucun délai",
+          "it": "Attraversarlo a velocità adeguata e senza alcun ritardo",
+          "en": "Cross it at an appropriate speed and without any delay",
+          "pt": "Atravessá-la a uma velocidade adequada e sem qualquer demora"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "So langsam wie möglich, um die Gleise zu schonen",
+          "es": "Lo más despacio posible para no dañar las vías",
+          "fr": "Le plus lentement possible pour ménager les rails",
+          "it": "Il più lentamente possibile per non rovinare i binari",
+          "en": "As slowly as possible to protect the tracks",
+          "pt": "O mais devagar possível para poupar os carris"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Mit Vollgas, um die Gefahrenzone möglichst schnell zu verlassen",
+          "es": "A fondo, para salir cuanto antes de la zona de peligro",
+          "fr": "À pleine accélération, pour quitter la zone de danger au plus vite",
+          "it": "A tutto gas, per lasciare al più presto la zona di pericolo",
+          "en": "At full acceleration, to leave the danger zone as fast as possible",
+          "pt": "A fundo, para sair o mais depressa possível da zona de perigo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bahnübergänge sind zügig und ohne Verzögerung zu überqueren, um nicht auf den Gleisen stehen zu bleiben – aber mit einer der Situation angepassten, kontrollierten Geschwindigkeit, nicht mit Vollgas.",
+      "es": "Los pasos a nivel deben cruzarse con fluidez y sin demora para no quedar parado sobre las vías, pero con una velocidad controlada y adaptada a la situación, no a fondo.",
+      "fr": "Les passages à niveau doivent être franchis rapidement et sans délai pour ne pas rester bloqué sur les rails, mais à une vitesse contrôlée adaptée à la situation, pas à pleine accélération.",
+      "it": "I passaggi a livello vanno attraversati speditamente e senza ritardo per non restare fermi sui binari, ma con una velocità controllata e adeguata alla situazione, non a tutto gas.",
+      "en": "Level crossings should be crossed promptly and without delay to avoid stopping on the tracks – but at a controlled speed suited to the situation, not at full acceleration.",
+      "pt": "As passagens de nível devem ser atravessadas com fluidez e sem demora para não ficar parado sobre os carris, mas a uma velocidade controlada e adequada à situação, não a fundo."
+    },
+    "image": null
+  },
+  {
+    "id": "q175",
+    "category": "both",
+    "topic": "ladung",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum muss die Ladung im Fahrzeug gesichert werden?",
+      "es": "¿Por qué debe asegurarse la carga dentro del vehículo?",
+      "fr": "Pourquoi le chargement doit-il être arrimé dans le véhicule ?",
+      "it": "Perché il carico nel veicolo deve essere assicurato?",
+      "en": "Why must the load in a vehicle be secured?",
+      "pt": "Porque é que a carga no veículo tem de ser fixada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit sie auch bei einer Vollbremsung oder einem Ausweichmanöver nicht verrutschen, umfallen oder herunterfallen kann",
+          "es": "Para que ni siquiera con una frenada de emergencia o una maniobra evasiva pueda desplazarse, volcar o caer",
+          "fr": "Pour que, même en cas de freinage d'urgence ou d'évitement, il ne puisse ni glisser, ni basculer, ni tomber",
+          "it": "Affinché, anche in caso di frenata di emergenza o manovra evasiva, non possa scivolare, ribaltarsi o cadere",
+          "en": "So that it cannot shift, tip over or fall off even during an emergency stop or evasive manoeuvre",
+          "pt": "Para que, mesmo numa travagem de emergência ou manobra evasiva, não possa deslizar, tombar ou cair"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur damit sie bei der Verkehrskontrolle ordentlich aussieht",
+          "es": "Solo para que tenga buen aspecto en un control de tráfico",
+          "fr": "Uniquement pour qu'il ait bonne allure lors d'un contrôle de police",
+          "it": "Solo perché faccia bella figura durante un controllo del traffico",
+          "en": "Only so it looks tidy at a traffic check",
+          "pt": "Só para ter bom aspeto numa fiscalização de trânsito"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das ist nur bei Lastwagen vorgeschrieben, nicht bei Personenwagen",
+          "es": "Eso solo es obligatorio para camiones, no para turismos",
+          "fr": "Cela n'est prescrit que pour les camions, pas pour les voitures de tourisme",
+          "it": "È obbligatorio solo per i camion, non per le auto",
+          "en": "That is only mandatory for lorries, not for cars",
+          "pt": "Isso só é obrigatório para camiões, não para automóveis ligeiros"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die VRV verlangt, dass jede Ladung so gesichert ist, dass sie unter allen normalen Fahrbedingungen – auch bei Vollbremsung oder abruptem Ausweichen – nicht verrutschen oder herabfallen kann. Das gilt für alle Fahrzeugarten.",
+      "es": "La VRV exige que toda carga esté sujeta de forma que, en cualquier condición normal de circulación —incluida una frenada de emergencia o un giro brusco—, no pueda desplazarse ni caerse. Rige para todo tipo de vehículos.",
+      "fr": "L'OCR exige que tout chargement soit arrimé de façon à ne pouvoir ni glisser ni tomber dans des conditions de conduite normales, même en cas de freinage d'urgence ou d'évitement brusque. Cela vaut pour tous les types de véhicules.",
+      "it": "L'ONC richiede che ogni carico sia assicurato in modo da non poter scivolare o cadere in qualsiasi condizione di marcia normale, anche in frenata di emergenza o sterzata brusca. Vale per tutti i tipi di veicoli.",
+      "en": "The VRV requires every load to be secured so it cannot shift or fall off under any normal driving conditions – including emergency braking or sudden swerving. This applies to all vehicle types.",
+      "pt": "O VRV exige que toda a carga seja fixada de modo a não poder deslizar ou cair em qualquer condição normal de condução, incluindo travagem de emergência ou manobra brusca. Aplica-se a todos os tipos de veículos."
+    },
+    "image": null
+  },
+  {
+    "id": "q176",
+    "category": "both",
+    "topic": "ladung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Ein Gegenstand ragt mehr als 1 Meter über das Heck deines Fahrzeugs hinaus. Was musst du tun?",
+      "es": "Un objeto sobresale más de 1 metro por detrás de tu vehículo. ¿Qué debes hacer?",
+      "fr": "Un objet dépasse de plus de 1 mètre à l'arrière de ton véhicule. Que dois-tu faire ?",
+      "it": "Un oggetto sporge per più di 1 metro dal retro del tuo veicolo. Cosa devi fare?",
+      "en": "An object sticks out more than 1 metre behind your vehicle. What must you do?",
+      "pt": "Um objeto sobressai mais de 1 metro atrás do teu veículo. O que deves fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ihn tagsüber mit einer rot-weissen Kennzeichnung und nachts mit rotem Rückstrahler kennzeichnen",
+          "es": "Marcarlo de día con una señal roja y blanca, y de noche con un catadióptrico rojo",
+          "fr": "Le signaler de jour par un marquage rouge-blanc et de nuit par un catadioptre rouge",
+          "it": "Segnalarlo di giorno con un contrassegno rosso-bianco e di notte con un catarifrangente rosso",
+          "en": "Mark it in daytime with a red-and-white marker and at night with a red reflector",
+          "pt": "Assinalá-lo de dia com uma marca vermelha e branca e de noite com um refletor vermelho"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts – überstehende Ladung ist immer ohne Weiteres erlaubt",
+          "es": "Nada; la carga que sobresale siempre está permitida sin más",
+          "fr": "Rien – un chargement qui dépasse est toujours autorisé sans autre",
+          "it": "Niente – il carico sporgente è sempre consentito senza altro",
+          "en": "Nothing – an overhanging load is always allowed without further measures",
+          "pt": "Nada – a carga saliente é sempre permitida sem mais nada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die Warnblinker während der ganzen Fahrt einschalten",
+          "es": "Solo encender las luces de emergencia durante todo el trayecto",
+          "fr": "Seulement allumer les feux de détresse pendant tout le trajet",
+          "it": "Accendere solo le luci di emergenza per l'intero tragitto",
+          "en": "Only switch on the hazard lights for the whole journey",
+          "pt": "Só ligar as luzes de emergência durante toda a viagem"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ragt Ladung mehr als 1 m nach hinten hinaus, muss sie tagsüber mit rot-weissen Signalkörpern (Wimpel/Tafel) und nachts mit roten Rückstrahlern gekennzeichnet werden.",
+      "es": "Si la carga sobresale más de 1 m por detrás, debe marcarse de día con marcas rojiblancas (banderola o placa) y de noche con catadióptricos rojos.",
+      "fr": "Si le chargement dépasse de plus de 1 m à l'arrière, il doit être signalé de jour par des dispositifs rouge-blanc (fanion/panneau) et de nuit par des catadioptres rouges.",
+      "it": "Se il carico sporge per più di 1 m dal retro, va segnalato di giorno con dispositivi rosso-bianchi (bandierina/tabella) e di notte con catarifrangenti rossi.",
+      "en": "If a load projects more than 1 m to the rear, it must be marked in daytime with red-and-white markers (flag/panel) and at night with red reflectors.",
+      "pt": "Se a carga sobressair mais de 1 m para trás, deve ser assinalada de dia com marcas vermelho-brancas (bandeirola/placa) e de noite com refletores vermelhos."
+    },
+    "image": null
+  },
+  {
+    "id": "q177",
+    "category": "both",
+    "topic": "ladung",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Aussage zu scharfkantigen Gegenständen oder Ladung, die bei einem Zusammenstoss gefährlich werden könnten, ist richtig?",
+      "es": "¿Qué afirmación es correcta sobre objetos o cargas con cantos afilados que podrían ser peligrosos en una colisión?",
+      "fr": "Quelle affirmation est correcte concernant les objets ou charges à arêtes vives qui pourraient devenir dangereux lors d'une collision ?",
+      "it": "Quale affermazione è corretta riguardo a oggetti o carichi con spigoli taglienti che potrebbero risultare pericolosi in caso di scontro?",
+      "en": "Which statement is correct about sharp-edged objects or loads that could become dangerous in a collision?",
+      "pt": "Qual é a afirmação correta sobre objetos ou cargas com arestas afiadas que podem tornar-se perigosos numa colisão?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie müssen mit geeigneten Schutzvorrichtungen versehen werden",
+          "es": "Deben ir provistos de dispositivos de protección adecuados",
+          "fr": "Ils doivent être munis de dispositifs de protection appropriés",
+          "it": "Devono essere dotati di adeguati dispositivi di protezione",
+          "en": "They must be fitted with suitable protective devices",
+          "pt": "Devem ser equipados com dispositivos de proteção adequados"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie dürfen nur im Kofferraum transportiert werden, ohne weitere Massnahmen",
+          "es": "Solo pueden transportarse en el maletero, sin más medidas",
+          "fr": "Ils ne peuvent être transportés que dans le coffre, sans autre mesure",
+          "it": "Possono essere trasportati solo nel bagagliaio, senza ulteriori misure",
+          "en": "They may only be transported in the boot, without further measures",
+          "pt": "Só podem ser transportados na bagageira, sem mais medidas"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das betrifft nur den Transport von Werkzeug auf Baustellenfahrzeugen",
+          "es": "Eso solo afecta al transporte de herramientas en vehículos de obra",
+          "fr": "Cela ne concerne que le transport d'outils sur les véhicules de chantier",
+          "it": "Riguarda solo il trasporto di attrezzi sui veicoli da cantiere",
+          "en": "That only concerns transporting tools on construction-site vehicles",
+          "pt": "Isso só diz respeito ao transporte de ferramentas em veículos de obra"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 58 VRV verlangt, dass Fahrzeugteile, Arbeitsgeräte oder Ladestücke mit gefährlichen Spitzen, Schneiden oder Kanten mit Schutzvorrichtungen versehen werden – unabhängig vom Fahrzeugtyp.",
+      "es": "El art. 58 VRV exige que las piezas del vehículo, herramientas o cargas con puntas, filos o cantos peligrosos lleven dispositivos de protección, independientemente del tipo de vehículo.",
+      "fr": "L'art. 58 OCR exige que les éléments du véhicule, outils ou charges présentant des pointes, tranchants ou arêtes dangereux soient munis de dispositifs de protection, quel que soit le type de véhicule.",
+      "it": "L'art. 58 ONC richiede che componenti del veicolo, attrezzi o carichi con punte, tagli o spigoli pericolosi siano dotati di dispositivi di protezione, indipendentemente dal tipo di veicolo.",
+      "en": "Art. 58 VRV requires vehicle parts, tools or loads with dangerous points, edges or blades to be fitted with protective devices, regardless of vehicle type.",
+      "pt": "O art. 58 VRV exige que peças do veículo, ferramentas ou cargas com pontas, gumes ou arestas perigosas sejam equipadas com dispositivos de proteção, independentemente do tipo de veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q178",
+    "category": "both",
+    "topic": "ladung",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du hast als Fahrzeugführer eine schlecht gesicherte Ladung geladen, die während der Fahrt auf die Strasse fällt und einen Unfall verursacht. Wer trägt dafür die Verantwortung?",
+      "es": "Como conductor cargaste mal sujeta una carga que, durante el trayecto, cae a la calzada y provoca un accidente. ¿Quién es responsable?",
+      "fr": "En tant que conducteur, tu as chargé un chargement mal arrimé qui tombe sur la route pendant le trajet et cause un accident. Qui en est responsable ?",
+      "it": "Come conducente hai caricato un carico mal assicurato che durante il viaggio cade sulla strada e provoca un incidente. Chi ne è responsabile?",
+      "en": "As the driver, you loaded a poorly secured load that falls onto the road during the journey and causes an accident. Who is responsible?",
+      "pt": "Enquanto condutor, carregaste uma carga mal fixada que, durante a viagem, cai na estrada e provoca um acidente. Quem é responsável?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In erster Linie der Fahrzeugführer, der sich vor der Fahrt von der sicheren Ladung überzeugen muss",
+          "es": "En primer lugar el conductor, que debe cerciorarse antes de partir de que la carga está bien sujeta",
+          "fr": "En premier lieu le conducteur, qui doit s'assurer avant le départ que le chargement est bien arrimé",
+          "it": "In primo luogo il conducente, che deve accertarsi prima della partenza che il carico sia ben assicurato",
+          "en": "Primarily the driver, who must make sure before setting off that the load is securely fastened",
+          "pt": "Em primeiro lugar o condutor, que se deve certificar antes de partir de que a carga está bem fixada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ausschliesslich die Person, die die Ladung ursprünglich verpackt hat",
+          "es": "Únicamente la persona que embaló originalmente la carga",
+          "fr": "Uniquement la personne qui a emballé le chargement à l'origine",
+          "it": "Esclusivamente la persona che ha originariamente imballato il carico",
+          "en": "Only the person who originally packed the load",
+          "pt": "Apenas a pessoa que originalmente embalou a carga"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Niemand, solange die Ladung ordnungsgemäss verzollt war",
+          "es": "Nadie, siempre que la carga estuviera correctamente declarada en aduana",
+          "fr": "Personne, tant que le chargement était dédouané correctement",
+          "it": "Nessuno, purché il carico fosse regolarmente sdoganato",
+          "en": "No one, as long as the load was properly cleared through customs",
+          "pt": "Ninguém, desde que a carga estivesse devidamente desalfandegada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der Führer ist dafür verantwortlich, sich vor Fahrtantritt zu vergewissern, dass Fahrzeug und Ladung vorschriftsgemäss und sicher sind – diese Pflicht kann er nicht an Dritte abtreten.",
+      "es": "El conductor es responsable de cerciorarse, antes de emprender la marcha, de que vehículo y carga cumplen la normativa y son seguros; esta obligación no puede delegarse en terceros.",
+      "fr": "Le conducteur est responsable de s'assurer, avant de prendre la route, que le véhicule et le chargement sont conformes et sûrs ; cette obligation ne peut être déléguée à des tiers.",
+      "it": "Il conducente è responsabile di accertarsi, prima di partire, che veicolo e carico siano conformi alle norme e sicuri; questo obbligo non può essere delegato a terzi.",
+      "en": "The driver is responsible for making sure before setting off that the vehicle and load are compliant and safe – this duty cannot be delegated to third parties.",
+      "pt": "O condutor é responsável por se certificar, antes de partir, de que o veículo e a carga estão conformes e seguros; este dever não pode ser delegado a terceiros."
+    },
+    "image": null
+  },
+  {
+    "id": "q179",
+    "category": "both",
+    "topic": "velo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum verlangt das Gesetz beim Überholen von Velofahrenden keinen exakten Meterwert, sondern nur «ausreichenden Abstand»?",
+      "es": "¿Por qué la ley, al adelantar a ciclistas, no exige un valor exacto en metros, sino solo una «distancia suficiente»?",
+      "fr": "Pourquoi la loi n'exige-t-elle pas une valeur exacte en mètres pour dépasser un cycliste, mais seulement une « distance suffisante » ?",
+      "it": "Perché la legge, nel sorpasso di ciclisti, non richiede un valore esatto in metri ma solo una «distanza sufficiente»?",
+      "en": "Why does the law not require an exact metre value when overtaking cyclists, only a \"sufficient distance\"?",
+      "pt": "Porque é que a lei, ao ultrapassar ciclistas, não exige um valor exato em metros, apenas uma «distância suficiente»?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil der nötige Abstand von Tempo, Platz und Situation abhängt – ein fixer Wert würde der Vielfalt der Situationen nicht gerecht",
+          "es": "Porque la distancia necesaria depende de la velocidad, el espacio y la situación; un valor fijo no reflejaría toda esa variedad",
+          "fr": "Parce que la distance nécessaire dépend de la vitesse, de la place et de la situation – une valeur fixe ne rendrait pas justice à cette diversité",
+          "it": "Perché la distanza necessaria dipende da velocità, spazio e situazione – un valore fisso non renderebbe giustizia a questa varietà",
+          "en": "Because the necessary distance depends on speed, space and the situation – a fixed value would not do justice to that variety",
+          "pt": "Porque a distância necessária depende da velocidade, do espaço e da situação – um valor fixo não faria justiça a essa variedade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil Velofahrende sich beim Überholtwerden grundsätzlich nicht bewegen dürfen",
+          "es": "Porque los ciclistas, en principio, no pueden moverse mientras los adelantan",
+          "fr": "Parce que les cyclistes n'ont en principe pas le droit de bouger pendant qu'on les dépasse",
+          "it": "Perché i ciclisti, in linea di massima, non possono muoversi durante il sorpasso",
+          "en": "Because cyclists are in principle not allowed to move while being overtaken",
+          "pt": "Porque os ciclistas, em princípio, não podem mover-se enquanto são ultrapassados"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil der Abstand beim Überholen von Velos gesetzlich komplett freigestellt ist",
+          "es": "Porque la distancia al adelantar a bicicletas está totalmente al criterio libre del conductor",
+          "fr": "Parce que la distance lors du dépassement de vélos est entièrement libre selon la loi",
+          "it": "Perché la distanza nel sorpasso di biciclette è del tutto libera secondo la legge",
+          "en": "Because the distance when overtaking bicycles is entirely at the driver's discretion under the law",
+          "pt": "Porque a distância ao ultrapassar bicicletas é totalmente livre perante a lei"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 34 Abs. 4 SVG verlangt einen «ausreichenden» Seitenabstand, ohne einen fixen Meterwert zu nennen; in der Praxis gilt ca. 1,5 m als Richtwert, der je nach Tempo, Platz und Wetter angepasst werden muss.",
+      "es": "El art. 34 párr. 4 SVG exige una distancia lateral «suficiente» sin fijar un valor exacto en metros; en la práctica, unos 1,5 m sirven de referencia, que hay que adaptar según velocidad, espacio y clima.",
+      "fr": "L'art. 34 al. 4 LCR exige une distance latérale « suffisante » sans fixer de valeur précise en mètres ; en pratique, environ 1,5 m sert de repère, à adapter selon la vitesse, la place et la météo.",
+      "it": "L'art. 34 cpv. 4 LCStr richiede una distanza laterale «sufficiente» senza indicare un valore fisso in metri; in pratica circa 1,5 m fungono da valore indicativo, da adattare a velocità, spazio e meteo.",
+      "en": "Art. 34 para. 4 SVG requires a \"sufficient\" side clearance without stating a fixed metre value; in practice roughly 1.5 m serves as a guideline, to be adjusted for speed, space and weather.",
+      "pt": "O art. 34, n.º 4, SVG exige uma distância lateral «suficiente» sem fixar um valor exato em metros; na prática, cerca de 1,5 m serve de referência, a adaptar consoante a velocidade, o espaço e o tempo."
+    },
+    "image": null
+  },
+  {
+    "id": "q180",
+    "category": "both",
+    "topic": "velo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Worauf musst du beim Überholen eines Velofahrers besonders achten?",
+      "es": "¿A qué debes prestar especial atención al adelantar a un ciclista?",
+      "fr": "À quoi dois-tu prêter une attention particulière en dépassant un cycliste ?",
+      "it": "A cosa devi prestare particolare attenzione nel sorpassare un ciclista?",
+      "en": "What must you pay particular attention to when overtaking a cyclist?",
+      "pt": "A que deves prestar especial atenção ao ultrapassar um ciclista?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Auf genügend Seitenabstand, weil Velofahrende ausweichen oder schwanken können",
+          "es": "A dejar suficiente distancia lateral, porque los ciclistas pueden desviarse o tambalearse",
+          "fr": "À garder assez de distance latérale, car les cyclistes peuvent faire un écart ou vaciller",
+          "it": "A tenere una distanza laterale sufficiente, perché i ciclisti possono scartare o oscillare",
+          "en": "To keep enough lateral distance, because cyclists can swerve or wobble",
+          "pt": "A manter distância lateral suficiente, porque os ciclistas podem desviar-se ou oscilar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf gar nichts Besonderes – die gleichen Regeln wie beim Überholen von Autos reichen",
+          "es": "En nada especial: bastan las mismas reglas que al adelantar a un coche",
+          "fr": "À rien de particulier – les mêmes règles que pour dépasser une voiture suffisent",
+          "it": "A niente di particolare – bastano le stesse regole del sorpasso di un'auto",
+          "en": "Nothing special – the same rules as overtaking a car are enough",
+          "pt": "A nada de especial – bastam as mesmas regras de ultrapassar um carro"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur auf die Geschwindigkeit des Velos, der Abstand spielt keine Rolle",
+          "es": "Solo a la velocidad de la bici; la distancia no importa",
+          "fr": "Seulement à la vitesse du vélo, la distance n'a pas d'importance",
+          "it": "Solo alla velocità della bici, la distanza non ha importanza",
+          "en": "Only to the bicycle's speed – the distance does not matter",
+          "pt": "Só à velocidade da bicicleta; a distância não importa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Velofahrende können unerwartet ausweichen (Schlagloch, Windstoss, Türöffnung) – deshalb braucht es beim Überholen einen grosszügigeren Seitenabstand als bei Autos, angepasst an Tempo und Platzverhältnisse.",
+      "es": "Los ciclistas pueden desviarse de forma inesperada (bache, ráfaga de viento, apertura de una puerta); por eso, al adelantar hace falta más distancia lateral que con un coche, según la velocidad y el espacio.",
+      "fr": "Les cyclistes peuvent faire un écart inattendu (nid-de-poule, rafale de vent, portière qui s'ouvre) – il faut donc, en dépassant, une distance latérale plus généreuse que pour une voiture, selon la vitesse et la place.",
+      "it": "I ciclisti possono scartare inaspettatamente (buca, raffica di vento, portiera che si apre) – per questo nel sorpasso serve una distanza laterale maggiore rispetto a un'auto, adattata a velocità e spazio.",
+      "en": "Cyclists can swerve unexpectedly (pothole, gust of wind, an opening car door) – so overtaking them needs a more generous side clearance than overtaking a car, adjusted to speed and available space.",
+      "pt": "Os ciclistas podem desviar-se inesperadamente (buraco, rajada de vento, porta a abrir) – por isso, ao ultrapassar, é preciso mais distância lateral do que com um carro, consoante a velocidade e o espaço."
+    },
+    "image": null
+  },
+  {
+    "id": "q181",
+    "category": "both",
+    "topic": "velo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer engen Strasse fährt ein Velofahrer vor dir; für ein sicheres Überholen mit ausreichendem Abstand ist kein Platz. Was tust du?",
+      "es": "En una calle estrecha va un ciclista delante de ti y no hay sitio para adelantarlo con la distancia adecuada. ¿Qué haces?",
+      "fr": "Sur une route étroite, un cycliste roule devant toi ; il n'y a pas de place pour le dépasser en toute sécurité avec une distance suffisante. Que fais-tu ?",
+      "it": "Su una strada stretta ti precede un ciclista; non c'è spazio per sorpassarlo in sicurezza con distanza sufficiente. Cosa fai?",
+      "en": "A cyclist is riding ahead of you on a narrow road and there is no room to overtake safely with sufficient distance. What do you do?",
+      "pt": "Numa estrada estreita segue um ciclista à tua frente e não há espaço para o ultrapassar em segurança com distância suficiente. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Hinter dem Velofahrer bleiben und erst überholen, wenn genug Platz vorhanden ist",
+          "es": "Quedarte detrás del ciclista y adelantarlo solo cuando haya sitio suficiente",
+          "fr": "Rester derrière le cycliste et ne dépasser que lorsqu'il y a assez de place",
+          "it": "Restare dietro al ciclista e sorpassarlo solo quando c'è abbastanza spazio",
+          "en": "Stay behind the cyclist and only overtake once there is enough room",
+          "pt": "Ficar atrás do ciclista e só ultrapassar quando houver espaço suficiente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "So knapp wie möglich überholen, da du sonst zu lange hinter ihm bleiben müsstest",
+          "es": "Adelantarlo lo más ceñido posible, porque si no tendrías que quedarte detrás demasiado tiempo",
+          "fr": "Dépasser au plus près, sinon tu devrais rester trop longtemps derrière lui",
+          "it": "Sorpassare il più rasente possibile, altrimenti dovresti restargli dietro troppo a lungo",
+          "en": "Overtake as tightly as possible, since otherwise you would have to stay behind too long",
+          "pt": "Ultrapassar o mais rente possível, senão terias de ficar atrás dele demasiado tempo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Den Velofahrer mit der Hupe auffordern, an den Rand zu fahren",
+          "es": "Pitar al ciclista para que se aparte hacia el borde",
+          "fr": "Klaxonner le cycliste pour qu'il se pousse sur le bord",
+          "it": "Suonare il clacson al ciclista perché si sposti sul bordo",
+          "en": "Honk at the cyclist to get them to move to the edge",
+          "pt": "Buzinar ao ciclista para que se desvie para a berma"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Reicht der Platz für einen sicheren Abstand nicht aus, darf nicht überholt werden – Sicherheit geht vor Zeitgewinn. Warten ist die einzig korrekte Option.",
+      "es": "Si no hay sitio suficiente para una distancia segura, no se debe adelantar; la seguridad va antes que ganar tiempo. Esperar es la única opción correcta.",
+      "fr": "Si la place ne suffit pas pour une distance sûre, le dépassement est interdit – la sécurité prime sur le gain de temps. Attendre est la seule option correcte.",
+      "it": "Se lo spazio non basta per una distanza sicura, non si deve sorpassare – la sicurezza viene prima del guadagnare tempo. Aspettare è l'unica opzione corretta.",
+      "en": "If there is not enough room for a safe distance, you must not overtake – safety comes before saving time. Waiting is the only correct option.",
+      "pt": "Se não houver espaço suficiente para uma distância segura, não se deve ultrapassar – a segurança está acima de ganhar tempo. Esperar é a única opção correta."
+    },
+    "image": null
+  },
+  {
+    "id": "q182",
+    "category": "both",
+    "topic": "velo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du überholst einen Velofahrer und musst danach sofort wieder nach rechts einbiegen. Was ist richtig?",
+      "es": "Adelantas a un ciclista y justo después debes girar de nuevo a la derecha. ¿Qué es lo correcto?",
+      "fr": "Tu dépasses un cycliste et dois immédiatement après tourner à droite. Que faut-il faire ?",
+      "it": "Sorpassi un ciclista e subito dopo devi svoltare di nuovo a destra. Cosa è corretto?",
+      "en": "You overtake a cyclist and immediately afterwards need to turn right. What is correct?",
+      "pt": "Ultrapassas um ciclista e logo a seguir tens de virar novamente à direita. O que é correto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Erst einbiegen, wenn du den Velofahrer im Rückspiegel komplett und mit Sicherheitsabstand überholt hast",
+          "es": "Girar solo cuando hayas adelantado por completo al ciclista y lo veas por el retrovisor con distancia de seguridad",
+          "fr": "Ne tourner que lorsque tu as complètement dépassé le cycliste et le vois dans le rétroviseur avec une distance de sécurité",
+          "it": "Svoltare solo dopo aver sorpassato completamente il ciclista e vederlo nello specchietto con distanza di sicurezza",
+          "en": "Only turn once you have fully overtaken the cyclist and see them in the mirror with a safe distance",
+          "pt": "Só virar depois de teres ultrapassado totalmente o ciclista e o veres no espelho com distância de segurança"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sofort nach dem Überholen einbiegen, um dem Verkehr hinter dir Platz zu machen",
+          "es": "Girar de inmediato tras adelantarlo, para dejar sitio al tráfico que viene detrás",
+          "fr": "Tourner immédiatement après le dépassement, pour laisser de la place au trafic derrière toi",
+          "it": "Svoltare subito dopo il sorpasso, per lasciare spazio al traffico dietro di te",
+          "en": "Turn immediately after overtaking, to make room for traffic behind you",
+          "pt": "Virar de imediato depois de ultrapassar, para dar espaço ao trânsito atrás de ti"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Velofahrer muss von sich aus abbremsen, sobald du blinkst",
+          "es": "El ciclista debe frenar por su cuenta en cuanto pongas el intermitente",
+          "fr": "Le cycliste doit freiner de lui-même dès que tu clignotes",
+          "it": "Il ciclista deve frenare di sua iniziativa non appena metti la freccia",
+          "en": "The cyclist must brake on their own as soon as you indicate",
+          "pt": "O ciclista deve travar por conta própria assim que ligares o pisca"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Erst wieder einordnen, wenn der überholte Velofahrer mit ausreichendem Abstand sichtbar hinter dir ist – sonst drängst du ihn ab und gefährdest ihn beim Abbiegen.",
+      "es": "Solo debes reincorporarte cuando el ciclista adelantado quede visible detrás de ti con distancia suficiente; de lo contrario lo cierras y lo pones en peligro al girar.",
+      "fr": "Ne te rabats que lorsque le cycliste dépassé est visible derrière toi à distance suffisante – sinon tu le coupes et le mets en danger en tournant.",
+      "it": "Rientra solo quando il ciclista sorpassato è visibile dietro di te a distanza sufficiente – altrimenti lo tagli fuori e lo metti in pericolo nella svolta.",
+      "en": "Only pull back in once the overtaken cyclist is visibly behind you at a safe distance – otherwise you cut them off and endanger them while turning.",
+      "pt": "Só te deves reincorporar quando o ciclista ultrapassado estiver visível atrás de ti a distância suficiente – caso contrário, fecha-lo e coloca-lo em perigo ao virar."
+    },
+    "image": null
+  },
+  {
+    "id": "q183",
+    "category": "both",
+    "topic": "reifen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Gibt es in der Schweiz eine gesetzliche Winterreifenpflicht?",
+      "es": "¿Existe en Suiza una obligación legal de llevar neumáticos de invierno?",
+      "fr": "Existe-t-il en Suisse une obligation légale de pneus d'hiver ?",
+      "it": "In Svizzera esiste un obbligo legale di pneumatici invernali?",
+      "en": "Is there a legal requirement for winter tyres in Switzerland?",
+      "pt": "Existe na Suíça uma obrigação legal de usar pneus de inverno?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, aber die allgemeine Sorgfaltspflicht (Art. 31 SVG) verlangt geeignete Bereifung, wenn die Verhältnisse es erfordern",
+          "es": "No, pero el deber general de diligencia (art. 31 SVG) exige neumáticos adecuados cuando las condiciones lo requieren",
+          "fr": "Non, mais le devoir général de prudence (art. 31 LCR) exige des pneus adaptés lorsque les conditions l'imposent",
+          "it": "No, ma il generale obbligo di diligenza (art. 31 LCStr) richiede pneumatici adeguati quando le condizioni lo esigono",
+          "en": "No, but the general duty of care (Art. 31 SVG) requires suitable tyres when conditions demand it",
+          "pt": "Não, mas o dever geral de diligência (art. 31 SVG) exige pneus adequados quando as condições o exigem"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, vom 1. November bis 31. März sind Winterreifen in der ganzen Schweiz zwingend vorgeschrieben",
+          "es": "Sí, del 1 de noviembre al 31 de marzo son obligatorios en toda Suiza",
+          "fr": "Oui, du 1er novembre au 31 mars, les pneus d'hiver sont obligatoires dans toute la Suisse",
+          "it": "Sì, dal 1° novembre al 31 marzo sono obbligatori in tutta la Svizzera",
+          "en": "Yes, from 1 November to 31 March winter tyres are mandatory across all of Switzerland",
+          "pt": "Sim, de 1 de novembro a 31 de março são obrigatórios em toda a Suíça"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur auf Autobahnen",
+          "es": "Sí, pero solo en autopista",
+          "fr": "Oui, mais seulement sur autoroute",
+          "it": "Sì, ma solo in autostrada",
+          "en": "Yes, but only on motorways",
+          "pt": "Sim, mas só em autoestrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Es gibt keine explizite Winterreifenpflicht, aber wer bei Schnee und Eis mit ungeeigneten Reifen fährt, verletzt die allgemeine Sorgfaltspflicht und riskiert Busse sowie Mitverschulden bei einem Unfall.",
+      "es": "No hay una obligación explícita de neumáticos de invierno, pero circular con nieve o hielo con neumáticos inadecuados vulnera el deber general de diligencia y puede acarrear multa y corresponsabilidad en un accidente.",
+      "fr": "Il n'existe pas d'obligation explicite de pneus d'hiver, mais rouler avec des pneus inadaptés sur neige ou verglas viole le devoir général de prudence et expose à une amende ainsi qu'à une faute concomitante en cas d'accident.",
+      "it": "Non esiste un obbligo esplicito di pneumatici invernali, ma guidare con neve o ghiaccio con pneumatici inadeguati viola l'obbligo generale di diligenza e comporta il rischio di multa e corresponsabilità in caso di incidente.",
+      "en": "There is no explicit winter-tyre law, but driving on snow or ice with unsuitable tyres breaches the general duty of care and risks a fine as well as shared liability in an accident.",
+      "pt": "Não existe uma obrigação explícita de pneus de inverno, mas conduzir com neve ou gelo com pneus inadequados viola o dever geral de diligência e arrisca multa, além de corresponsabilidade num acidente."
+    },
+    "image": null
+  },
+  {
+    "id": "q184",
+    "category": "both",
+    "topic": "reifen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst im Winter mit Sommerreifen und verursachst wegen mangelnder Bodenhaftung einen Unfall. Welche Folge ist möglich?",
+      "es": "Circulas en invierno con neumáticos de verano y causas un accidente por falta de adherencia. ¿Qué consecuencia es posible?",
+      "fr": "Tu roules en hiver avec des pneus d'été et causes un accident par manque d'adhérence. Quelle conséquence est possible ?",
+      "it": "Guidi in inverno con pneumatici estivi e provochi un incidente per mancanza di aderenza. Quale conseguenza è possibile?",
+      "en": "You drive in winter on summer tyres and cause an accident due to lack of grip. What consequence is possible?",
+      "pt": "Conduzes no inverno com pneus de verão e causas um acidente por falta de aderência. Que consequência é possível?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dir kann ein Mitverschulden angelastet werden, auch ohne explizite Winterreifenpflicht",
+          "es": "Se te puede imputar corresponsabilidad, aunque no exista obligación explícita",
+          "fr": "Une faute concomitante peut t'être imputée, même sans obligation explicite",
+          "it": "Ti può essere attribuita una corresponsabilità, anche senza obbligo esplicito",
+          "en": "You can be held partly liable, even without an explicit legal requirement",
+          "pt": "Podes ser considerado corresponsável, mesmo sem obrigação explícita"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Keine, da es keine gesetzliche Winterreifenpflicht gibt",
+          "es": "Ninguna, ya que no hay obligación legal de neumáticos de invierno",
+          "fr": "Aucune, puisqu'il n'y a pas d'obligation légale de pneus d'hiver",
+          "it": "Nessuna, poiché non esiste un obbligo legale di pneumatici invernali",
+          "en": "None, since there is no legal winter-tyre requirement",
+          "pt": "Nenhuma, já que não existe obrigação legal de pneus de inverno"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die Werkstatt, die zuletzt die Reifen montiert hat, haftet",
+          "es": "Solo responde el taller que montó por última vez los neumáticos",
+          "fr": "Seul le garage qui a monté les pneus en dernier est responsable",
+          "it": "Risponde solo l'officina che ha montato per ultima gli pneumatici",
+          "en": "Only the garage that last fitted the tyres is liable",
+          "pt": "Só a oficina que montou os pneus pela última vez é responsável"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auch ohne feste Winterreifenpflicht kann ungeeignete Bereifung als Sorgfaltspflichtverletzung gewertet werden und zu Mitverschulden sowie Leistungskürzungen der Versicherung führen.",
+      "es": "Aunque no exista una obligación fija de neumáticos de invierno, unos neumáticos inadecuados pueden considerarse un incumplimiento del deber de diligencia y provocar corresponsabilidad, además de reducciones en la prestación del seguro.",
+      "fr": "Même sans obligation stricte de pneus d'hiver, des pneus inadaptés peuvent être considérés comme une violation du devoir de prudence et entraîner une faute concomitante ainsi qu'une réduction des prestations d'assurance.",
+      "it": "Anche senza un obbligo fisso di pneumatici invernali, pneumatici inadeguati possono essere considerati una violazione dell'obbligo di diligenza e comportare corresponsabilità nonché riduzioni delle prestazioni assicurative.",
+      "en": "Even without a fixed winter-tyre requirement, unsuitable tyres can be judged a breach of the duty of care and lead to shared liability as well as reduced insurance payouts.",
+      "pt": "Mesmo sem uma obrigação fixa de pneus de inverno, pneus inadequados podem ser considerados uma violação do dever de diligência e originar corresponsabilidade, além de reduções nas prestações do seguro."
+    },
+    "image": null
+  },
+  {
+    "id": "q185",
+    "category": "both",
+    "topic": "reifen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welche minimale Profiltiefe gilt in der Schweiz als gesetzliche Untergrenze für Reifen?",
+      "es": "¿Qué profundidad mínima de dibujo es el límite legal para los neumáticos en Suiza?",
+      "fr": "Quelle profondeur de profil minimale constitue la limite légale pour les pneus en Suisse ?",
+      "it": "Quale profondità minima del battistrada rappresenta il limite legale per gli pneumatici in Svizzera?",
+      "en": "What minimum tread depth is the legal lower limit for tyres in Switzerland?",
+      "pt": "Que profundidade mínima do piso é o limite legal para os pneus na Suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "1,6 mm",
+          "es": "1,6 mm",
+          "fr": "1,6 mm",
+          "it": "1,6 mm",
+          "en": "1.6 mm",
+          "pt": "1,6 mm"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "4 mm",
+          "es": "4 mm",
+          "fr": "4 mm",
+          "it": "4 mm",
+          "en": "4 mm",
+          "pt": "4 mm"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "0,5 mm",
+          "es": "0,5 mm",
+          "fr": "0,5 mm",
+          "it": "0,5 mm",
+          "en": "0.5 mm",
+          "pt": "0,5 mm"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die gesetzliche Mindestprofiltiefe für Reifen beträgt 1,6 mm; für gute Wintertauglichkeit werden aber deutlich mehr, rund 4 mm, empfohlen.",
+      "es": "La profundidad mínima legal del dibujo de los neumáticos es de 1,6 mm; para un buen rendimiento invernal se recomienda mucho más, unos 4 mm.",
+      "fr": "La profondeur de profil légale minimale des pneus est de 1,6 mm ; pour de bonnes performances hivernales, environ 4 mm sont toutefois recommandés.",
+      "it": "La profondità minima legale del battistrada è di 1,6 mm; per una buona tenuta invernale si raccomandano però molto di più, circa 4 mm.",
+      "en": "The legal minimum tread depth for tyres is 1.6 mm; for good winter performance, however, considerably more – around 4 mm – is recommended.",
+      "pt": "A profundidade mínima legal do piso dos pneus é de 1,6 mm; para um bom desempenho no inverno recomenda-se, contudo, muito mais, cerca de 4 mm."
+    },
+    "image": null
+  },
+  {
+    "id": "q186",
+    "category": "both",
+    "topic": "reifen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was ist der Hauptgrund, weshalb Winterreifen bei Schnee und Kälte sicherer sind als Sommerreifen?",
+      "es": "¿Cuál es la principal razón por la que los neumáticos de invierno son más seguros que los de verano con nieve y frío?",
+      "fr": "Quelle est la principale raison pour laquelle les pneus d'hiver sont plus sûrs que les pneus d'été par neige et par froid ?",
+      "it": "Qual è il motivo principale per cui gli pneumatici invernali sono più sicuri di quelli estivi con neve e freddo?",
+      "en": "What is the main reason winter tyres are safer than summer tyres in snow and cold?",
+      "pt": "Qual é a principal razão pela qual os pneus de inverno são mais seguros do que os de verão com neve e frio?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ihre Gummimischung und ihr Profil bieten bei tiefen Temperaturen und auf Schnee/Eis deutlich mehr Grip",
+          "es": "Su mezcla de goma y su dibujo ofrecen mucho más agarre a bajas temperaturas y sobre nieve o hielo",
+          "fr": "Leur gomme et leur profil offrent nettement plus d'adhérence par basses températures et sur neige/verglas",
+          "it": "La loro mescola e il battistrada offrono molta più aderenza a basse temperature e su neve/ghiaccio",
+          "en": "Their rubber compound and tread pattern give much more grip at low temperatures and on snow/ice",
+          "pt": "A sua mistura de borracha e o piso oferecem muito mais aderência a baixas temperaturas e em neve/gelo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie sind einfach breiter und deshalb schneller",
+          "es": "Simplemente son más anchos y por eso más rápidos",
+          "fr": "Ils sont simplement plus larges et donc plus rapides",
+          "it": "Sono semplicemente più larghi e quindi più veloci",
+          "en": "They are simply wider and therefore faster",
+          "pt": "São simplesmente mais largos e por isso mais rápidos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie sind gesetzlich vorgeschrieben, deshalb automatisch sicherer",
+          "es": "Son obligatorios por ley, por eso son automáticamente más seguros",
+          "fr": "Ils sont prescrits par la loi, donc automatiquement plus sûrs",
+          "it": "Sono previsti dalla legge, quindi automaticamente più sicuri",
+          "en": "They are legally required, so they are automatically safer",
+          "pt": "São exigidos por lei, por isso são automaticamente mais seguros"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Winterreifen behalten dank spezieller Gummimischung auch bei Kälte ihre Elastizität und bieten auf Schnee/Eis mehr Haftung als Sommerreifen, die bei niedrigen Temperaturen hart und rutschig werden.",
+      "es": "Gracias a una mezcla de goma especial, los neumáticos de invierno mantienen su elasticidad incluso con frío y ofrecen más agarre sobre nieve o hielo que los de verano, que se endurecen y resbalan a bajas temperaturas.",
+      "fr": "Grâce à une gomme spéciale, les pneus d'hiver conservent leur élasticité même par temps froid et offrent plus d'adhérence sur neige/verglas que les pneus d'été, qui durcissent et glissent à basses températures.",
+      "it": "Grazie a una mescola speciale, gli pneumatici invernali mantengono la loro elasticità anche al freddo e offrono più aderenza su neve/ghiaccio rispetto a quelli estivi, che a basse temperature diventano duri e scivolosi.",
+      "en": "Thanks to a special rubber compound, winter tyres keep their elasticity even in the cold and offer more grip on snow/ice than summer tyres, which become hard and slippery at low temperatures.",
+      "pt": "Graças a uma mistura de borracha especial, os pneus de inverno mantêm a sua elasticidade mesmo com frio e oferecem mais aderência em neve/gelo do que os de verão, que ficam duros e escorregadios a baixas temperaturas."
+    },
+    "image": null
+  },
+  {
+    "id": "q187",
+    "category": "both",
+    "topic": "tunnel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst in einen längeren Autobahntunnel ein. Worauf musst du besonders achten?",
+      "es": "Entras en un túnel largo de autopista. ¿A qué debes prestar especial atención?",
+      "fr": "Tu entres dans un long tunnel autoroutier. À quoi dois-tu prêter une attention particulière ?",
+      "it": "Entri in una lunga galleria autostradale. A cosa devi prestare particolare attenzione?",
+      "en": "You enter a long motorway tunnel. What must you pay particular attention to?",
+      "pt": "Entras num túnel longo de autoestrada. A que deves prestar especial atenção?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ausreichenden Abstand einhalten und die Geschwindigkeit den Sichtverhältnissen anpassen",
+          "es": "Mantener una distancia suficiente y adaptar la velocidad a la visibilidad",
+          "fr": "Garder une distance suffisante et adapter la vitesse aux conditions de visibilité",
+          "it": "Mantenere una distanza sufficiente e adattare la velocità alle condizioni di visibilità",
+          "en": "Keep sufficient distance and adjust speed to the visibility conditions",
+          "pt": "Manter distância suficiente e ajustar a velocidade às condições de visibilidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Möglichst dicht auffahren, damit der Tunnelverkehr flüssig bleibt",
+          "es": "Circular lo más pegado posible para que el tráfico del túnel fluya",
+          "fr": "Rouler le plus collé possible pour que le trafic reste fluide dans le tunnel",
+          "it": "Viaggiare il più vicino possibile perché il traffico in galleria resti scorrevole",
+          "en": "Follow as closely as possible so tunnel traffic keeps flowing",
+          "pt": "Circular o mais colado possível para que o trânsito no túnel se mantenha fluido"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Warnblinker während der ganzen Tunneldurchfahrt einschalten",
+          "es": "Encender las luces de emergencia durante todo el paso por el túnel",
+          "fr": "Allumer les feux de détresse pendant toute la traversée du tunnel",
+          "it": "Accendere le luci di emergenza per l'intero attraversamento della galleria",
+          "en": "Switch on the hazard lights for the whole tunnel crossing",
+          "pt": "Ligar as luzes de emergência durante toda a travessia do túnel"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In Tunneln ist ausreichender Abstand besonders wichtig, da Auffahrunfälle dort schwerer verlaufen und die Fluchtwege begrenzt sind; die Geschwindigkeit ist der Sicht- und Verkehrslage anzupassen.",
+      "es": "En los túneles es especialmente importante mantener suficiente distancia, ya que los alcances allí son más graves y las vías de escape son limitadas; la velocidad debe adaptarse a la visibilidad y al tráfico.",
+      "fr": "Dans les tunnels, une distance suffisante est particulièrement importante, car les collisions par l'arrière y sont plus graves et les issues de secours limitées ; la vitesse doit être adaptée à la visibilité et au trafic.",
+      "it": "Nelle gallerie è particolarmente importante una distanza sufficiente, poiché i tamponamenti sono più gravi e le vie di fuga limitate; la velocità va adattata alla visibilità e al traffico.",
+      "en": "In tunnels, sufficient distance is especially important because rear-end collisions there are more severe and escape routes are limited; speed must be adjusted to visibility and traffic conditions.",
+      "pt": "Nos túneis, a distância suficiente é particularmente importante, pois as colisões traseiras aí são mais graves e as vias de fuga são limitadas; a velocidade deve ser ajustada à visibilidade e ao trânsito."
+    },
+    "image": null
+  },
+  {
+    "id": "q188",
+    "category": "both",
+    "topic": "tunnel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein Fahrzeug hat im Tunnel eine Panne. Was ist richtig?",
+      "es": "Tu vehículo sufre una avería dentro del túnel. ¿Qué es lo correcto?",
+      "fr": "Ton véhicule tombe en panne dans le tunnel. Que faut-il faire ?",
+      "it": "Il tuo veicolo ha un guasto in galleria. Cosa è corretto fare?",
+      "en": "Your vehicle breaks down in the tunnel. What is correct?",
+      "pt": "O teu veículo avaria dentro do túnel. O que é correto fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Wenn möglich in eine Pannenbucht oder so weit wie möglich an den rechten Rand fahren, Warnblinker einschalten und das Fahrzeug gesichert verlassen",
+          "es": "Si es posible, ir a una zona de emergencia o lo más cerca posible del borde derecho, encender las luces de emergencia y salir del vehículo con seguridad",
+          "fr": "Si possible, rejoindre une niche de sécurité ou se placer au plus près du bord droit, allumer les feux de détresse et quitter le véhicule en sécurité",
+          "it": "Se possibile raggiungere una piazzola di sosta o portarsi il più possibile verso il bordo destro, accendere le luci di emergenza e uscire dal veicolo in sicurezza",
+          "en": "If possible, pull into an emergency bay or as far to the right edge as possible, switch on the hazard lights and leave the vehicle safely",
+          "pt": "Se possível, dirigir-se a uma zona de emergência ou o mais próximo possível do bordo direito, ligar as luzes de emergência e sair do veículo em segurança"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf der Fahrspur stehen bleiben und im Fahrzeug auf Hilfe warten",
+          "es": "Quedarte parado en el carril y esperar ayuda dentro del coche",
+          "fr": "Rester à l'arrêt sur la voie et attendre les secours dans le véhicule",
+          "it": "Restare fermo sulla corsia e aspettare aiuto dentro il veicolo",
+          "en": "Stay stopped in the lane and wait for help inside the vehicle",
+          "pt": "Ficar parado na faixa e esperar ajuda dentro do veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sofort zu Fuss durch den Tunnel zur nächsten Ausfahrt laufen, ohne zu warnen",
+          "es": "Echar a andar de inmediato por el túnel hacia la próxima salida, sin avisar",
+          "fr": "Marcher immédiatement à pied dans le tunnel vers la prochaine sortie, sans avertir",
+          "it": "Incamminarsi subito a piedi nella galleria verso l'uscita successiva, senza avvertire",
+          "en": "Immediately walk through the tunnel to the next exit on foot, without warning anyone",
+          "pt": "Começar de imediato a andar a pé pelo túnel até à próxima saída, sem avisar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einer Panne im Tunnel möglichst in eine Pannenbucht oder ganz an den Rand fahren, sofort Warnblinker einschalten, Leuchtweste anziehen und wenn möglich das Fahrzeug hinter einer Schutzeinrichtung sichern verlassen.",
+      "es": "En caso de avería en el túnel, dirígete si puedes a una zona de emergencia o pégate al borde, enciende de inmediato las luces de emergencia, ponte el chaleco reflectante y, si es posible, ponte a salvo detrás de una protección.",
+      "fr": "En cas de panne dans le tunnel, rejoins si possible une niche de sécurité ou colle-toi au bord, allume immédiatement les feux de détresse, mets le gilet réfléchissant et, si possible, mets-toi à l'abri derrière une protection.",
+      "it": "In caso di guasto in galleria, se possibile raggiungi una piazzola di sosta o portati al bordo, accendi subito le luci di emergenza, indossa il gilet catarifrangente e, se possibile, mettiti al riparo dietro una protezione.",
+      "en": "In the event of a breakdown in a tunnel, pull into an emergency bay if possible or right to the edge, switch on the hazard lights at once, put on the high-visibility vest and, if possible, take shelter behind a barrier.",
+      "pt": "Em caso de avaria no túnel, dirige-te se possível a uma zona de emergência ou o mais junto possível do bordo, liga de imediato as luzes de emergência, veste o colete refletor e, se possível, põe-te a salvo atrás de uma proteção."
+    },
+    "image": null
+  },
+  {
+    "id": "q189",
+    "category": "both",
+    "topic": "tunnel",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Bei einem Brand im Tunnel – wie alarmierst du am besten die Rettungskräfte?",
+      "es": "En caso de incendio en el túnel, ¿cómo avisas mejor a los servicios de emergencia?",
+      "fr": "En cas d'incendie dans le tunnel, comment alertes-tu au mieux les secours ?",
+      "it": "In caso di incendio in galleria, come avvisi al meglio i soccorsi?",
+      "en": "In case of a fire in the tunnel, how do you best alert the emergency services?",
+      "pt": "Em caso de incêndio no túnel, como alertas melhor os serviços de emergência?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Über die Notruftelefone im Tunnel, die direkt mit der Tunnelzentrale verbunden sind",
+          "es": "A través de los teléfonos de emergencia del túnel, conectados directamente con la central",
+          "fr": "Via les téléphones d'urgence du tunnel, reliés directement à la centrale",
+          "it": "Tramite i telefoni di emergenza in galleria, collegati direttamente alla centrale",
+          "en": "Via the emergency telephones in the tunnel, which are directly connected to the tunnel control centre",
+          "pt": "Através dos telefones de emergência do túnel, ligados diretamente à central"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur über das eigene Mobiltelefon, da das schneller geht",
+          "es": "Solo con tu propio móvil, porque es más rápido",
+          "fr": "Uniquement avec ton propre téléphone portable, car c'est plus rapide",
+          "it": "Solo con il proprio cellulare, perché è più veloce",
+          "en": "Only with your own mobile phone, because it is faster",
+          "pt": "Só com o teu próprio telemóvel, porque é mais rápido"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Man muss nichts unternehmen, Sensoren erkennen jeden Brand automatisch und zuverlässig",
+          "es": "No hace falta hacer nada, los sensores detectan siempre y de forma fiable cualquier incendio",
+          "fr": "Il n'y a rien à faire, les capteurs détectent automatiquement et de manière fiable tout incendie",
+          "it": "Non c'è bisogno di fare nulla, i sensori rilevano sempre e in modo affidabile qualsiasi incendio",
+          "en": "You do not need to do anything, sensors automatically and reliably detect every fire",
+          "pt": "Não é preciso fazer nada, os sensores detetam sempre e de forma fiável qualquer incêndio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Tunnel-Notruftelefone sind direkt mit der Einsatzzentrale verbunden und liefern automatisch den genauen Standort – das ist im Ernstfall zuverlässiger und schneller als ein Anruf mit dem eigenen Handy.",
+      "es": "Los teléfonos de emergencia del túnel están conectados directamente con la central y transmiten automáticamente la ubicación exacta; en una emergencia real, esto es más fiable y rápido que llamar con el propio móvil.",
+      "fr": "Les téléphones d'urgence du tunnel sont directement reliés à la centrale d'intervention et transmettent automatiquement l'emplacement exact – c'est plus fiable et plus rapide, en cas d'urgence, qu'un appel avec son propre portable.",
+      "it": "I telefoni di emergenza in galleria sono collegati direttamente alla centrale operativa e trasmettono automaticamente la posizione esatta – in un'emergenza reale è più affidabile e veloce di una chiamata con il proprio cellulare.",
+      "en": "Tunnel emergency telephones are directly connected to the operations centre and automatically transmit the exact location – in a real emergency this is more reliable and faster than a call from your own mobile.",
+      "pt": "Os telefones de emergência do túnel estão diretamente ligados à central de operações e transmitem automaticamente a localização exata – numa emergência real isso é mais fiável e rápido do que uma chamada com o teu próprio telemóvel."
+    },
+    "image": null
+  },
+  {
+    "id": "q190",
+    "category": "both",
+    "topic": "tunnel",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was gilt beim Fahren im Tunnel bezüglich Fahrstreifenwechsel und Überholen?",
+      "es": "¿Qué rige al circular por un túnel respecto a cambios de carril y adelantamientos?",
+      "fr": "Que faut-il respecter dans un tunnel concernant les changements de voie et les dépassements ?",
+      "it": "Cosa vale guidando in galleria riguardo a cambi di corsia e sorpassi?",
+      "en": "What applies when driving in a tunnel regarding lane changes and overtaking?",
+      "pt": "O que se aplica ao conduzir num túnel quanto a mudanças de faixa e ultrapassagens?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Zurückhaltung: unnötige Fahrstreifenwechsel und Überholmanöver vermeiden",
+          "es": "Prudencia: evitar cambios de carril y adelantamientos innecesarios",
+          "fr": "Retenue : éviter les changements de voie et dépassements inutiles",
+          "it": "Prudenza: evitare cambi di corsia e sorpassi non necessari",
+          "en": "Caution: avoid unnecessary lane changes and overtaking manoeuvres",
+          "pt": "Prudência: evitar mudanças de faixa e ultrapassagens desnecessárias"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Im Tunnel darf grundsätzlich nirgends überholt werden",
+          "es": "En los túneles nunca está permitido adelantar",
+          "fr": "Dans les tunnels, il est en principe interdit de dépasser où que ce soit",
+          "it": "In galleria non è mai consentito sorpassare",
+          "en": "Overtaking is never allowed anywhere in a tunnel",
+          "pt": "Nos túneis nunca é permitido ultrapassar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Im Tunnel gelten überhaupt keine normalen Verkehrsregeln",
+          "es": "En el túnel no rigen en absoluto las reglas normales de circulación",
+          "fr": "Dans le tunnel, les règles de circulation normales ne s'appliquent pas du tout",
+          "it": "In galleria non valgono affatto le normali regole della circolazione",
+          "en": "No normal traffic rules apply at all inside a tunnel",
+          "pt": "No túnel não vigoram de todo as regras normais de trânsito"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In Tunneln ist die Gefahrenlage bei einem Zwischenfall besonders kritisch; unnötige Fahrstreifenwechsel und riskante Überholmanöver sollten deshalb vermieden werden, auch wenn sie nicht überall grundsätzlich verboten sind.",
+      "es": "En los túneles, la situación de peligro ante un incidente es especialmente crítica; por eso conviene evitar cambios de carril y adelantamientos arriesgados innecesarios, aunque no estén prohibidos de forma absoluta en todos los casos.",
+      "fr": "Dans les tunnels, la situation de danger en cas d'incident est particulièrement critique ; il faut donc éviter les changements de voie et dépassements risqués inutiles, même s'ils ne sont pas partout formellement interdits.",
+      "it": "In galleria la situazione di pericolo in caso di incidente è particolarmente critica; vanno quindi evitati cambi di corsia e sorpassi rischiosi non necessari, anche se non sono ovunque vietati in senso assoluto.",
+      "en": "In tunnels the danger in the event of an incident is especially critical; unnecessary lane changes and risky overtaking should therefore be avoided, even where they are not absolutely forbidden everywhere.",
+      "pt": "Nos túneis, a situação de perigo em caso de incidente é particularmente crítica; por isso devem evitar-se mudanças de faixa e ultrapassagens arriscadas desnecessárias, mesmo que não sejam absolutamente proibidas em todo o lado."
+    },
+    "image": null
+  },
+  {
+    "id": "q191",
+    "category": "both",
+    "topic": "abschleppen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie schnell darfst du in der Schweiz beim Abschleppen eines Fahrzeugs maximal fahren?",
+      "es": "¿A qué velocidad máxima puedes circular en Suiza al remolcar un vehículo?",
+      "fr": "À quelle vitesse maximale peux-tu circuler en Suisse en remorquant un véhicule ?",
+      "it": "A quale velocità massima puoi viaggiare in Svizzera quando trainai un veicolo?",
+      "en": "What is the maximum speed allowed in Switzerland when towing a vehicle?",
+      "pt": "A que velocidade máxima podes circular na Suíça ao rebocar um veículo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "40 km/h",
+          "es": "40 km/h",
+          "fr": "40 km/h",
+          "it": "40 km/h",
+          "en": "40 km/h",
+          "pt": "40 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "60 km/h",
+          "es": "60 km/h",
+          "fr": "60 km/h",
+          "it": "60 km/h",
+          "en": "60 km/h",
+          "pt": "60 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "80 km/h",
+          "es": "80 km/h",
+          "fr": "80 km/h",
+          "it": "80 km/h",
+          "en": "80 km/h",
+          "pt": "80 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Abschleppen eines Fahrzeugs ist die Höchstgeschwindigkeit gemäss VRV auf 40 km/h begrenzt.",
+      "es": "Al remolcar un vehículo, la velocidad máxima según la VRV está limitada a 40 km/h.",
+      "fr": "Lors du remorquage d'un véhicule, la vitesse maximale selon l'OCR est limitée à 40 km/h.",
+      "it": "Durante il traino di un veicolo, la velocità massima secondo l'ONC è limitata a 40 km/h.",
+      "en": "When towing a vehicle, the maximum speed under the VRV is limited to 40 km/h.",
+      "pt": "Ao rebocar um veículo, a velocidade máxima segundo o VRV está limitada a 40 km/h."
+    },
+    "image": null
+  },
+  {
+    "id": "q192",
+    "category": "both",
+    "topic": "abschleppen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du schleppst ein Pannenfahrzeug auf der Autobahn ab. Dürft ihr die Warnblinker einschalten?",
+      "es": "Estás remolcando un vehículo averiado en la autopista. ¿Podéis encender las luces de emergencia?",
+      "fr": "Tu remorques un véhicule en panne sur l'autoroute. Pouvez-vous allumer les feux de détresse ?",
+      "it": "Stai trainando un veicolo in panne in autostrada. Potete accendere le luci di emergenza?",
+      "en": "You are towing a broken-down vehicle on the motorway. May you switch on the hazard lights?",
+      "pt": "Estás a rebocar um veículo avariado na autoestrada. Podem ligar as luzes de emergência?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, auf Autobahnen und Autostrassen ist das beim Abschleppen ausdrücklich erlaubt",
+          "es": "Sí, en autopistas y semiautopistas está expresamente permitido al remolcar",
+          "fr": "Oui, sur autoroutes et semi-autoroutes, c'est expressément autorisé lors d'un remorquage",
+          "it": "Sì, in autostrada e semiautostrada è espressamente consentito durante il traino",
+          "en": "Yes, on motorways and expressways this is expressly permitted while towing",
+          "pt": "Sim, em autoestradas e vias rápidas isso é expressamente permitido ao rebocar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Warnblinker sind beim Abschleppen grundsätzlich verboten",
+          "es": "No, las luces de emergencia están totalmente prohibidas al remolcar",
+          "fr": "Non, les feux de détresse sont en principe interdits lors d'un remorquage",
+          "it": "No, le luci di emergenza sono in linea di massima vietate durante il traino",
+          "en": "No, hazard lights are generally forbidden while towing",
+          "pt": "Não, as luzes de emergência são, em princípio, proibidas ao rebocar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur das abgeschleppte Fahrzeug darf blinken, das ziehende nie",
+          "es": "Solo puede parpadear el vehículo remolcado, el que tira nunca",
+          "fr": "Seul le véhicule remorqué peut clignoter, jamais celui qui tire",
+          "it": "Può lampeggiare solo il veicolo trainato, mai quello trainante",
+          "en": "Only the towed vehicle may flash, never the towing one",
+          "pt": "Só o veículo rebocado pode piscar, o que puxa nunca"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 23 VRV erlaubt den Einsatz der Warnblinker auf Autobahnen und Autostrassen unter anderem beim Abschleppen, um andere Verkehrsteilnehmer rechtzeitig zu warnen.",
+      "es": "El art. 23 VRV permite usar las luces de emergencia en autopistas y semiautopistas, entre otros casos al remolcar, para avisar a tiempo a los demás usuarios.",
+      "fr": "L'art. 23 OCR autorise l'usage des feux de détresse sur autoroutes et semi-autoroutes, notamment lors d'un remorquage, afin d'avertir à temps les autres usagers.",
+      "it": "L'art. 23 ONC consente l'uso delle luci di emergenza in autostrada e semiautostrada, tra l'altro durante il traino, per avvisare in tempo gli altri utenti della strada.",
+      "en": "Art. 23 VRV permits the use of hazard lights on motorways and expressways, among other cases while towing, to warn other road users in good time.",
+      "pt": "O art. 23 VRV permite o uso das luzes de emergência em autoestradas e vias rápidas, entre outros casos ao rebocar, para avisar a tempo os outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q193",
+    "category": "both",
+    "topic": "abschleppen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein Auto hat eine Panne und muss auf der Fahrbahn abgestellt werden. Was musst du zusätzlich zum Pannendreieck beachten?",
+      "es": "Tu coche sufre una avería y debe quedar detenido en la calzada. ¿Qué debes hacer además de colocar el triángulo?",
+      "fr": "Ta voiture tombe en panne et doit rester sur la chaussée. Que dois-tu faire en plus de poser le triangle ?",
+      "it": "La tua auto ha un guasto e deve restare sulla carreggiata. Cosa devi fare oltre a mettere il triangolo?",
+      "en": "Your car breaks down and must stay on the carriageway. What must you do in addition to placing the warning triangle?",
+      "pt": "O teu carro avaria e tem de ficar parado na faixa de rodagem. O que deves fazer além de colocar o triângulo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Warnblinker sofort einschalten, sobald die Gefahrensituation entsteht",
+          "es": "Encender de inmediato las luces de emergencia en cuanto se produzca la situación de peligro",
+          "fr": "Allumer immédiatement les feux de détresse dès que la situation de danger survient",
+          "it": "Accendere subito le luci di emergenza non appena si crea la situazione di pericolo",
+          "en": "Switch on the hazard lights immediately as soon as the dangerous situation arises",
+          "pt": "Ligar de imediato as luzes de emergência assim que surgir a situação de perigo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Pannendreieck allein reicht, Warnblinker sind unnötig",
+          "es": "Basta con el triángulo, las luces de emergencia no son necesarias",
+          "fr": "Le triangle seul suffit, les feux de détresse sont inutiles",
+          "it": "Il triangolo da solo basta, le luci di emergenza sono superflue",
+          "en": "The warning triangle alone is enough, hazard lights are unnecessary",
+          "pt": "O triângulo por si só chega, as luzes de emergência são desnecessárias"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Erst nach 10 Minuten die Warnblinker einschalten",
+          "es": "Encender las luces de emergencia solo pasados 10 minutos",
+          "fr": "N'allumer les feux de détresse qu'après 10 minutes",
+          "it": "Accendere le luci di emergenza solo dopo 10 minuti",
+          "en": "Only switch on the hazard lights after 10 minutes",
+          "pt": "Só ligar as luzes de emergência passados 10 minutos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einer Panne müssen die Warnblinker unverzüglich eingeschaltet werden, um andere sofort zu warnen; zusätzlich ist bei Bedarf das Pannendreieck im vorgeschriebenen Abstand aufzustellen.",
+      "es": "En caso de avería, las luces de emergencia deben encenderse de inmediato para avisar enseguida a los demás; además, si es necesario, hay que colocar el triángulo a la distancia prescrita.",
+      "fr": "En cas de panne, les feux de détresse doivent être allumés immédiatement pour avertir aussitôt les autres ; en outre, si nécessaire, le triangle de panne doit être placé à la distance prescrite.",
+      "it": "In caso di guasto, le luci di emergenza vanno accese immediatamente per avvisare subito gli altri; inoltre, se necessario, va posizionato il triangolo alla distanza prescritta.",
+      "en": "In a breakdown, the hazard lights must be switched on immediately to warn others straight away; in addition, the warning triangle must be placed at the prescribed distance if needed.",
+      "pt": "Em caso de avaria, as luzes de emergência devem ser ligadas de imediato para avisar logo os outros; além disso, se necessário, o triângulo deve ser colocado à distância prescrita."
+    },
+    "image": null
+  },
+  {
+    "id": "q194",
+    "category": "both",
+    "topic": "abschleppen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was ist beim Abschleppen mit einem Abschleppseil oder einer Abschleppstange besonders wichtig?",
+      "es": "¿Qué es especialmente importante al remolcar con una cuerda o una barra de remolque?",
+      "fr": "Qu'est-ce qui est particulièrement important lors d'un remorquage avec une corde ou une barre de remorquage ?",
+      "it": "Cosa è particolarmente importante nel traino con una fune o una barra di traino?",
+      "en": "What is especially important when towing with a tow rope or tow bar?",
+      "pt": "O que é especialmente importante ao rebocar com uma corda ou uma barra de reboque?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Beide Fahrzeuge müssen den Vorgang aufeinander abstimmen und vorausschauend, ruckfrei fahren",
+          "es": "Ambos vehículos deben coordinar la maniobra y conducir con anticipación, sin tirones",
+          "fr": "Les deux véhicules doivent coordonner la manœuvre et rouler de façon anticipée et sans à-coups",
+          "it": "Entrambi i veicoli devono coordinare la manovra e guidare in modo previdente e senza scossoni",
+          "en": "Both vehicles must coordinate the manoeuvre and drive smoothly and with anticipation",
+          "pt": "Ambos os veículos devem coordenar a manobra e conduzir de forma antecipada e sem solavancos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das ziehende Fahrzeug darf beliebig beschleunigen, das andere muss folgen können",
+          "es": "El vehículo que tira puede acelerar como quiera, el otro debe poder seguirle",
+          "fr": "Le véhicule tracteur peut accélérer librement, l'autre doit pouvoir suivre",
+          "it": "Il veicolo trainante può accelerare a piacimento, l'altro deve riuscire a seguirlo",
+          "en": "The towing vehicle may accelerate freely, the other must be able to keep up",
+          "pt": "O veículo que puxa pode acelerar à vontade, o outro tem de conseguir acompanhar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beim Abschleppen braucht es keine Kommunikation zwischen den Fahrzeugen",
+          "es": "Al remolcar no hace falta ninguna comunicación entre los vehículos",
+          "fr": "Lors du remorquage, aucune communication entre les véhicules n'est nécessaire",
+          "it": "Durante il traino non serve alcuna comunicazione tra i veicoli",
+          "en": "No communication between the vehicles is needed while towing",
+          "pt": "Ao rebocar não é necessária qualquer comunicação entre os veículos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Abschleppen erfordert Absprache und vorausschauendes, gleichmässiges Fahren beider Fahrzeuge, um ein Auffahren, Reissen des Seils oder gefährliche Schwenker zu vermeiden.",
+      "es": "Remolcar exige acuerdo previo y una conducción anticipada y uniforme de ambos vehículos, para evitar alcances, roturas del cable o virajes peligrosos.",
+      "fr": "Le remorquage exige une entente et une conduite anticipée et régulière des deux véhicules, afin d'éviter une collision, une rupture du câble ou des embardées dangereuses.",
+      "it": "Il traino richiede intesa e una guida previdente e uniforme di entrambi i veicoli, per evitare tamponamenti, rotture della fune o sbandate pericolose.",
+      "en": "Towing requires coordination and smooth, anticipatory driving from both vehicles, to avoid a collision, a snapped rope or dangerous swerving.",
+      "pt": "O reboque exige combinação e uma condução antecipada e uniforme de ambos os veículos, para evitar colisões, rutura da corda ou guinadas perigosas."
+    },
+    "image": null
   }
 ]

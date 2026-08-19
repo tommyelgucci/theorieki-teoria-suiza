@@ -946,9 +946,33 @@ const ICON_MAP = {
   thoughtBubble: IconThoughtBubble,
   graduationCap: IconGraduationCap,
   ambulance: IconAmbulance,
+  lungs: IconLungs,
+  bandage: IconBandage,
 }
 
 /** Ícono genérico para campos de datos (`icon: 'clave'` en .js/.json). */
+export function IconLungs({ className }) {
+  return (
+    <Svg className={className}>
+      <path d="M12 3v7" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+      <path d="M12 10c-1 0-2.2.4-2.8 1.6S8.5 14 8.5 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M12 10c1 0 2.2.4 2.8 1.6s.7 2.4.7 2.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <ellipse cx="8" cy="16.5" rx="3" ry="4.2" stroke="currentColor" strokeWidth="1.7" />
+      <ellipse cx="16" cy="16.5" rx="3" ry="4.2" stroke="currentColor" strokeWidth="1.7" />
+    </Svg>
+  )
+}
+
+export function IconBandage({ className }) {
+  return (
+    <Svg className={className}>
+      <rect x="4" y="9" width="16" height="6" rx="3" transform="rotate(45 12 12)" stroke="currentColor" strokeWidth="1.7" />
+      <line x1="9" y1="9" x2="9" y2="15" transform="rotate(45 12 12)" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" opacity="0.6" />
+      <line x1="15" y1="9" x2="15" y2="15" transform="rotate(45 12 12)" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" opacity="0.6" />
+    </Svg>
+  )
+}
+
 export function Icon({ name, className }) {
   const Cmp = ICON_MAP[name]
   if (!Cmp) return null
