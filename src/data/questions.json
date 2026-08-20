@@ -12122,5 +12122,1245 @@
       "pt": "O reboque exige combinação e uma condução antecipada e uniforme de ambos os veículos, para evitar colisões, rutura da corda ou guinadas perigosas."
     },
     "image": null
+  },
+  {
+    "id": "q195",
+    "category": "both",
+    "topic": "vignette",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst mit deinem Auto (Gesamtgewicht unter 3,5 t) zum ersten Mal auf eine Schweizer Autobahn. Was brauchst du dafür?",
+      "es": "Vas a entrar por primera vez con tu coche (menos de 3,5 t) en una autopista suiza. ¿Qué necesitas?",
+      "fr": "Tu entres pour la première fois avec ta voiture (moins de 3,5 t) sur une autoroute suisse. De quoi as-tu besoin ?",
+      "it": "Entri per la prima volta con la tua auto (meno di 3,5 t) in un'autostrada svizzera. Di cosa hai bisogno?",
+      "en": "You are driving your car (under 3.5 t) onto a Swiss motorway for the first time. What do you need?",
+      "pt": "Vais entrar pela primeira vez com o teu carro (menos de 3,5 t) numa autoestrada suíça. Do que precisas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine gültige Vignette (Klebevignette oder E-Vignette)",
+          "es": "Una viñeta válida (adhesiva o electrónica)",
+          "fr": "Une vignette valable (autocollante ou électronique)",
+          "it": "Un contrassegno valido (adesivo o elettronico)",
+          "en": "A valid vignette (sticker or e-vignette)",
+          "pt": "Uma vinheta válida (autocolante ou eletrónica)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, die Benutzung der Autobahn ist in der Schweiz generell kostenlos",
+          "es": "Nada, el uso de la autopista en Suiza es siempre gratuito",
+          "fr": "Rien, l'usage de l'autoroute en Suisse est toujours gratuit",
+          "it": "Niente, l'uso dell'autostrada in Svizzera è sempre gratuito",
+          "en": "Nothing, using the motorway in Switzerland is always free",
+          "pt": "Nada, o uso da autoestrada na Suíça é sempre gratuito"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Eine Vignette nur, wenn du ein ausländisches Kennzeichen hast",
+          "es": "Una viñeta solo si tu matrícula es extranjera",
+          "fr": "Une vignette seulement si ta plaque est étrangère",
+          "it": "Un contrassegno solo se hai targa estera",
+          "en": "A vignette only if you have foreign number plates",
+          "pt": "Uma vinheta só se tiveres matrícula estrangeira"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für Motorfahrzeuge bis 3,5 t Gesamtgewicht ist die Autobahnvignette in der Schweiz Pflicht – für Schweizer und ausländische Fahrzeuge gleichermassen.",
+      "es": "Para vehículos de motor de hasta 3,5 t de peso total, la viñeta de autopista es obligatoria en Suiza, tanto para matrículas suizas como extranjeras.",
+      "fr": "Pour les véhicules à moteur jusqu'à 3,5 t de poids total, la vignette autoroutière est obligatoire en Suisse, aussi bien pour les véhicules suisses qu'étrangers.",
+      "it": "Per i veicoli a motore fino a 3,5 t di peso totale, il contrassegno autostradale è obbligatorio in Svizzera, sia per i veicoli svizzeri che esteri.",
+      "en": "For motor vehicles up to 3.5 t gross weight, the motorway vignette is mandatory in Switzerland – for Swiss and foreign vehicles alike.",
+      "pt": "Para veículos a motor até 3,5 t de peso total, a vinheta de autoestrada é obrigatória na Suíça, tanto para veículos suíços como estrangeiros."
+    },
+    "image": null
+  },
+  {
+    "id": "q196",
+    "category": "both",
+    "topic": "vignette",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was passiert, wenn du ohne gültige Vignette auf einer mautpflichtigen Nationalstrasse fährst?",
+      "es": "¿Qué pasa si circulas sin viñeta válida por una autopista nacional sujeta a peaje?",
+      "fr": "Que se passe-t-il si tu circules sans vignette valable sur une route nationale soumise à la redevance ?",
+      "it": "Cosa succede se guidi senza contrassegno valido su una strada nazionale soggetta a pedaggio?",
+      "en": "What happens if you drive without a valid vignette on a toll-liable national road?",
+      "pt": "O que acontece se conduzires sem vinheta válida numa via nacional sujeita a portagem?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du riskierst eine Busse von 200 CHF zusätzlich zu den Kosten der Vignette",
+          "es": "Te arriesgas a una multa de 200 CHF, además del coste de la viñeta",
+          "fr": "Tu risques une amende de 200 CHF, en plus du prix de la vignette",
+          "it": "Rischi una multa di 200 CHF, oltre al costo del contrassegno",
+          "en": "You risk a fine of CHF 200, on top of the cost of the vignette",
+          "pt": "Arriscas uma multa de 200 CHF, além do custo da vinheta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt keine Konsequenzen, solange du nicht kontrolliert wirst",
+          "es": "No hay consecuencias mientras no te controlen",
+          "fr": "Il n'y a aucune conséquence tant que tu n'es pas contrôlé",
+          "it": "Non ci sono conseguenze finché non vieni controllato",
+          "en": "There are no consequences as long as you are not checked",
+          "pt": "Não há consequências enquanto não fores fiscalizado"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Du musst nur beim nächsten Grenzübertritt eine Vignette kaufen",
+          "es": "Solo debes comprar la viñeta al cruzar la siguiente frontera",
+          "fr": "Tu dois seulement acheter une vignette au prochain passage de frontière",
+          "it": "Devi solo comprare il contrassegno al prossimo valico di frontiera",
+          "en": "You only need to buy a vignette at the next border crossing",
+          "pt": "Só precisas de comprar a vinheta na próxima passagem de fronteira"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fahren ohne gültige Vignette auf mautpflichtigen Strecken wird mit einer Busse von 200 CHF geahndet, zusätzlich zu den Kosten der Vignette.",
+      "es": "Circular sin viñeta válida por tramos con peaje se sanciona con una multa de 200 CHF, además del coste de la propia viñeta.",
+      "fr": "Rouler sans vignette valable sur les tronçons soumis à la redevance est sanctionné par une amende de 200 CHF, en plus du prix de la vignette.",
+      "it": "Guidare senza contrassegno valido su tratti soggetti a pedaggio è punito con una multa di 200 CHF, oltre al costo del contrassegno stesso.",
+      "en": "Driving without a valid vignette on toll-liable stretches is punished with a fine of CHF 200, in addition to the cost of the vignette.",
+      "pt": "Conduzir sem vinheta válida em troços sujeitos a portagem é punido com uma multa de 200 CHF, além do custo da própria vinheta."
+    },
+    "image": null
+  },
+  {
+    "id": "q197",
+    "category": "both",
+    "topic": "vignette",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Für welche Fahrzeuge über 3,5 Tonnen Gesamtgewicht gilt anstelle der Vignette eine andere Abgabe?",
+      "es": "¿Qué abono rige, en lugar de la viñeta, para los vehículos de más de 3,5 toneladas de peso total?",
+      "fr": "Quelle redevance s'applique, à la place de la vignette, aux véhicules de plus de 3,5 tonnes de poids total ?",
+      "it": "Quale tassa vale, al posto del contrassegno, per i veicoli con peso totale superiore a 3,5 tonnellate?",
+      "en": "What levy applies instead of the vignette to vehicles over 3.5 tonnes gross weight?",
+      "pt": "Que taxa se aplica, em vez da vinheta, aos veículos com mais de 3,5 toneladas de peso total?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Für sie gilt die leistungsabhängige Schwerverkehrsabgabe (LSVA) statt der Vignette",
+          "es": "Para ellos rige el impuesto sobre el tráfico pesado ligado a las prestaciones (LSVA) en vez de la viñeta",
+          "fr": "Pour eux s'applique la redevance sur le trafic des poids lourds liée aux prestations (RPLP) au lieu de la vignette",
+          "it": "Per essi vale la tassa sul traffico pesante commisurata alle prestazioni (TTPCP) al posto del contrassegno",
+          "en": "They are subject to the performance-related heavy vehicle charge (LSVA) instead of the vignette",
+          "pt": "Para eles aplica-se a taxa sobre o tráfego pesado relacionada com o desempenho (LSVA) em vez da vinheta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Für sie gilt gar keine Abgabepflicht",
+          "es": "Para ellos no rige ninguna obligación de pago",
+          "fr": "Pour eux, aucune redevance n'est due",
+          "it": "Per essi non vale alcun obbligo di pagamento",
+          "en": "No levy applies to them at all",
+          "pt": "Para eles não se aplica qualquer obrigação de pagamento"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie brauchen zusätzlich zur Vignette noch eine zweite Vignette",
+          "es": "Necesitan, además de la viñeta, una segunda viñeta",
+          "fr": "Ils ont besoin, en plus de la vignette, d'une seconde vignette",
+          "it": "Hanno bisogno, oltre al contrassegno, di un secondo contrassegno",
+          "en": "They need a second vignette in addition to the first",
+          "pt": "Precisam, além da vinheta, de uma segunda vinheta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fahrzeuge über 3,5 t Gesamtgewicht unterliegen nicht der Vignettenpflicht, sondern der leistungsabhängigen Schwerverkehrsabgabe (LSVA).",
+      "es": "Los vehículos de más de 3,5 t de peso total no están sujetos a la viñeta, sino al impuesto sobre el tráfico pesado ligado a las prestaciones (LSVA).",
+      "fr": "Les véhicules de plus de 3,5 t de poids total ne sont pas soumis à la vignette, mais à la redevance sur le trafic des poids lourds liée aux prestations (RPLP).",
+      "it": "I veicoli con peso totale superiore a 3,5 t non sono soggetti al contrassegno, bensì alla tassa sul traffico pesante commisurata alle prestazioni (TTPCP).",
+      "en": "Vehicles over 3.5 t gross weight are not subject to the vignette requirement, but to the performance-related heavy vehicle charge (LSVA).",
+      "pt": "Os veículos com mais de 3,5 t de peso total não estão sujeitos à vinheta, mas sim à taxa sobre o tráfego pesado relacionada com o desempenho (LSVA)."
+    },
+    "image": null
+  },
+  {
+    "id": "q198",
+    "category": "both",
+    "topic": "vignette",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie lange ist die Jahresvignette in der Regel gültig?",
+      "es": "¿Cuánto suele durar la validez de la viñeta anual?",
+      "fr": "Combien de temps la vignette annuelle est-elle en général valable ?",
+      "it": "Quanto dura di norma la validità del contrassegno annuale?",
+      "en": "How long is the annual vignette usually valid for?",
+      "pt": "Quanto tempo dura, em regra, a validade da vinheta anual?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Länger als ein Kalenderjahr, üblicherweise vom Dezember des Vorjahres bis Ende Januar des Folgejahres",
+          "es": "Más de un año natural, normalmente de diciembre del año anterior a finales de enero del año siguiente",
+          "fr": "Plus longtemps qu'une année civile, en général de décembre de l'année précédente à fin janvier de l'année suivante",
+          "it": "Più di un anno solare, di norma da dicembre dell'anno precedente a fine gennaio dell'anno successivo",
+          "en": "Longer than one calendar year, usually from December of the previous year to the end of January of the following year",
+          "pt": "Mais do que um ano civil, normalmente de dezembro do ano anterior até ao final de janeiro do ano seguinte"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Genau vom 1. Januar bis 31. Dezember desselben Jahres, ohne Überlappung",
+          "es": "Exactamente del 1 de enero al 31 de diciembre del mismo año, sin solapamiento",
+          "fr": "Exactement du 1er janvier au 31 décembre de la même année, sans chevauchement",
+          "it": "Esattamente dal 1° gennaio al 31 dicembre dello stesso anno, senza sovrapposizione",
+          "en": "Exactly from 1 January to 31 December of the same year, with no overlap",
+          "pt": "Exatamente de 1 de janeiro a 31 de dezembro do mesmo ano, sem sobreposição"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur 30 Tage ab dem Kaufdatum",
+          "es": "Solo 30 días a partir de la fecha de compra",
+          "fr": "Seulement 30 jours à partir de la date d'achat",
+          "it": "Solo 30 giorni dalla data d'acquisto",
+          "en": "Only 30 days from the date of purchase",
+          "pt": "Apenas 30 dias a partir da data de compra"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Jahresvignette gilt über das Kalenderjahr hinaus, typischerweise ab Dezember des Vorjahres bis Ende Januar des Folgejahres – es gibt keine Tages-, Wochen- oder Monatsvignetten.",
+      "es": "La viñeta anual vale más allá del año natural, típicamente desde diciembre del año anterior hasta finales de enero del año siguiente; no existen viñetas de día, semana o mes.",
+      "fr": "La vignette annuelle vaut au-delà de l'année civile, typiquement de décembre de l'année précédente à fin janvier de l'année suivante ; il n'existe pas de vignette journalière, hebdomadaire ou mensuelle.",
+      "it": "Il contrassegno annuale vale oltre l'anno solare, tipicamente da dicembre dell'anno precedente a fine gennaio dell'anno successivo; non esistono contrassegni giornalieri, settimanali o mensili.",
+      "en": "The annual vignette is valid beyond the calendar year, typically from December of the previous year to the end of January of the following year – there are no day, week or month vignettes.",
+      "pt": "A vinheta anual é válida para além do ano civil, tipicamente de dezembro do ano anterior até ao final de janeiro do ano seguinte; não existem vinhetas diárias, semanais ou mensais."
+    },
+    "image": null
+  },
+  {
+    "id": "q199",
+    "category": "both",
+    "topic": "tiertransport",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du transportierst deinen Hund lose im Auto, ohne jede Sicherung. Was gilt?",
+      "es": "Llevas a tu perro suelto en el coche, sin ninguna sujeción. ¿Qué es correcto?",
+      "fr": "Tu transportes ton chien en liberté dans la voiture, sans aucune fixation. Que dit la loi ?",
+      "it": "Trasporti il tuo cane libero in auto, senza alcuna sicurezza. Cosa vale?",
+      "en": "You transport your dog loose in the car, with no restraint at all. What applies?",
+      "pt": "Transportas o teu cão solto no carro, sem qualquer fixação. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das ist unzulässig – Ladung, wozu auch Tiere zählen, muss so gesichert sein, dass sie auch bei einer Vollbremsung niemanden gefährdet",
+          "es": "No está permitido: la carga, incluidos los animales, debe ir sujeta de forma que, incluso en una frenada de emergencia, no ponga en peligro a nadie",
+          "fr": "C'est interdit – le chargement, ce qui inclut les animaux, doit être arrimé de façon à ne mettre personne en danger, même en cas de freinage d'urgence",
+          "it": "Non è consentito – il carico, tra cui rientrano gli animali, deve essere assicurato in modo da non mettere in pericolo nessuno nemmeno in caso di frenata di emergenza",
+          "en": "This is not permitted – cargo, which includes animals, must be secured so that it endangers no one even during an emergency stop",
+          "pt": "Isso não é permitido – a carga, o que inclui animais, tem de estar fixada de forma a não pôr ninguém em perigo mesmo numa travagem de emergência"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das ist erlaubt, solange der Hund auf dem Rücksitz bleibt",
+          "es": "Está permitido, siempre que el perro se quede en el asiento trasero",
+          "fr": "C'est autorisé, tant que le chien reste sur la banquette arrière",
+          "it": "È consentito, purché il cane resti sul sedile posteriore",
+          "en": "This is allowed, as long as the dog stays on the back seat",
+          "pt": "Isso é permitido, desde que o cão fique no banco de trás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das ist nur auf der Autobahn verboten",
+          "es": "Solo está prohibido en autopista",
+          "fr": "C'est seulement interdit sur autoroute",
+          "it": "È vietato solo in autostrada",
+          "en": "This is only forbidden on the motorway",
+          "pt": "Isso só é proibido em autoestrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach Art. 30 Abs. 2 VRV muss Ladung – dazu zählen auch transportierte Tiere – so gesichert sein, dass sie niemanden gefährdet oder behindert, auch bei plötzlichem Bremsen oder Ausweichen.",
+      "es": "Según el art. 30 párr. 2 VRV, la carga —incluidos los animales transportados— debe ir sujeta de modo que no ponga en peligro ni estorbe a nadie, también en caso de frenada o giro brusco.",
+      "fr": "Selon l'art. 30 al. 2 OCR, le chargement – ce qui inclut les animaux transportés – doit être arrimé de façon à ne mettre personne en danger ni le gêner, même en cas de freinage ou d'évitement brusque.",
+      "it": "Secondo l'art. 30 cpv. 2 ONC, il carico – tra cui rientrano gli animali trasportati – deve essere assicurato in modo da non mettere in pericolo né ostacolare nessuno, anche in caso di frenata o sterzata brusca.",
+      "en": "Under Art. 30 para. 2 VRV, cargo – which includes transported animals – must be secured so it does not endanger or obstruct anyone, even during sudden braking or swerving.",
+      "pt": "Segundo o art. 30, n.º 2, VRV, a carga – o que inclui animais transportados – tem de estar fixada de modo a não pôr ninguém em perigo nem o incomodar, mesmo numa travagem ou manobra brusca."
+    },
+    "image": null
+  },
+  {
+    "id": "q200",
+    "category": "both",
+    "topic": "tiertransport",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum ist es gefährlich, einen Hund während der Fahrt frei auf dem Schoss zu transportieren?",
+      "es": "¿Por qué es peligroso llevar a un perro suelto en el regazo durante la conducción?",
+      "fr": "Pourquoi est-il dangereux de transporter un chien en liberté sur les genoux en conduisant ?",
+      "it": "Perché è pericoloso trasportare un cane libero in grembo durante la guida?",
+      "en": "Why is it dangerous to carry a dog loose on your lap while driving?",
+      "pt": "Porque é perigoso transportar um cão solto ao colo durante a condução?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Er lenkt ab und kann bei einem Unfall oder einer Notbremsung zum gefährlichen Geschoss werden",
+          "es": "Distrae y, en un accidente o frenada de emergencia, puede convertirse en un proyectil peligroso",
+          "fr": "Il distrait et peut devenir un projectile dangereux lors d'un accident ou d'un freinage d'urgence",
+          "it": "Distrae e in caso di incidente o frenata di emergenza può diventare un proiettile pericoloso",
+          "en": "It is distracting and can become a dangerous projectile in a crash or emergency stop",
+          "pt": "Distrai e, num acidente ou travagem de emergência, pode transformar-se num projétil perigoso"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das ist überhaupt nicht gefährlich, solange der Hund ruhig bleibt",
+          "es": "No es en absoluto peligroso, siempre que el perro se quede quieto",
+          "fr": "Ce n'est absolument pas dangereux, tant que le chien reste calme",
+          "it": "Non è affatto pericoloso, purché il cane resti tranquillo",
+          "en": "It is not dangerous at all, as long as the dog stays calm",
+          "pt": "Não é nada perigoso, desde que o cão se mantenha calmo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Gefährlich ist es nur bei grossen Hunden, kleine Hunde sind unproblematisch",
+          "es": "Solo es peligroso con perros grandes, con los pequeños no hay problema",
+          "fr": "C'est dangereux seulement pour les grands chiens, les petits ne posent pas de problème",
+          "it": "È pericoloso solo con i cani grandi, quelli piccoli non creano problemi",
+          "en": "It is only dangerous with big dogs, small dogs are not a problem",
+          "pt": "Só é perigoso com cães grandes, os pequenos não são problema"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein ungesichertes Tier lenkt ab und wird bei einer Kollision durch die Wucht zum gefährlichen Geschoss – unabhängig von seiner Grösse, und es kann zudem die Bedienung des Fahrzeugs behindern.",
+      "es": "Un animal sin sujetar distrae y, en una colisión, la fuerza del impacto lo convierte en un proyectil peligroso, sea cual sea su tamaño; además puede estorbar el manejo del vehículo.",
+      "fr": "Un animal non attaché distrait et, lors d'une collision, la force de l'impact en fait un projectile dangereux, quelle que soit sa taille ; il peut aussi gêner la conduite du véhicule.",
+      "it": "Un animale non assicurato distrae e, in una collisione, la forza dell'impatto lo trasforma in un proiettile pericoloso, indipendentemente dalla sua taglia; può inoltre ostacolare la guida del veicolo.",
+      "en": "An unsecured animal is distracting and, in a collision, the force of impact turns it into a dangerous projectile regardless of its size, and it can also interfere with operating the vehicle.",
+      "pt": "Um animal não fixado distrai e, numa colisão, a força do impacto transforma-o num projétil perigoso, seja qual for o seu tamanho, podendo ainda atrapalhar a condução do veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q201",
+    "category": "both",
+    "topic": "tiertransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was verlangt die Tierschutzverordnung zusätzlich zu den verkehrsrechtlichen Vorschriften beim Tiertransport im Auto?",
+      "es": "¿Qué exige la ordenanza de protección animal, además de las normas de circulación, al transportar animales en coche?",
+      "fr": "Qu'exige l'ordonnance sur la protection des animaux, en plus des règles de circulation, pour le transport d'animaux en voiture ?",
+      "it": "Cosa richiede l'ordinanza sulla protezione degli animali, oltre alle norme sulla circolazione, nel trasporto di animali in auto?",
+      "en": "What does the animal welfare ordinance require, in addition to traffic law, when transporting animals by car?",
+      "pt": "O que exige o regulamento de proteção animal, além das normas de trânsito, no transporte de animais de carro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dass das Tier ausreichend Platz hat, vor Witterung geschützt wird und bei längeren Fahrten Pausen eingelegt werden",
+          "es": "Que el animal tenga espacio suficiente, esté protegido de las inclemencias del tiempo y se hagan pausas en trayectos largos",
+          "fr": "Que l'animal ait assez de place, soit protégé des intempéries et que des pauses soient prévues lors de longs trajets",
+          "it": "Che l'animale abbia spazio sufficiente, sia protetto dalle intemperie e si facciano pause nei tragitti lunghi",
+          "en": "That the animal has enough space, is protected from the weather, and breaks are taken on longer journeys",
+          "pt": "Que o animal tenha espaço suficiente, esteja protegido das intempéries e se façam pausas em viagens longas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, die Tierschutzverordnung betrifft nur den gewerblichen Transport",
+          "es": "Nada, la ordenanza de protección animal solo afecta al transporte comercial",
+          "fr": "Rien, l'ordonnance sur la protection des animaux ne concerne que le transport commercial",
+          "it": "Niente, l'ordinanza sulla protezione degli animali riguarda solo il trasporto commerciale",
+          "en": "Nothing, the animal welfare ordinance only applies to commercial transport",
+          "pt": "Nada, o regulamento de proteção animal só se aplica ao transporte comercial"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Dass das Tier während der ganzen Fahrt schlafen muss",
+          "es": "Que el animal debe dormir durante todo el trayecto",
+          "fr": "Que l'animal doit dormir pendant tout le trajet",
+          "it": "Che l'animale deve dormire per tutto il tragitto",
+          "en": "That the animal must sleep for the entire journey",
+          "pt": "Que o animal tem de dormir durante toda a viagem"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Tierschutzverordnung gilt auch im privaten Bereich: Tiere dürfen beim Transport nicht verletzt, geängstigt oder unnötig belastet werden – ausreichend Platz, Schutz vor Witterung und Pausen gehören dazu.",
+      "es": "La ordenanza de protección animal rige también en el ámbito privado: los animales no deben resultar heridos, asustados ni sometidos a cargas innecesarias durante el transporte; esto incluye espacio suficiente, protección frente al clima y pausas.",
+      "fr": "L'ordonnance sur la protection des animaux s'applique aussi dans le cadre privé : les animaux ne doivent pas être blessés, effrayés ou soumis à des contraintes inutiles pendant le transport – cela inclut assez de place, une protection contre les intempéries et des pauses.",
+      "it": "L'ordinanza sulla protezione degli animali vale anche in ambito privato: gli animali non devono essere feriti, spaventati o sottoposti a stress inutile durante il trasporto – ciò include spazio sufficiente, protezione dalle intemperie e pause.",
+      "en": "The animal welfare ordinance also applies in the private sphere: animals must not be injured, frightened or unnecessarily stressed during transport – this includes enough space, protection from the weather and breaks.",
+      "pt": "O regulamento de proteção animal aplica-se também no âmbito privado: os animais não podem ser feridos, assustados ou sujeitos a stress desnecessário durante o transporte – isto inclui espaço suficiente, proteção contra as intempéries e pausas."
+    },
+    "image": null
+  },
+  {
+    "id": "q202",
+    "category": "both",
+    "topic": "tiertransport",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du musst kurz anhalten und das Auto mit deinem Hund darin in der prallen Sonne parkieren. Worauf musst du achten?",
+      "es": "Tienes que parar un momento y aparcar el coche con tu perro dentro a pleno sol. ¿A qué debes prestar atención?",
+      "fr": "Tu dois t'arrêter un instant et garer la voiture avec ton chien dedans en plein soleil. À quoi dois-tu faire attention ?",
+      "it": "Devi fermarti un attimo e parcheggiare l'auto con il tuo cane dentro sotto il sole pieno. A cosa devi prestare attenzione?",
+      "en": "You need to stop briefly and park the car with your dog inside in full sun. What must you pay attention to?",
+      "pt": "Tens de parar por instantes e estacionar o carro com o teu cão lá dentro ao sol forte. A que deves prestar atenção?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Innentemperatur kann in kurzer Zeit lebensgefährlich ansteigen – im Zweifel den Hund nicht allein im Auto lassen",
+          "es": "La temperatura interior puede subir a niveles mortales en poco tiempo; en caso de duda, no dejes al perro solo en el coche",
+          "fr": "La température intérieure peut monter à un niveau mortel en peu de temps – en cas de doute, ne laisse pas le chien seul dans la voiture",
+          "it": "La temperatura interna può salire a livelli letali in poco tempo – in caso di dubbio, non lasciare il cane da solo in auto",
+          "en": "The interior temperature can rise to life-threatening levels within minutes – when in doubt, do not leave the dog alone in the car",
+          "pt": "A temperatura interior pode subir a níveis mortais em pouco tempo – em caso de dúvida, não deixes o cão sozinho no carro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das ist unproblematisch, solange ein Fenster einen Spalt offen ist",
+          "es": "No hay ningún problema, siempre que dejes una ventanilla entreabierta",
+          "fr": "Ce n'est pas un problème, tant qu'une fenêtre reste entrouverte",
+          "it": "Non è un problema, purché un finestrino resti socchiuso",
+          "en": "That is not a problem, as long as a window is left slightly open",
+          "pt": "Não há problema, desde que uma janela fique entreaberta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das ist nur bei Aussentemperaturen über 35 °C ein Problem",
+          "es": "Solo es un problema si la temperatura exterior supera los 35 °C",
+          "fr": "Ce n'est un problème qu'à des températures extérieures supérieures à 35 °C",
+          "it": "È un problema solo con temperature esterne oltre i 35 °C",
+          "en": "It is only a problem when outside temperatures exceed 35 °C",
+          "pt": "Só é um problema com temperaturas exteriores acima de 35 °C"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Temperatur im Fahrzeuginnern steigt auch bei mässigen Aussentemperaturen und leicht geöffnetem Fenster rasch stark an – ein zurückgelassenes Tier ist ein ernstzunehmendes Risiko und kann tierschutzrechtlich relevant werden.",
+      "es": "La temperatura dentro del vehículo sube con rapidez incluso con temperaturas exteriores moderadas y una ventanilla algo abierta; dejar a un animal solo es un riesgo real y puede tener consecuencias legales de protección animal.",
+      "fr": "La température à l'intérieur du véhicule monte rapidement même par des températures extérieures modérées et une fenêtre légèrement ouverte – un animal laissé seul est un risque réel et peut avoir des conséquences légales au titre de la protection des animaux.",
+      "it": "La temperatura all'interno del veicolo sale rapidamente anche con temperature esterne moderate e un finestrino leggermente aperto – un animale lasciato solo è un rischio concreto e può avere conseguenze legali per la protezione degli animali.",
+      "en": "The temperature inside a vehicle rises quickly even at moderate outside temperatures with a window slightly open – an animal left behind is a serious risk and can have animal-welfare legal consequences.",
+      "pt": "A temperatura dentro do veículo sobe rapidamente mesmo com temperaturas exteriores moderadas e uma janela ligeiramente aberta – um animal deixado sozinho é um risco real e pode ter consequências legais de proteção animal."
+    },
+    "image": null
+  },
+  {
+    "id": "q203",
+    "category": "both",
+    "topic": "fussgaenger_ausserhalb",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Fussgänger überquert die Strasse 20 m neben einem Fussgängerstreifen, obwohl kein Streifen näher als 50 m entfernt ist. Wie verhält es sich mit dem Vortritt?",
+      "es": "Un peatón cruza la calle 20 m al lado de un paso de peatones, aunque ningún paso está a menos de 50 m. ¿Cómo queda la prioridad?",
+      "fr": "Un piéton traverse la route à 20 m d'un passage pour piétons, alors qu'aucun passage n'est à moins de 50 m. Qu'en est-il de la priorité ?",
+      "it": "Un pedone attraversa la strada a 20 m da un passaggio pedonale, mentre nessun passaggio è a meno di 50 m. Come funziona la precedenza?",
+      "en": "A pedestrian crosses the road 20 m from a crosswalk, when no crosswalk is closer than 50 m. What about right of way?",
+      "pt": "Um peão atravessa a rua a 20 m de uma passadeira, não havendo nenhuma a menos de 50 m. Como fica a prioridade?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Fussgänger hat hier keinen Vortritt – er muss den Fahrzeugen den Vortritt lassen",
+          "es": "El peatón no tiene aquí prioridad: debe ceder el paso a los vehículos",
+          "fr": "Le piéton n'a ici aucune priorité – il doit céder le passage aux véhicules",
+          "it": "Il pedone qui non ha la precedenza – deve dare la precedenza ai veicoli",
+          "en": "The pedestrian has no right of way here – they must yield to vehicles",
+          "pt": "O peão não tem aqui prioridade – tem de ceder o passo aos veículos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Er hat trotzdem immer Vortritt, wie auf einem Fussgängerstreifen",
+          "es": "Aun así siempre tiene prioridad, como en un paso de peatones",
+          "fr": "Il a quand même toujours la priorité, comme sur un passage pour piétons",
+          "it": "Ha comunque sempre la precedenza, come su un passaggio pedonale",
+          "en": "They still always have right of way, as on a crosswalk",
+          "pt": "Mesmo assim tem sempre prioridade, como numa passadeira"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Vortritt hat, wer zuerst da war",
+          "es": "Tiene prioridad quien llegó primero",
+          "fr": "A la priorité celui qui est arrivé le premier",
+          "it": "Ha la precedenza chi è arrivato prima",
+          "en": "Right of way goes to whoever arrived first",
+          "pt": "Tem prioridade quem chegou primeiro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ausserhalb eines Fussgängerstreifens haben Fussgänger keinen automatischen Vortritt; sie müssen sich vorsichtig verhalten und den Fahrzeugen den Vortritt lassen.",
+      "es": "Fuera de un paso de peatones, los peatones no tienen prioridad automática; deben actuar con precaución y ceder el paso a los vehículos.",
+      "fr": "En dehors d'un passage pour piétons, les piétons n'ont pas de priorité automatique ; ils doivent se comporter prudemment et céder le passage aux véhicules.",
+      "it": "Fuori da un passaggio pedonale, i pedoni non hanno la precedenza automatica; devono comportarsi con prudenza e dare la precedenza ai veicoli.",
+      "en": "Outside a crosswalk, pedestrians do not have automatic right of way; they must behave cautiously and give way to vehicles.",
+      "pt": "Fora de uma passadeira, os peões não têm prioridade automática; devem comportar-se com prudência e ceder o passo aos veículos."
+    },
+    "image": null
+  },
+  {
+    "id": "q204",
+    "category": "both",
+    "topic": "fussgaenger_ausserhalb",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Ab welcher Entfernung zu einem Fussgängerstreifen müssen Fussgänger diesen grundsätzlich benutzen, um die Strasse zu überqueren?",
+      "es": "¿A partir de qué distancia a un paso de peatones deben los peatones usarlo en principio para cruzar?",
+      "fr": "À partir de quelle distance d'un passage pour piétons les piétons doivent-ils en principe l'utiliser pour traverser ?",
+      "it": "A partire da quale distanza da un passaggio pedonale i pedoni devono in linea di massima utilizzarlo per attraversare?",
+      "en": "From what distance to a crosswalk must pedestrians generally use it to cross the road?",
+      "pt": "A partir de que distância de uma passadeira os peões devem, em princípio, usá-la para atravessar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Wenn der Streifen weniger als 50 m entfernt ist",
+          "es": "Cuando el paso está a menos de 50 m",
+          "fr": "Lorsque le passage est à moins de 50 m",
+          "it": "Quando il passaggio è a meno di 50 m",
+          "en": "When the crosswalk is less than 50 m away",
+          "pt": "Quando a passadeira está a menos de 50 m"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Wenn der Streifen weniger als 10 m entfernt ist",
+          "es": "Cuando el paso está a menos de 10 m",
+          "fr": "Lorsque le passage est à moins de 10 m",
+          "it": "Quando il passaggio è a meno di 10 m",
+          "en": "When the crosswalk is less than 10 m away",
+          "pt": "Quando a passadeira está a menos de 10 m"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Diese Pflicht gibt es nicht, Fussgänger dürfen frei wählen",
+          "es": "Esa obligación no existe, los peatones eligen libremente",
+          "fr": "Cette obligation n'existe pas, les piétons choisissent librement",
+          "it": "Questo obbligo non esiste, i pedoni scelgono liberamente",
+          "en": "There is no such requirement, pedestrians may choose freely",
+          "pt": "Essa obrigação não existe, os peões escolhem livremente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fussgänger müssen einen Fussgängerstreifen (oder eine Über-/Unterführung) benutzen, wenn dieser weniger als 50 m entfernt ist.",
+      "es": "Los peatones deben utilizar un paso de peatones (o un paso elevado/subterráneo) si está a menos de 50 m.",
+      "fr": "Les piétons doivent emprunter un passage pour piétons (ou un passage supérieur/souterrain) s'il est à moins de 50 m.",
+      "it": "I pedoni devono utilizzare un passaggio pedonale (o un sovrappasso/sottopasso) se si trova a meno di 50 m.",
+      "en": "Pedestrians must use a crosswalk (or an over/underpass) if it is less than 50 m away.",
+      "pt": "Os peões devem usar uma passadeira (ou uma passagem superior/inferior) se esta estiver a menos de 50 m."
+    },
+    "image": null
+  },
+  {
+    "id": "q205",
+    "category": "both",
+    "topic": "fussgaenger_ausserhalb",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Fussgänger tritt ausserhalb eines Streifens unvorsichtig auf die Fahrbahn. Entbindet dich das als Fahrzeugführer von jeder Sorgfaltspflicht?",
+      "es": "Un peatón pisa la calzada de forma imprudente fuera de un paso. ¿Eso te exime como conductor de todo deber de diligencia?",
+      "fr": "Un piéton s'engage imprudemment sur la chaussée en dehors d'un passage. Cela te dispense-t-il, en tant que conducteur, de tout devoir de prudence ?",
+      "it": "Un pedone entra imprudentemente in carreggiata fuori da un passaggio. Questo ti esonera, come conducente, da ogni obbligo di diligenza?",
+      "en": "A pedestrian steps carelessly onto the road outside a crosswalk. Does that free you, as the driver, from any duty of care?",
+      "pt": "Um peão pisa imprudentemente a faixa de rodagem fora de uma passadeira. Isso isenta-te, como condutor, de qualquer dever de diligência?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein – auch ohne Vortrittspflicht musst du dich stets vorsichtig verhalten und auf Fussgänger reagieren können",
+          "es": "No: aunque no tengas obligación de ceder el paso, siempre debes conducir con precaución y poder reaccionar ante peatones",
+          "fr": "Non – même sans obligation de priorité, tu dois toujours te comporter prudemment et pouvoir réagir face aux piétons",
+          "it": "No – anche senza obbligo di precedenza, devi comunque comportarti con prudenza e poter reagire ai pedoni",
+          "en": "No – even without a duty to yield, you must always drive carefully and be able to react to pedestrians",
+          "pt": "Não – mesmo sem dever de ceder prioridade, tens sempre de conduzir com prudência e conseguir reagir a peões"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, ausserhalb des Streifens trägst du keinerlei Verantwortung mehr",
+          "es": "Sí, fuera del paso ya no tienes ninguna responsabilidad",
+          "fr": "Oui, en dehors du passage tu n'as plus aucune responsabilité",
+          "it": "Sì, fuori dal passaggio non hai più alcuna responsabilità",
+          "en": "Yes, outside the crosswalk you have no responsibility at all",
+          "pt": "Sim, fora da passadeira já não tens qualquer responsabilidade"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur bei Tageslicht",
+          "es": "Sí, pero solo de día",
+          "fr": "Oui, mais seulement de jour",
+          "it": "Sì, ma solo di giorno",
+          "en": "Yes, but only in daylight",
+          "pt": "Sim, mas só de dia"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fehlender Vortritt bedeutet nicht fehlende Sorgfaltspflicht: Du musst jederzeit bremsbereit sein und auf das Verhalten von Fussgängern reagieren können, auch ausserhalb von Fussgängerstreifen.",
+      "es": "No tener prioridad no significa no tener deber de diligencia: siempre debes estar listo para frenar y reaccionar ante el comportamiento de los peatones, también fuera de un paso de peatones.",
+      "fr": "L'absence de priorité ne signifie pas l'absence de devoir de prudence : tu dois toujours être prêt à freiner et réagir au comportement des piétons, même en dehors des passages pour piétons.",
+      "it": "La mancanza di precedenza non significa mancanza di obbligo di diligenza: devi sempre essere pronto a frenare e reagire al comportamento dei pedoni, anche fuori dai passaggi pedonali.",
+      "en": "Lack of right of way does not mean a lack of duty of care: you must always be ready to brake and react to pedestrians' behaviour, even outside crosswalks.",
+      "pt": "A falta de prioridade não significa falta de dever de diligência: tens sempre de estar pronto para travar e reagir ao comportamento dos peões, mesmo fora das passadeiras."
+    },
+    "image": null
+  },
+  {
+    "id": "q206",
+    "category": "both",
+    "topic": "fussgaenger_ausserhalb",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie sollen Fussgänger die Fahrbahn ausserhalb eines Streifens überqueren?",
+      "es": "¿Cómo deben cruzar los peatones la calzada fuera de un paso de peatones?",
+      "fr": "Comment les piétons doivent-ils traverser la chaussée en dehors d'un passage ?",
+      "it": "Come devono attraversare la carreggiata i pedoni fuori da un passaggio pedonale?",
+      "en": "How should pedestrians cross the road outside a crosswalk?",
+      "pt": "Como devem os peões atravessar a faixa de rodagem fora de uma passadeira?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Behutsam auf die Fahrbahn treten und sie zügig, ohne Verzögerung überqueren",
+          "es": "Pisar la calzada con cuidado y cruzarla con rapidez, sin demora",
+          "fr": "S'engager prudemment sur la chaussée et la traverser rapidement, sans délai",
+          "it": "Entrare con cautela in carreggiata e attraversarla speditamente, senza indugi",
+          "en": "Step onto the road carefully and cross it promptly, without delay",
+          "pt": "Pisar a faixa de rodagem com cuidado e atravessá-la depressa, sem demora"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "In aller Ruhe, ohne auf den Verkehr zu achten",
+          "es": "Con toda calma, sin prestar atención al tráfico",
+          "fr": "Tranquillement, sans faire attention à la circulation",
+          "it": "Con tutta calma, senza badare al traffico",
+          "en": "Calmly, without paying attention to traffic",
+          "pt": "Com toda a calma, sem prestar atenção ao trânsito"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur rückwärtsgehend, um den Verkehr besser im Blick zu behalten",
+          "es": "Solo caminando de espaldas, para vigilar mejor el tráfico",
+          "fr": "Uniquement à reculons, pour mieux surveiller la circulation",
+          "it": "Solo camminando all'indietro, per tenere meglio d'occhio il traffico",
+          "en": "Only walking backwards, to keep a better eye on traffic",
+          "pt": "Só andando de costas, para vigiar melhor o trânsito"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fussgänger müssen ausserhalb eines Streifens vorsichtig auf die Fahrbahn treten und sie ohne unnötige Verzögerung überqueren, um sich und andere nicht zu gefährden.",
+      "es": "Fuera de un paso, los peatones deben pisar la calzada con precaución y cruzarla sin demoras innecesarias, para no ponerse en peligro ni a los demás.",
+      "fr": "En dehors d'un passage, les piétons doivent s'engager prudemment sur la chaussée et la traverser sans délai inutile, pour ne pas se mettre en danger ni mettre autrui en danger.",
+      "it": "Fuori da un passaggio, i pedoni devono entrare con prudenza in carreggiata e attraversarla senza indugi inutili, per non mettere in pericolo sé stessi e gli altri.",
+      "en": "Outside a crosswalk, pedestrians must step onto the road carefully and cross without unnecessary delay, so as not to endanger themselves or others.",
+      "pt": "Fora de uma passadeira, os peões devem pisar a faixa de rodagem com precaução e atravessá-la sem demoras desnecessárias, para não se porem em perigo nem porem os outros."
+    },
+    "image": null
+  },
+  {
+    "id": "q207",
+    "category": "both",
+    "topic": "blinklicht",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "An einer Kreuzung blinkt die Ampel gelb, ohne dass Rot oder Grün erscheint. Was bedeutet das?",
+      "es": "En un cruce, el semáforo parpadea en amarillo, sin mostrar rojo ni verde. ¿Qué significa?",
+      "fr": "À un carrefour, le feu clignote en jaune, sans afficher de rouge ni de vert. Que cela signifie-t-il ?",
+      "it": "A un incrocio il semaforo lampeggia giallo, senza mostrare rosso o verde. Cosa significa?",
+      "en": "At a junction the traffic light flashes yellow, without showing red or green. What does that mean?",
+      "pt": "Num cruzamento, o semáforo pisca a amarelo, sem mostrar vermelho nem verde. O que significa isto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Ampel regelt den Vortritt nicht – es gelten die vorhandene Signalisation bzw. der Rechtsvortritt, besondere Vorsicht ist geboten",
+          "es": "El semáforo no regula la prioridad; rige la señalización existente o la prioridad de la derecha, y hay que extremar la precaución",
+          "fr": "Le feu ne règle pas la priorité – la signalisation existante ou la priorité de droite s'applique, une prudence particulière est de mise",
+          "it": "Il semaforo non regola la precedenza – valgono la segnaletica esistente o la precedenza da destra, serve particolare prudenza",
+          "en": "The light does not regulate right of way – the existing signage or priority to the right applies, and special caution is required",
+          "pt": "O semáforo não regula a prioridade – aplica-se a sinalização existente ou a prioridade à direita, sendo exigida especial prudência"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gelbes Blinklicht bedeutet generelles Halteverbot für alle Richtungen",
+          "es": "El amarillo intermitente significa prohibición total de detenerse en todas las direcciones",
+          "fr": "Le jaune clignotant signifie une interdiction générale de s'arrêter pour toutes les directions",
+          "it": "Il giallo lampeggiante significa divieto generale di fermarsi in tutte le direzioni",
+          "en": "Flashing yellow means a general no-stopping rule for all directions",
+          "pt": "O amarelo intermitente significa proibição geral de parar em todas as direções"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Gelbes Blinklicht hat die gleiche Bedeutung wie Rotlicht",
+          "es": "El amarillo intermitente equivale al semáforo en rojo",
+          "fr": "Le jaune clignotant a la même signification que le rouge",
+          "it": "Il giallo lampeggiante ha lo stesso significato del rosso",
+          "en": "Flashing yellow has the same meaning as a red light",
+          "pt": "O amarelo intermitente tem o mesmo significado do vermelho"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das gelbe Blinklicht (Art. 70 Abs. 1 SSV) zeigt an, dass die Lichtsignalanlage den Vortritt nicht regelt; massgebend sind die übrige Signalisation oder der Rechtsvortritt – erhöhte Vorsicht ist geboten.",
+      "es": "El amarillo intermitente (art. 70 párr. 1 SSV) indica que el semáforo no regula la prioridad; rige la señalización restante o la prioridad de la derecha, y se requiere mayor precaución.",
+      "fr": "Le jaune clignotant (art. 70 al. 1 OSR) indique que le feu ne règle pas la priorité ; c'est la signalisation restante ou la priorité de droite qui fait foi – une prudence accrue est de mise.",
+      "it": "Il giallo lampeggiante (art. 70 cpv. 1 OSStr) indica che l'impianto semaforico non regola la precedenza; fa fede la restante segnaletica o la precedenza da destra – serve maggiore prudenza.",
+      "en": "The flashing yellow light (Art. 70 para. 1 SSV) indicates that the traffic light does not regulate right of way; the remaining signage or priority to the right applies – increased caution is required.",
+      "pt": "O amarelo intermitente (art. 70, n.º 1, SSV) indica que o semáforo não regula a prioridade; aplica-se a restante sinalização ou a prioridade à direita – é exigida maior prudência."
+    },
+    "image": null
+  },
+  {
+    "id": "q208",
+    "category": "both",
+    "topic": "blinklicht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum wird gelbes Blinklicht an einer Kreuzung eingesetzt, zum Beispiel nachts?",
+      "es": "¿Por qué se usa el amarillo intermitente en un cruce, por ejemplo de noche?",
+      "fr": "Pourquoi utilise-t-on le jaune clignotant à un carrefour, par exemple la nuit ?",
+      "it": "Perché si usa il giallo lampeggiante a un incrocio, ad esempio di notte?",
+      "en": "Why is flashing yellow used at a junction, for example at night?",
+      "pt": "Porque se usa o amarelo intermitente num cruzamento, por exemplo à noite?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Um bei geringem Verkehrsaufkommen auf eine volle Ampelsteuerung zu verzichten und trotzdem vor der Kreuzung zu warnen",
+          "es": "Para prescindir del ciclo completo del semáforo cuando hay poco tráfico y aun así avisar del cruce",
+          "fr": "Pour se passer d'une régulation complète par feux en cas de faible trafic tout en signalant le carrefour",
+          "it": "Per rinunciare a un ciclo semaforico completo con poco traffico e comunque segnalare l'incrocio",
+          "en": "To skip full traffic-light control when traffic is light, while still warning of the junction",
+          "pt": "Para dispensar o ciclo completo do semáforo quando há pouco trânsito, avisando ainda assim do cruzamento"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Um anzuzeigen, dass die Kreuzung für den gesamten Verkehr gesperrt ist",
+          "es": "Para indicar que el cruce está cerrado a todo el tráfico",
+          "fr": "Pour indiquer que le carrefour est fermé à toute circulation",
+          "it": "Per indicare che l'incrocio è chiuso a tutto il traffico",
+          "en": "To indicate that the junction is closed to all traffic",
+          "pt": "Para indicar que o cruzamento está fechado a todo o trânsito"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil die Ampel defekt ist und sofort repariert werden muss",
+          "es": "Porque el semáforo está averiado y hay que repararlo de inmediato",
+          "fr": "Parce que le feu est en panne et doit être réparé immédiatement",
+          "it": "Perché il semaforo è guasto e va riparato subito",
+          "en": "Because the traffic light is broken and needs immediate repair",
+          "pt": "Porque o semáforo está avariado e precisa de reparação imediata"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbes Blinklicht wird oft nachts oder bei wenig Verkehr eingesetzt, um die Kreuzung als Gefahrenstelle zu kennzeichnen, ohne den vollen Ampelzyklus zu betreiben.",
+      "es": "El amarillo intermitente se usa a menudo de noche o con poco tráfico para señalar el cruce como punto de peligro, sin necesidad de un ciclo completo de semáforo.",
+      "fr": "Le jaune clignotant est souvent utilisé la nuit ou en cas de faible trafic pour signaler le carrefour comme un point dangereux, sans faire fonctionner le cycle complet du feu.",
+      "it": "Il giallo lampeggiante viene spesso usato di notte o con poco traffico per segnalare l'incrocio come punto pericoloso, senza far funzionare l'intero ciclo semaforico.",
+      "en": "Flashing yellow is often used at night or in light traffic to mark the junction as a hazard, without running the full traffic-light cycle.",
+      "pt": "O amarelo intermitente é muitas vezes usado à noite ou com pouco trânsito para assinalar o cruzamento como ponto de perigo, sem fazer funcionar o ciclo completo do semáforo."
+    },
+    "image": null
+  },
+  {
+    "id": "q209",
+    "category": "both",
+    "topic": "blinklicht",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein grüner Rechtsabbiegepfeil leuchtet zusammen mit gelbem Blinklicht. Wem musst du beim Rechtsabbiegen den Vortritt gewähren?",
+      "es": "Se enciende una flecha verde para girar a la derecha junto con el amarillo intermitente. ¿A quién debes ceder el paso al girar?",
+      "fr": "Une flèche verte pour tourner à droite s'allume avec le jaune clignotant. À qui dois-tu céder la priorité en tournant à droite ?",
+      "it": "Una freccia verde per svoltare a destra è accesa insieme al giallo lampeggiante. A chi devi dare la precedenza svoltando a destra?",
+      "en": "A green right-turn arrow lights up together with flashing yellow. Who must you give way to when turning right?",
+      "pt": "Uma seta verde para virar à direita acende-se junto com o amarelo intermitente. A quem tens de ceder o passo ao virar à direita?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fussgängern, die die Querstrasse auf dem Fussgängerstreifen überqueren",
+          "es": "A los peatones que cruzan la calle transversal por el paso de peatones",
+          "fr": "Aux piétons qui traversent la rue transversale sur le passage pour piétons",
+          "it": "Ai pedoni che attraversano la strada trasversale sul passaggio pedonale",
+          "en": "Pedestrians crossing the side street on the crosswalk",
+          "pt": "Aos peões que atravessam a rua transversal na passadeira"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Niemandem, der Grünpfeil hat immer absoluten Vortritt",
+          "es": "A nadie, la flecha verde siempre tiene prioridad absoluta",
+          "fr": "À personne, la flèche verte a toujours la priorité absolue",
+          "it": "A nessuno, la freccia verde ha sempre la precedenza assoluta",
+          "en": "No one – the green arrow always has absolute priority",
+          "pt": "A ninguém, a seta verde tem sempre prioridade absoluta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur anderen Fahrzeugen, Fussgänger spielen dabei keine Rolle",
+          "es": "Solo a otros vehículos, los peatones no cuentan aquí",
+          "fr": "Seulement aux autres véhicules, les piétons ne comptent pas ici",
+          "it": "Solo agli altri veicoli, i pedoni qui non contano",
+          "en": "Only to other vehicles, pedestrians do not matter here",
+          "pt": "Só a outros veículos, os peões não contam aqui"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Rechtsabbiegen mit grünem Pfeil und gelbem Blinklicht muss den Fussgängern, die die Querstrasse auf dem Fussgängerstreifen überqueren, der Vortritt gewährt werden.",
+      "es": "Al girar a la derecha con flecha verde y amarillo intermitente, hay que ceder el paso a los peatones que cruzan la calle transversal por el paso de peatones.",
+      "fr": "En tournant à droite avec flèche verte et jaune clignotant, il faut céder la priorité aux piétons qui traversent la rue transversale sur le passage pour piétons.",
+      "it": "Svoltando a destra con freccia verde e giallo lampeggiante, va data la precedenza ai pedoni che attraversano la strada trasversale sul passaggio pedonale.",
+      "en": "When turning right with a green arrow and flashing yellow, you must give way to pedestrians crossing the side street on the crosswalk.",
+      "pt": "Ao virar à direita com seta verde e amarelo intermitente, tem de se ceder o passo aos peões que atravessam a rua transversal na passadeira."
+    },
+    "image": null
+  },
+  {
+    "id": "q210",
+    "category": "both",
+    "topic": "blinklicht",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Grundhaltung ist bei gelbem Blinklicht an einer Kreuzung generell richtig?",
+      "es": "¿Qué actitud básica es correcta, en general, ante el amarillo intermitente en un cruce?",
+      "fr": "Quelle attitude de base est en général correcte face à un feu jaune clignotant à un carrefour ?",
+      "it": "Quale atteggiamento di base è in generale corretto davanti al giallo lampeggiante a un incrocio?",
+      "en": "What basic approach is generally correct at flashing yellow at a junction?",
+      "pt": "Qual é a atitude básica geralmente correta perante o amarelo intermitente num cruzamento?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Tempo reduzieren und mit erhöhter Aufmerksamkeit an die Kreuzung heranfahren",
+          "es": "Reducir la velocidad y acercarse al cruce con mayor atención",
+          "fr": "Réduire la vitesse et aborder le carrefour avec une attention accrue",
+          "it": "Ridurre la velocità e avvicinarsi all'incrocio con maggiore attenzione",
+          "en": "Reduce speed and approach the junction with heightened attention",
+          "pt": "Reduzir a velocidade e aproximar-se do cruzamento com atenção redobrada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Normal weiterfahren wie bei einer grün leuchtenden Ampel",
+          "es": "Seguir con normalidad como con un semáforo en verde",
+          "fr": "Continuer normalement comme avec un feu vert",
+          "it": "Proseguire normalmente come con un semaforo verde",
+          "en": "Keep driving normally as with a green light",
+          "pt": "Continuar normalmente como com um semáforo verde"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Vollständig anhalten, auch wenn die Vortrittsregel dies nicht verlangt",
+          "es": "Detenerse por completo, aunque la regla de prioridad no lo exija",
+          "fr": "S'arrêter complètement, même si la règle de priorité ne l'exige pas",
+          "it": "Fermarsi completamente, anche se la regola di precedenza non lo richiede",
+          "en": "Come to a complete stop, even if the priority rule does not require it",
+          "pt": "Parar completamente, mesmo que a regra de prioridade não o exija"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbes Blinklicht ersetzt keine feste Vortrittsregelung durch die Ampel – deshalb ist besondere Vorsicht und reduziertes Tempo beim Herannahen an die Kreuzung angebracht.",
+      "es": "El amarillo intermitente no sustituye una regulación fija de prioridad por semáforo, por eso conviene extremar la precaución y reducir la velocidad al acercarse al cruce.",
+      "fr": "Le jaune clignotant ne remplace pas une régulation fixe de la priorité par le feu – une prudence particulière et une vitesse réduite sont donc de mise en abordant le carrefour.",
+      "it": "Il giallo lampeggiante non sostituisce una regolazione fissa della precedenza tramite semaforo – per questo serve particolare prudenza e velocità ridotta avvicinandosi all'incrocio.",
+      "en": "Flashing yellow does not replace a fixed right-of-way rule via the traffic light – so special caution and reduced speed are appropriate when approaching the junction.",
+      "pt": "O amarelo intermitente não substitui uma regulação fixa da prioridade pelo semáforo – por isso é adequada especial prudência e velocidade reduzida ao aproximar-se do cruzamento."
+    },
+    "image": null
+  },
+  {
+    "id": "q211",
+    "category": "both",
+    "topic": "mindesttempo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Mindestgeschwindigkeit muss dein Fahrzeug technisch erreichen können, um überhaupt auf die Autobahn zu dürfen?",
+      "es": "¿Qué velocidad mínima debe poder alcanzar técnicamente tu vehículo para poder circular por autopista?",
+      "fr": "Quelle vitesse minimale ton véhicule doit-il pouvoir atteindre techniquement pour avoir le droit de circuler sur autoroute ?",
+      "it": "Quale velocità minima deve poter raggiungere tecnicamente il tuo veicolo per poter circolare in autostrada?",
+      "en": "What minimum speed must your vehicle be technically capable of to be allowed on the motorway at all?",
+      "pt": "Que velocidade mínima o teu veículo tem de conseguir atingir tecnicamente para poder circular em autoestrada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mindestens 80 km/h",
+          "es": "Al menos 80 km/h",
+          "fr": "Au moins 80 km/h",
+          "it": "Almeno 80 km/h",
+          "en": "At least 80 km/h",
+          "pt": "Pelo menos 80 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mindestens 50 km/h",
+          "es": "Al menos 50 km/h",
+          "fr": "Au moins 50 km/h",
+          "it": "Almeno 50 km/h",
+          "en": "At least 50 km/h",
+          "pt": "Pelo menos 50 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Mindestens 100 km/h",
+          "es": "Al menos 100 km/h",
+          "fr": "Au moins 100 km/h",
+          "it": "Almeno 100 km/h",
+          "en": "At least 100 km/h",
+          "pt": "Pelo menos 100 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach Art. 35 Abs. 1 VRV dürfen nur Fahrzeuge die Autobahn benützen, die mindestens 80 km/h fahren können.",
+      "es": "Según el art. 35 párr. 1 VRV, solo pueden circular por autopista los vehículos capaces de alcanzar al menos 80 km/h.",
+      "fr": "Selon l'art. 35 al. 1 OCR, seuls les véhicules pouvant atteindre au moins 80 km/h peuvent circuler sur autoroute.",
+      "it": "Secondo l'art. 35 cpv. 1 ONC, possono circolare in autostrada solo i veicoli in grado di raggiungere almeno 80 km/h.",
+      "en": "Under Art. 35 para. 1 VRV, only vehicles capable of reaching at least 80 km/h may use the motorway.",
+      "pt": "Segundo o art. 35, n.º 1, VRV, só podem circular em autoestrada os veículos capazes de atingir pelo menos 80 km/h."
+    },
+    "image": null
+  },
+  {
+    "id": "q212",
+    "category": "both",
+    "topic": "mindesttempo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer dreispurigen Autobahn (pro Richtung) fährst du auf dem am weitesten links liegenden Streifen. Was gilt seit 2016 zusätzlich?",
+      "es": "En una autopista de tres carriles por sentido, circulas por el carril más a la izquierda. ¿Qué se aplica adicionalmente desde 2016?",
+      "fr": "Sur une autoroute à trois voies (par sens), tu roules sur la voie la plus à gauche. Que faut-il respecter en plus depuis 2016 ?",
+      "it": "Su un'autostrada a tre corsie (per senso di marcia) viaggi sulla corsia più a sinistra. Cosa vale in più dal 2016?",
+      "en": "On a three-lane motorway (per direction), you drive in the leftmost lane. What has additionally applied since 2016?",
+      "pt": "Numa autoestrada de três faixas (por sentido), circulas na faixa mais à esquerda. O que se aplica adicionalmente desde 2016?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fahrzeuge auf diesem Streifen müssen mindestens 100 km/h fahren können",
+          "es": "Los vehículos en ese carril deben poder alcanzar al menos 100 km/h",
+          "fr": "Les véhicules sur cette voie doivent pouvoir atteindre au moins 100 km/h",
+          "it": "I veicoli su questa corsia devono poter raggiungere almeno 100 km/h",
+          "en": "Vehicles in this lane must be capable of at least 100 km/h",
+          "pt": "Os veículos nesta faixa têm de conseguir atingir pelo menos 100 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf diesem Streifen gibt es überhaupt kein Mindesttempo",
+          "es": "En ese carril no rige ningún mínimo de velocidad",
+          "fr": "Sur cette voie, aucune vitesse minimale ne s'applique",
+          "it": "Su questa corsia non vige alcun limite minimo di velocità",
+          "en": "There is no minimum speed at all on this lane",
+          "pt": "Nesta faixa não vigora qualquer velocidade mínima"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Dort gilt eine Höchstgeschwindigkeit von 100 km/h",
+          "es": "Ahí rige un máximo de 100 km/h",
+          "fr": "Une vitesse maximale de 100 km/h y est en vigueur",
+          "it": "Lì vige un limite massimo di 100 km/h",
+          "en": "A maximum speed of 100 km/h applies there",
+          "pt": "Ali vigora uma velocidade máxima de 100 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Seit 2016 gilt: Auf dem am weitesten links liegenden Fahrstreifen einer Autobahn mit drei oder mehr Fahrstreifen pro Richtung müssen Fahrzeuge mindestens 100 km/h fahren können.",
+      "es": "Desde 2016: en el carril más a la izquierda de una autopista con tres o más carriles por sentido, los vehículos deben poder alcanzar al menos 100 km/h.",
+      "fr": "Depuis 2016 : sur la voie la plus à gauche d'une autoroute à trois voies ou plus par sens, les véhicules doivent pouvoir atteindre au moins 100 km/h.",
+      "it": "Dal 2016 vale: sulla corsia più a sinistra di un'autostrada con tre o più corsie per senso di marcia, i veicoli devono poter raggiungere almeno 100 km/h.",
+      "en": "Since 2016: on the leftmost lane of a motorway with three or more lanes per direction, vehicles must be capable of at least 100 km/h.",
+      "pt": "Desde 2016 vigora: na faixa mais à esquerda de uma autoestrada com três ou mais faixas por sentido, os veículos têm de conseguir atingir pelo menos 100 km/h."
+    },
+    "image": null
+  },
+  {
+    "id": "q213",
+    "category": "both",
+    "topic": "mindesttempo",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Bei guten Sicht- und Strassenverhältnissen fährst du auf der Autobahn absichtlich sehr langsam und behinderst dadurch offensichtlich den übrigen Verkehr. Was droht?",
+      "es": "Con buenas condiciones de visibilidad y carretera, circulas a propósito muy despacio en autopista y estorbas claramente al resto del tráfico. ¿Qué riesgo corres?",
+      "fr": "Par bonnes conditions de visibilité et de route, tu roules volontairement très lentement sur l'autoroute et gênes ainsi visiblement le reste du trafic. Que risques-tu ?",
+      "it": "Con buone condizioni di visibilità e di strada, guidi apposta molto lentamente in autostrada e ostacoli chiaramente il resto del traffico. Cosa rischi?",
+      "en": "In good visibility and road conditions, you deliberately drive very slowly on the motorway and clearly obstruct the rest of the traffic. What is the risk?",
+      "pt": "Com boas condições de visibilidade e de estrada, conduzes propositadamente muito devagar na autoestrada e atrapalhas claramente o resto do trânsito. Que risco corres?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Busse, da dies als Behinderung des Verkehrsflusses gewertet werden kann",
+          "es": "Una multa, ya que puede considerarse una obstrucción al flujo del tráfico",
+          "fr": "Une amende, car cela peut être considéré comme une entrave à la fluidité du trafic",
+          "it": "Una multa, poiché può essere considerato un intralcio al flusso del traffico",
+          "en": "A fine, since this can be judged as obstructing the flow of traffic",
+          "pt": "Uma multa, já que isso pode ser considerado uma obstrução ao fluxo de trânsito"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, auf der Autobahn gibt es keinerlei Mindesttempo-Vorschrift",
+          "es": "Nada, en la autopista no existe ninguna norma de velocidad mínima",
+          "fr": "Rien, il n'existe sur autoroute aucune règle de vitesse minimale",
+          "it": "Niente, in autostrada non esiste alcuna norma sulla velocità minima",
+          "en": "Nothing, there is no minimum speed rule on the motorway at all",
+          "pt": "Nada, na autoestrada não existe qualquer norma de velocidade mínima"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine mündliche Verwarnung, nie eine Busse",
+          "es": "Solo una advertencia verbal, nunca una multa",
+          "fr": "Seulement un avertissement oral, jamais d'amende",
+          "it": "Solo un richiamo verbale, mai una multa",
+          "en": "Only a verbal warning, never a fine",
+          "pt": "Só uma advertência verbal, nunca uma multa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auch ohne eine für jede Situation fest verankerte Mindestgeschwindigkeit kann unnötig langsames Fahren bei guten Bedingungen, das den Verkehr offensichtlich behindert, gebüsst werden.",
+      "es": "Aunque no exista un mínimo fijo para cada situación, conducir innecesariamente despacio en buenas condiciones, cuando eso estorba claramente al tráfico, puede sancionarse.",
+      "fr": "Même sans vitesse minimale fixe pour chaque situation, rouler inutilement lentement par bonnes conditions, en gênant visiblement le trafic, peut être sanctionné par une amende.",
+      "it": "Anche senza una velocità minima fissa per ogni situazione, guidare inutilmente piano in buone condizioni, ostacolando chiaramente il traffico, può essere multato.",
+      "en": "Even without a fixed minimum speed for every situation, driving unnecessarily slowly in good conditions while clearly obstructing traffic can be fined.",
+      "pt": "Mesmo sem uma velocidade mínima fixa para cada situação, conduzir desnecessariamente devagar em boas condições, atrapalhando claramente o trânsito, pode ser multado."
+    },
+    "image": null
+  },
+  {
+    "id": "q214",
+    "category": "both",
+    "topic": "mindesttempo",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum verlangt das Gesetz eine technische Mindestgeschwindigkeit für die Zulassung zur Autobahn?",
+      "es": "¿Por qué la ley exige una velocidad mínima técnica para poder circular por autopista?",
+      "fr": "Pourquoi la loi exige-t-elle une vitesse minimale technique pour être admis sur l'autoroute ?",
+      "it": "Perché la legge richiede una velocità minima tecnica per l'ammissione in autostrada?",
+      "en": "Why does the law require a technical minimum speed to be allowed on the motorway?",
+      "pt": "Porque é que a lei exige uma velocidade mínima técnica para o acesso à autoestrada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit langsame Fahrzeuge den schnellen Verkehrsfluss nicht gefährlich behindern oder blockieren",
+          "es": "Para que los vehículos lentos no obstaculicen ni bloqueen de forma peligrosa el flujo rápido del tráfico",
+          "fr": "Pour que les véhicules lents ne gênent ni ne bloquent dangereusement le trafic rapide",
+          "it": "Perché i veicoli lenti non ostacolino o blocchino pericolosamente il flusso veloce del traffico",
+          "en": "So that slow vehicles do not dangerously obstruct or block the fast flow of traffic",
+          "pt": "Para que os veículos lentos não obstruam nem bloqueiem de forma perigosa o fluxo rápido do trânsito"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Damit möglichst wenige Fahrzeuge auf der Autobahn fahren dürfen",
+          "es": "Para que circulen por autopista el menor número posible de vehículos",
+          "fr": "Pour que le moins de véhicules possible aient le droit de circuler sur autoroute",
+          "it": "Perché il minor numero possibile di veicoli possa circolare in autostrada",
+          "en": "So that as few vehicles as possible may use the motorway",
+          "pt": "Para que o menor número possível de veículos possa circular em autoestrada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Aus rein finanziellen Gründen, wegen der Vignette",
+          "es": "Por motivos puramente económicos, debido a la viñeta",
+          "fr": "Pour des raisons purement financières, à cause de la vignette",
+          "it": "Per motivi puramente finanziari, a causa del contrassegno",
+          "en": "For purely financial reasons, because of the vignette",
+          "pt": "Por motivos puramente financeiros, por causa da vinheta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Mindestgeschwindigkeit für die Zulassung zur Autobahn dient der Sicherheit: Sehr langsame Fahrzeuge zwischen schnellem Verkehr sind ein erhebliches Unfallrisiko.",
+      "es": "La velocidad mínima para acceder a la autopista tiene fines de seguridad: los vehículos muy lentos entre tráfico rápido son un riesgo de accidente considerable.",
+      "fr": "La vitesse minimale pour l'admission sur l'autoroute a un but sécuritaire : des véhicules très lents au milieu d'un trafic rapide constituent un risque d'accident important.",
+      "it": "La velocità minima per l'ammissione in autostrada serve alla sicurezza: veicoli molto lenti in mezzo al traffico veloce sono un rischio di incidente notevole.",
+      "en": "The minimum speed for motorway access serves safety: very slow vehicles among fast-moving traffic pose a significant accident risk.",
+      "pt": "A velocidade mínima para acesso à autoestrada serve a segurança: veículos muito lentos no meio de trânsito rápido representam um risco de acidente considerável."
+    },
+    "image": null
   }
 ]
