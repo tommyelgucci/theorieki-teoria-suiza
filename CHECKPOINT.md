@@ -8,6 +8,166 @@ recordar.
 
 ---
 
+## 2026-08-19 (11) — Ajuste: el parche del césped se veía "pegado", no continuo
+
+**Contexto:** tras el fix (10), el usuario vio la captura y no le convenció: el
+rectángulo de césped que tapaba el hueco se notaba como un parche aparte, no como
+parte del mismo bloque de césped. Pidió que esa franja se viera como un bloque entero,
+sin corte.
+
+**Causa real:** el parche en sí (un rect de más, mismo color, pegado sin gap) no
+debería producir una costura visible — pero el borde (`curbLine`) del lado este de la
+calzada seguía cortado en dos tramos (`y:0-270` y `y:360-360`) con un hueco justo en la
+franja del parche, porque ese corte se copió sin pensar del lado oeste (`x:140`), donde
+sí hace falta — ahí es donde la calle secundaria se abre. Pero la calle secundaria solo
+sale hacia el oeste; el borde este de la calzada (`x:300`) nunca se interrumpe, así que
+cortar su `curbLine` ahí no representaba nada real y hacía que el remiendo se notara.
+
+**Fix:** en vez de mantener el parche suelto, se reestructuró `junctionScene()` para
+que el margen este (`x:300-360`) sea un único rect de césped de altura completa
+(`y:0-560`, calcado del patrón que ya usaba correctamente `junctionRightScene()` para
+su margen lejano) y el `curbLine` de `x:300` sea una sola línea continua en vez de dos
+tramos. Los rects de césped norte/sur ahora solo cubren el lado oeste (`w:140`, donde sí
+hace falta el corte por la boca de la calle secundaria), sin solaparse con el nuevo
+margen este.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, captura del paso 6 confirmando
+la franja continua sin costura.
+
+---
+
+## 2026-08-19 (10) — Fix: hueco sin césped en `junctionScene()`
+
+**Contexto:** el usuario mandó una captura de la misma maniobra (`laengere_strecke_rueckwaerts`,
+paso 6) donde se veía un rectángulo blanco (transparente) junto a la calle secundaria, a la
+derecha del cruce en T, en vez de césped.
+
+**Diagnóstico:** en `junctionScene()` los dos rectángulos de césped superior e inferior
+(`y:0-270` y `y:360-560`) cubren el ancho completo del lienzo, pero la calle secundaria
+(`road x:0-300, y:270-360`) solo llega hasta `x:300` — la franja `x:300-360, y:270-360`
+(60×90) no tenía ningún elemento, quedaba transparente. `junctionRightScene()` (el espejo,
+con la calle secundaria saliendo a la derecha) no tiene este problema porque su césped
+lateral (`x:0-60`) cubre la altura completa del lienzo de una sola vez, sin el split
+superior/inferior.
+
+**Fix:** un rectángulo de césped nuevo, `{ x: 300, y: 270, w: 60, h: 90 }`, que tapa
+exactamente ese hueco. No afecta a ningún `road`/`curbLine` existente ni a las dos
+maniobras que comparten esta escena (`links_abbiegen_einspuren` y
+`laengere_strecke_rueckwaerts`).
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), captura de pantalla del paso 6 confirmando el césped relleno.
+
+---
+
+## 2026-08-19 (9) — Fix: coches solapados en el paso final de "Tramo largo marcha atrás"
+
+**Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
+(paso 6 de 6) mostrando el coche del examen y el coche rojo aparcado prácticamente
+encima uno del otro, y pidió corregirlo (agrandando la calle si hacía falta espacio, o
+de la forma que fuera).
+
+**Diagnóstico:** el coche del examen terminaba en `y:302` y el coche rojo en `y:338` —
+una separación de 36 px. El cuerpo del coche (`CarSprite.jsx`) mide 36×72, con los
+retrovisores sobresaliendo hasta un semiancho real de ~21,5 px; con angle 90° ese
+semiancho queda en el eje Y. Dos coches con semiancho 21,5 necesitan más de 43 px de
+separación para no tocarse — con solo 36 px se solapaban ~7 px. Además el coche del
+examen ya invadía unos 3 px la línea discontinua del carril (en y:317) antes del ajuste.
+
+**Por qué no se agrandó la calle:** `junctionScene()` la comparten dos maniobras
+(`links_abbiegen_einspuren` y esta); ensancharla habría exigido recalcular también las
+`curbLine` del cruce en T para que no quedara un borde de acera cruzando el asfalto por
+la mitad, con riesgo de romper la otra maniobra. Se optó por reposicionar el coche
+dentro de su propio carril, sin tocar la escena compartida.
+
+**Primer intento fallido:** mover también el keyframe intermedio del paso 5 (t=0.7) para
+que el giro completo terminara más arriba hizo que una esquina del coche, a mitad de
+giro (t≈0.76), se saliera del asfalto por la esquina noroeste del cruce en T — lo detectó
+`maneuvers.test.js` ("mantiene el coche sobre el asfalto"), que existe justo para esto y
+que no se había ejecutado antes de dar el primer intento por bueno.
+
+**Fix definitivo:** se revirtió el paso 5 a sus valores originales (el arco del giro no
+se toca) y el ajuste se hizo solo en el paso 6 ("Endereza y detente"), que ya no gira:
+su keyframe final pasa de `(76, 302, 90)` a `(76, 293, 90)`, un ligero avance/corrección
+lateral de 9 px hacia el carril izquierdo mientras se endereza — coherente con la
+propia descripción del paso. Resultado: separación final de 45 px entre coches (9 px de
+margen real de chapa, más allá de los retrovisores), y el coche del examen queda
+limpiamente dentro de su carril sin tocar la línea discontinua.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34, incluyendo los dos
+tests de geometría — "sobre el asfalto" y "sin saltos" — para las 17 maniobras/variantes
+del banco), `npm run lint` (0/0), `npm test` × 3 corridas completas (104/104 cada vez),
+`npm run build` sin errores.
+
+**Lección para futuras animaciones:** al tocar cualquier keyframe intermedio de un
+`step` con `wheel` activo (girando), correr siempre
+`npx vitest run src/data/maneuvers.test.js` antes de dar el cambio por bueno — el test
+de geometría existe precisamente para atrapar el tipo de error que casi se coló aquí, y
+es mucho más barato que revisar el vídeo a ojo.
+
+---
+
+## 2026-08-19 (8) — Octava ronda: 5 temas más (silla infantil en bicicleta, prohibición de dar media vuelta, transporte en el techo, carta verde, matrícula intercambiable)
+
+**Contexto:** séptima continuación directa. El usuario preguntó "Que más podemos
+agregar" a mitad de la investigación; se respondió brevemente con los 5 candidatos antes
+de seguir. Se mantuvo el protocolo reforzado: revisar el banco existente por topics
+relacionados antes de investigar, e investigar cada tema por separado.
+
+**Un candidato se descartó en la fase de revisión del banco** (antes de investigar en
+internet): "obligaciones al conducir un vehículo de alquiler/leasing" se descartó por
+quedar demasiado cerca de `q149` (`fahrzeug`, responsabilidad al conducir el coche
+prestado de un amigo). Se sustituyó por matrícula intercambiable (Wechselschild), un
+concepto genuinamente distinto y bien documentado.
+
+**Investigación de los 5 temas nuevos:** silla/remolque infantil en bicicleta (máximo 2
+niños en remolque o 1 en silla clásica; el niño debe poder sentarse solo y sostener la
+cabeza; quien transporta debe tener mínimo 16 años; sin obligación legal de casco en
+Suiza, ni para niños ni adultos, aunque se recomienda encarecidamente), prohibición de
+dar media vuelta —Kehrtwendung— (prohibida en autopistas/semiautopistas, en lugares sin
+buena visibilidad y con tráfico denso; regulada en el mismo art. 17 VRV que la marcha
+atrás), transporte de esquís/cajas en el techo (altura total máxima 4 m, carga de techo
+según el permiso de circulación, mayor distancia de frenado y sensibilidad al viento
+lateral), carta verde de seguro (no obligatoria en Suiza ni en el EEE gracias al
+convenio de matrículas, pero recomendable para Italia y Reino Unido), y matrícula
+intercambiable (máximo 2 vehículos del mismo titular, mismo cantón y misma categoría;
+solo uno puede circular a la vez).
+
+Se verificó contra el banco existente (topics `gurte`, `velo`, `tiertransport`,
+`rueckwaerts`, `ladung`, `kontrollschild_verlust`) que ninguno de estos 5 temas
+duplicara contenido ya presente.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q315–q334), 5 topics nuevos
+  (`velokindersitz`, `wenden`, `dachtransport`, `gruenekarte`, `wechselschild`), 4
+  preguntas cada uno, los 6 idiomas completos. Banco: 314 → 334 (322 categoría B, 334
+  categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (302→322, 314→334) y
+  `Study.test.jsx` (302→322), y el comentario de tamaño de bundle en `questionBank.js`
+  (314→334 preguntas, ~845→~900 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados; se avisó en el ROADMAP de que el chunk
+  real (935 KB) ya está cerca del límite configurado de 1000 KB — una novena ronda
+  probablemente hará reaparecer el warning de Rollup.
+
+**Verificación:** comparación de similitud de texto sobre las 334 preguntas (0
+duplicados nuevos — los mismos 14 pares benignos de siempre), script Python de idiomas
+(0 errores), `npm run lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez),
+`npm run build` sin errores ni warnings (935 KB minificado, todavía bajo el límite de
+1000 KB, pero cerca).
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): dado que el
+banco ya lleva ocho rondas y 176 preguntas nuevas hoy, empieza a ser más difícil
+encontrar temas genuinamente nuevos sin solaparse con los ~44 topics ya cubiertos —
+conviene revisar el banco completo por topics con más cuidado antes de cada nueva ronda.
+Candidatos sin descartar todavía: obligaciones del titular al cambiar el color de un
+vehículo, uso de neblineros delanteros (distinto de la luz antiniebla trasera ya
+cubierta), comportamiento ante un vehículo de auto-escuela con doble mando, transporte
+de animales de granja/ganado por carretera, y validez de la licencia de conducir
+extranjera al residir en Suiza. Repetir siempre el mismo protocolo.
+
+---
+
 ## 2026-08-19 (7) — Séptima ronda: 5 temas más (fianza para conductores extranjeros, remolque sin frenos propios, semáforo de obra, carril bus, pérdida/robo de matrícula)
 
 **Contexto:** sexta continuación directa ("Si, sigue"). Antes de investigar nada, el
