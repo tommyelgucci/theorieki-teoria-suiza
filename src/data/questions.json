@@ -19562,5 +19562,1245 @@
       "pt": "Para encomendar uma nova matrícula no serviço de trânsito, é necessária a confirmação ou o auto de polícia relativo à participação anterior de perda ou roubo."
     },
     "image": null
+  },
+  {
+    "id": "q315",
+    "category": "both",
+    "topic": "velokindersitz",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie viele Kinder darfst du gleichzeitig in einem Veloanhänger mitnehmen?",
+      "es": "¿Cuántos niños puedes llevar a la vez en un remolque de bicicleta?",
+      "fr": "Combien d'enfants peux-tu transporter en même temps dans une remorque de vélo ?",
+      "it": "Quanti bambini puoi trasportare contemporaneamente in un rimorchio per bici?",
+      "en": "How many children may you carry at the same time in a bike trailer?",
+      "pt": "Quantas crianças podes transportar ao mesmo tempo num reboque de bicicleta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Höchstens zwei Kinder",
+          "es": "Como máximo dos niños",
+          "fr": "Au maximum deux enfants",
+          "it": "Al massimo due bambini",
+          "en": "At most two children",
+          "pt": "No máximo duas crianças"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Beliebig viele, solange sie angeschnallt sind",
+          "es": "Los que sean, mientras vayan sujetos",
+          "fr": "Autant que voulu, tant qu'ils sont attachés",
+          "it": "Quanti si vuole, purché siano allacciati",
+          "en": "As many as you like, as long as they are strapped in",
+          "pt": "Quantas quiseres, desde que estejam presas"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur ein einziges Kind, nie mehr",
+          "es": "Solo un niño, nunca más",
+          "fr": "Un seul enfant, jamais plus",
+          "it": "Solo un bambino, mai di più",
+          "en": "Only one single child, never more",
+          "pt": "Só uma criança, nunca mais"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In einem Veloanhänger dürfen höchstens zwei Kinder gleichzeitig mitgeführt werden.",
+      "es": "En un remolque de bicicleta se pueden llevar como máximo dos niños a la vez.",
+      "fr": "Une remorque de vélo peut transporter au maximum deux enfants en même temps.",
+      "it": "In un rimorchio per bici possono essere trasportati al massimo due bambini contemporaneamente.",
+      "en": "A bike trailer may carry at most two children at the same time.",
+      "pt": "Num reboque de bicicleta podem ser transportadas no máximo duas crianças ao mesmo tempo."
+    },
+    "image": null
+  },
+  {
+    "id": "q316",
+    "category": "both",
+    "topic": "velokindersitz",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Ab wann darf ein Kind grundsätzlich in einem klassischen Kindersitz am Velo mitfahren?",
+      "es": "¿A partir de cuándo puede, en principio, un niño viajar en una silla infantil clásica montada en la bicicleta?",
+      "fr": "À partir de quand un enfant peut-il en principe voyager dans un siège vélo classique ?",
+      "it": "Da quando un bambino può in linea di massima viaggiare in un seggiolino classico montato sulla bici?",
+      "en": "From what point may a child generally ride in a classic bike-mounted child seat?",
+      "pt": "A partir de quando pode, em princípio, uma criança viajar numa cadeira infantil clássica montada na bicicleta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sobald es selbstständig und stabil sitzen und den Kopf dauerhaft alleine halten kann",
+          "es": "En cuanto sea capaz de sentarse solo de forma estable y sostener la cabeza por sí mismo de manera continua",
+          "fr": "Dès qu'il peut s'asseoir seul de façon stable et tenir sa tête durablement sans aide",
+          "it": "Non appena riesce a sedersi da solo in modo stabile e a tenere la testa da solo in modo continuativo",
+          "en": "As soon as they can sit stably on their own and hold their head up unaided at all times",
+          "pt": "Assim que consiga sentar-se sozinha de forma estável e segurar a cabeça sozinha de forma contínua"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Erst ab dem eingeschulten Alter, nie früher",
+          "es": "Solo a partir de la edad escolar, nunca antes",
+          "fr": "Seulement dès l'âge scolaire, jamais avant",
+          "it": "Solo dall'età scolare, mai prima",
+          "en": "Only from school age, never earlier",
+          "pt": "Só a partir da idade escolar, nunca antes"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ab der Geburt, unabhängig von der körperlichen Entwicklung",
+          "es": "Desde el nacimiento, independientemente del desarrollo físico",
+          "fr": "Dès la naissance, indépendamment du développement physique",
+          "it": "Dalla nascita, indipendentemente dallo sviluppo fisico",
+          "en": "From birth, regardless of physical development",
+          "pt": "Desde o nascimento, independentemente do desenvolvimento físico"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für den klassischen Kindersitz am Velo muss das Kind selbstständig und stabil sitzen und den Kopf dauerhaft aus eigener Kraft halten können.",
+      "es": "Para la silla infantil clásica en la bicicleta, el niño debe poder sentarse solo de forma estable y sostener la cabeza por sí mismo de manera continua.",
+      "fr": "Pour le siège vélo classique, l'enfant doit pouvoir s'asseoir seul de façon stable et tenir sa tête durablement par ses propres moyens.",
+      "it": "Per il seggiolino classico sulla bici, il bambino deve riuscire a sedersi da solo in modo stabile e a tenere la testa da solo in modo continuativo.",
+      "en": "For a classic bike-mounted child seat, the child must be able to sit stably on their own and hold their head up unaided at all times.",
+      "pt": "Para a cadeira infantil clássica na bicicleta, a criança deve conseguir sentar-se sozinha de forma estável e segurar a cabeça sozinha de forma contínua."
+    },
+    "image": null
+  },
+  {
+    "id": "q317",
+    "category": "both",
+    "topic": "velokindersitz",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie alt musst du mindestens sein, um ein Kind auf dem Velo (Kindersitz oder Anhänger) mitzunehmen?",
+      "es": "¿Qué edad mínima debes tener para llevar a un niño en la bicicleta (silla infantil o remolque)?",
+      "fr": "Quel âge minimum dois-tu avoir pour transporter un enfant à vélo (siège ou remorque) ?",
+      "it": "Quanti anni devi avere almeno per trasportare un bambino in bici (seggiolino o rimorchio)?",
+      "en": "What minimum age must you be to carry a child on a bicycle (seat or trailer)?",
+      "pt": "Que idade mínima deves ter para transportar uma criança de bicicleta (cadeira ou reboque)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mindestens 16 Jahre alt",
+          "es": "Al menos 16 años",
+          "fr": "Au moins 16 ans",
+          "it": "Almeno 16 anni",
+          "en": "At least 16 years old",
+          "pt": "Pelo menos 16 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mindestens 12 Jahre alt",
+          "es": "Al menos 12 años",
+          "fr": "Au moins 12 ans",
+          "it": "Almeno 12 anni",
+          "en": "At least 12 years old",
+          "pt": "Pelo menos 12 anos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keine Mindestaltersgrenze",
+          "es": "No existe una edad mínima",
+          "fr": "Il n'y a pas d'âge minimum",
+          "it": "Non esiste un limite di età minima",
+          "en": "There is no minimum age",
+          "pt": "Não existe uma idade mínima"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer ein Kind mit dem Velo transportiert (Kindersitz oder Anhänger), muss mindestens 16 Jahre alt sein.",
+      "es": "Quien transporta a un niño en bicicleta (silla infantil o remolque) debe tener al menos 16 años.",
+      "fr": "Quiconque transporte un enfant à vélo (siège ou remorque) doit avoir au moins 16 ans.",
+      "it": "Chi trasporta un bambino in bici (seggiolino o rimorchio) deve avere almeno 16 anni.",
+      "en": "Anyone carrying a child by bicycle (seat or trailer) must be at least 16 years old.",
+      "pt": "Quem transporta uma criança de bicicleta (cadeira ou reboque) deve ter pelo menos 16 anos."
+    },
+    "image": null
+  },
+  {
+    "id": "q318",
+    "category": "both",
+    "topic": "velokindersitz",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Gilt in der Schweiz eine gesetzliche Velohelmpflicht für Kinder, die im Kindersitz oder Anhänger mitfahren?",
+      "es": "¿Existe en Suiza una obligación legal de casco para los niños que viajan en la silla infantil o el remolque?",
+      "fr": "La Suisse impose-t-elle un port du casque obligatoire par la loi pour les enfants transportés en siège ou en remorque ?",
+      "it": "In Svizzera esiste un obbligo legale del casco per i bambini trasportati in seggiolino o rimorchio?",
+      "en": "Does Switzerland have a legal helmet requirement for children riding in a bike seat or trailer?",
+      "pt": "Existe na Suíça uma obrigação legal de capacete para as crianças que viajam na cadeira infantil ou no reboque?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, es gibt keine gesetzliche Helmpflicht, das Tragen wird aber dringend empfohlen",
+          "es": "No, no hay obligación legal de casco, aunque se recomienda encarecidamente llevarlo",
+          "fr": "Non, il n'y a pas d'obligation légale, mais le port est vivement recommandé",
+          "it": "No, non esiste un obbligo legale, ma indossarlo è vivamente raccomandato",
+          "en": "No, there is no legal helmet requirement, but wearing one is strongly recommended",
+          "pt": "Não, não há obrigação legal de capacete, mas o seu uso é fortemente recomendado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, für Kinder unter 14 Jahren ist ein Helm gesetzlich zwingend",
+          "es": "Sí, para los niños menores de 14 años el casco es legalmente obligatorio",
+          "fr": "Oui, pour les enfants de moins de 14 ans, le casque est légalement obligatoire",
+          "it": "Sì, per i bambini sotto i 14 anni il casco è legalmente obbligatorio",
+          "en": "Yes, for children under 14 a helmet is legally mandatory",
+          "pt": "Sim, para crianças com menos de 14 anos o capacete é legalmente obrigatório"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur auf Radwegen ausserorts",
+          "es": "Sí, pero solo en carriles bici fuera de poblado",
+          "fr": "Oui, mais seulement sur les pistes cyclables hors localité",
+          "it": "Sì, ma solo sulle piste ciclabili fuori dalle località",
+          "en": "Yes, but only on cycle paths outside built-up areas",
+          "pt": "Sim, mas só em ciclovias fora de localidades"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Schweiz besteht keine gesetzliche Velohelmpflicht, weder für Kinder noch für Erwachsene — das Tragen eines Helms wird aber dringend empfohlen, insbesondere für mitfahrende Kinder.",
+      "es": "En Suiza no existe obligación legal de casco en bicicleta, ni para niños ni para adultos; aun así, se recomienda encarecidamente llevarlo, en especial para los niños que viajan como pasajeros.",
+      "fr": "En Suisse, il n'existe aucune obligation légale de porter un casque à vélo, ni pour les enfants ni pour les adultes – son port est toutefois vivement recommandé, en particulier pour les enfants transportés.",
+      "it": "In Svizzera non esiste alcun obbligo legale del casco in bicicletta, né per i bambini né per gli adulti – indossarlo è comunque vivamente raccomandato, in particolare per i bambini trasportati.",
+      "en": "Switzerland has no legal bicycle helmet requirement, neither for children nor adults — wearing one is nonetheless strongly recommended, especially for children being carried.",
+      "pt": "Na Suíça não existe obrigação legal de capacete de bicicleta, nem para crianças nem para adultos – ainda assim, o seu uso é fortemente recomendado, especialmente para crianças transportadas."
+    },
+    "image": null
+  },
+  {
+    "id": "q319",
+    "category": "both",
+    "topic": "wenden",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Darfst du auf der Autobahn wenden (eine Kehrtwendung machen), wenn du deine Ausfahrt verpasst hast?",
+      "es": "¿Puedes dar la vuelta (media vuelta) en la autopista si te has pasado tu salida?",
+      "fr": "Peux-tu faire demi-tour sur l'autoroute si tu as manqué ta sortie ?",
+      "it": "Puoi fare inversione a U in autostrada se hai perso la tua uscita?",
+      "en": "May you make a U-turn on the motorway if you have missed your exit?",
+      "pt": "Podes fazer inversão de marcha na autoestrada se perderes a tua saída?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, Wenden ist auf Autobahnen und Autostrassen grundsätzlich verboten",
+          "es": "No, dar la vuelta está en principio prohibido en autopistas y semiautopistas",
+          "fr": "Non, faire demi-tour est en principe interdit sur les autoroutes et semi-autoroutes",
+          "it": "No, l'inversione a U è in linea di massima vietata in autostrada e semiautostrada",
+          "en": "No, making a U-turn is generally forbidden on motorways and expressways",
+          "pt": "Não, fazer inversão de marcha é, em princípio, proibido em autoestradas e vias rápidas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist problemlos erlaubt, solange kein anderes Fahrzeug in Sicht ist",
+          "es": "Sí, está perfectamente permitido mientras no se vea ningún otro vehículo",
+          "fr": "Oui, c'est tout à fait autorisé tant qu'aucun autre véhicule n'est en vue",
+          "it": "Sì, è del tutto consentito finché non si vede alcun altro veicolo",
+          "en": "Yes, that is fine as long as no other vehicle is in sight",
+          "pt": "Sim, isso é perfeitamente permitido enquanto não se vir nenhum outro veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur auf dem Pannenstreifen",
+          "es": "Sí, pero solo por el arcén",
+          "fr": "Oui, mais seulement sur la bande d'arrêt d'urgence",
+          "it": "Sì, ma solo sulla corsia d'emergenza",
+          "en": "Yes, but only on the hard shoulder",
+          "pt": "Sim, mas só na berma de emergência"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wenden ist auf Autobahnen und Autostrassen grundsätzlich verboten — beim Verpassen der Ausfahrt musst du bis zur nächsten Ausfahrt weiterfahren.",
+      "es": "Dar la vuelta está en principio prohibido en autopistas y semiautopistas; si te pasas la salida, debes seguir hasta la siguiente.",
+      "fr": "Faire demi-tour est en principe interdit sur les autoroutes et semi-autoroutes – si tu manques ta sortie, tu dois continuer jusqu'à la suivante.",
+      "it": "L'inversione a U è in linea di massima vietata in autostrada e semiautostrada – se perdi l'uscita, devi proseguire fino alla successiva.",
+      "en": "Making a U-turn is generally forbidden on motorways and expressways — if you miss your exit, you must continue to the next one.",
+      "pt": "Fazer inversão de marcha é, em princípio, proibido em autoestradas e vias rápidas – se perderes a saída, tens de continuar até à seguinte."
+    },
+    "image": null
+  },
+  {
+    "id": "q320",
+    "category": "both",
+    "topic": "wenden",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "An welchen weiteren Orten ist eine Kehrtwendung ausserhalb der Autobahn grundsätzlich verboten?",
+      "es": "¿En qué otros lugares está, en principio, prohibido dar media vuelta fuera de la autopista?",
+      "fr": "En quels autres endroits un demi-tour est-il en principe interdit hors autoroute ?",
+      "it": "In quali altri luoghi l'inversione a U è in linea di massima vietata fuori dall'autostrada?",
+      "en": "At which other places is a U-turn generally forbidden outside the motorway?",
+      "pt": "Em que outros locais a inversão de marcha é, em princípio, proibida fora da autoestrada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "An unübersichtlichen Stellen und bei dichtem Verkehr",
+          "es": "En lugares sin buena visibilidad y con tráfico denso",
+          "fr": "Aux endroits peu visibles et en cas de trafic dense",
+          "it": "Nei luoghi poco visibili e con traffico intenso",
+          "en": "At blind spots and in heavy traffic",
+          "pt": "Em locais com má visibilidade e com trânsito denso"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nirgends, ausserhalb der Autobahn ist Wenden immer erlaubt",
+          "es": "En ningún sitio, fuera de la autopista dar la vuelta siempre está permitido",
+          "fr": "Nulle part, hors autoroute faire demi-tour est toujours autorisé",
+          "it": "In nessun luogo, fuori dall'autostrada l'inversione a U è sempre consentita",
+          "en": "Nowhere, outside the motorway U-turns are always allowed",
+          "pt": "Em lado nenhum, fora da autoestrada a inversão de marcha é sempre permitida"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur auf Radwegen",
+          "es": "Solo en los carriles bici",
+          "fr": "Seulement sur les pistes cyclables",
+          "it": "Solo sulle piste ciclabili",
+          "en": "Only on cycle paths",
+          "pt": "Só em ciclovias"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "An unübersichtlichen Stellen und bei dichtem Verkehr ist eine Kehrtwendung ebenfalls verboten, weil das Risiko einer Kollision dort besonders hoch ist.",
+      "es": "En lugares sin buena visibilidad y con tráfico denso, dar media vuelta también está prohibido, porque el riesgo de colisión es especialmente alto.",
+      "fr": "Aux endroits peu visibles et en cas de trafic dense, le demi-tour est également interdit, car le risque de collision y est particulièrement élevé.",
+      "it": "Nei luoghi poco visibili e con traffico intenso l'inversione a U è vietata anche perché il rischio di collisione è particolarmente elevato.",
+      "en": "At blind spots and in heavy traffic, a U-turn is also forbidden because the risk of collision there is especially high.",
+      "pt": "Em locais com má visibilidade e com trânsito denso, a inversão de marcha também é proibida, porque o risco de colisão aí é especialmente elevado."
+    },
+    "image": null
+  },
+  {
+    "id": "q321",
+    "category": "both",
+    "topic": "wenden",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "In welchem Artikel der VRV ist das Verbot der Kehrtwendung an bestimmten Orten geregelt?",
+      "es": "¿En qué artículo de la VRV se regula la prohibición de dar media vuelta en determinados lugares?",
+      "fr": "Dans quel article de l'OCR l'interdiction du demi-tour à certains endroits est-elle réglée ?",
+      "it": "In quale articolo dell'ONC è disciplinato il divieto di inversione a U in determinati luoghi?",
+      "en": "In which article of the VRV is the ban on U-turns at certain places regulated?",
+      "pt": "Em que artigo do VRV está regulada a proibição de inversão de marcha em determinados locais?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Im gleichen Artikel wie Wegfahren und Rückwärtsfahren, Art. 17 VRV",
+          "es": "En el mismo artículo que arrancar y circular marcha atrás, art. 17 VRV",
+          "fr": "Dans le même article que le départ et la marche arrière, art. 17 OCR",
+          "it": "Nello stesso articolo di partenza e retromarcia, art. 17 ONC",
+          "en": "In the same article as moving off and reversing, Art. 17 VRV",
+          "pt": "No mesmo artigo que arrancar e a marcha-atrás, art. 17 VRV"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "In einem völlig separaten Gesetz, das nichts mit der VRV zu tun hat",
+          "es": "En una ley totalmente aparte, sin relación con la VRV",
+          "fr": "Dans une loi totalement séparée, sans lien avec l'OCR",
+          "it": "In una legge del tutto separata, senza alcun legame con l'ONC",
+          "en": "In a completely separate law unrelated to the VRV",
+          "pt": "Numa lei totalmente separada, sem relação com o VRV"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt dafür keinen Artikel, es ist reine Gewohnheit",
+          "es": "No existe ningún artículo al respecto, es solo costumbre",
+          "fr": "Il n'existe aucun article à ce sujet, c'est une simple coutume",
+          "it": "Non esiste alcun articolo a riguardo, è pura consuetudine",
+          "en": "There is no article for this, it is purely customary",
+          "pt": "Não existe qualquer artigo a esse respeito, é pura tradição"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wegfahren, Rückwärtsfahren und Wenden werden gemeinsam in Art. 17 VRV geregelt.",
+      "es": "Arrancar, circular marcha atrás y dar media vuelta se regulan conjuntamente en el art. 17 VRV.",
+      "fr": "Le départ, la marche arrière et le demi-tour sont réglés conjointement à l'art. 17 OCR.",
+      "it": "Partenza, retromarcia e inversione a U sono disciplinati insieme all'art. 17 ONC.",
+      "en": "Moving off, reversing and U-turns are regulated together in Art. 17 VRV.",
+      "pt": "Arrancar, a marcha-atrás e a inversão de marcha são regulados em conjunto no art. 17 VRV."
+    },
+    "image": null
+  },
+  {
+    "id": "q322",
+    "category": "both",
+    "topic": "wenden",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum ist eine Kehrtwendung an einer unübersichtlichen Stelle besonders gefährlich?",
+      "es": "¿Por qué es especialmente peligroso dar media vuelta en un lugar sin buena visibilidad?",
+      "fr": "Pourquoi un demi-tour est-il particulièrement dangereux à un endroit peu visible ?",
+      "it": "Perché un'inversione a U è particolarmente pericolosa in un luogo poco visibile?",
+      "en": "Why is a U-turn especially dangerous at a blind spot?",
+      "pt": "Porque é especialmente perigosa uma inversão de marcha num local com má visibilidade?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil andere Fahrzeuge dich zu spät sehen und das Fahrzeug beim Wenden kurzzeitig quer zur Fahrbahn steht",
+          "es": "Porque los demás vehículos te ven demasiado tarde y el coche queda un momento atravesado en la calzada",
+          "fr": "Parce que les autres véhicules te voient trop tard et le véhicule se trouve brièvement en travers de la chaussée",
+          "it": "Perché gli altri veicoli ti vedono troppo tardi e l'auto resta per un momento di traverso sulla carreggiata",
+          "en": "Because other vehicles see you too late and the car is briefly sideways across the road while turning",
+          "pt": "Porque os outros veículos te veem tarde demais e o carro fica por um momento atravessado na faixa de rodagem"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil das Fahrzeug dabei automatisch technische Schäden erleidet",
+          "es": "Porque el coche sufre automáticamente daños técnicos al hacerlo",
+          "fr": "Parce que le véhicule subit automatiquement des dommages techniques",
+          "it": "Perché il veicolo subisce automaticamente danni tecnici",
+          "en": "Because the vehicle automatically suffers technical damage",
+          "pt": "Porque o veículo sofre automaticamente danos técnicos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil es dabei zu einer erhöhten Umweltbelastung kommt",
+          "es": "Porque provoca un mayor impacto medioambiental",
+          "fr": "Parce que cela entraîne une pollution environnementale accrue",
+          "it": "Perché ne deriva un maggiore impatto ambientale",
+          "en": "Because it causes increased environmental impact",
+          "pt": "Porque provoca um maior impacto ambiental"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Wenden steht das Fahrzeug kurzzeitig quer zur Fahrbahn; an unübersichtlichen Stellen sehen andere Verkehrsteilnehmer das zu spät, was zu schweren Kollisionen führen kann.",
+      "es": "Al dar media vuelta, el coche queda un momento atravesado en la calzada; en lugares sin buena visibilidad, los demás lo ven demasiado tarde, lo que puede provocar colisiones graves.",
+      "fr": "Lors d'un demi-tour, le véhicule se trouve brièvement en travers de la chaussée ; à un endroit peu visible, les autres usagers le voient trop tard, ce qui peut entraîner de graves collisions.",
+      "it": "Durante l'inversione a U, il veicolo resta per un momento di traverso sulla carreggiata; nei luoghi poco visibili gli altri utenti lo vedono troppo tardi, il che può causare gravi collisioni.",
+      "en": "While turning, the vehicle is briefly sideways across the road; at blind spots other road users see it too late, which can lead to severe collisions.",
+      "pt": "Ao fazer a inversão, o veículo fica por um momento atravessado na faixa de rodagem; em locais com má visibilidade, os outros utentes veem-no tarde demais, o que pode causar colisões graves."
+    },
+    "image": null
+  },
+  {
+    "id": "q323",
+    "category": "both",
+    "topic": "dachtransport",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du transportierst Skis auf einem Dachträger. Welche maximale Gesamthöhe (Fahrzeug inkl. Dachladung) ist in der Schweiz zulässig?",
+      "es": "Transportas esquís en un portaesquís de techo. ¿Qué altura total máxima (vehículo con carga en el techo incluida) se permite en Suiza?",
+      "fr": "Tu transportes des skis sur une galerie de toit. Quelle hauteur totale maximale (véhicule avec chargement de toit inclus) est autorisée en Suisse ?",
+      "it": "Trasporti sci su un portapacchi da tetto. Quale altezza totale massima (veicolo compreso il carico sul tetto) è ammessa in Svizzera?",
+      "en": "You transport skis on a roof rack. What maximum total height (vehicle including roof load) is permitted in Switzerland?",
+      "pt": "Transportas esquis num porta-bagagens de teto. Que altura total máxima (veículo incluindo carga no teto) é permitida na Suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "4 Meter",
+          "es": "4 metros",
+          "fr": "4 mètres",
+          "it": "4 metri",
+          "en": "4 metres",
+          "pt": "4 metros"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "2,5 Meter",
+          "es": "2,5 metros",
+          "fr": "2,5 mètres",
+          "it": "2,5 metri",
+          "en": "2.5 metres",
+          "pt": "2,5 metros"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "5,5 Meter",
+          "es": "5,5 metros",
+          "fr": "5,5 mètres",
+          "it": "5,5 metri",
+          "en": "5.5 metres",
+          "pt": "5,5 metros"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die zulässige Gesamthöhe eines Fahrzeugs inklusive Dachladung beträgt in der Schweiz höchstens 4 Meter.",
+      "es": "La altura total permitida de un vehículo, incluida la carga en el techo, es en Suiza de máximo 4 metros.",
+      "fr": "La hauteur totale autorisée d'un véhicule, chargement de toit inclus, est en Suisse de 4 mètres au maximum.",
+      "it": "L'altezza totale ammessa per un veicolo, compreso il carico sul tetto, è in Svizzera al massimo 4 metri.",
+      "en": "The permitted total height of a vehicle including roof load is at most 4 metres in Switzerland.",
+      "pt": "A altura total permitida de um veículo, incluindo a carga no teto, é na Suíça de, no máximo, 4 metros."
+    },
+    "image": null
+  },
+  {
+    "id": "q324",
+    "category": "both",
+    "topic": "dachtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Woher erfährst du die für dein Auto zulässige maximale Dachlast?",
+      "es": "¿Dónde encuentras la carga máxima de techo permitida para tu coche?",
+      "fr": "Où trouves-tu la charge de toit maximale autorisée pour ta voiture ?",
+      "it": "Dove trovi il carico massimo sul tetto ammesso per la tua auto?",
+      "en": "Where do you find the maximum roof load permitted for your car?",
+      "pt": "Onde encontras a carga máxima de teto permitida para o teu carro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Aus dem Fahrzeugausweis bzw. den Fahrzeugunterlagen",
+          "es": "En el permiso de circulación o la documentación del vehículo",
+          "fr": "Dans le permis de circulation ou les documents du véhicule",
+          "it": "Nella licenza di circolazione ovvero nei documenti del veicolo",
+          "en": "In the vehicle registration document or vehicle papers",
+          "pt": "No documento de circulação ou na documentação do veículo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie ist für alle Autos gesetzlich exakt gleich hoch",
+          "es": "Es exactamente igual por ley para todos los coches",
+          "fr": "Elle est légalement identique pour toutes les voitures",
+          "it": "È legalmente identica per tutte le auto",
+          "en": "It is legally exactly the same for every car",
+          "pt": "É legalmente exatamente igual para todos os carros"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Man muss sie selbst schätzen, es gibt keine Angabe dazu",
+          "es": "Hay que estimarla tú mismo, no hay ningún dato al respecto",
+          "fr": "Il faut l'estimer soi-même, il n'existe aucune indication",
+          "it": "Bisogna stimarla da soli, non esiste alcuna indicazione",
+          "en": "You have to estimate it yourself, there is no such figure",
+          "pt": "Tens de a estimar sozinho, não existe qualquer indicação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die zulässige Dachlast steht im Fahrzeugausweis bzw. in den Fahrzeugunterlagen und liegt je nach Fahrzeug meist zwischen 50 und 100 kg.",
+      "es": "La carga de techo permitida figura en el permiso de circulación o en la documentación del vehículo, y suele estar entre 50 y 100 kg según el modelo.",
+      "fr": "La charge de toit autorisée figure dans le permis de circulation ou les documents du véhicule, et se situe généralement entre 50 et 100 kg selon le véhicule.",
+      "it": "Il carico sul tetto ammesso è indicato nella licenza di circolazione ovvero nei documenti del veicolo e di solito è compreso tra 50 e 100 kg a seconda del veicolo.",
+      "en": "The permitted roof load is stated in the vehicle registration document or vehicle papers and is usually between 50 and 100 kg depending on the vehicle.",
+      "pt": "A carga de teto permitida consta no documento de circulação ou na documentação do veículo e situa-se geralmente entre 50 e 100 kg, consoante o veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q325",
+    "category": "both",
+    "topic": "dachtransport",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie verändert eine beladene Dachbox das Fahrverhalten deines Autos?",
+      "es": "¿Cómo cambia una baca de techo cargada el comportamiento de conducción de tu coche?",
+      "fr": "Comment un coffre de toit chargé modifie-t-il le comportement routier de ta voiture ?",
+      "it": "Come cambia una box da tetto carica il comportamento di guida della tua auto?",
+      "en": "How does a loaded roof box change your car's driving behaviour?",
+      "pt": "Como muda uma caixa de teto carregada o comportamento de condução do teu carro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Höherer Schwerpunkt, mehr Gewicht und mehr Luftwiderstand verlängern den Bremsweg und verschlechtern das Kurvenverhalten",
+          "es": "Un centro de gravedad más alto, más peso y más resistencia al aire alargan la distancia de frenado y empeoran el comportamiento en curvas",
+          "fr": "Un centre de gravité plus élevé, plus de poids et plus de résistance à l'air allongent la distance de freinage et détériorent la tenue en virage",
+          "it": "Un baricentro più alto, più peso e più resistenza dell'aria allungano lo spazio di frenata e peggiorano il comportamento in curva",
+          "en": "A higher centre of gravity, more weight and more air resistance lengthen the braking distance and worsen cornering behaviour",
+          "pt": "Um centro de gravidade mais elevado, mais peso e mais resistência do ar aumentam a distância de travagem e pioram o comportamento em curva"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Fahrverhalten bleibt komplett unverändert",
+          "es": "El comportamiento de conducción no cambia en absoluto",
+          "fr": "Le comportement routier reste totalement inchangé",
+          "it": "Il comportamento di guida resta del tutto invariato",
+          "en": "The driving behaviour remains completely unchanged",
+          "pt": "O comportamento de condução mantém-se totalmente inalterado"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Auto wird dadurch spürbar wendiger und bremst kürzer",
+          "es": "El coche se vuelve notablemente más ágil y frena en menos distancia",
+          "fr": "La voiture devient nettement plus maniable et freine plus court",
+          "it": "L'auto diventa sensibilmente più agile e frena più corto",
+          "en": "The car becomes noticeably more agile and brakes shorter",
+          "pt": "O carro torna-se sensivelmente mais ágil e trava mais curto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Eine Dachbox erhöht den Schwerpunkt, das Gewicht und den Luftwiderstand — das verlängert den Bremsweg, verschlechtert das Kurvenverhalten und macht das Fahrzeug empfindlicher für Seitenwind.",
+      "es": "Una baca de techo eleva el centro de gravedad, el peso y la resistencia al aire; eso alarga la distancia de frenado, empeora el comportamiento en curvas y hace el coche más sensible al viento lateral.",
+      "fr": "Un coffre de toit augmente le centre de gravité, le poids et la résistance à l'air – cela allonge la distance de freinage, détériore la tenue en virage et rend le véhicule plus sensible au vent latéral.",
+      "it": "Una box da tetto aumenta il baricentro, il peso e la resistenza dell'aria – questo allunga lo spazio di frenata, peggiora il comportamento in curva e rende il veicolo più sensibile al vento laterale.",
+      "en": "A roof box raises the centre of gravity, weight and air resistance — this lengthens the braking distance, worsens cornering and makes the vehicle more sensitive to crosswinds.",
+      "pt": "Uma caixa de teto eleva o centro de gravidade, o peso e a resistência do ar – isso aumenta a distância de travagem, piora o comportamento em curva e torna o veículo mais sensível ao vento lateral."
+    },
+    "image": null
+  },
+  {
+    "id": "q326",
+    "category": "both",
+    "topic": "dachtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was solltest du beim Fahren mit beladener Dachbox anpassen?",
+      "es": "¿Qué deberías ajustar al conducir con la baca de techo cargada?",
+      "fr": "Que devrais-tu adapter en conduisant avec un coffre de toit chargé ?",
+      "it": "Cosa dovresti adattare guidando con una box da tetto carica?",
+      "en": "What should you adjust when driving with a loaded roof box?",
+      "pt": "O que deves ajustar ao conduzir com a caixa de teto carregada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Geschwindigkeit reduzieren und mehr Abstand zum Vordermann halten",
+          "es": "Reducir la velocidad y mantener más distancia con el vehículo de delante",
+          "fr": "Réduire la vitesse et garder plus de distance avec le véhicule qui précède",
+          "it": "Ridurre la velocità e mantenere più distanza dal veicolo che precede",
+          "en": "Reduce speed and keep more distance from the vehicle ahead",
+          "pt": "Reduzir a velocidade e manter mais distância do veículo da frente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, du kannst genau wie sonst fahren",
+          "es": "Nada, puedes conducir exactamente igual que siempre",
+          "fr": "Rien, tu peux conduire exactement comme d'habitude",
+          "it": "Niente, puoi guidare esattamente come al solito",
+          "en": "Nothing, you can drive exactly as usual",
+          "pt": "Nada, podes conduzir exatamente como habitualmente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die Reifen wechseln, sonst ändert sich nichts",
+          "es": "Solo cambiar los neumáticos, lo demás no cambia",
+          "fr": "Seulement changer les pneus, le reste ne change pas",
+          "it": "Solo cambiare gli pneumatici, il resto non cambia",
+          "en": "Only change the tyres, nothing else changes",
+          "pt": "Só mudar os pneus, o resto não muda"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wegen des veränderten Fahrverhaltens (längerer Bremsweg, mehr Seitenwindempfindlichkeit) solltest du mit beladener Dachbox langsamer fahren und mehr Abstand halten.",
+      "es": "Debido al comportamiento de conducción alterado (más distancia de frenado, más sensibilidad al viento lateral), con la baca cargada deberías circular más despacio y guardar más distancia.",
+      "fr": "En raison du comportement routier modifié (distance de freinage plus longue, plus grande sensibilité au vent latéral), tu devrais rouler plus lentement et garder plus de distance avec un coffre de toit chargé.",
+      "it": "A causa del comportamento di guida modificato (spazio di frenata più lungo, maggiore sensibilità al vento laterale), con la box da tetto carica dovresti guidare più piano e mantenere più distanza.",
+      "en": "Because of the altered driving behaviour (longer braking distance, more sensitivity to crosswinds), you should drive more slowly and keep more distance with a loaded roof box.",
+      "pt": "Devido ao comportamento de condução alterado (maior distância de travagem, maior sensibilidade ao vento lateral), deves conduzir mais devagar e manter mais distância com a caixa de teto carregada."
+    },
+    "image": null
+  },
+  {
+    "id": "q327",
+    "category": "both",
+    "topic": "gruenekarte",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Brauchst du eine Grüne Karte, um mit deinem Schweizer Auto in ein EWR-Land zu fahren?",
+      "es": "¿Necesitas una carta verde para viajar con tu coche suizo a un país del EEE?",
+      "fr": "As-tu besoin d'une carte verte pour te rendre avec ta voiture suisse dans un pays de l'EEE ?",
+      "it": "Ti serve una carta verde per recarti con la tua auto svizzera in un paese SEE?",
+      "en": "Do you need a green card to drive your Swiss car into an EEA country?",
+      "pt": "Precisas de uma carta verde para ires com o teu carro suíço a um país do EEE?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, dank des Kennzeichenabkommens gilt das gültige amtliche Kontrollschild bereits als Versicherungsnachweis",
+          "es": "No, gracias al convenio de matrículas, la matrícula oficial válida ya se considera prueba del seguro",
+          "fr": "Non, grâce à l'accord sur les plaques d'immatriculation, la plaque officielle valide vaut déjà comme preuve d'assurance",
+          "it": "No, grazie all'accordo sulle targhe, la targa ufficiale valida vale già come prova assicurativa",
+          "en": "No, thanks to the number-plate agreement, a valid official plate already counts as proof of insurance",
+          "pt": "Não, graças ao acordo de matrículas, a matrícula oficial válida já conta como prova de seguro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, ohne Grüne Karte darfst du in kein europäisches Land einreisen",
+          "es": "Sí, sin carta verde no puedes entrar en ningún país europeo",
+          "fr": "Oui, sans carte verte tu ne peux entrer dans aucun pays européen",
+          "it": "Sì, senza carta verde non puoi entrare in nessun paese europeo",
+          "en": "Yes, without a green card you may not enter any European country",
+          "pt": "Sim, sem carta verde não podes entrar em nenhum país europeu"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur für Fahrten nach Deutschland",
+          "es": "Sí, pero solo para viajes a Alemania",
+          "fr": "Oui, mais seulement pour les trajets vers l'Allemagne",
+          "it": "Sì, ma solo per i viaggi in Germania",
+          "en": "Yes, but only for trips to Germany",
+          "pt": "Sim, mas só para viagens à Alemanha"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In den EWR-Staaten sowie in der Schweiz gilt das Kennzeichenabkommen: Das gültige amtliche Kontrollschild allein gilt bereits als Nachweis einer bestehenden Haftpflichtversicherung, eine Grüne Karte ist nicht zwingend.",
+      "es": "En los países del EEE y en Suiza rige el convenio de matrículas: la matrícula oficial válida ya sirve como prueba de que existe un seguro de responsabilidad civil, sin necesidad de una carta verde.",
+      "fr": "Dans les États de l'EEE ainsi qu'en Suisse s'applique l'accord sur les plaques d'immatriculation : la plaque officielle valide seule vaut déjà preuve d'une assurance responsabilité civile existante, une carte verte n'est pas obligatoire.",
+      "it": "Negli Stati SEE e in Svizzera vale l'accordo sulle targhe: la targa ufficiale valida da sola vale già come prova di un'assicurazione di responsabilità civile esistente, la carta verde non è obbligatoria.",
+      "en": "In the EEA states as well as Switzerland, the number-plate agreement applies: the valid official plate alone already serves as proof of existing liability insurance, a green card is not mandatory.",
+      "pt": "Nos Estados do EEE, bem como na Suíça, aplica-se o acordo de matrículas: a matrícula oficial válida por si só já serve como prova de um seguro de responsabilidade civil existente, uma carta verde não é obrigatória."
+    },
+    "image": null
+  },
+  {
+    "id": "q328",
+    "category": "both",
+    "topic": "gruenekarte",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wofür dient die Grüne Karte, wenn sie nicht zwingend vorgeschrieben ist?",
+      "es": "¿Para qué sirve la carta verde si no es obligatoria?",
+      "fr": "À quoi sert la carte verte si elle n'est pas obligatoire ?",
+      "it": "A cosa serve la carta verde se non è obbligatoria?",
+      "en": "What is the green card for, if it is not mandatory?",
+      "pt": "Para que serve a carta verde, se não é obrigatória?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie weist die Haftpflichtversicherung mehrsprachig aus und erleichtert die Schadensregulierung im Ausland",
+          "es": "Acredita el seguro de responsabilidad civil en varios idiomas y facilita la tramitación de siniestros en el extranjero",
+          "fr": "Elle atteste l'assurance responsabilité civile en plusieurs langues et facilite le règlement des sinistres à l'étranger",
+          "it": "Attesta l'assicurazione di responsabilità civile in più lingue e facilita la liquidazione dei danni all'estero",
+          "en": "It states the liability insurance in several languages and simplifies claims handling abroad",
+          "pt": "Comprova o seguro de responsabilidade civil em várias línguas e facilita a regularização de sinistros no estrangeiro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie ersetzt den Fahrzeugausweis komplett",
+          "es": "Sustituye por completo el permiso de circulación",
+          "fr": "Elle remplace complètement le permis de circulation",
+          "it": "Sostituisce completamente la licenza di circolazione",
+          "en": "It completely replaces the vehicle registration document",
+          "pt": "Substitui completamente o documento de circulação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie ist nur ein touristisches Souvenir ohne praktischen Nutzen",
+          "es": "Es solo un recuerdo turístico sin utilidad práctica",
+          "fr": "Ce n'est qu'un souvenir touristique sans utilité pratique",
+          "it": "È solo un souvenir turistico senza utilità pratica",
+          "en": "It is just a tourist souvenir with no practical use",
+          "pt": "É apenas uma lembrança turística sem utilidade prática"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Grüne Karte enthält alle relevanten Informationen zum Fahrzeug und zur Haftpflichtversicherung in mehreren Sprachen und erleichtert dadurch die Verständigung und Schadensregulierung im Ausland.",
+      "es": "La carta verde contiene toda la información relevante sobre el vehículo y el seguro de responsabilidad civil en varios idiomas, lo que facilita el entendimiento y la gestión de siniestros en el extranjero.",
+      "fr": "La carte verte contient toutes les informations pertinentes sur le véhicule et l'assurance responsabilité civile en plusieurs langues, ce qui facilite la communication et le règlement des sinistres à l'étranger.",
+      "it": "La carta verde contiene tutte le informazioni rilevanti sul veicolo e sull'assicurazione di responsabilità civile in più lingue, facilitando così la comprensione e la liquidazione dei danni all'estero.",
+      "en": "The green card contains all the relevant information about the vehicle and the liability insurance in several languages, making communication and claims handling abroad easier.",
+      "pt": "A carta verde contém todas as informações relevantes sobre o veículo e o seguro de responsabilidade civil em várias línguas, facilitando assim a comunicação e a regularização de sinistros no estrangeiro."
+    },
+    "image": null
+  },
+  {
+    "id": "q329",
+    "category": "both",
+    "topic": "gruenekarte",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Für welche Länder wird empfohlen, die Grüne Karte trotzdem mitzuführen?",
+      "es": "¿Para qué países se recomienda llevar igualmente la carta verde?",
+      "fr": "Pour quels pays est-il recommandé d'emporter quand même la carte verte ?",
+      "it": "Per quali paesi si consiglia comunque di portare con sé la carta verde?",
+      "en": "For which countries is it recommended to carry the green card anyway?",
+      "pt": "Para que países se recomenda levar mesmo assim a carta verde?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Zum Beispiel für Italien und Grossbritannien",
+          "es": "Por ejemplo, para Italia y el Reino Unido",
+          "fr": "Par exemple pour l'Italie et le Royaume-Uni",
+          "it": "Ad esempio per Italia e Regno Unito",
+          "en": "For example, for Italy and the United Kingdom",
+          "pt": "Por exemplo, para a Itália e o Reino Unido"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Für gar kein Land, sie ist überall komplett nutzlos",
+          "es": "Para ningún país, no sirve absolutamente para nada",
+          "fr": "Pour aucun pays, elle est totalement inutile partout",
+          "it": "Per nessun paese, è del tutto inutile ovunque",
+          "en": "For no country at all, it is completely useless everywhere",
+          "pt": "Para nenhum país, é totalmente inútil em qualquer lugar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur für Fahrten innerhalb der Schweiz",
+          "es": "Solo para viajes dentro de Suiza",
+          "fr": "Seulement pour les trajets à l'intérieur de la Suisse",
+          "it": "Solo per i viaggi all'interno della Svizzera",
+          "en": "Only for trips within Switzerland",
+          "pt": "Só para viagens dentro da Suíça"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Obwohl die Grüne Karte in den meisten europäischen Ländern nicht mehr zwingend ist, wird empfohlen, sie z. B. für Fahrten nach Italien oder Grossbritannien trotzdem mitzuführen.",
+      "es": "Aunque la carta verde ya no es obligatoria en la mayoría de países europeos, se recomienda llevarla igualmente, por ejemplo, para viajar a Italia o al Reino Unido.",
+      "fr": "Bien que la carte verte ne soit plus obligatoire dans la plupart des pays européens, il est recommandé de l'emporter quand même, par exemple pour les trajets vers l'Italie ou le Royaume-Uni.",
+      "it": "Sebbene la carta verde non sia più obbligatoria nella maggior parte dei paesi europei, si consiglia di portarla comunque con sé, ad esempio per i viaggi in Italia o nel Regno Unito.",
+      "en": "Although the green card is no longer mandatory in most European countries, it is recommended to carry it anyway, e.g. for trips to Italy or the United Kingdom.",
+      "pt": "Embora a carta verde já não seja obrigatória na maioria dos países europeus, recomenda-se levá-la mesmo assim, por exemplo, para viagens a Itália ou ao Reino Unido."
+    },
+    "image": null
+  },
+  {
+    "id": "q330",
+    "category": "both",
+    "topic": "gruenekarte",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was bestätigt die Grüne Karte konkret?",
+      "es": "¿Qué acredita en concreto la carta verde?",
+      "fr": "Qu'atteste concrètement la carte verte ?",
+      "it": "Cosa attesta concretamente la carta verde?",
+      "en": "What does the green card specifically confirm?",
+      "pt": "O que comprova concretamente a carta verde?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dass eine Haftpflichtversicherung mit ausreichender Deckung für das Fahrzeug besteht",
+          "es": "Que existe un seguro de responsabilidad civil con cobertura suficiente para el vehículo",
+          "fr": "Qu'une assurance responsabilité civile avec une couverture suffisante existe pour le véhicule",
+          "it": "Che esiste un'assicurazione di responsabilità civile con copertura sufficiente per il veicolo",
+          "en": "That there is liability insurance with sufficient cover for the vehicle",
+          "pt": "Que existe um seguro de responsabilidade civil com cobertura suficiente para o veículo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Dass das Fahrzeug technisch geprüft und mängelfrei ist",
+          "es": "Que el vehículo ha pasado la inspección técnica y no tiene defectos",
+          "fr": "Que le véhicule a été techniquement contrôlé et est sans défaut",
+          "it": "Che il veicolo è stato controllato tecnicamente ed è privo di difetti",
+          "en": "That the vehicle has passed a technical inspection and is fault-free",
+          "pt": "Que o veículo passou por inspeção técnica e está sem defeitos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Dass der Fahrer eine gültige Fahrerlaubnis besitzt",
+          "es": "Que el conductor posee un permiso de conducir válido",
+          "fr": "Que le conducteur possède un permis de conduire valide",
+          "it": "Che il conducente possiede una patente di guida valida",
+          "en": "That the driver holds a valid driving licence",
+          "pt": "Que o condutor possui uma carta de condução válida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Grüne Karte bestätigt, dass für das Fahrzeug eine Haftpflichtversicherung mit ausreichend hoher Deckung besteht.",
+      "es": "La carta verde acredita que el vehículo cuenta con un seguro de responsabilidad civil con una cobertura suficientemente alta.",
+      "fr": "La carte verte atteste qu'une assurance responsabilité civile avec une couverture suffisamment élevée existe pour le véhicule.",
+      "it": "La carta verde attesta che per il veicolo esiste un'assicurazione di responsabilità civile con una copertura sufficientemente elevata.",
+      "en": "The green card confirms that the vehicle has liability insurance with sufficiently high cover.",
+      "pt": "A carta verde comprova que existe para o veículo um seguro de responsabilidade civil com cobertura suficientemente elevada."
+    },
+    "image": null
+  },
+  {
+    "id": "q331",
+    "category": "both",
+    "topic": "wechselschild",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Für wie viele Fahrzeuge darf in der Schweiz höchstens ein Wechselschild ausgestellt werden (Ausnahme Veteranenfahrzeuge)?",
+      "es": "¿Para cuántos vehículos como máximo se puede expedir en Suiza una matrícula intercambiable (excepto vehículos históricos)?",
+      "fr": "Pour combien de véhicules au maximum une plaque interchangeable peut-elle être établie en Suisse (exception faite des véhicules vétérans) ?",
+      "it": "Per quanti veicoli al massimo può essere rilasciata in Svizzera una targa intercambiabile (eccezione fatta per i veicoli d'epoca)?",
+      "en": "For how many vehicles at most may a shared/interchangeable plate be issued in Switzerland (except veteran vehicles)?",
+      "pt": "Para quantos veículos no máximo pode ser emitida na Suíça uma matrícula intercambiável (exceto veículos históricos)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Für höchstens zwei Fahrzeuge",
+          "es": "Para un máximo de dos vehículos",
+          "fr": "Pour au maximum deux véhicules",
+          "it": "Per al massimo due veicoli",
+          "en": "For at most two vehicles",
+          "pt": "Para no máximo dois veículos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Für beliebig viele Fahrzeuge",
+          "es": "Para tantos vehículos como se quiera",
+          "fr": "Pour un nombre illimité de véhicules",
+          "it": "Per un numero qualsiasi di veicoli",
+          "en": "For any number of vehicles",
+          "pt": "Para um número qualquer de veículos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Für höchstens ein einziges Fahrzeug — «Wechsel» ist dann gar nicht möglich",
+          "es": "Para un único vehículo como máximo; entonces no habría «intercambio» posible",
+          "fr": "Pour un seul véhicule au maximum – un « échange » n'est alors pas possible",
+          "it": "Per un solo veicolo al massimo – uno «scambio» non sarebbe allora possibile",
+          "en": "For only a single vehicle at most — no \"switching\" would then be possible",
+          "pt": "Para um único veículo no máximo – uma «troca» não seria então possível"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Wechselschild bzw. Wechselschilderpaar wird grundsätzlich für höchstens zwei Fahrzeuge ausgestellt (Ausnahme: Veteranenfahrzeuge).",
+      "es": "Una matrícula intercambiable (o par de matrículas) se expide en principio para un máximo de dos vehículos (excepción: vehículos históricos).",
+      "fr": "Une plaque interchangeable ou une paire de plaques est en principe établie pour au maximum deux véhicules (exception : véhicules vétérans).",
+      "it": "Una targa intercambiabile o una coppia di targhe viene in linea di massima rilasciata per al massimo due veicoli (eccezione: veicoli d'epoca).",
+      "en": "A shared plate (or pair of plates) is generally issued for at most two vehicles (exception: veteran vehicles).",
+      "pt": "Uma matrícula intercambiável ou par de matrículas é, em princípio, emitida para no máximo dois veículos (exceção: veículos históricos)."
+    },
+    "image": null
+  },
+  {
+    "id": "q332",
+    "category": "both",
+    "topic": "wechselschild",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Voraussetzung müssen die zwei Fahrzeuge erfüllen, für die ein Wechselschild ausgestellt wird?",
+      "es": "¿Qué requisito deben cumplir los dos vehículos para los que se expide una matrícula intercambiable?",
+      "fr": "Quelle condition les deux véhicules doivent-ils remplir pour qu'une plaque interchangeable leur soit attribuée ?",
+      "it": "Quale requisito devono soddisfare i due veicoli per cui viene rilasciata una targa intercambiabile?",
+      "en": "What condition must the two vehicles meet for a shared plate to be issued?",
+      "pt": "Que condição têm de cumprir os dois veículos para os quais é emitida uma matrícula intercambiável?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Gleicher Halter, gleicher Kanton und gleiche Fahrzeugart (z. B. beide Personenwagen)",
+          "es": "Mismo titular, mismo cantón y misma categoría de vehículo (p. ej. ambos turismos)",
+          "fr": "Même détenteur, même canton et même type de véhicule (p. ex. deux voitures de tourisme)",
+          "it": "Stesso detentore, stesso cantone e stesso tipo di veicolo (ad es. entrambe autovetture)",
+          "en": "Same owner, same canton and same vehicle category (e.g. both cars)",
+          "pt": "Mesmo titular, mesmo cantão e mesma categoria de veículo (por exemplo, ambos automóveis)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt überhaupt keine Voraussetzungen, jede Kombination ist möglich",
+          "es": "No hay ningún requisito, cualquier combinación es posible",
+          "fr": "Il n'existe aucune condition, toute combinaison est possible",
+          "it": "Non esiste alcun requisito, qualsiasi combinazione è possibile",
+          "en": "There are no conditions at all, any combination is possible",
+          "pt": "Não existe qualquer condição, qualquer combinação é possível"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur, dass beide Fahrzeuge die gleiche Farbe haben",
+          "es": "Solo que ambos vehículos sean del mismo color",
+          "fr": "Seulement que les deux véhicules soient de la même couleur",
+          "it": "Solo che i due veicoli abbiano lo stesso colore",
+          "en": "Only that both vehicles are the same colour",
+          "pt": "Só que ambos os veículos tenham a mesma cor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Wechselschild wird nur für Fahrzeuge desselben Halters mit Standort im gleichen Kanton und derselben Fahrzeugart (z. B. zwei Personenwagen oder zwei Motorräder) abgegeben.",
+      "es": "Una matrícula intercambiable solo se concede para vehículos del mismo titular, con ubicación en el mismo cantón y de la misma categoría (p. ej. dos turismos o dos motocicletas).",
+      "fr": "Une plaque interchangeable n'est délivrée que pour des véhicules du même détenteur, stationnés dans le même canton et du même type (p. ex. deux voitures de tourisme ou deux motos).",
+      "it": "Una targa intercambiabile viene rilasciata solo per veicoli dello stesso detentore, con sede nello stesso cantone e dello stesso tipo (ad es. due autovetture o due motocicli).",
+      "en": "A shared plate is only issued for vehicles of the same owner, based in the same canton, of the same vehicle category (e.g. two cars or two motorcycles).",
+      "pt": "Uma matrícula intercambiável só é concedida para veículos do mesmo titular, com sede no mesmo cantão e do mesmo tipo (por exemplo, dois automóveis ou duas motos)."
+    },
+    "image": null
+  },
+  {
+    "id": "q333",
+    "category": "both",
+    "topic": "wechselschild",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Darfst du mit einem Wechselschild beide zugehörigen Fahrzeuge gleichzeitig im Verkehr bewegen?",
+      "es": "¿Puedes circular con los dos vehículos asociados a una matrícula intercambiable al mismo tiempo?",
+      "fr": "Peux-tu faire circuler en même temps les deux véhicules associés à une plaque interchangeable ?",
+      "it": "Puoi far circolare contemporaneamente entrambi i veicoli associati a una targa intercambiabile?",
+      "en": "May you drive both vehicles associated with a shared plate on the road at the same time?",
+      "pt": "Podes circular com os dois veículos associados a uma matrícula intercambiável ao mesmo tempo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, zur gleichen Zeit darf nur eines der beiden Fahrzeuge mit dem Kontrollschild unterwegs sein",
+          "es": "No, al mismo tiempo solo puede circular con la matrícula uno de los dos vehículos",
+          "fr": "Non, à un moment donné, seul l'un des deux véhicules peut circuler avec la plaque",
+          "it": "No, allo stesso tempo può circolare con la targa solo uno dei due veicoli",
+          "en": "No, only one of the two vehicles may be on the road with the plate at any one time",
+          "pt": "Não, ao mesmo tempo só pode circular com a matrícula um dos dois veículos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das Schild gilt gleichzeitig für beide Fahrzeuge im Verkehr",
+          "es": "Sí, la matrícula vale simultáneamente para ambos vehículos en circulación",
+          "fr": "Oui, la plaque vaut simultanément pour les deux véhicules en circulation",
+          "it": "Sì, la targa vale contemporaneamente per entrambi i veicoli in circolazione",
+          "en": "Yes, the plate is valid for both vehicles on the road at the same time",
+          "pt": "Sim, a matrícula vale simultaneamente para ambos os veículos em circulação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, solange beide Fahrzeuge auf derselben Strasse fahren",
+          "es": "Sí, mientras ambos vehículos circulen por la misma calle",
+          "fr": "Oui, tant que les deux véhicules circulent sur la même route",
+          "it": "Sì, purché entrambi i veicoli circolino sulla stessa strada",
+          "en": "Yes, as long as both vehicles are driving on the same road",
+          "pt": "Sim, desde que ambos os veículos circulem na mesma via"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Wechselschild muss jeweils an dem Fahrzeug angebracht sein, das gerade gefahren wird — nur eines der beiden Fahrzeuge darf zur gleichen Zeit im Verkehr sein.",
+      "es": "La matrícula intercambiable debe estar colocada en el vehículo que se está usando en cada momento; solo uno de los dos vehículos puede circular a la vez.",
+      "fr": "La plaque interchangeable doit être fixée sur le véhicule effectivement utilisé – un seul des deux véhicules peut circuler à un moment donné.",
+      "it": "La targa intercambiabile deve essere montata sul veicolo effettivamente in uso — solo uno dei due veicoli può circolare alla volta.",
+      "en": "The shared plate must be fitted to whichever vehicle is currently being driven — only one of the two vehicles may be on the road at a time.",
+      "pt": "A matrícula intercambiável deve estar colocada no veículo que estiver a ser conduzido no momento – só um dos dois veículos pode circular de cada vez."
+    },
+    "image": null
+  },
+  {
+    "id": "q334",
+    "category": "both",
+    "topic": "wechselschild",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was ist der praktische Vorteil eines Wechselschilds für die Halterin oder den Halter?",
+      "es": "¿Cuál es la ventaja práctica de una matrícula intercambiable para el titular?",
+      "fr": "Quel est l'avantage pratique d'une plaque interchangeable pour le détenteur ?",
+      "it": "Qual è il vantaggio pratico di una targa intercambiabile per il detentore?",
+      "en": "What is the practical advantage of a shared plate for the owner?",
+      "pt": "Qual é a vantagem prática de uma matrícula intercambiável para o titular?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es müssen nicht zwei separate Kontrollschilder samt Versicherung und Steuer für beide Fahrzeuge gleichzeitig bezahlt werden",
+          "es": "No hace falta pagar dos matrículas separadas con seguro e impuesto para ambos vehículos a la vez",
+          "fr": "Il n'est pas nécessaire de payer deux plaques distinctes avec assurance et taxe pour les deux véhicules en même temps",
+          "it": "Non è necessario pagare due targhe separate con assicurazione e tassa per entrambi i veicoli contemporaneamente",
+          "en": "You do not have to pay for two separate plates with insurance and tax for both vehicles at the same time",
+          "pt": "Não é preciso pagar duas matrículas separadas com seguro e imposto para ambos os veículos ao mesmo tempo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt keinerlei praktischen Vorteil gegenüber zwei normalen Schildern",
+          "es": "No hay ninguna ventaja práctica frente a dos matrículas normales",
+          "fr": "Il n'y a aucun avantage pratique par rapport à deux plaques normales",
+          "it": "Non c'è alcun vantaggio pratico rispetto a due targhe normali",
+          "en": "There is no practical advantage at all compared to two normal plates",
+          "pt": "Não há qualquer vantagem prática em relação a duas matrículas normais"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es macht beide Fahrzeuge automatisch schneller",
+          "es": "Hace que ambos vehículos sean automáticamente más rápidos",
+          "fr": "Il rend automatiquement les deux véhicules plus rapides",
+          "it": "Rende automaticamente entrambi i veicoli più veloci",
+          "en": "It automatically makes both vehicles faster",
+          "pt": "Torna automaticamente ambos os veículos mais rápidos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Mit einem Wechselschild kann man zwischen zwei Fahrzeugen wechseln, ohne beide gleichzeitig separat anmelden, versichern und versteuern zu müssen — das spart Kosten, wenn nicht beide Fahrzeuge gleichzeitig gebraucht werden.",
+      "es": "Con una matrícula intercambiable se puede alternar entre dos vehículos sin tener que matricular, asegurar y pagar impuestos por separado para ambos a la vez; eso ahorra costes cuando no se necesitan ambos vehículos simultáneamente.",
+      "fr": "Avec une plaque interchangeable, on peut alterner entre deux véhicules sans devoir immatriculer, assurer et taxer les deux séparément en même temps – cela permet d'économiser des coûts lorsque les deux véhicules ne sont pas utilisés en même temps.",
+      "it": "Con una targa intercambiabile si può alternare tra due veicoli senza doverli immatricolare, assicurare e tassare separatamente entrambi allo stesso tempo — ciò fa risparmiare quando non servono entrambi i veicoli contemporaneamente.",
+      "en": "With a shared plate, you can switch between two vehicles without having to register, insure and tax both separately at the same time — this saves money when you do not need both vehicles simultaneously.",
+      "pt": "Com uma matrícula intercambiável pode-se alternar entre dois veículos sem ter de matricular, segurar e tributar ambos separadamente ao mesmo tempo – isso poupa custos quando não se precisa de ambos os veículos em simultâneo."
+    },
+    "image": null
   }
 ]
