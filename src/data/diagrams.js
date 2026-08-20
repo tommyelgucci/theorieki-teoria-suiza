@@ -195,7 +195,11 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 210, y: 330, angle: 0, color: '#ffffff', blinker: 'right' }],
-    arrows: [{ path: 'M 210 300 L 210 250 Q 210 180 270 180' }],
+    // 1ª salida = girar a la derecha "normal": un cuarto de círculo pequeño
+    // (radio 45) como en cualquier esquina, NO un arco grande siguiendo la
+    // curvatura del anillo. Recto, gira, recto: monótono hacia la derecha
+    // en todo momento, nunca se acerca al centro del kreisel.
+    arrows: [{ path: 'M 210 300 L 210 250 A 45 45 0 0 1 255 205 L 285 205' }],
   },
   kreisel_1ausfahrt_no_blinker: {
     elements: [
@@ -207,8 +211,24 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 210, y: 330, angle: 0, color: '#ffffff', blinker: null }],
-    arrows: [{ path: 'M 210 300 L 210 250 Q 210 180 270 180' }],
+    // 1ª salida = girar a la derecha "normal": un cuarto de círculo pequeño
+    // (radio 45) como en cualquier esquina, NO un arco grande siguiendo la
+    // curvatura del anillo. Recto, gira, recto: monótono hacia la derecha
+    // en todo momento, nunca se acerca al centro del kreisel.
+    arrows: [{ path: 'M 210 300 L 210 250 A 45 45 0 0 1 255 205 L 285 205' }],
   },
+  // Entra por el sur, sale por el norte (2ª salida): la trayectoria debe
+  // rodear el anillo por el ESTE (circulación por la derecha → sentido
+  // antihorario, isla central siempre a la izquierda del conductor), nunca
+  // cortar en línea recta por el centro como si fuera un cruce normal.
+  // Trazado en coordenadas polares reales sobre el centro del anillo
+  // (180,180), radio 78: curva de fusión (tangente vertical→tangente del
+  // círculo) + arco circular real (SVG A, radio exacto) + curva de salida
+  // que ENDEREZA la tangente a vertical para conectar con la calle de
+  // salida — antes el arco terminaba con la tangente del propio círculo
+  // (que ahí no es vertical) y la flecha quedaba apuntando de lado en vez
+  // de hacia la calle. Verificado punto a punto (100 muestras por tramo)
+  // contra la calzada real (calle ∪ anillo): 0 puntos fuera.
   kreisel_2ausfahrt_correct: {
     elements: [
       { type: 'grass', x: 0, y: 0, w: 360, h: 360 },
@@ -219,7 +239,7 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 190, y: 330, angle: 0, color: '#ffffff', blinker: null }],
-    arrows: [{ path: 'M 190 300 Q 190 180 152 100' }],
+    arrows: [{ path: 'M 190 300 C 190.0 270.0 200.2 261.1 224.7 243.9 A 78 78 0 0 0 219.0 112.5 C 196.5 99.5 190.0 108.0 190 82' }],
   },
   kreisel_2ausfahrt_wrong_blinker: {
     elements: [
@@ -231,11 +251,18 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 190, y: 330, angle: 0, color: '#ffffff', blinker: 'left' }],
-    arrows: [{ path: 'M 190 300 Q 190 180 152 100' }],
+    arrows: [{ path: 'M 190 300 C 190.0 270.0 200.2 261.1 224.7 243.9 A 78 78 0 0 0 219.0 112.5 C 196.5 99.5 190.0 108.0 190 82' }],
   },
   // Kreisel de doble carril: círculo divisorio discontinuo entre los dos
   // anillos; coche en el carril EXTERIOR queriendo la 3ª salida (mal: debería
   // ir por el interior y pasarse al exterior recién antes de salir).
+  // El coche ya está circulando (no entra desde una calle): arranca en el
+  // punto norte del anillo (radio 85, carril exterior) mirando ya hacia el
+  // oeste — coincidencia real de la geometría, la tangente en el punto norte
+  // es horizontal — y de ahí un arco real (radio 85) hasta cerca de la
+  // salida oeste, con una curva final que endereza la tangente a horizontal
+  // para conectar con la calle (si no, llegaría mirando hacia el sur).
+  // Verificado punto a punto contra la calzada real: 0 fuera.
   kreisel_doppelspurig_wrong: {
     elements: [
       { type: 'grass', x: 0, y: 0, w: 360, h: 360 },
@@ -247,7 +274,7 @@ export const DIAGRAMS = {
       { type: 'circleOutline', x: 180, y: 180, r: 71 },
     ],
     cars: [{ x: 180, y: 95, angle: -90, color: '#ffffff', blinker: null }],
-    arrows: [{ path: 'M 180 95 Q 100 95 60 180' }],
+    arrows: [{ path: 'M 180 95 A 85 85 0 0 0 103.0 144.1 C 92.4 166.7 80 178 60 178' }],
   },
   // Giro a la izquierda: A gira, B viene de frente recto → B primero.
   linksabbiegen: {
