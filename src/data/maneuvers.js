@@ -660,6 +660,15 @@ export const MANEUVERS = [
         wheel: 'straight',
         reverse: true,
         blinker: 'left',
+        extraCars: [
+          {
+            color: '#c0392b',
+            keyframes: [
+              { t: 0, x: -20, y: 338, angle: 90 },
+              { t: 1, x: 10, y: 338, angle: 90 },
+            ],
+          },
+        ],
       },
       {
         caption: {
@@ -674,15 +683,24 @@ export const MANEUVERS = [
         keyframes: [
           { t: 0, x: 180, y: 255, angle: 0 },
           { t: 0.35, x: 158, y: 284, angle: 30 },
-          { t: 0.7, x: 118, y: 300, angle: 65 },
-          { t: 1, x: 88, y: 302, angle: 90 },
+          { t: 0.7, x: 118, y: 300, angle: 78 },
+          { t: 1, x: 88, y: 294, angle: 90 },
         ],
         wheel: 'left',
         reverse: true,
         blinker: 'left',
         guides: [
-          { x1: 136, y1: 280, x2: 30, y2: 280 },
-          { x1: 136, y1: 308, x2: 30, y2: 308 },
+          { x1: 136, y1: 272, x2: 30, y2: 272 },
+          { x1: 136, y1: 300, x2: 30, y2: 300 },
+        ],
+        extraCars: [
+          {
+            color: '#c0392b',
+            keyframes: [
+              { t: 0, x: 10, y: 338, angle: 90 },
+              { t: 1, x: 40, y: 338, angle: 90 },
+            ],
+          },
         ],
       },
       {
@@ -696,8 +714,8 @@ export const MANEUVERS = [
         },
         duration: 1600,
         keyframes: [
-          { t: 0, x: 88, y: 302, angle: 90 },
-          { t: 1, x: 76, y: 302, angle: 90 },
+          { t: 0, x: 88, y: 294, angle: 90 },
+          { t: 1, x: 76, y: 294, angle: 90 },
         ],
         wheel: 'straight',
         reverse: true,
@@ -706,8 +724,8 @@ export const MANEUVERS = [
           {
             color: '#c0392b',
             keyframes: [
-              { t: 0, x: 60, y: 338, angle: 90 },
-              { t: 1, x: 60, y: 338, angle: 90 },
+              { t: 0, x: 40, y: 338, angle: 90 },
+              { t: 1, x: 66, y: 338, angle: 90 },
             ],
           },
         ],
