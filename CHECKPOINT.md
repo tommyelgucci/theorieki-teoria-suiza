@@ -8,6 +8,30 @@ recordar.
 
 ---
 
+## 2026-08-19 (10) — Fix: hueco sin césped en `junctionScene()`
+
+**Contexto:** el usuario mandó una captura de la misma maniobra (`laengere_strecke_rueckwaerts`,
+paso 6) donde se veía un rectángulo blanco (transparente) junto a la calle secundaria, a la
+derecha del cruce en T, en vez de césped.
+
+**Diagnóstico:** en `junctionScene()` los dos rectángulos de césped superior e inferior
+(`y:0-270` y `y:360-560`) cubren el ancho completo del lienzo, pero la calle secundaria
+(`road x:0-300, y:270-360`) solo llega hasta `x:300` — la franja `x:300-360, y:270-360`
+(60×90) no tenía ningún elemento, quedaba transparente. `junctionRightScene()` (el espejo,
+con la calle secundaria saliendo a la derecha) no tiene este problema porque su césped
+lateral (`x:0-60`) cubre la altura completa del lienzo de una sola vez, sin el split
+superior/inferior.
+
+**Fix:** un rectángulo de césped nuevo, `{ x: 300, y: 270, w: 60, h: 90 }`, que tapa
+exactamente ese hueco. No afecta a ningún `road`/`curbLine` existente ni a las dos
+maniobras que comparten esta escena (`links_abbiegen_einspuren` y
+`laengere_strecke_rueckwaerts`).
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), captura de pantalla del paso 6 confirmando el césped relleno.
+
+---
+
 ## 2026-08-19 (9) — Fix: coches solapados en el paso final de "Tramo largo marcha atrás"
 
 **Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
