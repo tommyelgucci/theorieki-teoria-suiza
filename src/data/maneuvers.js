@@ -217,6 +217,32 @@ function ausweichenScene() {
   }
 }
 
+function kreiselScene() {
+  return {
+    elements: [
+      // Cuadrado invisible que cubre la zona del anillo (más margen), solo para
+      // que maneuvers.test.js (que únicamente conoce rectángulos `road`) vea
+      // "asfalto" bajo la trayectoria curva del coche. Queda oculto: el
+      // `grass` de fondo se dibuja justo encima y el `ring` tapa el resto.
+      { type: 'road', x: 30, y: 130, w: 300, h: 300 },
+      { type: 'grass', x: 0, y: 0, w: CANVAS.w, h: CANVAS.h },
+      // Los 4 tramos rectos llegan hasta el CENTRO del anillo (180,280), no
+      // solo hasta su borde: el borde del `ring` es curvo y un rectángulo
+      // recto que termine justo en el radio exterior deja una franja de
+      // césped sin cubrir en cuanto x/y se aparta de la línea central (el
+      // coche gira ahí). Con el tramo llegando al centro no hay hueco
+      // posible; el `ring`, dibujado después, tapa visualmente el resto.
+      // Ancho generoso (120, antes 76) para dar margen de sobra a las curvas
+      // de las 4 variantes sin tener que perseguir el redondeo píxel a píxel.
+      { type: 'road', x: 115, y: 0, w: 130, h: 280 },
+      { type: 'road', x: 115, y: 280, w: 130, h: 280 },
+      { type: 'road', x: 0, y: 215, w: 180, h: 130 },
+      { type: 'road', x: 180, y: 215, w: 180, h: 130 },
+      { type: 'ring', x: 180, y: 280, rOuter: 100, rInner: 42 },
+    ],
+  }
+}
+
 export const MANEUVERS = [
   {
     id: 'seitwaerts_rueckwaerts',
@@ -1569,6 +1595,275 @@ export const MANEUVERS = [
           { t: 1, x: 178, y: 110, angle: 0 },
         ],
         steer: 15,
+      },
+    ],
+  },
+  // Regla de blinker verificada en fuentes suizas (TCS, BFU, ACS), no en
+  // material genérico de otros países: 1ª salida, sin obligación pero
+  // permitido blinker derecho ya antes de entrar; 2ª salida o más, se entra
+  // SIN blinker y centrado, y el blinker derecho se pone recién a la altura
+  // de la salida ANTERIOR a la propia (no al llegar a la propia). El
+  // blinker izquierdo al circular no es obligatorio ni el uso estándar en
+  // Suiza, así que no se representa. Los ciclistas en un kreisel suizo
+  // circulan centrados en su carril (no pegados al borde), lo contrario de
+  // lo que muestran algunas infografías de otros países — por eso esta
+  // maniobra no dibuja ciclistas, para no sugerir ese comportamiento.
+  {
+    id: 'kreisverkehr_ausfahrt',
+    category: 'B',
+    icon: 'roundaboutWarn',
+    title: {
+      de: 'Kreisel: die richtige Ausfahrt nehmen',
+      es: 'Rotonda: tomar la salida correcta',
+      fr: 'Giratoire : prendre la bonne sortie',
+      it: 'Rotatoria: prendere l’uscita giusta',
+      en: 'Roundabout: taking the right exit',
+      pt: 'Rotunda: escolher a saída certa',
+    },
+    scene: kreiselScene(),
+    variants: [
+      {
+        id: '1_ausfahrt',
+        label: { de: '1. Ausfahrt', es: '1ª salida', fr: '1ère sortie', it: '1ª uscita', en: '1st exit', pt: '1ª saída' },
+        steps: [
+          {
+            caption: {
+              de: 'Schritt 1: Rechten Blinker setzen – das ist schon vor der Einfahrt erlaubt –, nah am rechten Fahrbahnrand bleiben (keine Lücke für Velos lassen) und bei der 1. Ausfahrt verlassen.',
+              es: 'Paso 1: Pon el intermitente derecho (puedes hacerlo ya antes de entrar), mantente pegado al borde derecho de la calzada (sin dejar hueco para bicis) y sal por la 1ª salida.',
+              fr: 'Étape 1 : Mets le clignotant droit (autorisé déjà avant l’entrée), reste près du bord droit de la chaussée (sans laisser de place pour les vélos) et sors à la 1ère sortie.',
+              it: 'Passo 1: Metti la freccia destra (puoi farlo già prima di entrare), resta vicino al bordo destro della carreggiata (senza lasciare spazio alle bici) ed esci alla 1ª uscita.',
+              en: 'Step 1: Indicate right – you may already do this before entering –, stay close to the right edge of the road (don’t leave a gap for cyclists) and exit at the 1st exit.',
+              pt: 'Passo 1: Liga o pisca direito (podes fazê-lo já antes de entrar), mantém-te junto ao bordo direito da faixa (sem deixar espaço para bicicletas) e sai pela 1ª saída.',
+            },
+            duration: 2600,
+            // Giro a la derecha "normal", cuarto de círculo pequeño (radio 45)
+            // — NO un arco grande siguiendo la curvatura del anillo. Recto,
+            // gira, recto: x crece todo el tiempo, nunca se acerca al centro
+            // del kreisel. Coordenadas generadas y verificadas por script
+            // (carril = eje del brazo ± 32.5, radio de giro 45) contra la
+            // calzada real: desviación máxima 0.0px en las 4 variantes.
+            keyframes: [
+              { t: 0, x: 212.5, y: 410, angle: 0 },
+              { t: 0.15, x: 212.5, y: 350, angle: 0 },
+              { t: 0.3375, x: 215.9, y: 332.8, angle: 22.5 },
+              { t: 0.525, x: 225.7, y: 318.2, angle: 45 },
+              { t: 0.7125, x: 240.3, y: 308.4, angle: 67.5 },
+              { t: 0.9, x: 257.5, y: 305, angle: 90 },
+              { t: 1, x: 310, y: 312.5, angle: 90 },
+            ],
+            wheel: 'right',
+            blinker: 'right',
+          },
+        ],
+      },
+      {
+        id: '2_ausfahrt',
+        label: { de: '2. Ausfahrt', es: '2ª salida', fr: '2ème sortie', it: '2ª uscita', en: '2nd exit', pt: '2ª saída' },
+        steps: [
+          {
+            caption: {
+              de: 'Schritt 1: Ohne Blinker einfahren und mittig im Kreisel bleiben – du lässt die 1. Ausfahrt (rechts) aus.',
+              es: 'Paso 1: Entra sin intermitente y mantente centrado en el carril – dejas pasar la 1ª salida (a la derecha).',
+              fr: 'Étape 1 : Entre sans clignotant et reste centré dans la voie – tu laisses passer la 1ère sortie (à droite).',
+              it: 'Passo 1: Entra senza freccia e resta centrato nella corsia – lasci passare la 1ª uscita (a destra).',
+              en: 'Step 1: Enter without indicating and stay centred in the lane – you let the 1st exit (on the right) pass.',
+              pt: 'Passo 1: Entra sem pisca e mantém-te centrado na faixa – deixas passar a 1ª saída (à direita).',
+            },
+            duration: 2400,
+            // Arco circular real (radio 70 alrededor del centro del anillo, 180/280):
+            // x = 180 + 70·sen(φ), y = 280 + 70·cos(φ), con φ de ~20° a 90°. Así se
+            // encadena sin quiebres con el resto de los pasos, que son tramos del
+            // mismo círculo (ver comentario más abajo, tramo φ 90°→180°).
+            keyframes: [
+              { t: 0, x: 212.5, y: 410, angle: 0 },
+              { t: 0.18, x: 208.2, y: 374.7, angle: 30 },
+              { t: 0.35, x: 203.9, y: 345.8, angle: 70 },
+              { t: 0.5125, x: 222.6, y: 335.5, angle: 52.5 },
+              { t: 0.675, x: 237.3, y: 320.2, angle: 35 },
+              { t: 0.8375, x: 246.8, y: 301, angle: 17.5 },
+              { t: 1, x: 250, y: 280, angle: 0 },
+            ],
+            wheel: 'right',
+          },
+          {
+            caption: {
+              de: 'Schritt 2: Rechten Blinker setzen auf Höhe der vorherigen Ausfahrt (hier: der 1.) und bei der 2. Ausfahrt verlassen.',
+              es: 'Paso 2: Pon el intermitente derecho a la altura de la salida anterior (aquí, la 1ª) y sal por la 2ª salida.',
+              fr: 'Étape 2 : Mets le clignotant droit à hauteur de la sortie précédente (ici, la 1ère) et sors à la 2ème sortie.',
+              it: 'Passo 2: Metti la freccia destra all’altezza dell’uscita precedente (qui, la 1ª) ed esci alla 2ª uscita.',
+              en: 'Step 2: Indicate right level with the previous exit (here, the 1st) and exit at the 2nd exit.',
+              pt: 'Passo 2: Liga o pisca direito ao nível da saída anterior (aqui, a 1ª) e sai pela 2ª saída.',
+            },
+            duration: 2600,
+            keyframes: [
+              { t: 0, x: 250, y: 280, angle: 0 },
+              { t: 0.1875, x: 246.8, y: 259, angle: -17.5 },
+              { t: 0.375, x: 237.3, y: 239.8, angle: -35 },
+              { t: 0.5625, x: 222.6, y: 224.5, angle: -52.5 },
+              { t: 0.75, x: 203.9, y: 214.2, angle: -70 },
+              { t: 0.9, x: 208.2, y: 182.1, angle: -35 },
+              { t: 1, x: 212.5, y: 150, angle: 0 },
+            ],
+            wheel: 'left',
+            blinker: 'right',
+          },
+        ],
+      },
+      {
+        id: '3_ausfahrt',
+        label: { de: '3. Ausfahrt', es: '3ª salida', fr: '3ème sortie', it: '3ª uscita', en: '3rd exit', pt: '3ª saída' },
+        steps: [
+          {
+            caption: {
+              de: 'Schritt 1: Ohne Blinker einfahren und mittig im Kreisel bleiben – du lässt die 1. Ausfahrt (rechts) aus.',
+              es: 'Paso 1: Entra sin intermitente y mantente centrado en el carril – dejas pasar la 1ª salida (a la derecha).',
+              fr: 'Étape 1 : Entre sans clignotant et reste centré dans la voie – tu laisses passer la 1ère sortie (à droite).',
+              it: 'Passo 1: Entra senza freccia e resta centrato nella corsia – lasci passare la 1ª uscita (a destra).',
+              en: 'Step 1: Enter without indicating and stay centred in the lane – you let the 1st exit (on the right) pass.',
+              pt: 'Passo 1: Entra sem pisca e mantém-te centrado na faixa – deixas passar a 1ª saída (à direita).',
+            },
+            duration: 2400,
+            keyframes: [
+              { t: 0, x: 212.5, y: 410, angle: 0 },
+              { t: 0.18, x: 208.2, y: 374.7, angle: 30 },
+              { t: 0.35, x: 203.9, y: 345.8, angle: 70 },
+              { t: 0.5125, x: 222.6, y: 335.5, angle: 52.5 },
+              { t: 0.675, x: 237.3, y: 320.2, angle: 35 },
+              { t: 0.8375, x: 246.8, y: 301, angle: 17.5 },
+              { t: 1, x: 250, y: 280, angle: 0 },
+            ],
+            wheel: 'right',
+          },
+          {
+            caption: {
+              de: 'Schritt 2: Weiterhin ohne Blinker mittig bleiben – du lässt jetzt auch die 2. Ausfahrt aus.',
+              es: 'Paso 2: Sigue centrado, sin intermitente – ahora dejas pasar también la 2ª salida.',
+              fr: 'Étape 2 : Reste centré, toujours sans clignotant – tu laisses passer aussi la 2ème sortie.',
+              it: 'Passo 2: Resta centrato, ancora senza freccia – ora lasci passare anche la 2ª uscita.',
+              en: 'Step 2: Stay centred, still without indicating – now you let the 2nd exit pass too.',
+              pt: 'Passo 2: Continua centrado, ainda sem pisca – agora deixas passar também a 2ª saída.',
+            },
+            duration: 2200,
+            // Mismo círculo (r=70), tramo φ 90°→180°: continúa sin salir.
+            keyframes: [
+              { t: 0, x: 250, y: 280, angle: 0 },
+              { t: 0.25, x: 244.7, y: 253.2, angle: -22.5 },
+              { t: 0.5, x: 229.5, y: 230.5, angle: -45 },
+              { t: 0.75, x: 206.8, y: 215.3, angle: -67.5 },
+              { t: 1, x: 180, y: 210, angle: -90 },
+            ],
+            wheel: 'left',
+          },
+          {
+            caption: {
+              de: 'Schritt 3: Rechten Blinker setzen auf Höhe der vorherigen Ausfahrt (hier: der 2.) und bei der 3. Ausfahrt verlassen.',
+              es: 'Paso 3: Pon el intermitente derecho a la altura de la salida anterior (aquí, la 2ª) y sal por la 3ª salida.',
+              fr: 'Étape 3 : Mets le clignotant droit à hauteur de la sortie précédente (ici, la 2ème) et sors à la 3ème sortie.',
+              it: 'Passo 3: Metti la freccia destra all’altezza dell’uscita precedente (qui, la 2ª) ed esci alla 3ª uscita.',
+              en: 'Step 3: Indicate right level with the previous exit (here, the 2nd) and exit at the 3rd exit.',
+              pt: 'Passo 3: Liga o pisca direito ao nível da saída anterior (aqui, a 2ª) e sai pela 3ª saída.',
+            },
+            duration: 2600,
+            keyframes: [
+              { t: 0, x: 180, y: 210, angle: -90 },
+              { t: 0.1875, x: 159, y: 213.2, angle: -107.5 },
+              { t: 0.375, x: 139.8, y: 222.7, angle: -125 },
+              { t: 0.5625, x: 124.5, y: 237.4, angle: -142.5 },
+              { t: 0.75, x: 114.2, y: 256.1, angle: -160 },
+              { t: 0.9, x: 82.1, y: 251.8, angle: -125 },
+              { t: 1, x: 50, y: 247.5, angle: -90 },
+            ],
+            wheel: 'left',
+            blinker: 'right',
+          },
+        ],
+      },
+      {
+        id: '4_ausfahrt',
+        label: { de: '4. Ausfahrt', es: '4ª salida', fr: '4ème sortie', it: '4ª uscita', en: '4th exit', pt: '4ª saída' },
+        steps: [
+          {
+            caption: {
+              de: 'Schritt 1: Ohne Blinker einfahren und mittig im Kreisel bleiben – du lässt die 1. Ausfahrt (rechts) aus.',
+              es: 'Paso 1: Entra sin intermitente y mantente centrado en el carril – dejas pasar la 1ª salida (a la derecha).',
+              fr: 'Étape 1 : Entre sans clignotant et reste centré dans la voie – tu laisses passer la 1ère sortie (à droite).',
+              it: 'Passo 1: Entra senza freccia e resta centrato nella corsia – lasci passare la 1ª uscita (a destra).',
+              en: 'Step 1: Enter without indicating and stay centred in the lane – you let the 1st exit (on the right) pass.',
+              pt: 'Passo 1: Entra sem pisca e mantém-te centrado na faixa – deixas passar a 1ª saída (à direita).',
+            },
+            duration: 2400,
+            keyframes: [
+              { t: 0, x: 212.5, y: 410, angle: 0 },
+              { t: 0.18, x: 208.2, y: 374.7, angle: 30 },
+              { t: 0.35, x: 203.9, y: 345.8, angle: 70 },
+              { t: 0.5125, x: 222.6, y: 335.5, angle: 52.5 },
+              { t: 0.675, x: 237.3, y: 320.2, angle: 35 },
+              { t: 0.8375, x: 246.8, y: 301, angle: 17.5 },
+              { t: 1, x: 250, y: 280, angle: 0 },
+            ],
+            wheel: 'right',
+          },
+          {
+            caption: {
+              de: 'Schritt 2: Weiterhin ohne Blinker mittig bleiben – du lässt jetzt auch die 2. Ausfahrt aus.',
+              es: 'Paso 2: Sigue centrado, sin intermitente – ahora dejas pasar también la 2ª salida.',
+              fr: 'Étape 2 : Reste centré, toujours sans clignotant – tu laisses passer aussi la 2ème sortie.',
+              it: 'Passo 2: Resta centrato, ancora senza freccia – ora lasci passare anche la 2ª uscita.',
+              en: 'Step 2: Stay centred, still without indicating – now you let the 2nd exit pass too.',
+              pt: 'Passo 2: Continua centrado, ainda sem pisca – agora deixas passar também a 2ª saída.',
+            },
+            duration: 2200,
+            keyframes: [
+              { t: 0, x: 250, y: 280, angle: 0 },
+              { t: 0.35, x: 237.3, y: 239.9, angle: -35 },
+              { t: 0.7, x: 203.9, y: 214.2, angle: -70 },
+              { t: 1, x: 180, y: 210, angle: -90 },
+            ],
+            wheel: 'left',
+          },
+          {
+            caption: {
+              de: 'Schritt 3: Weiterhin ohne Blinker mittig bleiben – du lässt jetzt auch die 3. Ausfahrt aus.',
+              es: 'Paso 3: Sigue centrado, sin intermitente – ahora dejas pasar también la 3ª salida.',
+              fr: 'Étape 3 : Reste centré, toujours sans clignotant – tu laisses passer aussi la 3ème sortie.',
+              it: 'Passo 3: Resta centrato, ancora senza freccia – ora lasci passare anche la 3ª uscita.',
+              en: 'Step 3: Stay centred, still without indicating – now you let the 3rd exit pass too.',
+              pt: 'Passo 3: Continua centrado, ainda sem pisca – agora deixas passar também a 3ª saída.',
+            },
+            duration: 2200,
+            // Mismo círculo (r=70), tramo φ 180°→270°: continúa sin salir.
+            keyframes: [
+              { t: 0, x: 180, y: 210, angle: -90 },
+              { t: 0.25, x: 153.2, y: 215.3, angle: -112.5 },
+              { t: 0.5, x: 130.5, y: 230.5, angle: -135 },
+              { t: 0.75, x: 115.3, y: 253.2, angle: -157.5 },
+              { t: 1, x: 110, y: 280, angle: -180 },
+            ],
+            wheel: 'left',
+          },
+          {
+            caption: {
+              de: 'Schritt 4: Rechten Blinker setzen auf Höhe der vorherigen Ausfahrt (hier: der 3.) und die Runde beenden – du verlässt den Kreisel wieder über deine Einfahrtsstrasse (4. Ausfahrt).',
+              es: 'Paso 4: Pon el intermitente derecho a la altura de la salida anterior (aquí, la 3ª) y completa la vuelta – sales de la rotonda por tu misma calle de entrada (4ª salida).',
+              fr: 'Étape 4 : Mets le clignotant droit à hauteur de la sortie précédente (ici, la 3ème) et termine le tour – tu ressors par ta propre rue d’entrée (4ème sortie).',
+              it: 'Passo 4: Metti la freccia destra all’altezza dell’uscita precedente (qui, la 3ª) e completa il giro – esci dalla rotatoria dalla tua stessa strada d’ingresso (4ª uscita).',
+              en: 'Step 4: Indicate right level with the previous exit (here, the 3rd) and complete the loop – you leave the roundabout back onto your own entry road (4th exit).',
+              pt: 'Passo 4: Liga o pisca direito ao nível da saída anterior (aqui, a 3ª) e completa a volta – sais da rotunda pela tua própria rua de entrada (4ª saída).',
+            },
+            duration: 2600,
+            keyframes: [
+              { t: 0, x: 110, y: 280, angle: -180 },
+              { t: 0.1875, x: 113.2, y: 301, angle: -197.5 },
+              { t: 0.375, x: 122.7, y: 320.2, angle: -215 },
+              { t: 0.5625, x: 137.4, y: 335.5, angle: -232.5 },
+              { t: 0.75, x: 156.1, y: 345.8, angle: -250 },
+              { t: 0.9, x: 151.8, y: 377.9, angle: -215 },
+              { t: 1, x: 147.5, y: 410, angle: -180 },
+            ],
+            wheel: 'left',
+            blinker: 'right',
+          },
+        ],
       },
     ],
   },

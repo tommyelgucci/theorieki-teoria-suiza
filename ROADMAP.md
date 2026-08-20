@@ -1,11 +1,11 @@
 # ROADMAP — TheorieKI
 
 Rumbo del proyecto: qué está sólido, qué falta y en qué orden tendría sentido
-abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detalle de cada sesión).
+abordarlo. Última actualización: 2026-08-20 (ver `CHECKPOINT.md` para el detalle de cada sesión).
 
 ## Estado actual (verificado, no solo documentado)
 
-- 104/104 tests pasan (`npm test`, 16 archivos), `npm run lint` en **0 errores y 0
+- 112/112 tests pasan (`npm test`, 16 archivos), `npm run lint` en **0 errores y 0
   warnings**, `npm run build` compila sin errores. Verificado con varias corridas
   completas seguidas (los tests usan bancos de preguntas barajados al azar, así que una
   sola corrida verde no basta).
@@ -13,10 +13,12 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 334 preguntas (322 categoría B, 334 categoría A — 322 compartidas + 12 propias de A),
+- 342 preguntas (330 categoría B, 342 categoría A — 330 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
   Ampliado en ocho rondas de la sesión de 2026-08-19 con 44 temas nuevos (176 preguntas)
-  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, ver `CHECKPOINT.md`.
+  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, y con 8 preguntas más de
+  Kreisverkehr (peatones/ciclistas, vehículos grandes, emergencia, Minikreisel) en la
+  sesión de 2026-08-20, ver `CHECKPOINT.md`.
 - ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
   `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
   era solo ruido informativo, no un problema de rendimiento real). El chunk real ronda ya

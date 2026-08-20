@@ -20802,5 +20802,501 @@
       "pt": "Com uma matrícula intercambiável pode-se alternar entre dois veículos sem ter de matricular, segurar e tributar ambos separadamente ao mesmo tempo – isso poupa custos quando não se precisa de ambos os veículos em simultâneo."
     },
     "image": null
+  },
+  {
+    "id": "q335",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Beim Verlassen des Kreisels liegt oft ein Fussgängerstreifen direkt bei der Ausfahrt. Wer hat dort Vortritt?",
+      "es": "Al salir de la rotonda suele haber un paso de peatones justo en la salida. ¿Quién tiene prioridad ahí?",
+      "fr": "En quittant le giratoire, un passage pour piétons se trouve souvent juste à la sortie. Qui a la priorité ?",
+      "it": "Uscendo dalla rotatoria c'è spesso un passaggio pedonale proprio all'uscita. Chi ha la precedenza lì?",
+      "en": "When leaving a roundabout there is often a pedestrian crossing right at the exit. Who has priority there?",
+      "pt": "Ao sair da rotunda há muitas vezes uma passadeira mesmo junto à saída. Quem tem prioridade ali?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Fussgänger, die überqueren wollen – auch wenn Sie gerade auf den Kreisel konzentriert waren",
+          "es": "Los peatones que quieren cruzar – aunque hayas estado concentrado en la rotonda",
+          "fr": "Les piétons qui veulent traverser – même si vous étiez concentré sur le giratoire",
+          "it": "I pedoni che vogliono attraversare – anche se eri concentrato sulla rotatoria",
+          "en": "The pedestrians who want to cross – even if you were focused on the roundabout",
+          "pt": "Os peões que querem atravessar – mesmo que estivesses concentrado na rotunda"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Der Fahrer, weil er den Kreisel gerade zügig verlässt",
+          "es": "El conductor, porque está saliendo de la rotonda con fluidez",
+          "fr": "Le conducteur, car il quitte le giratoire de manière fluide",
+          "it": "Il conducente, perché sta uscendo dalla rotatoria con scorrevolezza",
+          "en": "The driver, because they are smoothly leaving the roundabout",
+          "pt": "O condutor, porque está a sair da rotunda com fluidez"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Wer zuerst da ist, unabhängig davon ob Fussgänger oder Fahrzeug",
+          "es": "Quien llegue primero, sea peatón o vehículo",
+          "fr": "Qui arrive en premier, piéton ou véhicule",
+          "it": "Chi arriva prima, pedone o veicolo",
+          "en": "Whoever arrives first, pedestrian or vehicle",
+          "pt": "Quem chegar primeiro, peão ou veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Am Fussgängerstreifen gilt der normale Fussgängervortritt uneingeschränkt, auch direkt an der Kreiselausfahrt. Gerade dort ist besondere Vorsicht nötig, weil die Aufmerksamkeit oft noch beim Verkehr im Kreisel liegt.",
+      "es": "En el paso de peatones rige la prioridad peatonal normal sin restricciones, también justo en la salida de la rotonda. Ahí hace falta especial atención, porque la mirada suele seguir puesta en el tráfico de la rotonda.",
+      "fr": "Au passage pour piétons, la priorité piétonne normale s'applique sans restriction, même juste à la sortie du giratoire. Une vigilance particulière est nécessaire, car l'attention reste souvent tournée vers le trafic du giratoire.",
+      "it": "Sul passaggio pedonale vale la normale precedenza dei pedoni senza restrizioni, anche proprio all'uscita della rotatoria. Lì serve attenzione particolare, perché lo sguardo resta spesso sul traffico della rotatoria.",
+      "en": "At the pedestrian crossing, the normal priority for pedestrians applies without restriction, even right at the roundabout exit. Extra care is needed there, since attention is often still on the roundabout traffic.",
+      "pt": "Na passadeira vale a prioridade normal dos peões sem restrições, mesmo mesmo à saída da rotunda. É preciso atenção redobrada ali, porque o olhar costuma continuar no trânsito da rotunda."
+    },
+    "image": null
+  },
+  {
+    "id": "q336",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Velofahrer fährt mittig im Fahrstreifen durch den Kreisel, statt sich rechts zu halten. Ist das erlaubt?",
+      "es": "Un ciclista circula centrado en el carril dentro de la rotonda, en vez de pegarse a la derecha. ¿Está permitido?",
+      "fr": "Un cycliste roule au centre de la voie dans le giratoire, au lieu de rester à droite. Est-ce autorisé ?",
+      "it": "Un ciclista percorre la rotatoria centrato nella corsia, invece di tenersi a destra. È consentito?",
+      "en": "A cyclist rides centred in the lane through the roundabout instead of keeping to the right. Is that allowed?",
+      "pt": "Um ciclista circula centrado na faixa dentro da rotunda, em vez de se manter à direita. Isso é permitido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja – Velofahrer dürfen im Kreisel bewusst mittig fahren, um besser sichtbar zu sein und beim Verlassen nicht übersehen zu werden",
+          "es": "Sí – los ciclistas pueden circular a propósito centrados en la rotonda, para ser más visibles y no pasar desapercibidos al salir",
+          "fr": "Oui – les cyclistes peuvent rouler délibérément au centre dans le giratoire, pour être plus visibles et ne pas être oubliés en sortant",
+          "it": "Sì – i ciclisti possono percorrere deliberatamente il centro della rotatoria, per essere più visibili e non essere dimenticati in uscita",
+          "en": "Yes – cyclists may deliberately ride centred in a roundabout, to be more visible and not be overlooked when a car exits",
+          "pt": "Sim – os ciclistas podem circular deliberadamente centrados na rotunda, para serem mais visíveis e não passarem despercebidos à saída"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Velofahrer müssen sich auch im Kreisel immer strikt rechts halten",
+          "es": "No, los ciclistas siempre deben mantenerse estrictamente a la derecha, también en la rotonda",
+          "fr": "Non, les cyclistes doivent toujours rester strictement à droite, même dans le giratoire",
+          "it": "No, i ciclisti devono sempre tenersi rigorosamente a destra, anche in rotatoria",
+          "en": "No, cyclists must always keep strictly to the right, even in a roundabout",
+          "pt": "Não, os ciclistas devem manter-se sempre rigorosamente à direita, mesmo na rotunda"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur in einspurigen Kreiseln, in mehrspurigen ist es verboten",
+          "es": "Solo en rotondas de un carril; en las de varios carriles está prohibido",
+          "fr": "Seulement dans les giratoires à une voie ; interdit dans ceux à plusieurs voies",
+          "it": "Solo nelle rotatorie a una corsia; in quelle a più corsie è vietato",
+          "en": "Only in single-lane roundabouts; forbidden in multi-lane ones",
+          "pt": "Só em rotundas de uma faixa; nas de várias faixas é proibido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Velofahrer dürfen im Kreisverkehr ausdrücklich vom Rechtsfahrgebot abweichen und mittig im Fahrstreifen fahren – seit 2016 gilt das auch in mehrspurigen Kreiseln. Das schützt sie davor, beim Verlassen von einem Auto übersehen oder abgedrängt zu werden.",
+      "es": "En la rotonda los ciclistas pueden apartarse expresamente de la obligación de circular por la derecha y ir centrados en el carril – desde 2016 esto rige también en rotondas de varios carriles. Así se evita que un coche los pase por alto o los cierre al salir.",
+      "fr": "Dans un giratoire, les cyclistes peuvent expressément déroger à l'obligation de rouler à droite et circuler au centre de la voie – depuis 2016, cela vaut aussi dans les giratoires à plusieurs voies. Cela évite qu'une voiture les oublie ou les coupe en sortant.",
+      "it": "In rotatoria i ciclisti possono espressamente derogare all'obbligo di tenersi a destra e circolare al centro della corsia – dal 2016 vale anche nelle rotatorie a più corsie. Così si evita che un'auto li ignori o li tagli in uscita.",
+      "en": "In a roundabout, cyclists may explicitly deviate from the keep-right rule and ride centred in the lane – since 2016 this also applies in multi-lane roundabouts. It stops a car from overlooking or cutting them off when exiting.",
+      "pt": "Na rotunda os ciclistas podem afastar-se expressamente da obrigação de circular à direita e ir centrados na faixa – desde 2016 isto vale também em rotundas de várias faixas. Isso evita que um carro os ignore ou os corte ao sair."
+    },
+    "image": null
+  },
+  {
+    "id": "q337",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Lastwagen fährt im Kreisel mit den Innenrädern über die leicht erhöhte Mittelinsel. Ist das ein Fehler des Fahrers?",
+      "es": "Un camión pasa por la rotonda con las ruedas interiores sobre la isleta central ligeramente elevada. ¿Es un error del conductor?",
+      "fr": "Un camion roule dans le giratoire avec ses roues intérieures sur l'îlot central légèrement surélevé. Est-ce une erreur du conducteur ?",
+      "it": "Un camion percorre la rotatoria con le ruote interne sopra l'isola centrale leggermente rialzata. È un errore del conducente?",
+      "en": "A truck drives through the roundabout with its inner wheels over the slightly raised central island. Is that a driver error?",
+      "pt": "Um camião passa na rotunda com as rodas interiores sobre a ilha central ligeiramente elevada. Isso é um erro do condutor?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein – bei vielen Kreiseln ist die Mittelinsel genau dafür gebaut, damit lange oder breite Fahrzeuge den nötigen Radius bekommen",
+          "es": "No – en muchas rotondas la isleta central está diseñada justo para eso, para dar el radio necesario a vehículos largos o anchos",
+          "fr": "Non – dans de nombreux giratoires, l'îlot central est justement conçu pour cela, afin de donner le rayon nécessaire aux véhicules longs ou larges",
+          "it": "No – in molte rotatorie l'isola centrale è costruita apposta per questo, per dare il raggio necessario a veicoli lunghi o larghi",
+          "en": "No – in many roundabouts the central island is built exactly for that, to give long or wide vehicles the turning radius they need",
+          "pt": "Não – em muitas rotundas a ilha central é construída precisamente para isso, para dar o raio necessário a veículos longos ou largos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist in jedem Fall verboten und ein grober Fahrfehler",
+          "es": "Sí, eso está prohibido en todos los casos y es un fallo grave de conducción",
+          "fr": "Oui, c'est interdit dans tous les cas et constitue une faute de conduite grave",
+          "it": "Sì, è vietato in ogni caso ed è un grave errore di guida",
+          "en": "Yes, that is always forbidden and a serious driving error",
+          "pt": "Sim, isso é sempre proibido e um erro de condução grave"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das dürfen nur Motorräder, keine anderen Fahrzeuge",
+          "es": "Eso solo lo pueden hacer las motos, ningún otro vehículo",
+          "fr": "Seuls les motos peuvent le faire, aucun autre véhicule",
+          "it": "Possono farlo solo le moto, nessun altro veicolo",
+          "en": "Only motorcycles are allowed to do that, no other vehicle",
+          "pt": "Só as motas podem fazer isso, nenhum outro veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Besonders bei kleineren Kreiseln reicht der Platz für lange Lastwagen, Sattelschlepper oder Gelenkbusse ohne die überfahrbare Mittelinsel oft nicht aus. Diese ist bewusst so gebaut, dass grosse Fahrzeuge mit den Innenrädern leicht darüberfahren können.",
+      "es": "Especialmente en rotondas más pequeñas, el espacio para camiones largos, articulados o autobuses articulados a menudo no basta sin la isleta central pisable. Está construida a propósito para que los vehículos grandes puedan pasar por encima con las ruedas interiores.",
+      "fr": "Surtout dans les petits giratoires, l'espace pour les longs camions, semi-remorques ou bus articulés est souvent insuffisant sans l'îlot central franchissable. Celui-ci est conçu exprès pour que les grands véhicules puissent rouler légèrement dessus avec leurs roues intérieures.",
+      "it": "Soprattutto nelle rotatorie più piccole, lo spazio per camion lunghi, autoarticolati o bus snodati spesso non basta senza l'isola centrale sormontabile. È costruita apposta perché i veicoli grandi possano passarci sopra leggermente con le ruote interne.",
+      "en": "Especially in smaller roundabouts, the space for long trucks, articulated lorries or articulated buses is often not enough without the mountable central island. It is deliberately built so large vehicles can drive their inner wheels lightly over it.",
+      "pt": "Sobretudo em rotundas mais pequenas, o espaço para camiões longos, articulados ou autocarros articulados muitas vezes não chega sem a ilha central transponível. Ela é construída de propósito para que veículos grandes passem levemente por cima com as rodas interiores."
+    },
+    "image": null
+  },
+  {
+    "id": "q338",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Reisecar braucht im Kreisel sichtbar mehr Platz und schwenkt leicht in Ihren Fahrstreifen aus. Was tun Sie?",
+      "es": "Un autocar necesita visiblemente más espacio en la rotonda y se desvía un poco hacia tu carril. ¿Qué haces?",
+      "fr": "Un autocar a visiblement besoin de plus de place dans le giratoire et empiète légèrement sur votre voie. Que faites-vous ?",
+      "it": "Un pullman ha visibilmente bisogno di più spazio in rotatoria e invade leggermente la tua corsia. Cosa fai?",
+      "en": "A coach visibly needs more space in the roundabout and swings slightly into your lane. What do you do?",
+      "pt": "Uma camioneta precisa visivelmente de mais espaço na rotunda e desvia-se ligeiramente para a tua faixa. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Abstand halten und ihm den nötigen Platz lassen, statt neben ihm zu fahren",
+          "es": "Mantener distancia y dejarle el espacio que necesita, en vez de circular a su lado",
+          "fr": "Garder ses distances et lui laisser la place nécessaire, plutôt que de rouler à côté",
+          "it": "Mantenere la distanza e lasciargli lo spazio necessario, invece di affiancarlo",
+          "en": "Keep your distance and give it the space it needs, instead of driving alongside it",
+          "pt": "Manter distância e deixar-lhe o espaço necessário, em vez de andar ao lado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Hupen und stur auf dem eigenen Streifen bleiben",
+          "es": "Tocar el claxon y quedarse en el propio carril a toda costa",
+          "fr": "Klaxonner et rester obstinément sur sa propre voie",
+          "it": "Suonare il clacson e restare ostinatamente sulla propria corsia",
+          "en": "Honk the horn and stubbornly stay in your own lane",
+          "pt": "Buzinar e ficar teimosamente na própria faixa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beschleunigen und ihn schnell überholen, bevor er ausschwenkt",
+          "es": "Acelerar y adelantarlo rápido antes de que se desvíe",
+          "fr": "Accélérer et le dépasser rapidement avant qu'il n'empiète",
+          "it": "Accelerare e superarlo rapidamente prima che invada la corsia",
+          "en": "Accelerate and quickly overtake it before it swings wide",
+          "pt": "Acelerar e ultrapassá-lo rapidamente antes que se desvie"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Lange Fahrzeuge brauchen im Kreisel wegen ihres grossen Wendekreises oft mehr Platz als die eigene Fahrbahnmarkierung vorgibt. Die richtige Reaktion ist, Abstand zu halten und ihnen diesen Platz zu lassen, statt auf dem eigenen Streifen zu beharren.",
+      "es": "Los vehículos largos suelen necesitar en la rotonda más espacio del que marca su carril, debido a su gran radio de giro. Lo correcto es mantener distancia y cederles ese espacio, en vez de aferrarse al propio carril.",
+      "fr": "Les véhicules longs ont souvent besoin, dans un giratoire, de plus de place que ne l'indique leur voie, en raison de leur grand rayon de braquage. La bonne réaction est de garder ses distances et de leur laisser cette place, plutôt que de s'accrocher à sa propre voie.",
+      "it": "I veicoli lunghi in rotatoria hanno spesso bisogno di più spazio di quanto indicato dalla propria corsia, per via del loro ampio raggio di sterzata. La reazione corretta è mantenere la distanza e lasciare loro quello spazio, invece di restare aggrappati alla propria corsia.",
+      "en": "Long vehicles often need more space in a roundabout than their own lane marking suggests, because of their wide turning radius. The right response is to keep your distance and give them that space, rather than insisting on your own lane.",
+      "pt": "Os veículos longos costumam precisar, na rotunda, de mais espaço do que a sua faixa indica, devido ao seu grande raio de viragem. A reação correta é manter distância e ceder-lhes esse espaço, em vez de insistir na própria faixa."
+    },
+    "image": null
+  },
+  {
+    "id": "q339",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Sie stehen kurz vor der Einfahrt in einen Kreisel und sehen im Rückspiegel ein Fahrzeug mit Blaulicht und Signalhorn. Was tun Sie?",
+      "es": "Estás justo antes de entrar en una rotonda y ves por el retrovisor un vehículo con luces azules y sirena. ¿Qué haces?",
+      "fr": "Vous êtes juste avant l'entrée d'un giratoire et voyez dans le rétroviseur un véhicule avec feu bleu et avertisseur spécial. Que faites-vous ?",
+      "it": "Sei appena prima dell'entrata di una rotatoria e vedi nello specchietto un veicolo con luce blu e segnale acustico speciale. Cosa fai?",
+      "en": "You are just before entering a roundabout and see a vehicle with blue lights and siren in your mirror. What do you do?",
+      "pt": "Estás mesmo antes de entrar numa rotunda e vês no espelho um veículo com luzes azuis e sirene. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "An der Einfahrt Platz machen bzw. warten, statt in den engen Kreisel hineinzufahren – viele Kreisel bieten innen kaum Ausweichraum",
+          "es": "Hacer sitio o esperar en la entrada, en vez de meterte en la estrecha rotonda – muchas rotondas apenas dejan espacio dentro para apartarse",
+          "fr": "Faire de la place ou attendre à l'entrée, plutôt que de s'engager dans le giratoire étroit – beaucoup de giratoires n'offrent guère de place pour s'écarter à l'intérieur",
+          "it": "Fare spazio o aspettare all'entrata, invece di entrare nella stretta rotatoria – molte rotatorie offrono poco spazio per scostarsi all'interno",
+          "en": "Make room or wait at the entrance, instead of driving into the narrow roundabout – many roundabouts offer little room to pull aside inside",
+          "pt": "Abrir espaço ou esperar na entrada, em vez de entrar na rotunda estreita – muitas rotundas oferecem pouco espaço para se desviar lá dentro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Schnell noch in den Kreisel einfahren, damit hinter Ihnen Platz entsteht",
+          "es": "Meterse rápido en la rotonda para dejar espacio detrás",
+          "fr": "S'engager rapidement dans le giratoire pour faire de la place derrière soi",
+          "it": "Entrare rapidamente in rotatoria per fare spazio dietro di sé",
+          "en": "Quickly drive into the roundabout so there is room behind you",
+          "pt": "Entrar rapidamente na rotunda para abrir espaço atrás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Mitten in die Kreiselzufahrt hineinfahren und dort anhalten",
+          "es": "Meterse hasta la mitad de la entrada de la rotonda y parar ahí",
+          "fr": "S'avancer jusqu'au milieu de l'accès au giratoire et s'y arrêter",
+          "it": "Avanzare fino a metà dell'accesso alla rotatoria e fermarsi lì",
+          "en": "Drive halfway into the roundabout approach and stop there",
+          "pt": "Avançar até ao meio do acesso à rotunda e parar ali"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wenn das Einsatzfahrzeug noch nicht neben oder in Ihnen ist, ist es meist besser, wie bei einem Stau an der Einfahrt zu warten und Platz zu machen: Im Kreisel selbst ist häufig zu wenig Raum, um sinnvoll auszuweichen.",
+      "es": "Si el vehículo de emergencia todavía no está a tu lado o encima, suele ser mejor esperar y ceder el paso en la entrada, como en un atasco: dentro de la rotonda a menudo no hay espacio suficiente para apartarse bien.",
+      "fr": "Si le véhicule d'urgence n'est pas encore à côté de vous ou derrière vous de près, il vaut mieux attendre et faire de la place à l'entrée, comme dans un embouteillage : à l'intérieur du giratoire, il manque souvent de place pour s'écarter correctement.",
+      "it": "Se il veicolo di emergenza non è ancora accanto o subito dietro di te, di solito è meglio aspettare e fare spazio all'entrata, come in un ingorgo: dentro la rotatoria spesso manca lo spazio per scostarsi bene.",
+      "en": "If the emergency vehicle is not yet right beside or behind you, it is usually better to wait and make room at the entrance, as in a traffic jam: inside the roundabout there is often not enough room to pull aside properly.",
+      "pt": "Se o veículo de emergência ainda não estiver ao lado ou logo atrás, geralmente é melhor esperar e abrir espaço na entrada, como num engarrafamento: dentro da rotunda muitas vezes não há espaço suficiente para se desviar bem."
+    },
+    "image": null
+  },
+  {
+    "id": "q340",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Sie befinden sich bereits im Kreisel, als hinter Ihnen ein Fahrzeug mit Blaulicht auftaucht. Was ist richtig?",
+      "es": "Ya estás dentro de la rotonda cuando aparece detrás un vehículo con luces azules. ¿Qué es correcto?",
+      "fr": "Vous êtes déjà dans le giratoire lorsqu'un véhicule à feu bleu apparaît derrière vous. Que faut-il faire ?",
+      "it": "Sei già in rotatoria quando dietro di te compare un veicolo con luce blu. Cosa è corretto fare?",
+      "en": "You are already inside the roundabout when a vehicle with blue lights appears behind you. What is correct?",
+      "pt": "Já estás dentro da rotunda quando surge atrás um veículo com luzes azuis. O que é correto fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ruhig weiterfahren und wenn nötig eine zusätzliche Runde drehen, um sicher Platz zu machen, statt mitten im Kreisel zu stoppen",
+          "es": "Seguir circulando con calma y, si hace falta, dar una vuelta extra para hacer sitio con seguridad, en vez de parar en medio de la rotonda",
+          "fr": "Continuer calmement et, si nécessaire, faire un tour supplémentaire pour faire de la place en sécurité, plutôt que de s'arrêter au milieu du giratoire",
+          "it": "Continuare con calma e, se necessario, fare un altro giro per lasciare spazio in sicurezza, invece di fermarsi in mezzo alla rotatoria",
+          "en": "Keep driving calmly and, if needed, take an extra loop to safely make room, instead of stopping in the middle of the roundabout",
+          "pt": "Continuar a circular com calma e, se necessário, dar mais uma volta para abrir espaço em segurança, em vez de parar no meio da rotunda"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sofort mitten im Kreisel anhalten, egal wo",
+          "es": "Parar de inmediato en medio de la rotonda, sea donde sea",
+          "fr": "S'arrêter immédiatement au milieu du giratoire, peu importe où",
+          "it": "Fermarsi subito in mezzo alla rotatoria, ovunque ci si trovi",
+          "en": "Stop immediately in the middle of the roundabout, wherever you are",
+          "pt": "Parar imediatamente no meio da rotunda, seja onde for"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Rückwärts aus dem Kreisel herausfahren",
+          "es": "Salir de la rotonda marcha atrás",
+          "fr": "Sortir du giratoire en marche arrière",
+          "it": "Uscire dalla rotatoria in retromarcia",
+          "en": "Reverse back out of the roundabout",
+          "pt": "Sair da rotunda em marcha-atrás"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Halt mitten im Kreisel blockiert alle anderen und schafft keinen Raum. Richtig ist, geordnet weiterzufahren, bei Bedarf einmal mehr um die Insel zu fahren, und das Einsatzfahrzeug erst an einer sinnvollen Stelle vorbeizulassen.",
+      "es": "Parar en medio de la rotonda bloquea a todos los demás y no crea ningún espacio. Lo correcto es seguir circulando de forma ordenada, si hace falta dar una vuelta extra alrededor de la isla, y dejar pasar al vehículo de emergencia en un punto razonable.",
+      "fr": "S'arrêter au milieu du giratoire bloque tout le monde et ne crée aucune place. Il faut continuer de manière ordonnée, faire un tour de plus autour de l'îlot si nécessaire, et ne laisser passer le véhicule d'urgence qu'à un endroit judicieux.",
+      "it": "Fermarsi in mezzo alla rotatoria blocca tutti gli altri e non crea spazio. È corretto continuare in modo ordinato, se necessario fare un altro giro attorno all'isola, e far passare il veicolo di emergenza solo in un punto adeguato.",
+      "en": "Stopping in the middle of the roundabout blocks everyone else and creates no space. The right thing is to keep driving in an orderly way, take an extra loop around the island if needed, and let the emergency vehicle pass at a sensible spot.",
+      "pt": "Parar no meio da rotunda bloqueia todos os outros e não cria espaço nenhum. O correto é continuar a circular de forma ordenada, dar mais uma volta à ilha se necessário, e só deixar passar o veículo de emergência num ponto sensato."
+    },
+    "image": null
+  },
+  {
+    "id": "q341",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was ist der Zweck der oft ganz oder teilweise überfahrbaren Mittelinsel in einem Minikreisel?",
+      "es": "¿Cuál es el propósito de la isleta central, a menudo total o parcialmente pisable, en una minirrotonda?",
+      "fr": "Quel est le but de l'îlot central, souvent entièrement ou partiellement franchissable, dans un mini-giratoire ?",
+      "it": "Qual è lo scopo dell'isola centrale, spesso interamente o parzialmente sormontabile, in una mini rotatoria?",
+      "en": "What is the purpose of the central island in a mini-roundabout, which is often fully or partly mountable?",
+      "pt": "Qual é o propósito da ilha central, muitas vezes total ou parcialmente transponível, numa minirrotunda?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie ermöglicht es auch grossen Fahrzeugen wie Lastwagen oder Gelenkbussen, den engen Kreisel zu befahren",
+          "es": "Permite que también vehículos grandes, como camiones o autobuses articulados, puedan circular por la rotonda estrecha",
+          "fr": "Il permet aussi aux grands véhicules, comme les camions ou les bus articulés, de circuler dans le giratoire étroit",
+          "it": "Permette anche a veicoli grandi, come camion o bus snodati, di percorrere la stretta rotatoria",
+          "en": "It allows large vehicles too, such as trucks or articulated buses, to drive through the narrow roundabout",
+          "pt": "Permite que também veículos grandes, como camiões ou autocarros articulados, circulem pela rotunda estreita"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie ist reine Dekoration ohne verkehrstechnischen Zweck",
+          "es": "Es pura decoración sin ninguna función de tráfico",
+          "fr": "Il s'agit d'une pure décoration sans fonction de circulation",
+          "it": "È pura decorazione senza alcuna funzione per il traffico",
+          "en": "It is purely decorative and has no traffic function",
+          "pt": "É pura decoração sem qualquer função de trânsito"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie dient als Parkfläche für kleine Fahrzeuge",
+          "es": "Sirve como zona de aparcamiento para vehículos pequeños",
+          "fr": "Il sert de zone de stationnement pour les petits véhicules",
+          "it": "Serve come area di parcheggio per veicoli piccoli",
+          "en": "It serves as a parking area for small vehicles",
+          "pt": "Serve como zona de estacionamento para veículos pequenos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Minikreisel sind mit einem Aussendurchmesser von rund 14–26 m sehr kompakt. Damit lange Lastwagen oder Gelenkbusse trotzdem abbiegen können, ist die Mittelinsel bewusst ganz oder teilweise überfahrbar gebaut.",
+      "es": "Las minirrotondas son muy compactas, con un diámetro exterior de unos 14–26 m. Para que camiones largos o autobuses articulados puedan girar de todos modos, la isleta central está construida deliberadamente pisable en todo o en parte.",
+      "fr": "Les mini-giratoires sont très compacts, avec un diamètre extérieur d'environ 14 à 26 m. Pour que les longs camions ou les bus articulés puissent quand même tourner, l'îlot central est délibérément construit franchissable en tout ou en partie.",
+      "it": "Le mini rotatorie sono molto compatte, con un diametro esterno di circa 14–26 m. Perché camion lunghi o bus snodati possano comunque girare, l'isola centrale è costruita apposta sormontabile in tutto o in parte.",
+      "en": "Mini-roundabouts are very compact, with an outer diameter of roughly 14–26 m. So long trucks or articulated buses can still turn, the central island is deliberately built to be fully or partly mountable.",
+      "pt": "As minirrotundas são muito compactas, com um diâmetro exterior de cerca de 14–26 m. Para que camiões longos ou autocarros articulados consigam ainda assim virar, a ilha central é construída de propósito total ou parcialmente transponível."
+    },
+    "image": null
+  },
+  {
+    "id": "q342",
+    "category": "both",
+    "topic": "kreisverkehr",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Gelten in einem Minikreisel andere Vortrittsregeln als in einem normalen Kreisel?",
+      "es": "¿Rigen en una minirrotonda reglas de prioridad distintas a las de una rotonda normal?",
+      "fr": "Des règles de priorité différentes s'appliquent-elles dans un mini-giratoire par rapport à un giratoire normal ?",
+      "it": "In una mini rotatoria valgono regole di precedenza diverse rispetto a una rotatoria normale?",
+      "en": "Do different priority rules apply in a mini-roundabout compared to a normal roundabout?",
+      "pt": "Numa minirrotunda vigoram regras de prioridade diferentes das de uma rotunda normal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein – auch hier gilt: Wer im Kreisel ist, hat Vortritt, und geblinkt wird erst beim Verlassen",
+          "es": "No – también aquí rige: quien está dentro de la rotonda tiene prioridad, y se pone el intermitente recién al salir",
+          "fr": "Non – ici aussi : qui est dans le giratoire a la priorité, et on ne clignote qu'en sortant",
+          "it": "No – anche qui vale: chi è in rotatoria ha la precedenza, e si mette la freccia solo in uscita",
+          "en": "No – here too: whoever is already in the roundabout has priority, and you only indicate when leaving",
+          "pt": "Não – também aqui vale: quem está dentro da rotunda tem prioridade, e só se liga o pisca ao sair"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, im Minikreisel hat immer das einfahrende Fahrzeug Vortritt",
+          "es": "Sí, en la minirrotonda siempre tiene prioridad el vehículo que entra",
+          "fr": "Oui, dans le mini-giratoire, c'est toujours le véhicule qui entre qui a la priorité",
+          "it": "Sì, nella mini rotatoria ha sempre la precedenza il veicolo che entra",
+          "en": "Yes, in a mini-roundabout the entering vehicle always has priority",
+          "pt": "Sim, na minirrotunda tem sempre prioridade o veículo que entra"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, im Minikreisel gilt Rechtsvortritt wie an einer gewöhnlichen Kreuzung",
+          "es": "Sí, en la minirrotonda rige la prioridad de derecha como en un cruce normal",
+          "fr": "Oui, dans le mini-giratoire, la priorité de droite s'applique comme à une intersection ordinaire",
+          "it": "Sì, nella mini rotatoria vale la precedenza da destra come in un normale incrocio",
+          "en": "Yes, in a mini-roundabout right-of-way from the right applies as at an ordinary junction",
+          "pt": "Sim, na minirrotunda vale a prioridade à direita como num cruzamento normal"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Trotz der geringen Grösse steht auch beim Minikreisel an jeder Einfahrt das Kombischild aus Vortrittssignal und Kreiselzeichen. Es gelten dieselben Regeln wie bei jedem anderen Kreisel: Vortritt für den Kreiselverkehr, Blinken nur beim Verlassen.",
+      "es": "A pesar de su tamaño reducido, en cada entrada de la minirrotonda también está la señal combinada de ceda el paso y rotonda. Rigen las mismas reglas que en cualquier otra rotonda: prioridad para el tráfico de la rotonda, intermitente solo al salir.",
+      "fr": "Malgré sa petite taille, chaque entrée du mini-giratoire porte aussi le panneau combiné cédez-le-passage et giratoire. Les mêmes règles s'appliquent que pour tout autre giratoire : priorité au trafic du giratoire, clignotant seulement en sortant.",
+      "it": "Nonostante le dimensioni ridotte, anche a ogni entrata della mini rotatoria c'è il segnale combinato di dare precedenza e rotatoria. Valgono le stesse regole di ogni altra rotatoria: precedenza al traffico della rotatoria, freccia solo in uscita.",
+      "en": "Despite its small size, every entrance to a mini-roundabout also carries the combined give-way and roundabout sign. The same rules apply as for any other roundabout: priority to roundabout traffic, indicate only when leaving.",
+      "pt": "Apesar do tamanho reduzido, também em cada entrada da minirrotunda está o sinal combinado de cedência de passagem e rotunda. Vigoram as mesmas regras de qualquer outra rotunda: prioridade ao trânsito da rotunda, pisca só ao sair."
+    },
+    "image": null
   }
 ]
