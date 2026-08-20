@@ -8,6 +8,56 @@ recordar.
 
 ---
 
+## 2026-08-19 (2) — Segunda ronda: 5 temas más (vignette, animales, peatones, semáforo intermitente, tempo mínimo)
+
+**Contexto:** continuación directa de la sesión anterior (mismo día). El usuario pidió
+"continúa" sobre la lista de temas candidatos que quedó anotada al cierre de la ronda
+anterior. Mismo protocolo: investigar cada tema por separado antes de escribir una sola
+pregunta, y comprobar que no duplicara nada ya existente en el banco.
+
+**Investigación previa:** viñeta de autopista (Nationalstrassenabgabegesetz, no es VRV/SVG
+sino una ley de peaje aparte — CHF 40, obligatoria para todo motor ≤3,5 t, válida ~14
+meses, busca CHF 200 sin ella; sobre 3,5 t rige la LSVA en su lugar), transporte de
+animales (art. 30 párr. 2 VRV para la sujeción de la carga + Ordenanza de protección
+animal para espacio/clima/pausas), peatones fuera de paso marcado (art. 47 párr. 2 VRV,
+deben usar un paso a menos de 50 m, sin prioridad automática fuera de él), semáforo con
+luz amarilla intermitente (art. 70 párr. 1 SSV: no regula la prioridad, remite a la
+señalización existente o a la prioridad de derecha), y velocidad mínima en autopista
+(art. 35 párr. 1 VRV: 80 km/h para poder circular; desde 2016, 100 km/h en el carril más
+a la izquierda de autopistas de 3+ carriles por sentido).
+
+Antes de escribir, se verificó contra el banco existente que ninguno de estos temas
+duplicara preguntas ya presentes (p. ej. "beleuchtung"/"q056"/"q147" ya cubren la
+obligación general de luz diurna — por eso se descartó un sexto tema de "Tagfahrlicht"
+que se había planificado inicialmente, para no ser redundante, y se sustituyó por el de
+velocidad mínima en autopista).
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q195–q214), 5 topics nuevos (`vignette`,
+  `tiertransport`, `fussgaenger_ausserhalb`, `blinklicht`, `mindesttempo`), 4 preguntas
+  cada uno, los 6 idiomas completos. Banco: 194 → 214 (202 categoría B, 214 categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (182→202, 194→214) y
+  `Study.test.jsx` (182→202), y el comentario de tamaño de bundle en `questionBank.js`
+  (194→214 preguntas, ~470→~530 KB minificado, medido con `JSON.stringify` real).
+- `README.md`/`ROADMAP.md`: conteos actualizados. Se anotó en `ROADMAP.md` un nuevo aviso
+  (no bloqueante): el chunk `questions-*.js` del build ya pasa el umbral de 500 kB de
+  Rollup y aparece como warning informativo — el build sigue compilando sin errores y el
+  chunk ya es lazy, pero si el banco sigue creciendo en próximas sesiones vale la pena
+  partirlo en varios chunks.
+
+**Verificación:** script Python de idiomas (0 errores en las 214 preguntas), `npm run
+lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez), `npm run build` sin
+errores (con el warning de tamaño de chunk mencionado arriba, no bloqueante).
+
+**Pendiente / candidatos para seguir ampliando** (sin iniciar): transporte de personas en
+la caja de una camioneta, prioridad en rotondas con tranvía integrado, luces de
+circulación en caravana/remolque, distancia de seguimiento en descenso con freno motor,
+maniobra de marcha atrás en vía pública larga distancia. A diferencia de la lista anterior,
+estos aún no se han investigado contra fuentes legales — antes de redactar preguntas,
+repetir el mismo protocolo de búsqueda en internet + comprobación de duplicados.
+
+---
+
 ## 2026-08-19 — Ampliación grande del banco de preguntas + VKU + Nothelfer
 
 **Contexto:** pedido explícito del usuario de ampliar mucho el banco de preguntas y el

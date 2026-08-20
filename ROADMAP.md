@@ -13,10 +13,15 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 194 preguntas (182 categoría B, 194 categoría A — 182 compartidas + 12 propias de A),
+- 214 preguntas (202 categoría B, 214 categoría A — 202 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
-  Ampliado en la sesión de 2026-08-19 con 9 temas nuevos (36 preguntas) redactados desde
-  cero a partir de VRV/SVG, ver `CHECKPOINT.md`.
+  Ampliado en dos rondas de la sesión de 2026-08-19 con 14 temas nuevos (56 preguntas)
+  redactados desde cero a partir de VRV/SVG/SSV, ver `CHECKPOINT.md`.
+- El chunk `questions-*.js` del build ya supera el umbral de aviso de Rollup (500 kB
+  minificado, ~530 KB reales) — `npm run build` sigue compilando sin errores, es solo un
+  warning informativo, y el chunk ya es lazy (no entra en el bundle inicial, ver
+  "Modelo de datos" en el README). Si el banco sigue creciendo, valorar
+  `build.chunkSizeWarningLimit` o partir el JSON en varios chunks por categoría/tema.
 - Sin TODOs/FIXMEs reales pendientes en el código.
 - Funcionalidad cubierta: estudio, examen simulado, repaso de falladas, maniobras
   animadas, señales (explorar/flashcards SRS/quiz), Nothelfer, VKU, Kontrollfahrt, WAB,
