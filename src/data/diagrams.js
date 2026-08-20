@@ -209,6 +209,10 @@ export const DIAGRAMS = {
     cars: [{ x: 210, y: 330, angle: 0, color: '#ffffff', blinker: null }],
     arrows: [{ path: 'M 210 300 L 210 250 Q 210 180 270 180' }],
   },
+  // Entra por el sur, sale por el norte (2ª salida): la trayectoria debe
+  // rodear el anillo por el ESTE (circulación por la derecha → sentido
+  // antihorario, isla central siempre a la izquierda del conductor), nunca
+  // cortar en línea recta por el centro como si fuera un cruce normal.
   kreisel_2ausfahrt_correct: {
     elements: [
       { type: 'grass', x: 0, y: 0, w: 360, h: 360 },
@@ -219,7 +223,7 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 190, y: 330, angle: 0, color: '#ffffff', blinker: null }],
-    arrows: [{ path: 'M 190 300 Q 190 180 152 100' }],
+    arrows: [{ path: 'M 190 300 L 190 255 Q 270 255 255 180 Q 255 105 200 95' }],
   },
   kreisel_2ausfahrt_wrong_blinker: {
     elements: [
@@ -231,7 +235,7 @@ export const DIAGRAMS = {
       { type: 'ring', x: 180, y: 180, rOuter: 100, rInner: 42 },
     ],
     cars: [{ x: 190, y: 330, angle: 0, color: '#ffffff', blinker: 'left' }],
-    arrows: [{ path: 'M 190 300 Q 190 180 152 100' }],
+    arrows: [{ path: 'M 190 300 L 190 255 Q 270 255 255 180 Q 255 105 200 95' }],
   },
   // Kreisel de doble carril: círculo divisorio discontinuo entre los dos
   // anillos; coche en el carril EXTERIOR queriendo la 3ª salida (mal: debería
