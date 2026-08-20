@@ -1,4 +1,4 @@
-// El banco pesa ~590 KB minificado (234 preguntas con enunciado, opciones y
+// El banco pesa ~660 KB minificado (254 preguntas con enunciado, opciones y
 // explicación en 6 idiomas). Las vistas que lo usan de verdad (estudio, examen,
 // repaso, estadísticas) ya son lazy y lo importan directo. La pantalla de inicio,
 // en cambio, es parte del bundle inicial y sólo lo necesita para contadores, así
