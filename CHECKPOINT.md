@@ -8,6 +8,90 @@ recordar.
 
 ---
 
+## 2026-08-20 (14) — Rotondas: diagramas rehechos, maniobra animada nueva (4 salidas), +8 preguntas
+
+**Contexto:** sesión larga e iterativa a partir de una captura del usuario mostrando el
+diagrama de "2ª o posterior salida" con la flecha cruzando en línea recta por el centro
+del kreisel, como si fuera un cruce normal. A partir de ahí, varias rondas de fix +
+feedback visual (capturas del usuario, algunas dibujadas a mano) hasta llegar a una
+geometría verificada matemáticamente, no solo a ojo.
+
+**Investigación previa (fuentes suizas — TCS, BFU, ACS, SUVA/AXA/Pro Velo — no las
+infografías genéricas de otros países que mandó el usuario como referencia visual):**
+1ª salida, blinker derecho opcional ya antes de entrar, pegado al borde exterior sin
+dejar hueco a los ciclistas; 2ª salida o más, se entra SIN blinker, centrado, y el
+blinker derecho se pone recién a la altura de la salida ANTERIOR a la propia. Los
+ciclistas en un kreisel suizo van CENTRADOS en su carril (lo contrario de las infografías
+del usuario) — por eso ninguna maniobra nueva dibuja ciclistas al costado.
+
+**Lección de proceso, la más cara de esta sesión:** varias rondas de "arréglalo" con
+curvas Bézier ajustadas a mano (control points "a ojo") fallaron de formas distintas cada
+vez — quiebres donde se unían tramos con tangentes que no coincidían, desvíos hacia el
+lado contrario antes de girar, flechas de salida que quedaban apuntando de lado en vez de
+conectar con la calle, coche circulando "por la mitad de la calle" tras ensanchar la
+pista sin recalcular el offset de carril. La solución real no fue iterar más a ojo: fue
+pasar a **coordenadas polares centradas en el anillo** (`x = cx + r·sen(φ)`,
+`y = cy + r·cos(φ)`, con `heading = 90 - φ` como fórmula cerrada de la tangente) y
+**verificar cada curva con un script** que muestrea ~100-300 puntos por tramo y comprueba
+la distancia real al centro contra la calzada real (calle ∪ anillo), no solo "parece que
+está bien". Con eso, cada curva nueva se diseñó y confirmó ANTES de tocar el código de
+producción, no después.
+
+**`src/data/diagrams.js` — 3 diagramas de kreisel reescritos con esa lógica, verificados
+0 puntos fuera de la calzada en los 3:**
+- `kreisel_1ausfahrt_*`: giro a la derecha "normal" — cuarto de círculo pequeño (radio
+  45), NO sigue la curvatura del anillo. Recto→gira→recto, x monótona.
+- `kreisel_2ausfahrt_*`: curva de fusión (tangente vertical→tangente del círculo) + arco
+  circular real (radio 78, SVG `A`) + curva de salida que ENDEREZA la tangente a vertical
+  para conectar con la calle de salida (el bug real: antes el arco terminaba con la
+  tangente natural del círculo ahí, que no es vertical, y la flecha quedaba flotando de
+  lado en vez de apuntar a la calle).
+- `kreisel_doppelspurig_wrong` (rotonda de doble carril, 3ª salida — se me había pasado
+  en una primera pasada, el usuario lo señaló): mismo patrón, arco real (radio 85) +
+  curva de enderezado hacia la salida oeste.
+
+**`src/data/maneuvers.js` — maniobra animada nueva `kreisverkehr_ausfahrt` (categoría B,
+icono `roundaboutWarn`), 4 variantes (1ª/2ª/3ª/4ª salida)**, generadas con un script
+paramétrico (no a mano) antes de pegarlas al archivo — mismo enfoque de coordenadas
+polares: 1ª salida reusa el cuarto de círculo pequeño; 2ª/3ª/4ª son tramos de un círculo
+real (radio 70, centro del anillo en 180/280) que encadenan sin quiebres porque son el
+mismo círculo evaluado en rangos de φ contiguos; el blinker cambia justo en el límite de
+paso que coincide con la salida anterior; cada salida termina con el ángulo EXACTO de la
+calle correspondiente (90/0/-90/-180), no solo la tangente del círculo. La 4ª salida da
+casi la vuelta completa y sale de nuevo por la propia calle de entrada. El ancho de las 4
+calles de la escena se subió de 76 a 130 px (a pedido del usuario, y porque hacía falta
+margen real) — ese cambio obligó a recalcular el offset de carril del coche (antes fijo
+en 19px, ahora `ARM_HALF/2` derivado del ancho real) para que no pareciera circulando por
+el centro de la calle en vez de por su carril.
+
+**Nota de proceso (test):** la escena de la maniobra necesita un rectángulo `road`
+invisible (oculto bajo el `grass` de fondo) cubriendo la zona del anillo, porque
+`maneuvers.test.js` solo reconoce rectángulos `road` para comprobar que el coche no pisa
+el césped, y el anillo se dibuja como círculo (`ring`), no como rectángulo — mismo truco
+que ya usaba `wendeplatzScene()` para el bulbo del Wendeplatz. Ese test (rectángulo
+suelto) es más permisivo que la calzada real; para verificar de verdad hubo que escribir
+un script aparte con la geometría exacta del círculo — vale la pena tenerlo en cuenta si
+se retoca esta escena a futuro, no basta con que pasen los 42 tests de
+`maneuvers.test.js`.
+
+**Banco de preguntas ampliado** (`src/data/questions.json`, 334→342): 8 preguntas nuevas
+de Kreisverkehr (topic `kreisverkehr`, categoría `both`), 2 por cada uno de 4 subtemas que
+eligió el usuario — peatones y ciclistas, vehículos grandes/camiones (isleta central
+pisable), vehículos de emergencia (esperar en la entrada vs. dar una vuelta extra si ya
+estás dentro, nunca parar en medio), y Minikreisel (isleta pisable para vehículos largos,
+mismas reglas de prioridad que cualquier kreisel) — redactadas desde cero a partir de
+TCS/BFU/ACS, no copiadas del banco oficial. Conteos hardcodeados actualizados:
+`Home.test.jsx`/`Study.test.jsx` (322→330 categoría B, 334→342 categoría A),
+comentario de tamaño en `questionBank.js`.
+
+**Verificación final:** `npm run lint` (0/0), `npm test` ×8 (112/112 cada vez),
+`npx vitest run src/data/maneuvers.test.js` (42/42), `npm run build` sin errores.
+Verificación visual real en navegador (Playwright + `npm run dev`) de los 3 diagramas
+corregidos, las 4 variantes de la maniobra, y el conteo de preguntas del filtro
+Kreisverkehr (11→19) — no solo cálculo de distancias.
+
+---
+
 ## 2026-08-20 (13) — Trayectoria incorrecta en los diagramas de rotonda (2ª salida)
 
 **Contexto:** el usuario mandó capturas de la app señalando que la flecha de trayectoria
