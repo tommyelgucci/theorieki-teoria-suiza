@@ -8,6 +8,80 @@ recordar.
 
 ---
 
+## 2026-08-19 (5) — Quinta ronda: 5 temas más (rueda de repuesto, venta de vehículo, vehículos lentos, convoyes militares, luces de posición) + auditoría de duplicados + fix del warning de chunk
+
+**Contexto:** cuarta continuación directa ("Sigue"). Antes de redactar nada nuevo, se
+hizo primero una auditoría de calidad sobre las cuatro rondas anteriores, porque al
+investigar un candidato de esta ronda (profundidad de neumáticos para el tema de rueda
+de repuesto) saltó a la vista que `q185` (añadida en la ronda 2) preguntaba
+prácticamente lo mismo que `q148`, ya existente en el banco original. Eso hizo sospechar
+que el proceso de comprobación de duplicados de las rondas anteriores (grepear palabras
+clave sueltas) no era suficiente.
+
+**Auditoría de duplicados:**
+1. Se generó un listado completo de las 254 preguntas agrupadas por topic y se revisó
+   manualmente — confirmó que `q185` (profundidad de neumáticos) duplicaba `q148`, y que
+   `q168` (formar el carril de emergencia con dos carriles) duplicaba la mecánica ya
+   cubierta por `q074`, preexistente bajo el topic `autobahn` que no se había revisado a
+   fondo al crear el topic `rettungsgasse` en la ronda 2.
+2. Se corrigieron ambas preguntas en el sitio (mismo id, topic, categoría y puntos, pero
+   contenido nuevo): `q185` pasó a preguntar sobre una rueda con bulto visible en el
+   flanco (daño de carcasa, sustitución inmediata independientemente del dibujo); `q168`
+   pasó a preguntar si el propio carril de emergencia puede usarse para avanzar (no, es
+   exclusivo de vehículos de emergencia).
+3. Se corrió una comparación de similitud de texto (`difflib.SequenceMatcher`) entre
+   todas las preguntas del banco (excluyendo el topic `signale`, que por diseño tiene
+   frases genéricas repetidas para distintas señales) cruzando pregunta + respuesta
+   correcta. Confirmó que, tras el fix, no quedaba ningún duplicado real — los 14 pares
+   restantes con similitud alta son preguntas legítimamente distintas sobre hechos
+   relacionados pero diferentes (p. ej. límites de velocidad por tipo de vía).
+4. Antes de redactar los 5 temas de esta ronda, se generó y revisó a mano el listado
+   completo de TODOS los topics existentes (no solo los adyacentes obvios) para
+   descartar solapamientos — así se detectó a tiempo que un candidato ("arcén para
+   vehículos de mantenimiento vial") era demasiado parecido a `q020` ya existente, y se
+   sustituyó por "luces de posición al aparcar de noche fuera de poblado" antes de
+   redactar ninguna pregunta.
+
+**Investigación de los 5 temas nuevos:** rueda de repuesto/kit antipinchazos (sin
+obligación legal en Suiza; solo el triángulo de avería sí es obligatorio), obligaciones
+al vender un vehículo (14 días para el cambio de titular, formulario cantonal para
+liberarse de responsabilidad, entrega del permiso de circulación original), vehículos
+lentos (placa triangular roja-amarilla para vehículos limitados técnicamente a 30 km/h),
+convoyes militares (VMSV: el convoy cuenta como una sola formación que no debe
+interrumpirse, banderas azules/verde para identificarlo), y luces de posición (art. 19
+VRV: obligatorias al aparcar de noche fuera de poblado sin alumbrado suficiente).
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q255–q274), 5 topics nuevos (`reserverad`,
+  `fahrzeugverkauf`, `langsame_fahrzeuge`, `militaerkolonne`, `standlicht`), 4 preguntas
+  cada uno, los 6 idiomas completos. Banco: 254 → 274 (262 categoría B, 274 categoría A).
+- Corregidos los 2 duplicados encontrados en `q185` y `q168` (ver arriba).
+- `vite.config.js`: añadido `build.chunkSizeWarningLimit: 1000` para eliminar el aviso
+  recurrente de Rollup sobre el tamaño del chunk `questions-*.js` — el chunk ya era lazy
+  y el aviso no señalaba ningún problema real, solo generaba ruido en cada build.
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (242→262, 254→274) y
+  `Study.test.jsx` (242→262), y el comentario de tamaño de bundle en `questionBank.js`
+  (254→274 preguntas, ~660→~725 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados; se documentó el fix del warning y la
+  lección aprendida sobre la auditoría de duplicados.
+
+**Verificación:** comparación de similitud de texto sobre las 274 preguntas (0 duplicados
+reales tras el fix), script Python de idiomas (0 errores), `npm run lint` (0/0), `npm
+test` × 5 corridas seguidas (104/104 cada vez), `npm run build` sin errores y sin el
+warning de chunk.
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): normas sobre
+neumáticos mixtos (verano/invierno combinados en el mismo eje), obligaciones al conducir
+con lentes de contacto o gafas si están anotadas en el permiso, comportamiento ante un
+semáforo con flecha verde intermitente, uso de la bocina fuera de localidad vs. dentro,
+transporte de bicicletas en portabicis trasero (matrícula y luces cubiertas). Repetir
+siempre el mismo protocolo: revisar el listado completo de topics relacionados (no solo
+grepear), buscar en internet la base legal real antes de redactar, y — a partir de ahora
+— correr también la comparación de similitud de texto sobre el banco completo antes de
+dar la ronda por cerrada.
+
+---
+
 ## 2026-08-19 (4) — Cuarta ronda: 5 temas más (zona peatonal, atropello de fauna, mercancías peligrosas, carreteras postales, cambio de carril tipo cremallera)
 
 **Contexto:** tercera continuación directa ("Si sigue") sobre la lista de candidatos.
