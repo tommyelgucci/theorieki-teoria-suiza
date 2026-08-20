@@ -8,6 +8,36 @@ recordar.
 
 ---
 
+## 2026-08-19 (11) — El coche rojo debe aparecer solo al final, y dos coches de aparcamiento mal alineados
+
+**Contexto:** dos correcciones más sobre las maniobras animadas.
+
+**Coche rojo "fantasma":** la entrada anterior de esta bitácora le había dado al coche
+rojo de `laengere_strecke_rueckwaerts` un recorrido en los pasos 4, 5 y 6, sincronizado
+con toda la maniobra. El usuario lo vio distinto: debía aparecer solo en los últimos 1-2
+segundos (un coche cualquiera pasando, no parte de la maniobra del examen), y además su
+posición inicial (`x: -20`, fuera del `viewBox`) se salía visualmente del panel redondeado
+al entrar. Se revirtió a que solo tenga `extraCars` en el paso 6 (1.6 s, coincide con "los
+últimos 1-2 segundos"), con un recorrido corto y siempre dentro del lienzo: de `x: 45` a
+`x: 75` (con el cuerpo del coche a 36 px de semilargo en ángulo 90°, `x: 45` deja al borde
+trasero en `x: 9`, ya dentro de los 360 px de ancho — antes, con `x: -20` en el paso 4, el
+borde trasero llegaba a `x: -56`, muy fuera).
+
+**Aparcamiento perpendicular:** en `rechtwinklig_rueckwaerts` y `vorwaerts_parkieren`
+(mismo `perpendicularBaysScene()`), el coche del usuario terminaba en `x: 242` / `x: 250`
+mientras que las plazas (`bayOutline`) y los coches de referencia aparcados (rojo y azul,
+elementos estáticos de la escena) están centrados en `x: 260`. El coche blanco quedaba
+notoriamente descentrado dentro de su casilla (hasta 18 px), a diferencia de los otros
+dos. Se corrigió el punto final de ambas maniobras a `x: 260`, igual que los coches de
+referencia.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, capturas confirmando que el
+coche rojo no aparece antes del paso 6 y que los tres coches del aparcamiento quedan
+igual de centrados en su plaza.
+
+---
+
 ## 2026-08-19 (10) — Ajustar el giro de "Tramo largo marcha atrás" y animar el coche rojo saliendo de la calle
 
 **Contexto:** dos pedidos sobre la misma maniobra (`laengere_strecke_rueckwaerts`).

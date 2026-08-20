@@ -381,7 +381,7 @@ export const MANEUVERS = [
         duration: 1500,
         keyframes: [
           { t: 0, x: 208, y: 210, angle: -90 },
-          { t: 1, x: 242, y: 210, angle: -90 },
+          { t: 1, x: 260, y: 210, angle: -90 },
         ],
         wheel: 'straight',
         reverse: true,
@@ -397,8 +397,8 @@ export const MANEUVERS = [
         },
         duration: 1300,
         keyframes: [
-          { t: 0, x: 242, y: 210, angle: -90 },
-          { t: 1, x: 242, y: 210, angle: -90 },
+          { t: 0, x: 260, y: 210, angle: -90 },
+          { t: 1, x: 260, y: 210, angle: -90 },
         ],
         wheel: null,
       },
@@ -459,7 +459,7 @@ export const MANEUVERS = [
         duration: 1400,
         keyframes: [
           { t: 0, x: 222, y: 210, angle: 90 },
-          { t: 1, x: 250, y: 210, angle: 90 },
+          { t: 1, x: 260, y: 210, angle: 90 },
         ],
         wheel: 'straight',
       },
@@ -660,15 +660,6 @@ export const MANEUVERS = [
         wheel: 'straight',
         reverse: true,
         blinker: 'left',
-        extraCars: [
-          {
-            color: '#c0392b',
-            keyframes: [
-              { t: 0, x: -20, y: 338, angle: 90 },
-              { t: 1, x: 10, y: 338, angle: 90 },
-            ],
-          },
-        ],
       },
       {
         caption: {
@@ -693,15 +684,6 @@ export const MANEUVERS = [
           { x1: 136, y1: 272, x2: 30, y2: 272 },
           { x1: 136, y1: 300, x2: 30, y2: 300 },
         ],
-        extraCars: [
-          {
-            color: '#c0392b',
-            keyframes: [
-              { t: 0, x: 10, y: 338, angle: 90 },
-              { t: 1, x: 40, y: 338, angle: 90 },
-            ],
-          },
-        ],
       },
       {
         caption: {
@@ -724,8 +706,8 @@ export const MANEUVERS = [
           {
             color: '#c0392b',
             keyframes: [
-              { t: 0, x: 40, y: 338, angle: 90 },
-              { t: 1, x: 66, y: 338, angle: 90 },
+              { t: 0, x: 45, y: 338, angle: 90 },
+              { t: 1, x: 75, y: 338, angle: 90 },
             ],
           },
         ],
