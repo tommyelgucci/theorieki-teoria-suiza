@@ -13,10 +13,10 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 274 preguntas (262 categoría B, 274 categoría A — 262 compartidas + 12 propias de A),
+- 294 preguntas (282 categoría B, 294 categoría A — 282 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
-  Ampliado en cinco rondas de la sesión de 2026-08-19 con 29 temas nuevos (116 preguntas)
-  redactados desde cero a partir de VRV/SVG/SSV/VMSV, ver `CHECKPOINT.md`.
+  Ampliado en seis rondas de la sesión de 2026-08-19 con 34 temas nuevos (136 preguntas)
+  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, ver `CHECKPOINT.md`.
 - ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
   `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
   era solo ruido informativo, no un problema de rendimiento real). Si el banco sigue

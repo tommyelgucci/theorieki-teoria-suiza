@@ -8,6 +8,67 @@ recordar.
 
 ---
 
+## 2026-08-19 (6) — Sexta ronda: 5 temas más (obligación de sehhilfe, uso de la bocina, portabicicletas trasero, control policial/alcoholímetro, e-bikes)
+
+**Contexto:** quinta continuación directa ("Sigue"). Se siguió el protocolo reforzado de
+la ronda 5: revisión completa de topics relacionados antes de redactar, y comparación de
+similitud de texto sobre el banco completo al terminar.
+
+**Dos candidatos de la lista anterior se descartaron tras investigarlos:**
+- "Neumáticos mixtos (verano/invierno en el mismo eje)": las fuentes encontradas eran
+  mayormente de derecho alemán (StVZO), sin una cita suiza específica lo bastante sólida
+  como para redactar una pregunta con confianza legal. Se descartó en vez de forzarlo.
+- "Flecha verde intermitente en semáforo": la investigación confirmó explícitamente que
+  no es una señal estándar en el derecho suizo (a diferencia de otros países) — se
+  descartó para no inventar contenido sobre una señal que no existe en Suiza.
+
+En su lugar se investigaron y usaron dos temas de reemplazo con base legal sólida:
+control policial/alcoholímetro y clasificación de e-bikes.
+
+**Investigación de los 5 temas nuevos:** obligación de corrección visual (art. 7 párr.
+1bis VZV; códigos 01.01 gafas, 01.02 lentillas, 01/01.06 ambas; multa y proceso penal si
+se conduce sin ella pese a la anotación en el permiso), uso de la bocina (solo para
+avisar de un peligro real — curvas ciegas fuera de poblado, peatones distraídos; nunca
+por impaciencia o para celebrar; de noche se prefiere el destello de luces), portabicis
+trasero (si tapa la matrícula o las luces traseras, hay que duplicarlas en el
+portabicis; las bicis pueden sobresalir hasta 20 cm por lado sin superar 2 m de ancho
+total), control policial y alcoholímetro (la policía puede exigir el test sin sospecha
+previa desde la introducción del test con valor probatorio; negarse se sanciona igual
+que conducir muy ebrio, con retirada de carta de mínimo 3 meses según art. 16c párr. 1
+letra d SVG), y clasificación de e-bikes (lento hasta 25 km/h = bicicleta normal, sin
+matrícula; rápido hasta 45 km/h = matrícula, permiso de circulación y casco obligatorio
+para todos los ocupantes).
+
+Se verificó contra el banco existente (topics `motorrad`, `velo`, `fahrzeug`, `alkohol`)
+que ninguno de estos 5 temas duplicara contenido ya presente.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q275–q294), 5 topics nuevos (`sehhilfe`,
+  `hupe`, `fahrradtraeger`, `polizeikontrolle`, `ebike`), 4 preguntas cada uno, los 6
+  idiomas completos. Banco: 274 → 294 (282 categoría B, 294 categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (262→282, 274→294) y
+  `Study.test.jsx` (262→282), y el comentario de tamaño de bundle en `questionBank.js`
+  (274→294 preguntas, ~725→~785 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados.
+
+**Verificación:** comparación de similitud de texto sobre las 294 preguntas (0
+duplicados nuevos — los mismos 14 pares benignos de siempre, ninguno con el contenido de
+esta ronda), script Python de idiomas (0 errores), `npm run lint` (0/0), `npm test` × 5
+corridas seguidas (104/104 cada vez), `npm run build` sin errores ni warnings.
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): normas sobre
+depósito de garantía (Kaution) para conductores extranjeros tras una infracción grave,
+comportamiento al adelantar un vehículo de transporte escolar fuera de poblado (distinto
+del caso ya cubierto de un bus escolar parado), uso de asientos elevadores tras superar
+la altura mínima del cinturón, obligaciones al circular con un remolque sin frenos
+propios, y señalización de una zona de obras móvil (vehículo de trabajo lento con
+paneles de aviso). Repetir siempre el mismo protocolo: revisar el listado completo de
+topics relacionados, buscar en internet la base legal real, descartar sin miedo un tema
+si la base suiza no es sólida, y correr la comparación de similitud de texto al cerrar
+la ronda.
+
+---
+
 ## 2026-08-19 (5) — Quinta ronda: 5 temas más (rueda de repuesto, venta de vehículo, vehículos lentos, convoyes militares, luces de posición) + auditoría de duplicados + fix del warning de chunk
 
 **Contexto:** cuarta continuación directa ("Sigue"). Antes de redactar nada nuevo, se
