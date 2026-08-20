@@ -8,6 +8,53 @@ recordar.
 
 ---
 
+## 2026-08-19 (9) — Fix: coches solapados en el paso final de "Tramo largo marcha atrás"
+
+**Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
+(paso 6 de 6) mostrando el coche del examen y el coche rojo aparcado prácticamente
+encima uno del otro, y pidió corregirlo (agrandando la calle si hacía falta espacio, o
+de la forma que fuera).
+
+**Diagnóstico:** el coche del examen terminaba en `y:302` y el coche rojo en `y:338` —
+una separación de 36 px. El cuerpo del coche (`CarSprite.jsx`) mide 36×72, con los
+retrovisores sobresaliendo hasta un semiancho real de ~21,5 px; con angle 90° ese
+semiancho queda en el eje Y. Dos coches con semiancho 21,5 necesitan más de 43 px de
+separación para no tocarse — con solo 36 px se solapaban ~7 px. Además el coche del
+examen ya invadía unos 3 px la línea discontinua del carril (en y:317) antes del ajuste.
+
+**Por qué no se agrandó la calle:** `junctionScene()` la comparten dos maniobras
+(`links_abbiegen_einspuren` y esta); ensancharla habría exigido recalcular también las
+`curbLine` del cruce en T para que no quedara un borde de acera cruzando el asfalto por
+la mitad, con riesgo de romper la otra maniobra. Se optó por reposicionar el coche
+dentro de su propio carril, sin tocar la escena compartida.
+
+**Primer intento fallido:** mover también el keyframe intermedio del paso 5 (t=0.7) para
+que el giro completo terminara más arriba hizo que una esquina del coche, a mitad de
+giro (t≈0.76), se saliera del asfalto por la esquina noroeste del cruce en T — lo detectó
+`maneuvers.test.js` ("mantiene el coche sobre el asfalto"), que existe justo para esto y
+que no se había ejecutado antes de dar el primer intento por bueno.
+
+**Fix definitivo:** se revirtió el paso 5 a sus valores originales (el arco del giro no
+se toca) y el ajuste se hizo solo en el paso 6 ("Endereza y detente"), que ya no gira:
+su keyframe final pasa de `(76, 302, 90)` a `(76, 293, 90)`, un ligero avance/corrección
+lateral de 9 px hacia el carril izquierdo mientras se endereza — coherente con la
+propia descripción del paso. Resultado: separación final de 45 px entre coches (9 px de
+margen real de chapa, más allá de los retrovisores), y el coche del examen queda
+limpiamente dentro de su carril sin tocar la línea discontinua.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34, incluyendo los dos
+tests de geometría — "sobre el asfalto" y "sin saltos" — para las 17 maniobras/variantes
+del banco), `npm run lint` (0/0), `npm test` × 3 corridas completas (104/104 cada vez),
+`npm run build` sin errores.
+
+**Lección para futuras animaciones:** al tocar cualquier keyframe intermedio de un
+`step` con `wheel` activo (girando), correr siempre
+`npx vitest run src/data/maneuvers.test.js` antes de dar el cambio por bueno — el test
+de geometría existe precisamente para atrapar el tipo de error que casi se coló aquí, y
+es mucho más barato que revisar el vídeo a ojo.
+
+---
+
 ## 2026-08-19 (8) — Octava ronda: 5 temas más (silla infantil en bicicleta, prohibición de dar media vuelta, transporte en el techo, carta verde, matrícula intercambiable)
 
 **Contexto:** séptima continuación directa. El usuario preguntó "Que más podemos
