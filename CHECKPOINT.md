@@ -8,6 +8,96 @@ recordar.
 
 ---
 
+## 2026-08-19 (9) — Fix: hueco sin césped en `junctionScene()`, y sólo eso
+
+**Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
+(paso 6) mostrando el coche del examen y un coche rojo aparcado casi encima uno del otro.
+El primer intento de arreglo (reposicionar el coche del examen 9 px, más una captura
+posterior probando ensanchar la calle y animar el coche rojo saliendo de ella) no
+convenció al usuario y esa PR terminó revertida en `main`. Al rehacer el trabajo desde
+cero se pidió explícitamente recuperar solo la parte que sí funcionaba: el relleno de
+césped. El resto (reposicionar el coche del examen, ensanchar la calle, animar el coche
+rojo) queda fuera a propósito.
+
+**Diagnóstico:** en `junctionScene()` los dos rectángulos de césped superior e inferior
+(`y:0-270` y `y:360-560`) cubrían el ancho completo del lienzo, pero la calle secundaria
+(`road x:0-300, y:270-360`) solo llega hasta `x:300` — la franja `x:300-360, y:270-360`
+(60×90) no tenía ningún elemento, quedaba transparente. Además, el `curbLine` del lado
+este (`x:300`) estaba cortado en dos tramos (copiado sin necesidad del lado oeste, donde
+sí hace falta por la boca de la calle secundaria), lo que hacía que un primer parche
+puntual se notara "pegado" en vez de parte del mismo bloque.
+
+**Fix:** el margen este (`x:300-360`) pasa a ser un único rectángulo de césped de altura
+completa (`y:0-560`) y su `curbLine` una sola línea continua — igual que ya hacía
+correctamente `junctionRightScene()` para su margen lejano. No toca ningún keyframe de
+coche ni la posición del coche rojo aparcado.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, captura de pantalla del paso 6
+confirmando el césped relleno como bloque continuo.
+
+---
+
+## 2026-08-19 (8) — Octava ronda: 5 temas más (silla infantil en bicicleta, prohibición de dar media vuelta, transporte en el techo, carta verde, matrícula intercambiable)
+
+**Contexto:** séptima continuación directa. El usuario preguntó "Que más podemos
+agregar" a mitad de la investigación; se respondió brevemente con los 5 candidatos antes
+de seguir. Se mantuvo el protocolo reforzado: revisar el banco existente por topics
+relacionados antes de investigar, e investigar cada tema por separado.
+
+**Un candidato se descartó en la fase de revisión del banco** (antes de investigar en
+internet): "obligaciones al conducir un vehículo de alquiler/leasing" se descartó por
+quedar demasiado cerca de `q149` (`fahrzeug`, responsabilidad al conducir el coche
+prestado de un amigo). Se sustituyó por matrícula intercambiable (Wechselschild), un
+concepto genuinamente distinto y bien documentado.
+
+**Investigación de los 5 temas nuevos:** silla/remolque infantil en bicicleta (máximo 2
+niños en remolque o 1 en silla clásica; el niño debe poder sentarse solo y sostener la
+cabeza; quien transporta debe tener mínimo 16 años; sin obligación legal de casco en
+Suiza, ni para niños ni adultos, aunque se recomienda encarecidamente), prohibición de
+dar media vuelta —Kehrtwendung— (prohibida en autopistas/semiautopistas, en lugares sin
+buena visibilidad y con tráfico denso; regulada en el mismo art. 17 VRV que la marcha
+atrás), transporte de esquís/cajas en el techo (altura total máxima 4 m, carga de techo
+según el permiso de circulación, mayor distancia de frenado y sensibilidad al viento
+lateral), carta verde de seguro (no obligatoria en Suiza ni en el EEE gracias al
+convenio de matrículas, pero recomendable para Italia y Reino Unido), y matrícula
+intercambiable (máximo 2 vehículos del mismo titular, mismo cantón y misma categoría;
+solo uno puede circular a la vez).
+
+Se verificó contra el banco existente (topics `gurte`, `velo`, `tiertransport`,
+`rueckwaerts`, `ladung`, `kontrollschild_verlust`) que ninguno de estos 5 temas
+duplicara contenido ya presente.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q315–q334), 5 topics nuevos
+  (`velokindersitz`, `wenden`, `dachtransport`, `gruenekarte`, `wechselschild`), 4
+  preguntas cada uno, los 6 idiomas completos. Banco: 314 → 334 (322 categoría B, 334
+  categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (302→322, 314→334) y
+  `Study.test.jsx` (302→322), y el comentario de tamaño de bundle en `questionBank.js`
+  (314→334 preguntas, ~845→~900 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados; se avisó en el ROADMAP de que el chunk
+  real (935 KB) ya está cerca del límite configurado de 1000 KB — una novena ronda
+  probablemente hará reaparecer el warning de Rollup.
+
+**Verificación:** comparación de similitud de texto sobre las 334 preguntas (0
+duplicados nuevos — los mismos 14 pares benignos de siempre), script Python de idiomas
+(0 errores), `npm run lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez),
+`npm run build` sin errores ni warnings (935 KB minificado, todavía bajo el límite de
+1000 KB, pero cerca).
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): dado que el
+banco ya lleva ocho rondas y 176 preguntas nuevas hoy, empieza a ser más difícil
+encontrar temas genuinamente nuevos sin solaparse con los ~44 topics ya cubiertos —
+conviene revisar el banco completo por topics con más cuidado antes de cada nueva ronda.
+Candidatos sin descartar todavía: obligaciones del titular al cambiar el color de un
+vehículo, uso de neblineros delanteros (distinto de la luz antiniebla trasera ya
+cubierta), comportamiento ante un vehículo de auto-escuela con doble mando, transporte
+de animales de granja/ganado por carretera, y validez de la licencia de conducir
+extranjera al residir en Suiza. Repetir siempre el mismo protocolo.
+
+---
+
 ## 2026-08-19 (7) — Séptima ronda: 5 temas más (fianza para conductores extranjeros, remolque sin frenos propios, semáforo de obra, carril bus, pérdida/robo de matrícula)
 
 **Contexto:** sexta continuación directa ("Si, sigue"). Antes de investigar nada, el

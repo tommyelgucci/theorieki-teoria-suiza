@@ -53,17 +53,17 @@ function perpendicularBaysScene() {
 function junctionScene() {
   return {
     elements: [
-      { type: 'grass', x: 0, y: 0, w: CANVAS.w, h: 270 },
-      { type: 'grass', x: 0, y: 360, w: CANVAS.w, h: 200 },
+      { type: 'grass', x: 0, y: 0, w: 140, h: 270 },
+      { type: 'grass', x: 0, y: 360, w: 140, h: 200 },
+      { type: 'grass', x: 300, y: 0, w: 60, h: CANVAS.h },
       { type: 'road', x: 140, y: 0, w: 160, h: CANVAS.h },
       { type: 'road', x: 0, y: 270, w: 300, h: 90 },
       { type: 'laneLine', x1: 220, y1: 0, x2: 220, y2: 270, dashed: true },
       { type: 'laneLine', x1: 220, y1: 360, x2: 220, y2: CANVAS.h, dashed: true },
       { type: 'laneLine', x1: 0, y1: 317, x2: 140, y2: 317, dashed: true },
       { type: 'curbLine', x1: 140, y1: 0, x2: 140, y2: 270 },
-      { type: 'curbLine', x1: 300, y1: 0, x2: 300, y2: 270 },
       { type: 'curbLine', x1: 140, y1: 360, x2: 140, y2: CANVAS.h },
-      { type: 'curbLine', x1: 300, y1: 360, x2: 300, y2: CANVAS.h },
+      { type: 'curbLine', x1: 300, y1: 0, x2: 300, y2: CANVAS.h },
     ],
   }
 }
