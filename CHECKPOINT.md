@@ -8,6 +8,36 @@ recordar.
 
 ---
 
+## 2026-08-19 (9) — Fix: hueco sin césped en `junctionScene()`, y sólo eso
+
+**Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
+(paso 6) mostrando el coche del examen y un coche rojo aparcado casi encima uno del otro.
+El primer intento de arreglo (reposicionar el coche del examen 9 px, más una captura
+posterior probando ensanchar la calle y animar el coche rojo saliendo de ella) no
+convenció al usuario y esa PR terminó revertida en `main`. Al rehacer el trabajo desde
+cero se pidió explícitamente recuperar solo la parte que sí funcionaba: el relleno de
+césped. El resto (reposicionar el coche del examen, ensanchar la calle, animar el coche
+rojo) queda fuera a propósito.
+
+**Diagnóstico:** en `junctionScene()` los dos rectángulos de césped superior e inferior
+(`y:0-270` y `y:360-560`) cubrían el ancho completo del lienzo, pero la calle secundaria
+(`road x:0-300, y:270-360`) solo llega hasta `x:300` — la franja `x:300-360, y:270-360`
+(60×90) no tenía ningún elemento, quedaba transparente. Además, el `curbLine` del lado
+este (`x:300`) estaba cortado en dos tramos (copiado sin necesidad del lado oeste, donde
+sí hace falta por la boca de la calle secundaria), lo que hacía que un primer parche
+puntual se notara "pegado" en vez de parte del mismo bloque.
+
+**Fix:** el margen este (`x:300-360`) pasa a ser un único rectángulo de césped de altura
+completa (`y:0-560`) y su `curbLine` una sola línea continua — igual que ya hacía
+correctamente `junctionRightScene()` para su margen lejano. No toca ningún keyframe de
+coche ni la posición del coche rojo aparcado.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, captura de pantalla del paso 6
+confirmando el césped relleno como bloque continuo.
+
+---
+
 ## 2026-08-19 (8) — Octava ronda: 5 temas más (silla infantil en bicicleta, prohibición de dar media vuelta, transporte en el techo, carta verde, matrícula intercambiable)
 
 **Contexto:** séptima continuación directa. El usuario preguntó "Que más podemos
