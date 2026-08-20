@@ -8,6 +8,55 @@ recordar.
 
 ---
 
+## 2026-08-19 (3) — Tercera ronda: 5 temas más (personas en remolque, tram en rotonda, luces de remolque, descensos, marcha atrás)
+
+**Contexto:** segunda continuación directa ("Si sigue") sobre la lista de candidatos que
+quedó anotada al cierre de la ronda anterior. Mismo protocolo de las dos rondas previas:
+investigar cada tema por separado antes de escribir, y comprobar contra el banco
+existente que no hubiera duplicados.
+
+**Investigación previa:** transporte de personas en la caja/remolque (VRV: solo en el
+marco de la explotación agrícola, o viajes gratuitos de utilidad pública equiparados a
+ella, con "protección adecuada" — laterales o plazas habilitadas; los paseos puramente
+recreativos no están cubiertos), tranvía en rotonda (prioridad del tranvía tanto al
+entrar como al salir del kreisel, por ir sujeto a vía y no poder esquivar ni frenar
+rápido; distinto si el tranvía gira de una calle secundaria a una principal fuera de
+rotonda, donde no hay prioridad automática), iluminación de remolques (luz trasera roja
+propia si tapa la del vehículo tractor, catadióptricos traseros naranjas no triangulares,
+iluminación de matrícula), conducción en descensos largos (freno motor con marcha corta,
+riesgo de "fading" por frenado continuo, frenadas cortas y enérgicas en vez de frenado
+sostenido), y marcha atrás (art. 17 VRV: solo si no es posible seguir adelante o dar la
+vuelta, prohibido en pasos a nivel y bifurcaciones con poca visibilidad, solo al paso,
+persona guía si la visibilidad trasera es limitada).
+
+Se verificó contra el banco existente (topics `kreisverkehr`, `fahrzeug`, `pannen`,
+`abstand`, `ladung`) que ninguno de estos 5 temas duplicara preguntas ya presentes —
+todas son complementarias.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q215–q234), 5 topics nuevos (`ladeflaeche`,
+  `tram_kreisel`, `anhaenger_licht`, `gefaelle`, `rueckwaerts`), 4 preguntas cada uno, los
+  6 idiomas completos. Banco: 214 → 234 (222 categoría B, 234 categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (202→222, 214→234) y
+  `Study.test.jsx` (202→222), y el comentario de tamaño de bundle en `questionBank.js`
+  (214→234 preguntas, ~530→~590 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados; se amplió la nota sobre el warning de
+  tamaño de chunk de Rollup (ya presente, no nuevo) indicando que cada ronda de ~20
+  preguntas añade ~60-70 KB al chunk lazy de `questions.json`.
+
+**Verificación:** script Python de idiomas (0 errores en las 234 preguntas), `npm run
+lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez), `npm run build` sin
+errores (con el mismo warning de tamaño de chunk ya documentado, no bloqueante).
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): normas de
+adelantamiento en curva o cresta, obligaciones tras un accidente con animales salvajes,
+zona de encuentro vs. zona peatonal, transporte de cargas peligrosas para particulares,
+prioridad de vehículos de servicio de invierno (quitanieves). Repetir siempre el mismo
+protocolo: buscar en internet la base legal real antes de redactar, y comprobar contra el
+banco existente para no duplicar.
+
+---
+
 ## 2026-08-19 (2) — Segunda ronda: 5 temas más (vignette, animales, peatones, semáforo intermitente, tempo mínimo)
 
 **Contexto:** continuación directa de la sesión anterior (mismo día). El usuario pidió

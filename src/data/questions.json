@@ -13362,5 +13362,1245 @@
       "pt": "A velocidade mínima para acesso à autoestrada serve a segurança: veículos muito lentos no meio de trânsito rápido representam um risco de acidente considerável."
     },
     "image": null
+  },
+  {
+    "id": "q215",
+    "category": "both",
+    "topic": "ladeflaeche",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Landwirt möchte Nachbarn unentgeltlich zum Dorffest auf der Ladefläche seines Anhängers mitnehmen. Ist das erlaubt?",
+      "es": "Un agricultor quiere llevar gratis a sus vecinos a la fiesta del pueblo en la plataforma de carga de su remolque. ¿Está permitido?",
+      "fr": "Un agriculteur veut emmener gratuitement des voisins à la fête du village sur la plate-forme de chargement de sa remorque. Est-ce autorisé ?",
+      "it": "Un agricoltore vuole portare gratuitamente i vicini alla festa del paese sul pianale del suo rimorchio. È consentito?",
+      "en": "A farmer wants to give neighbours a free ride to the village festival on the load platform of his trailer. Is that allowed?",
+      "pt": "Um agricultor quer levar gratuitamente os vizinhos à festa da aldeia na plataforma de carga do seu reboque. Isso é permitido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja – unentgeltliche Fahrten zu gemeinnützigen Zwecken werden landwirtschaftlichen Fahrten gleichgestellt",
+          "es": "Sí: los viajes gratuitos con fines de interés general se equiparan a los viajes agrícolas",
+          "fr": "Oui – les trajets gratuits à but d'utilité publique sont assimilés aux trajets agricoles",
+          "it": "Sì – i viaggi gratuiti per scopi di pubblica utilità sono equiparati ai viaggi agricoli",
+          "en": "Yes – unpaid trips for public-benefit purposes are treated the same as agricultural trips",
+          "pt": "Sim – as viagens gratuitas com fins de utilidade pública são equiparadas a viagens agrícolas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Personentransport auf der Ladefläche ist in der Schweiz ausnahmslos verboten",
+          "es": "No, transportar personas en la plataforma de carga está prohibido en Suiza sin excepción",
+          "fr": "Non, le transport de personnes sur la plate-forme de chargement est interdit sans exception en Suisse",
+          "it": "No, il trasporto di persone sul pianale è vietato senza eccezioni in Svizzera",
+          "en": "No, carrying people on the load platform is forbidden in Switzerland without exception",
+          "pt": "Não, o transporte de pessoas na plataforma de carga é proibido na Suíça sem exceção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur wenn jede Person einen eigenen Sicherheitsgurt trägt",
+          "es": "Solo si cada persona lleva su propio cinturón de seguridad",
+          "fr": "Seulement si chaque personne porte sa propre ceinture de sécurité",
+          "it": "Solo se ogni persona indossa una propria cintura di sicurezza",
+          "en": "Only if every person wears their own seatbelt",
+          "pt": "Só se cada pessoa usar o seu próprio cinto de segurança"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Unentgeltliche Fahrten, die gemeinnützigen Zwecken dienen, werden gemäss VRV landwirtschaftlichen Fahrten gleichgestellt und dürfen unter denselben Bedingungen (angemessener Schutz) stattfinden.",
+      "es": "Los viajes gratuitos con fines de interés general se equiparan, según la VRV, a los viajes agrícolas y pueden realizarse en las mismas condiciones (protección adecuada).",
+      "fr": "Les trajets gratuits à but d'utilité publique sont, selon l'OCR, assimilés aux trajets agricoles et peuvent avoir lieu aux mêmes conditions (protection appropriée).",
+      "it": "I viaggi gratuiti per scopi di pubblica utilità sono, secondo l'ONC, equiparati ai viaggi agricoli e possono avvenire alle stesse condizioni (protezione adeguata).",
+      "en": "Under the VRV, unpaid trips serving public-benefit purposes are treated the same as agricultural trips and may take place under the same conditions (adequate protection).",
+      "pt": "As viagens gratuitas com fins de utilidade pública são, segundo o VRV, equiparadas a viagens agrícolas e podem realizar-se nas mesmas condições (proteção adequada)."
+    },
+    "image": null
+  },
+  {
+    "id": "q216",
+    "category": "both",
+    "topic": "ladeflaeche",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Unter welcher Voraussetzung dürfen überhaupt Personen auf der Ladefläche eines landwirtschaftlichen Anhängers mitfahren?",
+      "es": "¿Bajo qué condición pueden personas viajar en la plataforma de carga de un remolque agrícola?",
+      "fr": "À quelle condition des personnes peuvent-elles voyager sur la plate-forme de chargement d'une remorque agricole ?",
+      "it": "A quale condizione le persone possono viaggiare sul pianale di un rimorchio agricolo?",
+      "en": "Under what condition may people ride on the load platform of an agricultural trailer at all?",
+      "pt": "Sob que condição podem as pessoas viajar na plataforma de carga de um reboque agrícola?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nur im Zusammenhang mit der Bewirtschaftung des Betriebs (z. B. vom Hof aufs Feld) und mit angemessenem Schutz",
+          "es": "Solo en relación con las labores de la explotación (p. ej. de la granja al campo) y con protección adecuada",
+          "fr": "Uniquement dans le cadre de l'exploitation de la ferme (p. ex. de la ferme au champ) et avec une protection appropriée",
+          "it": "Solo in relazione alla gestione dell'azienda (ad es. dalla cascina al campo) e con protezione adeguata",
+          "en": "Only in connection with running the farm (e.g. from the farmhouse to the field) and with adequate protection",
+          "pt": "Só em relação à gestão da exploração (por exemplo, da quinta para o campo) e com proteção adequada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Immer und uneingeschränkt, unabhängig vom Zweck der Fahrt",
+          "es": "Siempre y sin restricciones, sea cual sea el motivo del trayecto",
+          "fr": "Toujours et sans restriction, quel que soit le but du trajet",
+          "it": "Sempre e senza restrizioni, indipendentemente dallo scopo del viaggio",
+          "en": "Always and without restriction, regardless of the purpose of the trip",
+          "pt": "Sempre e sem restrições, independentemente do motivo da viagem"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur wenn die Fahrt schneller als 30 km/h ist",
+          "es": "Solo si el trayecto se hace a más de 30 km/h",
+          "fr": "Seulement si le trajet se fait à plus de 30 km/h",
+          "it": "Solo se il viaggio avviene a più di 30 km/h",
+          "en": "Only if the trip is faster than 30 km/h",
+          "pt": "Só se a viagem for feita a mais de 30 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Mitfahrt auf der Ladefläche oder Ladung ist nur im betrieblichen Rahmen erlaubt, mit angemessenem Schutz – etwa Bordwände oder eigens eingerichtete Sitz- oder Stehplätze.",
+      "es": "Viajar en la plataforma de carga o sobre la carga solo está permitido en el marco de la explotación, con protección adecuada, como paredes laterales o plazas de asiento o de pie habilitadas.",
+      "fr": "Voyager sur la plate-forme de chargement ou sur le chargement n'est autorisé que dans le cadre de l'exploitation, avec une protection appropriée, comme des ridelles ou des places assises ou debout aménagées.",
+      "it": "Viaggiare sul pianale o sul carico è consentito solo nell'ambito aziendale, con protezione adeguata, ad esempio sponde laterali o posti a sedere o in piedi appositamente allestiti.",
+      "en": "Riding on the load platform or the load itself is only permitted within the farm's operations, with adequate protection – such as side boards or purpose-fitted seating or standing places.",
+      "pt": "Viajar na plataforma de carga ou sobre a carga só é permitido no âmbito da exploração, com proteção adequada – por exemplo, laterais ou lugares sentados ou de pé especialmente preparados."
+    },
+    "image": null
+  },
+  {
+    "id": "q217",
+    "category": "both",
+    "topic": "ladeflaeche",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was bedeutet «angemessener Schutz» für Personen, die auf einem Anhänger mitfahren dürfen?",
+      "es": "¿Qué significa «protección adecuada» para las personas que pueden viajar en un remolque?",
+      "fr": "Que signifie « protection appropriée » pour les personnes autorisées à voyager sur une remorque ?",
+      "it": "Cosa significa «protezione adeguata» per le persone che possono viaggiare su un rimorchio?",
+      "en": "What does \"adequate protection\" mean for people allowed to ride on a trailer?",
+      "pt": "O que significa «proteção adequada» para as pessoas que podem viajar num reboque?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Zum Beispiel Bordwände oder eigens eingerichtete Sitz- oder Stehplätze",
+          "es": "Por ejemplo, paredes laterales o plazas de asiento o de pie habilitadas expresamente",
+          "fr": "Par exemple des ridelles ou des places assises ou debout aménagées",
+          "it": "Ad esempio sponde laterali o posti a sedere o in piedi appositamente allestiti",
+          "en": "For example side boards or purpose-fitted seating or standing places",
+          "pt": "Por exemplo, laterais ou lugares sentados ou de pé especialmente preparados"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein Helm reicht als einzige Schutzmassnahme immer aus",
+          "es": "Un casco basta siempre como única medida de protección",
+          "fr": "Un casque suffit toujours comme seule mesure de protection",
+          "it": "Un casco basta sempre come unica misura di protezione",
+          "en": "A helmet is always sufficient as the only protective measure",
+          "pt": "Um capacete basta sempre como única medida de proteção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keine Anforderung, jede Ladefläche gilt automatisch als sicher",
+          "es": "No hay ningún requisito, toda plataforma de carga se considera automáticamente segura",
+          "fr": "Il n'y a aucune exigence, toute plate-forme de chargement est automatiquement considérée sûre",
+          "it": "Non c'è alcun requisito, ogni pianale è automaticamente considerato sicuro",
+          "en": "There is no requirement, every load platform is automatically considered safe",
+          "pt": "Não há nenhum requisito, toda a plataforma de carga é automaticamente considerada segura"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Angemessener Schutz bedeutet z. B. Bordwände, die ein Herausfallen verhindern, oder eigens eingerichtete Sitz-/Stehplätze — keine ungesicherte, offene Fläche.",
+      "es": "La protección adecuada significa, por ejemplo, paredes laterales que impidan la caída, o plazas de asiento/de pie habilitadas expresamente, no una plataforma abierta sin sujeción.",
+      "fr": "Une protection appropriée signifie par exemple des ridelles empêchant de tomber, ou des places assises/debout aménagées – pas une plate-forme ouverte non sécurisée.",
+      "it": "Protezione adeguata significa ad esempio sponde che impediscono la caduta, o posti a sedere/in piedi appositamente allestiti – non un pianale aperto e non assicurato.",
+      "en": "Adequate protection means, for example, side boards that prevent falling off, or purpose-fitted seating/standing places – not an unsecured, open platform.",
+      "pt": "Proteção adequada significa, por exemplo, laterais que impeçam a queda, ou lugares sentados/de pé especialmente preparados – não uma plataforma aberta sem fixação."
+    },
+    "image": null
+  },
+  {
+    "id": "q218",
+    "category": "both",
+    "topic": "ladeflaeche",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Sind reine Vergnügungsfahrten («Gesellschaftsfahrten») mit Personen auf der Ladefläche eines Anhängers erlaubt?",
+      "es": "¿Están permitidos los paseos puramente recreativos («viajes de recreo») con personas en la plataforma de carga de un remolque?",
+      "fr": "Les trajets purement récréatifs (« sorties de société ») avec des personnes sur la plate-forme de chargement d'une remorque sont-ils autorisés ?",
+      "it": "I viaggi puramente ricreativi (\"gite sociali\") con persone sul pianale di un rimorchio sono consentiti?",
+      "en": "Are purely recreational trips (\"social outings\") with people on a trailer's load platform allowed?",
+      "pt": "As viagens puramente recreativas («passeios de convívio») com pessoas na plataforma de carga de um reboque são permitidas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, solche Fahrten sind grundsätzlich nicht erlaubt",
+          "es": "No, esos trayectos no están permitidos en principio",
+          "fr": "Non, ces trajets ne sont en principe pas autorisés",
+          "it": "No, questi viaggi non sono in linea di massima consentiti",
+          "en": "No, such trips are generally not allowed",
+          "pt": "Não, essas viagens não são, em princípio, permitidas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist ausdrücklich erlaubt, solange langsam gefahren wird",
+          "es": "Sí, está expresamente permitido mientras se circule despacio",
+          "fr": "Oui, c'est expressément autorisé tant que l'on roule lentement",
+          "it": "Sì, è espressamente consentito purché si viaggi piano",
+          "en": "Yes, this is expressly allowed as long as you drive slowly",
+          "pt": "Sim, isso é expressamente permitido desde que se conduza devagar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur an Wochenenden",
+          "es": "Sí, pero solo los fines de semana",
+          "fr": "Oui, mais seulement le week-end",
+          "it": "Sì, ma solo nei fine settimana",
+          "en": "Yes, but only on weekends",
+          "pt": "Sim, mas só aos fins de semana"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gesellschaftsfahrten (reine Vergnügungsfahrten) sind von der Ausnahme für landwirtschaftliche oder gemeinnützige Fahrten nicht gedeckt und deshalb grundsätzlich nicht erlaubt.",
+      "es": "Los viajes de recreo (puramente de placer) no están cubiertos por la excepción de los trayectos agrícolas o de interés general, por lo que en principio no están permitidos.",
+      "fr": "Les sorties de société (trajets purement récréatifs) ne sont pas couvertes par l'exception des trajets agricoles ou d'utilité publique et ne sont donc en principe pas autorisées.",
+      "it": "Le gite sociali (viaggi puramente ricreativi) non rientrano nell'eccezione dei viaggi agricoli o di pubblica utilità e non sono quindi in linea di massima consentite.",
+      "en": "Social outings (purely recreational trips) are not covered by the exception for agricultural or public-benefit trips and are therefore generally not allowed.",
+      "pt": "Os passeios de convívio (viagens puramente recreativas) não estão abrangidos pela exceção das viagens agrícolas ou de utilidade pública, pelo que, em princípio, não são permitidos."
+    },
+    "image": null
+  },
+  {
+    "id": "q219",
+    "category": "both",
+    "topic": "tram_kreisel",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Kreisverkehr wird von Tramgleisen durchquert. Wer hat beim Ein- und Ausfahren grundsätzlich Vortritt?",
+      "es": "Unas vías de tranvía cruzan una rotonda. ¿Quién tiene, en principio, prioridad al entrar y salir?",
+      "fr": "Des rails de tram traversent un giratoire. Qui a en principe la priorité en y entrant et en le quittant ?",
+      "it": "I binari del tram attraversano una rotonda. Chi ha in linea di massima la precedenza in entrata e in uscita?",
+      "en": "Tram tracks run through a roundabout. Who generally has priority when entering and leaving?",
+      "pt": "Os carris do elétrico atravessam uma rotunda. Quem tem, em princípio, prioridade ao entrar e sair?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das Tram hat grundsätzlich Vortritt, sowohl beim Einfahren als auch beim Verlassen des Kreisels",
+          "es": "El tranvía tiene en principio prioridad, tanto al entrar como al salir de la rotonda",
+          "fr": "Le tram a en principe la priorité, aussi bien en entrant qu'en sortant du giratoire",
+          "it": "Il tram ha in linea di massima la precedenza, sia in entrata che in uscita dalla rotonda",
+          "en": "The tram generally has priority, both entering and leaving the roundabout",
+          "pt": "O elétrico tem, em princípio, prioridade, tanto a entrar como a sair da rotunda"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Immer die Fahrzeuge, die bereits im Kreisel sind",
+          "es": "Siempre los vehículos que ya están dentro de la rotonda",
+          "fr": "Toujours les véhicules déjà présents dans le giratoire",
+          "it": "Sempre i veicoli già presenti nella rotonda",
+          "en": "Always the vehicles already inside the roundabout",
+          "pt": "Sempre os veículos já dentro da rotunda"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Immer die Fahrzeuge, die von rechts kommen",
+          "es": "Siempre los vehículos que vienen por la derecha",
+          "fr": "Toujours les véhicules qui viennent de droite",
+          "it": "Sempre i veicoli che provengono da destra",
+          "en": "Always the vehicles coming from the right",
+          "pt": "Sempre os veículos que vêm da direita"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Schweiz hat das Tram im Kreisverkehr grundsätzlich Vortritt, sowohl beim Einfahren als auch beim Verlassen — es kann weder ausweichen noch schnell bremsen.",
+      "es": "En Suiza, el tranvía tiene en principio prioridad en la rotonda, tanto al entrar como al salir; no puede esquivar ni frenar con rapidez.",
+      "fr": "En Suisse, le tram a en principe la priorité dans un giratoire, aussi bien en entrant qu'en sortant – il ne peut ni s'écarter ni freiner rapidement.",
+      "it": "In Svizzera il tram ha in linea di massima la precedenza nella rotonda, sia in entrata che in uscita: non può scartare né frenare rapidamente.",
+      "en": "In Switzerland, the tram generally has priority in a roundabout, both entering and leaving – it can neither swerve nor brake quickly.",
+      "pt": "Na Suíça, o elétrico tem, em princípio, prioridade na rotunda, tanto a entrar como a sair – não consegue desviar-se nem travar depressa."
+    },
+    "image": null
+  },
+  {
+    "id": "q220",
+    "category": "both",
+    "topic": "tram_kreisel",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum hat das Tram im Kreisverkehr generell Vortritt vor dem übrigen Verkehr?",
+      "es": "¿Por qué el tranvía tiene, en general, prioridad sobre el resto del tráfico en una rotonda?",
+      "fr": "Pourquoi le tram a-t-il en général la priorité sur le reste du trafic dans un giratoire ?",
+      "it": "Perché il tram ha in generale la precedenza sul resto del traffico in rotonda?",
+      "en": "Why does the tram generally have priority over other traffic in a roundabout?",
+      "pt": "Porque tem o elétrico, em geral, prioridade sobre o resto do trânsito numa rotunda?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil es an die Gleise gebunden ist, nicht ausweichen kann und nur eingeschränkt bremsen kann",
+          "es": "Porque va sujeto a las vías, no puede esquivar y su capacidad de frenado es limitada",
+          "fr": "Parce qu'il est lié aux rails, ne peut pas s'écarter et ne peut freiner que de façon limitée",
+          "it": "Perché è vincolato ai binari, non può scartare e può frenare solo in modo limitato",
+          "en": "Because it is bound to the tracks, cannot swerve and can only brake to a limited extent",
+          "pt": "Porque está preso aos carris, não pode desviar-se e a sua capacidade de travagem é limitada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil Trams grundsätzlich schneller fahren dürfen als Autos",
+          "es": "Porque los tranvías siempre pueden circular más rápido que los coches",
+          "fr": "Parce que les trams ont toujours le droit de rouler plus vite que les voitures",
+          "it": "Perché i tram possono sempre viaggiare più veloci delle auto",
+          "en": "Because trams are always allowed to go faster than cars",
+          "pt": "Porque os elétricos podem sempre andar mais depressa do que os carros"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil das Tram im Kreisel immer als Letztes gebaut wurde",
+          "es": "Porque las vías del tranvía en la rotonda siempre se construyeron en último lugar",
+          "fr": "Parce que les rails du tram dans le giratoire ont toujours été construits en dernier",
+          "it": "Perché i binari del tram in rotonda sono sempre stati costruiti per ultimi",
+          "en": "Because the tram tracks in the roundabout were always built last",
+          "pt": "Porque os carris do elétrico na rotunda foram sempre construídos por último"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Tram ist spurgebunden und kann weder ausweichen noch schnell abbremsen — deshalb erhält es im Kreisverkehr durchgehend Vortritt vor dem übrigen Verkehr.",
+      "es": "El tranvía va sujeto a la vía y no puede ni esquivar ni frenar con rapidez; por eso mantiene siempre la prioridad sobre el resto del tráfico en la rotonda.",
+      "fr": "Le tram est lié à sa voie et ne peut ni s'écarter ni freiner rapidement – il conserve donc en permanence la priorité sur le reste du trafic dans le giratoire.",
+      "it": "Il tram è vincolato al binario e non può né scartare né frenare rapidamente – per questo mantiene sempre la precedenza sul resto del traffico in rotonda.",
+      "en": "The tram is bound to its track and can neither swerve nor brake quickly – so it consistently keeps priority over other traffic in the roundabout.",
+      "pt": "O elétrico está preso à via e não consegue nem desviar-se nem travar depressa – por isso mantém sempre prioridade sobre o resto do trânsito na rotunda."
+    },
+    "image": null
+  },
+  {
+    "id": "q221",
+    "category": "both",
+    "topic": "tram_kreisel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Tram biegt von einer Nebenstrasse in eine Hauptstrasse ein (nicht im Kreisel). Hat es dabei automatisch Vortritt?",
+      "es": "Un tranvía gira desde una calle secundaria hacia una calle principal (fuera de una rotonda). ¿Tiene ahí prioridad automática?",
+      "fr": "Un tram tourne d'une route secondaire vers une route principale (hors giratoire). A-t-il automatiquement la priorité ?",
+      "it": "Un tram svolta da una strada secondaria in una strada principale (non in rotonda). Ha automaticamente la precedenza?",
+      "en": "A tram turns from a side road onto a main road (not in a roundabout). Does it automatically have priority?",
+      "pt": "Um elétrico vira de uma rua secundária para uma rua principal (fora de uma rotunda). Tem prioridade automática?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, in diesem Fall gilt der Vortritt nicht automatisch – solche Kreuzungen werden meist durch eine Ampel geregelt",
+          "es": "No, en este caso la prioridad no es automática; estos cruces suelen regularse con un semáforo",
+          "fr": "Non, dans ce cas la priorité n'est pas automatique – ces carrefours sont le plus souvent réglés par un feu",
+          "it": "No, in questo caso la precedenza non è automatica – questi incroci sono per lo più regolati da un semaforo",
+          "en": "No, in this case priority is not automatic – such junctions are usually regulated by a traffic light",
+          "pt": "Não, neste caso a prioridade não é automática – estes cruzamentos são geralmente regulados por semáforo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das Tram hat in jeder erdenklichen Situation automatisch Vortritt",
+          "es": "Sí, el tranvía tiene siempre prioridad automática en cualquier situación imaginable",
+          "fr": "Oui, le tram a toujours automatiquement la priorité dans toute situation imaginable",
+          "it": "Sì, il tram ha sempre precedenza automatica in ogni situazione immaginabile",
+          "en": "Yes, the tram automatically has priority in every conceivable situation",
+          "pt": "Sim, o elétrico tem sempre prioridade automática em qualquer situação imaginável"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur nachts",
+          "es": "Sí, pero solo de noche",
+          "fr": "Oui, mais seulement la nuit",
+          "it": "Sì, ma solo di notte",
+          "en": "Yes, but only at night",
+          "pt": "Sim, mas só à noite"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Biegt das Tram von einer Nebenstrasse in eine Hauptstrasse ein, gilt der automatische Vortritt nicht — solche Kreuzungen werden in der Praxis meist mit einer Lichtsignalanlage geregelt.",
+      "es": "Cuando el tranvía gira desde una calle secundaria hacia una principal, no rige la prioridad automática; en la práctica, estos cruces suelen regularse con semáforo.",
+      "fr": "Lorsque le tram tourne d'une route secondaire vers une route principale, la priorité automatique ne s'applique pas – en pratique, ces carrefours sont le plus souvent réglés par des feux.",
+      "it": "Quando il tram svolta da una strada secondaria in una principale, non vale la precedenza automatica – in pratica questi incroci sono per lo più regolati da un impianto semaforico.",
+      "en": "When a tram turns from a side road onto a main road, automatic priority does not apply – in practice such junctions are usually regulated by traffic lights.",
+      "pt": "Quando o elétrico vira de uma rua secundária para uma principal, não se aplica a prioridade automática – na prática, estes cruzamentos são geralmente regulados por semáforo."
+    },
+    "image": null
+  },
+  {
+    "id": "q222",
+    "category": "both",
+    "topic": "tram_kreisel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie überholst du ein fahrendes Tram korrekt?",
+      "es": "¿Cómo se adelanta correctamente a un tranvía en marcha?",
+      "fr": "Comment dépasser correctement un tram en marche ?",
+      "it": "Come si sorpassa correttamente un tram in marcia?",
+      "en": "How do you correctly overtake a moving tram?",
+      "pt": "Como se ultrapassa corretamente um elétrico em movimento?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Rechts, wenn möglich; ist das nicht möglich, darfst du ausnahmsweise links überholen",
+          "es": "Por la derecha, si es posible; si no lo es, se puede adelantar excepcionalmente por la izquierda",
+          "fr": "Par la droite si possible ; si ce n'est pas possible, tu peux exceptionnellement dépasser par la gauche",
+          "it": "A destra, se possibile; se non è possibile, si può eccezionalmente sorpassare a sinistra",
+          "en": "On the right, if possible; if that is not possible, you may exceptionally overtake on the left",
+          "pt": "Pela direita, se possível; se não for possível, podes ultrapassar excecionalmente pela esquerda"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ausschliesslich links, rechts ist grundsätzlich verboten",
+          "es": "Solo por la izquierda, por la derecha está siempre prohibido",
+          "fr": "Uniquement par la gauche, la droite est en principe interdite",
+          "it": "Solo a sinistra, a destra è in linea di massima vietato",
+          "en": "Only on the left, the right side is generally forbidden",
+          "pt": "Só pela esquerda, pela direita é, em princípio, proibido"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Trams dürfen unter keinen Umständen überholt werden",
+          "es": "Los tranvías no pueden adelantarse bajo ninguna circunstancia",
+          "fr": "Les trams ne peuvent en aucun cas être dépassés",
+          "it": "I tram non possono mai essere sorpassati",
+          "en": "Trams may under no circumstances be overtaken",
+          "pt": "Os elétricos não podem, em circunstância alguma, ser ultrapassados"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein fahrendes Tram wird grundsätzlich rechts überholt; ist das aus Platzgründen nicht möglich, darf ausnahmsweise links überholt werden.",
+      "es": "Un tranvía en marcha se adelanta en principio por la derecha; si no es posible por falta de espacio, se puede adelantar excepcionalmente por la izquierda.",
+      "fr": "Un tram en marche se dépasse en principe par la droite ; si ce n'est pas possible faute de place, il peut exceptionnellement être dépassé par la gauche.",
+      "it": "Un tram in marcia si sorpassa in linea di massima a destra; se ciò non è possibile per mancanza di spazio, si può eccezionalmente sorpassare a sinistra.",
+      "en": "A moving tram is generally overtaken on the right; if that is not possible due to lack of space, it may exceptionally be overtaken on the left.",
+      "pt": "Um elétrico em movimento é, em princípio, ultrapassado pela direita; se isso não for possível por falta de espaço, pode ser ultrapassado excecionalmente pela esquerda."
+    },
+    "image": null
+  },
+  {
+    "id": "q223",
+    "category": "both",
+    "topic": "anhaenger_licht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du ziehst einen Veloanhänger und es wird dunkel. Was gilt für die Beleuchtung?",
+      "es": "Llevas un remolque de bicicleta y empieza a oscurecer. ¿Qué se aplica sobre la iluminación?",
+      "fr": "Tu tires une remorque de vélo et la nuit tombe. Que faut-il respecter pour l'éclairage ?",
+      "it": "Trainai un rimorchio per bici e sta calando il buio. Cosa vale per l'illuminazione?",
+      "en": "You are pulling a bike trailer and it is getting dark. What applies to lighting?",
+      "pt": "Estás a puxar um reboque de bicicleta e começa a escurecer. O que se aplica à iluminação?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Anhänger braucht ein eigenes rotes Rücklicht, falls das Licht des Fahrrads dadurch verdeckt wird",
+          "es": "El remolque necesita su propia luz trasera roja si tapa la luz de la bicicleta",
+          "fr": "La remorque a besoin de son propre feu arrière rouge si elle cache l'éclairage du vélo",
+          "it": "Il rimorchio necessita di un proprio fanale posteriore rosso se copre la luce della bici",
+          "en": "The trailer needs its own red rear light if it blocks the bicycle's light",
+          "pt": "O reboque precisa de uma luz traseira vermelha própria se tapar a luz da bicicleta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein Veloanhänger braucht nie eine eigene Beleuchtung",
+          "es": "Un remolque de bicicleta nunca necesita iluminación propia",
+          "fr": "Une remorque de vélo n'a jamais besoin de son propre éclairage",
+          "it": "Un rimorchio per bici non necessita mai di illuminazione propria",
+          "en": "A bike trailer never needs its own lighting",
+          "pt": "Um reboque de bicicleta nunca precisa de iluminação própria"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es reicht, wenn der Fahrer eine Stirnlampe trägt",
+          "es": "Basta con que el conductor lleve una linterna frontal",
+          "fr": "Il suffit que le cycliste porte une lampe frontale",
+          "it": "Basta che il ciclista indossi una lampada frontale",
+          "en": "It is enough for the rider to wear a head torch",
+          "pt": "Basta que o ciclista use uma lanterna frontal"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Sobald es dunkel wird, braucht ein Veloanhänger ein eigenes rotes Rücklicht, wenn das Licht des Fahrrads durch den Anhänger verdeckt wird — sonst bist du von hinten nicht sichtbar.",
+      "es": "En cuanto oscurece, un remolque de bicicleta necesita su propia luz trasera roja si tapa la luz de la bici; de lo contrario, no serías visible por detrás.",
+      "fr": "Dès qu'il fait nuit, une remorque de vélo a besoin de son propre feu arrière rouge si elle cache l'éclairage du vélo – sinon tu n'es pas visible depuis l'arrière.",
+      "it": "Non appena fa buio, un rimorchio per bici necessita di un proprio fanale posteriore rosso se copre la luce della bici – altrimenti non sei visibile da dietro.",
+      "en": "As soon as it gets dark, a bike trailer needs its own red rear light if it blocks the bicycle's light – otherwise you are not visible from behind.",
+      "pt": "Assim que escurece, um reboque de bicicleta precisa de uma luz traseira vermelha própria se tapar a luz da bicicleta – caso contrário não és visível por trás."
+    },
+    "image": null
+  },
+  {
+    "id": "q224",
+    "category": "both",
+    "topic": "anhaenger_licht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welche Rückstrahler benötigt ein Veloanhänger zusätzlich zum Rücklicht?",
+      "es": "¿Qué catadióptricos necesita un remolque de bicicleta además de la luz trasera?",
+      "fr": "Quels catadioptres une remorque de vélo nécessite-t-elle en plus du feu arrière ?",
+      "it": "Quali catarifrangenti necessita un rimorchio per bici oltre al fanale posteriore?",
+      "en": "Which reflectors does a bike trailer need in addition to the rear light?",
+      "pt": "Que refletores precisa um reboque de bicicleta, além da luz traseira?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Hinten links und rechts je einen nicht dreieckigen, orangen Rückstrahler",
+          "es": "Uno naranja, no triangular, a la izquierda y otro a la derecha en la parte trasera",
+          "fr": "À l'arrière, à gauche et à droite, un catadioptre orange non triangulaire chacun",
+          "it": "Dietro, a sinistra e a destra, un catarifrangente arancione non triangolare ciascuno",
+          "en": "At the rear left and right, one non-triangular orange reflector each",
+          "pt": "Atrás, à esquerda e à direita, um refletor laranja não triangular cada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Vorne einen weissen Rückstrahler, hinten keinen",
+          "es": "Un catadióptrico blanco delante y ninguno detrás",
+          "fr": "Un catadioptre blanc à l'avant, aucun à l'arrière",
+          "it": "Un catarifrangente bianco davanti, nessuno dietro",
+          "en": "A white reflector at the front, none at the rear",
+          "pt": "Um refletor branco à frente, nenhum atrás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Rückstrahler sind bei Veloanhängern generell nicht vorgeschrieben",
+          "es": "Los catadióptricos no son en absoluto obligatorios en remolques de bicicleta",
+          "fr": "Les catadioptres ne sont pas du tout obligatoires sur les remorques de vélo",
+          "it": "I catarifrangenti non sono affatto obbligatori sui rimorchi per bici",
+          "en": "Reflectors are generally not required on bike trailers",
+          "pt": "Os refletores não são de todo obrigatórios em reboques de bicicleta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Veloanhänger braucht hinten links und rechts je einen nicht dreieckigen, orangen Rückstrahler — dreieckige Rückstrahler sind für stillstehende Anhänger (Pannensignal) reserviert.",
+      "es": "Un remolque de bicicleta necesita atrás, a la izquierda y a la derecha, un catadióptrico naranja no triangular cada uno; los triangulares están reservados para remolques detenidos (señal de avería).",
+      "fr": "Une remorque de vélo nécessite à l'arrière, à gauche et à droite, un catadioptre orange non triangulaire chacun – les catadioptres triangulaires sont réservés aux remorques à l'arrêt (signal de panne).",
+      "it": "Un rimorchio per bici necessita dietro, a sinistra e a destra, un catarifrangente arancione non triangolare ciascuno – quelli triangolari sono riservati ai rimorchi fermi (segnale di panne).",
+      "en": "A bike trailer needs one non-triangular orange reflector each on the rear left and right – triangular reflectors are reserved for stationary trailers (breakdown signal).",
+      "pt": "Um reboque de bicicleta precisa, atrás, à esquerda e à direita, de um refletor laranja não triangular cada – os triangulares estão reservados a reboques parados (sinal de avaria)."
+    },
+    "image": null
+  },
+  {
+    "id": "q225",
+    "category": "both",
+    "topic": "anhaenger_licht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was schreibt die Verordnung über die technischen Anforderungen an Strassenfahrzeuge für Anhänger allgemein vor?",
+      "es": "¿Qué exige, en general, la ordenanza sobre los requisitos técnicos de los vehículos de carretera para los remolques?",
+      "fr": "Que prescrit en général l'ordonnance sur les exigences techniques requises pour les véhicules routiers pour les remorques ?",
+      "it": "Cosa prescrive in generale l'ordinanza sui requisiti tecnici dei veicoli stradali per i rimorchi?",
+      "en": "What does the ordinance on technical requirements for road vehicles generally require for trailers?",
+      "pt": "O que exige, em geral, o regulamento sobre os requisitos técnicos dos veículos rodoviários para reboques?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fest angebaute Lichter und Rückstrahler, damit der Anhänger jederzeit gut sichtbar ist",
+          "es": "Luces y catadióptricos fijos, para que el remolque sea siempre bien visible",
+          "fr": "Des feux et catadioptres fixés en permanence, pour que la remorque soit toujours bien visible",
+          "it": "Luci e catarifrangenti fissi, affinché il rimorchio sia sempre ben visibile",
+          "en": "Permanently fitted lights and reflectors, so the trailer is always clearly visible",
+          "pt": "Luzes e refletores fixos, para que o reboque seja sempre bem visível"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur bei Fahrten über 80 km/h braucht ein Anhänger Beleuchtung",
+          "es": "Un remolque solo necesita iluminación en trayectos a más de 80 km/h",
+          "fr": "Une remorque n'a besoin d'éclairage que pour les trajets à plus de 80 km/h",
+          "it": "Un rimorchio necessita di illuminazione solo per viaggi oltre 80 km/h",
+          "en": "A trailer only needs lighting for journeys over 80 km/h",
+          "pt": "Um reboque só precisa de iluminação em viagens a mais de 80 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Beleuchtungspflicht gilt nur für Anhänger über 750 kg",
+          "es": "La obligación de iluminación solo rige para remolques de más de 750 kg",
+          "fr": "L'obligation d'éclairage ne s'applique qu'aux remorques de plus de 750 kg",
+          "it": "L'obbligo di illuminazione vale solo per rimorchi oltre i 750 kg",
+          "en": "The lighting requirement only applies to trailers over 750 kg",
+          "pt": "A obrigação de iluminação só se aplica a reboques com mais de 750 kg"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Anhänger müssen gemäss den technischen Vorschriften mit fest angebauten Lichtern und Rückstrahlern ausgerüstet sein, damit sie für andere Verkehrsteilnehmer jederzeit gut sichtbar sind.",
+      "es": "Según las normas técnicas, los remolques deben ir equipados con luces y catadióptricos fijos, para que otros usuarios de la vía los vean siempre bien.",
+      "fr": "Selon les prescriptions techniques, les remorques doivent être équipées de feux et catadioptres fixés en permanence, afin d'être toujours bien visibles pour les autres usagers.",
+      "it": "Secondo le norme tecniche, i rimorchi devono essere dotati di luci e catarifrangenti fissi, in modo da essere sempre ben visibili per gli altri utenti della strada.",
+      "en": "Under the technical regulations, trailers must be equipped with permanently fitted lights and reflectors, so that they remain clearly visible to other road users at all times.",
+      "pt": "Segundo as normas técnicas, os reboques devem estar equipados com luzes e refletores fixos, para que sejam sempre bem visíveis para os outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q226",
+    "category": "both",
+    "topic": "anhaenger_licht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum ist die Beleuchtung des hinteren Kontrollschilds bei einem Anhänger wichtig?",
+      "es": "¿Por qué es importante la iluminación de la matrícula trasera en un remolque?",
+      "fr": "Pourquoi l'éclairage de la plaque arrière d'une remorque est-il important ?",
+      "it": "Perché è importante l'illuminazione della targa posteriore di un rimorchio?",
+      "en": "Why is lighting of the rear number plate important on a trailer?",
+      "pt": "Porque é importante a iluminação da matrícula traseira num reboque?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit das Kennzeichen auch nachts vollständig lesbar bleibt, was für Identifikation und Kontrolle nötig ist",
+          "es": "Para que la matrícula siga siendo totalmente legible incluso de noche, algo necesario para la identificación y el control",
+          "fr": "Pour que la plaque reste entièrement lisible même la nuit, ce qui est nécessaire pour l'identification et le contrôle",
+          "it": "Affinché la targa resti completamente leggibile anche di notte, il che è necessario per l'identificazione e il controllo",
+          "en": "So the plate remains fully readable even at night, which is needed for identification and enforcement",
+          "pt": "Para que a matrícula continue totalmente legível mesmo à noite, o que é necessário para identificação e fiscalização"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie ist reine Dekoration ohne praktischen Nutzen",
+          "es": "Es puramente decorativa, sin utilidad práctica",
+          "fr": "Elle est purement décorative, sans utilité pratique",
+          "it": "È puramente decorativa, senza utilità pratica",
+          "en": "It is purely decorative, with no practical use",
+          "pt": "É puramente decorativa, sem utilidade prática"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie dient nur der besseren Sicht des Fahrers nach hinten",
+          "es": "Solo sirve para que el conductor vea mejor hacia atrás",
+          "fr": "Elle ne sert qu'à améliorer la vue du conducteur vers l'arrière",
+          "it": "Serve solo a migliorare la visuale posteriore del conducente",
+          "en": "It only serves to improve the driver's rear visibility",
+          "pt": "Só serve para melhorar a visão traseira do condutor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Kennzeichenbeleuchtung muss das gesamte Kontrollschild ausleuchten, damit es auch bei Dunkelheit für Polizei und andere Verkehrsteilnehmer lesbar bleibt.",
+      "es": "La luz de matrícula debe iluminar toda la placa, para que siga siendo legible en la oscuridad tanto para la policía como para otros usuarios de la vía.",
+      "fr": "L'éclairage de plaque doit illuminer toute la plaque, afin qu'elle reste lisible dans l'obscurité pour la police et les autres usagers.",
+      "it": "L'illuminazione della targa deve illuminare l'intera targa, affinché resti leggibile al buio per la polizia e gli altri utenti della strada.",
+      "en": "The number-plate light must illuminate the entire plate so it remains readable in the dark for police and other road users.",
+      "pt": "A luz da matrícula deve iluminar toda a placa, para que continue legível na escuridão tanto para a polícia como para outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q227",
+    "category": "both",
+    "topic": "gefaelle",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst ein langes, steiles Gefälle hinunter. Welchen Gang solltest du wählen?",
+      "es": "Bajas una pendiente larga y pronunciada. ¿Qué marcha deberías usar?",
+      "fr": "Tu descends une longue pente raide. Quel rapport devrais-tu choisir ?",
+      "it": "Scendi lungo una discesa lunga e ripida. Quale marcia dovresti inserire?",
+      "en": "You are driving down a long, steep descent. What gear should you use?",
+      "pt": "Estás a descer uma descida longa e íngreme. Que mudança deves usar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Einen niedrigen Gang, idealerweise denselben, den du auch bergauf gewählt hättest, um die Motorbremse zu nutzen",
+          "es": "Una marcha corta, idealmente la misma que usarías subiendo, para aprovechar el freno motor",
+          "fr": "Un rapport court, idéalement le même que celui choisi en montée, pour utiliser le frein moteur",
+          "it": "Una marcia bassa, idealmente la stessa che useresti in salita, per sfruttare il freno motore",
+          "en": "A low gear, ideally the same one you would use going uphill, to make use of engine braking",
+          "pt": "Uma mudança curta, idealmente a mesma que usarias a subir, para aproveitar o travão motor"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Den höchsten verfügbaren Gang, um Sprit zu sparen",
+          "es": "La marcha más larga disponible, para ahorrar combustible",
+          "fr": "Le rapport le plus élevé disponible, pour économiser du carburant",
+          "it": "La marcia più alta disponibile, per risparmiare carburante",
+          "en": "The highest available gear, to save fuel",
+          "pt": "A mudança mais alta disponível, para poupar combustível"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Den Leerlauf, damit das Fahrzeug frei rollt",
+          "es": "El punto muerto, para que el coche ruede libre",
+          "fr": "Le point mort, pour que le véhicule roule librement",
+          "it": "Il folle, così l'auto rotola liberamente",
+          "en": "Neutral, so the vehicle coasts freely",
+          "pt": "O ponto morto, para o carro deslizar livremente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein niedriger Gang aktiviert die Motorbremse und verzögert das Fahrzeug, ohne die Bremsen dauerhaft zu belasten — im Leerlauf fehlt diese Bremswirkung komplett und das Fahrzeug beschleunigt unkontrolliert.",
+      "es": "Una marcha corta activa el freno motor y frena el vehículo sin cargar continuamente los frenos; en punto muerto falta por completo ese efecto y el coche acelera sin control.",
+      "fr": "Un rapport court active le frein moteur et ralentit le véhicule sans solliciter en permanence les freins ; au point mort, cet effet de freinage manque totalement et le véhicule accélère de façon incontrôlée.",
+      "it": "Una marcia bassa attiva il freno motore e rallenta il veicolo senza sollecitare continuamente i freni; in folle questo effetto frenante manca del tutto e il veicolo accelera in modo incontrollato.",
+      "en": "A low gear activates engine braking and slows the vehicle without continuously loading the brakes; in neutral this braking effect is entirely absent and the vehicle accelerates uncontrollably.",
+      "pt": "Uma mudança curta ativa o travão motor e desacelera o veículo sem sobrecarregar continuamente os travões; em ponto morto esse efeito de travagem falta por completo e o carro acelera sem controlo."
+    },
+    "image": null
+  },
+  {
+    "id": "q228",
+    "category": "both",
+    "topic": "gefaelle",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum solltest du im langen Gefälle nicht durchgehend leicht auf der Bremse stehen?",
+      "es": "¿Por qué no deberías mantener el pie ligeramente en el freno de forma continua en una bajada larga?",
+      "fr": "Pourquoi ne devrais-tu pas rester en permanence légèrement sur le frein dans une longue descente ?",
+      "it": "Perché non dovresti tenere il piede leggermente sul freno in modo continuo in una lunga discesa?",
+      "en": "Why should you not keep light, continuous pressure on the brakes on a long descent?",
+      "pt": "Porque não deves manter o pé levemente no travão de forma contínua numa descida longa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil das die Bremsen überhitzen lässt und ihre Wirkung stark nachlassen kann (Fading)",
+          "es": "Porque eso sobrecalienta los frenos y su eficacia puede reducirse mucho (fading)",
+          "fr": "Parce que cela surchauffe les freins et leur efficacité peut fortement diminuer (fading)",
+          "it": "Perché questo surriscalda i freni e la loro efficacia può ridursi molto (fading)",
+          "en": "Because it overheats the brakes and their effectiveness can drop sharply (fading)",
+          "pt": "Porque isso sobreaquece os travões e a sua eficácia pode diminuir muito (fading)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil das den Bremsbelag optisch schneller abnutzt, aber ungefährlich ist",
+          "es": "Porque desgasta las pastillas más rápido visualmente, pero no es peligroso",
+          "fr": "Parce que cela use visuellement plus vite les plaquettes, mais c'est sans danger",
+          "it": "Perché consuma visivamente più in fretta le pastiglie, ma è innocuo",
+          "en": "Because it visibly wears the brake pads faster, but is harmless",
+          "pt": "Porque desgasta visivelmente mais depressa as pastilhas, mas é inofensivo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil Dauerbremsen gesetzlich verboten ist",
+          "es": "Porque frenar de forma continua está prohibido por ley",
+          "fr": "Parce que freiner en continu est interdit par la loi",
+          "it": "Perché frenare in modo continuo è vietato dalla legge",
+          "en": "Because continuous braking is legally forbidden",
+          "pt": "Porque travar de forma contínua é proibido por lei"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Dauerhaftes leichtes Bremsen erhitzt die Bremsanlage, was zum sogenannten Fading führen kann — die Bremswirkung lässt nach oder fällt fast komplett aus.",
+      "es": "Frenar suavemente sin parar calienta el sistema de frenos, lo que puede provocar el llamado fading: la eficacia de frenado disminuye o casi desaparece.",
+      "fr": "Freiner légèrement en permanence chauffe le système de freinage, ce qui peut provoquer le fading : l'efficacité du freinage diminue ou disparaît presque totalement.",
+      "it": "Frenare leggermente in modo continuo scalda l'impianto frenante, il che può causare il cosiddetto fading: l'efficacia frenante diminuisce o quasi svanisce del tutto.",
+      "en": "Continuous light braking heats up the brake system, which can lead to so-called fading – braking power decreases or fails almost entirely.",
+      "pt": "Travar levemente de forma contínua aquece o sistema de travagem, o que pode provocar o chamado fading – a eficácia da travagem diminui ou falha quase por completo."
+    },
+    "image": null
+  },
+  {
+    "id": "q229",
+    "category": "both",
+    "topic": "gefaelle",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie bremst du im Gefälle richtig, um ein Überhitzen der Bremsen zu vermeiden?",
+      "es": "¿Cómo se frena correctamente en una bajada para evitar que los frenos se sobrecalienten?",
+      "fr": "Comment freiner correctement en descente pour éviter la surchauffe des freins ?",
+      "it": "Come si frena correttamente in discesa per evitare il surriscaldamento dei freni?",
+      "en": "How do you brake correctly on a descent to avoid overheating the brakes?",
+      "pt": "Como se trava corretamente numa descida para evitar o sobreaquecimento dos travões?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In kurzen, kräftigen Impulsen bremsen statt dauerhaft leicht zu bremsen, kombiniert mit einem niedrigen Gang",
+          "es": "Frenar con impulsos cortos y firmes en vez de frenar suavemente de forma continua, combinado con una marcha corta",
+          "fr": "Freiner par courtes impulsions vigoureuses plutôt que légèrement en continu, combiné à un rapport court",
+          "it": "Frenare con impulsi brevi e decisi invece che leggermente in modo continuo, combinato con una marcia bassa",
+          "en": "Brake in short, firm bursts instead of lightly and continuously, combined with a low gear",
+          "pt": "Travar com impulsos curtos e firmes em vez de travar levemente de forma contínua, combinado com uma mudança curta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ausschliesslich mit der Handbremse bremsen",
+          "es": "Frenar exclusivamente con el freno de mano",
+          "fr": "Freiner exclusivement avec le frein à main",
+          "it": "Frenare esclusivamente con il freno a mano",
+          "en": "Brake exclusively with the handbrake",
+          "pt": "Travar exclusivamente com o travão de mão"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "So spät wie möglich und dann eine einzige lange Vollbremsung durchführen",
+          "es": "Lo más tarde posible y luego dar una única frenada de emergencia larga",
+          "fr": "Le plus tard possible, puis effectuer un seul long freinage d'urgence",
+          "it": "Il più tardi possibile e poi eseguire un'unica lunga frenata di emergenza",
+          "en": "As late as possible, then perform one single long emergency stop",
+          "pt": "O mais tarde possível e depois fazer uma única travagem de emergência longa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Kurze, kräftige Bremsimpulse lassen der Bremsanlage zwischen den Bremsungen Zeit zum Abkühlen; kombiniert mit der Motorbremse im niedrigen Gang bleibt die Bremswirkung erhalten.",
+      "es": "Las frenadas cortas y firmes dejan que el sistema de frenos se enfríe entre una y otra; combinadas con el freno motor en marcha corta, mantienen la eficacia de frenado.",
+      "fr": "De brèves impulsions de freinage vigoureuses laissent au système de freinage le temps de refroidir entre elles ; combinées au frein moteur en rapport court, elles préservent l'efficacité du freinage.",
+      "it": "Brevi impulsi di frenata decisi lasciano all'impianto frenante il tempo di raffreddarsi tra una frenata e l'altra; combinati con il freno motore in marcia bassa, mantengono l'efficacia frenante.",
+      "en": "Short, firm braking pulses give the brake system time to cool between applications; combined with engine braking in a low gear, braking power is preserved.",
+      "pt": "Impulsos de travagem curtos e firmes dão ao sistema de travagem tempo para arrefecer entre travagens; combinados com o travão motor numa mudança curta, mantêm a eficácia da travagem."
+    },
+    "image": null
+  },
+  {
+    "id": "q230",
+    "category": "both",
+    "topic": "gefaelle",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Was ist «Fading» bei den Bremsen und wann tritt es typischerweise auf?",
+      "es": "¿Qué es el «fading» de los frenos y cuándo suele aparecer?",
+      "fr": "Qu'est-ce que le « fading » des freins et quand se produit-il typiquement ?",
+      "it": "Cos'è il «fading» dei freni e quando si presenta tipicamente?",
+      "en": "What is brake \"fading\" and when does it typically occur?",
+      "pt": "O que é o «fading» dos travões e quando ocorre tipicamente?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ein starkes Nachlassen der Bremswirkung durch Überhitzung, typischerweise bei langen, steilen Gefällestrecken mit ständigem Bremsen",
+          "es": "Una fuerte pérdida de eficacia de frenado por sobrecalentamiento, típica en bajadas largas y pronunciadas con frenado continuo",
+          "fr": "Une forte baisse de l'efficacité de freinage due à la surchauffe, typique des longues descentes raides avec freinage constant",
+          "it": "Un forte calo dell'efficacia frenante dovuto al surriscaldamento, tipico nelle discese lunghe e ripide con frenate continue",
+          "en": "A severe drop in braking power due to overheating, typically on long, steep descents with constant braking",
+          "pt": "Uma forte diminuição da eficácia de travagem devido a sobreaquecimento, típica em descidas longas e íngremes com travagem constante"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein technischer Defekt, der nur bei sehr alten Fahrzeugen auftreten kann",
+          "es": "Un fallo técnico que solo puede darse en vehículos muy antiguos",
+          "fr": "Un défaut technique qui ne peut survenir que sur des véhicules très anciens",
+          "it": "Un difetto tecnico che può verificarsi solo su veicoli molto vecchi",
+          "en": "A technical defect that can only occur in very old vehicles",
+          "pt": "Um defeito técnico que só pode ocorrer em veículos muito antigos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ein normaler, ungefährlicher Effekt beim ersten Bremsen nach dem Kaltstart",
+          "es": "Un efecto normal e inofensivo al frenar por primera vez tras un arranque en frío",
+          "fr": "Un effet normal et sans danger lors du premier freinage après un démarrage à froid",
+          "it": "Un effetto normale e innocuo alla prima frenata dopo un avvio a freddo",
+          "en": "A normal, harmless effect the first time you brake after a cold start",
+          "pt": "Um efeito normal e inofensivo ao travar pela primeira vez depois de um arranque a frio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fading bezeichnet den gefährlichen Verlust der Bremswirkung durch Überhitzung der Bremsanlage — besonders bei langen Gefällestrecken mit dauerhaftem statt dosiertem Bremsen.",
+      "es": "El fading es la peligrosa pérdida de eficacia de frenado por sobrecalentamiento del sistema de frenos, especialmente en bajadas largas cuando se frena de forma continua en vez de dosificada.",
+      "fr": "Le fading désigne la perte dangereuse d'efficacité de freinage due à la surchauffe du système de freinage — en particulier lors de longues descentes avec un freinage continu plutôt que dosé.",
+      "it": "Il fading indica la pericolosa perdita di efficacia frenante dovuta al surriscaldamento dell'impianto frenante, in particolare nelle lunghe discese con frenata continua invece che dosata.",
+      "en": "Fading refers to the dangerous loss of braking power caused by overheating of the brake system — especially on long descents with continuous rather than measured braking.",
+      "pt": "O fading designa a perigosa perda de eficácia de travagem por sobreaquecimento do sistema de travagem – especialmente em descidas longas com travagem contínua em vez de doseada."
+    },
+    "image": null
+  },
+  {
+    "id": "q231",
+    "category": "both",
+    "topic": "rueckwaerts",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Darfst du in der Schweiz über eine längere Strecke rückwärtsfahren, nur weil es bequemer ist?",
+      "es": "¿Puedes circular marcha atrás en Suiza durante un trecho largo solo porque resulta más cómodo?",
+      "fr": "Peux-tu, en Suisse, faire marche arrière sur une longue distance simplement parce que c'est plus pratique ?",
+      "it": "Puoi, in Svizzera, procedere in retromarcia per un tratto lungo solo perché è più comodo?",
+      "en": "May you reverse over a longer distance in Switzerland just because it is more convenient?",
+      "pt": "Podes, na Suíça, conduzir em marcha-atrás por um trecho longo só porque é mais cómodo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein – über längere Strecken ist Rückwärtsfahren nur zulässig, wenn Weiterfahren oder Wenden nicht möglich ist",
+          "es": "No: circular marcha atrás en trechos largos solo se permite si no es posible seguir adelante o dar la vuelta",
+          "fr": "Non – sur une longue distance, la marche arrière n'est autorisée que si continuer ou faire demi-tour est impossible",
+          "it": "No – su tratti lunghi la retromarcia è ammessa solo se non è possibile proseguire o fare inversione",
+          "en": "No – reversing over longer distances is only permitted if continuing or turning around is not possible",
+          "pt": "Não – em trechos longos, a marcha-atrás só é permitida se não for possível continuar ou inverter o sentido"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist frei wählbar und in jeder Situation erlaubt",
+          "es": "Sí, es de libre elección y está permitido en cualquier situación",
+          "fr": "Oui, c'est un libre choix, autorisé dans toute situation",
+          "it": "Sì, è una scelta libera, consentita in ogni situazione",
+          "en": "Yes, it is a free choice and allowed in any situation",
+          "pt": "Sim, é uma escolha livre e permitida em qualquer situação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur auf Nebenstrassen",
+          "es": "Sí, pero solo en carreteras secundarias",
+          "fr": "Oui, mais seulement sur les routes secondaires",
+          "it": "Sì, ma solo su strade secondarie",
+          "en": "Yes, but only on side roads",
+          "pt": "Sim, mas só em estradas secundárias"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 17 VRV erlaubt Rückwärtsfahren über längere Strecken nur, wenn Weiterfahren oder Wenden nicht möglich ist — reine Bequemlichkeit reicht als Grund nicht aus.",
+      "es": "El art. 17 VRV solo permite circular marcha atrás en trechos largos cuando no es posible seguir adelante o dar la vuelta; la simple comodidad no es motivo suficiente.",
+      "fr": "L'art. 17 OCR n'autorise la marche arrière sur une longue distance que si continuer ou faire demi-tour est impossible – la simple commodité ne suffit pas comme motif.",
+      "it": "L'art. 17 ONC ammette la retromarcia su tratti lunghi solo se non è possibile proseguire o fare inversione – la semplice comodità non è un motivo sufficiente.",
+      "en": "Art. 17 VRV only permits reversing over longer distances when continuing or turning around is not possible – mere convenience is not a sufficient reason.",
+      "pt": "O art. 17 VRV só permite a marcha-atrás em trechos longos quando não é possível continuar ou inverter o sentido – a mera comodidade não é motivo suficiente."
+    },
+    "image": null
+  },
+  {
+    "id": "q232",
+    "category": "both",
+    "topic": "rueckwaerts",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "An welchen Orten ist Rückwärtsfahren ausdrücklich untersagt?",
+      "es": "¿En qué lugares está expresamente prohibido circular marcha atrás?",
+      "fr": "En quels endroits la marche arrière est-elle expressément interdite ?",
+      "it": "In quali luoghi la retromarcia è espressamente vietata?",
+      "en": "At which places is reversing explicitly forbidden?",
+      "pt": "Em que locais a marcha-atrás é expressamente proibida?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Über Bahnübergänge und an unübersichtlichen Strassenverzweigungen",
+          "es": "En pasos a nivel y en bifurcaciones de calles con poca visibilidad",
+          "fr": "Sur les passages à niveau et aux bifurcations de routes peu visibles",
+          "it": "Sui passaggi a livello e nelle diramazioni stradali poco visibili",
+          "en": "At level crossings and at junctions with poor visibility",
+          "pt": "Em passagens de nível e em bifurcações de via com pouca visibilidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur auf der Autobahn, überall sonst ist es uneingeschränkt erlaubt",
+          "es": "Solo en autopista, en cualquier otro sitio está permitido sin restricciones",
+          "fr": "Seulement sur l'autoroute, partout ailleurs c'est autorisé sans restriction",
+          "it": "Solo in autostrada, altrove è consentito senza restrizioni",
+          "en": "Only on the motorway, everywhere else it is unrestricted",
+          "pt": "Só em autoestrada, em qualquer outro sítio é permitido sem restrições"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nirgends, es gibt keine Orte mit einem ausdrücklichen Verbot",
+          "es": "En ningún sitio, no existen lugares con prohibición expresa",
+          "fr": "Nulle part, il n'existe aucun endroit avec une interdiction expresse",
+          "it": "In nessun luogo, non esistono luoghi con un divieto espresso",
+          "en": "Nowhere, there are no places with an explicit ban",
+          "pt": "Em lado nenhum, não existem locais com proibição expressa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Rückwärtsfahren ist über Bahnübergänge und an unübersichtlichen Strassenverzweigungen ausdrücklich untersagt, da die Gefahr eines Zusammenstosses dort besonders hoch ist.",
+      "es": "Circular marcha atrás está expresamente prohibido en pasos a nivel y en bifurcaciones con poca visibilidad, porque ahí el riesgo de colisión es especialmente alto.",
+      "fr": "La marche arrière est expressément interdite sur les passages à niveau et aux bifurcations peu visibles, car le risque de collision y est particulièrement élevé.",
+      "it": "La retromarcia è espressamente vietata sui passaggi a livello e nelle diramazioni stradali poco visibili, poiché lì il rischio di collisione è particolarmente elevato.",
+      "en": "Reversing is explicitly forbidden at level crossings and at junctions with poor visibility, since the risk of a collision there is especially high.",
+      "pt": "A marcha-atrás é expressamente proibida em passagens de nível e em bifurcações com pouca visibilidade, pois aí o risco de colisão é especialmente elevado."
+    },
+    "image": null
+  },
+  {
+    "id": "q233",
+    "category": "both",
+    "topic": "rueckwaerts",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Mit welcher Geschwindigkeit darfst du rückwärtsfahren?",
+      "es": "¿A qué velocidad puedes circular marcha atrás?",
+      "fr": "À quelle vitesse peux-tu faire marche arrière ?",
+      "it": "A quale velocità puoi procedere in retromarcia?",
+      "en": "At what speed may you reverse?",
+      "pt": "A que velocidade podes conduzir em marcha-atrás?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nur im Schritttempo",
+          "es": "Solo al paso (velocidad de peatón)",
+          "fr": "Uniquement au pas",
+          "it": "Solo al passo d'uomo",
+          "en": "Only at walking pace",
+          "pt": "Só ao passo (velocidade de peão)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit der auf der Strasse allgemein zulässigen Höchstgeschwindigkeit",
+          "es": "A la velocidad máxima general permitida en esa calle",
+          "fr": "À la vitesse maximale générale autorisée sur cette route",
+          "it": "Alla velocità massima generale consentita su quella strada",
+          "en": "At the general maximum speed permitted on that road",
+          "pt": "À velocidade máxima geral permitida naquela via"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Mit maximal 30 km/h, unabhängig von der Situation",
+          "es": "A un máximo de 30 km/h, independientemente de la situación",
+          "fr": "À 30 km/h maximum, quelle que soit la situation",
+          "it": "A un massimo di 30 km/h, indipendentemente dalla situazione",
+          "en": "At a maximum of 30 km/h, regardless of the situation",
+          "pt": "A um máximo de 30 km/h, independentemente da situação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Rückwärtsfahren ist nur im Schritttempo erlaubt, damit du und andere Verkehrsteilnehmer jederzeit rechtzeitig reagieren können.",
+      "es": "Circular marcha atrás solo está permitido al paso, para que tú y los demás usuarios de la vía podáis reaccionar siempre a tiempo.",
+      "fr": "La marche arrière n'est autorisée qu'au pas, afin que toi et les autres usagers puissiez toujours réagir à temps.",
+      "it": "La retromarcia è consentita solo al passo d'uomo, affinché tu e gli altri utenti della strada possiate sempre reagire in tempo.",
+      "en": "Reversing is only allowed at walking pace, so that you and other road users can always react in time.",
+      "pt": "A marcha-atrás só é permitida ao passo, para que tu e os outros utentes da via possam sempre reagir a tempo."
+    },
+    "image": null
+  },
+  {
+    "id": "q234",
+    "category": "both",
+    "topic": "rueckwaerts",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein Fahrzeug hat stark eingeschränkte Sicht nach hinten (z. B. ein voll beladener Lieferwagen). Was musst du beim Rückwärtsfahren beachten?",
+      "es": "Tu vehículo tiene la visión trasera muy limitada (p. ej. una furgoneta cargada al máximo). ¿Qué debes tener en cuenta al circular marcha atrás?",
+      "fr": "Ton véhicule a une visibilité arrière très réduite (p. ex. une camionnette pleinement chargée). Que dois-tu respecter en faisant marche arrière ?",
+      "it": "Il tuo veicolo ha una visibilità posteriore molto limitata (ad es. un furgone completamente carico). Cosa devi considerare in retromarcia?",
+      "en": "Your vehicle has severely limited rear visibility (e.g. a fully loaded van). What must you observe when reversing?",
+      "pt": "O teu veículo tem visibilidade traseira muito limitada (por exemplo, uma carrinha totalmente carregada). O que deves ter em conta na marcha-atrás?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Wenn nicht jede Gefahr ausgeschlossen werden kann, musst du eine Hilfsperson zum Einweisen beiziehen",
+          "es": "Si no se puede descartar por completo cualquier peligro, debes recurrir a una persona que te guíe",
+          "fr": "Si tout danger ne peut pas être exclu, tu dois faire appel à une personne pour te guider",
+          "it": "Se non si può escludere ogni pericolo, devi farti guidare da una persona d'aiuto",
+          "en": "If any danger cannot be ruled out, you must have a helper guide you",
+          "pt": "Se não se puder excluir qualquer perigo, tens de recorrer a uma pessoa que te oriente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das spielt keine Rolle, die Rückfahrkamera ersetzt immer jede weitere Vorsichtsmassnahme",
+          "es": "No importa, la cámara trasera siempre sustituye cualquier otra medida de precaución",
+          "fr": "Cela n'a pas d'importance, la caméra de recul remplace toujours toute autre précaution",
+          "it": "Non ha importanza, la telecamera posteriore sostituisce sempre ogni altra precauzione",
+          "en": "It does not matter, the reversing camera always replaces every other precaution",
+          "pt": "Não importa, a câmara de marcha-atrás substitui sempre qualquer outra precaução"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Du darfst in diesem Fall generell nicht rückwärtsfahren",
+          "es": "En ese caso no puedes circular marcha atrás en absoluto",
+          "fr": "Dans ce cas, tu ne peux en aucun cas faire marche arrière",
+          "it": "In questo caso non puoi affatto procedere in retromarcia",
+          "en": "In that case you may not reverse at all",
+          "pt": "Nesse caso não podes, de todo, conduzir em marcha-atrás"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei eingeschränkter Sicht nach hinten muss eine Hilfsperson beigezogen werden, wenn nicht jede Gefahr sicher ausgeschlossen werden kann — Rückwärtsfahren ist statistisch überdurchschnittlich oft an tödlichen Unfällen beteiligt.",
+      "es": "Con visión trasera limitada, debe recurrirse a una persona guía si no puede descartarse con seguridad cualquier peligro; circular marcha atrás está, según las estadísticas, implicado con frecuencia desproporcionada en accidentes mortales.",
+      "fr": "En cas de visibilité arrière réduite, il faut faire appel à une personne pour guider si tout danger ne peut être écarté avec certitude — la marche arrière est statistiquement impliquée de façon disproportionnée dans les accidents mortels.",
+      "it": "Con visibilità posteriore limitata occorre farsi guidare da una persona d'aiuto se non si può escludere con certezza ogni pericolo — la retromarcia è statisticamente coinvolta in modo sproporzionato negli incidenti mortali.",
+      "en": "With limited rear visibility, a helper must be brought in if any danger cannot be safely ruled out – reversing is statistically involved in fatal accidents disproportionately often.",
+      "pt": "Com visibilidade traseira limitada, deve recorrer-se a uma pessoa que oriente se não se puder excluir com segurança qualquer perigo – a marcha-atrás está estatisticamente envolvida de forma desproporcional em acidentes mortais."
+    },
+    "image": null
   }
 ]
