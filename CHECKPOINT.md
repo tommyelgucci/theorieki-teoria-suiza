@@ -8,6 +8,39 @@ recordar.
 
 ---
 
+## 2026-08-19 (10) — Ajustar el giro de "Tramo largo marcha atrás" y animar el coche rojo saliendo de la calle
+
+**Contexto:** dos pedidos sobre la misma maniobra (`laengere_strecke_rueckwaerts`).
+(1) El giro del paso 5 llevaba el coche demasiado al sur antes de terminar de girar —
+debía quedarse más cerca de la esquina, "que sobresalgan un poco las ruedas traseras".
+(2) El coche rojo aparcado (`extraCars`, antes solo visible en el paso 6, estático)
+aparecía de golpe como un fantasma — debía verse entrando desde la calle secundaria por
+la izquierda, como cualquier otro vehículo real.
+
+**Giro del paso 5:** el primer intento (reducir directamente la `y` final de 302 a algo
+menor, sin tocar nada más) rompió `maneuvers.test.js` — la esquina delantera-izquierda
+del coche, a mitad de giro, se salía del asfalto por la esquina noroeste del cruce (el
+mismo tipo de fallo documentado en la entrada anterior de esta bitácora). Se resolvió
+con una búsqueda numérica (script Node ad-hoc, no commiteado) sobre el segmento
+`t:0.7→1`: en vez de reducir la `y` del waypoint intermedio, se adelanta su **ángulo**
+(65°→78° en `t:0.7`, manteniendo su `x`/`y` originales) para que la mayor parte del giro
+ya esté hecha antes del tramo final, dejando solo un ajuste pequeño de `y` (302→294) en
+vez de uno grande. Con eso el margen respecto al bordillo pasa de ~1 px (el original, al
+límite) a ~5 px de sobra en el rect del cuerpo del test. El paso 6 queda como hold
+estático en `(88→76, 294, 90°)`, sin ningún desplazamiento extra tras la llegada.
+
+**Coche rojo:** en vez de un `extraCars` fijo solo en el paso 6, ahora tiene keyframes en
+los pasos 4, 5 y 6 con `x` creciente (-20→10→40→66) y `y`/`angle` constantes (338, 90°) —
+recorre la calle secundaria de oeste a este a lo largo de toda la maniobra, como si
+saliera de ella y pasara detrás del coche del examen, en vez de materializarse en el
+último paso.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, capturas de los pasos 4/5/6
+mostrando el giro más corto y el coche rojo entrando en cuadro progresivamente.
+
+---
+
 ## 2026-08-19 (9) — Fix: hueco sin césped en `junctionScene()`, y sólo eso
 
 **Contexto:** el usuario mandó una captura de la maniobra `laengere_strecke_rueckwaerts`
