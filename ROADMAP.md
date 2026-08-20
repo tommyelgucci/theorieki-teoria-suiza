@@ -13,15 +13,17 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 314 preguntas (302 categoría B, 314 categoría A — 302 compartidas + 12 propias de A),
+- 334 preguntas (322 categoría B, 334 categoría A — 322 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
-  Ampliado en siete rondas de la sesión de 2026-08-19 con 39 temas nuevos (156 preguntas)
+  Ampliado en ocho rondas de la sesión de 2026-08-19 con 44 temas nuevos (176 preguntas)
   redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, ver `CHECKPOINT.md`.
 - ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
   `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
-  era solo ruido informativo, no un problema de rendimiento real). Si el banco sigue
-  creciendo mucho más allá de este umbral, entonces sí valdría la pena partir el JSON en
-  varios chunks por categoría/tema — no urgente por ahora.
+  era solo ruido informativo, no un problema de rendimiento real). El chunk real ronda ya
+  los 935 KB (~92 % del umbral de 1000) — si se añade una novena ronda de ~20 preguntas
+  más, es casi seguro que el aviso reaparecerá; subir el límite de nuevo (p. ej. a 1200)
+  o partir el JSON en varios chunks por categoría/tema en ese momento, en vez de seguir
+  subiendo el número indefinidamente.
 - **Duplicado real encontrado y corregido en la sesión de 2026-08-19**: dos preguntas
   añadidas en rondas anteriores de la misma sesión resultaron ser duplicados semánticos
   de preguntas ya existentes (`q185` repetía `q148` sobre profundidad de neumáticos;
