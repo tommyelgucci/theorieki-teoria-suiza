@@ -18322,5 +18322,1245 @@
       "pt": "Nas e-bikes rápidas, a obrigação de capacete aplica-se a todas as pessoas transportadas, não só a quem conduz."
     },
     "image": null
+  },
+  {
+    "id": "q295",
+    "category": "both",
+    "topic": "kaution",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du bist mit ausländischem Kontrollschild in der Schweiz unterwegs und wirst wegen einer Verkehrsübertretung angehalten. Die Busse übersteigt 300 Franken. Was kann die Polizei verlangen?",
+      "es": "Circulas en Suiza con matrícula extranjera y te paran por una infracción de tráfico. La multa supera los 300 francos. ¿Qué puede exigir la policía?",
+      "fr": "Tu circules en Suisse avec une plaque étrangère et es arrêté pour une infraction. L'amende dépasse 300 francs. Que peut exiger la police ?",
+      "it": "Circoli in Svizzera con targa estera e vieni fermato per un'infrazione. La multa supera i 300 franchi. Cosa può esigere la polizia?",
+      "en": "You are driving in Switzerland with foreign number plates and are stopped for a traffic violation. The fine exceeds CHF 300. What can the police demand?",
+      "pt": "Circulas na Suíça com matrícula estrangeira e és parado por uma infração de trânsito. A multa ultrapassa 300 francos. O que pode a polícia exigir?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Sicherheitsleistung (Kaution) in entsprechender Höhe direkt vor Ort",
+          "es": "Un depósito de garantía (fianza) del importe correspondiente en el acto",
+          "fr": "Une sûreté (caution) d'un montant correspondant, directement sur place",
+          "it": "Un deposito cauzionale (cauzione) dell'importo corrispondente, direttamente sul posto",
+          "en": "A security deposit of the corresponding amount on the spot",
+          "pt": "Uma caução do valor correspondente diretamente no local"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, ausländische Fahrzeuglenker sind von Bussen grundsätzlich befreit",
+          "es": "Nada, los conductores extranjeros están, en principio, exentos de multas",
+          "fr": "Rien, les conducteurs étrangers sont en principe exemptés d'amendes",
+          "it": "Niente, i conducenti stranieri sono in linea di massima esenti da multe",
+          "en": "Nothing, foreign drivers are generally exempt from fines",
+          "pt": "Nada, os condutores estrangeiros estão, em princípio, isentos de multas"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine schriftliche Ermahnung ohne finanzielle Folgen",
+          "es": "Solo una advertencia por escrito sin consecuencias económicas",
+          "fr": "Seulement un avertissement écrit sans conséquence financière",
+          "it": "Solo un richiamo scritto senza conseguenze economiche",
+          "en": "Only a written warning with no financial consequences",
+          "pt": "Só uma advertência por escrito sem consequências financeiras"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei ausländischen Fahrzeugen kann die Polizei bei Bussen über 300 Franken oder wenn die sofortige Bezahlung verweigert wird, eine Sicherheitsleistung in entsprechender Höhe verlangen.",
+      "es": "En el caso de vehículos extranjeros, la policía puede exigir un depósito de garantía del importe correspondiente cuando la multa supera los 300 francos o si se rechaza el pago inmediato.",
+      "fr": "Pour les véhicules étrangers, la police peut exiger une sûreté d'un montant correspondant lorsque l'amende dépasse 300 francs ou si le paiement immédiat est refusé.",
+      "it": "Per i veicoli stranieri, la polizia può esigere un deposito cauzionale dell'importo corrispondente quando la multa supera i 300 franchi o se si rifiuta il pagamento immediato.",
+      "en": "For foreign vehicles, the police can demand a security deposit of the corresponding amount when the fine exceeds CHF 300 or if immediate payment is refused.",
+      "pt": "No caso de veículos estrangeiros, a polícia pode exigir uma caução do valor correspondente quando a multa ultrapassa 300 francos ou se o pagamento imediato for recusado."
+    },
+    "image": null
+  },
+  {
+    "id": "q296",
+    "category": "both",
+    "topic": "kaution",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was passiert, wenn eine verlangte Sicherheitsleistung nicht bezahlt wird?",
+      "es": "¿Qué ocurre si no se paga un depósito de garantía exigido?",
+      "fr": "Que se passe-t-il si une sûreté exigée n'est pas payée ?",
+      "it": "Cosa succede se un deposito cauzionale richiesto non viene pagato?",
+      "en": "What happens if a demanded security deposit is not paid?",
+      "pt": "O que acontece se uma caução exigida não for paga?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Behörden können das Fahrzeug vorübergehend beschlagnahmen",
+          "es": "Las autoridades pueden retener el vehículo de forma temporal",
+          "fr": "Les autorités peuvent saisir temporairement le véhicule",
+          "it": "Le autorità possono sequestrare temporaneamente il veicolo",
+          "en": "The authorities can temporarily seize the vehicle",
+          "pt": "As autoridades podem apreender temporariamente o veículo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es passiert gar nichts, die Weiterfahrt ist immer uneingeschränkt möglich",
+          "es": "No pasa nada, siempre se puede seguir circulando sin restricciones",
+          "fr": "Il ne se passe rien, il est toujours possible de continuer sans restriction",
+          "it": "Non succede nulla, si può sempre proseguire senza restrizioni",
+          "en": "Nothing happens, you can always continue driving without restriction",
+          "pt": "Não acontece nada, é sempre possível continuar sem restrições"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Busse wird automatisch storniert",
+          "es": "La multa se cancela automáticamente",
+          "fr": "L'amende est automatiquement annulée",
+          "it": "La multa viene automaticamente annullata",
+          "en": "The fine is automatically cancelled",
+          "pt": "A multa é automaticamente cancelada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wird die verlangte Sicherheitsleistung nicht erbracht, können die Behörden das Fahrzeug vorübergehend sicherstellen, um die spätere Bezahlung sicherzustellen.",
+      "es": "Si no se aporta el depósito de garantía exigido, las autoridades pueden retener temporalmente el vehículo para asegurar el pago posterior.",
+      "fr": "Si la sûreté exigée n'est pas fournie, les autorités peuvent saisir temporairement le véhicule afin de garantir le paiement ultérieur.",
+      "it": "Se il deposito cauzionale richiesto non viene fornito, le autorità possono sequestrare temporaneamente il veicolo per garantire il pagamento successivo.",
+      "en": "If the required security deposit is not provided, the authorities can temporarily impound the vehicle to secure later payment.",
+      "pt": "Se a caução exigida não for prestada, as autoridades podem apreender temporariamente o veículo para garantir o pagamento posterior."
+    },
+    "image": null
+  },
+  {
+    "id": "q297",
+    "category": "both",
+    "topic": "kaution",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "In welcher Sprache musst du eine Einsprache gegen eine Schweizer Busse einreichen?",
+      "es": "¿En qué idioma debes presentar una impugnación contra una multa suiza?",
+      "fr": "Dans quelle langue dois-tu déposer une opposition contre une amende suisse ?",
+      "it": "In quale lingua devi presentare un'opposizione contro una multa svizzera?",
+      "en": "In which language must you file an objection against a Swiss fine?",
+      "pt": "Em que língua deves apresentar uma impugnação contra uma multa suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In der Amtssprache des Kantons, in dem die Übertretung begangen wurde",
+          "es": "En el idioma oficial del cantón donde se cometió la infracción",
+          "fr": "Dans la langue officielle du canton où l'infraction a été commise",
+          "it": "Nella lingua ufficiale del cantone in cui è stata commessa l'infrazione",
+          "en": "In the official language of the canton where the offence was committed",
+          "pt": "Na língua oficial do cantão onde a infração foi cometida"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Zwingend auf Englisch, unabhängig vom Kanton",
+          "es": "Obligatoriamente en inglés, sea cual sea el cantón",
+          "fr": "Obligatoirement en anglais, quel que soit le canton",
+          "it": "Obbligatoriamente in inglese, indipendentemente dal cantone",
+          "en": "Necessarily in English, regardless of the canton",
+          "pt": "Obrigatoriamente em inglês, independentemente do cantão"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Sprache spielt überhaupt keine Rolle",
+          "es": "El idioma no tiene ninguna importancia",
+          "fr": "La langue n'a absolument aucune importance",
+          "it": "La lingua non ha alcuna importanza",
+          "en": "The language does not matter at all",
+          "pt": "A língua não tem qualquer importância"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Eine Einsprache gegen den Bussenbescheid muss in der jeweiligen Amtssprache des Kantons erfolgen, in dem die Widerhandlung begangen wurde.",
+      "es": "La impugnación contra la notificación de la multa debe presentarse en el idioma oficial del cantón en el que se cometió la infracción.",
+      "fr": "L'opposition à la décision d'amende doit être faite dans la langue officielle du canton où l'infraction a été commise.",
+      "it": "L'opposizione alla notifica della multa deve essere presentata nella lingua ufficiale del cantone in cui è stata commessa l'infrazione.",
+      "en": "An objection to the fine notice must be filed in the official language of the canton where the offence was committed.",
+      "pt": "A impugnação da notificação da multa deve ser feita na língua oficial do cantão onde a infração foi cometida."
+    },
+    "image": null
+  },
+  {
+    "id": "q298",
+    "category": "both",
+    "topic": "kaution",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Innerhalb welcher Frist muss eine Einsprache gegen eine Busse eingereicht werden?",
+      "es": "¿En qué plazo debe presentarse una impugnación contra una multa?",
+      "fr": "Dans quel délai une opposition contre une amende doit-elle être déposée ?",
+      "it": "Entro quale termine deve essere presentata un'opposizione contro una multa?",
+      "en": "Within what deadline must an objection to a fine be filed?",
+      "pt": "Dentro de que prazo deve ser apresentada uma impugnação contra uma multa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Innerhalb von 10 Tagen nach Erhalt",
+          "es": "En un plazo de 10 días desde su recepción",
+          "fr": "Dans les 10 jours suivant la réception",
+          "it": "Entro 10 giorni dal ricevimento",
+          "en": "Within 10 days of receipt",
+          "pt": "No prazo de 10 dias após a receção"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Innerhalb von 10 Wochen nach Erhalt",
+          "es": "En un plazo de 10 semanas desde su recepción",
+          "fr": "Dans les 10 semaines suivant la réception",
+          "it": "Entro 10 settimane dal ricevimento",
+          "en": "Within 10 weeks of receipt",
+          "pt": "No prazo de 10 semanas após a receção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keine Frist",
+          "es": "No hay ningún plazo",
+          "fr": "Il n'y a aucun délai",
+          "it": "Non c'è alcun termine",
+          "en": "There is no deadline",
+          "pt": "Não há qualquer prazo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Eine Einsprache gegen den Bussenbescheid muss innerhalb von 10 Tagen nach Erhalt bei der ausstellenden Behörde eingereicht werden.",
+      "es": "La impugnación contra la notificación de la multa debe presentarse ante la autoridad emisora en un plazo de 10 días desde su recepción.",
+      "fr": "L'opposition à la décision d'amende doit être déposée auprès de l'autorité émettrice dans les 10 jours suivant la réception.",
+      "it": "L'opposizione alla notifica della multa deve essere presentata all'autorità emittente entro 10 giorni dal ricevimento.",
+      "en": "An objection to the fine notice must be filed with the issuing authority within 10 days of receipt.",
+      "pt": "A impugnação da notificação da multa deve ser apresentada à autoridade emissora no prazo de 10 dias após a receção."
+    },
+    "image": null
+  },
+  {
+    "id": "q299",
+    "category": "both",
+    "topic": "anhaenger_bremse",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du ziehst einen ungebremsten Anhänger bis 1500 kg Gesamtgewicht. Was schreibt die Schweizer Vorschrift zusätzlich zur normalen Anhängevorrichtung vor?",
+      "es": "Llevas un remolque sin frenos propios de hasta 1500 kg de peso total. ¿Qué exige la normativa suiza además del enganche normal?",
+      "fr": "Tu tires une remorque sans freins propres jusqu'à 1500 kg de poids total. Que prescrit la réglementation suisse en plus de l'attelage normal ?",
+      "it": "Trainai un rimorchio senza freni propri fino a 1500 kg di peso totale. Cosa prescrive la normativa svizzera oltre al normale gancio di traino?",
+      "en": "You are towing an unbraked trailer up to 1500 kg total weight. What does Swiss regulation require in addition to the normal towing hitch?",
+      "pt": "Estás a puxar um reboque sem travões próprios até 1500 kg de peso total. O que exige a regulamentação suíça além do engate normal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine zusätzliche Sicherungsverbindung (z. B. Seil oder Kette), die wirkt, falls sich der Anhänger löst",
+          "es": "Una conexión de seguridad adicional (p. ej. cable o cadena) que actúe si el remolque se suelta",
+          "fr": "Un dispositif de sécurité supplémentaire (p. ex. câble ou chaîne) qui agit si la remorque se détache",
+          "it": "Un collegamento di sicurezza aggiuntivo (ad es. fune o catena) che agisca se il rimorchio si stacca",
+          "en": "An additional safety connection (e.g. a cable or chain) that acts if the trailer becomes detached",
+          "pt": "Uma ligação de segurança adicional (por exemplo, cabo ou corrente) que atue se o reboque se soltar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein zweites, unabhängiges Bremssystem ist für alle ungebremsten Anhänger obligatorisch",
+          "es": "Un segundo sistema de frenos independiente es obligatorio para todo remolque sin frenos",
+          "fr": "Un second système de freinage indépendant est obligatoire pour toute remorque sans freins",
+          "it": "Un secondo sistema frenante indipendente è obbligatorio per ogni rimorchio senza freni",
+          "en": "A second, independent braking system is mandatory for every unbraked trailer",
+          "pt": "Um segundo sistema de travagem independente é obrigatório para todo o reboque sem travões"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es ist überhaupt keine zusätzliche Sicherung nötig",
+          "es": "No hace falta ninguna sujeción adicional",
+          "fr": "Aucune sécurisation supplémentaire n'est nécessaire",
+          "it": "Non è necessaria alcuna sicurezza aggiuntiva",
+          "en": "No additional safety measure is needed at all",
+          "pt": "Não é necessária qualquer segurança adicional"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Schweiz braucht ein ungebremster Anhänger eine zusätzliche Sicherungsverbindung zum Zugfahrzeug, die verhindert, dass sich der Anhänger bei einem Lösen der Kupplung komplett vom Fahrzeug trennt.",
+      "es": "En Suiza, un remolque sin frenos necesita una conexión de seguridad adicional al vehículo tractor que impida que se separe por completo si se suelta el enganche.",
+      "fr": "En Suisse, une remorque sans freins nécessite un dispositif de sécurité supplémentaire relié au véhicule tracteur, empêchant qu'elle ne se sépare complètement en cas de rupture de l'attelage.",
+      "it": "In Svizzera, un rimorchio senza freni necessita di un collegamento di sicurezza aggiuntivo al veicolo trainante, che impedisca al rimorchio di staccarsi completamente in caso di rottura del gancio.",
+      "en": "In Switzerland, an unbraked trailer needs an additional safety connection to the towing vehicle that prevents the trailer from fully separating if the coupling fails.",
+      "pt": "Na Suíça, um reboque sem travões precisa de uma ligação de segurança adicional ao veículo trator, que impeça o reboque de se separar completamente em caso de rutura do engate."
+    },
+    "image": null
+  },
+  {
+    "id": "q300",
+    "category": "both",
+    "topic": "anhaenger_bremse",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welche Höchstgeschwindigkeit gilt allgemein für einen leichten Personenwagen mit Anhänger, dessen Gesamtgewicht 3,5 Tonnen nicht übersteigt?",
+      "es": "¿Qué velocidad máxima rige, en general, para un turismo ligero con remolque cuyo peso total no supera las 3,5 toneladas?",
+      "fr": "Quelle vitesse maximale s'applique en général à une voiture légère avec remorque dont le poids total ne dépasse pas 3,5 tonnes ?",
+      "it": "Quale velocità massima vale in generale per un'autovettura leggera con rimorchio il cui peso totale non supera le 3,5 tonnellate?",
+      "en": "What maximum speed generally applies to a light car with a trailer whose total weight does not exceed 3.5 tonnes?",
+      "pt": "Que velocidade máxima vigora, em geral, para um automóvel ligeiro com reboque cujo peso total não excede 3,5 toneladas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "100 km/h",
+          "es": "100 km/h",
+          "fr": "100 km/h",
+          "it": "100 km/h",
+          "en": "100 km/h",
+          "pt": "100 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "60 km/h",
+          "es": "60 km/h",
+          "fr": "60 km/h",
+          "it": "60 km/h",
+          "en": "60 km/h",
+          "pt": "60 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "130 km/h",
+          "es": "130 km/h",
+          "fr": "130 km/h",
+          "it": "130 km/h",
+          "en": "130 km/h",
+          "pt": "130 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für leichte Motorwagen mit Anhänger bis 3,5 Tonnen Gesamtgewicht gilt in der Schweiz eine Höchstgeschwindigkeit von 100 km/h.",
+      "es": "Para turismos ligeros con remolque de hasta 3,5 toneladas de peso total, en Suiza rige una velocidad máxima de 100 km/h.",
+      "fr": "Pour les voitures légères avec remorque jusqu'à 3,5 tonnes de poids total, la vitesse maximale en Suisse est de 100 km/h.",
+      "it": "Per le autovetture leggere con rimorchio fino a 3,5 tonnellate di peso totale, in Svizzera vale una velocità massima di 100 km/h.",
+      "en": "For light motor vehicles with a trailer up to 3.5 tonnes total weight, the maximum speed in Switzerland is 100 km/h.",
+      "pt": "Para automóveis ligeiros com reboque até 3,5 toneladas de peso total, na Suíça vigora uma velocidade máxima de 100 km/h."
+    },
+    "image": null
+  },
+  {
+    "id": "q301",
+    "category": "both",
+    "topic": "anhaenger_bremse",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wozu dient die zusätzliche Sicherungsverbindung (Seil/Kette) bei einem ungebremsten Anhänger konkret?",
+      "es": "¿Para qué sirve en concreto la conexión de seguridad adicional (cable/cadena) en un remolque sin frenos?",
+      "fr": "À quoi sert concrètement le dispositif de sécurité supplémentaire (câble/chaîne) sur une remorque sans freins ?",
+      "it": "A cosa serve concretamente il collegamento di sicurezza aggiuntivo (fune/catena) su un rimorchio senza freni?",
+      "en": "What is the additional safety connection (cable/chain) on an unbraked trailer actually for?",
+      "pt": "Para que serve concretamente a ligação de segurança adicional (cabo/corrente) num reboque sem travões?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie soll verhindern, dass sich der Anhänger bei einem Kupplungsbruch komplett von der Fahrbahn löst und unkontrolliert wegrollt",
+          "es": "Debe evitar que, si se rompe el enganche, el remolque se separe por completo y ruede sin control",
+          "fr": "Elle doit empêcher qu'en cas de rupture de l'attelage, la remorque se détache complètement et roule de façon incontrôlée",
+          "it": "Deve impedire che, in caso di rottura del gancio, il rimorchio si stacchi completamente e rotoli senza controllo",
+          "en": "It is meant to prevent the trailer from fully separating and rolling away uncontrolled if the coupling breaks",
+          "pt": "Deve impedir que, em caso de rutura do engate, o reboque se separe completamente e role sem controlo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie dient ausschliesslich der besseren Sichtbarkeit des Anhängers",
+          "es": "Sirve exclusivamente para mejorar la visibilidad del remolque",
+          "fr": "Elle sert exclusivement à améliorer la visibilité de la remorque",
+          "it": "Serve esclusivamente a migliorare la visibilità del rimorchio",
+          "en": "It serves solely to improve the trailer's visibility",
+          "pt": "Serve exclusivamente para melhorar a visibilidade do reboque"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie ersetzt die Beleuchtungspflicht des Anhängers",
+          "es": "Sustituye la obligación de iluminación del remolque",
+          "fr": "Elle remplace l'obligation d'éclairage de la remorque",
+          "it": "Sostituisce l'obbligo di illuminazione del rimorchio",
+          "en": "It replaces the trailer's lighting requirement",
+          "pt": "Substitui a obrigação de iluminação do reboque"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Löst sich die Kupplung eines ungebremsten Anhängers, hält die zusätzliche Sicherungsverbindung den Anhänger am Zugfahrzeug, statt dass er unkontrolliert wegrollt.",
+      "es": "Si se suelta el enganche de un remolque sin frenos, la conexión de seguridad adicional mantiene el remolque unido al vehículo tractor, en vez de que ruede sin control.",
+      "fr": "Si l'attelage d'une remorque sans freins se détache, le dispositif de sécurité supplémentaire maintient la remorque attachée au véhicule tracteur, au lieu qu'elle roule de façon incontrôlée.",
+      "it": "Se il gancio di un rimorchio senza freni si stacca, il collegamento di sicurezza aggiuntivo mantiene il rimorchio attaccato al veicolo trainante, invece di farlo rotolare senza controllo.",
+      "en": "If the coupling of an unbraked trailer comes loose, the additional safety connection keeps the trailer attached to the towing vehicle instead of it rolling away uncontrolled.",
+      "pt": "Se o engate de um reboque sem travões se soltar, a ligação de segurança adicional mantém o reboque preso ao veículo trator, em vez de rolar sem controlo."
+    },
+    "image": null
+  },
+  {
+    "id": "q302",
+    "category": "both",
+    "topic": "anhaenger_bremse",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Für Anhänger mit einem Gesamtgewicht über 3,5 Tonnen gilt auf der Autobahn welche Höchstgeschwindigkeit?",
+      "es": "¿Qué velocidad máxima rige en autopista para remolques con un peso total superior a 3,5 toneladas?",
+      "fr": "Quelle vitesse maximale s'applique sur autoroute aux remorques de plus de 3,5 tonnes de poids total ?",
+      "it": "Quale velocità massima vale in autostrada per i rimorchi con peso totale superiore a 3,5 tonnellate?",
+      "en": "What maximum speed applies on the motorway for trailers with a total weight over 3.5 tonnes?",
+      "pt": "Que velocidade máxima vigora em autoestrada para reboques com peso total superior a 3,5 toneladas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "80 km/h",
+          "es": "80 km/h",
+          "fr": "80 km/h",
+          "it": "80 km/h",
+          "en": "80 km/h",
+          "pt": "80 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "100 km/h",
+          "es": "100 km/h",
+          "fr": "100 km/h",
+          "it": "100 km/h",
+          "en": "100 km/h",
+          "pt": "100 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "120 km/h",
+          "es": "120 km/h",
+          "fr": "120 km/h",
+          "it": "120 km/h",
+          "en": "120 km/h",
+          "pt": "120 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Schwerere Anhänger über 3,5 Tonnen Gesamtgewicht dürfen auf der Autobahn nur mit maximal 80 km/h gezogen werden.",
+      "es": "Los remolques más pesados, de más de 3,5 toneladas de peso total, solo pueden remolcarse en autopista a un máximo de 80 km/h.",
+      "fr": "Les remorques plus lourdes, de plus de 3,5 tonnes de poids total, ne peuvent être tractées sur autoroute qu'à 80 km/h maximum.",
+      "it": "I rimorchi più pesanti, con peso totale superiore a 3,5 tonnellate, possono essere trainati in autostrada solo a un massimo di 80 km/h.",
+      "en": "Heavier trailers over 3.5 tonnes total weight may only be towed on the motorway at a maximum of 80 km/h.",
+      "pt": "Os reboques mais pesados, com mais de 3,5 toneladas de peso total, só podem ser rebocados em autoestrada a um máximo de 80 km/h."
+    },
+    "image": null
+  },
+  {
+    "id": "q303",
+    "category": "both",
+    "topic": "baustellenampel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "An einer Baustelle regelt eine mobile Ampel den Verkehr auf einem einspurig verengten Abschnitt. Sie zeigt Rot. Was tust du, auch wenn die Fahrbahn frei aussieht?",
+      "es": "En una obra, un semáforo móvil regula el tráfico en un tramo reducido a un solo carril. Está en rojo. ¿Qué haces, aunque la calzada parezca libre?",
+      "fr": "Sur un chantier, un feu mobile régule le trafic sur un tronçon réduit à une voie. Il est rouge. Que fais-tu, même si la chaussée semble dégagée ?",
+      "it": "In un cantiere, un semaforo mobile regola il traffico su un tratto ridotto a una corsia. È rosso. Cosa fai, anche se la carreggiata sembra libera?",
+      "en": "At a roadworks site, a mobile traffic light controls traffic on a stretch narrowed to one lane. It shows red. What do you do, even if the road looks clear?",
+      "pt": "Numa obra, um semáforo móvel regula o trânsito num troço reduzido a uma faixa. Está vermelho. O que fazes, mesmo que a faixa pareça livre?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Unbedingt warten, der Gegenverkehr hat Vortritt",
+          "es": "Esperar sin falta, el tráfico en sentido contrario tiene prioridad",
+          "fr": "Attendre absolument, le trafic venant en sens inverse a la priorité",
+          "it": "Aspettare assolutamente, il traffico in senso contrario ha la precedenza",
+          "en": "Wait, without exception — oncoming traffic has priority",
+          "pt": "Esperar sem falta, o trânsito em sentido contrário tem prioridade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Vorsichtig weiterfahren, wenn kein Fahrzeug sichtbar ist",
+          "es": "Seguir adelante con cuidado si no se ve ningún vehículo",
+          "fr": "Continuer prudemment si aucun véhicule n'est visible",
+          "it": "Proseguire con cautela se non si vede alcun veicolo",
+          "en": "Carefully continue if no vehicle is visible",
+          "pt": "Continuar com cuidado se não se vir nenhum veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Hupen und dann losfahren",
+          "es": "Tocar el claxon y luego arrancar",
+          "fr": "Klaxonner puis démarrer",
+          "it": "Suonare il clacson e poi partire",
+          "en": "Honk and then drive off",
+          "pt": "Buzinar e depois arrancar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einspuriger Ampelregelung an Baustellen gilt: bei Rot nie einfahren, auch wenn die Strecke frei aussieht — der Gegenverkehr könnte bereits unterwegs sein oder gleich Grün erhalten.",
+      "es": "En la regulación a un solo carril con semáforo en obras, nunca se debe entrar en rojo, aunque el tramo parezca libre; el tráfico contrario puede estar ya en marcha o a punto de recibir verde.",
+      "fr": "Avec une régulation à voie unique par feu sur un chantier, il ne faut jamais entrer au rouge, même si le tronçon semble dégagé – le trafic en sens inverse peut déjà être engagé ou passer au vert.",
+      "it": "Con la regolazione a corsia unica in un cantiere, non bisogna mai entrare col rosso, anche se il tratto sembra libero: il traffico opposto potrebbe già essere in marcia o stare per ricevere il verde.",
+      "en": "With single-lane traffic-light control at roadworks, never enter on red, even if the stretch looks clear — oncoming traffic may already be moving or about to get a green light.",
+      "pt": "Na regulação a uma faixa em obras, nunca se deve entrar com o vermelho, mesmo que o troço pareça livre – o trânsito contrário pode já estar em marcha ou prestes a receber verde."
+    },
+    "image": null
+  },
+  {
+    "id": "q304",
+    "category": "both",
+    "topic": "baustellenampel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Die Baustellenampel zeigt Grün. Wie verhältst du dich korrekt?",
+      "es": "El semáforo de la obra está en verde. ¿Cómo actúas correctamente?",
+      "fr": "Le feu du chantier est vert. Comment te comportes-tu correctement ?",
+      "it": "Il semaforo del cantiere è verde. Come ti comporti correttamente?",
+      "en": "The construction-site light shows green. How do you behave correctly?",
+      "pt": "O semáforo da obra está verde. Como te comportas corretamente?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Zügig in den einspurigen Abschnitt einfahren und ihn ohne unnötigen Halt verlassen",
+          "es": "Entrar con fluidez en el tramo de un solo carril y salir de él sin detenerte innecesariamente",
+          "fr": "Entrer sans traîner dans le tronçon à voie unique et le quitter sans arrêt inutile",
+          "it": "Entrare speditamente nel tratto a corsia unica e uscirne senza fermate inutili",
+          "en": "Enter the single-lane section promptly and leave it without unnecessary stopping",
+          "pt": "Entrar com fluidez no troço de faixa única e sair dele sem paragens desnecessárias"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Trotzdem erst einmal abwarten, ob wirklich niemand entgegenkommt",
+          "es": "Esperar igualmente a comprobar que realmente no viene nadie de frente",
+          "fr": "Attendre quand même pour vérifier que personne ne vient réellement en face",
+          "it": "Aspettare comunque per verificare che davvero non arrivi nessuno in senso opposto",
+          "en": "Wait anyway to check that no one is really coming the other way",
+          "pt": "Esperar mesmo assim para verificar se realmente não vem ninguém em sentido contrário"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "So langsam wie möglich fahren, um die Baustelle besser zu sehen",
+          "es": "Circular lo más despacio posible para ver mejor la obra",
+          "fr": "Rouler le plus lentement possible pour mieux voir le chantier",
+          "it": "Viaggiare il più lentamente possibile per vedere meglio il cantiere",
+          "en": "Drive as slowly as possible to get a better look at the site",
+          "pt": "Circular o mais devagar possível para ver melhor a obra"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei Grün zügig einfahren und den verengten Abschnitt zeitnah wieder verlassen, damit die Wechselsteuerung reibungslos funktioniert und niemand unnötig warten muss.",
+      "es": "Con verde, entra con fluidez y sal pronto del tramo estrecho, para que la regulación alternada funcione sin problemas y nadie tenga que esperar innecesariamente.",
+      "fr": "Au vert, entre sans traîner et quitte rapidement le tronçon rétréci, afin que la régulation alternée fonctionne sans accroc et que personne n'attende inutilement.",
+      "it": "Con il verde, entra speditamente e lascia presto il tratto ristretto, così che la regolazione alternata funzioni senza intoppi e nessuno debba aspettare inutilmente.",
+      "en": "On green, enter promptly and leave the narrowed section quickly, so the alternating control works smoothly and no one waits unnecessarily.",
+      "pt": "Com verde, entra com fluidez e sai depressa do troço estreitado, para que a regulação alternada funcione sem problemas e ninguém tenha de esperar desnecessariamente."
+    },
+    "image": null
+  },
+  {
+    "id": "q305",
+    "category": "both",
+    "topic": "baustellenampel",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Warum ist es besonders gefährlich, bei einer Baustellenampel trotz Rotlicht loszufahren, nur weil die Strecke gerade frei aussieht?",
+      "es": "¿Por qué es especialmente peligroso avanzar en un semáforo de obra a pesar del rojo, solo porque el tramo parece libre?",
+      "fr": "Pourquoi est-il particulièrement dangereux d'avancer à un feu de chantier malgré le rouge, simplement parce que le tronçon semble dégagé ?",
+      "it": "Perché è particolarmente pericoloso partire a un semaforo di cantiere nonostante il rosso, solo perché il tratto sembra libero al momento?",
+      "en": "Why is it especially dangerous to drive off at a construction-site light despite red, just because the stretch looks clear right now?",
+      "pt": "Porque é especialmente perigoso avançar num semáforo de obra apesar do vermelho, só porque o troço parece livre no momento?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil Gegenverkehr bereits unterwegs sein kann und ein Frontalzusammenstoss auf dem engen Abschnitt droht",
+          "es": "Porque el tráfico contrario puede estar ya en marcha y amenaza una colisión frontal en el tramo estrecho",
+          "fr": "Parce que le trafic venant en sens inverse peut déjà être engagé et qu'une collision frontale menace sur le tronçon étroit",
+          "it": "Perché il traffico opposto può già essere in marcia e minaccia uno scontro frontale nel tratto stretto",
+          "en": "Because oncoming traffic may already be underway and a head-on collision threatens on the narrow stretch",
+          "pt": "Porque o trânsito em sentido contrário pode já estar em marcha e ameaça uma colisão frontal no troço estreito"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil das grundsätzlich ungefährlich ist, solange man vorsichtig fährt",
+          "es": "Porque en principio no es peligroso, mientras se conduzca con cuidado",
+          "fr": "Parce que ce n'est en principe pas dangereux, tant qu'on conduit prudemment",
+          "it": "Perché in linea di massima non è pericoloso, purché si guidi con prudenza",
+          "en": "Because it is generally not dangerous as long as you drive carefully",
+          "pt": "Porque, em princípio, não é perigoso, desde que se conduza com cuidado"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil dadurch nur die Baustelle beschädigt werden könnte",
+          "es": "Porque solo se podría dañar la propia obra",
+          "fr": "Parce que seul le chantier pourrait en être endommagé",
+          "it": "Perché potrebbe danneggiarsi solo il cantiere stesso",
+          "en": "Because only the construction site itself could be damaged",
+          "pt": "Porque só a própria obra poderia ficar danificada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auf dem verengten Abschnitt gibt es keinen Platz zum Ausweichen — Gegenverkehr, der bereits bei Grün losgefahren ist, führt bei Missachtung des Rotlichts zu einem Frontalzusammenstoss.",
+      "es": "En el tramo estrechado no hay espacio para esquivar; si el tráfico contrario ya ha arrancado con verde, ignorar el rojo provoca una colisión frontal.",
+      "fr": "Sur le tronçon rétréci, il n'y a pas de place pour s'écarter – si le trafic en sens inverse est déjà parti au vert, ignorer le rouge entraîne une collision frontale.",
+      "it": "Nel tratto ristretto non c'è spazio per scartare: se il traffico opposto è già partito col verde, ignorare il rosso porta a uno scontro frontale.",
+      "en": "There is no room to swerve on the narrowed stretch — if oncoming traffic has already moved off on green, ignoring the red light causes a head-on collision.",
+      "pt": "No troço estreitado não há espaço para desviar – se o trânsito em sentido contrário já arrancou com verde, ignorar o vermelho provoca uma colisão frontal."
+    },
+    "image": null
+  },
+  {
+    "id": "q306",
+    "category": "both",
+    "topic": "baustellenampel",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wonach müssen mobile Baustellenampeln in der Schweiz technisch ausgerichtet sein?",
+      "es": "¿Según qué deben regirse técnicamente los semáforos móviles de obra en Suiza?",
+      "fr": "Sur quoi les feux mobiles de chantier doivent-ils se baser techniquement en Suisse ?",
+      "it": "A cosa devono tecnicamente attenersi i semafori mobili da cantiere in Svizzera?",
+      "en": "What must mobile construction-site traffic lights in Switzerland technically comply with?",
+      "pt": "Pelo que se devem reger tecnicamente os semáforos móveis de obra na Suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nach den einschlägigen Schweizer Normen für die Baustellensignalisation",
+          "es": "Según las normas suizas correspondientes de señalización de obras",
+          "fr": "Selon les normes suisses applicables à la signalisation de chantier",
+          "it": "Secondo le pertinenti norme svizzere per la segnaletica di cantiere",
+          "en": "According to the relevant Swiss standards for construction-site signage",
+          "pt": "Segundo as normas suíças relevantes para a sinalização de obras"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt keinerlei technische Vorgaben, jede Baufirma entscheidet frei",
+          "es": "No existe ninguna norma técnica, cada empresa constructora decide libremente",
+          "fr": "Il n'existe aucune exigence technique, chaque entreprise de construction décide librement",
+          "it": "Non esiste alcuna prescrizione tecnica, ogni impresa edile decide liberamente",
+          "en": "There are no technical requirements at all, each construction company decides freely",
+          "pt": "Não existe qualquer norma técnica, cada empresa de construção decide livremente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nach den Normen des Landes, aus dem die Baufirma stammt",
+          "es": "Según las normas del país de origen de la empresa constructora",
+          "fr": "Selon les normes du pays d'origine de l'entreprise de construction",
+          "it": "Secondo le norme del paese di provenienza dell'impresa edile",
+          "en": "According to the standards of the country the construction company is from",
+          "pt": "Segundo as normas do país de origem da empresa de construção"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Mobile Baustellenampeln müssen den einschlägigen Schweizer Normen für Baustellensignalisation entsprechen, damit sie landesweit einheitlich und zuverlässig funktionieren.",
+      "es": "Los semáforos móviles de obra deben cumplir las normas suizas correspondientes de señalización de obras, para funcionar de forma uniforme y fiable en todo el país.",
+      "fr": "Les feux mobiles de chantier doivent être conformes aux normes suisses applicables à la signalisation de chantier, afin de fonctionner de manière uniforme et fiable dans tout le pays.",
+      "it": "I semafori mobili da cantiere devono essere conformi alle pertinenti norme svizzere per la segnaletica di cantiere, per funzionare in modo uniforme e affidabile in tutto il paese.",
+      "en": "Mobile construction-site traffic lights must comply with the relevant Swiss standards for construction-site signage, so they function consistently and reliably nationwide.",
+      "pt": "Os semáforos móveis de obra devem cumprir as normas suíças relevantes para a sinalização de obras, para funcionarem de forma uniforme e fiável em todo o país."
+    },
+    "image": null
+  },
+  {
+    "id": "q307",
+    "category": "both",
+    "topic": "busspur",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst mit dem Velo und siehst eine Busspur ohne jegliche Velo-Markierung auf der Fahrbahn. Darfst du sie befahren?",
+      "es": "Vas en bici y ves un carril bus sin ninguna marca de bicicleta en la calzada. ¿Puedes circular por él?",
+      "fr": "Tu roules à vélo et vois une voie de bus sans aucun marquage vélo sur la chaussée. Peux-tu l'emprunter ?",
+      "it": "Vai in bici e vedi una corsia bus senza alcun segnale per biciclette sulla carreggiata. Puoi percorrerla?",
+      "en": "You are cycling and see a bus lane with no bicycle marking on the road at all. May you ride on it?",
+      "pt": "Vais de bicicleta e vês uma faixa de autocarro sem qualquer marca de bicicleta na faixa de rodagem. Podes circular nela?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, ohne entsprechendes Velo-Piktogramm auf der Fahrbahn dürfen Velofahrende die Busspur nicht benützen",
+          "es": "No, sin el pictograma de bicicleta correspondiente en la calzada, los ciclistas no pueden usar el carril bus",
+          "fr": "Non, sans le pictogramme vélo correspondant sur la chaussée, les cyclistes ne peuvent pas emprunter la voie de bus",
+          "it": "No, senza il corrispondente pittogramma bici sulla carreggiata, i ciclisti non possono percorrere la corsia bus",
+          "en": "No, without a corresponding bicycle pictogram on the road, cyclists may not use the bus lane",
+          "pt": "Não, sem o correspondente pictograma de bicicleta na faixa de rodagem, os ciclistas não podem usar a faixa de autocarro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, Velofahrende dürfen jede Busspur immer benützen",
+          "es": "Sí, los ciclistas siempre pueden usar cualquier carril bus",
+          "fr": "Oui, les cyclistes peuvent toujours emprunter toute voie de bus",
+          "it": "Sì, i ciclisti possono sempre percorrere qualsiasi corsia bus",
+          "en": "Yes, cyclists may always use any bus lane",
+          "pt": "Sim, os ciclistas podem sempre usar qualquer faixa de autocarro"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur nachts",
+          "es": "Sí, pero solo de noche",
+          "fr": "Oui, mais seulement de nuit",
+          "it": "Sì, ma solo di notte",
+          "en": "Yes, but only at night",
+          "pt": "Sim, mas só à noite"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Velofahrende dürfen eine Busspur nur benützen, wenn dies durch ein entsprechendes Piktogramm auf der Fahrbahn ausdrücklich signalisiert ist.",
+      "es": "Los ciclistas solo pueden usar un carril bus si así lo indica expresamente el pictograma correspondiente en la calzada.",
+      "fr": "Les cyclistes ne peuvent emprunter une voie de bus que si un pictogramme correspondant sur la chaussée le signale expressément.",
+      "it": "I ciclisti possono percorrere una corsia bus solo se ciò è espressamente segnalato da un pittogramma corrispondente sulla carreggiata.",
+      "en": "Cyclists may only use a bus lane if this is explicitly indicated by a corresponding pictogram on the road.",
+      "pt": "Os ciclistas só podem usar uma faixa de autocarro se isso for expressamente sinalizado por um pictograma correspondente na faixa de rodagem."
+    },
+    "image": null
+  },
+  {
+    "id": "q308",
+    "category": "both",
+    "topic": "busspur",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wem gehört eine Busspur grundsätzlich in erster Linie?",
+      "es": "¿A quién pertenece, en principio, un carril bus en primer lugar?",
+      "fr": "À qui appartient en principe une voie de bus en premier lieu ?",
+      "it": "A chi appartiene in linea di massima una corsia bus in primo luogo?",
+      "en": "Who does a bus lane primarily belong to, in principle?",
+      "pt": "A quem pertence, em princípio, uma faixa de autocarro em primeiro lugar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den Linienbussen des öffentlichen Verkehrs",
+          "es": "A los autobuses de línea del transporte público",
+          "fr": "Aux bus de ligne des transports publics",
+          "it": "Agli autobus di linea del trasporto pubblico",
+          "en": "To scheduled public-transport buses",
+          "pt": "Aos autocarros de linha dos transportes públicos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Allen Fahrzeugen ohne jede Einschränkung",
+          "es": "A todos los vehículos sin ninguna restricción",
+          "fr": "À tous les véhicules sans aucune restriction",
+          "it": "A tutti i veicoli senza alcuna restrizione",
+          "en": "To all vehicles without any restriction",
+          "pt": "A todos os veículos sem qualquer restrição"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ausschliesslich Töfffahrzeugen",
+          "es": "Exclusivamente a las motos",
+          "fr": "Exclusivement aux motos",
+          "it": "Esclusivamente ai motocicli",
+          "en": "Exclusively to motorcycles",
+          "pt": "Exclusivamente às motos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Busspur ist primär für Linienbusse des öffentlichen Verkehrs reserviert; andere Fahrzeuge dürfen sie nur benützen, wenn dies ausdrücklich erlaubt ist.",
+      "es": "El carril bus está reservado principalmente a los autobuses de línea del transporte público; otros vehículos solo pueden usarlo si está expresamente permitido.",
+      "fr": "La voie de bus est réservée en priorité aux bus de ligne des transports publics ; les autres véhicules ne peuvent l'emprunter que si cela est expressément autorisé.",
+      "it": "La corsia bus è riservata prioritariamente agli autobus di linea del trasporto pubblico; gli altri veicoli possono percorrerla solo se ciò è espressamente consentito.",
+      "en": "The bus lane is primarily reserved for scheduled public-transport buses; other vehicles may only use it if this is explicitly permitted.",
+      "pt": "A faixa de autocarro está reservada principalmente aos autocarros de linha dos transportes públicos; outros veículos só podem usá-la se isso for expressamente permitido."
+    },
+    "image": null
+  },
+  {
+    "id": "q309",
+    "category": "both",
+    "topic": "busspur",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du willst mit dem Auto rechts abbiegen und musst dafür eine Busspur überqueren. Was gilt?",
+      "es": "Quieres girar a la derecha con el coche y para ello debes cruzar un carril bus. ¿Qué se aplica?",
+      "fr": "Tu veux tourner à droite en voiture et dois pour cela traverser une voie de bus. Que faut-il respecter ?",
+      "it": "Vuoi svoltare a destra in auto e per farlo devi attraversare una corsia bus. Cosa vale?",
+      "en": "You want to turn right by car and must cross a bus lane to do so. What applies?",
+      "pt": "Queres virar à direita de carro e para isso tens de atravessar uma faixa de autocarro. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du musst den Verkehr auf der Busspur (z. B. einen Bus) durchlassen, bevor du abbiegst",
+          "es": "Debes dejar pasar el tráfico del carril bus (p. ej. un autobús) antes de girar",
+          "fr": "Tu dois laisser passer le trafic de la voie de bus (p. ex. un bus) avant de tourner",
+          "it": "Devi lasciar passare il traffico sulla corsia bus (ad es. un autobus) prima di svoltare",
+          "en": "You must let traffic on the bus lane (e.g. a bus) pass before turning",
+          "pt": "Tens de deixar passar o trânsito na faixa de autocarro (por exemplo, um autocarro) antes de virar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Busspur hat beim Abbiegen keinerlei Vortritt vor dir",
+          "es": "El carril bus no tiene ninguna prioridad sobre ti al girar",
+          "fr": "La voie de bus n'a aucune priorité sur toi lors du virage",
+          "it": "La corsia bus non ha alcuna precedenza su di te nella svolta",
+          "en": "The bus lane has no priority over you at all when turning",
+          "pt": "A faixa de autocarro não tem qualquer prioridade sobre ti ao virar"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Du darfst die Busspur nur mit eingeschaltetem Warnblinker überqueren",
+          "es": "Solo puedes cruzar el carril bus con las luces de emergencia encendidas",
+          "fr": "Tu ne peux traverser la voie de bus qu'avec les feux de détresse allumés",
+          "it": "Puoi attraversare la corsia bus solo con le luci di emergenza accese",
+          "en": "You may only cross the bus lane with the hazard lights on",
+          "pt": "Só podes atravessar a faixa de autocarro com as luzes de emergência ligadas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer über eine Busspur rechts abbiegen will, muss den Verkehr auf dieser Spur (z. B. einen herannahenden Bus) durchlassen, bevor er einbiegt.",
+      "es": "Quien quiere girar a la derecha cruzando un carril bus debe dejar pasar el tráfico de ese carril (p. ej. un autobús que se acerca) antes de girar.",
+      "fr": "Qui veut tourner à droite en traversant une voie de bus doit laisser passer le trafic de cette voie (p. ex. un bus qui approche) avant de tourner.",
+      "it": "Chi vuole svoltare a destra attraversando una corsia bus deve lasciar passare il traffico su quella corsia (ad es. un autobus in arrivo) prima di svoltare.",
+      "en": "Anyone wanting to turn right across a bus lane must let traffic on that lane (e.g. an approaching bus) pass before turning.",
+      "pt": "Quem quer virar à direita atravessando uma faixa de autocarro deve deixar passar o trânsito nessa faixa (por exemplo, um autocarro a aproximar-se) antes de virar."
+    },
+    "image": null
+  },
+  {
+    "id": "q310",
+    "category": "both",
+    "topic": "busspur",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum sind Busspuren überhaupt eingerichtet?",
+      "es": "¿Por qué existen los carriles bus, en definitiva?",
+      "fr": "Pourquoi les voies de bus sont-elles instaurées en premier lieu ?",
+      "it": "Perché vengono istituite le corsie bus, in fin dei conti?",
+      "en": "Why are bus lanes set up in the first place?",
+      "pt": "Porque é que as faixas de autocarro existem, afinal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit der öffentliche Verkehr auch bei dichtem Verkehr zuverlässig und pünktlich vorankommt",
+          "es": "Para que el transporte público avance de forma fiable y puntual incluso con tráfico denso",
+          "fr": "Pour que les transports publics avancent de manière fiable et ponctuelle même en cas de trafic dense",
+          "it": "Affinché il trasporto pubblico proceda in modo affidabile e puntuale anche con traffico intenso",
+          "en": "So public transport can move reliably and on time even in heavy traffic",
+          "pt": "Para que os transportes públicos avancem de forma fiável e pontual mesmo com trânsito denso"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur zur Verschönerung des Strassenbilds",
+          "es": "Solo para embellecer el paisaje urbano",
+          "fr": "Uniquement pour embellir le paysage urbain",
+          "it": "Solo per abbellire il paesaggio stradale",
+          "en": "Only to make the streetscape look nicer",
+          "pt": "Só para embelezar a paisagem urbana"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Um generell mehr Platz für parkierte Fahrzeuge zu schaffen",
+          "es": "Para crear en general más espacio para vehículos aparcados",
+          "fr": "Pour créer en général plus de place pour les véhicules garés",
+          "it": "Per creare in generale più spazio per i veicoli parcheggiati",
+          "en": "To generally create more space for parked vehicles",
+          "pt": "Para criar em geral mais espaço para veículos estacionados"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Busspuren sollen dem öffentlichen Linienverkehr ermöglichen, auch bei dichtem Verkehr zuverlässig und ohne Verspätung voranzukommen.",
+      "es": "Los carriles bus buscan permitir que el transporte público de línea avance de forma fiable y sin retrasos incluso con tráfico denso.",
+      "fr": "Les voies de bus visent à permettre aux transports publics de ligne d'avancer de manière fiable et sans retard, même en cas de trafic dense.",
+      "it": "Le corsie bus mirano a permettere al trasporto pubblico di linea di procedere in modo affidabile e senza ritardi anche con traffico intenso.",
+      "en": "Bus lanes are meant to let scheduled public transport get through reliably and without delay even in heavy traffic.",
+      "pt": "As faixas de autocarro visam permitir que o transporte público de linha avance de forma fiável e sem atrasos mesmo com trânsito denso."
+    },
+    "image": null
+  },
+  {
+    "id": "q311",
+    "category": "both",
+    "topic": "kontrollschild_verlust",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dir wird eines deiner beiden Kontrollschilder gestohlen. Was musst du als Erstes tun?",
+      "es": "Te roban una de tus dos matrículas. ¿Qué debes hacer primero?",
+      "fr": "On te vole l'une de tes deux plaques d'immatriculation. Que dois-tu faire en premier ?",
+      "it": "Ti viene rubata una delle tue due targhe. Cosa devi fare per prima cosa?",
+      "en": "One of your two number plates is stolen. What must you do first?",
+      "pt": "Uma das tuas duas matrículas é roubada. O que deves fazer primeiro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den Diebstahl unverzüglich bei einer Schweizer Polizeistelle melden",
+          "es": "Denunciar el robo de inmediato en un puesto de policía suizo",
+          "fr": "Signaler immédiatement le vol à un poste de police suisse",
+          "it": "Segnalare subito il furto a un posto di polizia svizzero",
+          "en": "Report the theft immediately to a Swiss police station",
+          "pt": "Comunicar de imediato o roubo a uma esquadra de polícia suíça"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Einfach mit nur einem Schild ohne jede Meldung weiterfahren",
+          "es": "Seguir circulando solo con una matrícula, sin denunciarlo",
+          "fr": "Continuer à rouler simplement avec une seule plaque, sans rien signaler",
+          "it": "Continuare a guidare semplicemente con una sola targa, senza segnalare nulla",
+          "en": "Just keep driving with only one plate, without reporting anything",
+          "pt": "Continuar simplesmente a conduzir só com uma matrícula, sem comunicar nada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Selbst ein provisorisches Schild basteln und weiterfahren",
+          "es": "Fabricarte tú mismo una matrícula provisional y seguir circulando",
+          "fr": "Fabriquer toi-même une plaque provisoire et continuer à rouler",
+          "it": "Costruirsi da soli una targa provvisoria e continuare a guidare",
+          "en": "Craft your own makeshift plate and keep driving",
+          "pt": "Fabricar tu próprio uma matrícula provisória e continuar a conduzir"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gemäss Art. 87 VZV muss jeder Verlust oder Diebstahl eines Kontrollschilds unverzüglich der Behörde bzw. einer Polizeistelle gemeldet werden.",
+      "es": "Según el art. 87 VZV, toda pérdida o robo de una matrícula debe comunicarse de inmediato a la autoridad o a un puesto de policía.",
+      "fr": "Selon l'art. 87 OAC, toute perte ou vol d'une plaque d'immatriculation doit être signalé immédiatement à l'autorité ou à un poste de police.",
+      "it": "Secondo l'art. 87 OAC, ogni perdita o furto di una targa deve essere segnalato immediatamente all'autorità o a un posto di polizia.",
+      "en": "Under Art. 87 VZV, any loss or theft of a number plate must be reported immediately to the authority or a police station.",
+      "pt": "Segundo o art. 87 VZV, toda a perda ou roubo de uma matrícula deve ser comunicado de imediato à autoridade ou a uma esquadra de polícia."
+    },
+    "image": null
+  },
+  {
+    "id": "q312",
+    "category": "both",
+    "topic": "kontrollschild_verlust",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Nach der Meldung des Diebstahls eines einzelnen Kontrollschilds: Darfst du mit dem verbleibenden Schild weiterfahren?",
+      "es": "Tras denunciar el robo de una sola matrícula, ¿puedes seguir circulando con la que te queda?",
+      "fr": "Après avoir signalé le vol d'une seule plaque : peux-tu continuer à rouler avec celle qui reste ?",
+      "it": "Dopo aver segnalato il furto di una sola targa: puoi continuare a guidare con quella rimasta?",
+      "en": "After reporting the theft of a single number plate: may you continue driving with the remaining plate?",
+      "pt": "Depois de comunicar o roubo de uma única matrícula: podes continuar a conduzir com a que resta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, die Polizei stellt dafür eine befristete Bewilligung aus (in der Regel bis zu 30 Tage)",
+          "es": "Sí, la policía emite para ello un permiso temporal (por lo general hasta 30 días)",
+          "fr": "Oui, la police établit pour cela une autorisation temporaire (en général jusqu'à 30 jours)",
+          "it": "Sì, la polizia rilascia a tal fine un'autorizzazione temporanea (di norma fino a 30 giorni)",
+          "en": "Yes, the police issue a temporary permit for this (usually up to 30 days)",
+          "pt": "Sim, a polícia emite para isso uma autorização temporária (regra geral até 30 dias)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, das Fahrzeug darf bis zur Neubestellung gar nicht mehr bewegt werden",
+          "es": "No, el vehículo no puede moverse en absoluto hasta que se pida una nueva",
+          "fr": "Non, le véhicule ne peut plus du tout être déplacé jusqu'à la commande d'une nouvelle plaque",
+          "it": "No, il veicolo non può più essere spostato affatto fino alla nuova richiesta",
+          "en": "No, the vehicle may not be moved at all until a new plate is ordered",
+          "pt": "Não, o veículo não pode ser movido de todo até ser pedida uma nova"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, uneingeschränkt und ohne jede weitere Formalität",
+          "es": "Sí, sin restricciones y sin ningún otro trámite",
+          "fr": "Oui, sans restriction et sans aucune autre formalité",
+          "it": "Sì, senza restrizioni e senza ulteriori formalità",
+          "en": "Yes, without restriction and without any further formality",
+          "pt": "Sim, sem restrições e sem qualquer outra formalidade"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ist nur ein Kontrollschild verloren gegangen, stellt die Polizei eine befristete Bewilligung (üblicherweise bis zu 30 Tage) aus, mit der das Fahrzeug innerhalb der Schweiz auch nur mit dem verbliebenen Schild gefahren werden darf.",
+      "es": "Si solo se ha perdido una matrícula, la policía expide un permiso temporal (normalmente hasta 30 días) con el que el vehículo puede circular en Suiza incluso con solo la matrícula restante.",
+      "fr": "Si une seule plaque a été perdue, la police délivre une autorisation temporaire (généralement jusqu'à 30 jours) permettant de circuler en Suisse avec la seule plaque restante.",
+      "it": "Se è andata persa una sola targa, la polizia rilascia un'autorizzazione temporanea (di norma fino a 30 giorni) con cui il veicolo può circolare in Svizzera anche con la sola targa rimasta.",
+      "en": "If only one number plate was lost, the police issue a temporary permit (usually up to 30 days) allowing the vehicle to be driven within Switzerland with just the remaining plate.",
+      "pt": "Se só se perdeu uma matrícula, a polícia emite uma autorização temporária (regra geral até 30 dias) com a qual o veículo pode circular na Suíça mesmo só com a matrícula restante."
+    },
+    "image": null
+  },
+  {
+    "id": "q313",
+    "category": "both",
+    "topic": "kontrollschild_verlust",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "In welchem System wird ein als gestohlen gemeldetes Kontrollschild in der Schweiz ausgeschrieben?",
+      "es": "¿En qué sistema se registra en Suiza una matrícula denunciada como robada?",
+      "fr": "Dans quel système une plaque signalée volée est-elle enregistrée en Suisse ?",
+      "it": "In quale sistema viene registrata in Svizzera una targa denunciata come rubata?",
+      "en": "In which system is a number plate reported as stolen registered in Switzerland?",
+      "pt": "Em que sistema é registada na Suíça uma matrícula denunciada como roubada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Im automatisierten Fahndungssystem RIPOL",
+          "es": "En el sistema automatizado de búsqueda RIPOL",
+          "fr": "Dans le système de recherche automatisé RIPOL",
+          "it": "Nel sistema di ricerca automatizzato RIPOL",
+          "en": "In the automated search system RIPOL",
+          "pt": "No sistema automatizado de procura RIPOL"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "In keinem System, es gibt keine landesweite Erfassung",
+          "es": "En ningún sistema, no existe registro a nivel nacional",
+          "fr": "Dans aucun système, il n'existe pas de fichier national",
+          "it": "In nessun sistema, non esiste una registrazione a livello nazionale",
+          "en": "In no system, there is no nationwide record",
+          "pt": "Em nenhum sistema, não existe registo a nível nacional"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur in einer lokalen Liste der jeweiligen Gemeinde",
+          "es": "Solo en una lista local del municipio correspondiente",
+          "fr": "Seulement dans une liste locale de la commune concernée",
+          "it": "Solo in un elenco locale del rispettivo comune",
+          "en": "Only in a local list of the respective municipality",
+          "pt": "Só numa lista local do respetivo município"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein gestohlenes oder verlorenes Kontrollschild wird im automatisierten Polizei-Fahndungssystem RIPOL zur Fahndung ausgeschrieben.",
+      "es": "Una matrícula robada o perdida se registra para su búsqueda en el sistema automatizado de búsqueda policial RIPOL.",
+      "fr": "Une plaque d'immatriculation volée ou perdue est enregistrée pour recherche dans le système de recherche automatisé de la police RIPOL.",
+      "it": "Una targa rubata o smarrita viene registrata per la ricerca nel sistema di ricerca automatizzato della polizia RIPOL.",
+      "en": "A stolen or lost number plate is registered for search in the automated police search system RIPOL.",
+      "pt": "Uma matrícula roubada ou perdida é registada para procura no sistema automatizado de busca policial RIPOL."
+    },
+    "image": null
+  },
+  {
+    "id": "q314",
+    "category": "both",
+    "topic": "kontrollschild_verlust",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was brauchst du, um nach einem Diebstahl ein neues Kontrollschild beim Strassenverkehrsamt zu bestellen?",
+      "es": "¿Qué necesitas para pedir una matrícula nueva en el servicio de tráfico tras un robo?",
+      "fr": "De quoi as-tu besoin pour commander une nouvelle plaque auprès de l'office de la circulation après un vol ?",
+      "it": "Cosa ti serve per ordinare una nuova targa presso l'ufficio della circolazione dopo un furto?",
+      "en": "What do you need to order a new number plate from the vehicle registration office after a theft?",
+      "pt": "O que precisas para encomendar uma nova matrícula no serviço de trânsito depois de um roubo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Bestätigung bzw. den Polizeirapport über die erfolgte Meldung",
+          "es": "Un justificante o el atestado policial de la denuncia realizada",
+          "fr": "Une confirmation ou le rapport de police attestant du signalement effectué",
+          "it": "Una conferma ovvero il rapporto di polizia relativo alla segnalazione effettuata",
+          "en": "A confirmation or the police report of the report made",
+          "pt": "Uma confirmação ou o auto de polícia relativo à participação feita"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gar nichts, ein neues Schild wird automatisch ohne jede Unterlage zugestellt",
+          "es": "Nada, la matrícula nueva se envía automáticamente sin ningún documento",
+          "fr": "Rien, une nouvelle plaque est automatiquement envoyée sans aucun document",
+          "it": "Niente, una nuova targa viene inviata automaticamente senza alcun documento",
+          "en": "Nothing at all, a new plate is sent automatically without any documentation",
+          "pt": "Nada, uma nova matrícula é enviada automaticamente sem qualquer documento"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine mündliche Aussage am Schalter reicht, ohne jede Bestätigung",
+          "es": "Basta con una declaración verbal en ventanilla, sin justificante alguno",
+          "fr": "Une simple déclaration orale au guichet suffit, sans aucune confirmation",
+          "it": "Basta una dichiarazione verbale allo sportello, senza alcuna conferma",
+          "en": "Just a verbal statement at the counter is enough, without any confirmation",
+          "pt": "Basta uma declaração verbal ao balcão, sem qualquer confirmação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für die Bestellung eines neuen Kontrollschilds beim Strassenverkehrsamt braucht es die Bestätigung bzw. den Polizeirapport über die zuvor erfolgte Verlust- oder Diebstahlmeldung.",
+      "es": "Para pedir una nueva matrícula en el servicio de tráfico se necesita el justificante o el atestado policial de la denuncia previa de pérdida o robo.",
+      "fr": "Pour commander une nouvelle plaque auprès de l'office de la circulation, il faut la confirmation ou le rapport de police attestant du signalement de perte ou de vol effectué au préalable.",
+      "it": "Per ordinare una nuova targa presso l'ufficio della circolazione serve la conferma ovvero il rapporto di polizia relativo alla precedente segnalazione di smarrimento o furto.",
+      "en": "To order a new number plate from the vehicle registration office, you need the confirmation or police report of the earlier loss or theft report.",
+      "pt": "Para encomendar uma nova matrícula no serviço de trânsito, é necessária a confirmação ou o auto de polícia relativo à participação anterior de perda ou roubo."
+    },
+    "image": null
   }
 ]

@@ -8,6 +8,67 @@ recordar.
 
 ---
 
+## 2026-08-19 (7) — Séptima ronda: 5 temas más (fianza para conductores extranjeros, remolque sin frenos propios, semáforo de obra, carril bus, pérdida/robo de matrícula)
+
+**Contexto:** sexta continuación directa ("Si, sigue"). Antes de investigar nada, el
+usuario preguntó si seguir o hacer otra cosa; se le explicó el punto y confirmó seguir.
+Se mantuvo el mismo protocolo reforzado desde la ronda 5.
+
+**Dos candidatos de la lista anterior se descartaron tras revisar el banco existente**
+(antes incluso de investigar en internet): "adelantar un transporte escolar en
+movimiento" se descartó por quedar demasiado cerca de `q067` (bus escolar parado,
+`fussgaenger`), y "alzador por altura del cinturón" se descartó por quedar demasiado
+cerca de los 4 `gurte` de la ronda 1 (que ya cubren el umbral de 150 cm / 12 años). Se
+sustituyeron por semáforo de obra y pérdida/robo de matrícula.
+
+Un candidato investigado en la propia ronda ("fallo de las luces durante la marcha") se
+descartó también: la investigación no aportaba nada distinto de lo ya cubierto por el
+topic `beleuchtung` (rondas anteriores), así que se sustituyó por pérdida/robo de
+matrícula sobre la marcha, con base legal sólida (art. 87 VZV).
+
+**Investigación de los 5 temas nuevos:** fianza para conductores extranjeros (la policía
+puede exigirla in situ si la multa supera 300 francos o se rechaza el pago inmediato;
+el vehículo puede ser retenido si no se paga; la impugnación debe presentarse en 10 días
+en el idioma oficial del cantón), remolque sin frenos propios (hasta 1500 kg necesita
+una conexión de seguridad adicional tipo cable/cadena; límites de 100 km/h hasta 3,5 t y
+80 km/h en autopista para remolques más pesados), semáforo de obra en tramo de un solo
+carril (nunca entrar en rojo aunque el tramo parezca libre — el tráfico contrario puede
+estar ya en marcha), carril bus (los ciclistas solo pueden usarlo con pictograma
+explícito en la calzada; hay que ceder el paso al carril bus al girar a la derecha sobre
+él), y pérdida/robo de matrícula (art. 87 VZV: denuncia inmediata a la policía; permiso
+temporal de hasta 30 días para circular con la matrícula restante; registro en RIPOL).
+
+Se verificó contra el banco existente (topics `abschleppen`, `ladung`, `beleuchtung`,
+`autobahn`, `parkieren`) que ninguno de estos 5 temas duplicara contenido ya presente.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q295–q314), 5 topics nuevos (`kaution`,
+  `anhaenger_bremse`, `baustellenampel`, `busspur`, `kontrollschild_verlust`), 4
+  preguntas cada uno, los 6 idiomas completos. Banco: 294 → 314 (302 categoría B, 314
+  categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (282→302, 294→314) y
+  `Study.test.jsx` (282→302), y el comentario de tamaño de bundle en `questionBank.js`
+  (294→314 preguntas, ~785→~845 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados.
+
+**Verificación:** comparación de similitud de texto sobre las 314 preguntas (0
+duplicados nuevos — los mismos 14 pares benignos de siempre), script Python de idiomas
+(0 errores), `npm run lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez),
+`npm run build` sin errores ni warnings (876 KB minificado, todavía bajo el límite de
+1000 KB configurado en la ronda 5).
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): obligaciones
+al conducir un vehículo de alquiler/leasing, comportamiento ante un accidente con daños
+solo materiales en el extranjero cerca de la frontera, uso del arcén por ciclomotores en
+autopista (no aplica, verificar primero si existe el supuesto), transporte de esquís/
+tabla de snowboard en el techo, y validez territorial del seguro de responsabilidad
+civil del vehículo (carta verde). Repetir siempre el mismo protocolo: revisar primero el
+banco existente por topics relacionados, descartar candidatos que resulten demasiado
+cercanos antes de investigar, buscar la base legal real en internet, y correr la
+comparación de similitud de texto al cerrar la ronda.
+
+---
+
 ## 2026-08-19 (6) — Sexta ronda: 5 temas más (obligación de sehhilfe, uso de la bocina, portabicicletas trasero, control policial/alcoholímetro, e-bikes)
 
 **Contexto:** quinta continuación directa ("Sigue"). Se siguió el protocolo reforzado de
