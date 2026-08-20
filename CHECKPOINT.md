@@ -8,6 +8,154 @@ recordar.
 
 ---
 
+## 2026-08-20 (14) — Rotondas: diagramas rehechos, maniobra animada nueva (4 salidas), +8 preguntas
+
+**Contexto:** sesión larga e iterativa a partir de una captura del usuario mostrando el
+diagrama de "2ª o posterior salida" con la flecha cruzando en línea recta por el centro
+del kreisel, como si fuera un cruce normal. A partir de ahí, varias rondas de fix +
+feedback visual (capturas del usuario, algunas dibujadas a mano) hasta llegar a una
+geometría verificada matemáticamente, no solo a ojo.
+
+**Investigación previa (fuentes suizas — TCS, BFU, ACS, SUVA/AXA/Pro Velo — no las
+infografías genéricas de otros países que mandó el usuario como referencia visual):**
+1ª salida, blinker derecho opcional ya antes de entrar, pegado al borde exterior sin
+dejar hueco a los ciclistas; 2ª salida o más, se entra SIN blinker, centrado, y el
+blinker derecho se pone recién a la altura de la salida ANTERIOR a la propia. Los
+ciclistas en un kreisel suizo van CENTRADOS en su carril (lo contrario de las infografías
+del usuario) — por eso ninguna maniobra nueva dibuja ciclistas al costado.
+
+**Lección de proceso, la más cara de esta sesión:** varias rondas de "arréglalo" con
+curvas Bézier ajustadas a mano (control points "a ojo") fallaron de formas distintas cada
+vez — quiebres donde se unían tramos con tangentes que no coincidían, desvíos hacia el
+lado contrario antes de girar, flechas de salida que quedaban apuntando de lado en vez de
+conectar con la calle, coche circulando "por la mitad de la calle" tras ensanchar la
+pista sin recalcular el offset de carril. La solución real no fue iterar más a ojo: fue
+pasar a **coordenadas polares centradas en el anillo** (`x = cx + r·sen(φ)`,
+`y = cy + r·cos(φ)`, con `heading = 90 - φ` como fórmula cerrada de la tangente) y
+**verificar cada curva con un script** que muestrea ~100-300 puntos por tramo y comprueba
+la distancia real al centro contra la calzada real (calle ∪ anillo), no solo "parece que
+está bien". Con eso, cada curva nueva se diseñó y confirmó ANTES de tocar el código de
+producción, no después.
+
+**`src/data/diagrams.js` — 3 diagramas de kreisel reescritos con esa lógica, verificados
+0 puntos fuera de la calzada en los 3:**
+- `kreisel_1ausfahrt_*`: giro a la derecha "normal" — cuarto de círculo pequeño (radio
+  45), NO sigue la curvatura del anillo. Recto→gira→recto, x monótona.
+- `kreisel_2ausfahrt_*`: curva de fusión (tangente vertical→tangente del círculo) + arco
+  circular real (radio 78, SVG `A`) + curva de salida que ENDEREZA la tangente a vertical
+  para conectar con la calle de salida (el bug real: antes el arco terminaba con la
+  tangente natural del círculo ahí, que no es vertical, y la flecha quedaba flotando de
+  lado en vez de apuntar a la calle).
+- `kreisel_doppelspurig_wrong` (rotonda de doble carril, 3ª salida — se me había pasado
+  en una primera pasada, el usuario lo señaló): mismo patrón, arco real (radio 85) +
+  curva de enderezado hacia la salida oeste.
+
+**`src/data/maneuvers.js` — maniobra animada nueva `kreisverkehr_ausfahrt` (categoría B,
+icono `roundaboutWarn`), 4 variantes (1ª/2ª/3ª/4ª salida)**, generadas con un script
+paramétrico (no a mano) antes de pegarlas al archivo — mismo enfoque de coordenadas
+polares: 1ª salida reusa el cuarto de círculo pequeño; 2ª/3ª/4ª son tramos de un círculo
+real (radio 70, centro del anillo en 180/280) que encadenan sin quiebres porque son el
+mismo círculo evaluado en rangos de φ contiguos; el blinker cambia justo en el límite de
+paso que coincide con la salida anterior; cada salida termina con el ángulo EXACTO de la
+calle correspondiente (90/0/-90/-180), no solo la tangente del círculo. La 4ª salida da
+casi la vuelta completa y sale de nuevo por la propia calle de entrada. El ancho de las 4
+calles de la escena se subió de 76 a 130 px (a pedido del usuario, y porque hacía falta
+margen real) — ese cambio obligó a recalcular el offset de carril del coche (antes fijo
+en 19px, ahora `ARM_HALF/2` derivado del ancho real) para que no pareciera circulando por
+el centro de la calle en vez de por su carril.
+
+**Nota de proceso (test):** la escena de la maniobra necesita un rectángulo `road`
+invisible (oculto bajo el `grass` de fondo) cubriendo la zona del anillo, porque
+`maneuvers.test.js` solo reconoce rectángulos `road` para comprobar que el coche no pisa
+el césped, y el anillo se dibuja como círculo (`ring`), no como rectángulo — mismo truco
+que ya usaba `wendeplatzScene()` para el bulbo del Wendeplatz. Ese test (rectángulo
+suelto) es más permisivo que la calzada real; para verificar de verdad hubo que escribir
+un script aparte con la geometría exacta del círculo — vale la pena tenerlo en cuenta si
+se retoca esta escena a futuro, no basta con que pasen los 42 tests de
+`maneuvers.test.js`.
+
+**Banco de preguntas ampliado** (`src/data/questions.json`, 334→342): 8 preguntas nuevas
+de Kreisverkehr (topic `kreisverkehr`, categoría `both`), 2 por cada uno de 4 subtemas que
+eligió el usuario — peatones y ciclistas, vehículos grandes/camiones (isleta central
+pisable), vehículos de emergencia (esperar en la entrada vs. dar una vuelta extra si ya
+estás dentro, nunca parar en medio), y Minikreisel (isleta pisable para vehículos largos,
+mismas reglas de prioridad que cualquier kreisel) — redactadas desde cero a partir de
+TCS/BFU/ACS, no copiadas del banco oficial. Conteos hardcodeados actualizados:
+`Home.test.jsx`/`Study.test.jsx` (322→330 categoría B, 334→342 categoría A),
+comentario de tamaño en `questionBank.js`.
+
+**Verificación final:** `npm run lint` (0/0), `npm test` ×8 (112/112 cada vez),
+`npx vitest run src/data/maneuvers.test.js` (42/42), `npm run build` sin errores.
+Verificación visual real en navegador (Playwright + `npm run dev`) de los 3 diagramas
+corregidos, las 4 variantes de la maniobra, y el conteo de preguntas del filtro
+Kreisverkehr (11→19) — no solo cálculo de distancias.
+
+---
+
+## 2026-08-20 (13) — Trayectoria incorrecta en los diagramas de rotonda (2ª salida)
+
+**Contexto:** el usuario mandó capturas de la app señalando que la flecha de trayectoria
+en las preguntas de rotonda ("2. oder spätere Ausfahrt") atravesaba en línea recta la
+isla central, como si el cruce fuera una intersección normal — con capturas de
+referencia de cómo debe verse una rotonda bien dibujada (trayectoria curva pegada al
+anillo, nunca por el centro).
+
+**Causa:** en `src/data/diagrams.js`, `kreisel_2ausfahrt_correct` y
+`kreisel_2ausfahrt_wrong_blinker` (entra por el sur, sale por el norte) usaban una curva
+Bézier cuádrica con el punto de control situado exactamente en el centro del anillo
+(`Q 190 180 152 100`), lo que hacía que el punto medio de la curva cayera a ~10px del
+centro — dentro del círculo interior (radio 42) — y además curvaba hacia el OESTE en vez
+del ESTE: con circulación por la derecha (Suiza), la isla central debe quedar siempre a
+la izquierda del conductor, o sea sentido antihorario (S→E→N→W→S), así que entrar por el
+sur y salir por el norte debe rodear por el este, no por el oeste.
+
+**Fix:** trayectoria nueva con dos curvas encadenadas que rodean el anillo por el este,
+verificado por cálculo que el punto medio de cada tramo queda dentro de la banda del
+anillo (entre radio 42 y 100, nunca en la isla): `M 190 300 L 190 255 Q 270 255 255 180
+Q 255 105 200 95`. Se comprobó el resto de diagramas de rotonda (`kreisel`,
+`kreisel_1ausfahrt_*`, `kreisel_doppelspurig_wrong`) y esos ya tenían dirección y
+geometría correctas — el bug estaba solo en el par de la 2ª salida.
+
+**Verificación:** captura real en el navegador (Playwright + `npm run dev`, filtro de
+tema "Kreisverkehr" en Lernmodus) confirmando que la flecha ahora rodea el anillo sin
+tocar la isla verde. `npm run lint` (0/0), `npm test` (104/104), `npm run build` sin
+errores.
+
+---
+
+## 2026-08-20 (12) — Fix de test frágil reaparecido tras la ampliación del banco
+
+**Contexto:** el usuario avisó de que otra sesión de Claude había mergeado varios PRs
+(#6-#12) sin que quedaran reflejados en el contexto que yo tenía cacheado. Verificación:
+todos los merges los hizo el propio usuario (`tommyelgucci`), incluido un revert (#9) de
+un fix de maniobras que "no quedó bien" (#8) y su rehecho limpio (#10) — el proceso
+funcionó como debía, no hay nada anómalo. `CHECKPOINT.md`/`ROADMAP.md` sí estaban al día
+en el repo real.
+
+**Qué se encontró:** al correr `npm test` varias veces sobre `main` (ahora con el banco
+ampliado a 334 preguntas B), `Study.test.jsx` fallaba de forma intermitente —
+exactamente el patrón de "test frágil con banco barajado" ya documentado en
+`ROADMAP.md` (punto 3) y que rompió el deploy el 10/08. Causa: la pregunta `q149`
+(tema `fahrzeug`, añadida en una de las rondas nuevas) tiene una opción en alemán "Ich
+als Fahrer – vor der Fahrt Lichter, Reifen und Bremsen kurz **prüfen**", y el test
+buscaba el botón "Prüfen" (comprobar) con el helper `text('check')` → regex `/Prüfen/i`
+sin límite de palabra. Cuando el shuffle pone `q149` primera, `getByRole` encuentra dos
+botones y revienta.
+
+**Fix:** cambiadas las 3 llamadas a `text('check')` en `Study.test.jsx` por
+`actionWord('check')` — el helper con límite de palabra que ya existía en el repo,
+creado para el bug equivalente de "Weiter" del 10/08. No hizo falta tocar el helper.
+
+**Verificación:** `npm test` ×10 seguidas (104/104 cada vez, antes 1/10 fallaba),
+`npm run lint` (0/0), `npm run build` sin errores.
+
+**Nota para el roadmap:** el punto 3 de "huecos conocidos" sigue vigente — cada ronda de
+preguntas nuevas es un riesgo real de colisión, no solo teórico (van dos veces ya). Vale
+la pena, en la próxima ampliación del banco, correr `npm test` varias veces seguidas
+antes de dar el PR por bueno, no solo una.
+
+---
+
 ## 2026-08-19 (11) — El coche rojo debe aparecer solo al final, y dos coches de aparcamiento mal alineados
 
 **Contexto:** dos correcciones más sobre las maniobras animadas.
