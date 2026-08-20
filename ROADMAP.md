@@ -13,10 +13,25 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 194 preguntas (182 categoría B, 194 categoría A — 182 compartidas + 12 propias de A),
+- 314 preguntas (302 categoría B, 314 categoría A — 302 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
-  Ampliado en la sesión de 2026-08-19 con 9 temas nuevos (36 preguntas) redactados desde
-  cero a partir de VRV/SVG, ver `CHECKPOINT.md`.
+  Ampliado en siete rondas de la sesión de 2026-08-19 con 39 temas nuevos (156 preguntas)
+  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, ver `CHECKPOINT.md`.
+- ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
+  `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
+  era solo ruido informativo, no un problema de rendimiento real). Si el banco sigue
+  creciendo mucho más allá de este umbral, entonces sí valdría la pena partir el JSON en
+  varios chunks por categoría/tema — no urgente por ahora.
+- **Duplicado real encontrado y corregido en la sesión de 2026-08-19**: dos preguntas
+  añadidas en rondas anteriores de la misma sesión resultaron ser duplicados semánticos
+  de preguntas ya existentes (`q185` repetía `q148` sobre profundidad de neumáticos;
+  `q168` repetía la mecánica de `q074` sobre formar el carril de emergencia). Se
+  detectaron con una revisión completa por topic antes de la ronda 5 y se corrigieron
+  reemplazando el contenido por preguntas genuinamente distintas, sin cambiar ids ni
+  conteos. Lección para futuras ampliaciones: antes de crear un topic nuevo, revisar el
+  listado completo de preguntas de los topics relacionados (no solo grepear palabras
+  clave sueltas), y de vez en cuando correr una comparación de similitud de texto sobre
+  todo el banco para detectar duplicados semánticos que el grep no atrapa.
 - Sin TODOs/FIXMEs reales pendientes en el código.
 - Funcionalidad cubierta: estudio, examen simulado, repaso de falladas, maniobras
   animadas, señales (explorar/flashcards SRS/quiz), Nothelfer, VKU, Kontrollfahrt, WAB,
