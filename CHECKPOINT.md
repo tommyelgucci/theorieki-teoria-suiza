@@ -8,6 +8,65 @@ recordar.
 
 ---
 
+## 2026-08-19 (4) — Cuarta ronda: 5 temas más (zona peatonal, atropello de fauna, mercancías peligrosas, carreteras postales, cambio de carril tipo cremallera)
+
+**Contexto:** tercera continuación directa ("Si sigue") sobre la lista de candidatos.
+Mismo protocolo que las rondas anteriores. Dos de los candidatos que había anotado al
+cierre de la ronda 3 se descartaron durante la investigación: "adelantamiento en
+curva/cresta" resultó ser un duplicado exacto de una opción ya presente en `q076`
+("Vor und in unübersichtlichen Kurven" / "vor Bahnübergängen und Kuppen" ya están
+en la lista de lugares donde adelantar está prohibido), y "prioridad de quitanieves"
+no tenía una base legal suiza suficientemente sólida en las fuentes encontradas (los
+resultados eran mayormente de la StVO alemana) — se descartó en vez de redactar
+contenido con una cita legal poco fiable. En su lugar se investigaron y usaron dos
+temas de reemplazo con base legal clara: zona peatonal (distinta de la zona de
+encuentro ya cubierta en `q069`) y cambio de carril tipo cremallera.
+
+**Investigación previa:** zona peatonal (art. 22c SSV: vehículos excluidos salvo
+"Zubringerdienst gestattet" a paso de peatón; distinta de la Begegnungszone con 20 km/h
+ya cubierta), atropello de fauna (art. 51 párr. 3 SVG: denuncia obligatoria e inmediata
+a la policía aunque el animal huya, quien no denuncia comete infracción y el seguro
+puede rechazar el siniestro; ~20 000 accidentes/año con fauna mediana o grande),
+mercancías peligrosas para particulares (límites de exención del anexo 1 SDR: máx. 60 l
+de gasolina en bidones de máx. 20 l cada uno, gas propano dentro de límites de exención
+para uso doméstico/ocio propio — nunca para abastecer a terceros, p. ej. varios puestos
+de un mercado), carreteras postales de montaña (art. 38 párr. 3 VRV: hay que seguir las
+señales e instrucciones de los conductores de vehículos en servicio de línea público,
+incluida la bocina de tres tonos que avisa en curvas sin visibilidad), y cambio de
+carril tipo cremallera (art. 8 párr. 5 VRV, vigente desde 2021: usar ambos carriles
+hasta el final e incorporarse alternando, también donde los carriles se unen como en
+las entradas de autopista; multa de 100 francos por incumplirlo).
+
+Se verificó contra el banco existente (`q069`, `q071`, `q076`, `q096`) que ninguno de
+estos 5 temas duplicara contenido ya presente.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q235–q254), 5 topics nuevos
+  (`fussgaengerzone`, `wildunfall`, `gefahrgut`, `postauto`, `reissverschluss`), 4
+  preguntas cada uno, los 6 idiomas completos. Banco: 234 → 254 (242 categoría B, 254
+  categoría A).
+- Actualizados de nuevo los conteos hardcodeados en `Home.test.jsx` (222→242, 234→254) y
+  `Study.test.jsx` (222→242), y el comentario de tamaño de bundle en `questionBank.js`
+  (234→254 preguntas, ~590→~660 KB minificado).
+- `README.md`/`ROADMAP.md`: conteos actualizados; se advirtió en el ROADMAP que, al
+  ritmo actual de crecimiento (~60-70 KB por ronda de 20 preguntas), en 2-3 rondas más
+  convendría resolver el warning de tamaño de chunk en vez de solo documentarlo.
+
+**Verificación:** script Python de idiomas (0 errores en las 254 preguntas), `npm run
+lint` (0/0), `npm test` × 5 corridas seguidas (104/104 cada vez), `npm run build` sin
+errores (mismo warning de tamaño de chunk ya documentado, no bloqueante).
+
+**Pendiente / candidatos para seguir ampliando** (sin investigar todavía): normas sobre
+neumáticos de repuesto/kit antipinchazos, obligaciones del titular del permiso de
+circulación al vender un vehículo, señalización de vehículos lentos o agrícolas,
+comportamiento ante convoyes militares o transportes excepcionales, uso del arcén de
+emergencia por servicios de mantenimiento vial. Repetir siempre el mismo protocolo:
+buscar en internet la base legal real antes de redactar, comprobar contra el banco
+existente para no duplicar, y descartar sin miedo un tema si la base legal suiza
+encontrada no es sólida.
+
+---
+
 ## 2026-08-19 (3) — Tercera ronda: 5 temas más (personas en remolque, tram en rotonda, luces de remolque, descensos, marcha atrás)
 
 **Contexto:** segunda continuación directa ("Si sigue") sobre la lista de candidatos que

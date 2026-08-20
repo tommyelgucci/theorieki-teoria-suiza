@@ -20,26 +20,26 @@ describe('Pantalla de inicio', () => {
     expect(screen.getByText(catalogo('·'))).toBeInTheDocument()
     expect(screen.getByRole('button', { name: new RegExp(t('menuStudy', LANG), 'i') })).toBeInTheDocument()
 
-    expect(await screen.findByText(catalogo(222))).toBeInTheDocument()
+    expect(await screen.findByText(catalogo(242))).toBeInTheDocument()
   })
 
   it('recuenta al cambiar de categoría: B comparte banco, A suma sus propias', async () => {
     const user = userEvent.setup()
     render(<App />)
-    await screen.findByText(catalogo(222))
+    await screen.findByText(catalogo(242))
 
     await user.click(screen.getByRole('button', { name: new RegExp(t('moto', LANG), 'i') }))
 
-    expect(await screen.findByText(catalogo(234))).toBeInTheDocument()
+    expect(await screen.findByText(catalogo(254))).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: new RegExp(t('car', LANG), 'i') }))
 
-    expect(await screen.findByText(catalogo(222))).toBeInTheDocument()
+    expect(await screen.findByText(catalogo(242))).toBeInTheDocument()
   })
 
   it('sin progreso guardado no inventa una nota de preparación', async () => {
     render(<App />)
-    await screen.findByText(catalogo(222))
+    await screen.findByText(catalogo(242))
 
     expect(screen.getByText(new RegExp(t('readinessEmpty', LANG), 'i'))).toBeInTheDocument()
   })

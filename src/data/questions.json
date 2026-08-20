@@ -14602,5 +14602,1245 @@
       "pt": "Com visibilidade traseira limitada, deve recorrer-se a uma pessoa que oriente se não se puder excluir com segurança qualquer perigo – a marcha-atrás está estatisticamente envolvida de forma desproporcional em acidentes mortais."
     },
     "image": null
+  },
+  {
+    "id": "q235",
+    "category": "both",
+    "topic": "fussgaengerzone",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst mit einem Lieferwagen in eine Fussgängerzone ein, wo eine Zusatztafel «Zubringerdienst gestattet» angebracht ist. Was gilt?",
+      "es": "Entras con una furgoneta en una zona peatonal donde hay un panel adicional que dice «servicio de reparto permitido». ¿Qué se aplica?",
+      "fr": "Tu entres avec une camionnette dans une zone piétonne où un panneau complémentaire indique « service de livraison autorisé ». Que faut-il respecter ?",
+      "it": "Entri con un furgone in una zona pedonale dove è presente un cartello aggiuntivo «servizio di consegna consentito». Cosa vale?",
+      "en": "You drive a delivery van into a pedestrian zone marked with an additional sign reading \"deliveries permitted\". What applies?",
+      "pt": "Entras com uma carrinha numa zona pedonal onde há um painel adicional a dizer «serviço de entregas permitido». O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du darfst nur zum Be- oder Entladen bei Anwohnern oder angrenzenden Liegenschaften hinein, im Schritttempo",
+          "es": "Solo puedes entrar para cargar o descargar en casa de residentes o predios colindantes, a paso de peatón",
+          "fr": "Tu ne peux entrer que pour charger ou décharger chez des riverains ou des propriétés adjacentes, au pas",
+          "it": "Puoi entrare solo per carico o scarico presso residenti o proprietà adiacenti, a passo d'uomo",
+          "en": "You may only enter to load or unload for residents or adjacent properties, at walking pace",
+          "pt": "Só podes entrar para carregar ou descarregar junto de moradores ou propriedades adjacentes, ao passo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Du darfst frei durch die ganze Zone fahren, ohne jede Einschränkung",
+          "es": "Puedes circular libremente por toda la zona, sin ninguna restricción",
+          "fr": "Tu peux circuler librement dans toute la zone, sans aucune restriction",
+          "it": "Puoi circolare liberamente in tutta la zona, senza alcuna restrizione",
+          "en": "You may drive freely through the whole zone, without any restriction",
+          "pt": "Podes circular livremente por toda a zona, sem qualquer restrição"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Tafel gilt nur für Fahrräder, nicht für Lieferwagen",
+          "es": "El panel solo vale para bicicletas, no para furgonetas",
+          "fr": "Le panneau ne vaut que pour les vélos, pas pour les camionnettes",
+          "it": "Il cartello vale solo per le biciclette, non per i furgoni",
+          "en": "The sign only applies to bicycles, not delivery vans",
+          "pt": "O painel só se aplica a bicicletas, não a carrinhas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "«Zubringerdienst gestattet» erlaubt Fahrten zum Be-/Entladen bei Anwohnern oder angrenzenden Liegenschaften, aber immer im Schritttempo und mit Vortritt der Fussgänger.",
+      "es": "«Servicio de reparto permitido» autoriza trayectos de carga/descarga en casa de residentes o predios colindantes, pero siempre a paso de peatón y con prioridad de los peatones.",
+      "fr": "« Service de livraison autorisé » permet des trajets de chargement/déchargement chez des riverains ou des propriétés adjacentes, mais toujours au pas et avec priorité aux piétons.",
+      "it": "«Servizio di consegna consentito» permette viaggi di carico/scarico presso residenti o proprietà adiacenti, ma sempre a passo d'uomo e con precedenza ai pedoni.",
+      "en": "\"Deliveries permitted\" allows trips to load/unload for residents or adjacent properties, but always at walking pace and with pedestrians having priority.",
+      "pt": "«Serviço de entregas permitido» autoriza viagens de carga/descarga junto de moradores ou propriedades adjacentes, mas sempre ao passo e com prioridade dos peões."
+    },
+    "image": null
+  },
+  {
+    "id": "q236",
+    "category": "both",
+    "topic": "fussgaengerzone",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Mit welcher Geschwindigkeit darfst du ein Fahrzeug in einer Fussgängerzone (mit erlaubtem Zubringerdienst) bewegen?",
+      "es": "¿A qué velocidad puedes circular con un vehículo en una zona peatonal (con servicio de reparto permitido)?",
+      "fr": "À quelle vitesse peux-tu circuler avec un véhicule dans une zone piétonne (avec service de livraison autorisé) ?",
+      "it": "A quale velocità puoi circolare con un veicolo in una zona pedonale (con servizio di consegna consentito)?",
+      "en": "At what speed may you drive a vehicle in a pedestrian zone (with deliveries permitted)?",
+      "pt": "A que velocidade podes circular com um veículo numa zona pedonal (com serviço de entregas permitido)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nur im Schritttempo",
+          "es": "Solo al paso (velocidad de peatón)",
+          "fr": "Uniquement au pas",
+          "it": "Solo al passo d'uomo",
+          "en": "Only at walking pace",
+          "pt": "Só ao passo (velocidade de peão)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Bis 20 km/h, wie in der Begegnungszone",
+          "es": "Hasta 20 km/h, como en la zona de encuentro",
+          "fr": "Jusqu'à 20 km/h, comme dans la zone de rencontre",
+          "it": "Fino a 20 km/h, come nella zona d'incontro",
+          "en": "Up to 20 km/h, as in the meeting zone",
+          "pt": "Até 20 km/h, como na zona de encontro"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Bis zur allgemein signalisierten Höchstgeschwindigkeit",
+          "es": "Hasta el límite general de velocidad señalizado",
+          "fr": "Jusqu'à la vitesse maximale généralement signalée",
+          "it": "Fino al limite massimo generale segnalato",
+          "en": "Up to the generally posted speed limit",
+          "pt": "Até ao limite de velocidade geral sinalizado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fahrzeuge dürfen sich in einer Fussgängerzone nur im Schritttempo bewegen — deutlich langsamer als in der Begegnungszone mit ihren 20 km/h.",
+      "es": "Los vehículos solo pueden moverse en una zona peatonal a paso de peatón, mucho más despacio que en la zona de encuentro con sus 20 km/h.",
+      "fr": "Les véhicules ne peuvent circuler dans une zone piétonne qu'au pas – nettement plus lentement que dans la zone de rencontre avec ses 20 km/h.",
+      "it": "I veicoli possono muoversi in una zona pedonale solo a passo d'uomo, molto più lentamente rispetto ai 20 km/h della zona d'incontro.",
+      "en": "Vehicles may only move at walking pace in a pedestrian zone – considerably slower than the 20 km/h allowed in a meeting zone.",
+      "pt": "Os veículos só podem circular numa zona pedonal ao passo – bastante mais devagar do que os 20 km/h da zona de encontro."
+    },
+    "image": null
+  },
+  {
+    "id": "q237",
+    "category": "both",
+    "topic": "fussgaengerzone",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was unterscheidet die Fussgängerzone grundsätzlich von der Begegnungszone?",
+      "es": "¿En qué se diferencia fundamentalmente la zona peatonal de la zona de encuentro?",
+      "fr": "Qu'est-ce qui distingue fondamentalement la zone piétonne de la zone de rencontre ?",
+      "it": "Cosa distingue fondamentalmente la zona pedonale dalla zona d'incontro?",
+      "en": "What fundamentally distinguishes a pedestrian zone from a meeting zone?",
+      "pt": "O que distingue fundamentalmente a zona pedonal da zona de encontro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In der Fussgängerzone ist der Fahrverkehr grundsätzlich ausgeschlossen (nur mit Ausnahme wie Zubringerdienst); in der Begegnungszone teilen sich alle die Fläche mit Tempo 20",
+          "es": "En la zona peatonal el tráfico rodado está en principio excluido (solo con excepción como el reparto); en la zona de encuentro todos comparten el espacio a 20 km/h",
+          "fr": "Dans la zone piétonne, la circulation automobile est en principe exclue (sauf exception comme la livraison) ; dans la zone de rencontre, tous partagent l'espace à 20 km/h",
+          "it": "Nella zona pedonale il traffico veicolare è in linea di massima escluso (solo con eccezione come la consegna); nella zona d'incontro tutti condividono lo spazio a 20 km/h",
+          "en": "In a pedestrian zone, vehicle traffic is generally excluded (only with an exception like deliveries); in a meeting zone everyone shares the space at 20 km/h",
+          "pt": "Na zona pedonal, o trânsito automóvel está, em princípio, excluído (só com exceção como as entregas); na zona de encontro, todos partilham o espaço a 20 km/h"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt keinen Unterschied, beide Zonen bedeuten dasselbe",
+          "es": "No hay ninguna diferencia, ambas zonas significan lo mismo",
+          "fr": "Il n'y a aucune différence, les deux zones signifient la même chose",
+          "it": "Non c'è alcuna differenza, le due zone significano la stessa cosa",
+          "en": "There is no difference, both zones mean the same thing",
+          "pt": "Não há qualquer diferença, ambas as zonas significam o mesmo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "In der Fussgängerzone gilt Tempo 20, in der Begegnungszone Schritttempo",
+          "es": "En la zona peatonal rigen 20 km/h, en la zona de encuentro el paso de peatón",
+          "fr": "Dans la zone piétonne, 20 km/h s'appliquent, dans la zone de rencontre, le pas",
+          "it": "Nella zona pedonale vale il limite di 20 km/h, nella zona d'incontro il passo d'uomo",
+          "en": "The pedestrian zone has a 20 km/h limit, the meeting zone has walking pace",
+          "pt": "Na zona pedonal vigoram 20 km/h, na zona de encontro o passo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Fussgängerzone ist grundsätzlich dem Fussverkehr vorbehalten, Fahrzeuge nur ausnahmsweise (z. B. Zubringerdienst); die Begegnungszone ist eine gemeinsam genutzte Fläche mit Tempo 20 und Fussgängervortritt.",
+      "es": "La zona peatonal está en principio reservada a los peatones, con vehículos solo como excepción (p. ej. reparto); la zona de encuentro es un espacio compartido con 20 km/h y prioridad peatonal.",
+      "fr": "La zone piétonne est en principe réservée aux piétons, les véhicules n'y étant admis qu'à titre exceptionnel (p. ex. livraison) ; la zone de rencontre est un espace partagé à 20 km/h avec priorité aux piétons.",
+      "it": "La zona pedonale è in linea di massima riservata ai pedoni, con veicoli ammessi solo eccezionalmente (ad es. consegna); la zona d'incontro è uno spazio condiviso a 20 km/h con precedenza ai pedoni.",
+      "en": "The pedestrian zone is generally reserved for foot traffic, with vehicles admitted only as an exception (e.g. deliveries); the meeting zone is a shared space with a 20 km/h limit and pedestrian priority.",
+      "pt": "A zona pedonal está, em princípio, reservada aos peões, com veículos admitidos apenas excecionalmente (por exemplo, entregas); a zona de encontro é um espaço partilhado com 20 km/h e prioridade aos peões."
+    },
+    "image": null
+  },
+  {
+    "id": "q238",
+    "category": "both",
+    "topic": "fussgaengerzone",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Haben Fussgänger in der Fussgängerzone immer Vortritt vor den ausnahmsweise zugelassenen Fahrzeugen?",
+      "es": "¿Tienen los peatones siempre prioridad en la zona peatonal frente a los vehículos admitidos excepcionalmente?",
+      "fr": "Les piétons ont-ils toujours la priorité dans la zone piétonne face aux véhicules admis à titre exceptionnel ?",
+      "it": "I pedoni hanno sempre la precedenza nella zona pedonale rispetto ai veicoli ammessi eccezionalmente?",
+      "en": "Do pedestrians always have priority in a pedestrian zone over exceptionally admitted vehicles?",
+      "pt": "Os peões têm sempre prioridade na zona pedonal em relação aos veículos admitidos excecionalmente?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, Fussgänger haben in der Fussgängerzone in jedem Fall Vortritt",
+          "es": "Sí, los peatones tienen siempre prioridad en la zona peatonal",
+          "fr": "Oui, les piétons ont dans tous les cas la priorité dans la zone piétonne",
+          "it": "Sì, i pedoni hanno sempre la precedenza nella zona pedonale",
+          "en": "Yes, pedestrians always have priority in a pedestrian zone",
+          "pt": "Sim, os peões têm sempre prioridade na zona pedonal"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, dort gilt Rechtsvortritt wie an gewöhnlichen Kreuzungen",
+          "es": "No, allí rige la prioridad de la derecha como en un cruce normal",
+          "fr": "Non, la priorité de droite s'y applique comme à un carrefour ordinaire",
+          "it": "No, lì vale la precedenza da destra come in un normale incrocio",
+          "en": "No, priority to the right applies there as at ordinary junctions",
+          "pt": "Não, ali aplica-se a prioridade à direita como num cruzamento normal"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nein, wer zuerst da war, hat Vortritt",
+          "es": "No, tiene prioridad quien llegó primero",
+          "fr": "Non, la priorité va à celui qui est arrivé le premier",
+          "it": "No, ha la precedenza chi è arrivato prima",
+          "en": "No, right of way goes to whoever arrived first",
+          "pt": "Não, tem prioridade quem chegou primeiro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Fussgängerzone haben Fussgänger uneingeschränkten Vortritt vor jedem ausnahmsweise zugelassenen Fahrzeug.",
+      "es": "En la zona peatonal, los peatones tienen prioridad absoluta sobre cualquier vehículo admitido excepcionalmente.",
+      "fr": "Dans la zone piétonne, les piétons ont une priorité absolue sur tout véhicule admis à titre exceptionnel.",
+      "it": "Nella zona pedonale, i pedoni hanno precedenza assoluta su qualsiasi veicolo ammesso eccezionalmente.",
+      "en": "In a pedestrian zone, pedestrians have unrestricted priority over any exceptionally admitted vehicle.",
+      "pt": "Na zona pedonal, os peões têm prioridade absoluta sobre qualquer veículo admitido excecionalmente."
+    },
+    "image": null
+  },
+  {
+    "id": "q239",
+    "category": "both",
+    "topic": "wildunfall",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du kollidierst nachts mit einem Reh. Das Tier flüchtet verletzt in den Wald. Was musst du tun?",
+      "es": "De noche colisionas con un corzo. El animal huye herido hacia el bosque. ¿Qué debes hacer?",
+      "fr": "Tu percutes un chevreuil de nuit. L'animal blessé s'enfuit dans la forêt. Que dois-tu faire ?",
+      "it": "Di notte investi un capriolo. L'animale ferito fugge nel bosco. Cosa devi fare?",
+      "en": "You collide with a deer at night. The injured animal flees into the woods. What must you do?",
+      "pt": "De noite colides com um corço. O animal ferido foge para a floresta. O que deves fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den Unfall unverzüglich der Polizei melden (Telefon 117), auch wenn das Tier geflüchtet ist",
+          "es": "Denunciar el accidente de inmediato a la policía (teléfono 117), aunque el animal haya huido",
+          "fr": "Signaler immédiatement l'accident à la police (téléphone 117), même si l'animal s'est enfui",
+          "it": "Segnalare subito l'incidente alla polizia (telefono 117), anche se l'animale è fuggito",
+          "en": "Report the accident to the police immediately (phone 117), even if the animal has fled",
+          "pt": "Comunicar de imediato o acidente à polícia (telefone 117), mesmo que o animal tenha fugido"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, wenn niemand verletzt wurde und am eigenen Auto kein Sachschaden sichtbar ist",
+          "es": "Nada, si nadie resultó herido y no hay daños visibles en tu propio coche",
+          "fr": "Rien, si personne n'est blessé et qu'aucun dégât n'est visible sur ta propre voiture",
+          "it": "Niente, se nessuno è rimasto ferito e non ci sono danni visibili alla propria auto",
+          "en": "Nothing, if no one was injured and there is no visible damage to your own car",
+          "pt": "Nada, se ninguém ficou ferido e não há danos visíveis no teu próprio carro"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die eigene Versicherung informieren, wenn du später eine Schadensmeldung machst",
+          "es": "Solo informar a tu propio seguro, cuando más tarde presentes un parte de daños",
+          "fr": "Informer seulement ta propre assurance, plus tard, lors d'une déclaration de sinistre",
+          "it": "Informare solo la propria assicurazione, quando in seguito presenti una denuncia di danno",
+          "en": "Only inform your own insurer, later when you file a damage claim",
+          "pt": "Só informar o teu próprio seguro, mais tarde, quando apresentares uma participação de danos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 51 Abs. 3 SVG verpflichtet dich, einen Wildunfall unverzüglich zu melden; die Polizei bietet dann den zuständigen Wildhüter auf. Wer nur davonfährt oder erst bei einer Versicherungsanfrage meldet, macht sich strafbar.",
+      "es": "El art. 51 párr. 3 SVG te obliga a denunciar de inmediato un accidente con un animal salvaje; la policía moviliza entonces al guarda de caza competente. Quien se marcha sin más, o solo lo comunica cuando el seguro pregunta, comete una infracción.",
+      "fr": "L'art. 51 al. 3 LCR t'oblige à signaler immédiatement un accident avec un animal sauvage ; la police mobilise alors le garde-chasse compétent. Qui repart simplement, ou ne le signale qu'à la demande de l'assurance, se rend punissable.",
+      "it": "L'art. 51 cpv. 3 LCStr ti obbliga a segnalare immediatamente un incidente con selvaggina; la polizia allerta quindi il guardiacaccia competente. Chi se ne va e basta, o lo segnala solo su richiesta dell'assicurazione, si rende punibile.",
+      "en": "Art. 51 para. 3 SVG requires you to report a wildlife collision immediately; the police then dispatch the responsible game warden. Anyone who simply drives off, or only reports it when the insurer asks, is liable to prosecution.",
+      "pt": "O art. 51, n.º 3, SVG obriga-te a comunicar de imediato um acidente com animal selvagem; a polícia mobiliza então o guarda-florestal competente. Quem simplesmente se vai embora, ou só comunica quando o seguro pergunta, torna-se punível."
+    },
+    "image": null
+  },
+  {
+    "id": "q240",
+    "category": "both",
+    "topic": "wildunfall",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Was passiert, wenn du einen Wildunfall nicht meldest und einfach weiterfährst?",
+      "es": "¿Qué ocurre si no denuncias un accidente con un animal salvaje y simplemente sigues conduciendo?",
+      "fr": "Que se passe-t-il si tu ne signales pas un accident avec un animal sauvage et repars simplement ?",
+      "it": "Cosa succede se non segnali un incidente con la selvaggina e prosegui semplicemente?",
+      "en": "What happens if you fail to report a wildlife collision and simply drive on?",
+      "pt": "O que acontece se não comunicares um acidente com animal selvagem e simplesmente continuares a conduzir?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du machst dich strafbar, und die Versicherung kann die Übernahme eines allfälligen Schadens verweigern",
+          "es": "Cometes una infracción, y el seguro puede negarse a cubrir un eventual daño",
+          "fr": "Tu te rends punissable, et l'assurance peut refuser de prendre en charge un éventuel dommage",
+          "it": "Ti rendi punibile, e l'assicurazione può rifiutarsi di coprire un eventuale danno",
+          "en": "You are liable to prosecution, and the insurer can refuse to cover any resulting damage",
+          "pt": "Tornas-te punível, e o seguro pode recusar-se a cobrir um eventual dano"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gibt keine Konsequenzen, solange dein Auto keinen sichtbaren Schaden hat",
+          "es": "No hay consecuencias, mientras tu coche no tenga daños visibles",
+          "fr": "Il n'y a aucune conséquence, tant que ta voiture n'a pas de dégâts visibles",
+          "it": "Non ci sono conseguenze, finché la tua auto non ha danni visibili",
+          "en": "There are no consequences, as long as your car has no visible damage",
+          "pt": "Não há consequências, desde que o teu carro não tenha danos visíveis"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Du musst nur eine höhere Versicherungsprämie im nächsten Jahr zahlen",
+          "es": "Solo debes pagar una prima de seguro más alta el año siguiente",
+          "fr": "Tu dois seulement payer une prime d'assurance plus élevée l'année suivante",
+          "it": "Devi solo pagare un premio assicurativo più alto l'anno successivo",
+          "en": "You only have to pay a higher insurance premium next year",
+          "pt": "Só tens de pagar um prémio de seguro mais alto no ano seguinte"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer nach einem Wildunfall einfach weiterfährt, macht sich strafbar und riskiert, dass die Versicherung die Leistung für den entstandenen Schaden verweigert.",
+      "es": "Quien, tras un accidente con un animal salvaje, simplemente sigue conduciendo, comete una infracción y se arriesga a que el seguro rechace cubrir el daño causado.",
+      "fr": "Qui repart simplement après un accident avec un animal sauvage se rend punissable et risque que l'assurance refuse de couvrir le dommage causé.",
+      "it": "Chi, dopo un incidente con la selvaggina, prosegue semplicemente, si rende punibile e rischia che l'assicurazione rifiuti di coprire il danno causato.",
+      "en": "Anyone who simply drives on after a wildlife collision is liable to prosecution and risks the insurer refusing to cover the resulting damage.",
+      "pt": "Quem, depois de um acidente com animal selvagem, simplesmente continua a conduzir, torna-se punível e arrisca que o seguro recuse cobrir o dano causado."
+    },
+    "image": null
+  },
+  {
+    "id": "q241",
+    "category": "both",
+    "topic": "wildunfall",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wen ruft die Polizei nach der Meldung eines Wildunfalls typischerweise zusätzlich auf?",
+      "es": "¿A quién suele convocar además la policía tras la denuncia de un accidente con un animal salvaje?",
+      "fr": "Qui la police mobilise-t-elle en général en plus après le signalement d'un accident avec un animal sauvage ?",
+      "it": "Chi convoca in genere in più la polizia dopo la segnalazione di un incidente con la selvaggina?",
+      "en": "Who does the police typically also call in after a wildlife collision is reported?",
+      "pt": "Quem é que a polícia costuma também chamar depois de comunicado um acidente com animal selvagem?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den zuständigen Wildhüter, damit sich um das verletzte oder tote Tier gekümmert wird",
+          "es": "Al guarda de caza competente, para que se ocupe del animal herido o muerto",
+          "fr": "Le garde-chasse compétent, pour qu'il s'occupe de l'animal blessé ou mort",
+          "it": "Il guardiacaccia competente, affinché si occupi dell'animale ferito o morto",
+          "en": "The responsible game warden, so they can take care of the injured or dead animal",
+          "pt": "O guarda-florestal competente, para que trate do animal ferido ou morto"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Grundsätzlich niemanden, die Polizei kümmert sich immer allein um alles",
+          "es": "A nadie más, la policía se ocupa siempre de todo por sí sola",
+          "fr": "En principe personne, la police s'occupe toujours seule de tout",
+          "it": "In linea di massima nessuno, la polizia si occupa sempre da sola di tutto",
+          "en": "No one in principle, the police always handle everything alone",
+          "pt": "Ninguém em princípio, a polícia trata sempre de tudo sozinha"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur die Feuerwehr, unabhängig von der Situation",
+          "es": "Solo a los bomberos, independientemente de la situación",
+          "fr": "Seulement les pompiers, quelle que soit la situation",
+          "it": "Solo i pompieri, indipendentemente dalla situazione",
+          "en": "Only the fire brigade, regardless of the situation",
+          "pt": "Só os bombeiros, independentemente da situação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach der Meldung an die Polizei wird üblicherweise der zuständige Wildhüter aufgeboten, der sich fachgerecht um das verletzte oder verendete Tier kümmert.",
+      "es": "Tras la denuncia a la policía, se moviliza habitualmente al guarda de caza competente, que se ocupa profesionalmente del animal herido o muerto.",
+      "fr": "Après le signalement à la police, le garde-chasse compétent est généralement mobilisé et s'occupe professionnellement de l'animal blessé ou mort.",
+      "it": "Dopo la segnalazione alla polizia, viene di norma allertato il guardiacaccia competente, che si occupa in modo professionale dell'animale ferito o morto.",
+      "en": "After reporting to the police, the responsible game warden is usually called in to properly take care of the injured or dead animal.",
+      "pt": "Depois da comunicação à polícia, é geralmente mobilizado o guarda-florestal competente, que trata de forma profissional do animal ferido ou morto."
+    },
+    "image": null
+  },
+  {
+    "id": "q242",
+    "category": "both",
+    "topic": "wildunfall",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie häufig kollidiert laut Statistik in der Schweiz ein Auto mit einem Reh oder ähnlichem Wildtier?",
+      "es": "Según las estadísticas, ¿con qué frecuencia colisiona un coche en Suiza con un corzo u otro animal salvaje similar?",
+      "fr": "Selon les statistiques, à quelle fréquence une voiture percute-t-elle un chevreuil ou un animal sauvage similaire en Suisse ?",
+      "it": "Secondo le statistiche, con quale frequenza un'auto in Svizzera investe un capriolo o un animale selvatico simile?",
+      "en": "According to statistics, how often does a car collide with a deer or similar wild animal in Switzerland?",
+      "pt": "Segundo as estatísticas, com que frequência um carro colide na Suíça com um corço ou animal selvagem semelhante?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ungefähr jede Stunde irgendwo in der Schweiz",
+          "es": "Aproximadamente cada hora en algún lugar de Suiza",
+          "fr": "Environ toutes les heures quelque part en Suisse",
+          "it": "Circa ogni ora da qualche parte in Svizzera",
+          "en": "Roughly every hour, somewhere in Switzerland",
+          "pt": "Aproximadamente todas as horas, algures na Suíça"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur einige wenige Male pro Jahr in der ganzen Schweiz",
+          "es": "Solo unas pocas veces al año en toda Suiza",
+          "fr": "Seulement quelques fois par an dans toute la Suisse",
+          "it": "Solo poche volte all'anno in tutta la Svizzera",
+          "en": "Only a few times a year across all of Switzerland",
+          "pt": "Só algumas vezes por ano em toda a Suíça"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nie, solche Unfälle sind in der Schweiz praktisch ausgeschlossen",
+          "es": "Nunca, ese tipo de accidentes son prácticamente inexistentes en Suiza",
+          "fr": "Jamais, de tels accidents sont pratiquement exclus en Suisse",
+          "it": "Mai, tali incidenti sono praticamente esclusi in Svizzera",
+          "en": "Never, such accidents are practically nonexistent in Switzerland",
+          "pt": "Nunca, esses acidentes são praticamente inexistentes na Suíça"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Schweiz kollidiert statistisch gesehen etwa jede Stunde ein Auto mit einem Reh; jährlich werden über 20'000 Wildunfälle mit mittleren und grossen Wildtieren gemeldet.",
+      "es": "En Suiza, según las estadísticas, un coche colisiona con un corzo aproximadamente cada hora; cada año se registran más de 20 000 accidentes con animales salvajes medianos y grandes.",
+      "fr": "En Suisse, statistiquement, une voiture percute un chevreuil environ toutes les heures ; plus de 20 000 accidents avec des animaux sauvages moyens et grands sont signalés chaque année.",
+      "it": "In Svizzera, statisticamente, un'auto investe un capriolo circa ogni ora; ogni anno vengono segnalati oltre 20'000 incidenti con selvaggina di medie e grandi dimensioni.",
+      "en": "In Switzerland, statistically a car collides with a deer roughly every hour; more than 20,000 accidents with medium and large wild animals are reported each year.",
+      "pt": "Na Suíça, estatisticamente, um carro colide com um corço aproximadamente todas as horas; anualmente são registados mais de 20 000 acidentes com animais selvagens de médio e grande porte."
+    },
+    "image": null
+  },
+  {
+    "id": "q243",
+    "category": "both",
+    "topic": "gefahrgut",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du möchtest für deinen privaten Gasgrill zu Hause eine Propangasflasche im Auto transportieren. Ist das grundsätzlich erlaubt?",
+      "es": "Quieres transportar en el coche una bombona de propano para tu barbacoa de gas particular en casa. ¿Está permitido en principio?",
+      "fr": "Tu veux transporter en voiture une bouteille de propane pour ton barbecue à gaz privé à la maison. Est-ce en principe autorisé ?",
+      "it": "Vuoi trasportare in auto una bombola di propano per il tuo barbecue a gas privato di casa. È consentito in linea di massima?",
+      "en": "You want to transport a propane bottle in your car for your private home gas barbecue. Is that generally allowed?",
+      "pt": "Queres transportar no carro uma botija de propano para o teu churrasco a gás particular em casa. Isso é permitido, em princípio?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, im Rahmen der Freistellungsgrenzen für den privaten Gebrauch, sofern die Flasche gegen Umkippen und Verrutschen gesichert ist",
+          "es": "Sí, dentro de los límites de exención para uso privado, siempre que la bombona esté sujeta contra vuelco y desplazamiento",
+          "fr": "Oui, dans les limites d'exemption pour l'usage privé, à condition que la bouteille soit fixée contre le basculement et le déplacement",
+          "it": "Sì, entro i limiti di esenzione per uso privato, purché la bombola sia assicurata contro ribaltamento e spostamento",
+          "en": "Yes, within the exemption limits for private use, provided the bottle is secured against tipping and shifting",
+          "pt": "Sim, dentro dos limites de isenção para uso privado, desde que a botija esteja fixada contra tombamento e deslocamento"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Privatpersonen dürfen unter keinen Umständen Gasflaschen transportieren",
+          "es": "No, las personas particulares no pueden transportar bombonas de gas bajo ninguna circunstancia",
+          "fr": "Non, les particuliers ne peuvent en aucun cas transporter des bouteilles de gaz",
+          "it": "No, i privati non possono in nessun caso trasportare bombole di gas",
+          "en": "No, private individuals may under no circumstances transport gas bottles",
+          "pt": "Não, os particulares não podem, em circunstância alguma, transportar botijas de gás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, uneingeschränkt und ohne jede Sicherung",
+          "es": "Sí, sin ninguna restricción ni necesidad de sujeción",
+          "fr": "Oui, sans aucune restriction ni fixation nécessaire",
+          "it": "Sì, senza alcuna restrizione né necessità di fissaggio",
+          "en": "Yes, without any restriction and without needing to secure it",
+          "pt": "Sim, sem qualquer restrição e sem necessidade de fixação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für den privaten, häuslichen oder Freizeitgebrauch dürfen Privatpersonen Gasflaschen innerhalb bestimmter Freistellungsgrenzen transportieren — die Flasche muss aber immer gegen Umkippen und Verrutschen gesichert sein.",
+      "es": "Para uso privado, doméstico o recreativo, las personas particulares pueden transportar bombonas de gas dentro de ciertos límites de exención, pero la bombona siempre debe ir sujeta contra el vuelco y el desplazamiento.",
+      "fr": "Pour un usage privé, domestique ou de loisirs, les particuliers peuvent transporter des bouteilles de gaz dans certaines limites d'exemption – la bouteille doit toutefois toujours être fixée contre le basculement et le déplacement.",
+      "it": "Per uso privato, domestico o del tempo libero, i privati possono trasportare bombole di gas entro determinati limiti di esenzione – la bombola deve però sempre essere assicurata contro ribaltamento e spostamento.",
+      "en": "For private, household or leisure use, private individuals may transport gas bottles within certain exemption limits – but the bottle must always be secured against tipping and shifting.",
+      "pt": "Para uso privado, doméstico ou de lazer, os particulares podem transportar botijas de gás dentro de determinados limites de isenção – a botija deve, porém, estar sempre fixada contra o tombamento e o deslocamento."
+    },
+    "image": null
+  },
+  {
+    "id": "q244",
+    "category": "both",
+    "topic": "gefahrgut",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie viele Liter Benzin darfst du als Privatperson höchstens in tragbaren Kanistern (je max. 20 Liter) im Auto mitführen?",
+      "es": "¿Cuántos litros de gasolina puedes llevar como máximo en el coche, como particular, en bidones portátiles (de máx. 20 litros cada uno)?",
+      "fr": "Combien de litres d'essence peux-tu au maximum transporter en voiture, en tant que particulier, dans des jerricans portables (20 litres max. chacun) ?",
+      "it": "Quanti litri di benzina puoi al massimo trasportare in auto come privato in taniche portatili (max 20 litri ciascuna)?",
+      "en": "How many litres of petrol may you carry at most as a private individual in portable canisters (max. 20 litres each) in your car?",
+      "pt": "Quantos litros de gasolina podes, no máximo, transportar no carro como particular em bidões portáteis (máx. 20 litros cada)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Höchstens 60 Liter",
+          "es": "Como máximo 60 litros",
+          "fr": "Au maximum 60 litres",
+          "it": "Al massimo 60 litri",
+          "en": "At most 60 litres",
+          "pt": "No máximo 60 litros"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Höchstens 200 Liter",
+          "es": "Como máximo 200 litros",
+          "fr": "Au maximum 200 litres",
+          "it": "Al massimo 200 litri",
+          "en": "At most 200 litres",
+          "pt": "No máximo 200 litros"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keine Höchstmenge für Privatpersonen",
+          "es": "No existe un máximo para particulares",
+          "fr": "Il n'existe aucune quantité maximale pour les particuliers",
+          "it": "Non esiste un limite massimo per i privati",
+          "en": "There is no maximum amount for private individuals",
+          "pt": "Não existe uma quantidade máxima para particulares"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Privatpersonen dürfen höchstens 60 Liter Benzin in tragbaren Kanistern von je maximal 20 Litern mitführen, wobei die Kanister gegen Umkippen und Verrutschen gesichert sein müssen.",
+      "es": "Las personas particulares pueden llevar como máximo 60 litros de gasolina en bidones portátiles de hasta 20 litros cada uno, y los bidones deben ir sujetos contra el vuelco y el desplazamiento.",
+      "fr": "Les particuliers peuvent transporter au maximum 60 litres d'essence dans des jerricans portables de 20 litres maximum chacun, ceux-ci devant être fixés contre le basculement et le déplacement.",
+      "it": "I privati possono trasportare al massimo 60 litri di benzina in taniche portatili di massimo 20 litri ciascuna, che devono essere assicurate contro ribaltamento e spostamento.",
+      "en": "Private individuals may carry at most 60 litres of petrol in portable canisters of a maximum of 20 litres each, with the canisters secured against tipping and shifting.",
+      "pt": "Os particulares podem transportar no máximo 60 litros de gasolina em bidões portáteis de, no máximo, 20 litros cada, devendo os bidões estar fixados contra o tombamento e o deslocamento."
+    },
+    "image": null
+  },
+  {
+    "id": "q245",
+    "category": "both",
+    "topic": "gefahrgut",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Bekannter bittet dich, für mehrere Marktstandbetreiber an einem Dorffest gemeinsam Gasflaschen zu besorgen und zu liefern. Fällt das unter die Freistellung für Privatpersonen?",
+      "es": "Un conocido te pide que consigas y repartas conjuntamente bombonas de gas para varios puestos de un mercado en una fiesta del pueblo. ¿Entra eso en la exención para particulares?",
+      "fr": "Une connaissance te demande de te procurer et de livrer ensemble des bouteilles de gaz pour plusieurs stands de marché lors d'une fête de village. Cela relève-t-il de l'exemption pour particuliers ?",
+      "it": "Un conoscente ti chiede di procurare e consegnare insieme bombole di gas per più bancarelle a una festa del paese. Ciò rientra nell'esenzione per i privati?",
+      "en": "An acquaintance asks you to source and deliver gas bottles together for several market stalls at a village festival. Does that fall under the exemption for private individuals?",
+      "pt": "Um conhecido pede-te para arranjar e entregar em conjunto botijas de gás para várias bancas de mercado numa festa de aldeia. Isso está abrangido pela isenção para particulares?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein – Versorgungsfahrten dieser Art fallen nicht unter die Freistellung für den privaten Gebrauch",
+          "es": "No: los trayectos de abastecimiento de este tipo no entran en la exención para uso privado",
+          "fr": "Non – ce type de trajet d'approvisionnement ne relève pas de l'exemption pour l'usage privé",
+          "it": "No – viaggi di rifornimento di questo tipo non rientrano nell'esenzione per uso privato",
+          "en": "No – supply trips of this kind do not fall under the private-use exemption",
+          "pt": "Não – viagens de abastecimento deste tipo não estão abrangidas pela isenção de uso privado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, solange es sich um ein einmaliges Dorffest handelt",
+          "es": "Sí, mientras se trate de una fiesta del pueblo puntual",
+          "fr": "Oui, tant qu'il s'agit d'une fête de village ponctuelle",
+          "it": "Sì, purché si tratti di una festa del paese occasionale",
+          "en": "Yes, as long as it is a one-off village festival",
+          "pt": "Sim, desde que seja uma festa de aldeia pontual"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, solange die Gesamtmenge unter 100 kg bleibt",
+          "es": "Sí, mientras la cantidad total sea inferior a 100 kg",
+          "fr": "Oui, tant que la quantité totale reste inférieure à 100 kg",
+          "it": "Sì, purché la quantità totale resti sotto i 100 kg",
+          "en": "Yes, as long as the total amount stays under 100 kg",
+          "pt": "Sim, desde que a quantidade total fique abaixo dos 100 kg"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Freistellung gilt nur für den eigenen persönlichen, häuslichen oder Freizeitgebrauch; Versorgungsfahrten für Dritte (z. B. mehrere Marktstände) sind davon nicht gedeckt.",
+      "es": "La exención solo vale para el propio uso personal, doméstico o recreativo; los trayectos de abastecimiento para terceros (p. ej. varios puestos de mercado) no están cubiertos.",
+      "fr": "L'exemption ne vaut que pour l'usage personnel, domestique ou de loisirs propre ; les trajets d'approvisionnement pour des tiers (p. ex. plusieurs stands de marché) n'en relèvent pas.",
+      "it": "L'esenzione vale solo per l'uso personale, domestico o del tempo libero proprio; i viaggi di rifornimento per terzi (ad es. più bancarelle) non ne sono coperti.",
+      "en": "The exemption only applies to one's own personal, household or leisure use; supply trips for third parties (e.g. several market stalls) are not covered by it.",
+      "pt": "A isenção só se aplica ao uso pessoal, doméstico ou de lazer próprio; as viagens de abastecimento para terceiros (por exemplo, várias bancas de mercado) não estão abrangidas."
+    },
+    "image": null
+  },
+  {
+    "id": "q246",
+    "category": "both",
+    "topic": "gefahrgut",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum musst du einen Benzinkanister im Kofferraum zusätzlich sichern?",
+      "es": "¿Por qué debes sujetar además un bidón de gasolina en el maletero?",
+      "fr": "Pourquoi dois-tu en plus fixer un jerricane d'essence dans le coffre ?",
+      "it": "Perché devi assicurare inoltre una tanica di benzina nel bagagliaio?",
+      "en": "Why must you additionally secure a petrol canister in the boot?",
+      "pt": "Porque tens de fixar adicionalmente um bidão de gasolina na bagageira?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit er bei einer Bremsung oder einem Ausweichmanöver nicht umkippt oder verrutscht und auslaufen kann",
+          "es": "Para que no vuelque ni se desplace y pueda derramarse en una frenada o un giro brusco",
+          "fr": "Pour qu'il ne bascule ni ne se déplace et ne puisse fuir lors d'un freinage ou d'un évitement",
+          "it": "Affinché non si ribalti né si sposti e non possa perdere liquido in una frenata o sterzata",
+          "en": "So it does not tip over or shift and leak during braking or an evasive manoeuvre",
+          "pt": "Para que não tombe nem se desloque e possa derramar numa travagem ou manobra evasiva"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur aus optischen Gründen, ein Umkippen ist ungefährlich",
+          "es": "Solo por motivos estéticos, un vuelco no es peligroso",
+          "fr": "Uniquement pour des raisons esthétiques, un basculement est sans danger",
+          "it": "Solo per motivi estetici, un ribaltamento è innocuo",
+          "en": "Only for appearance's sake, tipping over is harmless",
+          "pt": "Só por motivos estéticos, um tombamento é inofensivo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das ist gesetzlich nicht vorgeschrieben, reine Empfehlung",
+          "es": "No es una exigencia legal, es solo una recomendación",
+          "fr": "Ce n'est pas prescrit par la loi, c'est une simple recommandation",
+          "it": "Non è previsto dalla legge, è solo una raccomandazione",
+          "en": "This is not a legal requirement, just a recommendation",
+          "pt": "Isso não é exigido por lei, é apenas uma recomendação"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein ungesicherter Kanister kann bei einer Bremsung umkippen, auslaufen und dadurch eine erhebliche Brand- und Explosionsgefahr im Fahrzeug schaffen — die Sicherung ist deshalb vorgeschrieben.",
+      "es": "Un bidón sin sujetar puede volcar en una frenada, derramarse y crear un riesgo considerable de incendio y explosión dentro del vehículo; por eso la sujeción es obligatoria.",
+      "fr": "Un jerricane non fixé peut basculer lors d'un freinage, fuir et créer un risque considérable d'incendie et d'explosion dans le véhicule – la fixation est donc obligatoire.",
+      "it": "Una tanica non assicurata può ribaltarsi in frenata, perdere liquido e creare così un rischio considerevole di incendio ed esplosione nel veicolo – per questo il fissaggio è obbligatorio.",
+      "en": "An unsecured canister can tip over during braking, leak and thereby create a significant fire and explosion risk inside the vehicle – securing it is therefore required.",
+      "pt": "Um bidão não fixado pode tombar numa travagem, derramar e criar assim um risco considerável de incêndio e explosão dentro do veículo – por isso a fixação é obrigatória."
+    },
+    "image": null
+  },
+  {
+    "id": "q247",
+    "category": "both",
+    "topic": "postauto",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer als «Bergpoststrasse» signalisierten Strasse begegnest du einem Postauto im Linienverkehr. Was gilt?",
+      "es": "En una carretera señalizada como «carretera postal de montaña», te cruzas con un autopostal en servicio de línea. ¿Qué se aplica?",
+      "fr": "Sur une route signalée « route postale de montagne », tu croises un car postal en service de ligne. Que faut-il respecter ?",
+      "it": "Su una strada segnalata come «strada postale di montagna» incontri un'autopostale in servizio di linea. Cosa vale?",
+      "en": "On a road signposted as a \"mountain post road\", you meet a postbus on scheduled service. What applies?",
+      "pt": "Numa estrada sinalizada como «estrada postal de montanha», encontras um autocarro postal em serviço de linha. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du musst auf die Signale und Weisungen des Postauto-Chauffeurs achten, besonders bei schwierigem Kreuzen oder Überholen",
+          "es": "Debes atender a las señales e instrucciones del conductor del autopostal, sobre todo si cruzarse o adelantar resulta difícil",
+          "fr": "Tu dois tenir compte des signaux et instructions du chauffeur du car postal, surtout en cas de croisement ou de dépassement difficile",
+          "it": "Devi prestare attenzione ai segnali e alle istruzioni dell'autista dell'autopostale, soprattutto in caso di incrocio o sorpasso difficile",
+          "en": "You must heed the signals and instructions of the postbus driver, especially where passing or overtaking is difficult",
+          "pt": "Tens de atender aos sinais e instruções do condutor do autocarro postal, sobretudo quando cruzar ou ultrapassar é difícil"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Postauto muss dir wie jedem anderen Fahrzeug den Rechtsvortritt gewähren",
+          "es": "El autopostal debe cederte la prioridad de derecha como a cualquier otro vehículo",
+          "fr": "Le car postal doit te céder la priorité de droite comme à tout autre véhicule",
+          "it": "L'autopostale deve darti la precedenza da destra come a qualsiasi altro veicolo",
+          "en": "The postbus must give you priority to the right like any other vehicle",
+          "pt": "O autocarro postal tem de te ceder a prioridade à direita como a qualquer outro veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Signalisation «Bergpoststrasse» hat keine praktische Bedeutung mehr",
+          "es": "La señal de «carretera postal de montaña» ya no tiene ninguna relevancia práctica",
+          "fr": "La signalisation « route postale de montagne » n'a plus aucune portée pratique",
+          "it": "La segnaletica «strada postale di montagna» non ha più alcuna rilevanza pratica",
+          "en": "The \"mountain post road\" sign no longer has any practical significance",
+          "pt": "A sinalização «estrada postal de montanha» já não tem qualquer relevância prática"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Signal «Bergpoststrasse» verpflichtet dazu, auf die Signale und Weisungen der Chauffeure von Fahrzeugen im öffentlichen Linienverkehr zu achten, insbesondere bei schwierigem Kreuzen und Überholen (Art. 38 Abs. 3 VRV).",
+      "es": "La señal de «carretera postal de montaña» obliga a atender a las señales e instrucciones de los conductores de vehículos en servicio de línea público, especialmente al cruzarse o adelantar con dificultad (art. 38 párr. 3 VRV).",
+      "fr": "Le signal « route postale de montagne » oblige à tenir compte des signaux et instructions des chauffeurs de véhicules en service de ligne public, en particulier en cas de croisement et de dépassement difficiles (art. 38 al. 3 OCR).",
+      "it": "Il segnale «strada postale di montagna» obbliga a prestare attenzione ai segnali e alle istruzioni dei conducenti di veicoli in servizio di linea pubblico, in particolare in caso di incrocio e sorpasso difficili (art. 38 cpv. 3 ONC).",
+      "en": "The \"mountain post road\" sign requires you to heed the signals and instructions of drivers of vehicles on public scheduled service, especially where passing and overtaking are difficult (Art. 38 para. 3 VRV).",
+      "pt": "O sinal «estrada postal de montanha» obriga a atender aos sinais e instruções dos condutores de veículos em serviço de linha público, especialmente ao cruzar e ultrapassar em condições difíceis (art. 38, n.º 3, VRV)."
+    },
+    "image": null
+  },
+  {
+    "id": "q248",
+    "category": "both",
+    "topic": "postauto",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was bedeutet das Dreiklanghorn (Kurvenhorn), das Postautos auf Bergpoststrassen benutzen dürfen?",
+      "es": "¿Qué significa el claxon de tres tonos (bocina de curva) que pueden usar los autopostales en carreteras postales de montaña?",
+      "fr": "Que signifie l'avertisseur à trois notes (corne de virage) que les cars postaux peuvent utiliser sur les routes postales de montagne ?",
+      "it": "Cosa significa il clacson a tre toni (corno da curva) che gli autopostali possono usare sulle strade postali di montagna?",
+      "en": "What does the three-tone horn (curve horn) that postbuses may use on mountain post roads mean?",
+      "pt": "O que significa a buzina de três tons (buzina de curva) que os autocarros postais podem usar em estradas postais de montanha?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es warnt vor unübersichtlichen Kurven und kündigt das Fahrzeug im Linienverkehr an",
+          "es": "Avisa de curvas sin visibilidad y anuncia el vehículo del servicio de línea",
+          "fr": "Il avertit des virages peu visibles et signale le véhicule en service de ligne",
+          "it": "Avverte di curve poco visibili e annuncia il veicolo in servizio di linea",
+          "en": "It warns of blind bends and announces the scheduled-service vehicle",
+          "pt": "Avisa de curvas com pouca visibilidade e anuncia o veículo em serviço de linha"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es bedeutet ein generelles Überholverbot für alle nachfolgenden Fahrzeuge",
+          "es": "Significa una prohibición general de adelantar para todos los vehículos que le siguen",
+          "fr": "Il signifie une interdiction générale de dépasser pour tous les véhicules qui suivent",
+          "it": "Significa un divieto generale di sorpasso per tutti i veicoli che seguono",
+          "en": "It means a general overtaking ban for all following vehicles",
+          "pt": "Significa uma proibição geral de ultrapassagem para todos os veículos que seguem atrás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es hat rein dekorative Funktion ohne praktischen Nutzen",
+          "es": "Tiene una función puramente decorativa, sin utilidad práctica",
+          "fr": "Il a une fonction purement décorative, sans utilité pratique",
+          "it": "Ha una funzione puramente decorativa, senza utilità pratica",
+          "en": "It has a purely decorative function with no practical use",
+          "pt": "Tem uma função puramente decorativa, sem utilidade prática"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Dreiklanghorn wird im Linienverkehr auf Bergpoststrassen eingesetzt, um vor unübersichtlichen Kurven zu warnen und das eigene Fahrzeug rechtzeitig anzukündigen.",
+      "es": "El claxon de tres tonos se usa en el servicio de línea de las carreteras postales de montaña para avisar de curvas sin visibilidad y anunciar a tiempo el propio vehículo.",
+      "fr": "L'avertisseur à trois notes est utilisé en service de ligne sur les routes postales de montagne pour avertir des virages peu visibles et signaler à temps son propre véhicule.",
+      "it": "Il clacson a tre toni viene utilizzato nel servizio di linea sulle strade postali di montagna per avvertire di curve poco visibili e annunciare per tempo il proprio veicolo.",
+      "en": "The three-tone horn is used on scheduled services on mountain post roads to warn of blind bends and announce the vehicle in good time.",
+      "pt": "A buzina de três tons é usada no serviço de linha em estradas postais de montanha para avisar de curvas com pouca visibilidade e anunciar a tempo o próprio veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q249",
+    "category": "both",
+    "topic": "postauto",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Auf einer engen Bergpoststrasse gibt dir der Postauto-Chauffeur per Handzeichen eine Anweisung zum Rückwärtsfahren, um das Kreuzen zu ermöglichen. Musst du dich daran halten?",
+      "es": "En una carretera postal de montaña estrecha, el conductor del autopostal te indica con la mano que retrocedas para poder cruzaros. ¿Debes obedecer?",
+      "fr": "Sur une route postale de montagne étroite, le chauffeur du car postal te fait signe de la main de reculer pour permettre le croisement. Dois-tu t'y conformer ?",
+      "it": "Su una stretta strada postale di montagna, l'autista dell'autopostale ti fa cenno con la mano di fare retromarcia per permettere l'incrocio. Devi attenerti?",
+      "en": "On a narrow mountain post road, the postbus driver signals with their hand for you to reverse to allow passing. Must you comply?",
+      "pt": "Numa estreita estrada postal de montanha, o condutor do autocarro postal faz-te sinal com a mão para recuares para permitir o cruzamento. Tens de obedecer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, auf Bergpoststrassen sind Chauffeure des Linienverkehrs berechtigt, solche Weisungen zu erteilen, denen zu folgen ist",
+          "es": "Sí, en las carreteras postales de montaña los conductores del servicio de línea están autorizados a dar esas instrucciones, que hay que seguir",
+          "fr": "Oui, sur les routes postales de montagne, les chauffeurs du service de ligne sont autorisés à donner de telles instructions, qu'il faut suivre",
+          "it": "Sì, sulle strade postali di montagna gli autisti del servizio di linea sono autorizzati a impartire tali istruzioni, a cui bisogna attenersi",
+          "en": "Yes, on mountain post roads, scheduled-service drivers are authorised to give such instructions, which must be followed",
+          "pt": "Sim, em estradas postais de montanha, os condutores do serviço de linha estão autorizados a dar essas instruções, que devem ser seguidas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Weisungen von Buschauffeuren haben rechtlich keinerlei Bedeutung",
+          "es": "No, las instrucciones de los conductores de autobús no tienen ninguna relevancia legal",
+          "fr": "Non, les instructions des chauffeurs de bus n'ont juridiquement aucune portée",
+          "it": "No, le istruzioni degli autisti di autobus non hanno alcuna rilevanza legale",
+          "en": "No, instructions from bus drivers have no legal significance whatsoever",
+          "pt": "Não, as instruções dos condutores de autocarro não têm qualquer relevância legal"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur wenn zusätzlich ein Polizist die gleiche Anweisung gibt",
+          "es": "Solo si un policía da además la misma instrucción",
+          "fr": "Seulement si un policier donne en plus la même instruction",
+          "it": "Solo se anche un agente di polizia dà la stessa istruzione",
+          "en": "Only if a police officer additionally gives the same instruction",
+          "pt": "Só se um polícia der também a mesma instrução"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auf Bergpoststrassen dürfen Chauffeure von Fahrzeugen im öffentlichen Linienverkehr den übrigen Verkehrsteilnehmenden Weisungen für das Kreuzen und Überholen erteilen, denen Folge zu leisten ist.",
+      "es": "En las carreteras postales de montaña, los conductores de vehículos en servicio de línea público pueden dar al resto de usuarios de la vía instrucciones para cruzarse y adelantar, que deben cumplirse.",
+      "fr": "Sur les routes postales de montagne, les chauffeurs de véhicules en service de ligne public peuvent donner aux autres usagers des instructions pour le croisement et le dépassement, qu'il faut suivre.",
+      "it": "Sulle strade postali di montagna, gli autisti di veicoli in servizio di linea pubblico possono impartire agli altri utenti della strada istruzioni per l'incrocio e il sorpasso, a cui bisogna attenersi.",
+      "en": "On mountain post roads, drivers of vehicles on public scheduled service may give other road users instructions for passing and overtaking, which must be followed.",
+      "pt": "Em estradas postais de montanha, os condutores de veículos em serviço de linha público podem dar aos restantes utentes da via instruções para cruzar e ultrapassar, que devem ser cumpridas."
+    },
+    "image": null
+  },
+  {
+    "id": "q250",
+    "category": "both",
+    "topic": "postauto",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wer ausser Postautos darf das Dreiklanghorn auf Bergpoststrassen ebenfalls verwenden?",
+      "es": "¿Quién, además de los autopostales, puede usar también el claxon de tres tonos en carreteras postales de montaña?",
+      "fr": "Qui, en dehors des cars postaux, peut également utiliser l'avertisseur à trois notes sur les routes postales de montagne ?",
+      "it": "Chi, oltre agli autopostali, può usare anche il clacson a tre toni sulle strade postali di montagna?",
+      "en": "Who else, besides postbuses, may also use the three-tone horn on mountain post roads?",
+      "pt": "Quem, além dos autocarros postais, pode também usar a buzina de três tons em estradas postais de montanha?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Auch andere Fahrzeuge konzessionierter Unternehmen im Linienverkehr",
+          "es": "También otros vehículos de empresas concesionarias en servicio de línea",
+          "fr": "Aussi d'autres véhicules d'entreprises concessionnaires en service de ligne",
+          "it": "Anche altri veicoli di imprese concessionarie in servizio di linea",
+          "en": "Also other vehicles of licensed companies on scheduled service",
+          "pt": "Também outros veículos de empresas concessionárias em serviço de linha"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Jedes beliebige Privatfahrzeug, das eine Bergstrasse befährt",
+          "es": "Cualquier vehículo particular que circule por una carretera de montaña",
+          "fr": "N'importe quel véhicule privé qui circule sur une route de montagne",
+          "it": "Qualsiasi veicolo privato che percorre una strada di montagna",
+          "en": "Any private vehicle driving on a mountain road",
+          "pt": "Qualquer veículo particular que circule numa estrada de montanha"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ausschliesslich Polizeifahrzeuge",
+          "es": "Exclusivamente los vehículos de policía",
+          "fr": "Exclusivement les véhicules de police",
+          "it": "Esclusivamente i veicoli della polizia",
+          "en": "Only police vehicles",
+          "pt": "Exclusivamente os veículos da polícia"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Dreiklanghorn dürfen auf Bergpoststrassen nicht nur Postautos, sondern auch andere Fahrzeuge konzessionierter Unternehmen im Linienverkehr zur Warnung einsetzen.",
+      "es": "En las carreteras postales de montaña, el claxon de tres tonos pueden usarlo, además de los autopostales, otros vehículos de empresas concesionarias en servicio de línea.",
+      "fr": "Sur les routes postales de montagne, l'avertisseur à trois notes peut être utilisé non seulement par les cars postaux, mais aussi par d'autres véhicules d'entreprises concessionnaires en service de ligne.",
+      "it": "Sulle strade postali di montagna, il clacson a tre toni può essere usato non solo dagli autopostali, ma anche da altri veicoli di imprese concessionarie in servizio di linea.",
+      "en": "On mountain post roads, the three-tone horn may be used not only by postbuses but also by other vehicles of licensed companies on scheduled service.",
+      "pt": "Em estradas postais de montanha, a buzina de três tons pode ser usada não só pelos autocarros postais, mas também por outros veículos de empresas concessionárias em serviço de linha."
+    },
+    "image": null
+  },
+  {
+    "id": "q251",
+    "category": "both",
+    "topic": "reissverschluss",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Zwei Fahrstreifen werden wegen einer Baustelle zu einem zusammengeführt, der Verkehr staut sich. Wie sollst du dich verhalten?",
+      "es": "Dos carriles se unen en uno debido a obras, y el tráfico está congestionado. ¿Cómo debes actuar?",
+      "fr": "Deux voies se rejoignent en une seule en raison d'un chantier, le trafic est bouché. Comment dois-tu te comporter ?",
+      "it": "Due corsie si uniscono in una a causa di un cantiere, il traffico è in coda. Come devi comportarti?",
+      "en": "Two lanes merge into one because of roadworks, and traffic is congested. How should you behave?",
+      "pt": "Duas faixas juntam-se numa só devido a obras, e o trânsito está congestionado. Como deves agir?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Beide Streifen bis unmittelbar vor dem Ende der Spur nutzen und dann abwechselnd einfädeln (Reissverschlussprinzip)",
+          "es": "Usar ambos carriles hasta justo antes del final del carril y luego incorporarse alternándose (principio de la cremallera)",
+          "fr": "Utiliser les deux voies jusqu'à juste avant la fin de la voie, puis s'insérer en alternance (principe de la fermeture éclair)",
+          "it": "Utilizzare entrambe le corsie fino a poco prima della fine della corsia e poi immettersi alternandosi (principio della cerniera)",
+          "en": "Use both lanes right up to the end of the lane, then merge alternately (zipper principle)",
+          "pt": "Usar ambas as faixas até mesmo antes do fim da faixa e depois inserir-se alternadamente (princípio do fecho-eclair)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Schon weit vor der Verengung auf den durchgehenden Streifen wechseln, damit die andere Spur frei bleibt",
+          "es": "Cambiar al carril continuo mucho antes del estrechamiento, para que el otro carril quede libre",
+          "fr": "Changer bien avant le rétrécissement vers la voie continue, pour que l'autre voie reste libre",
+          "it": "Cambiare corsia molto prima del restringimento verso la corsia continua, così l'altra resta libera",
+          "en": "Switch to the continuing lane well before the narrowing, so the other lane stays clear",
+          "pt": "Mudar bem antes do estreitamento para a faixa contínua, para a outra faixa ficar livre"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Auf dem endenden Streifen einfach stehen bleiben und warten, bis jemand anhält",
+          "es": "Quedarte parado en el carril que termina y esperar a que alguien se detenga",
+          "fr": "Rester simplement à l'arrêt sur la voie qui se termine et attendre que quelqu'un s'arrête",
+          "it": "Restare semplicemente fermo sulla corsia che termina e aspettare che qualcuno si fermi",
+          "en": "Just stop in the ending lane and wait for someone to let you in",
+          "pt": "Ficar simplesmente parado na faixa que termina e esperar que alguém pare"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Seit 2021 schreibt Art. 8 Abs. 5 VRV das Reissverschlussprinzip vor: Beide Fahrstreifen werden bis zum Ende genutzt, dann lässt man die Fahrzeuge abwechselnd einscheren.",
+      "es": "Desde 2021, el art. 8 párr. 5 VRV impone el principio de la cremallera: se usan ambos carriles hasta el final y luego se deja entrar a los vehículos alternándose.",
+      "fr": "Depuis 2021, l'art. 8 al. 5 OCR impose le principe de la fermeture éclair : les deux voies sont utilisées jusqu'au bout, puis on laisse les véhicules s'insérer en alternance.",
+      "it": "Dal 2021, l'art. 8 cpv. 5 ONC impone il principio della cerniera: si usano entrambe le corsie fino alla fine, poi si lasciano immettere i veicoli alternandosi.",
+      "en": "Since 2021, Art. 8 para. 5 VRV mandates the zipper principle: both lanes are used right to the end, then vehicles are let in alternately.",
+      "pt": "Desde 2021, o art. 8, n.º 5, VRV impõe o princípio do fecho-eclair: usam-se ambas as faixas até ao fim, deixando depois os veículos inserir-se alternadamente."
+    },
+    "image": null
+  },
+  {
+    "id": "q252",
+    "category": "both",
+    "topic": "reissverschluss",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Seit wann ist das Reissverschlussprinzip in der Schweiz gesetzlich ausdrücklich vorgeschrieben?",
+      "es": "¿Desde cuándo está el principio de la cremallera expresamente regulado por ley en Suiza?",
+      "fr": "Depuis quand le principe de la fermeture éclair est-il expressément prescrit par la loi en Suisse ?",
+      "it": "Da quando il principio della cerniera è espressamente previsto dalla legge in Svizzera?",
+      "en": "Since when has the zipper principle been explicitly required by law in Switzerland?",
+      "pt": "Desde quando é que o princípio do fecho-eclair está expressamente previsto na lei na Suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Seit dem 1. Januar 2021",
+          "es": "Desde el 1 de enero de 2021",
+          "fr": "Depuis le 1er janvier 2021",
+          "it": "Dal 1° gennaio 2021",
+          "en": "Since 1 January 2021",
+          "pt": "Desde 1 de janeiro de 2021"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es ist bis heute nirgends gesetzlich verankert, nur eine Empfehlung",
+          "es": "Hasta hoy no está regulado en ninguna parte, es solo una recomendación",
+          "fr": "Il n'est encore ancré nulle part dans la loi, ce n'est qu'une recommandation",
+          "it": "Non è ancora sancito da nessuna parte per legge, è solo una raccomandazione",
+          "en": "It is not enshrined in law anywhere to this day, only a recommendation",
+          "pt": "Até hoje não está consagrado em lei em lado nenhum, é apenas uma recomendação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Schon seit den 1980er-Jahren",
+          "es": "Ya desde los años 1980",
+          "fr": "Déjà depuis les années 1980",
+          "it": "Già dagli anni '80",
+          "en": "Already since the 1980s",
+          "pt": "Já desde os anos 1980"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Reissverschlussprinzip ist seit dem 1. Januar 2021 in Art. 8 Abs. 5 VRV ausdrücklich gesetzlich geregelt.",
+      "es": "El principio de la cremallera está regulado expresamente por ley en el art. 8 párr. 5 VRV desde el 1 de enero de 2021.",
+      "fr": "Le principe de la fermeture éclair est expressément réglé par la loi à l'art. 8 al. 5 OCR depuis le 1er janvier 2021.",
+      "it": "Il principio della cerniera è espressamente disciplinato dalla legge all'art. 8 cpv. 5 ONC dal 1° gennaio 2021.",
+      "en": "The zipper principle has been explicitly regulated by law under Art. 8 para. 5 VRV since 1 January 2021.",
+      "pt": "O princípio do fecho-eclair está expressamente regulado por lei no art. 8, n.º 5, VRV desde 1 de janeiro de 2021."
+    },
+    "image": null
+  },
+  {
+    "id": "q253",
+    "category": "both",
+    "topic": "reissverschluss",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Gilt das Reissverschlussprinzip nur bei endenden Fahrstreifen, oder auch anderswo?",
+      "es": "¿Se aplica el principio de la cremallera solo cuando termina un carril, o también en otros casos?",
+      "fr": "Le principe de la fermeture éclair s'applique-t-il uniquement en cas de fin de voie, ou aussi ailleurs ?",
+      "it": "Il principio della cerniera vale solo quando una corsia termina, o anche altrove?",
+      "en": "Does the zipper principle only apply when a lane ends, or also elsewhere?",
+      "pt": "O princípio do fecho-eclair aplica-se apenas quando uma faixa termina, ou também noutros casos?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es gilt bei stockendem Verkehr auch dort, wo sich Fahrstreifen vereinigen, z. B. bei Autobahneinfahrten",
+          "es": "También rige, con tráfico congestionado, allí donde los carriles se unen, p. ej. en las entradas de autopista",
+          "fr": "Il s'applique aussi, en cas de trafic ralenti, là où des voies se rejoignent, p. ex. aux entrées d'autoroute",
+          "it": "Vale, con traffico rallentato, anche dove le corsie si uniscono, ad es. alle entrate autostradali",
+          "en": "It also applies, in slow-moving traffic, wherever lanes merge, e.g. at motorway on-ramps",
+          "pt": "Também se aplica, com trânsito lento, onde as faixas se juntam, por exemplo, em entradas de autoestrada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gilt ausschliesslich bei Baustellen, nirgends sonst",
+          "es": "Solo rige en obras, en ningún otro sitio",
+          "fr": "Il ne s'applique qu'aux chantiers, nulle part ailleurs",
+          "it": "Vale esclusivamente nei cantieri, da nessun'altra parte",
+          "en": "It only applies at roadworks, nowhere else",
+          "pt": "Só se aplica em obras, em mais lado nenhum"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gilt nur auf einspurigen Landstrassen",
+          "es": "Solo rige en carreteras rurales de un solo carril",
+          "fr": "Il ne s'applique que sur les routes de campagne à une seule voie",
+          "it": "Vale solo sulle strade extraurbane a una corsia",
+          "en": "It only applies on single-lane country roads",
+          "pt": "Só se aplica em estradas rurais de uma só faixa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Reissverschlussprinzip gilt bei stockendem Verkehr nicht nur beim Abbau von Fahrstreifen, sondern auch dort, wo sich Fahrstreifen vereinigen, etwa bei Autobahneinfahrten.",
+      "es": "El principio de la cremallera, con tráfico congestionado, no solo rige al reducirse los carriles, sino también donde los carriles se unen, por ejemplo en las entradas de autopista.",
+      "fr": "En cas de trafic ralenti, le principe de la fermeture éclair s'applique non seulement à la réduction du nombre de voies, mais aussi là où des voies se rejoignent, par exemple aux entrées d'autoroute.",
+      "it": "Con traffico rallentato, il principio della cerniera vale non solo per la riduzione delle corsie, ma anche dove le corsie si uniscono, ad esempio alle entrate autostradali.",
+      "en": "In slow-moving traffic, the zipper principle applies not only when lanes are reduced but also wherever lanes merge, for instance at motorway on-ramps.",
+      "pt": "Com trânsito lento, o princípio do fecho-eclair aplica-se não só à redução de faixas, mas também onde as faixas se juntam, por exemplo em entradas de autoestrada."
+    },
+    "image": null
+  },
+  {
+    "id": "q254",
+    "category": "both",
+    "topic": "reissverschluss",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was riskierst du, wenn du dich bei stockendem Verkehr weigerst, ein Fahrzeug nach dem Reissverschlussprinzip einfädeln zu lassen?",
+      "es": "¿Qué arriesgas si, con tráfico congestionado, te niegas a dejar incorporarse a un vehículo según el principio de la cremallera?",
+      "fr": "Que risques-tu si, en cas de trafic ralenti, tu refuses de laisser un véhicule s'insérer selon le principe de la fermeture éclair ?",
+      "it": "Cosa rischi se, con traffico rallentato, ti rifiuti di lasciare immettere un veicolo secondo il principio della cerniera?",
+      "en": "What do you risk if, in slow-moving traffic, you refuse to let a vehicle merge according to the zipper principle?",
+      "pt": "O que arriscas se, com trânsito lento, te recusares a deixar um veículo inserir-se segundo o princípio do fecho-eclair?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Ordnungsbusse von 100 Franken",
+          "es": "Una multa de orden de 100 francos",
+          "fr": "Une amende d'ordre de 100 francs",
+          "it": "Una multa disciplinare di 100 franchi",
+          "en": "An on-the-spot fine of CHF 100",
+          "pt": "Uma multa administrativa de 100 francos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Keinerlei Konsequenzen, es ist reine Höflichkeitssache",
+          "es": "Ninguna consecuencia, es solo cuestión de cortesía",
+          "fr": "Aucune conséquence, c'est une simple question de politesse",
+          "it": "Nessuna conseguenza, è solo una questione di cortesia",
+          "en": "No consequences at all, it is purely a matter of courtesy",
+          "pt": "Nenhuma consequência, é apenas uma questão de cortesia"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Den sofortigen Entzug des Führerausweises",
+          "es": "La retirada inmediata del permiso de conducir",
+          "fr": "Le retrait immédiat du permis de conduire",
+          "it": "Il ritiro immediato della patente di guida",
+          "en": "Immediate withdrawal of your driving licence",
+          "pt": "A retirada imediata da carta de condução"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Missachtung des Reissverschlussprinzips wird mit einer Ordnungsbusse von 100 Franken geahndet.",
+      "es": "El incumplimiento del principio de la cremallera se sanciona con una multa de orden de 100 francos.",
+      "fr": "Le non-respect du principe de la fermeture éclair est sanctionné par une amende d'ordre de 100 francs.",
+      "it": "L'inosservanza del principio della cerniera è punita con una multa disciplinare di 100 franchi.",
+      "en": "Failure to follow the zipper principle is punished with an on-the-spot fine of CHF 100.",
+      "pt": "O incumprimento do princípio do fecho-eclair é punido com uma multa administrativa de 100 francos."
+    },
+    "image": null
   }
 ]
