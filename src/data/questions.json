@@ -10456,58 +10456,58 @@
     "type": "multiple_choice",
     "points": 2,
     "question": {
-      "de": "Wie bildest du korrekt eine Rettungsgasse bei zwei Fahrstreifen pro Richtung?",
-      "es": "¿Cómo formas correctamente el pasillo de emergencia con dos carriles por sentido?",
-      "fr": "Comment former correctement un couloir de secours avec deux voies par sens ?",
-      "it": "Come si forma correttamente una corsia di emergenza con due corsie per senso di marcia?",
-      "en": "How do you correctly form an emergency corridor with two lanes per direction?",
-      "pt": "Como formas corretamente um corredor de emergência com duas faixas por sentido?"
+      "de": "Darfst du die bereits gebildete Rettungsgasse selbst benutzen, um im Stau schneller voranzukommen?",
+      "es": "¿Puedes usar tú mismo el pasillo de emergencia ya formado para avanzar más rápido en el atasco?",
+      "fr": "Peux-tu toi-même utiliser le couloir de secours déjà formé pour avancer plus vite dans le bouchon ?",
+      "it": "Puoi usare tu stesso la corsia di emergenza già formata per avanzare più in fretta nella coda?",
+      "en": "May you use the already-formed emergency corridor yourself to get through the traffic jam faster?",
+      "pt": "Podes usar tu próprio o corredor de emergência já formado para avançar mais depressa no engarrafamento?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "de": "Fahrzeuge auf dem linken Streifen fahren an den linken Rand, alle anderen an den rechten Rand",
-          "es": "Los vehículos del carril izquierdo se desplazan al borde izquierdo, y el resto al borde derecho",
-          "fr": "Les véhicules sur la voie de gauche se placent contre le bord gauche, tous les autres contre le bord droit",
-          "it": "I veicoli sulla corsia sinistra si spostano verso il bordo sinistro, tutti gli altri verso il bordo destro",
-          "en": "Vehicles in the left lane move to the left edge, all others move to the right edge",
-          "pt": "Os veículos na faixa esquerda deslocam-se para o bordo esquerdo, todos os outros para o bordo direito"
+          "de": "Nein, die Rettungsgasse ist ausschliesslich für Einsatzfahrzeuge mit Blaulicht reserviert",
+          "es": "No, el pasillo de emergencia está reservado exclusivamente para vehículos de emergencia con luces azules",
+          "fr": "Non, le couloir de secours est exclusivement réservé aux véhicules prioritaires avec feux bleus",
+          "it": "No, la corsia di emergenza è riservata esclusivamente ai veicoli di soccorso con luci blu",
+          "en": "No, the emergency corridor is reserved exclusively for emergency vehicles with blue lights",
+          "pt": "Não, o corredor de emergência está reservado exclusivamente a veículos de emergência com luzes azuis"
         },
         "correct": true
       },
       {
         "id": "b",
         "text": {
-          "de": "Alle Fahrzeuge fahren so weit wie möglich nach rechts",
-          "es": "Todos los vehículos se desplazan lo máximo posible hacia la derecha",
-          "fr": "Tous les véhicules se placent le plus possible à droite",
-          "it": "Tutti i veicoli si spostano il più possibile verso destra",
-          "en": "All vehicles move as far right as possible",
-          "pt": "Todos os veículos se deslocam o máximo possível para a direita"
+          "de": "Ja, solange gerade kein Einsatzfahrzeug sichtbar ist",
+          "es": "Sí, mientras no se vea ningún vehículo de emergencia en ese momento",
+          "fr": "Oui, tant qu'aucun véhicule prioritaire n'est visible pour l'instant",
+          "it": "Sì, finché al momento non è visibile alcun veicolo di soccorso",
+          "en": "Yes, as long as no emergency vehicle is currently visible",
+          "pt": "Sim, enquanto não houver nenhum veículo de emergência visível no momento"
         },
         "correct": false
       },
       {
         "id": "c",
         "text": {
-          "de": "Die Gasse wird genau in der Mitte zwischen den beiden Streifen gebildet",
-          "es": "El pasillo se forma exactamente en el centro entre los dos carriles",
-          "fr": "Le couloir se forme exactement au milieu entre les deux voies",
-          "it": "La corsia si forma esattamente al centro tra le due corsie",
-          "en": "The corridor forms exactly in the middle between the two lanes",
-          "pt": "O corredor forma-se exatamente no meio entre as duas faixas"
+          "de": "Ja, aber nur mit dem Motorrad",
+          "es": "Sí, pero solo en moto",
+          "fr": "Oui, mais seulement à moto",
+          "it": "Sì, ma solo in moto",
+          "en": "Yes, but only on a motorcycle",
+          "pt": "Sim, mas só de mota"
         },
         "correct": false
       }
     ],
     "explanation": {
-      "de": "Bei zwei Streifen pro Richtung hält der linke Streifen links, die übrigen Streifen rechts – dazwischen entsteht die Gasse für Einsatzfahrzeuge.",
-      "es": "Con dos carriles por sentido, el carril izquierdo se mantiene a la izquierda y los demás a la derecha; entre ambos queda libre el pasillo para vehículos de emergencia.",
-      "fr": "Avec deux voies par sens, la voie de gauche reste à gauche, les autres à droite ; le couloir pour les véhicules prioritaires se forme entre les deux.",
-      "it": "Con due corsie per senso, la corsia sinistra resta a sinistra, le altre a destra; tra le due si forma la corsia per i veicoli di soccorso.",
-      "en": "With two lanes per direction, the left lane keeps left and the remaining lanes keep right – the corridor for emergency vehicles forms between them.",
-      "pt": "Com duas faixas por sentido, a faixa esquerda mantém-se à esquerda e as restantes à direita; entre ambas forma-se o corredor para os veículos de emergência."
+      "de": "Die Rettungsgasse darf nicht durch andere Fahrzeuge zum eigenen Vorankommen genutzt werden — sie muss frei bleiben, damit Einsatzfahrzeuge jederzeit ungehindert durchkommen, auch wenn gerade keines sichtbar ist.",
+      "es": "El pasillo de emergencia no puede utilizarse para avanzar con otros vehículos: debe quedar libre para que los vehículos de emergencia puedan pasar en cualquier momento sin obstáculos, aunque en ese instante no se vea ninguno.",
+      "fr": "Le couloir de secours ne doit pas être utilisé par d'autres véhicules pour avancer – il doit rester libre afin que les véhicules prioritaires puissent passer à tout moment sans entrave, même si aucun n'est visible pour l'instant.",
+      "it": "La corsia di emergenza non può essere utilizzata da altri veicoli per avanzare – deve restare libera affinché i veicoli di soccorso possano passare in ogni momento senza ostacoli, anche se al momento non se ne vede nessuno.",
+      "en": "The emergency corridor must not be used by other vehicles to get ahead — it must stay clear so emergency vehicles can pass through unhindered at any time, even when none is currently visible.",
+      "pt": "O corredor de emergência não pode ser utilizado por outros veículos para avançar – deve manter-se livre para que os veículos de emergência possam passar a qualquer momento sem obstáculos, mesmo que no momento não se veja nenhum."
     },
     "image": null
   },
@@ -11510,58 +11510,58 @@
     "type": "multiple_choice",
     "points": 1,
     "question": {
-      "de": "Welche minimale Profiltiefe gilt in der Schweiz als gesetzliche Untergrenze für Reifen?",
-      "es": "¿Qué profundidad mínima de dibujo es el límite legal para los neumáticos en Suiza?",
-      "fr": "Quelle profondeur de profil minimale constitue la limite légale pour les pneus en Suisse ?",
-      "it": "Quale profondità minima del battistrada rappresenta il limite legale per gli pneumatici in Svizzera?",
-      "en": "What minimum tread depth is the legal lower limit for tyres in Switzerland?",
-      "pt": "Que profundidade mínima do piso é o limite legal para os pneus na Suíça?"
+      "de": "Ein Reifen hat genug Profiltiefe, aber eine sichtbare Ausbeulung an der Seitenwand. Ist er trotzdem sicher?",
+      "es": "Un neumático tiene suficiente profundidad de dibujo, pero presenta un bulto visible en el flanco. ¿Sigue siendo seguro?",
+      "fr": "Un pneu a un profil suffisant, mais présente une hernie visible sur le flanc. Est-il quand même sûr ?",
+      "it": "Uno pneumatico ha battistrada sufficiente, ma presenta una bolla visibile sul fianco. È comunque sicuro?",
+      "en": "A tyre has enough tread depth, but shows a visible bulge on the sidewall. Is it still safe?",
+      "pt": "Um pneu tem piso suficiente, mas apresenta um alto visível na parede lateral. Continua seguro?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "de": "1,6 mm",
-          "es": "1,6 mm",
-          "fr": "1,6 mm",
-          "it": "1,6 mm",
-          "en": "1.6 mm",
-          "pt": "1,6 mm"
+          "de": "Nein – eine Ausbeulung deutet auf eine beschädigte Karkasse hin, der Reifen muss sofort ersetzt werden, unabhängig vom Profil",
+          "es": "No: un bulto indica una carcasa dañada, hay que sustituir el neumático de inmediato, sin importar el dibujo",
+          "fr": "Non – une hernie indique une carcasse endommagée, le pneu doit être remplacé immédiatement, indépendamment du profil",
+          "it": "No – una bolla indica una carcassa danneggiata, lo pneumatico va sostituito subito, indipendentemente dal battistrada",
+          "en": "No – a bulge indicates a damaged carcass, the tyre must be replaced immediately, regardless of tread depth",
+          "pt": "Não – um alto indica uma carcaça danificada, o pneu tem de ser substituído de imediato, independentemente do piso"
         },
         "correct": true
       },
       {
         "id": "b",
         "text": {
-          "de": "4 mm",
-          "es": "4 mm",
-          "fr": "4 mm",
-          "it": "4 mm",
-          "en": "4 mm",
-          "pt": "4 mm"
+          "de": "Ja, solange die Profiltiefe über 1,6 mm liegt, ist alles in Ordnung",
+          "es": "Sí, mientras la profundidad del dibujo supere 1,6 mm, todo está en orden",
+          "fr": "Oui, tant que le profil dépasse 1,6 mm, tout est en ordre",
+          "it": "Sì, finché il battistrada supera 1,6 mm, va tutto bene",
+          "en": "Yes, as long as the tread depth is above 1.6 mm, everything is fine",
+          "pt": "Sim, desde que o piso ultrapasse 1,6 mm, está tudo bem"
         },
         "correct": false
       },
       {
         "id": "c",
         "text": {
-          "de": "0,5 mm",
-          "es": "0,5 mm",
-          "fr": "0,5 mm",
-          "it": "0,5 mm",
-          "en": "0.5 mm",
-          "pt": "0,5 mm"
+          "de": "Ja, Ausbeulungen sind ein rein optisches Problem ohne Sicherheitsrelevanz",
+          "es": "Sí, los bultos son solo un problema estético sin relevancia para la seguridad",
+          "fr": "Oui, les hernies ne sont qu'un problème esthétique sans incidence sur la sécurité",
+          "it": "Sì, le bolle sono solo un problema estetico senza rilevanza per la sicurezza",
+          "en": "Yes, bulges are purely a cosmetic problem with no safety relevance",
+          "pt": "Sim, os altos são apenas um problema estético sem relevância para a segurança"
         },
         "correct": false
       }
     ],
     "explanation": {
-      "de": "Die gesetzliche Mindestprofiltiefe für Reifen beträgt 1,6 mm; für gute Wintertauglichkeit werden aber deutlich mehr, rund 4 mm, empfohlen.",
-      "es": "La profundidad mínima legal del dibujo de los neumáticos es de 1,6 mm; para un buen rendimiento invernal se recomienda mucho más, unos 4 mm.",
-      "fr": "La profondeur de profil légale minimale des pneus est de 1,6 mm ; pour de bonnes performances hivernales, environ 4 mm sont toutefois recommandés.",
-      "it": "La profondità minima legale del battistrada è di 1,6 mm; per una buona tenuta invernale si raccomandano però molto di più, circa 4 mm.",
-      "en": "The legal minimum tread depth for tyres is 1.6 mm; for good winter performance, however, considerably more – around 4 mm – is recommended.",
-      "pt": "A profundidade mínima legal do piso dos pneus é de 1,6 mm; para um bom desempenho no inverno recomenda-se, contudo, muito mais, cerca de 4 mm."
+      "de": "Eine Ausbeulung an der Seitenwand zeigt eine beschädigte Karkasse (z. B. durch einen Schlagloch-Treffer) und kann jederzeit zum Platzen des Reifens führen — der Reifen muss unabhängig von der Profiltiefe sofort ersetzt werden.",
+      "es": "Un bulto en el flanco indica una carcasa dañada (p. ej. por golpear un bache) y puede provocar el reventón del neumático en cualquier momento; hay que sustituirlo de inmediato, sin importar la profundidad del dibujo.",
+      "fr": "Une hernie sur le flanc indique une carcasse endommagée (p. ex. par un nid-de-poule) et peut provoquer l'éclatement du pneu à tout moment – il doit être remplacé immédiatement, indépendamment du profil.",
+      "it": "Una bolla sul fianco indica una carcassa danneggiata (ad es. per aver colpito una buca) e può causare lo scoppio dello pneumatico in qualsiasi momento – va sostituito subito, indipendentemente dal battistrada.",
+      "en": "A sidewall bulge indicates a damaged carcass (e.g. from hitting a pothole) and can cause the tyre to burst at any time — it must be replaced immediately regardless of tread depth.",
+      "pt": "Um alto na parede lateral indica uma carcaça danificada (por exemplo, por bater num buraco) e pode causar o rebentamento do pneu a qualquer momento – deve ser substituído de imediato, independentemente do piso."
     },
     "image": null
   },
@@ -15840,6 +15840,1246 @@
       "it": "L'inosservanza del principio della cerniera è punita con una multa disciplinare di 100 franchi.",
       "en": "Failure to follow the zipper principle is punished with an on-the-spot fine of CHF 100.",
       "pt": "O incumprimento do princípio do fecho-eclair é punido com uma multa administrativa de 100 francos."
+    },
+    "image": null
+  },
+  {
+    "id": "q255",
+    "category": "both",
+    "topic": "reserverad",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Muss ein Auto in der Schweiz zwingend ein Reserverad oder ein Pannenset mitführen?",
+      "es": "¿Debe llevar obligatoriamente un coche en Suiza una rueda de repuesto o un kit antipinchazos?",
+      "fr": "Une voiture doit-elle obligatoirement emporter une roue de secours ou un kit anti-crevaison en Suisse ?",
+      "it": "Un'auto in Svizzera deve obbligatoriamente avere a bordo una ruota di scorta o un kit antiforatura?",
+      "en": "Must a car in Switzerland carry a spare wheel or a tyre repair kit?",
+      "pt": "Um carro na Suíça tem obrigatoriamente de levar uma roda sobresselente ou um kit antifuros?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, ein Reserverad oder Pannenset ist gesetzlich nicht vorgeschrieben",
+          "es": "No, la ley no exige llevar rueda de repuesto ni kit antipinchazos",
+          "fr": "Non, une roue de secours ou un kit anti-crevaison n'est pas prescrit par la loi",
+          "it": "No, la legge non prescrive una ruota di scorta o un kit antiforatura",
+          "en": "No, a spare wheel or repair kit is not legally required",
+          "pt": "Não, a lei não exige roda sobresselente nem kit antifuros"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, jedes Auto muss zwingend ein vollwertiges Reserverad mitführen",
+          "es": "Sí, todo coche debe llevar obligatoriamente una rueda de repuesto de tamaño normal",
+          "fr": "Oui, chaque voiture doit obligatoirement emporter une roue de secours à taille normale",
+          "it": "Sì, ogni auto deve avere obbligatoriamente una ruota di scorta a grandezza normale",
+          "en": "Yes, every car must carry a full-size spare wheel",
+          "pt": "Sim, todo o carro tem de levar obrigatoriamente uma roda sobresselente normal"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur ein Pannenset reicht nicht aus, es braucht immer ein Reserverad",
+          "es": "Sí, pero un kit antipinchazos no basta, siempre hace falta una rueda de repuesto",
+          "fr": "Oui, mais un kit anti-crevaison seul ne suffit pas, il faut toujours une roue de secours",
+          "it": "Sì, ma un kit antiforatura da solo non basta, serve sempre una ruota di scorta",
+          "en": "Yes, but a repair kit alone is not enough, a spare wheel is always required",
+          "pt": "Sim, mas um kit antifuros sozinho não chega, é sempre necessária uma roda sobresselente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Schweiz gibt es keine gesetzliche Pflicht für ein Reserverad, ein Notrad oder ein Pannenset — aus praktischen Gründen ist es aber sehr sinnvoll, eines mitzuführen.",
+      "es": "En Suiza no existe obligación legal de llevar rueda de repuesto, rueda de emergencia o kit antipinchazos, aunque por motivos prácticos es muy recomendable llevar uno.",
+      "fr": "En Suisse, il n'existe aucune obligation légale de disposer d'une roue de secours, d'une roue de dépannage ou d'un kit anti-crevaison – mais pour des raisons pratiques, il est très utile d'en avoir un.",
+      "it": "In Svizzera non esiste alcun obbligo legale di avere una ruota di scorta, una ruotina di emergenza o un kit antiforatura – per motivi pratici è comunque molto utile averne uno.",
+      "en": "In Switzerland there is no legal requirement for a spare wheel, emergency wheel or repair kit — but for practical reasons it is very useful to carry one.",
+      "pt": "Na Suíça não existe obrigação legal de ter uma roda sobresselente, uma roda de emergência ou um kit antifuros – mas por razões práticas é muito útil levar um."
+    },
+    "image": null
+  },
+  {
+    "id": "q256",
+    "category": "both",
+    "topic": "reserverad",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welches Ausrüstungsstück ist in der Schweiz tatsächlich für jedes Auto gesetzlich vorgeschrieben?",
+      "es": "¿Qué elemento de equipamiento sí es obligatorio por ley en Suiza para todo coche?",
+      "fr": "Quel équipement est effectivement obligatoire par la loi en Suisse pour toute voiture ?",
+      "it": "Quale dotazione è effettivamente obbligatoria per legge in Svizzera per ogni auto?",
+      "en": "Which piece of equipment is actually legally required in Switzerland for every car?",
+      "pt": "Que equipamento é, de facto, exigido por lei na Suíça para todos os carros?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das Pannendreieck",
+          "es": "El triángulo de avería",
+          "fr": "Le triangle de panne",
+          "it": "Il triangolo di segnalazione",
+          "en": "The warning triangle",
+          "pt": "O triângulo de sinalização"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein vollwertiges Reserverad",
+          "es": "Una rueda de repuesto de tamaño normal",
+          "fr": "Une roue de secours à taille normale",
+          "it": "Una ruota di scorta a grandezza normale",
+          "en": "A full-size spare wheel",
+          "pt": "Uma roda sobresselente normal"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ein Verbandskasten",
+          "es": "Un botiquín",
+          "fr": "Une trousse de secours",
+          "it": "Una cassetta di pronto soccorso",
+          "en": "A first-aid kit",
+          "pt": "Um estojo de primeiros socorros"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Von den klassischen Sicherheitsausrüstungen ist in der Schweiz nur das Pannendreieck gesetzlich vorgeschrieben; ein Verbandskasten oder ein Reserverad sind rechtlich keine Pflicht, auch wenn beides empfehlenswert ist.",
+      "es": "De los equipos de seguridad clásicos, en Suiza solo el triángulo de avería es obligatorio por ley; un botiquín o una rueda de repuesto no son legalmente exigibles, aunque ambos son recomendables.",
+      "fr": "Parmi les équipements de sécurité classiques, seul le triangle de panne est légalement obligatoire en Suisse ; une trousse de secours ou une roue de secours ne sont pas juridiquement obligatoires, même si les deux sont recommandées.",
+      "it": "Tra le dotazioni di sicurezza classiche, in Svizzera è obbligatorio per legge solo il triangolo di segnalazione; una cassetta di pronto soccorso o una ruota di scorta non sono un obbligo legale, anche se entrambe sono consigliabili.",
+      "en": "Of the classic safety items, only the warning triangle is legally required in Switzerland; a first-aid kit or a spare wheel are not legal requirements, even though both are advisable.",
+      "pt": "Dos equipamentos de segurança clássicos, na Suíça só o triângulo de sinalização é exigido por lei; um estojo de primeiros socorros ou uma roda sobresselente não são obrigação legal, embora ambos sejam recomendáveis."
+    },
+    "image": null
+  },
+  {
+    "id": "q257",
+    "category": "both",
+    "topic": "reserverad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hast einen Achsschaden und keine Möglichkeit, das Rad selbst zu wechseln, weder mit Reserverad noch mit Pannenset. Was ist der richtige Weg?",
+      "es": "Tienes una avería en el eje y no puedes cambiar la rueda tú mismo, ni con rueda de repuesto ni con kit antipinchazos. ¿Cuál es la forma correcta de actuar?",
+      "fr": "Tu as une panne d'essieu et aucun moyen de changer la roue toi-même, ni avec une roue de secours ni avec un kit anti-crevaison. Quelle est la bonne marche à suivre ?",
+      "it": "Hai un guasto all'assale e non puoi cambiare la ruota da solo, né con la ruota di scorta né con il kit antiforatura. Qual è il modo corretto di agire?",
+      "en": "You have an axle fault and no way to change the wheel yourself, either with a spare wheel or a repair kit. What is the correct course of action?",
+      "pt": "Tens uma avaria no eixo e não tens forma de mudar a roda sozinho, nem com roda sobresselente nem com kit antifuros. Qual é a forma correta de agir?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Pannendreieck aufstellen, Warnblinker ein, und professionelle Pannenhilfe (z. B. Patrouilledienst, Abschleppdienst) rufen",
+          "es": "Colocar el triángulo, encender las luces de emergencia y llamar a asistencia profesional (p. ej. patrulla, grúa)",
+          "fr": "Placer le triangle de panne, allumer les feux de détresse, et appeler une assistance professionnelle (p. ex. patrouille, dépanneuse)",
+          "it": "Mettere il triangolo, accendere le luci di emergenza e chiamare assistenza professionale (ad es. pattuglia, carro attrezzi)",
+          "en": "Set up the warning triangle, switch on the hazard lights, and call professional breakdown assistance (e.g. patrol service, tow truck)",
+          "pt": "Colocar o triângulo, ligar as luzes de emergência e chamar assistência profissional (por exemplo, patrulha, reboque)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Fahrzeug einfach an Ort und Stelle stehen lassen, ohne jede Sicherung",
+          "es": "Dejar el vehículo tal cual, sin ninguna medida de seguridad",
+          "fr": "Laisser simplement le véhicule sur place, sans aucune sécurisation",
+          "it": "Lasciare semplicemente il veicolo lì dov'è, senza alcuna sicurezza",
+          "en": "Just leave the vehicle where it is, without any safety measures",
+          "pt": "Deixar simplesmente o veículo onde está, sem qualquer proteção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Versuchen, mit drei Rädern langsam bis zur nächsten Werkstatt zu fahren",
+          "es": "Intentar llegar despacio a un taller con solo tres ruedas",
+          "fr": "Essayer de rouler lentement jusqu'au prochain garage sur trois roues",
+          "it": "Cercare di raggiungere lentamente la prossima officina con tre ruote",
+          "en": "Try to drive slowly to the nearest garage on three wheels",
+          "pt": "Tentar chegar devagar à oficina mais próxima com apenas três rodas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einem Schaden, der nicht selbst behoben werden kann, ist die Unfallstelle abzusichern (Warnblinker, Pannendreieck) und professionelle Hilfe zu rufen — Weiterfahren auf drei Rädern ist hochgefährlich.",
+      "es": "Ante una avería que no puede repararse por cuenta propia, hay que asegurar el lugar (luces de emergencia, triángulo) y llamar a ayuda profesional; seguir circulando sobre tres ruedas es muy peligroso.",
+      "fr": "En cas de panne que l'on ne peut pas réparer soi-même, il faut sécuriser les lieux (feux de détresse, triangle) et appeler de l'aide professionnelle – continuer à rouler sur trois roues est extrêmement dangereux.",
+      "it": "In caso di guasto che non si può riparare da soli, va messa in sicurezza la zona (luci di emergenza, triangolo) e va chiamato aiuto professionale – proseguire su tre ruote è estremamente pericoloso.",
+      "en": "With a fault you cannot fix yourself, secure the scene (hazard lights, warning triangle) and call for professional help — continuing on three wheels is highly dangerous.",
+      "pt": "Perante uma avaria que não pode ser reparada por conta própria, deve proteger-se o local (luzes de emergência, triângulo) e chamar ajuda profissional – continuar sobre três rodas é altamente perigoso."
+    },
+    "image": null
+  },
+  {
+    "id": "q258",
+    "category": "both",
+    "topic": "reserverad",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum lohnt es sich trotzdem, ein Pannenset oder Reserverad im Auto zu haben, obwohl es keine Pflicht ist?",
+      "es": "¿Por qué merece la pena llevar igualmente un kit antipinchazos o una rueda de repuesto, aunque no sea obligatorio?",
+      "fr": "Pourquoi vaut-il quand même la peine d'avoir un kit anti-crevaison ou une roue de secours, même si ce n'est pas obligatoire ?",
+      "it": "Perché conviene comunque avere un kit antiforatura o una ruota di scorta in auto, anche se non è obbligatorio?",
+      "en": "Why is it still worthwhile to have a repair kit or spare wheel in the car, even though it is not mandatory?",
+      "pt": "Porque vale a pena, mesmo assim, ter um kit antifuros ou uma roda sobresselente no carro, mesmo não sendo obrigatório?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil du damit selbstständig eine Panne beheben und flexibel weiterfahren kannst, ohne auf professionelle Hilfe warten zu müssen",
+          "es": "Porque te permite resolver la avería por tu cuenta y seguir circulando sin tener que esperar ayuda profesional",
+          "fr": "Parce que cela permet de réparer soi-même la panne et de repartir sans devoir attendre une aide professionnelle",
+          "it": "Perché consente di risolvere il guasto da soli e ripartire senza dover attendere assistenza professionale",
+          "en": "Because it lets you fix the breakdown yourself and carry on flexibly without waiting for professional help",
+          "pt": "Porque permite resolver a avaria por conta própria e continuar a viagem sem ter de esperar por assistência profissional"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Weil sonst eine Busse droht",
+          "es": "Porque de lo contrario te arriesgas a una multa",
+          "fr": "Parce que sinon une amende est encourue",
+          "it": "Perché altrimenti rischi una multa",
+          "en": "Because otherwise a fine is threatened",
+          "pt": "Porque, caso contrário, arriscas uma multa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil es sonst keinen gültigen Fahrzeugausweis gibt",
+          "es": "Porque de lo contrario no hay permiso de circulación válido",
+          "fr": "Parce que sinon le permis de circulation n'est pas valable",
+          "it": "Perché altrimenti la licenza di circolazione non è valida",
+          "en": "Because otherwise there is no valid vehicle registration document",
+          "pt": "Porque, caso contrário, não há documento de circulação válido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auch ohne gesetzliche Pflicht ist ein Reserverad oder Pannenset praktisch sehr nützlich, um bei einer Reifenpanne rasch und selbstständig weiterfahren zu können.",
+      "es": "Aunque no sea obligatorio por ley, una rueda de repuesto o un kit antipinchazos son muy útiles en la práctica para poder seguir circulando rápido y por cuenta propia tras un pinchazo.",
+      "fr": "Même sans obligation légale, une roue de secours ou un kit anti-crevaison sont très utiles en pratique pour pouvoir repartir rapidement et par soi-même après une crevaison.",
+      "it": "Anche senza obbligo legale, una ruota di scorta o un kit antiforatura sono molto utili nella pratica per poter ripartire rapidamente e da soli dopo una foratura.",
+      "en": "Even without a legal requirement, a spare wheel or repair kit is practically very useful for getting back on the road quickly and independently after a puncture.",
+      "pt": "Mesmo sem obrigação legal, uma roda sobresselente ou um kit antifuros são muito úteis na prática para poder continuar rapidamente e por conta própria depois de um furo."
+    },
+    "image": null
+  },
+  {
+    "id": "q259",
+    "category": "both",
+    "topic": "fahrzeugverkauf",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du verkaufst dein Auto privat. Wie viel Zeit hat die Käuferin oder der Käufer, um den Halterwechsel vorzunehmen?",
+      "es": "Vendes tu coche de forma particular. ¿Cuánto tiempo tiene el comprador para realizar el cambio de titular?",
+      "fr": "Tu vends ta voiture entre particuliers. Combien de temps l'acheteur a-t-il pour effectuer le changement de détenteur ?",
+      "it": "Vendi la tua auto privatamente. Quanto tempo ha l'acquirente per effettuare il cambio di detentore?",
+      "en": "You sell your car privately. How much time does the buyer have to complete the change of ownership?",
+      "pt": "Vendes o teu carro em particular. Quanto tempo tem o comprador para efetuar a mudança de titular?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "14 Tage ab dem Erwerb",
+          "es": "14 días desde la compra",
+          "fr": "14 jours à compter de l'acquisition",
+          "it": "14 giorni dall'acquisto",
+          "en": "14 days from the purchase",
+          "pt": "14 dias a partir da compra"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "6 Monate ab dem Erwerb",
+          "es": "6 meses desde la compra",
+          "fr": "6 mois à compter de l'acquisition",
+          "it": "6 mesi dall'acquisto",
+          "en": "6 months from the purchase",
+          "pt": "6 meses a partir da compra"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keine Frist",
+          "es": "No hay ningún plazo",
+          "fr": "Il n'y a aucun délai",
+          "it": "Non c'è alcun termine",
+          "en": "There is no deadline",
+          "pt": "Não há qualquer prazo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach dem Kauf hat die neue Halterin bzw. der neue Halter 14 Tage Zeit, um den Halterwechsel beim Strassenverkehrsamt vorzunehmen; nach Fristablauf drohen Sanktionen.",
+      "es": "Tras la compra, el nuevo titular tiene 14 días para realizar el cambio de titularidad en el servicio de tráfico; una vez vencido el plazo, se arriesga a sanciones.",
+      "fr": "Après l'achat, le nouveau détenteur a 14 jours pour effectuer le changement de détenteur auprès de l'office de la circulation routière ; passé ce délai, des sanctions sont possibles.",
+      "it": "Dopo l'acquisto, il nuovo detentore ha 14 giorni di tempo per effettuare il cambio di detentore presso l'ufficio della circolazione; scaduto il termine si rischiano sanzioni.",
+      "en": "After the purchase, the new owner has 14 days to complete the change of ownership at the vehicle registration office; sanctions are possible once the deadline passes.",
+      "pt": "Depois da compra, o novo titular tem 14 dias para efetuar a mudança de titular no serviço de trânsito; ultrapassado o prazo, arriscam-se sanções."
+    },
+    "image": null
+  },
+  {
+    "id": "q260",
+    "category": "both",
+    "topic": "fahrzeugverkauf",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was musst du als Verkäufer eines Autos unbedingt tun, um dich von der Haftung für das Fahrzeug zu befreien?",
+      "es": "¿Qué debes hacer sin falta como vendedor de un coche para quedar libre de responsabilidad por el vehículo?",
+      "fr": "Que dois-tu absolument faire en tant que vendeur d'une voiture pour te libérer de la responsabilité du véhicule ?",
+      "it": "Cosa devi assolutamente fare come venditore di un'auto per essere sollevato dalla responsabilità del veicolo?",
+      "en": "What must you as the seller of a car absolutely do to be released from liability for the vehicle?",
+      "pt": "O que tens absolutamente de fazer como vendedor de um carro para ficares livre da responsabilidade pelo veículo?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den Verkauf mit dem kantonalen Formular beim Strassenverkehrsamt melden",
+          "es": "Notificar la venta al servicio de tráfico con el formulario cantonal",
+          "fr": "Signaler la vente à l'office de la circulation routière avec le formulaire cantonal",
+          "it": "Segnalare la vendita all'ufficio della circolazione con il modulo cantonale",
+          "en": "Report the sale to the vehicle registration office using the cantonal form",
+          "pt": "Comunicar a venda ao serviço de trânsito com o formulário cantonal"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, die Haftung geht automatisch mit der Übergabe der Schlüssel über",
+          "es": "Nada, la responsabilidad pasa automáticamente al entregar las llaves",
+          "fr": "Rien, la responsabilité passe automatiquement avec la remise des clés",
+          "it": "Niente, la responsabilità passa automaticamente con la consegna delle chiavi",
+          "en": "Nothing, liability automatically transfers when you hand over the keys",
+          "pt": "Nada, a responsabilidade passa automaticamente com a entrega das chaves"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine informelle Nachricht an die Käuferin oder den Käufer schicken",
+          "es": "Solo enviar un mensaje informal al comprador",
+          "fr": "Envoyer seulement un message informel à l'acheteur",
+          "it": "Inviare solo un messaggio informale all'acquirente",
+          "en": "Only send an informal message to the buyer",
+          "pt": "Enviar apenas uma mensagem informal ao comprador"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der Verkäufer muss den Verkauf mit dem entsprechenden kantonalen Formular offiziell beim Strassenverkehrsamt melden, um sich rechtlich von der Haftung für das Fahrzeug zu befreien.",
+      "es": "El vendedor debe notificar oficialmente la venta al servicio de tráfico mediante el formulario cantonal correspondiente, para quedar legalmente libre de responsabilidad por el vehículo.",
+      "fr": "Le vendeur doit signaler officiellement la vente à l'office de la circulation routière au moyen du formulaire cantonal correspondant, afin d'être juridiquement libéré de la responsabilité du véhicule.",
+      "it": "Il venditore deve segnalare ufficialmente la vendita all'ufficio della circolazione tramite l'apposito modulo cantonale, per essere legalmente sollevato dalla responsabilità del veicolo.",
+      "en": "The seller must officially report the sale to the vehicle registration office using the relevant cantonal form, in order to be legally released from liability for the vehicle.",
+      "pt": "O vendedor deve comunicar oficialmente a venda ao serviço de trânsito através do formulário cantonal correspondente, para ficar legalmente livre da responsabilidade pelo veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q261",
+    "category": "both",
+    "topic": "fahrzeugverkauf",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was musst du dem Käufer beim Verkauf deines Autos zusammen mit dem Fahrzeug übergeben?",
+      "es": "¿Qué debes entregar al comprador junto con el vehículo al vender tu coche?",
+      "fr": "Que dois-tu remettre à l'acheteur en même temps que le véhicule lors de la vente de ta voiture ?",
+      "it": "Cosa devi consegnare all'acquirente insieme al veicolo quando vendi la tua auto?",
+      "en": "What must you hand over to the buyer together with the vehicle when you sell your car?",
+      "pt": "O que tens de entregar ao comprador junto com o veículo ao vender o teu carro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Den (durch den Verkauf ungültig gewordenen) Fahrzeugausweis im Original",
+          "es": "El permiso de circulación original (que queda inválido con la venta)",
+          "fr": "Le permis de circulation original (devenu invalide par la vente)",
+          "it": "La licenza di circolazione originale (divenuta non valida con la vendita)",
+          "en": "The original vehicle registration document (which becomes invalid upon sale)",
+          "pt": "O documento de circulação original (que fica inválido com a venda)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur eine Kopie des Fahrzeugausweises reicht aus",
+          "es": "Basta con una copia del permiso de circulación",
+          "fr": "Une simple copie du permis de circulation suffit",
+          "it": "Basta una copia della licenza di circolazione",
+          "en": "Only a copy of the vehicle registration document is enough",
+          "pt": "Basta uma cópia do documento de circulação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Fahrzeugausweis bleibt grundsätzlich beim Verkäufer",
+          "es": "El permiso de circulación se queda en principio con el vendedor",
+          "fr": "Le permis de circulation reste en principe chez le vendeur",
+          "it": "La licenza di circolazione resta in linea di massima presso il venditore",
+          "en": "The vehicle registration document generally stays with the seller",
+          "pt": "O documento de circulação fica, em princípio, com o vendedor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Verkauf ist der (ungültig gewordene) Original-Fahrzeugausweis der Käuferin oder dem Käufer zu übergeben; diese oder dieser benötigt ihn für den Halterwechsel.",
+      "es": "Al vender el coche hay que entregar al comprador el permiso de circulación original (que queda inválido); lo necesitará para realizar el cambio de titular.",
+      "fr": "Lors de la vente, le permis de circulation original (devenu invalide) doit être remis à l'acheteur, qui en a besoin pour le changement de détenteur.",
+      "it": "Con la vendita, la licenza di circolazione originale (divenuta non valida) va consegnata all'acquirente, che ne ha bisogno per il cambio di detentore.",
+      "en": "When selling, the original (now invalid) vehicle registration document must be handed to the buyer, who needs it for the change of ownership.",
+      "pt": "Na venda, o documento de circulação original (que ficou inválido) deve ser entregue ao comprador, que precisa dele para a mudança de titular."
+    },
+    "image": null
+  },
+  {
+    "id": "q262",
+    "category": "both",
+    "topic": "fahrzeugverkauf",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Kannst du das Kontrollschild deines verkauften Autos behalten?",
+      "es": "¿Puedes quedarte con la matrícula de tu coche vendido?",
+      "fr": "Peux-tu conserver la plaque d'immatriculation de ta voiture vendue ?",
+      "it": "Puoi tenere la targa della tua auto venduta?",
+      "en": "Can you keep the number plate of your sold car?",
+      "pt": "Podes ficar com a matrícula do teu carro vendido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, wenn du innerhalb von 14 Tagen ein neues Fahrzeug damit anmeldest",
+          "es": "Sí, si en un plazo de 14 días matriculas un nuevo vehículo con ella",
+          "fr": "Oui, si tu immatricules un nouveau véhicule avec dans les 14 jours",
+          "it": "Sì, se entro 14 giorni immatricoli con essa un nuovo veicolo",
+          "en": "Yes, if you register a new vehicle with it within 14 days",
+          "pt": "Sim, se num prazo de 14 dias matricularas um novo veículo com ela"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, das Kontrollschild muss beim Verkauf immer sofort zurückgegeben werden",
+          "es": "No, la matrícula debe devolverse siempre de inmediato al vender",
+          "fr": "Non, la plaque doit toujours être restituée immédiatement lors de la vente",
+          "it": "No, la targa va sempre restituita subito al momento della vendita",
+          "en": "No, the plate must always be returned immediately upon sale",
+          "pt": "Não, a matrícula deve ser sempre devolvida de imediato na venda"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, uneingeschränkt und für beliebig lange Zeit",
+          "es": "Sí, sin restricciones y durante el tiempo que quieras",
+          "fr": "Oui, sans restriction et aussi longtemps que tu veux",
+          "it": "Sì, senza restrizioni e per un tempo qualsiasi",
+          "en": "Yes, without restriction and for as long as you like",
+          "pt": "Sim, sem restrições e pelo tempo que quiseres"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Grundsätzlich musst du das Kontrollschild bei der Abmeldung zurückgeben; eine Ausnahme besteht, wenn du innerhalb von 14 Tagen ein neues Fahrzeug damit anmeldest.",
+      "es": "Por regla general hay que devolver la matrícula al dar de baja el vehículo; existe una excepción si matriculas un nuevo vehículo con ella dentro de los 14 días.",
+      "fr": "En principe, la plaque doit être restituée lors de la mise hors circulation ; il existe une exception si tu immatricules un nouveau véhicule avec dans les 14 jours.",
+      "it": "In linea di massima la targa va restituita al momento della radiazione; c'è un'eccezione se entro 14 giorni immatricoli con essa un nuovo veicolo.",
+      "en": "In principle you must return the number plate when deregistering; an exception applies if you register a new vehicle with it within 14 days.",
+      "pt": "Em princípio, a matrícula deve ser devolvida no cancelamento do registo; há uma exceção se, num prazo de 14 dias, matricularas um novo veículo com ela."
+    },
+    "image": null
+  },
+  {
+    "id": "q263",
+    "category": "both",
+    "topic": "langsame_fahrzeuge",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein Fahrzeug vor dir trägt hinten eine rot-gelb geränderte Dreieckstafel mit der Aufschrift «langsame Fahrzeuge». Was bedeutet das?",
+      "es": "Un vehículo delante de ti lleva atrás una placa triangular con borde rojo y amarillo que dice «vehículos lentos». ¿Qué significa?",
+      "fr": "Un véhicule devant toi porte à l'arrière un panneau triangulaire à bordure rouge et jaune avec l'inscription « véhicules lents ». Que signifie-t-il ?",
+      "it": "Un veicolo davanti a te porta dietro un cartello triangolare con bordo rosso e giallo con la scritta «veicoli lenti». Cosa significa?",
+      "en": "A vehicle ahead of you carries a red-and-yellow-bordered triangular sign at the rear reading \"slow-moving vehicles\". What does that mean?",
+      "pt": "Um veículo à tua frente tem atrás um sinal triangular com bordo vermelho e amarelo com a inscrição «veículos lentos». O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das Fahrzeug darf technisch höchstens 30 km/h fahren, du musst mit sehr niedrigem Tempo rechnen",
+          "es": "El vehículo, técnicamente, no puede superar los 30 km/h; debes contar con una velocidad muy baja",
+          "fr": "Le véhicule ne peut techniquement pas dépasser 30 km/h, tu dois t'attendre à une vitesse très faible",
+          "it": "Il veicolo tecnicamente non può superare i 30 km/h, devi aspettarti una velocità molto bassa",
+          "en": "The vehicle is technically limited to a maximum of 30 km/h, expect a very low speed",
+          "pt": "O veículo, tecnicamente, não pode exceder 30 km/h, deves contar com uma velocidade muito baixa"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Fahrzeug hat Vortritt vor allen anderen Verkehrsteilnehmern",
+          "es": "El vehículo tiene prioridad sobre todos los demás usuarios de la vía",
+          "fr": "Le véhicule a la priorité sur tous les autres usagers",
+          "it": "Il veicolo ha la precedenza su tutti gli altri utenti della strada",
+          "en": "The vehicle has priority over all other road users",
+          "pt": "O veículo tem prioridade sobre todos os outros utentes da via"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Fahrzeug transportiert Gefahrgut",
+          "es": "El vehículo transporta mercancías peligrosas",
+          "fr": "Le véhicule transporte des marchandises dangereuses",
+          "it": "Il veicolo trasporta merci pericolose",
+          "en": "The vehicle is carrying dangerous goods",
+          "pt": "O veículo transporta mercadorias perigosas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Warntafel für langsame Fahrzeuge kennzeichnet Fahrzeuge, die technisch höchstens 30 km/h erreichen (z. B. bestimmte landwirtschaftliche Maschinen) — andere Verkehrsteilnehmer müssen mit sehr niedrigem Tempo rechnen.",
+      "es": "La placa de aviso de vehículos lentos identifica a vehículos que técnicamente no superan los 30 km/h (p. ej. ciertas máquinas agrícolas); los demás usuarios deben contar con una velocidad muy baja.",
+      "fr": "Le panneau d'avertissement pour véhicules lents signale des véhicules techniquement limités à 30 km/h (p. ex. certaines machines agricoles) – les autres usagers doivent s'attendre à une vitesse très faible.",
+      "it": "Il cartello di avvertimento per veicoli lenti segnala veicoli tecnicamente limitati a 30 km/h (ad es. alcune macchine agricole) – gli altri utenti devono aspettarsi una velocità molto bassa.",
+      "en": "The slow-vehicle warning sign marks vehicles technically limited to 30 km/h (e.g. certain agricultural machines) — other road users should expect a very low speed.",
+      "pt": "A placa de aviso de veículos lentos identifica veículos tecnicamente limitados a 30 km/h (por exemplo, certas máquinas agrícolas) – os outros utentes devem contar com uma velocidade muito baixa."
+    },
+    "image": null
+  },
+  {
+    "id": "q264",
+    "category": "both",
+    "topic": "langsame_fahrzeuge",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie verhältst du dich taktisch richtig hinter einem als «langsames Fahrzeug» gekennzeichneten Fahrzeug?",
+      "es": "¿Cómo actúas de forma táctica correcta detrás de un vehículo marcado como «vehículo lento»?",
+      "fr": "Comment te comportes-tu tactiquement de façon correcte derrière un véhicule signalé comme « véhicule lent » ?",
+      "it": "Come ti comporti tatticamente in modo corretto dietro un veicolo segnalato come «veicolo lento»?",
+      "en": "How do you behave tactically correctly behind a vehicle marked as a \"slow-moving vehicle\"?",
+      "pt": "Como te comportas taticamente de forma correta atrás de um veículo assinalado como «veículo lento»?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Grösseren Abstand halten und nur überholen, wenn die Strecke wirklich frei und übersichtlich ist",
+          "es": "Mantener mayor distancia y adelantar solo cuando el tramo esté realmente libre y con buena visibilidad",
+          "fr": "Garder une plus grande distance et ne dépasser que si le tronçon est vraiment dégagé et bien visible",
+          "it": "Tenere una distanza maggiore e sorpassare solo se il tratto è davvero libero e con buona visibilità",
+          "en": "Keep a bigger distance and only overtake when the stretch is genuinely clear and offers good visibility",
+          "pt": "Manter maior distância e só ultrapassar quando o troço estiver realmente livre e com boa visibilidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sofort dicht auffahren und hupen, damit es an den Rand fährt",
+          "es": "Pegarte de inmediato y tocar el claxon para que se aparte hacia el borde",
+          "fr": "Se coller immédiatement et klaxonner pour qu'il se pousse sur le bord",
+          "it": "Attaccarsi subito e suonare il clacson perché si sposti sul bordo",
+          "en": "Immediately tailgate and honk so it moves to the side",
+          "pt": "Colar-te de imediato e buzinar para que se desvie para a berma"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Blind überholen, weil das Fahrzeug ohnehin sehr langsam ist",
+          "es": "Adelantar sin visibilidad, porque el vehículo ya es muy lento de por sí",
+          "fr": "Dépasser à l'aveugle, puisque le véhicule est de toute façon très lent",
+          "it": "Sorpassare alla cieca, tanto il veicolo è comunque molto lento",
+          "en": "Overtake blindly, since the vehicle is very slow anyway",
+          "pt": "Ultrapassar às cegas, já que o veículo é de qualquer forma muito lento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wegen der grossen Geschwindigkeitsdifferenz braucht es beim Überholen besonders viel Übersicht und Platz — ungeduldiges dichtes Auffahren oder blindes Überholen sind gefährlich.",
+      "es": "Debido a la gran diferencia de velocidad, adelantar exige especial visibilidad y espacio; pegarse con impaciencia o adelantar sin ver son peligrosos.",
+      "fr": "En raison de la grande différence de vitesse, le dépassement exige beaucoup de visibilité et de place – coller par impatience ou dépasser à l'aveugle sont dangereux.",
+      "it": "A causa della grande differenza di velocità, il sorpasso richiede particolare visuale e spazio – attaccarsi con impazienza o sorpassare alla cieca sono pericolosi.",
+      "en": "Because of the large speed difference, overtaking needs especially good visibility and space — impatient tailgating or blind overtaking are dangerous.",
+      "pt": "Devido à grande diferença de velocidade, a ultrapassagem exige especial visibilidade e espaço – colar-se com impaciência ou ultrapassar às cegas são perigosos."
+    },
+    "image": null
+  },
+  {
+    "id": "q265",
+    "category": "both",
+    "topic": "langsame_fahrzeuge",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was ist der Hauptzweck der Warntafel für langsame Fahrzeuge?",
+      "es": "¿Cuál es el propósito principal de la placa de aviso de vehículos lentos?",
+      "fr": "Quel est le but principal du panneau d'avertissement pour véhicules lents ?",
+      "it": "Qual è lo scopo principale del cartello di avvertimento per veicoli lenti?",
+      "en": "What is the main purpose of the slow-vehicle warning sign?",
+      "pt": "Qual é o principal objetivo da placa de aviso de veículos lentos?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Andere Verkehrsteilnehmer frühzeitig vor der grossen Geschwindigkeitsdifferenz zu warnen",
+          "es": "Avisar con antelación a los demás usuarios de la gran diferencia de velocidad",
+          "fr": "Avertir tôt les autres usagers de la grande différence de vitesse",
+          "it": "Avvertire per tempo gli altri utenti della grande differenza di velocità",
+          "en": "To warn other road users early about the large speed difference",
+          "pt": "Avisar antecipadamente os outros utentes da grande diferença de velocidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Ladung des Fahrzeugs zu markieren",
+          "es": "Marcar la carga del vehículo",
+          "fr": "Signaler le chargement du véhicule",
+          "it": "Segnalare il carico del veicolo",
+          "en": "To mark the vehicle's load",
+          "pt": "Assinalar a carga do veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Fahrtrichtung des Fahrzeugs anzuzeigen",
+          "es": "Indicar la dirección de marcha del vehículo",
+          "fr": "Indiquer le sens de marche du véhicule",
+          "it": "Indicare la direzione di marcia del veicolo",
+          "en": "To indicate the vehicle's direction of travel",
+          "pt": "Indicar o sentido de marcha do veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Warntafel warnt frühzeitig vor Fahrzeugen, die deutlich langsamer als der übrige Verkehr unterwegs sind, damit sich andere rechtzeitig auf ein sicheres Überholen oder Abbremsen einstellen können.",
+      "es": "La placa avisa con antelación de vehículos que circulan mucho más despacio que el resto del tráfico, para que los demás puedan prepararse a tiempo para frenar o adelantar con seguridad.",
+      "fr": "Le panneau avertit tôt des véhicules circulant nettement plus lentement que le reste du trafic, afin que les autres puissent s'adapter à temps pour freiner ou dépasser en toute sécurité.",
+      "it": "Il cartello avverte per tempo di veicoli che viaggiano molto più lentamente del resto del traffico, affinché gli altri possano prepararsi in tempo a frenare o sorpassare in sicurezza.",
+      "en": "The sign gives early warning of vehicles travelling much slower than the rest of traffic, so others can adjust in time to brake or overtake safely.",
+      "pt": "A placa avisa antecipadamente de veículos que circulam muito mais devagar do que o resto do trânsito, para que os outros se possam preparar a tempo para travar ou ultrapassar em segurança."
+    },
+    "image": null
+  },
+  {
+    "id": "q266",
+    "category": "both",
+    "topic": "langsame_fahrzeuge",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer kurvenreichen Landstrasse fährst du länger hinter einem langsamen, als solches gekennzeichneten Fahrzeug. Was ist eine gute Taktik?",
+      "es": "En una carretera rural con muchas curvas circulas un buen rato detrás de un vehículo lento así señalizado. ¿Cuál es una buena táctica?",
+      "fr": "Sur une route de campagne sinueuse, tu roules longtemps derrière un véhicule lent ainsi signalé. Quelle est une bonne tactique ?",
+      "it": "Su una strada extraurbana tortuosa, viaggi a lungo dietro un veicolo lento così segnalato. Qual è una buona tattica?",
+      "en": "On a winding country road, you drive for a while behind a vehicle marked as slow-moving. What is a good tactic?",
+      "pt": "Numa estrada rural sinuosa, segues durante algum tempo atrás de um veículo lento assim assinalado. Qual é uma boa tática?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Geduldig bleiben, Reserve einplanen und erst bei guter Übersicht überholen, statt unnötiges Risiko einzugehen",
+          "es": "Mantener la paciencia, dejar margen y adelantar solo con buena visibilidad, en vez de correr riesgos innecesarios",
+          "fr": "Rester patient, prévoir une marge, et ne dépasser qu'avec une bonne visibilité, plutôt que de prendre un risque inutile",
+          "it": "Restare pazienti, prevedere un margine e sorpassare solo con buona visuale, invece di correre rischi inutili",
+          "en": "Stay patient, build in a margin, and only overtake with good visibility, instead of taking unnecessary risks",
+          "pt": "Manter a paciência, prever uma margem e só ultrapassar com boa visibilidade, em vez de correr riscos desnecessários"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf der Gegenfahrbahn vorausfahren, um Zeit zu sparen, auch bei unklarer Sicht",
+          "es": "Adelantar por el carril contrario para ganar tiempo, aunque la visibilidad no sea clara",
+          "fr": "Doubler sur la voie opposée pour gagner du temps, même en cas de visibilité incertaine",
+          "it": "Sorpassare sulla corsia opposta per guadagnare tempo, anche con visibilità incerta",
+          "en": "Overtake into the oncoming lane to save time, even with unclear visibility",
+          "pt": "Ultrapassar pela faixa contrária para ganhar tempo, mesmo com visibilidade incerta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das langsame Fahrzeug so lange bedrängen, bis es anhält",
+          "es": "Presionar al vehículo lento hasta que se detenga",
+          "fr": "Talonner le véhicule lent jusqu'à ce qu'il s'arrête",
+          "it": "Incalzare il veicolo lento finché non si ferma",
+          "en": "Pressure the slow vehicle until it stops",
+          "pt": "Pressionar o veículo lento até que pare"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein paar Minuten Geduld hinter einem langsamen Fahrzeug sind ungefährlich; ein riskantes Überholmanöver bei unklarer Sicht kann tödlich enden — Reserve einplanen gehört zur guten Verkehrstaktik.",
+      "es": "Unos minutos de paciencia detrás de un vehículo lento no son peligrosos; un adelantamiento arriesgado con visibilidad incierta puede acabar en tragedia; dejar margen forma parte de una buena táctica de conducción.",
+      "fr": "Quelques minutes de patience derrière un véhicule lent ne présentent aucun danger ; une manœuvre de dépassement risquée avec une visibilité incertaine peut être mortelle – prévoir une marge fait partie d'une bonne tactique de conduite.",
+      "it": "Qualche minuto di pazienza dietro un veicolo lento non è pericoloso; un sorpasso rischioso con visibilità incerta può risultare fatale – prevedere un margine fa parte di una buona tattica di guida.",
+      "en": "A few minutes of patience behind a slow vehicle is not dangerous; a risky overtaking manoeuvre with unclear visibility can be fatal — building in a margin is part of good driving tactics.",
+      "pt": "Uns minutos de paciência atrás de um veículo lento não são perigosos; uma manobra de ultrapassagem arriscada com visibilidade incerta pode ser fatal – prever uma margem faz parte de uma boa tática de condução."
+    },
+    "image": null
+  },
+  {
+    "id": "q267",
+    "category": "both",
+    "topic": "militaerkolonne",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du triffst auf eine Militärkolonne, die als geschlossener Verband unterwegs ist. Darfst du dich mit deinem Auto zwischen die Fahrzeuge der Kolonne einreihen?",
+      "es": "Te cruzas con un convoy militar que circula como formación cerrada. ¿Puedes colarte con tu coche entre los vehículos del convoy?",
+      "fr": "Tu croises un convoi militaire circulant en formation groupée. Peux-tu t'insérer avec ta voiture entre les véhicules du convoi ?",
+      "it": "Incontri un convoglio militare che viaggia come formazione compatta. Puoi inserirti con la tua auto tra i veicoli del convoglio?",
+      "en": "You encounter a military convoy travelling as a closed formation. May you slot your car in between the convoy's vehicles?",
+      "pt": "Encontras um comboio militar que circula como formação fechada. Podes inserir o teu carro entre os veículos do comboio?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, eine Militärkolonne gilt als ein zusammenhängender Verband und darf nicht durch andere Fahrzeuge unterbrochen werden",
+          "es": "No, un convoy militar se considera una formación unida y no puede ser interrumpido por otros vehículos",
+          "fr": "Non, un convoi militaire est considéré comme une formation unie et ne doit pas être interrompu par d'autres véhicules",
+          "it": "No, un convoglio militare è considerato una formazione unita e non deve essere interrotto da altri veicoli",
+          "en": "No, a military convoy counts as one connected formation and must not be interrupted by other vehicles",
+          "pt": "Não, um comboio militar é considerado uma formação unida e não pode ser interrompido por outros veículos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist problemlos erlaubt, solange genug Abstand zum nächsten Fahrzeug bleibt",
+          "es": "Sí, está perfectamente permitido siempre que quede suficiente distancia con el siguiente vehículo",
+          "fr": "Oui, c'est tout à fait autorisé tant qu'il reste assez de distance avec le véhicule suivant",
+          "it": "Sì, è del tutto consentito purché resti sufficiente distanza dal veicolo successivo",
+          "en": "Yes, that is fine as long as enough distance remains to the next vehicle",
+          "pt": "Sim, isso é perfeitamente permitido desde que fique distância suficiente para o veículo seguinte"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur wenn du schneller fährst als die Kolonne",
+          "es": "Sí, pero solo si circulas más rápido que el convoy",
+          "fr": "Oui, mais seulement si tu roules plus vite que le convoi",
+          "it": "Sì, ma solo se viaggi più veloce del convoglio",
+          "en": "Yes, but only if you drive faster than the convoy",
+          "pt": "Sim, mas só se conduzires mais depressa do que o comboio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Eine Militärkolonne bewegt sich wie ein einziger grosser Verband; sie darf durch andere Verkehrsteilnehmende nicht unterbrochen oder auseinandergerissen werden.",
+      "es": "Un convoy militar se desplaza como una única gran formación; los demás usuarios de la vía no pueden interrumpirlo ni separarlo.",
+      "fr": "Un convoi militaire se déplace comme une seule grande formation ; il ne doit pas être interrompu ni scindé par d'autres usagers.",
+      "it": "Un convoglio militare si muove come un'unica grande formazione; non deve essere interrotto né separato da altri utenti della strada.",
+      "en": "A military convoy moves as a single large formation; it must not be interrupted or split apart by other road users.",
+      "pt": "Um comboio militar desloca-se como uma única grande formação; não pode ser interrompido nem separado por outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q268",
+    "category": "both",
+    "topic": "militaerkolonne",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Woran erkennst du eine Militärkolonne der Schweizer Armee auf der Strasse?",
+      "es": "¿Cómo reconoces en la carretera un convoy militar del Ejército suizo?",
+      "fr": "Comment reconnais-tu sur la route un convoi militaire de l'armée suisse ?",
+      "it": "Come riconosci sulla strada un convoglio militare dell'esercito svizzero?",
+      "en": "How do you recognise a Swiss Army military convoy on the road?",
+      "pt": "Como reconheces na estrada um comboio militar do exército suíço?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "An blauen Flaggen an der Fahrerseite aller Fahrzeuge ausser dem letzten, das eine grüne Flagge trägt",
+          "es": "Por banderas azules en el lado del conductor de todos los vehículos salvo el último, que lleva una bandera verde",
+          "fr": "À des drapeaux bleus côté conducteur sur tous les véhicules sauf le dernier, qui porte un drapeau vert",
+          "it": "Da bandiere blu sul lato guida di tutti i veicoli tranne l'ultimo, che porta una bandiera verde",
+          "en": "By blue flags on the driver's side of all vehicles except the last, which carries a green flag",
+          "pt": "Por bandeiras azuis do lado do condutor em todos os veículos, exceto o último, que tem uma bandeira verde"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "An durchgehend roten Blinklichtern auf dem Fahrzeugdach",
+          "es": "Por luces intermitentes rojas continuas en el techo del vehículo",
+          "fr": "À des feux clignotants rouges continus sur le toit du véhicule",
+          "it": "Da luci lampeggianti rosse continue sul tetto del veicolo",
+          "en": "By continuous red flashing lights on the vehicle roof",
+          "pt": "Por luzes intermitentes vermelhas contínuas no teto do veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "An gar keinem besonderen äusseren Merkmal",
+          "es": "No tiene ningún distintivo externo especial",
+          "fr": "À aucun signe extérieur particulier",
+          "it": "Da nessun segno distintivo esterno particolare",
+          "en": "By no special outward feature at all",
+          "pt": "Por nenhum sinal exterior especial"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fahrzeuge einer Militärkolonne tragen an der Fahrerseite eine blaue Flagge, ausser dem letzten Fahrzeug der Kolonne, das mit einer grünen Flagge das Ende markiert.",
+      "es": "Los vehículos de un convoy militar llevan una bandera azul en el lado del conductor, salvo el último vehículo del convoy, que marca el final con una bandera verde.",
+      "fr": "Les véhicules d'un convoi militaire portent un drapeau bleu côté conducteur, sauf le dernier véhicule du convoi, qui marque la fin avec un drapeau vert.",
+      "it": "I veicoli di un convoglio militare portano una bandiera blu sul lato guida, tranne l'ultimo veicolo del convoglio, che segna la fine con una bandiera verde.",
+      "en": "Vehicles in a military convoy carry a blue flag on the driver's side, except for the last vehicle in the convoy, which marks the end with a green flag.",
+      "pt": "Os veículos de um comboio militar têm uma bandeira azul do lado do condutor, exceto o último veículo do comboio, que assinala o fim com uma bandeira verde."
+    },
+    "image": null
+  },
+  {
+    "id": "q269",
+    "category": "both",
+    "topic": "militaerkolonne",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welche Verordnung regelt in der Schweiz den militärischen Strassenverkehr, unter anderem den Umgang mit Kolonnen?",
+      "es": "¿Qué reglamento regula en Suiza el tráfico rodado militar, entre otras cosas el trato de los convoyes?",
+      "fr": "Quelle ordonnance régit en Suisse la circulation routière militaire, notamment la gestion des convois ?",
+      "it": "Quale ordinanza disciplina in Svizzera la circolazione stradale militare, tra l'altro la gestione dei convogli?",
+      "en": "Which ordinance regulates military road traffic in Switzerland, including the handling of convoys?",
+      "pt": "Que regulamento disciplina na Suíça o trânsito rodoviário militar, entre outras coisas o tratamento de comboios?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Verordnung über den militärischen Strassenverkehr (VMSV)",
+          "es": "El Reglamento sobre la circulación militar por carretera (VMSV)",
+          "fr": "L'ordonnance sur la circulation routière militaire (OCRM)",
+          "it": "L'ordinanza sulla circolazione stradale militare (OCSM)",
+          "en": "The Ordinance on Military Road Traffic (VMSV)",
+          "pt": "O Regulamento sobre o Trânsito Rodoviário Militar (VMSV)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Verkehrsregelnverordnung (VRV) allein, ohne Sonderregeln",
+          "es": "Solo la VRV, sin normas especiales",
+          "fr": "L'OCR seule, sans règles particulières",
+          "it": "Solo l'ONC, senza norme particolari",
+          "en": "The VRV alone, with no special rules",
+          "pt": "Só o VRV, sem regras especiais"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt dafür überhaupt keine eigene Verordnung",
+          "es": "No existe ningún reglamento propio para ello",
+          "fr": "Il n'existe aucune ordonnance propre à ce sujet",
+          "it": "Non esiste alcuna ordinanza propria in materia",
+          "en": "There is no dedicated ordinance for this at all",
+          "pt": "Não existe qualquer regulamento próprio para isso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Verordnung über den militärischen Strassenverkehr (VMSV) enthält Sonderregeln für Armeefahrzeuge, unter anderem zum Verhalten bei Kolonnenfahrten.",
+      "es": "El Reglamento sobre la circulación militar por carretera (VMSV) contiene normas especiales para los vehículos del ejército, entre ellas el comportamiento en los desplazamientos en convoy.",
+      "fr": "L'ordonnance sur la circulation routière militaire (OCRM) contient des règles particulières pour les véhicules de l'armée, notamment sur le comportement lors des déplacements en convoi.",
+      "it": "L'ordinanza sulla circolazione stradale militare (OCSM) contiene norme particolari per i veicoli dell'esercito, tra l'altro sul comportamento durante gli spostamenti in convoglio.",
+      "en": "The Ordinance on Military Road Traffic (VMSV) contains special rules for army vehicles, including behaviour during convoy movements.",
+      "pt": "O Regulamento sobre o Trânsito Rodoviário Militar (VMSV) contém regras especiais para veículos do exército, entre outras sobre o comportamento em deslocações em comboio."
+    },
+    "image": null
+  },
+  {
+    "id": "q270",
+    "category": "both",
+    "topic": "militaerkolonne",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was gilt grundsätzlich, wenn eine Militärkolonne an einer Kreuzung passieren will, an der du eigentlich Vortritt hättest?",
+      "es": "¿Qué rige, en principio, cuando un convoy militar quiere pasar por un cruce en el que en realidad tendrías prioridad tú?",
+      "fr": "Que se passe-t-il en principe lorsqu'un convoi militaire veut passer à un carrefour où tu aurais normalement la priorité ?",
+      "it": "Cosa vale in linea di massima quando un convoglio militare vuole passare a un incrocio dove in realtà avresti la precedenza tu?",
+      "en": "What generally applies when a military convoy wants to pass through a junction where you would normally have priority?",
+      "pt": "O que se aplica, em princípio, quando um comboio militar quer passar num cruzamento onde, na verdade, terias prioridade tu?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Andere Verkehrsteilnehmer müssen der durchfahrenden Kolonne in der Regel den Vortritt lassen, um sie nicht zu zerreissen",
+          "es": "Los demás usuarios deben, por regla general, ceder el paso al convoy en marcha para no partirlo",
+          "fr": "Les autres usagers doivent en règle générale céder la priorité au convoi qui passe, afin de ne pas le scinder",
+          "it": "Gli altri utenti devono di norma dare la precedenza al convoglio in transito, per non spezzarlo",
+          "en": "Other road users must generally give way to the passing convoy, so as not to split it up",
+          "pt": "Os outros utentes devem, regra geral, ceder a passagem ao comboio em marcha, para não o dividir"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Dein regulärer Vortritt geht in jedem Fall der Kolonne vor",
+          "es": "Tu prioridad habitual siempre prevalece sobre el convoy",
+          "fr": "Ta priorité normale prime toujours sur le convoi",
+          "it": "La tua precedenza normale prevale sempre sul convoglio",
+          "en": "Your normal right of way always takes precedence over the convoy",
+          "pt": "A tua prioridade normal prevalece sempre sobre o comboio"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gilt strikt Rechtsvortritt wie bei jedem anderen Fahrzeug",
+          "es": "Se aplica estrictamente la prioridad de la derecha, como con cualquier otro vehículo",
+          "fr": "La priorité de droite s'applique strictement, comme pour tout autre véhicule",
+          "it": "Vale rigorosamente la precedenza da destra, come per qualsiasi altro veicolo",
+          "en": "Strict priority to the right applies, as with any other vehicle",
+          "pt": "Aplica-se estritamente a prioridade à direita, como com qualquer outro veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Um zu verhindern, dass die Kolonne auseinandergerissen wird, müssen andere Verkehrsteilnehmende einer durchfahrenden Militärkolonne in der Regel den Vortritt lassen.",
+      "es": "Para evitar que el convoy se rompa, los demás usuarios de la vía deben, por regla general, ceder el paso a un convoy militar en marcha.",
+      "fr": "Pour éviter que le convoi ne soit scindé, les autres usagers doivent en règle générale céder la priorité à un convoi militaire qui passe.",
+      "it": "Per evitare che il convoglio venga spezzato, gli altri utenti della strada devono di norma dare la precedenza a un convoglio militare in transito.",
+      "en": "To prevent the convoy from being split apart, other road users must generally give way to a passing military convoy.",
+      "pt": "Para evitar que o comboio seja dividido, os outros utentes da via devem, regra geral, ceder a passagem a um comboio militar em marcha."
+    },
+    "image": null
+  },
+  {
+    "id": "q271",
+    "category": "both",
+    "topic": "standlicht",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du parkierst dein Auto ausserorts am Strassenrand bei Dunkelheit, ohne dass Strassenbeleuchtung vorhanden ist. Was musst du tun?",
+      "es": "Aparcas tu coche fuera de poblado, al borde de la carretera, de noche y sin alumbrado público. ¿Qué debes hacer?",
+      "fr": "Tu gares ta voiture hors localité, au bord de la route, dans l'obscurité, sans éclairage public. Que dois-tu faire ?",
+      "it": "Parcheggi la tua auto fuori dalle località, sul bordo strada, al buio, senza illuminazione stradale. Cosa devi fare?",
+      "en": "You park your car outside a built-up area, at the roadside, in darkness, with no street lighting present. What must you do?",
+      "pt": "Estacionas o teu carro fora de uma localidade, à beira da estrada, no escuro, sem iluminação pública. O que deves fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Das Standlicht (Parklicht) einschalten, damit das Fahrzeug für andere sichtbar bleibt",
+          "es": "Encender las luces de posición (estacionamiento) para que el vehículo siga siendo visible",
+          "fr": "Allumer les feux de position (de stationnement) pour que le véhicule reste visible",
+          "it": "Accendere le luci di posizione (di sosta) affinché il veicolo resti visibile",
+          "en": "Switch on the parking lights so the vehicle remains visible to others",
+          "pt": "Ligar as luzes de presença (estacionamento) para que o veículo continue visível"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gar nichts, geparkte Fahrzeuge brauchen nie Beleuchtung",
+          "es": "Nada, los vehículos aparcados nunca necesitan iluminación",
+          "fr": "Rien, les véhicules garés n'ont jamais besoin d'éclairage",
+          "it": "Niente, i veicoli parcheggiati non necessitano mai di illuminazione",
+          "en": "Nothing, parked vehicles never need lighting",
+          "pt": "Nada, os veículos estacionados nunca precisam de iluminação"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Fernlicht eingeschaltet lassen",
+          "es": "Dejar encendidas las luces largas",
+          "fr": "Laisser les feux de route allumés",
+          "it": "Lasciare accesi gli abbaglianti",
+          "en": "Leave the high beams switched on",
+          "pt": "Deixar os máximos ligados"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ausserorts muss ein bei Dunkelheit am Strassenrand geparktes Fahrzeug ohne ausreichende Strassenbeleuchtung mit Standlicht gekennzeichnet werden, damit es für den übrigen Verkehr sichtbar bleibt.",
+      "es": "Fuera de poblado, un vehículo aparcado de noche al borde de la carretera sin alumbrado público suficiente debe señalizarse con luces de posición para que siga siendo visible al resto del tráfico.",
+      "fr": "Hors localité, un véhicule garé de nuit au bord de la route sans éclairage public suffisant doit être signalé par des feux de position, afin de rester visible pour le reste du trafic.",
+      "it": "Fuori dalle località, un veicolo parcheggiato di notte sul bordo strada senza illuminazione stradale sufficiente deve essere segnalato con le luci di posizione, affinché resti visibile al resto del traffico.",
+      "en": "Outside built-up areas, a vehicle parked at the roadside in darkness without sufficient street lighting must be marked with parking lights so it stays visible to other traffic.",
+      "pt": "Fora de localidades, um veículo estacionado à noite à beira da estrada sem iluminação pública suficiente deve ser assinalado com luzes de presença, para se manter visível ao restante trânsito."
+    },
+    "image": null
+  },
+  {
+    "id": "q272",
+    "category": "both",
+    "topic": "standlicht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Innerorts, auf einer gut beleuchteten Strasse, parkierst du nachts am Rand. Brauchst du zwingend das Standlicht?",
+      "es": "Dentro de poblado, en una calle bien iluminada, aparcas de noche al borde. ¿Necesitas obligatoriamente las luces de posición?",
+      "fr": "En localité, sur une route bien éclairée, tu te gares la nuit au bord. As-tu obligatoirement besoin des feux de position ?",
+      "it": "In una località, su una strada ben illuminata, parcheggi di notte sul bordo. Hai obbligatoriamente bisogno delle luci di posizione?",
+      "en": "In a built-up area, on a well-lit street, you park at the roadside at night. Do you necessarily need parking lights?",
+      "pt": "Numa localidade, numa rua bem iluminada, estacionas à noite na berma. Precisas obrigatoriamente das luzes de presença?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, bei ausreichender Strassenbeleuchtung ist in der Regel keine zusätzliche Fahrzeugbeleuchtung nötig",
+          "es": "No, con alumbrado público suficiente por lo general no hace falta iluminación adicional del vehículo",
+          "fr": "Non, avec un éclairage public suffisant, aucun éclairage supplémentaire du véhicule n'est en général nécessaire",
+          "it": "No, con illuminazione stradale sufficiente di norma non serve illuminazione aggiuntiva del veicolo",
+          "en": "No, with sufficient street lighting, no additional vehicle lighting is generally needed",
+          "pt": "Não, com iluminação pública suficiente, em geral não é necessária iluminação adicional do veículo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das Standlicht ist überall und immer bei Dunkelheit zwingend",
+          "es": "Sí, las luces de posición son siempre obligatorias de noche en cualquier lugar",
+          "fr": "Oui, les feux de position sont partout et toujours obligatoires dans l'obscurité",
+          "it": "Sì, le luci di posizione sono sempre obbligatorie ovunque al buio",
+          "en": "Yes, parking lights are always mandatory everywhere in darkness",
+          "pt": "Sim, as luzes de presença são sempre obrigatórias em qualquer lugar no escuro"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur das Fernlicht darf verwendet werden",
+          "es": "Sí, pero solo se pueden usar las luces largas",
+          "fr": "Oui, mais seuls les feux de route peuvent être utilisés",
+          "it": "Sì, ma si possono usare solo gli abbaglianti",
+          "en": "Yes, but only the high beams may be used",
+          "pt": "Sim, mas só os máximos podem ser usados"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Pflicht zum Standlicht betrifft vor allem unzureichend beleuchtete Strassen ausserorts; bei ausreichender Strassenbeleuchtung ist keine zusätzliche Fahrzeugbeleuchtung nötig.",
+      "es": "La obligación de luces de posición afecta sobre todo a carreteras insuficientemente iluminadas fuera de poblado; con alumbrado público suficiente no hace falta iluminación adicional del vehículo.",
+      "fr": "L'obligation des feux de position concerne surtout les routes insuffisamment éclairées hors localité ; avec un éclairage public suffisant, aucun éclairage supplémentaire n'est nécessaire.",
+      "it": "L'obbligo delle luci di posizione riguarda soprattutto le strade insufficientemente illuminate fuori dalle località; con illuminazione stradale sufficiente non serve illuminazione aggiuntiva del veicolo.",
+      "en": "The parking-light requirement mainly concerns insufficiently lit roads outside built-up areas; with sufficient street lighting, no additional vehicle lighting is needed.",
+      "pt": "A obrigação de luzes de presença diz respeito sobretudo a estradas insuficientemente iluminadas fora de localidades; com iluminação pública suficiente, não é necessária iluminação adicional do veículo."
+    },
+    "image": null
+  },
+  {
+    "id": "q273",
+    "category": "both",
+    "topic": "standlicht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Welchem Zweck dient das Standlicht bei einem geparkten Fahrzeug in der Dunkelheit?",
+      "es": "¿Para qué sirven las luces de posición en un vehículo aparcado a oscuras?",
+      "fr": "À quoi servent les feux de position sur un véhicule garé dans l'obscurité ?",
+      "it": "A cosa servono le luci di posizione su un veicolo parcheggiato al buio?",
+      "en": "What purpose do parking lights serve on a parked vehicle in the dark?",
+      "pt": "Para que servem as luzes de presença num veículo estacionado no escuro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Anderen Verkehrsteilnehmenden das stehende Fahrzeug frühzeitig erkennbar zu machen",
+          "es": "Hacer que el vehículo parado sea reconocible con antelación para los demás usuarios",
+          "fr": "Rendre le véhicule à l'arrêt reconnaissable tôt pour les autres usagers",
+          "it": "Rendere il veicolo fermo riconoscibile per tempo agli altri utenti della strada",
+          "en": "To make the stationary vehicle recognisable to other road users in good time",
+          "pt": "Tornar o veículo parado reconhecível a tempo para os outros utentes da via"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Den Innenraum des Fahrzeugs zu beleuchten",
+          "es": "Iluminar el interior del vehículo",
+          "fr": "Éclairer l'habitacle du véhicule",
+          "it": "Illuminare l'abitacolo del veicolo",
+          "en": "To light up the inside of the vehicle",
+          "pt": "Iluminar o interior do veículo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Batterie während des Parkierens zu schonen",
+          "es": "Proteger la batería mientras el vehículo está aparcado",
+          "fr": "Ménager la batterie pendant le stationnement",
+          "it": "Risparmiare la batteria durante la sosta",
+          "en": "To spare the battery while parked",
+          "pt": "Poupar a bateria durante o estacionamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Standlicht macht ein am Fahrbahnrand stehendes Fahrzeug für andere Verkehrsteilnehmende in der Dunkelheit frühzeitig sichtbar und hilft, Auffahrunfälle zu vermeiden.",
+      "es": "Las luces de posición hacen visible con antelación, en la oscuridad, un vehículo parado al borde de la calzada y ayudan a evitar alcances.",
+      "fr": "Les feux de position rendent tôt visible, dans l'obscurité, un véhicule à l'arrêt au bord de la chaussée et aident à éviter les collisions par l'arrière.",
+      "it": "Le luci di posizione rendono visibile per tempo, al buio, un veicolo fermo sul bordo della carreggiata e aiutano a evitare tamponamenti.",
+      "en": "Parking lights make a vehicle standing at the roadside visible to other road users early in the dark and help prevent rear-end collisions.",
+      "pt": "As luzes de presença tornam visível a tempo, no escuro, um veículo parado à beira da faixa de rodagem e ajudam a evitar colisões traseiras."
+    },
+    "image": null
+  },
+  {
+    "id": "q274",
+    "category": "both",
+    "topic": "standlicht",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Ist bei einem stehenden Fahrzeug einseitiges Standlicht (nur auf einer Seite) in bestimmten Fällen zulässig?",
+      "es": "¿Es admisible en ciertos casos que un vehículo parado tenga luces de posición encendidas solo en un lado?",
+      "fr": "Le feu de position unilatéral (d'un seul côté) est-il admis dans certains cas sur un véhicule à l'arrêt ?",
+      "it": "Su un veicolo fermo è ammessa in certi casi la luce di posizione monolaterale (solo su un lato)?",
+      "en": "Is one-sided parking light (on only one side) permitted for a stationary vehicle in certain cases?",
+      "pt": "Numa viatura parada, é admissível em certos casos ter apenas luz de presença de um lado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, einseitiges Standlicht ist als Alternative in bestimmten Situationen zulässig",
+          "es": "Sí, las luces de posición de un solo lado son admisibles como alternativa en determinadas situaciones",
+          "fr": "Oui, le feu de position unilatéral est admis comme alternative dans certaines situations",
+          "it": "Sì, la luce di posizione monolaterale è ammessa come alternativa in determinate situazioni",
+          "en": "Yes, one-sided parking light is permitted as an alternative in certain situations",
+          "pt": "Sim, a luz de presença de um lado é admissível como alternativa em determinadas situações"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, es müssen immer beide Seiten gleichzeitig leuchten",
+          "es": "No, siempre deben iluminar los dos lados a la vez",
+          "fr": "Non, les deux côtés doivent toujours être allumés en même temps",
+          "it": "No, devono sempre essere accese entrambe le luci contemporaneamente",
+          "en": "No, both sides must always be lit at the same time",
+          "pt": "Não, ambos os lados têm sempre de estar acesos ao mesmo tempo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nein, Standlicht ist grundsätzlich in der Schweiz verboten",
+          "es": "No, las luces de posición están en principio prohibidas en Suiza",
+          "fr": "Non, les feux de position sont en principe interdits en Suisse",
+          "it": "No, le luci di posizione sono in linea di massima vietate in Svizzera",
+          "en": "No, parking lights are generally forbidden in Switzerland",
+          "pt": "Não, as luzes de presença são, em princípio, proibidas na Suíça"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Als Alternative zum beidseitigen Standlicht ist bei einem stehenden Fahrzeug in bestimmten Fällen auch einseitiges Standlicht zulässig.",
+      "es": "Como alternativa a las luces de posición en ambos lados, en determinados casos también se permite el alumbrado de posición en un solo lado en un vehículo parado.",
+      "fr": "En alternative aux feux de position des deux côtés, le feu de position unilatéral est également admis dans certains cas sur un véhicule à l'arrêt.",
+      "it": "Come alternativa alla luce di posizione bilaterale, in determinati casi è ammessa anche quella monolaterale su un veicolo fermo.",
+      "en": "As an alternative to two-sided parking lights, one-sided parking light is also permitted for a stationary vehicle in certain cases.",
+      "pt": "Como alternativa às luzes de presença de ambos os lados, em determinados casos também é admissível a luz de presença de um só lado numa viatura parada."
     },
     "image": null
   }

@@ -13,17 +13,25 @@ abordarlo. Última actualización: 2026-08-19 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 254 preguntas (242 categoría B, 254 categoría A — 242 compartidas + 12 propias de A),
+- 274 preguntas (262 categoría B, 274 categoría A — 262 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
-  Ampliado en cuatro rondas de la sesión de 2026-08-19 con 24 temas nuevos (96 preguntas)
-  redactados desde cero a partir de VRV/SVG/SSV, ver `CHECKPOINT.md`.
-- El chunk `questions-*.js` del build supera el umbral de aviso de Rollup (500 kB
-  minificado; ~660 KB reales a fecha de hoy) — `npm run build` sigue compilando sin
-  errores, es solo un warning informativo, y el chunk ya es lazy (no entra en el bundle
-  inicial, ver "Modelo de datos" en el README). Si el banco sigue creciendo en próximas
-  sesiones, valorar `build.chunkSizeWarningLimit` o partir el JSON en varios chunks por
-  categoría/tema — cada ronda de ~20 preguntas suma ~60-70 KB; a este ritmo, en 2-3
-  rondas más vale la pena resolverlo en vez de solo documentarlo.
+  Ampliado en cinco rondas de la sesión de 2026-08-19 con 29 temas nuevos (116 preguntas)
+  redactados desde cero a partir de VRV/SVG/SSV/VMSV, ver `CHECKPOINT.md`.
+- ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
+  `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
+  era solo ruido informativo, no un problema de rendimiento real). Si el banco sigue
+  creciendo mucho más allá de este umbral, entonces sí valdría la pena partir el JSON en
+  varios chunks por categoría/tema — no urgente por ahora.
+- **Duplicado real encontrado y corregido en la sesión de 2026-08-19**: dos preguntas
+  añadidas en rondas anteriores de la misma sesión resultaron ser duplicados semánticos
+  de preguntas ya existentes (`q185` repetía `q148` sobre profundidad de neumáticos;
+  `q168` repetía la mecánica de `q074` sobre formar el carril de emergencia). Se
+  detectaron con una revisión completa por topic antes de la ronda 5 y se corrigieron
+  reemplazando el contenido por preguntas genuinamente distintas, sin cambiar ids ni
+  conteos. Lección para futuras ampliaciones: antes de crear un topic nuevo, revisar el
+  listado completo de preguntas de los topics relacionados (no solo grepear palabras
+  clave sueltas), y de vez en cuando correr una comparación de similitud de texto sobre
+  todo el banco para detectar duplicados semánticos que el grep no atrapa.
 - Sin TODOs/FIXMEs reales pendientes en el código.
 - Funcionalidad cubierta: estudio, examen simulado, repaso de falladas, maniobras
   animadas, señales (explorar/flashcards SRS/quiz), Nothelfer, VKU, Kontrollfahrt, WAB,
