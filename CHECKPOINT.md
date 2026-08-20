@@ -8,6 +8,35 @@ recordar.
 
 ---
 
+## 2026-08-19 (11) — Ajuste: el parche del césped se veía "pegado", no continuo
+
+**Contexto:** tras el fix (10), el usuario vio la captura y no le convenció: el
+rectángulo de césped que tapaba el hueco se notaba como un parche aparte, no como
+parte del mismo bloque de césped. Pidió que esa franja se viera como un bloque entero,
+sin corte.
+
+**Causa real:** el parche en sí (un rect de más, mismo color, pegado sin gap) no
+debería producir una costura visible — pero el borde (`curbLine`) del lado este de la
+calzada seguía cortado en dos tramos (`y:0-270` y `y:360-360`) con un hueco justo en la
+franja del parche, porque ese corte se copió sin pensar del lado oeste (`x:140`), donde
+sí hace falta — ahí es donde la calle secundaria se abre. Pero la calle secundaria solo
+sale hacia el oeste; el borde este de la calzada (`x:300`) nunca se interrumpe, así que
+cortar su `curbLine` ahí no representaba nada real y hacía que el remiendo se notara.
+
+**Fix:** en vez de mantener el parche suelto, se reestructuró `junctionScene()` para
+que el margen este (`x:300-360`) sea un único rect de césped de altura completa
+(`y:0-560`, calcado del patrón que ya usaba correctamente `junctionRightScene()` para
+su margen lejano) y el `curbLine` de `x:300` sea una sola línea continua en vez de dos
+tramos. Los rects de césped norte/sur ahora solo cubren el lado oeste (`w:140`, donde sí
+hace falta el corte por la boca de la calle secundaria), sin solaparse con el nuevo
+margen este.
+
+**Verificación:** `npx vitest run src/data/maneuvers.test.js` (34/34), `npm run lint`
+(0/0), `npm test` (104/104), `npm run build` sin errores, captura del paso 6 confirmando
+la franja continua sin costura.
+
+---
+
 ## 2026-08-19 (10) — Fix: hueco sin césped en `junctionScene()`
 
 **Contexto:** el usuario mandó una captura de la misma maniobra (`laengere_strecke_rueckwaerts`,
