@@ -17082,5 +17082,1245 @@
       "pt": "Como alternativa às luzes de presença de ambos os lados, em determinados casos também é admissível a luz de presença de um só lado numa viatura parada."
     },
     "image": null
+  },
+  {
+    "id": "q275",
+    "category": "both",
+    "topic": "sehhilfe",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "In deinem Führerausweis ist der Code 01.01 eingetragen. Was bedeutet das?",
+      "es": "En tu permiso de conducir figura el código 01.01. ¿Qué significa?",
+      "fr": "Le code 01.01 figure sur ton permis de conduire. Que signifie-t-il ?",
+      "it": "Sulla tua licenza di condurre è riportato il codice 01.01. Cosa significa?",
+      "en": "Your driving licence has code 01.01 entered on it. What does that mean?",
+      "pt": "Na tua carta de condução está inscrito o código 01.01. O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du musst zwingend eine Brille tragen, Kontaktlinsen allein reichen nicht",
+          "es": "Debes llevar obligatoriamente gafas, las lentillas por sí solas no bastan",
+          "fr": "Tu dois obligatoirement porter des lunettes, les lentilles seules ne suffisent pas",
+          "it": "Devi obbligatoriamente indossare gli occhiali, le lenti a contatto da sole non bastano",
+          "en": "You must wear glasses, contact lenses alone are not enough",
+          "pt": "Tens obrigatoriamente de usar óculos, as lentes de contacto sozinhas não bastam"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Du darfst wahlweise Brille oder Kontaktlinsen tragen",
+          "es": "Puedes elegir entre gafas o lentillas",
+          "fr": "Tu peux porter au choix des lunettes ou des lentilles",
+          "it": "Puoi scegliere tra occhiali o lenti a contatto",
+          "en": "You may choose either glasses or contact lenses",
+          "pt": "Podes escolher entre óculos ou lentes de contacto"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Code hat keine praktische Bedeutung beim Fahren",
+          "es": "El código no tiene relevancia práctica al conducir",
+          "fr": "Le code n'a aucune portée pratique pour la conduite",
+          "it": "Il codice non ha alcuna rilevanza pratica per la guida",
+          "en": "The code has no practical relevance while driving",
+          "pt": "O código não tem relevância prática para a condução"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der Code 01.01 verpflichtet speziell zum Tragen einer Brille; Kontaktlinsen allein erfüllen diese Auflage nicht. Andere Codes (z. B. 01.02) verlangen dagegen ausschliesslich Kontaktlinsen.",
+      "es": "El código 01.01 obliga específicamente a llevar gafas; las lentillas solas no cumplen esa condición. Otros códigos (p. ej. 01.02) exigen, en cambio, exclusivamente lentillas.",
+      "fr": "Le code 01.01 oblige spécifiquement à porter des lunettes ; les lentilles seules ne remplissent pas cette condition. D'autres codes (p. ex. 01.02) exigent au contraire exclusivement des lentilles.",
+      "it": "Il codice 01.01 obbliga specificamente a indossare gli occhiali; le lenti a contatto da sole non soddisfano questa condizione. Altri codici (ad es. 01.02) richiedono invece esclusivamente le lenti a contatto.",
+      "en": "Code 01.01 specifically requires wearing glasses; contact lenses alone do not satisfy this condition. Other codes (e.g. 01.02) instead require contact lenses exclusively.",
+      "pt": "O código 01.01 obriga especificamente a usar óculos; as lentes de contacto sozinhas não cumprem esta condição. Outros códigos (por exemplo, 01.02) exigem, pelo contrário, exclusivamente lentes de contacto."
+    },
+    "image": null
+  },
+  {
+    "id": "q276",
+    "category": "both",
+    "topic": "sehhilfe",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hast im Führerausweis die Auflage «Sehhilfe tragen» und fährst einmal ohne. Die Polizei kontrolliert dich. Was kann passieren?",
+      "es": "Tienes en tu permiso la condición de «usar corrección visual» y un día conduces sin ella. La policía te controla. ¿Qué puede pasar?",
+      "fr": "Ton permis porte la mention « port d'un dispositif de correction visuelle » et tu conduis une fois sans. La police te contrôle. Que peut-il se passer ?",
+      "it": "Sulla tua licenza c'è la condizione «indossare correzione visiva» e una volta guidi senza. La polizia ti controlla. Cosa può succedere?",
+      "en": "Your licence has the \"must wear vision correction\" condition, and one day you drive without it. The police stop you. What can happen?",
+      "pt": "Tens na tua carta a condição de «usar correção visual» e um dia conduzes sem ela. A polícia para-te. O que pode acontecer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Busse, ein Strafverfahren und eine Meldung an die Behörde für mögliche Administrativmassnahmen",
+          "es": "Una multa, un proceso penal y una notificación a la autoridad para posibles medidas administrativas",
+          "fr": "Une amende, une procédure pénale et une communication à l'autorité pour d'éventuelles mesures administratives",
+          "it": "Una multa, un procedimento penale e una segnalazione all'autorità per eventuali misure amministrative",
+          "en": "A fine, criminal proceedings, and a report to the authority for possible administrative measures",
+          "pt": "Uma multa, um processo penal e uma comunicação à autoridade para possíveis medidas administrativas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, solange du gut siehst und keinen Unfall verursachst",
+          "es": "Nada, mientras veas bien y no provoques ningún accidente",
+          "fr": "Rien, tant que tu vois bien et que tu ne causes pas d'accident",
+          "it": "Niente, finché vedi bene e non causi alcun incidente",
+          "en": "Nothing, as long as you see well and cause no accident",
+          "pt": "Nada, desde que vejas bem e não causes nenhum acidente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine mündliche Verwarnung ohne jede weitere Folge",
+          "es": "Solo una advertencia verbal sin ninguna otra consecuencia",
+          "fr": "Seulement un avertissement oral sans aucune autre conséquence",
+          "it": "Solo un richiamo verbale senza ulteriori conseguenze",
+          "en": "Only a verbal warning with no further consequence",
+          "pt": "Só uma advertência verbal sem qualquer outra consequência"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Missachtung einer Auflage im Führerausweis wird mit Busse und Strafverfahren geahndet; zusätzlich meldet die Polizei den Vorfall der zuständigen Behörde für mögliche Administrativmassnahmen.",
+      "es": "El incumplimiento de una condición del permiso se sanciona con multa y proceso penal; además, la policía comunica el incidente a la autoridad competente para posibles medidas administrativas.",
+      "fr": "Le non-respect d'une condition inscrite sur le permis est sanctionné par une amende et une procédure pénale ; la police signale en outre l'incident à l'autorité compétente pour d'éventuelles mesures administratives.",
+      "it": "L'inosservanza di una condizione sulla licenza è punita con multa e procedimento penale; inoltre la polizia segnala l'episodio all'autorità competente per eventuali misure amministrative.",
+      "en": "Ignoring a condition on the licence is punished with a fine and criminal proceedings; the police also report the incident to the relevant authority for possible administrative measures.",
+      "pt": "O incumprimento de uma condição da carta é punido com multa e processo penal; além disso, a polícia comunica o incidente à autoridade competente para eventuais medidas administrativas."
+    },
+    "image": null
+  },
+  {
+    "id": "q277",
+    "category": "both",
+    "topic": "sehhilfe",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Woher weiss man, ob im eigenen Führerausweis eine Sehhilfen-Auflage eingetragen ist?",
+      "es": "¿Cómo sabes si en tu propio permiso de conducir figura una condición sobre corrección visual?",
+      "fr": "Comment sait-on si son propre permis de conduire comporte une condition de correction visuelle ?",
+      "it": "Come si fa a sapere se sulla propria licenza è riportata una condizione sulla correzione visiva?",
+      "en": "How do you know whether your own driving licence has a vision-correction condition entered on it?",
+      "pt": "Como se sabe se a própria carta de condução tem uma condição de correção visual inscrita?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ein entsprechender Code (z. B. 01, 01.01, 01.02 oder 01.06) ist im Führerausweis vermerkt",
+          "es": "Un código correspondiente (p. ej. 01, 01.01, 01.02 o 01.06) está anotado en el permiso",
+          "fr": "Un code correspondant (p. ex. 01, 01.01, 01.02 ou 01.06) est inscrit sur le permis",
+          "it": "Un codice corrispondente (ad es. 01, 01.01, 01.02 o 01.06) è riportato sulla licenza",
+          "en": "A corresponding code (e.g. 01, 01.01, 01.02 or 01.06) is noted on the licence",
+          "pt": "Um código correspondente (por exemplo, 01, 01.01, 01.02 ou 01.06) está anotado na carta"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das steht nirgends, man muss es sich merken",
+          "es": "No consta en ningún sitio, hay que recordarlo de memoria",
+          "fr": "Cela n'est écrit nulle part, il faut s'en souvenir soi-même",
+          "it": "Non è scritto da nessuna parte, bisogna ricordarselo",
+          "en": "It is not written anywhere, you just have to remember it",
+          "pt": "Isso não consta em lado nenhum, tens de te lembrar sozinho"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur der Hausarzt kennt diese Information, sie steht nicht im Ausweis",
+          "es": "Solo el médico de cabecera conoce ese dato, no figura en el permiso",
+          "fr": "Seul le médecin de famille connaît cette information, elle ne figure pas sur le permis",
+          "it": "Solo il medico di famiglia conosce questa informazione, non è riportata sulla licenza",
+          "en": "Only your family doctor knows this, it is not on the licence",
+          "pt": "Só o médico de família conhece essa informação, não consta na carta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wenn die Mindestsehschärfe nur mit Sehhilfe erreicht wird, wird dies mit einem entsprechenden Code (z. B. 01.01 für Brille, 01.02 für Kontaktlinsen, 01/01.06 für beides) im Führerausweis eingetragen.",
+      "es": "Si la agudeza visual mínima solo se alcanza con corrección, esto se anota en el permiso con el código correspondiente (p. ej. 01.01 para gafas, 01.02 para lentillas, 01/01.06 para ambas).",
+      "fr": "Si l'acuité visuelle minimale n'est atteinte qu'avec une correction, cela est inscrit sur le permis avec le code correspondant (p. ex. 01.01 pour des lunettes, 01.02 pour des lentilles, 01/01.06 pour les deux).",
+      "it": "Se l'acuità visiva minima si raggiunge solo con correzione, ciò viene riportato sulla licenza con il codice corrispondente (ad es. 01.01 per gli occhiali, 01.02 per le lenti a contatto, 01/01.06 per entrambe).",
+      "en": "If the minimum visual acuity is only achieved with correction, this is entered on the licence with the corresponding code (e.g. 01.01 for glasses, 01.02 for contact lenses, 01/01.06 for both).",
+      "pt": "Se a acuidade visual mínima só for alcançada com correção, isso é inscrito na carta com o código correspondente (por exemplo, 01.01 para óculos, 01.02 para lentes de contacto, 01/01.06 para ambos)."
+    },
+    "image": null
+  },
+  {
+    "id": "q278",
+    "category": "both",
+    "topic": "sehhilfe",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum wird die Sehhilfen-Pflicht überhaupt gesetzlich vorgeschrieben und kontrolliert?",
+      "es": "¿Por qué se exige y controla legalmente la obligación de corrección visual?",
+      "fr": "Pourquoi l'obligation de correction visuelle est-elle prescrite et contrôlée par la loi ?",
+      "it": "Perché l'obbligo di correzione visiva è previsto e controllato per legge?",
+      "en": "Why is the vision-correction requirement legally mandated and enforced at all?",
+      "pt": "Porque é que a obrigação de correção visual é prevista e fiscalizada por lei?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weil ausreichendes Sehvermögen eine Grundvoraussetzung für sicheres Fahren ist",
+          "es": "Porque una visión suficiente es un requisito básico para conducir con seguridad",
+          "fr": "Parce qu'une vue suffisante est une condition de base pour conduire en sécurité",
+          "it": "Perché una vista sufficiente è un requisito di base per guidare in sicurezza",
+          "en": "Because sufficient vision is a basic requirement for safe driving",
+          "pt": "Porque uma visão suficiente é um requisito básico para conduzir com segurança"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur aus administrativen Gründen, ohne Bezug zur Fahrsicherheit",
+          "es": "Solo por motivos administrativos, sin relación con la seguridad al volante",
+          "fr": "Uniquement pour des raisons administratives, sans lien avec la sécurité routière",
+          "it": "Solo per motivi amministrativi, senza alcun legame con la sicurezza di guida",
+          "en": "Only for administrative reasons, unrelated to driving safety",
+          "pt": "Só por motivos administrativos, sem relação com a segurança da condução"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil Brillenhersteller das gesetzlich durchgesetzt haben",
+          "es": "Porque los fabricantes de gafas lo impusieron por ley",
+          "fr": "Parce que les fabricants de lunettes l'ont imposé par la loi",
+          "it": "Perché i produttori di occhiali lo hanno imposto per legge",
+          "en": "Because glasses manufacturers pushed this through as law",
+          "pt": "Porque os fabricantes de óculos impuseram isso por lei"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer die gesetzliche Mindestsehschärfe nur mit Sehhilfe erreicht, muss diese beim Fahren zwingend tragen (Art. 7 Abs. 1bis VZV) — ausreichendes Sehvermögen ist eine Grundvoraussetzung für sicheres Fahren.",
+      "es": "Quien solo alcanza la agudeza visual mínima legal con corrección debe llevarla obligatoriamente al conducir (art. 7 párr. 1bis VZV); una visión suficiente es un requisito básico de la conducción segura.",
+      "fr": "Quiconque n'atteint l'acuité visuelle minimale légale qu'avec une correction doit la porter obligatoirement en conduisant (art. 7 al. 1bis OAC) – une vue suffisante est une condition de base de la sécurité routière.",
+      "it": "Chi raggiunge l'acuità visiva minima legale solo con correzione deve indossarla obbligatoriamente durante la guida (art. 7 cpv. 1bis OAC) – una vista sufficiente è un requisito di base per la sicurezza di guida.",
+      "en": "Anyone who only reaches the legal minimum visual acuity with correction must wear it while driving (Art. 7 para. 1bis VZV) — sufficient vision is a basic requirement for road safety.",
+      "pt": "Quem só atinge a acuidade visual mínima legal com correção tem de a usar obrigatoriamente ao conduzir (art. 7, n.º 1bis, VZV) – uma visão suficiente é um requisito básico da segurança na condução."
+    },
+    "image": null
+  },
+  {
+    "id": "q279",
+    "category": "both",
+    "topic": "hupe",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wann darfst du in der Schweiz die Hupe grundsätzlich einsetzen?",
+      "es": "¿Cuándo puedes usar el claxon en Suiza, en principio?",
+      "fr": "Quand peux-tu en principe utiliser le klaxon en Suisse ?",
+      "it": "Quando puoi in linea di massima usare il clacson in Svizzera?",
+      "en": "When may you generally use the horn in Switzerland?",
+      "pt": "Quando podes, em princípio, usar a buzina na Suíça?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Um andere Verkehrsteilnehmer rechtzeitig vor einer drohenden Gefahr zu warnen",
+          "es": "Para avisar a tiempo a otros usuarios de un peligro inminente",
+          "fr": "Pour avertir à temps les autres usagers d'un danger imminent",
+          "it": "Per avvisare per tempo gli altri utenti di un pericolo imminente",
+          "en": "To warn other road users in good time of an imminent danger",
+          "pt": "Para avisar a tempo os outros utentes de um perigo iminente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Um deinem Ärger über einen anderen Verkehrsteilnehmer Ausdruck zu verleihen",
+          "es": "Para expresar tu enfado con otro usuario de la vía",
+          "fr": "Pour exprimer ton mécontentement envers un autre usager",
+          "it": "Per esprimere la tua rabbia verso un altro utente della strada",
+          "en": "To express your annoyance at another road user",
+          "pt": "Para expressar o teu desagrado com outro utente da via"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Um bei einer Hochzeitskolonne mitzufeiern",
+          "es": "Para celebrar junto a una comitiva de boda",
+          "fr": "Pour fêter avec un cortège de mariage",
+          "it": "Per festeggiare insieme a un corteo nuziale",
+          "en": "To join in celebrating with a wedding convoy",
+          "pt": "Para festejar num cortejo de casamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Hupe darf nur zur Warnung vor einer Gefahr eingesetzt werden — unnötiges Hupen aus Ärger oder zum Feiern ist nicht erlaubt.",
+      "es": "El claxon solo puede usarse para avisar de un peligro; tocarlo innecesariamente por enfado o para celebrar no está permitido.",
+      "fr": "Le klaxon ne peut être utilisé que pour avertir d'un danger – klaxonner inutilement par agacement ou pour fêter n'est pas autorisé.",
+      "it": "Il clacson può essere usato solo per avvisare di un pericolo – suonarlo inutilmente per rabbia o per festeggiare non è consentito.",
+      "en": "The horn may only be used to warn of danger — unnecessary honking out of annoyance or to celebrate is not allowed.",
+      "pt": "A buzina só pode ser usada para avisar de um perigo – buzinar desnecessariamente por irritação ou para festejar não é permitido."
+    },
+    "image": null
+  },
+  {
+    "id": "q280",
+    "category": "both",
+    "topic": "hupe",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "An der roten Ampel fährt das Auto vor dir nicht sofort los, als sie auf Grün wechselt. Darfst du hupen?",
+      "es": "En el semáforo en rojo, el coche de delante no arranca de inmediato al cambiar a verde. ¿Puedes tocar el claxon?",
+      "fr": "Au feu rouge, la voiture devant toi ne démarre pas immédiatement quand il passe au vert. Peux-tu klaxonner ?",
+      "it": "Al semaforo rosso, l'auto davanti a te non riparte subito quando scatta il verde. Puoi suonare il clacson?",
+      "en": "At a red light, the car ahead of you does not move off immediately when it turns green. May you honk?",
+      "pt": "No semáforo vermelho, o carro à tua frente não arranca de imediato quando muda para verde. Podes buzinar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, ungeduldiges Hupen wegen eines kurzen Zögerns ist nicht erlaubt",
+          "es": "No, tocar el claxon con impaciencia por una breve vacilación no está permitido",
+          "fr": "Non, klaxonner par impatience à cause d'une brève hésitation n'est pas autorisé",
+          "it": "No, suonare il clacson con impazienza per una breve esitazione non è consentito",
+          "en": "No, impatient honking over a brief hesitation is not allowed",
+          "pt": "Não, buzinar com impaciência por uma breve hesitação não é permitido"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, das ist ein typischer und erlaubter Anwendungsfall für die Hupe",
+          "es": "Sí, es un uso típico y permitido del claxon",
+          "fr": "Oui, c'est un cas d'usage typique et autorisé du klaxon",
+          "it": "Sì, è un caso d'uso tipico e consentito del clacson",
+          "en": "Yes, that is a typical and permitted use of the horn",
+          "pt": "Sim, é um uso típico e permitido da buzina"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, aber nur wenn du länger als 3 Sekunden wartest",
+          "es": "Sí, pero solo si esperas más de 3 segundos",
+          "fr": "Oui, mais seulement si tu attends plus de 3 secondes",
+          "it": "Sì, ma solo se aspetti più di 3 secondi",
+          "en": "Yes, but only if you wait more than 3 seconds",
+          "pt": "Sim, mas só se esperares mais de 3 segundos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Hupen ist ausschliesslich zur Gefahrenwarnung gedacht; ein kurzes Zögern des Vordermanns an der Ampel rechtfertigt kein Hupen.",
+      "es": "El claxon está pensado exclusivamente para avisar de un peligro; una breve vacilación del coche de delante en el semáforo no justifica tocarlo.",
+      "fr": "Le klaxon est destiné exclusivement à avertir d'un danger ; une brève hésitation du véhicule qui précède au feu ne justifie pas de klaxonner.",
+      "it": "Il clacson è pensato esclusivamente per avvisare di un pericolo; una breve esitazione dell'auto davanti al semaforo non giustifica il clacson.",
+      "en": "The horn is intended exclusively for warning of danger; a brief hesitation by the car ahead at the lights does not justify honking.",
+      "pt": "A buzina destina-se exclusivamente a avisar de um perigo; uma breve hesitação do carro da frente no semáforo não justifica buzinar."
+    },
+    "image": null
+  },
+  {
+    "id": "q281",
+    "category": "both",
+    "topic": "hupe",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ausserorts näherst du dich einer unübersichtlichen, engen Kurve. Ist ein kurzes Hupsignal hier sinnvoll?",
+      "es": "Fuera de poblado te acercas a una curva estrecha y sin visibilidad. ¿Tiene sentido un toque breve de claxon aquí?",
+      "fr": "Hors localité, tu approches d'un virage étroit et peu visible. Un bref coup de klaxon est-il judicieux ici ?",
+      "it": "Fuori dalle località ti avvicini a una curva stretta e poco visibile. Un breve colpo di clacson qui ha senso?",
+      "en": "Outside a built-up area, you approach a narrow, blind bend. Is a short horn signal sensible here?",
+      "pt": "Fora de uma localidade, aproximas-te de uma curva estreita e sem visibilidade. Um toque breve de buzina faz sentido aqui?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, es kann entgegenkommende Fahrzeuge rechtzeitig auf dich aufmerksam machen",
+          "es": "Sí, puede alertar a tiempo a los vehículos que vienen en sentido contrario",
+          "fr": "Oui, il peut avertir à temps les véhicules venant en sens inverse",
+          "it": "Sì, può avvertire per tempo i veicoli che arrivano in senso contrario",
+          "en": "Yes, it can alert oncoming vehicles to you in good time",
+          "pt": "Sim, pode alertar a tempo os veículos que vêm em sentido contrário"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, Hupen ist ausserorts grundsätzlich komplett verboten",
+          "es": "No, tocar el claxon está totalmente prohibido fuera de poblado",
+          "fr": "Non, klaxonner est totalement interdit hors localité",
+          "it": "No, suonare il clacson è del tutto vietato fuori dalle località",
+          "en": "No, honking is completely forbidden outside built-up areas",
+          "pt": "Não, buzinar é totalmente proibido fora de localidades"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nein, in Kurven ist Hupen gesetzlich untersagt",
+          "es": "No, en las curvas tocar el claxon está prohibido por ley",
+          "fr": "Non, klaxonner dans les virages est interdit par la loi",
+          "it": "No, suonare il clacson in curva è vietato dalla legge",
+          "en": "No, honking in bends is legally forbidden",
+          "pt": "Não, buzinar em curvas é proibido por lei"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "An unübersichtlichen Kurven ausserorts ist ein kurzes Warnsignal sinnvoll und erlaubt, um entgegenkommenden Verkehr rechtzeitig zu warnen.",
+      "es": "En curvas sin visibilidad fuera de poblado, una señal breve de aviso es útil y está permitida para avisar a tiempo al tráfico en sentido contrario.",
+      "fr": "Sur les virages peu visibles hors localité, un bref signal d'avertissement est utile et autorisé pour avertir à temps le trafic venant en sens inverse.",
+      "it": "Nelle curve poco visibili fuori dalle località, un breve segnale di avviso è utile e consentito per avvertire per tempo il traffico in senso contrario.",
+      "en": "On blind bends outside built-up areas, a short warning signal is sensible and allowed to warn oncoming traffic in good time.",
+      "pt": "Em curvas sem visibilidade fora de localidades, um breve sinal de aviso é útil e permitido para avisar a tempo o trânsito em sentido contrário."
+    },
+    "image": null
+  },
+  {
+    "id": "q282",
+    "category": "both",
+    "topic": "hupe",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Nach Einbruch der Dunkelheit willst du einen anderen Verkehrsteilnehmer auf dich aufmerksam machen. Was ist die bevorzugte Methode gegenüber der Hupe?",
+      "es": "De noche quieres avisar a otro usuario de tu presencia. ¿Cuál es el método preferido frente al claxon?",
+      "fr": "De nuit, tu veux signaler ta présence à un autre usager. Quelle est la méthode privilégiée par rapport au klaxon ?",
+      "it": "Di notte vuoi segnalare la tua presenza a un altro utente. Qual è il metodo preferito rispetto al clacson?",
+      "en": "After dark, you want to alert another road user to your presence. What is the preferred method compared to the horn?",
+      "pt": "De noite queres chamar a atenção de outro utente para a tua presença. Qual é o método preferido em vez da buzina?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Lichthupe (kurzes Aufblenden), die Hupe bleibt Notfällen vorbehalten",
+          "es": "El destello de luces (ráfaga breve), el claxon queda reservado a emergencias",
+          "fr": "L'appel de phares (bref appel lumineux), le klaxon étant réservé aux urgences",
+          "it": "Il lampeggio dei fari (breve lampeggiata), il clacson resta riservato alle emergenze",
+          "en": "The headlight flash (brief flash), the horn is reserved for emergencies",
+          "pt": "O sinal de luzes (piscar breve), a buzina fica reservada para emergências"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Lautes und langes Hupen, das ist nachts genauso erlaubt wie tagsüber",
+          "es": "Un bocinazo fuerte y largo, tan permitido de noche como de día",
+          "fr": "Un klaxon fort et long, tout aussi autorisé de nuit que de jour",
+          "it": "Un clacson forte e lungo, consentito di notte come di giorno",
+          "en": "A loud, long honk, just as permitted at night as during the day",
+          "pt": "Uma buzinadela forte e longa, tão permitida de noite como de dia"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt nachts keine bevorzugte Methode, beides ist gleichwertig",
+          "es": "De noche no hay ningún método preferido, ambos son equivalentes",
+          "fr": "Il n'y a pas de méthode privilégiée la nuit, les deux sont équivalents",
+          "it": "Di notte non c'è alcun metodo preferito, i due sono equivalenti",
+          "en": "There is no preferred method at night, both are equivalent",
+          "pt": "De noite não há método preferido, ambos são equivalentes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach Einbruch der Dunkelheit wird bevorzugt die Lichthupe statt der akustischen Hupe verwendet; die Hupe ist nachts nur noch für echte Notfälle vorgesehen.",
+      "es": "Tras el anochecer se prefiere el destello de luces al claxon acústico; el claxon queda reservado de noche solo para auténticas emergencias.",
+      "fr": "Après la tombée de la nuit, l'appel de phares est privilégié par rapport au klaxon sonore ; le klaxon n'est plus prévu la nuit que pour de véritables urgences.",
+      "it": "Dopo il calar della notte si preferisce il lampeggio dei fari al clacson acustico; di notte il clacson è previsto solo per vere emergenze.",
+      "en": "After dark, the headlight flash is preferred over the acoustic horn; at night the horn is intended only for genuine emergencies.",
+      "pt": "Depois de escurecer, prefere-se o sinal de luzes à buzina sonora; à noite a buzina fica prevista apenas para verdadeiras emergências."
+    },
+    "image": null
+  },
+  {
+    "id": "q283",
+    "category": "both",
+    "topic": "fahrradtraeger",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du montierst einen Heckträger mit zwei Fahrrädern, der das Kontrollschild deines Autos verdeckt. Was musst du tun?",
+      "es": "Montas un portabicicletas trasero con dos bicis que tapa la matrícula de tu coche. ¿Qué debes hacer?",
+      "fr": "Tu montes un porte-vélos arrière avec deux vélos qui cache la plaque d'immatriculation de ta voiture. Que dois-tu faire ?",
+      "it": "Monti un portabici posteriore con due bici che copre la targa della tua auto. Cosa devi fare?",
+      "en": "You fit a rear bike rack with two bikes that covers your car's number plate. What must you do?",
+      "pt": "Montas um porta-bicicletas traseiro com duas bicicletas que tapa a matrícula do teu carro. O que deves fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ein Zusatzkennzeichen mit dem gleichen Kontrollschild am Träger anbringen",
+          "es": "Colocar en el portabicicletas una matrícula adicional idéntica a la del coche",
+          "fr": "Apposer sur le porte-vélos une plaque supplémentaire identique à celle du véhicule",
+          "it": "Applicare sul portabici una targa aggiuntiva identica a quella dell'auto",
+          "en": "Fit a duplicate plate matching the car's number plate on the rack",
+          "pt": "Colocar no porta-bicicletas uma matrícula adicional igual à do carro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nichts, ein verdecktes Kontrollschild ist unproblematisch",
+          "es": "Nada, una matrícula tapada no supone ningún problema",
+          "fr": "Rien, une plaque cachée ne pose pas de problème",
+          "it": "Niente, una targa coperta non è un problema",
+          "en": "Nothing, a covered number plate is unproblematic",
+          "pt": "Nada, uma matrícula tapada não é problema"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Auto darf mit verdecktem Kontrollschild nicht mehr gefahren werden, egal was du tust",
+          "es": "El coche no puede circular con la matrícula tapada, hagas lo que hagas",
+          "fr": "La voiture ne peut plus être conduite avec une plaque cachée, quoi que tu fasses",
+          "it": "L'auto non può più essere guidata con la targa coperta, qualunque cosa tu faccia",
+          "en": "The car may no longer be driven with the plate covered, whatever you do",
+          "pt": "O carro já não pode ser conduzido com a matrícula tapada, faças o que fizeres"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wird das hintere Kontrollschild durch einen Ladungsträger verdeckt, muss es am Träger wiederholt werden — das Kontrollschild muss immer vollständig sichtbar bleiben.",
+      "es": "Si la matrícula trasera queda tapada por un portaequipajes, debe repetirse en el portaequipajes; la matrícula debe permanecer siempre totalmente visible.",
+      "fr": "Si la plaque arrière est cachée par un porte-charge, elle doit être répétée sur celui-ci – la plaque doit toujours rester entièrement visible.",
+      "it": "Se la targa posteriore è coperta da un portacarico, va ripetuta sul portacarico stesso – la targa deve sempre restare completamente visibile.",
+      "en": "If the rear plate is covered by a load carrier, it must be duplicated on the carrier — the plate must always remain fully visible.",
+      "pt": "Se a matrícula traseira ficar tapada por um porta-cargas, deve ser repetida no porta-cargas – a matrícula deve manter-se sempre totalmente visível."
+    },
+    "image": null
+  },
+  {
+    "id": "q284",
+    "category": "both",
+    "topic": "fahrradtraeger",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Der Fahrradträger verdeckt auch die hinteren Leuchten deines Autos (Rücklicht, Blinker, Bremslicht). Was gilt?",
+      "es": "El portabicicletas también tapa las luces traseras de tu coche (piloto trasero, intermitentes, luz de freno). ¿Qué se aplica?",
+      "fr": "Le porte-vélos cache aussi les feux arrière de ta voiture (feu arrière, clignotants, feu de stop). Que faut-il respecter ?",
+      "it": "Il portabici copre anche le luci posteriori della tua auto (fanale posteriore, frecce, stop). Cosa vale?",
+      "en": "The bike rack also covers your car's rear lights (tail light, indicators, brake light). What applies?",
+      "pt": "O porta-bicicletas também tapa as luzes traseiras do teu carro (farolim, piscas, luz de travagem). O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Am Träger muss eine zusätzliche Leuchteneinrichtung mit denselben Funktionen montiert werden",
+          "es": "En el portabicicletas debe montarse un juego de luces adicional con las mismas funciones",
+          "fr": "Un dispositif d'éclairage supplémentaire avec les mêmes fonctions doit être monté sur le porte-vélos",
+          "it": "Sul portabici va montato un dispositivo di illuminazione aggiuntivo con le stesse funzioni",
+          "en": "An additional light unit with the same functions must be fitted on the rack",
+          "pt": "No porta-bicicletas deve ser montado um dispositivo de iluminação adicional com as mesmas funções"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das ist unproblematisch, solange es tagsüber ist",
+          "es": "No supone ningún problema, mientras sea de día",
+          "fr": "Cela ne pose pas de problème tant que c'est de jour",
+          "it": "Non è un problema, finché è giorno",
+          "en": "That is unproblematic, as long as it is daytime",
+          "pt": "Isso não é problema, desde que seja de dia"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur das Rücklicht muss wiederholt werden, Blinker und Bremslicht sind nicht wichtig",
+          "es": "Solo hay que repetir el piloto trasero, los intermitentes y el freno no importan",
+          "fr": "Seul le feu arrière doit être répété, clignotants et feu de stop ne sont pas importants",
+          "it": "Va ripetuto solo il fanale posteriore, frecce e stop non sono importanti",
+          "en": "Only the tail light needs to be duplicated, indicators and brake light do not matter",
+          "pt": "Só o farolim precisa de ser repetido, os piscas e a luz de travagem não importam"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Werden die hinteren Leuchten durch den Träger verdeckt, muss eine zusätzliche, funktionsgleiche Beleuchtungseinrichtung (Rücklicht, Blinker, Bremslicht) am Träger angebracht werden.",
+      "es": "Si las luces traseras quedan tapadas por el portabicicletas, hay que instalar en él un juego de luces adicional con las mismas funciones (piloto trasero, intermitentes, freno).",
+      "fr": "Si les feux arrière sont cachés par le porte-vélos, un dispositif d'éclairage supplémentaire aux mêmes fonctions (feu arrière, clignotants, feu de stop) doit être fixé dessus.",
+      "it": "Se le luci posteriori sono coperte dal portabici, va applicato su di esso un dispositivo di illuminazione aggiuntivo con le stesse funzioni (fanale, frecce, stop).",
+      "en": "If the rear lights are covered by the rack, an additional lighting unit with the same functions (tail light, indicators, brake light) must be fitted to the rack.",
+      "pt": "Se as luzes traseiras ficarem tapadas pelo porta-bicicletas, deve ser instalado nele um dispositivo de iluminação adicional com as mesmas funções (farolim, piscas, luz de travagem)."
+    },
+    "image": null
+  },
+  {
+    "id": "q285",
+    "category": "both",
+    "topic": "fahrradtraeger",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie weit dürfen die Fahrräder auf dem Heckträger seitlich über das Auto hinausragen?",
+      "es": "¿Cuánto pueden sobresalir lateralmente las bicicletas del portabicicletas trasero respecto al coche?",
+      "fr": "De combien les vélos sur le porte-vélos arrière peuvent-ils dépasser latéralement de la voiture ?",
+      "it": "Di quanto possono sporgere lateralmente le bici sul portabici posteriore rispetto all'auto?",
+      "en": "How far may the bikes on a rear rack project sideways beyond the car?",
+      "pt": "Até que ponto as bicicletas no porta-bicicletas traseiro podem sobressair lateralmente do carro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Bis zu 20 cm je Seite, solange die Gesamtbreite von 2 Metern nicht überschritten wird",
+          "es": "Hasta 20 cm por cada lado, siempre que no se supere una anchura total de 2 metros",
+          "fr": "Jusqu'à 20 cm de chaque côté, tant que la largeur totale de 2 mètres n'est pas dépassée",
+          "it": "Fino a 20 cm per lato, purché non venga superata una larghezza totale di 2 metri",
+          "en": "Up to 20 cm per side, as long as the total width of 2 metres is not exceeded",
+          "pt": "Até 20 cm de cada lado, desde que não seja excedida uma largura total de 2 metros"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Beliebig weit, es gibt keine Begrenzung",
+          "es": "Todo lo que se quiera, no hay límite",
+          "fr": "Autant que voulu, il n'y a aucune limite",
+          "it": "Quanto si vuole, non c'è alcun limite",
+          "en": "As far as desired, there is no limit",
+          "pt": "O quanto se quiser, não há limite"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Gar nicht, jeder seitliche Überstand ist verboten",
+          "es": "Nada, cualquier saliente lateral está prohibido",
+          "fr": "Pas du tout, tout débordement latéral est interdit",
+          "it": "Per niente, ogni sporgenza laterale è vietata",
+          "en": "Not at all, any sideways overhang is forbidden",
+          "pt": "Nada, qualquer saliência lateral é proibida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Fahrräder auf dem Heckträger dürfen bis zu 20 cm je Seite überstehen, solange die zulässige Gesamtbreite von 2 Metern nicht überschritten wird.",
+      "es": "Las bicicletas en el portabicicletas trasero pueden sobresalir hasta 20 cm por lado, siempre que no se supere la anchura total permitida de 2 metros.",
+      "fr": "Les vélos sur le porte-vélos arrière peuvent dépasser jusqu'à 20 cm de chaque côté, tant que la largeur totale autorisée de 2 mètres n'est pas dépassée.",
+      "it": "Le bici sul portabici posteriore possono sporgere fino a 20 cm per lato, purché non venga superata la larghezza totale ammessa di 2 metri.",
+      "en": "Bikes on a rear rack may project up to 20 cm per side, as long as the permitted total width of 2 metres is not exceeded.",
+      "pt": "As bicicletas no porta-bicicletas traseiro podem sobressair até 20 cm de cada lado, desde que não seja excedida a largura total permitida de 2 metros."
+    },
+    "image": null
+  },
+  {
+    "id": "q286",
+    "category": "both",
+    "topic": "fahrradtraeger",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum ist die vollständige Sichtbarkeit von Kontrollschild und Beleuchtung bei einem Heckträger so wichtig?",
+      "es": "¿Por qué es tan importante la plena visibilidad de la matrícula y las luces con un portabicicletas trasero?",
+      "fr": "Pourquoi la pleine visibilité de la plaque et de l'éclairage est-elle si importante avec un porte-vélos arrière ?",
+      "it": "Perché la piena visibilità di targa e luci è così importante con un portabici posteriore?",
+      "en": "Why is full visibility of the number plate and lights so important with a rear rack?",
+      "pt": "Porque é tão importante a total visibilidade da matrícula e das luzes com um porta-bicicletas traseiro?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Damit dein Fahrzeug für andere identifizierbar und bei Dunkelheit rechtzeitig erkennbar bleibt",
+          "es": "Para que tu vehículo siga siendo identificable y reconocible a tiempo en la oscuridad",
+          "fr": "Pour que ton véhicule reste identifiable et reconnaissable à temps dans l'obscurité",
+          "it": "Affinché il tuo veicolo resti identificabile e riconoscibile per tempo al buio",
+          "en": "So your vehicle remains identifiable and recognisable in good time in the dark",
+          "pt": "Para que o teu veículo continue identificável e reconhecível a tempo no escuro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur aus ästhetischen Gründen",
+          "es": "Solo por motivos estéticos",
+          "fr": "Uniquement pour des raisons esthétiques",
+          "it": "Solo per motivi estetici",
+          "en": "Only for aesthetic reasons",
+          "pt": "Só por motivos estéticos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Weil sonst der Fahrradträger technisch nicht befestigt werden kann",
+          "es": "Porque de lo contrario el portabicicletas no se puede fijar técnicamente",
+          "fr": "Parce que sinon le porte-vélos ne peut techniquement pas être fixé",
+          "it": "Perché altrimenti il portabici non può essere fissato tecnicamente",
+          "en": "Because otherwise the bike rack cannot be technically attached",
+          "pt": "Porque, caso contrário, o porta-bicicletas não pode ser tecnicamente fixado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Kontrollschild und Beleuchtung müssen sichtbar bleiben, damit dein Fahrzeug identifiziert werden kann und für den übrigen Verkehr — vor allem bei Dunkelheit — rechtzeitig erkennbar ist.",
+      "es": "La matrícula y las luces deben seguir siendo visibles para que tu vehículo pueda identificarse y sea reconocible a tiempo para el resto del tráfico, sobre todo en la oscuridad.",
+      "fr": "La plaque et l'éclairage doivent rester visibles pour que ton véhicule puisse être identifié et reconnu à temps par le reste du trafic, surtout dans l'obscurité.",
+      "it": "Targa e luci devono restare visibili affinché il tuo veicolo possa essere identificato e riconosciuto per tempo dal resto del traffico, soprattutto al buio.",
+      "en": "The number plate and lights must remain visible so your vehicle can be identified and recognised in good time by other traffic — especially in the dark.",
+      "pt": "A matrícula e as luzes devem manter-se visíveis para que o teu veículo possa ser identificado e reconhecido a tempo pelo restante trânsito, sobretudo no escuro."
+    },
+    "image": null
+  },
+  {
+    "id": "q287",
+    "category": "both",
+    "topic": "polizeikontrolle",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Die Polizei hält dich bei einer Kontrolle an und verlangt einen Atemalkoholtest, ohne dass du zuvor auffällig gefahren bist. Darf sie das?",
+      "es": "La policía te para en un control y te pide una prueba de alcoholemia en aliento sin que hayas conducido de forma sospechosa antes. ¿Puede hacerlo?",
+      "fr": "La police t'arrête lors d'un contrôle et exige un alcootest, sans que tu aies conduit de façon suspecte auparavant. En a-t-elle le droit ?",
+      "it": "La polizia ti ferma a un controllo e chiede un alcoltest, senza che tu abbia guidato in modo sospetto in precedenza. Può farlo?",
+      "en": "Police stop you at a checkpoint and demand a breathalyzer test, even though you had not driven suspiciously beforehand. May they do that?",
+      "pt": "A polícia para-te num controlo e exige um teste de alcoolemia, sem teres conduzido de forma suspeita antes. Ela pode fazer isso?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, die Polizei darf einen Atemalkoholtest ohne besonderen Verdacht verlangen",
+          "es": "Sí, la policía puede exigir una prueba de alcoholemia sin sospecha previa",
+          "fr": "Oui, la police peut exiger un alcootest sans soupçon particulier",
+          "it": "Sì, la polizia può chiedere un alcoltest senza un sospetto particolare",
+          "en": "Yes, the police may demand a breathalyzer test without particular suspicion",
+          "pt": "Sim, a polícia pode exigir um teste de alcoolemia sem suspeita prévia"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, ein Test ist nur nach einem sichtbaren Fahrfehler erlaubt",
+          "es": "No, un test solo se permite tras un error de conducción visible",
+          "fr": "Non, un test n'est autorisé qu'après une erreur de conduite visible",
+          "it": "No, un test è consentito solo dopo un errore di guida visibile",
+          "en": "No, a test is only allowed after a visible driving mistake",
+          "pt": "Não, um teste só é permitido depois de um erro de condução visível"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nein, ein Test ist nur nach einem Unfall erlaubt",
+          "es": "No, un test solo se permite tras un accidente",
+          "fr": "Non, un test n'est autorisé qu'après un accident",
+          "it": "No, un test è consentito solo dopo un incidente",
+          "en": "No, a test is only allowed after an accident",
+          "pt": "Não, um teste só é permitido depois de um acidente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Polizei darf seit der Einführung des beweissicheren Atemalkoholtests einen solchen ohne besonderen Anfangsverdacht durchführen.",
+      "es": "Desde la introducción de la prueba de alcoholemia con valor probatorio, la policía puede realizarla sin necesidad de una sospecha inicial concreta.",
+      "fr": "Depuis l'introduction de l'alcootest à valeur probante, la police peut le pratiquer sans soupçon initial particulier.",
+      "it": "Dall'introduzione dell'alcoltest con valore probatorio, la polizia può effettuarlo senza un particolare sospetto iniziale.",
+      "en": "Since the introduction of the evidentiary breathalyzer test, police may administer it without any particular initial suspicion.",
+      "pt": "Desde a introdução do teste de alcoolemia com valor probatório, a polícia pode realizá-lo sem suspeita inicial particular."
+    },
+    "image": null
+  },
+  {
+    "id": "q288",
+    "category": "both",
+    "topic": "polizeikontrolle",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du verweigerst bei einer Kontrolle den Atemalkoholtest. Welche Folge hat das?",
+      "es": "Te niegas a hacerte la prueba de alcoholemia en un control. ¿Qué consecuencia tiene eso?",
+      "fr": "Tu refuses l'alcootest lors d'un contrôle. Quelle en est la conséquence ?",
+      "it": "Ti rifiuti di sottoporti all'alcoltest durante un controllo. Quale conseguenza ha?",
+      "en": "You refuse the breathalyzer test at a checkpoint. What is the consequence?",
+      "pt": "Recusas o teste de alcoolemia num controlo. Que consequência tem isso?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Du wirst grundsätzlich gleich behandelt wie jemand, der stark angetrunken gefahren ist",
+          "es": "En principio se te trata igual que a quien ha conducido muy ebrio",
+          "fr": "Tu es en principe traité comme quelqu'un qui a conduit fortement alcoolisé",
+          "it": "Vieni in linea di massima trattato come chi ha guidato fortemente ubriaco",
+          "en": "You are generally treated the same as someone who drove heavily intoxicated",
+          "pt": "És, em princípio, tratado da mesma forma que alguém que conduziu fortemente embriagado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es passiert nichts, die Verweigerung ist ein legitimes Recht ohne Konsequenzen",
+          "es": "No pasa nada, negarse es un derecho legítimo sin consecuencias",
+          "fr": "Il ne se passe rien, le refus est un droit légitime sans conséquences",
+          "it": "Non succede nulla, il rifiuto è un diritto legittimo senza conseguenze",
+          "en": "Nothing happens, refusal is a legitimate right with no consequences",
+          "pt": "Não acontece nada, a recusa é um direito legítimo sem consequências"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Du bekommst nur eine kleine Ordnungsbusse von 40 Franken",
+          "es": "Solo recibes una pequeña multa de orden de 40 francos",
+          "fr": "Tu ne reçois qu'une petite amende d'ordre de 40 francs",
+          "it": "Ricevi solo una piccola multa disciplinare di 40 franchi",
+          "en": "You only get a small on-the-spot fine of CHF 40",
+          "pt": "Só recebes uma pequena multa administrativa de 40 francos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer den Alkoholtest verweigert oder dessen Durchführung verhindert, wird grundsätzlich gleich sanktioniert wie jemand, der nachweislich stark angetrunken gefahren ist.",
+      "es": "Quien se niega a la prueba de alcoholemia o impide su realización recibe, en principio, la misma sanción que quien ha conducido comprobadamente muy ebrio.",
+      "fr": "Quiconque refuse l'alcootest ou en empêche la réalisation est en principe sanctionné de la même manière que celui qui a conduit de façon avérée fortement alcoolisé.",
+      "it": "Chi rifiuta l'alcoltest o ne impedisce l'esecuzione viene in linea di massima sanzionato allo stesso modo di chi ha guidato in stato di ebbrezza accertata e grave.",
+      "en": "Anyone who refuses the alcohol test or prevents it from being carried out is generally sanctioned the same as someone proven to have driven heavily intoxicated.",
+      "pt": "Quem recusa o teste de álcool ou impede a sua realização é, em princípio, sancionado da mesma forma que alguém comprovadamente conduziu fortemente embriagado."
+    },
+    "image": null
+  },
+  {
+    "id": "q289",
+    "category": "both",
+    "topic": "polizeikontrolle",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Mindestdauer hat der Führerausweisentzug bei einer Verweigerung des Alkoholtests laut Gesetz?",
+      "es": "¿Cuál es la duración mínima de la retirada del permiso por negarse al test de alcoholemia según la ley?",
+      "fr": "Quelle est la durée minimale du retrait de permis en cas de refus de l'alcootest selon la loi ?",
+      "it": "Qual è la durata minima del ritiro della patente in caso di rifiuto dell'alcoltest secondo la legge?",
+      "en": "What is the minimum duration of licence withdrawal for refusing the alcohol test under the law?",
+      "pt": "Qual é a duração mínima da retirada da carta por recusa do teste de álcool segundo a lei?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mindestens 3 Monate",
+          "es": "Al menos 3 meses",
+          "fr": "Au moins 3 mois",
+          "it": "Almeno 3 mesi",
+          "en": "At least 3 months",
+          "pt": "Pelo menos 3 meses"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mindestens 3 Tage",
+          "es": "Al menos 3 días",
+          "fr": "Au moins 3 jours",
+          "it": "Almeno 3 giorni",
+          "en": "At least 3 days",
+          "pt": "Pelo menos 3 dias"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es gibt keinen Mindestentzug, nur eine Busse",
+          "es": "No hay retirada mínima, solo una multa",
+          "fr": "Il n'y a pas de retrait minimal, seulement une amende",
+          "it": "Non c'è un ritiro minimo, solo una multa",
+          "en": "There is no minimum withdrawal, only a fine",
+          "pt": "Não há retirada mínima, só uma multa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Art. 16c Abs. 1 Bst. d SVG sieht bei einer Verweigerung des Alkoholtests einen Führerausweisentzug von mindestens 3 Monaten vor, da dies als schwere Widerhandlung gilt.",
+      "es": "El art. 16c párr. 1 letra d SVG prevé, ante la negativa a la prueba de alcoholemia, una retirada del permiso de al menos 3 meses, ya que se considera una infracción grave.",
+      "fr": "L'art. 16c al. 1 let. d LCR prévoit, en cas de refus de l'alcootest, un retrait de permis d'au moins 3 mois, cela étant considéré comme une infraction grave.",
+      "it": "L'art. 16c cpv. 1 lett. d LCStr prevede, in caso di rifiuto dell'alcoltest, un ritiro della patente di almeno 3 mesi, poiché ciò è considerato un'infrazione grave.",
+      "en": "Art. 16c para. 1 let. d SVG provides for a licence withdrawal of at least 3 months for refusing the alcohol test, as this counts as a serious offence.",
+      "pt": "O art. 16c, n.º 1, al. d, SVG prevê, em caso de recusa do teste de álcool, uma retirada da carta de pelo menos 3 meses, pois isso é considerado uma infração grave."
+    },
+    "image": null
+  },
+  {
+    "id": "q290",
+    "category": "both",
+    "topic": "polizeikontrolle",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Verweigerst du bei einer Verkehrskontrolle eine angeordnete Blutprobe, was muss dir die Polizei mitteilen?",
+      "es": "Si te niegas en un control a una extracción de sangre ordenada, ¿qué debe comunicarte la policía?",
+      "fr": "Si tu refuses lors d'un contrôle une prise de sang ordonnée, que doit te communiquer la police ?",
+      "it": "Se rifiuti a un controllo un prelievo di sangue disposto, cosa deve comunicarti la polizia?",
+      "en": "If you refuse an ordered blood test during a traffic stop, what must the police tell you?",
+      "pt": "Se recusares, num controlo, uma colheita de sangue ordenada, o que a polícia te deve comunicar?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dass dir Führerausweisentzug sowie eine Freiheits- oder Geldstrafe drohen",
+          "es": "Que se te expones a la retirada del permiso y a una pena privativa de libertad o multa",
+          "fr": "Que tu risques un retrait de permis ainsi qu'une peine privative de liberté ou une amende",
+          "it": "Che rischi il ritiro della patente e una pena detentiva o pecuniaria",
+          "en": "That you risk licence withdrawal as well as a prison sentence or fine",
+          "pt": "Que arriscas a retirada da carta, bem como uma pena de prisão ou multa"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gar nichts, die Polizei muss dich über nichts informieren",
+          "es": "Nada, la policía no tiene que informarte de nada",
+          "fr": "Rien, la police n'a rien à te communiquer",
+          "it": "Niente, la polizia non deve informarti di nulla",
+          "en": "Nothing at all, the police do not need to inform you of anything",
+          "pt": "Nada, a polícia não tem de te informar de nada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur, dass die Blutprobe dann eben entfällt",
+          "es": "Solo que la extracción de sangre queda entonces cancelada",
+          "fr": "Seulement que la prise de sang est alors annulée",
+          "it": "Solo che il prelievo di sangue viene quindi annullato",
+          "en": "Only that the blood test will then simply be dropped",
+          "pt": "Só que a colheita de sangue fica então cancelada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Verweigerst du eine angeordnete Blutprobe, muss dich die Polizei darauf hinweisen, dass dir Führerausweisentzug sowie eine Freiheits- oder Geldstrafe drohen.",
+      "es": "Si te niegas a una extracción de sangre ordenada, la policía debe advertirte de que te arriesgas a la retirada del permiso y a una pena privativa de libertad o multa.",
+      "fr": "Si tu refuses une prise de sang ordonnée, la police doit t'indiquer que tu risques un retrait de permis ainsi qu'une peine privative de liberté ou une amende.",
+      "it": "Se rifiuti un prelievo di sangue disposto, la polizia deve informarti che rischi il ritiro della patente e una pena detentiva o pecuniaria.",
+      "en": "If you refuse an ordered blood test, the police must inform you that you risk licence withdrawal as well as a prison sentence or fine.",
+      "pt": "Se recusares uma colheita de sangue ordenada, a polícia deve informar-te de que arriscas a retirada da carta, bem como uma pena de prisão ou multa."
+    },
+    "image": null
+  },
+  {
+    "id": "q291",
+    "category": "both",
+    "topic": "ebike",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du fährst ein E-Bike, dessen Motor die Tretunterstützung bei maximal 25 km/h abriegelt. Brauchst du dafür ein Kontrollschild?",
+      "es": "Vas en un e-bike cuyo motor corta la asistencia al pedaleo a un máximo de 25 km/h. ¿Necesitas matrícula para ello?",
+      "fr": "Tu roules sur un e-bike dont le moteur coupe l'assistance au pédalage à 25 km/h maximum. As-tu besoin d'une plaque d'immatriculation ?",
+      "it": "Guidi un e-bike il cui motore interrompe l'assistenza alla pedalata a un massimo di 25 km/h. Ti serve una targa?",
+      "en": "You ride an e-bike whose motor cuts pedal assistance at a maximum of 25 km/h. Do you need a number plate for that?",
+      "pt": "Conduzes uma e-bike cujo motor corta a assistência à pedalada a um máximo de 25 km/h. Precisas de matrícula para isso?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, ein langsames E-Bike bis 25 km/h braucht kein Kontrollschild",
+          "es": "No, un e-bike lento hasta 25 km/h no necesita matrícula",
+          "fr": "Non, un e-bike lent jusqu'à 25 km/h n'a pas besoin de plaque",
+          "it": "No, un e-bike lento fino a 25 km/h non necessita di targa",
+          "en": "No, a slow e-bike up to 25 km/h does not need a number plate",
+          "pt": "Não, uma e-bike lenta até 25 km/h não precisa de matrícula"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, jedes E-Bike braucht zwingend ein Kontrollschild",
+          "es": "Sí, todo e-bike necesita obligatoriamente matrícula",
+          "fr": "Oui, tout e-bike a obligatoirement besoin d'une plaque",
+          "it": "Sì, ogni e-bike necessita obbligatoriamente di targa",
+          "en": "Yes, every e-bike must have a number plate",
+          "pt": "Sim, toda a e-bike precisa obrigatoriamente de matrícula"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur an Wochenenden ist ein Kontrollschild nötig",
+          "es": "Solo hace falta matrícula los fines de semana",
+          "fr": "Une plaque n'est nécessaire que le week-end",
+          "it": "La targa serve solo nei fine settimana",
+          "en": "A number plate is only needed on weekends",
+          "pt": "Só é necessária matrícula aos fins de semana"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Langsame E-Bikes mit Unterstützung bis 25 km/h gelten rechtlich wie gewöhnliche Velos und benötigen kein Kontrollschild.",
+      "es": "Los e-bikes lentos con asistencia hasta 25 km/h se consideran legalmente bicicletas normales y no necesitan matrícula.",
+      "fr": "Les e-bikes lents avec assistance jusqu'à 25 km/h sont juridiquement assimilés à des vélos ordinaires et n'ont pas besoin de plaque d'immatriculation.",
+      "it": "Gli e-bike lenti con assistenza fino a 25 km/h sono legalmente equiparati alle biciclette normali e non necessitano di targa.",
+      "en": "Slow e-bikes with assistance up to 25 km/h are legally treated like ordinary bicycles and do not need a number plate.",
+      "pt": "As e-bikes lentas com assistência até 25 km/h são legalmente equiparadas a bicicletas normais e não precisam de matrícula."
+    },
+    "image": null
+  },
+  {
+    "id": "q292",
+    "category": "both",
+    "topic": "ebike",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ein E-Bike unterstützt bis 45 km/h (S-Pedelec). Was gilt zusätzlich im Vergleich zum langsamen E-Bike?",
+      "es": "Un e-bike asiste hasta 45 km/h (S-Pedelec). ¿Qué se exige además en comparación con el e-bike lento?",
+      "fr": "Un e-bike assiste jusqu'à 45 km/h (S-Pedelec). Que faut-il en plus par rapport à l'e-bike lent ?",
+      "it": "Un e-bike assiste fino a 45 km/h (S-Pedelec). Cosa vale in più rispetto all'e-bike lento?",
+      "en": "An e-bike assists up to 45 km/h (S-Pedelec). What additionally applies compared to the slow e-bike?",
+      "pt": "Uma e-bike assiste até 45 km/h (S-Pedelec). O que se aplica adicionalmente em comparação com a e-bike lenta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Kontrollschild, Fahrzeugausweis und Helmpflicht sind erforderlich",
+          "es": "Se requieren matrícula, permiso de circulación y casco obligatorio",
+          "fr": "Une plaque, un permis de circulation et le port du casque sont exigés",
+          "it": "Sono richiesti targa, licenza di circolazione e obbligo del casco",
+          "en": "A number plate, vehicle registration document and helmet are required",
+          "pt": "São exigidos matrícula, documento de circulação e capacete obrigatório"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es gelten exakt die gleichen Regeln wie beim langsamen E-Bike",
+          "es": "Rigen exactamente las mismas normas que en el e-bike lento",
+          "fr": "Exactement les mêmes règles que pour l'e-bike lent s'appliquent",
+          "it": "Valgono esattamente le stesse regole dell'e-bike lento",
+          "en": "Exactly the same rules apply as for the slow e-bike",
+          "pt": "Aplicam-se exatamente as mesmas regras da e-bike lenta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur eine Haftpflichtversicherung ist zusätzlich nötig, sonst nichts",
+          "es": "Solo hace falta además un seguro de responsabilidad civil, nada más",
+          "fr": "Seule une assurance responsabilité civile est en plus nécessaire, rien d'autre",
+          "it": "Serve solo in più un'assicurazione di responsabilità civile, nient'altro",
+          "en": "Only third-party liability insurance is additionally needed, nothing else",
+          "pt": "Só é necessário adicionalmente um seguro de responsabilidade civil, nada mais"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Schnelle E-Bikes bis 45 km/h benötigen ein Kontrollschild und einen Fahrzeugausweis, und es besteht für alle Fahrenden eine Helmpflicht.",
+      "es": "Los e-bikes rápidos hasta 45 km/h necesitan matrícula y permiso de circulación, y existe casco obligatorio para todos los que los conducen.",
+      "fr": "Les e-bikes rapides jusqu'à 45 km/h nécessitent une plaque et un permis de circulation, et le port du casque est obligatoire pour tous les conducteurs.",
+      "it": "Gli e-bike veloci fino a 45 km/h necessitano di targa e licenza di circolazione, e vige l'obbligo del casco per tutti i conducenti.",
+      "en": "Fast e-bikes up to 45 km/h require a number plate and a vehicle registration document, and a helmet is mandatory for all riders.",
+      "pt": "As e-bikes rápidas até 45 km/h precisam de matrícula e documento de circulação, e existe capacete obrigatório para todos os condutores."
+    },
+    "image": null
+  },
+  {
+    "id": "q293",
+    "category": "both",
+    "topic": "ebike",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was ist für die rechtliche Einstufung eines E-Bikes (langsam oder schnell) letztlich entscheidend?",
+      "es": "¿Qué es, en definitiva, decisivo para la clasificación legal de un e-bike (lento o rápido)?",
+      "fr": "Qu'est-ce qui est finalement déterminant pour la classification juridique d'un e-bike (lent ou rapide) ?",
+      "it": "Cosa è in definitiva determinante per la classificazione legale di un e-bike (lento o veloce)?",
+      "en": "What is ultimately decisive for the legal classification of an e-bike (slow or fast)?",
+      "pt": "O que é, em última análise, decisivo para a classificação legal de uma e-bike (lenta ou rápida)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die offizielle technische Klassifizierung und die tatsächlichen technischen Eigenschaften, nicht der Verkaufsname",
+          "es": "La clasificación técnica oficial y las características técnicas reales, no el nombre comercial",
+          "fr": "La classification technique officielle et les caractéristiques techniques réelles, pas le nom commercial",
+          "it": "La classificazione tecnica ufficiale e le caratteristiche tecniche effettive, non il nome commerciale",
+          "en": "The official technical classification and the actual technical features, not the sales name",
+          "pt": "A classificação técnica oficial e as características técnicas reais, não o nome comercial"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nur die Farbe und das Design des E-Bikes",
+          "es": "Solo el color y el diseño del e-bike",
+          "fr": "Uniquement la couleur et le design de l'e-bike",
+          "it": "Solo il colore e il design dell'e-bike",
+          "en": "Only the colour and design of the e-bike",
+          "pt": "Só a cor e o design da e-bike"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur der Preis des E-Bikes",
+          "es": "Solo el precio del e-bike",
+          "fr": "Uniquement le prix de l'e-bike",
+          "it": "Solo il prezzo dell'e-bike",
+          "en": "Only the price of the e-bike",
+          "pt": "Só o preço da e-bike"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Für Kontrollen und Versicherung zählt die offizielle Klassifizierung und die tatsächliche technische Ausstattung des E-Bikes — nicht, wie es vom Hersteller vermarktet wird.",
+      "es": "Para los controles y el seguro cuenta la clasificación oficial y el equipamiento técnico real del e-bike, no cómo lo comercializa el fabricante.",
+      "fr": "Pour les contrôles et l'assurance, seule compte la classification officielle et l'équipement technique réel de l'e-bike, pas la façon dont il est commercialisé par le fabricant.",
+      "it": "Per i controlli e l'assicurazione conta la classificazione ufficiale e la dotazione tecnica effettiva dell'e-bike, non come viene commercializzato dal produttore.",
+      "en": "For checks and insurance, what counts is the official classification and the actual technical equipment of the e-bike — not how it is marketed by the manufacturer.",
+      "pt": "Para fiscalização e seguro, conta a classificação oficial e o equipamento técnico real da e-bike – não a forma como é comercializada pelo fabricante."
+    },
+    "image": null
+  },
+  {
+    "id": "q294",
+    "category": "both",
+    "topic": "ebike",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Gilt die Helmpflicht auch für Mitfahrende auf einem schnellen E-Bike (S-Pedelec), z. B. auf einem zweiten Sitz?",
+      "es": "¿La obligación del casco vale también para los acompañantes en un e-bike rápido (S-Pedelec), p. ej. en un segundo asiento?",
+      "fr": "Le port du casque est-il aussi obligatoire pour les passagers d'un e-bike rapide (S-Pedelec), p. ex. sur un second siège ?",
+      "it": "L'obbligo del casco vale anche per i passeggeri su un e-bike veloce (S-Pedelec), ad es. su un secondo sedile?",
+      "en": "Does the helmet requirement also apply to passengers on a fast e-bike (S-Pedelec), e.g. on a second seat?",
+      "pt": "A obrigação de capacete aplica-se também aos passageiros numa e-bike rápida (S-Pedelec), por exemplo, num segundo assento?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ja, die Helmpflicht gilt für alle Personen, die mit einem schnellen E-Bike unterwegs sind",
+          "es": "Sí, el casco obligatorio vale para todas las personas que viajan en un e-bike rápido",
+          "fr": "Oui, le port du casque est obligatoire pour toutes les personnes qui se déplacent sur un e-bike rapide",
+          "it": "Sì, l'obbligo del casco vale per tutte le persone che viaggiano su un e-bike veloce",
+          "en": "Yes, the helmet requirement applies to everyone travelling on a fast e-bike",
+          "pt": "Sim, a obrigação de capacete aplica-se a todas as pessoas que viajam numa e-bike rápida"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nein, nur die fahrende Person braucht einen Helm",
+          "es": "No, solo quien conduce necesita casco",
+          "fr": "Non, seul le conducteur a besoin d'un casque",
+          "it": "No, solo il conducente ha bisogno del casco",
+          "en": "No, only the rider needs a helmet",
+          "pt": "Não, só quem conduz precisa de capacete"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nein, die Helmpflicht gilt nur für Fahrten ausserorts",
+          "es": "No, el casco obligatorio solo vale fuera de poblado",
+          "fr": "Non, le port du casque n'est obligatoire que hors localité",
+          "it": "No, l'obbligo del casco vale solo fuori dalle località",
+          "en": "No, the helmet requirement only applies outside built-up areas",
+          "pt": "Não, a obrigação de capacete só se aplica fora de localidades"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei schnellen E-Bikes gilt die Helmpflicht für alle mitfahrenden Personen, nicht nur für die fahrende Person selbst.",
+      "es": "En los e-bikes rápidos, el casco obligatorio vale para todas las personas que viajan a bordo, no solo para quien conduce.",
+      "fr": "Sur les e-bikes rapides, le port du casque est obligatoire pour toutes les personnes transportées, pas seulement pour le conducteur.",
+      "it": "Sugli e-bike veloci, l'obbligo del casco vale per tutte le persone trasportate, non solo per chi guida.",
+      "en": "On fast e-bikes, the helmet requirement applies to everyone being carried, not just the rider themself.",
+      "pt": "Nas e-bikes rápidas, a obrigação de capacete aplica-se a todas as pessoas transportadas, não só a quem conduz."
+    },
+    "image": null
   }
 ]
