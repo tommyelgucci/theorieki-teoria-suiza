@@ -697,7 +697,7 @@ export const MANEUVERS = [
         duration: 1600,
         keyframes: [
           { t: 0, x: 88, y: 302, angle: 90 },
-          { t: 1, x: 76, y: 302, angle: 90 },
+          { t: 1, x: 76, y: 293, angle: 90 },
         ],
         wheel: 'straight',
         reverse: true,
