@@ -43,7 +43,7 @@ describe('Modo estudio', () => {
     render(<App />)
     await openStudy(user)
 
-    const check = screen.getByRole('button', { name: text('check') })
+    const check = screen.getByRole('button', { name: actionWord('check') })
     expect(check).toBeDisabled()
 
     await user.click(screen.getAllByRole('button', { pressed: false })[0])
@@ -68,7 +68,7 @@ describe('Modo estudio', () => {
     const main = await openStudy(user)
 
     await user.click(screen.getAllByRole('button', { pressed: false })[0])
-    await user.click(screen.getByRole('button', { name: text('check') }))
+    await user.click(screen.getByRole('button', { name: actionWord('check') }))
 
     // el veredicto depende de qué opción salga primero: vale cualquiera de los dos,
     // lo que se comprueba es que se anuncie y que quede registrado
@@ -88,7 +88,7 @@ describe('Modo estudio', () => {
     const main = await openStudy(user)
 
     await user.click(screen.getAllByRole('button', { pressed: false })[0])
-    await user.click(screen.getByRole('button', { name: text('check') }))
+    await user.click(screen.getByRole('button', { name: actionWord('check') }))
 
     const acerto = within(main).getByRole('status').textContent.includes(t('correct', LANG))
     expect(storage.getFailed()).toHaveLength(acerto ? 0 : 1)

@@ -8,6 +8,39 @@ recordar.
 
 ---
 
+## 2026-08-20 (12) — Fix de test frágil reaparecido tras la ampliación del banco
+
+**Contexto:** el usuario avisó de que otra sesión de Claude había mergeado varios PRs
+(#6-#12) sin que quedaran reflejados en el contexto que yo tenía cacheado. Verificación:
+todos los merges los hizo el propio usuario (`tommyelgucci`), incluido un revert (#9) de
+un fix de maniobras que "no quedó bien" (#8) y su rehecho limpio (#10) — el proceso
+funcionó como debía, no hay nada anómalo. `CHECKPOINT.md`/`ROADMAP.md` sí estaban al día
+en el repo real.
+
+**Qué se encontró:** al correr `npm test` varias veces sobre `main` (ahora con el banco
+ampliado a 334 preguntas B), `Study.test.jsx` fallaba de forma intermitente —
+exactamente el patrón de "test frágil con banco barajado" ya documentado en
+`ROADMAP.md` (punto 3) y que rompió el deploy el 10/08. Causa: la pregunta `q149`
+(tema `fahrzeug`, añadida en una de las rondas nuevas) tiene una opción en alemán "Ich
+als Fahrer – vor der Fahrt Lichter, Reifen und Bremsen kurz **prüfen**", y el test
+buscaba el botón "Prüfen" (comprobar) con el helper `text('check')` → regex `/Prüfen/i`
+sin límite de palabra. Cuando el shuffle pone `q149` primera, `getByRole` encuentra dos
+botones y revienta.
+
+**Fix:** cambiadas las 3 llamadas a `text('check')` en `Study.test.jsx` por
+`actionWord('check')` — el helper con límite de palabra que ya existía en el repo,
+creado para el bug equivalente de "Weiter" del 10/08. No hizo falta tocar el helper.
+
+**Verificación:** `npm test` ×10 seguidas (104/104 cada vez, antes 1/10 fallaba),
+`npm run lint` (0/0), `npm run build` sin errores.
+
+**Nota para el roadmap:** el punto 3 de "huecos conocidos" sigue vigente — cada ronda de
+preguntas nuevas es un riesgo real de colisión, no solo teórico (van dos veces ya). Vale
+la pena, en la próxima ampliación del banco, correr `npm test` varias veces seguidas
+antes de dar el PR por bueno, no solo una.
+
+---
+
 ## 2026-08-19 (11) — El coche rojo debe aparecer solo al final, y dos coches de aparcamiento mal alineados
 
 **Contexto:** dos correcciones más sobre las maniobras animadas.
