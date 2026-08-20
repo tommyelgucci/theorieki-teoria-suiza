@@ -8,6 +8,37 @@ recordar.
 
 ---
 
+## 2026-08-20 (13) — Trayectoria incorrecta en los diagramas de rotonda (2ª salida)
+
+**Contexto:** el usuario mandó capturas de la app señalando que la flecha de trayectoria
+en las preguntas de rotonda ("2. oder spätere Ausfahrt") atravesaba en línea recta la
+isla central, como si el cruce fuera una intersección normal — con capturas de
+referencia de cómo debe verse una rotonda bien dibujada (trayectoria curva pegada al
+anillo, nunca por el centro).
+
+**Causa:** en `src/data/diagrams.js`, `kreisel_2ausfahrt_correct` y
+`kreisel_2ausfahrt_wrong_blinker` (entra por el sur, sale por el norte) usaban una curva
+Bézier cuádrica con el punto de control situado exactamente en el centro del anillo
+(`Q 190 180 152 100`), lo que hacía que el punto medio de la curva cayera a ~10px del
+centro — dentro del círculo interior (radio 42) — y además curvaba hacia el OESTE en vez
+del ESTE: con circulación por la derecha (Suiza), la isla central debe quedar siempre a
+la izquierda del conductor, o sea sentido antihorario (S→E→N→W→S), así que entrar por el
+sur y salir por el norte debe rodear por el este, no por el oeste.
+
+**Fix:** trayectoria nueva con dos curvas encadenadas que rodean el anillo por el este,
+verificado por cálculo que el punto medio de cada tramo queda dentro de la banda del
+anillo (entre radio 42 y 100, nunca en la isla): `M 190 300 L 190 255 Q 270 255 255 180
+Q 255 105 200 95`. Se comprobó el resto de diagramas de rotonda (`kreisel`,
+`kreisel_1ausfahrt_*`, `kreisel_doppelspurig_wrong`) y esos ya tenían dirección y
+geometría correctas — el bug estaba solo en el par de la 2ª salida.
+
+**Verificación:** captura real en el navegador (Playwright + `npm run dev`, filtro de
+tema "Kreisverkehr" en Lernmodus) confirmando que la flecha ahora rodea el anillo sin
+tocar la isla verde. `npm run lint` (0/0), `npm test` (104/104), `npm run build` sin
+errores.
+
+---
+
 ## 2026-08-20 (12) — Fix de test frágil reaparecido tras la ampliación del banco
 
 **Contexto:** el usuario avisó de que otra sesión de Claude había mergeado varios PRs
