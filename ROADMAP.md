@@ -1,7 +1,7 @@
 # ROADMAP — TheorieKI
 
 Rumbo del proyecto: qué está sólido, qué falta y en qué orden tendría sentido
-abordarlo. Última actualización: 2026-08-20 (ver `CHECKPOINT.md` para el detalle de cada sesión).
+abordarlo. Última actualización: 2026-09-12 (ver `CHECKPOINT.md` para el detalle de cada sesión).
 
 ## Estado actual (verificado, no solo documentado)
 
@@ -13,19 +13,20 @@ abordarlo. Última actualización: 2026-08-20 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 342 preguntas (330 categoría B, 342 categoría A — 330 compartidas + 12 propias de A),
+- 362 preguntas (350 categoría B, 362 categoría A — 350 compartidas + 12 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
   Ampliado en ocho rondas de la sesión de 2026-08-19 con 44 temas nuevos (176 preguntas)
-  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, y con 8 preguntas más de
-  Kreisverkehr (peatones/ciclistas, vehículos grandes, emergencia, Minikreisel) en la
-  sesión de 2026-08-20, ver `CHECKPOINT.md`.
-- ~~El chunk `questions-*.js` supera el umbral de aviso de Rollup~~ → resuelto en
-  `vite.config.js` con `build.chunkSizeWarningLimit: 1000` (el chunk ya era lazy, el aviso
-  era solo ruido informativo, no un problema de rendimiento real). El chunk real ronda ya
-  los 935 KB (~92 % del umbral de 1000) — si se añade una novena ronda de ~20 preguntas
-  más, es casi seguro que el aviso reaparecerá; subir el límite de nuevo (p. ej. a 1200)
-  o partir el JSON en varios chunks por categoría/tema en ese momento, en vez de seguir
-  subiendo el número indefinidamente.
+  redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, con 8 preguntas más de
+  Kreisverkehr en la sesión de 2026-08-20, y con una novena ronda de 5 temas nuevos (20
+  preguntas más: cambio de color de vehículo, neblineros delanteros, equipamiento de la
+  conducción de aprendizaje, transporte de ganado, licencia extranjera al residir en
+  Suiza) en la sesión de 2026-09-12, ver `CHECKPOINT.md`.
+- El chunk `questions-*.js` ronda ya los 1010 KB minificado. Se subió
+  `build.chunkSizeWarningLimit` de 1000 a 1200 en `vite.config.js` en la ronda 9 para que
+  el aviso de Rollup no reaparezca — el chunk sigue siendo lazy y esto no es un problema
+  de rendimiento real. Si se añade una décima ronda de ~20 preguntas más, es probable que
+  vuelva a acercarse al umbral; en ese momento conviene partir el JSON en varios chunks
+  por categoría/tema en vez de seguir subiendo el número indefinidamente.
 - **Duplicado real encontrado y corregido en la sesión de 2026-08-19**: dos preguntas
   añadidas en rondas anteriores de la misma sesión resultaron ser duplicados semánticos
   de preguntas ya existentes (`q185` repetía `q148` sobre profundidad de neumáticos;

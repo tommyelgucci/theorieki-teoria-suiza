@@ -67,8 +67,9 @@ export default defineConfig({
     // questions.json crece con el banco de preguntas y ya supera el umbral por
     // defecto (500 kB) de Rollup. No es un problema de rendimiento real: el chunk
     // ya es lazy (import() bajo demanda, ver questionBank.js) y no entra en el
-    // bundle inicial — el aviso solo generaba ruido en cada build.
-    chunkSizeWarningLimit: 1000,
+    // bundle inicial — el aviso solo generaba ruido en cada build. Subido de
+    // 1000 a 1200 en la ronda 9 (362 preguntas, chunk real ~1010 KB minificado).
+    chunkSizeWarningLimit: 1200,
   },
   test: {
     environment: 'jsdom',

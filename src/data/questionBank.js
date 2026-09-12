@@ -1,8 +1,8 @@
-// El banco pesa ~900 KB minificado (342 preguntas con enunciado, opciones y
+// El banco pesa ~1010 KB minificado (362 preguntas con enunciado, opciones y
 // explicación en 6 idiomas). Las vistas que lo usan de verdad (estudio, examen,
 // repaso, estadísticas) ya son lazy y lo importan directo. La pantalla de inicio,
 // en cambio, es parte del bundle inicial y sólo lo necesita para contadores, así
-// que lo pide por acá y no bloquea el primer render con 350 KB.
+// que lo pide por acá y no bloquea el primer render con ese peso.
 let promise = null
 
 export function loadQuestions() {
