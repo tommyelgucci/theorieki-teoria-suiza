@@ -17,6 +17,11 @@ export const TOPICS = [
   { id: 'parkieren', label: { de: 'Parkieren', es: 'Estacionar', fr: 'Stationnement', it: 'Parcheggio', en: 'Parking', pt: 'Estacionar' } },
   { id: 'umwelt', label: { de: 'Umwelt', es: 'Medio ambiente', fr: 'Environnement', it: 'Ambiente', en: 'Environment', pt: 'Ambiente' } },
   { id: 'motorrad', label: { de: 'Motorrad', es: 'Moto', fr: 'Moto', it: 'Moto', en: 'Motorcycle', pt: 'Mota' } },
+  { id: 'farbaenderung', label: { de: 'Farbänderung', es: 'Cambio de color', fr: 'Changement de couleur', it: 'Cambio di colore', en: 'Color change', pt: 'Mudança de cor' } },
+  { id: 'nebelscheinwerfer', label: { de: 'Nebelscheinwerfer', es: 'Neblineros', fr: 'Antibrouillards', it: 'Fendinebbia', en: 'Fog lights', pt: 'Faróis de nevoeiro' } },
+  { id: 'viehtransport', label: { de: 'Viehtransport', es: 'Transporte de ganado', fr: 'Transport de bétail', it: 'Trasporto di bestiame', en: 'Livestock transport', pt: 'Transporte de gado' } },
+  { id: 'lernfahrt_ausstattung', label: { de: 'Lernfahrt-Ausstattung', es: 'Equipamiento de conducción de aprendizaje', fr: "Équipement de la course d'apprentissage", it: 'Attrezzatura per la guida di apprendistato', en: 'Learner-drive equipment', pt: 'Equipamento da condução de aprendizagem' } },
+  { id: 'auslaendischer_fuehrerausweis', label: { de: 'Ausländischer Führerausweis', es: 'Licencia extranjera', fr: 'Permis étranger', it: 'Patente estera', en: 'Foreign driving licence', pt: 'Carta de condução estrangeira' } },
 ]
 
 export function topicLabel(topicId, lang) {

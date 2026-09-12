@@ -21566,12 +21566,12 @@
         "id": "a",
         "correct": true,
         "text": {
-          "de": "Nur wenn die Sicht durch Nebel, Schneetreiben oder starken Regen unter 50 m sinkt",
-          "es": "Solo cuando la visibilidad se reduce a menos de 50 m por niebla, nevada intensa o lluvia fuerte",
-          "fr": "Seulement quand la visibilité descend sous 50 m à cause du brouillard, de la neige ou de fortes pluies",
-          "it": "Solo quando la visibilità scende sotto i 50 m per nebbia, nevicata intensa o pioggia forte",
-          "en": "Only when visibility drops below 50 m due to fog, heavy snowfall or heavy rain",
-          "pt": "Só quando a visibilidade desce abaixo de 50 m devido a nevoeiro, neve intensa ou chuva forte"
+          "de": "Nur wenn die Sicht durch Nebel, Schneetreiben oder starken Regen erheblich eingeschränkt ist",
+          "es": "Solo cuando la visibilidad se reduce considerablemente por niebla, nevada intensa o lluvia fuerte",
+          "fr": "Seulement quand la visibilité est fortement réduite par le brouillard, la neige ou de fortes pluies",
+          "it": "Solo quando la visibilità è notevolmente ridotta da nebbia, nevicata intensa o pioggia forte",
+          "en": "Only when visibility is significantly reduced by fog, heavy snowfall or heavy rain",
+          "pt": "Só quando a visibilidade fica significativamente reduzida devido a nevoeiro, neve intensa ou chuva forte"
         }
       },
       {
@@ -21600,12 +21600,12 @@
       }
     ],
     "explanation": {
-      "de": "Nach Art. 32 VRV dürfen Nebelscheinwerfer und Nebelschlussleuchte nur benutzt werden, wenn die Sicht durch Nebel, Schneetreiben oder starken Regen erheblich eingeschränkt ist (unter 50 m).",
-      "es": "Según el art. 32 VRV, los neblineros delanteros y traseros solo pueden usarse cuando la visibilidad esté muy reducida por niebla, nevada o lluvia intensa (menos de 50 m).",
-      "fr": "Selon l'art. 32 OCR, les phares et feux antibrouillard ne peuvent être utilisés que lorsque la visibilité est fortement réduite par le brouillard, la neige ou de fortes pluies (moins de 50 m).",
-      "it": "Secondo l'art. 32 ONC, i fendinebbia anteriori e posteriori possono essere usati solo quando la visibilità è fortemente ridotta da nebbia, nevicata o pioggia intensa (meno di 50 m).",
-      "en": "Under Art. 32 VRV, front and rear fog lights may only be used when visibility is severely reduced by fog, heavy snowfall or heavy rain (below 50 m).",
-      "pt": "Segundo o art. 32 VRV, os faróis de nevoeiro dianteiros e traseiros só podem ser usados quando a visibilidade estiver muito reduzida por nevoeiro, neve intensa ou chuva forte (menos de 50 m)."
+      "de": "Nach Art. 32 VRV dürfen Nebelscheinwerfer und Nebelschlussleuchte nur benutzt werden, wenn die Sicht durch Nebel, Schneetreiben oder starken Regen erheblich eingeschränkt ist.",
+      "es": "Según el art. 32 VRV, los neblineros delanteros y traseros solo pueden usarse cuando la visibilidad esté considerablemente reducida por niebla, nevada o lluvia intensa.",
+      "fr": "Selon l'art. 32 OCR, les phares et feux antibrouillard ne peuvent être utilisés que lorsque la visibilité est fortement réduite par le brouillard, la neige ou de fortes pluies.",
+      "it": "Secondo l'art. 32 ONC, i fendinebbia anteriori e posteriori possono essere usati solo quando la visibilità è notevolmente ridotta da nebbia, nevicata o pioggia intensa.",
+      "en": "Under Art. 32 VRV, front and rear fog lights may only be used when visibility is significantly reduced by fog, heavy snowfall or heavy rain.",
+      "pt": "Segundo o art. 32 VRV, os faróis de nevoeiro dianteiros e traseiros só podem ser usados quando a visibilidade estiver consideravelmente reduzida por nevoeiro, neve intensa ou chuva forte."
     },
     "image": null
   },
