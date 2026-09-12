@@ -8,6 +8,67 @@ recordar.
 
 ---
 
+## 2026-09-12 (15) — Novena ronda: 5 temas más (cambio de color, neblineros delanteros, equipamiento de Lernfahrt, transporte de ganado, licencia extranjera)
+
+**Contexto:** el usuario pidió continuar con "todo lo que hace falta" de más fácil a más
+difícil. Revisión del estado del repo: sin issues/PRs abiertos, sin TODOs/FIXMEs reales,
+huecos del roadmap todos decisiones conscientes de producto (sin analítica, VKU/Nothelfer
+no sustituyen el curso oficial) salvo la nota de proceso sobre tests frágiles con banco
+barajado. El único trabajo de contenido genuinamente pendiente era la lista de 5
+candidatos anotada al cierre de la ronda 8 (2026-08-19): color de vehículo, neblineros
+delanteros, auto-escuela con doble mando, transporte de ganado, validez de licencia
+extranjera. Mismo protocolo de siempre: investigar cada tema por separado antes de
+escribir, comprobar contra el banco existente, y correr comparación de similitud de texto
+al cerrar.
+
+**Investigación de los 5 temas:** cambio de color del vehículo (debe notificarse al
+Strassenverkehrsamt para corregirlo en el Fahrzeugausweis; aplica también a car-wrapping
+grande, y a cambios parciales donde dos colores quedan claramente dominantes — p. ej.
+techo y capó), neblineros delanteros (art. 32 VRV: solo con visibilidad bajo 50 m por
+niebla/nieve/lluvia fuerte, siempre junto a la luz de cruce o posición, nunca solos ni
+como sustituto permanente — distinto de la luz antiniebla trasera ya cubierta en `q058`),
+equipamiento de la conducción de aprendizaje (cartel azul "L" obligatorio en la parte
+trasera durante la Lernfahrt, debe retirarse después; la persona acompañante necesita
+acceso fácil a un freno de mano funcional para poder intervenir — un freno de
+estacionamiento solo de pedal inhabilita el vehículo para Lernfahrten), transporte de
+ganado (Tierschutzverordnung cap. 7 / anexo 4: espacio mínimo por especie, animales
+enfermos o heridos solo se transportan si es imprescindible para tratamiento o sacrificio,
+formación específica obligatoria para conductores de empresas de transporte de ganado,
+manejo cuidadoso al cargar/descargar), y validez de licencia extranjera al residir en
+Suiza (VZV art. 42-44/150: 12 meses desde la fijación de domicilio para canjearla por una
+suiza, después ya no es válida para conducir; los conductores profesionales con licencia
+UE/AELC tienen el mismo plazo de 12 meses, sin obligación de canjearla antes de su primera
+conducción profesional).
+
+Antes de redactar, se verificó contra el banco existente (`q058`/`q059` de `beleuchtung`,
+`q100`/`q101` de `fahrzeug`) que ninguno de los 5 temas nuevos duplicara contenido ya
+presente — todos son complementarios y usan topics nuevos.
+
+**Qué se hizo:**
+- `questions.json`: +20 preguntas nuevas (q343–q362), 5 topics nuevos (`farbaenderung`,
+  `nebelscheinwerfer`, `lernfahrt_ausstattung`, `viehtransport`,
+  `auslaendischer_fuehrerausweis`), 4 preguntas cada uno, los 6 idiomas completos. Banco:
+  342 → 362 (350 categoría B, 362 categoría A).
+- Actualizados los conteos hardcodeados en `Home.test.jsx` (330→350, 342→362) y
+  `Study.test.jsx` (330→350), y el comentario de tamaño de bundle en `questionBank.js`
+  (342→362 preguntas, ~900→~1010 KB minificado, medido con `json.dumps` real).
+- `vite.config.js`: `build.chunkSizeWarningLimit` subido de 1000 a 1200 — el chunk real ya
+  pasaba los 1000 KB (predicho en el ROADMAP de la ronda 8) y el warning de Rollup había
+  reaparecido; se confirmó con `npm run build` que desaparece con el nuevo límite (chunk
+  real: 1034.61 KB).
+- `README.md`/`ROADMAP.md`: conteos actualizados; ROADMAP avisa que una décima ronda
+  probablemente vuelva a acercar el chunk al nuevo límite, y que en ese punto convendría
+  partir el JSON en varios chunks en vez de seguir subiendo el número.
+
+**Verificación:** comparación de similitud de texto sobre las 362 preguntas (excluyendo
+`signale`) — mismos 14 pares benignos preexistentes, ninguno nuevo involucrando los
+topics de esta ronda. Script Python de validación de idiomas (0 errores, exactamente 1
+opción correcta por pregunta en las 20 nuevas). `npm install` (node_modules no estaba
+presente al empezar la sesión), `npm run lint` (0/0), `npm test` × 5 corridas seguidas
+(112/112 cada vez), `npm run build` sin errores ni warnings.
+
+---
+
 ## 2026-08-20 (14) — Rotondas: diagramas rehechos, maniobra animada nueva (4 salidas), +8 preguntas
 
 **Contexto:** sesión larga e iterativa a partir de una captura del usuario mostrando el

@@ -21298,5 +21298,1245 @@
       "pt": "Apesar do tamanho reduzido, também em cada entrada da minirrotunda está o sinal combinado de cedência de passagem e rotunda. Vigoram as mesmas regras de qualquer outra rotunda: prioridade ao trânsito da rotunda, pisca só ao sair."
     },
     "image": null
+  },
+  {
+    "id": "q343",
+    "category": "both",
+    "topic": "farbaenderung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du lackierst dein Auto in einer komplett anderen Farbe um. Was musst du tun?",
+      "es": "Repintas tu coche de un color completamente distinto. ¿Qué debes hacer?",
+      "fr": "Tu repeins ta voiture dans une couleur totalement différente. Que dois-tu faire ?",
+      "it": "Riverniciai la tua auto con un colore completamente diverso. Cosa devi fare?",
+      "en": "You repaint your car in a completely different color. What must you do?",
+      "pt": "Você repinta o seu carro numa cor completamente diferente. O que deve fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Das Strassenverkehrsamt informieren, damit die Farbe im Fahrzeugausweis korrigiert wird",
+          "es": "Avisar a la oficina de circulación para que corrijan el color en el permiso de circulación",
+          "fr": "Informer le service des automobiles pour que la couleur soit corrigée sur le permis de circulation",
+          "it": "Informare l'ufficio della circolazione affinché il colore venga corretto nella licenza di circolazione",
+          "en": "Notify the road traffic office so the color is corrected in the vehicle registration document",
+          "pt": "Avisar o serviço de trânsito para que a cor seja corrigida no documento de circulação"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Nichts, die Farbe steht in keinem Dokument",
+          "es": "Nada, el color no consta en ningún documento",
+          "fr": "Rien, la couleur ne figure sur aucun document",
+          "it": "Niente, il colore non risulta in nessun documento",
+          "en": "Nothing, the color is not recorded in any document",
+          "pt": "Nada, a cor não consta em nenhum documento"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Nur die Versicherung informieren, nicht das Strassenverkehrsamt",
+          "es": "Basta con avisar a la aseguradora, no a la oficina de circulación",
+          "fr": "Il suffit d'informer l'assurance, pas le service des automobiles",
+          "it": "Basta informare l'assicurazione, non l'ufficio della circolazione",
+          "en": "It is enough to notify the insurer, not the road traffic office",
+          "pt": "Basta avisar a seguradora, não o serviço de trânsito"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Ändert sich die Hauptfarbe eines Fahrzeugs merklich, muss dies dem Strassenverkehrsamt gemeldet werden, damit sie im Fahrzeugausweis korrigiert wird.",
+      "es": "Cuando el color principal de un vehículo cambia de forma notoria, debe notificarse a la oficina de circulación para que se corrija en el permiso de circulación.",
+      "fr": "Lorsque la couleur principale d'un véhicule change de façon notable, il faut le signaler au service des automobiles afin qu'elle soit corrigée sur le permis de circulation.",
+      "it": "Se il colore principale di un veicolo cambia in modo evidente, va segnalato all'ufficio della circolazione affinché venga corretto nella licenza di circolazione.",
+      "en": "When a vehicle's main color changes noticeably, it must be reported to the road traffic office so it can be corrected in the registration document.",
+      "pt": "Quando a cor principal de um veículo muda de forma notória, deve ser comunicado ao serviço de trânsito para que seja corrigida no documento de circulação."
+    },
+    "image": null
+  },
+  {
+    "id": "q344",
+    "category": "both",
+    "topic": "farbaenderung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du beklebst dein Auto komplett mit einer Folie in einer ganz anderen Farbe (Car-Wrapping). Was gilt?",
+      "es": "Envuelves tu coche por completo con un vinilo de un color muy distinto al original (car wrapping). ¿Qué corresponde?",
+      "fr": "Tu recouvres entièrement ta voiture d'un film adhésif d'une couleur très différente (car wrapping). Que faut-il faire ?",
+      "it": "Rivesti completamente la tua auto con una pellicola di un colore molto diverso (car wrapping). Cosa vale?",
+      "en": "You completely wrap your car with a foil in a very different color (car wrapping). What applies?",
+      "pt": "Você envolve o carro por completo com uma película de uma cor muito diferente (car wrapping). O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Es gilt wie ein Farbwechsel: muss gemeldet und im Fahrzeugausweis korrigiert werden",
+          "es": "Se trata igual que un cambio de pintura: debe notificarse y corregirse en el permiso de circulación",
+          "fr": "Cela équivaut à un changement de couleur : cela doit être signalé et corrigé sur le permis de circulation",
+          "it": "Vale come un cambio di colore: va segnalato e corretto nella licenza di circolazione",
+          "en": "It counts the same as a paint color change: it must be reported and corrected in the registration document",
+          "pt": "Conta como uma mudança de cor: deve ser comunicada e corrigida no documento de circulação"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Folierungen zählen nie als Farbänderung, weil sie nicht dauerhaft sind",
+          "es": "Los envoltorios (wraps) nunca cuentan como cambio de color porque no son pintura definitiva",
+          "fr": "Les films adhésifs ne comptent jamais comme un changement de couleur car ils ne sont pas définitifs",
+          "it": "Le pellicole non contano mai come cambio di colore perché non sono vernice definitiva",
+          "en": "Wraps never count as a color change because they are not permanent paint",
+          "pt": "Películas nunca contam como mudança de cor porque não são tinta definitiva"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Eine Meldung ist nur nötig, wenn die Folie länger als ein Jahr dranbleibt",
+          "es": "Solo debe notificarse si el envoltorio dura más de un año",
+          "fr": "Une déclaration n'est nécessaire que si le film reste plus d'un an",
+          "it": "È necessaria una segnalazione solo se la pellicola resta più di un anno",
+          "en": "A report is only needed if the wrap stays on for more than a year",
+          "pt": "Só é preciso comunicar se a película ficar mais de um ano"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Auch eine grossflächige Folierung, die die Fahrzeugfarbe deutlich verändert, gilt als meldepflichtige Farbänderung — unabhängig davon, ob es sich um Lack oder Folie handelt.",
+      "es": "Un envoltorio (wrap) grande que cambia claramente el color del vehículo también se considera un cambio de color sujeto a notificación, sea pintura o vinilo.",
+      "fr": "Un film adhésif de grande surface qui modifie clairement la couleur du véhicule est également considéré comme un changement de couleur à déclarer, qu'il s'agisse de peinture ou de film.",
+      "it": "Anche una pellicola estesa che cambia chiaramente il colore del veicolo è considerata un cambio di colore da segnalare, sia esso vernice o pellicola.",
+      "en": "A large-area wrap that clearly changes the vehicle's color also counts as a reportable color change, whether it is paint or foil.",
+      "pt": "Uma película extensa que muda claramente a cor do veículo também é considerada uma mudança de cor sujeita a comunicação, seja tinta ou película."
+    },
+    "image": null
+  },
+  {
+    "id": "q345",
+    "category": "both",
+    "topic": "farbaenderung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du lässt nur Dach und Motorhaube in einer anderen Farbe lackieren, der Rest bleibt original. Muss das gemeldet werden?",
+      "es": "Cambias solo el color del techo y del capó de tu coche, el resto sigue con el color original. ¿Debe notificarse?",
+      "fr": "Tu fais repeindre uniquement le toit et le capot dans une autre couleur, le reste reste d'origine. Faut-il le déclarer ?",
+      "it": "Fai riverniciare solo il tetto e il cofano con un altro colore, il resto resta originale. Va segnalato?",
+      "en": "You only have the roof and hood repainted in a different color, the rest stays original. Must it be reported?",
+      "pt": "Manda repintar apenas o teto e o capô numa cor diferente, o resto continua original. Deve ser comunicado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Ja — sind beide Farben deutlich dominant, müssen beide im Fahrzeugausweis stehen",
+          "es": "Sí — si los dos colores son claramente dominantes, ambos deben figurar en el permiso de circulación",
+          "fr": "Oui — si les deux couleurs sont clairement dominantes, elles doivent toutes deux figurer sur le permis de circulation",
+          "it": "Sì — se entrambi i colori sono chiaramente dominanti, devono figurare entrambi nella licenza di circolazione",
+          "en": "Yes — if both colors are clearly dominant, both must appear in the registration document",
+          "pt": "Sim — se ambas as cores forem claramente dominantes, ambas devem constar no documento de circulação"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Nein, nur ein Farbwechsel der gesamten Karosserie muss gemeldet werden",
+          "es": "No, solo se notifican los cambios de color de toda la carrocería",
+          "fr": "Non, seuls les changements de couleur de toute la carrosserie doivent être déclarés",
+          "it": "No, vanno segnalati solo i cambi di colore dell'intera carrozzeria",
+          "en": "No, only color changes of the entire body need to be reported",
+          "pt": "Não, só é preciso comunicar mudanças de cor de toda a carroçaria"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Nein, teilweise Aufkleber müssen nie gemeldet werden",
+          "es": "No, los adhesivos parciales nunca deben notificarse",
+          "fr": "Non, les autocollants partiels ne doivent jamais être déclarés",
+          "it": "No, gli adesivi parziali non vanno mai segnalati",
+          "en": "No, partial stickers never need to be reported",
+          "pt": "Não, autocolantes parciais nunca precisam ser comunicados"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Im Fahrzeugausweis werden Haupt- und Nebenfarbe eingetragen. Sind nach einer Teillackierung zwei Farben deutlich dominant (z. B. Dach und Motorhaube), müssen beide erfasst werden.",
+      "es": "En el permiso de circulación se registran el color principal y el secundario. Si tras un cambio parcial hay dos colores claramente dominantes (p. ej. techo y capó), ambos deben quedar registrados.",
+      "fr": "Le permis de circulation indique la couleur principale et secondaire. Si, après une peinture partielle, deux couleurs sont clairement dominantes (p. ex. toit et capot), les deux doivent être enregistrées.",
+      "it": "Nella licenza di circolazione vengono registrati il colore principale e quello secondario. Se dopo una verniciatura parziale due colori sono chiaramente dominanti (es. tetto e cofano), vanno registrati entrambi.",
+      "en": "The registration document records the main and secondary color. If after a partial repaint two colors are clearly dominant (e.g. roof and hood), both must be recorded.",
+      "pt": "No documento de circulação registam-se a cor principal e a secundária. Se após uma pintura parcial houver duas cores claramente dominantes (ex.: teto e capô), ambas devem ser registadas."
+    },
+    "image": null
+  },
+  {
+    "id": "q346",
+    "category": "both",
+    "topic": "farbaenderung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Warum ist es wichtig, dass die im Fahrzeugausweis eingetragene Farbe mit der echten Farbe des Fahrzeugs übereinstimmt?",
+      "es": "¿Por qué es importante que el color real del vehículo coincida con el que figura en el permiso de circulación?",
+      "fr": "Pourquoi est-il important que la couleur inscrite sur le permis de circulation corresponde à la couleur réelle du véhicule ?",
+      "it": "Perché è importante che il colore reale del veicolo corrisponda a quello indicato nella licenza di circolazione?",
+      "en": "Why is it important that the color recorded in the registration document matches the vehicle's real color?",
+      "pt": "Por que é importante que a cor real do veículo corresponda à indicada no documento de circulação?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Damit die Polizei das Fahrzeug korrekt identifizieren kann, z. B. bei Diebstahl oder Kontrolle",
+          "es": "Para que la policía pueda identificar correctamente el vehículo, p. ej. en caso de robo o control",
+          "fr": "Pour que la police puisse identifier correctement le véhicule, p. ex. en cas de vol ou de contrôle",
+          "it": "Affinché la polizia possa identificare correttamente il veicolo, ad es. in caso di furto o controllo",
+          "en": "So the police can correctly identify the vehicle, e.g. in case of theft or a check",
+          "pt": "Para que a polícia possa identificar corretamente o veículo, por exemplo em caso de roubo ou controlo"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Weil sich dadurch die Abgaskategorie des Fahrzeugs ändert",
+          "es": "Porque cambia la categoría de emisiones del vehículo",
+          "fr": "Parce que cela change la catégorie d'émissions du véhicule",
+          "it": "Perché cambia la categoria di emissioni del veicolo",
+          "en": "Because it changes the vehicle's emissions category",
+          "pt": "Porque muda a categoria de emissões do veículo"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Weil sonst die Haftpflichtversicherung automatisch ungültig wird",
+          "es": "Porque de lo contrario el seguro de responsabilidad civil se anula automáticamente",
+          "fr": "Sinon, l'assurance responsabilité civile devient automatiquement invalide",
+          "it": "Perché altrimenti l'assicurazione di responsabilità civile diventa automaticamente nulla",
+          "en": "Because otherwise the liability insurance automatically becomes invalid",
+          "pt": "Porque, caso contrário, o seguro de responsabilidade civil torna-se automaticamente inválido"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Der Fahrzeugausweis dient unter anderem der eindeutigen Identifikation des Fahrzeugs. Eine falsche Farbangabe erschwert die Zuordnung bei Kontrollen, Unfällen oder Diebstahl.",
+      "es": "El permiso de circulación sirve, entre otras cosas, para identificar el vehículo con precisión. Un color incorrecto dificulta esa identificación en controles, accidentes o robos.",
+      "fr": "Le permis de circulation sert notamment à identifier précisément le véhicule. Une couleur erronée complique cette identification lors de contrôles, d'accidents ou de vols.",
+      "it": "La licenza di circolazione serve tra l'altro a identificare in modo univoco il veicolo. Un colore errato rende più difficile l'identificazione in caso di controlli, incidenti o furti.",
+      "en": "The registration document serves, among other things, to clearly identify the vehicle. An incorrect color makes identification harder during checks, accidents or theft.",
+      "pt": "O documento de circulação serve, entre outras coisas, para identificar claramente o veículo. Uma cor incorreta dificulta essa identificação em controlos, acidentes ou roubos."
+    },
+    "image": null
+  },
+  {
+    "id": "q347",
+    "category": "both",
+    "topic": "nebelscheinwerfer",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wann darfst du die Nebelscheinwerfer (vorne) einschalten?",
+      "es": "¿Cuándo está permitido encender los neblineros delanteros?",
+      "fr": "Quand as-tu le droit d'allumer les phares antibrouillard (avant) ?",
+      "it": "Quando è permesso accendere i fendinebbia anteriori?",
+      "en": "When are you allowed to turn on the front fog lights?",
+      "pt": "Quando é permitido ligar os faróis de nevoeiro dianteiros?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Nur wenn die Sicht durch Nebel, Schneetreiben oder starken Regen unter 50 m sinkt",
+          "es": "Solo cuando la visibilidad se reduce a menos de 50 m por niebla, nevada intensa o lluvia fuerte",
+          "fr": "Seulement quand la visibilité descend sous 50 m à cause du brouillard, de la neige ou de fortes pluies",
+          "it": "Solo quando la visibilità scende sotto i 50 m per nebbia, nevicata intensa o pioggia forte",
+          "en": "Only when visibility drops below 50 m due to fog, heavy snowfall or heavy rain",
+          "pt": "Só quando a visibilidade desce abaixo de 50 m devido a nevoeiro, neve intensa ou chuva forte"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Immer bei Einbruch der Dunkelheit, zusammen mit dem Abblendlicht",
+          "es": "Siempre que oscurece, junto con la luz de cruce",
+          "fr": "Toujours à la tombée de la nuit, avec le feu de croisement",
+          "it": "Sempre al calare della sera, insieme agli anabbaglianti",
+          "en": "Always at nightfall, together with the low beam",
+          "pt": "Sempre ao anoitecer, junto com os médios"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Nur nachts ausserorts, auch ohne Nebel",
+          "es": "Solo de noche fuera de poblado, aunque no haya niebla",
+          "fr": "Seulement de nuit hors localité, même sans brouillard",
+          "it": "Solo di notte fuori dai centri abitati, anche senza nebbia",
+          "en": "Only at night outside built-up areas, even without fog",
+          "pt": "Só à noite fora de zonas urbanas, mesmo sem nevoeiro"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Nach Art. 32 VRV dürfen Nebelscheinwerfer und Nebelschlussleuchte nur benutzt werden, wenn die Sicht durch Nebel, Schneetreiben oder starken Regen erheblich eingeschränkt ist (unter 50 m).",
+      "es": "Según el art. 32 VRV, los neblineros delanteros y traseros solo pueden usarse cuando la visibilidad esté muy reducida por niebla, nevada o lluvia intensa (menos de 50 m).",
+      "fr": "Selon l'art. 32 OCR, les phares et feux antibrouillard ne peuvent être utilisés que lorsque la visibilité est fortement réduite par le brouillard, la neige ou de fortes pluies (moins de 50 m).",
+      "it": "Secondo l'art. 32 ONC, i fendinebbia anteriori e posteriori possono essere usati solo quando la visibilità è fortemente ridotta da nebbia, nevicata o pioggia intensa (meno di 50 m).",
+      "en": "Under Art. 32 VRV, front and rear fog lights may only be used when visibility is severely reduced by fog, heavy snowfall or heavy rain (below 50 m).",
+      "pt": "Segundo o art. 32 VRV, os faróis de nevoeiro dianteiros e traseiros só podem ser usados quando a visibilidade estiver muito reduzida por nevoeiro, neve intensa ou chuva forte (menos de 50 m)."
+    },
+    "image": null
+  },
+  {
+    "id": "q348",
+    "category": "both",
+    "topic": "nebelscheinwerfer",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Darfst du nur mit den Nebelscheinwerfern fahren, ohne Abblend- oder Standlicht?",
+      "es": "¿Está permitido circular solo con los neblineros delanteros encendidos, sin luz de cruce ni de posición?",
+      "fr": "Peux-tu circuler avec seulement les antibrouillards allumés, sans feu de croisement ni de position ?",
+      "it": "È permesso circolare con accesi solo i fendinebbia, senza anabbaglianti né luci di posizione?",
+      "en": "Are you allowed to drive with only the fog lights on, without low beam or position lights?",
+      "pt": "É permitido circular apenas com os faróis de nevoeiro ligados, sem médios nem luzes de presença?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Nein, Nebelscheinwerfer dürfen nur zusammen mit Abblend- oder Standlicht verwendet werden, nie allein",
+          "es": "No, los neblineros solo pueden usarse junto con la luz de cruce o de posición, nunca solos",
+          "fr": "Non, les antibrouillards ne peuvent être utilisés qu'avec le feu de croisement ou de position, jamais seuls",
+          "it": "No, i fendinebbia possono essere usati solo insieme agli anabbaglianti o alle luci di posizione, mai da soli",
+          "en": "No, fog lights may only be used together with low beam or position lights, never alone",
+          "pt": "Não, os faróis de nevoeiro só podem ser usados junto com os médios ou as luzes de presença, nunca sozinhos"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Ja, solange wirklich Nebel herrscht",
+          "es": "Sí, siempre que haya niebla real",
+          "fr": "Oui, tant qu'il y a vraiment du brouillard",
+          "it": "Sì, finché c'è nebbia reale",
+          "en": "Yes, as long as there is real fog",
+          "pt": "Sim, desde que haja realmente nevoeiro"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Ja, aber nur innerorts",
+          "es": "Sí, pero solo dentro de poblado",
+          "fr": "Oui, mais seulement en localité",
+          "it": "Sì, ma solo nei centri abitati",
+          "en": "Yes, but only within built-up areas",
+          "pt": "Sim, mas apenas dentro de zonas urbanas"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Die Nebelscheinwerfer ersetzen nie das Abblend- oder Standlicht — sie dürfen nur zusätzlich dazu eingeschaltet werden.",
+      "es": "Los neblineros nunca sustituyen a la luz de cruce ni a la de posición: solo pueden encenderse como complemento a ellas.",
+      "fr": "Les antibrouillards ne remplacent jamais le feu de croisement ou de position : ils ne peuvent être allumés qu'en complément.",
+      "it": "I fendinebbia non sostituiscono mai gli anabbaglianti o le luci di posizione: possono essere accesi solo in aggiunta.",
+      "en": "Fog lights never replace the low beam or position lights — they may only be switched on in addition to them.",
+      "pt": "Os faróis de nevoeiro nunca substituem os médios ou as luzes de presença: só podem ser ligados em complemento a eles."
+    },
+    "image": null
+  },
+  {
+    "id": "q349",
+    "category": "both",
+    "topic": "nebelscheinwerfer",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Der Nebel löst sich auf und du siehst wieder klar über 200 m. Was musst du tun?",
+      "es": "La niebla se disipa y ahora ves con claridad más de 200 m. ¿Qué debes hacer con los neblineros delanteros?",
+      "fr": "Le brouillard se dissipe et tu vois de nouveau clairement à plus de 200 m. Que dois-tu faire ?",
+      "it": "La nebbia si dirada e ora vedi chiaramente oltre i 200 m. Cosa devi fare?",
+      "en": "The fog clears and you can now see clearly beyond 200 m. What must you do?",
+      "pt": "O nevoeiro dissipa-se e agora consegue ver claramente a mais de 200 m. O que deve fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Sie ausschalten, die Voraussetzung der eingeschränkten Sicht ist nicht mehr erfüllt",
+          "es": "Apagarlos, ya no se cumple la condición de visibilidad reducida que los justifica",
+          "fr": "Les éteindre, la condition de visibilité réduite n'est plus remplie",
+          "it": "Spegnerli, la condizione di visibilità ridotta non è più soddisfatta",
+          "en": "Turn them off, the condition of reduced visibility no longer applies",
+          "pt": "Desligá-los, a condição de visibilidade reduzida já não se verifica"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Sie den Rest der Fahrt anlassen, das ist unproblematisch",
+          "es": "Puedes dejarlos encendidos el resto del trayecto sin problema",
+          "fr": "Tu peux les laisser allumés pour le reste du trajet sans problème",
+          "it": "Puoi lasciarli accesi per il resto del tragitto senza problemi",
+          "en": "You can leave them on for the rest of the trip without issue",
+          "pt": "Pode deixá-los ligados pelo resto do trajeto sem problema"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Sie nur ausschalten, wenn dir ein anderes Fahrzeug entgegenkommt",
+          "es": "Solo debes apagarlos si te cruzas con otro vehículo",
+          "fr": "Il faut seulement les éteindre en croisant un autre véhicule",
+          "it": "Devi spegnerli solo quando incroci un altro veicolo",
+          "en": "You only need to turn them off if you meet oncoming traffic",
+          "pt": "Só precisa de os desligar ao cruzar-se com outro veículo"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Sobald die Sicht wieder über der Schwelle liegt, die den Einsatz der Nebelscheinwerfer rechtfertigt, müssen sie ausgeschaltet werden — sie blenden andere sonst unnötig.",
+      "es": "En cuanto la visibilidad vuelve a superar el umbral que justifica el uso de los neblineros, deben apagarse; de lo contrario deslumbran innecesariamente a otros.",
+      "fr": "Dès que la visibilité redépasse le seuil justifiant l'usage des antibrouillards, il faut les éteindre — sinon ils éblouissent inutilement les autres.",
+      "it": "Non appena la visibilità torna sopra la soglia che giustifica l'uso dei fendinebbia, vanno spenti — altrimenti abbagliano inutilmente gli altri.",
+      "en": "As soon as visibility rises above the threshold that justifies using fog lights, they must be turned off — otherwise they needlessly dazzle others.",
+      "pt": "Assim que a visibilidade volta a ultrapassar o limiar que justifica o uso dos faróis de nevoeiro, devem ser desligados — caso contrário encandeiam desnecessariamente os outros."
+    },
+    "image": null
+  },
+  {
+    "id": "q350",
+    "category": "both",
+    "topic": "nebelscheinwerfer",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wofür sind Nebelscheinwerfer im Unterschied zum Abblendlicht besonders geeignet?",
+      "es": "¿Para qué sirven principalmente los neblineros delanteros, a diferencia de la luz de cruce?",
+      "fr": "À quoi servent principalement les antibrouillards, contrairement au feu de croisement ?",
+      "it": "A cosa servono principalmente i fendinebbia, a differenza degli anabbaglianti?",
+      "en": "What are front fog lights mainly good for, unlike the low beam?",
+      "pt": "Para que servem principalmente os faróis de nevoeiro, ao contrário dos médios?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Sie leuchten flach und breit aus, was Blendung durch Rückstreuung in Nebel/Regen/Schnee verringert",
+          "es": "Iluminan con un haz bajo y ancho que reduce el deslumbramiento por reflejo en niebla, lluvia o nieve",
+          "fr": "Ils éclairent bas et large, réduisant l'éblouissement par réflexion dans le brouillard, la pluie ou la neige",
+          "it": "Illuminano con un fascio basso e ampio, riducendo l'abbagliamento da riflesso in nebbia, pioggia o neve",
+          "en": "They light up low and wide, reducing glare from back-scattered light in fog, rain or snow",
+          "pt": "Iluminam de forma baixa e larga, reduzindo o encandeamento por reflexo em nevoeiro, chuva ou neve"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Sie leuchten weiter als das Fernlicht",
+          "es": "Iluminan más lejos que la luz de carretera",
+          "fr": "Ils éclairent plus loin que les feux de route",
+          "it": "Illuminano più lontano degli abbaglianti",
+          "en": "They light up farther than the high beam",
+          "pt": "Iluminam mais longe do que os máximos"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Sie sollen das Abblendlicht auf der Autobahn dauerhaft ersetzen",
+          "es": "Sirven para sustituir de forma permanente a la luz de cruce en autopista",
+          "fr": "Ils sont destinés à remplacer durablement le feu de croisement sur autoroute",
+          "it": "Servono a sostituire in modo permanente gli anabbaglianti in autostrada",
+          "en": "They are meant to permanently replace the low beam on motorways",
+          "pt": "Servem para substituir permanentemente os médios na autoestrada"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Der breite, tief liegende Lichtkegel der Nebelscheinwerfer beleuchtet den Fahrbahnrand, ohne dass sich das Licht an Nebel-, Regen- oder Schneetropfen zurück in die Augen des Fahrers spiegelt.",
+      "es": "El haz ancho y bajo de los neblineros ilumina el borde de la calzada sin que la luz rebote hacia los ojos del conductor en las gotas de niebla, lluvia o nieve.",
+      "fr": "Le faisceau large et bas des antibrouillards éclaire le bord de la chaussée sans que la lumière ne se réfléchisse vers les yeux du conducteur sur les gouttes de brouillard, de pluie ou de neige.",
+      "it": "Il fascio ampio e basso dei fendinebbia illumina il bordo della carreggiata senza che la luce si rifletta verso gli occhi del conducente sulle gocce di nebbia, pioggia o neve.",
+      "en": "The wide, low beam of fog lights lights up the edge of the road without the light bouncing back into the driver's eyes off droplets of fog, rain or snow.",
+      "pt": "O feixe largo e baixo dos faróis de nevoeiro ilumina a berma sem que a luz reflita para os olhos do condutor nas gotas de nevoeiro, chuva ou neve."
+    },
+    "image": null
+  },
+  {
+    "id": "q351",
+    "category": "both",
+    "topic": "lernfahrt_ausstattung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was muss ein Fahrzeug während einer Lernfahrt hinten tragen?",
+      "es": "Durante una conducción de aprendizaje (permiso L), ¿qué debe llevar el vehículo en la parte trasera?",
+      "fr": "Que doit porter un véhicule à l'arrière durant une course d'apprentissage (permis L) ?",
+      "it": "Cosa deve avere un veicolo dietro durante una guida di apprendistato (licenza L)?",
+      "en": "What must a vehicle carry at the rear during a learner drive (L permit)?",
+      "pt": "Durante uma condução de aprendizagem (licença L), o que o veículo deve ter na traseira?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Ein blaues Schild mit weissem \"L\"",
+          "es": "Un cartel azul con la letra \"L\" blanca",
+          "fr": "Un panneau bleu avec un \"L\" blanc",
+          "it": "Un cartello blu con la lettera \"L\" bianca",
+          "en": "A blue sign with a white \"L\"",
+          "pt": "Uma placa azul com a letra \"L\" branca"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Kein besonderes Zeichen, der Lernfahrausweis im Handschuhfach genügt",
+          "es": "Ningún distintivo especial, basta con el permiso en la guantera",
+          "fr": "Aucun signe particulier, le permis d'élève conducteur dans la boîte à gants suffit",
+          "it": "Nessun contrassegno particolare, basta la licenza nel vano portaoggetti",
+          "en": "No special sign, the learner permit in the glovebox is enough",
+          "pt": "Nenhum sinal especial, basta a licença no porta-luvas"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Ein gelbes Warndreieck fest an der Heckscheibe",
+          "es": "Un triángulo de advertencia amarillo fijo en la luna trasera",
+          "fr": "Un triangle de danger jaune fixé à la lunette arrière",
+          "it": "Un triangolo di pericolo giallo fisso sul lunotto posteriore",
+          "en": "A yellow warning triangle fixed to the rear window",
+          "pt": "Um triângulo de aviso amarelo fixo no vidro traseiro"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Während der Lernfahrt muss ein blaues Schild mit weisser \"L\"-Aufschrift hinten am Fahrzeug angebracht sein, damit andere Verkehrsteilnehmende gewarnt sind.",
+      "es": "Durante la conducción de aprendizaje debe llevarse en la parte trasera un cartel azul con la letra \"L\" blanca, para que el resto de usuarios de la vía estén advertidos.",
+      "fr": "Durant la course d'apprentissage, un panneau bleu portant un \"L\" blanc doit être apposé à l'arrière du véhicule, afin d'avertir les autres usagers de la route.",
+      "it": "Durante la guida di apprendistato va apposto sul retro del veicolo un cartello blu con la lettera \"L\" bianca, per avvertire gli altri utenti della strada.",
+      "en": "During a learner drive, a blue sign with a white \"L\" must be attached to the rear of the vehicle, to warn other road users.",
+      "pt": "Durante a condução de aprendizagem deve ser colocada na traseira do veículo uma placa azul com a letra \"L\" branca, para avisar os outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q352",
+    "category": "both",
+    "topic": "lernfahrt_ausstattung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Die Lernfahrt ist beendet. Was ist mit dem \"L\"-Schild?",
+      "es": "Termina la sesión de conducción de aprendizaje. ¿Qué debe hacerse con el cartel \"L\"?",
+      "fr": "La course d'apprentissage est terminée. Que faire du panneau \"L\" ?",
+      "it": "La guida di apprendistato è terminata. Cosa fare del cartello \"L\"?",
+      "en": "The learner drive is over. What should be done with the \"L\" sign?",
+      "pt": "A condução de aprendizagem termina. O que fazer com a placa \"L\"?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Es muss vom Fahrzeug entfernt werden, es darf nicht ausserhalb von Lernfahrten dranbleiben",
+          "es": "Debe retirarse del vehículo, no debe seguir puesto fuera de las conducciones de aprendizaje",
+          "fr": "Il doit être retiré du véhicule, il ne doit pas rester en dehors des courses d'apprentissage",
+          "it": "Va rimosso dal veicolo, non deve restare al di fuori delle guide di apprendistato",
+          "en": "It must be removed from the vehicle, it must not stay on outside learner drives",
+          "pt": "Deve ser retirado do veículo, não pode continuar fora das condução de aprendizagem"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Es kann dauerhaft montiert bleiben",
+          "es": "Puede dejarse puesto de forma permanente",
+          "fr": "Il peut rester monté en permanence",
+          "it": "Può restare montato in modo permanente",
+          "en": "It can stay mounted permanently",
+          "pt": "Pode ficar montada permanentemente"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Es muss nur entfernt werden, wenn die Begleitperson das ausdrücklich verlangt",
+          "es": "Solo debe retirarse si el acompañante lo pide expresamente",
+          "fr": "Il ne doit être retiré que si l'accompagnateur le demande expressément",
+          "it": "Va rimosso solo se l'accompagnatore lo chiede espressamente",
+          "en": "It only needs to be removed if the accompanying person explicitly asks",
+          "pt": "Só precisa ser retirada se o acompanhante o pedir expressamente"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Das \"L\"-Schild darf nur während tatsächlicher Lernfahrten sichtbar sein — danach muss es entfernt werden, damit es keine falschen Erwartungen bei anderen Verkehrsteilnehmenden weckt.",
+      "es": "El cartel \"L\" solo puede estar visible durante las conducciones de aprendizaje reales; después debe retirarse, para no generar falsas expectativas en el resto de usuarios de la vía.",
+      "fr": "Le panneau \"L\" ne peut être visible que pendant les véritables courses d'apprentissage ; il doit ensuite être retiré pour ne pas induire les autres usagers en erreur.",
+      "it": "Il cartello \"L\" può essere visibile solo durante le vere guide di apprendistato; dopo va rimosso, per non creare false aspettative negli altri utenti della strada.",
+      "en": "The \"L\" sign may only be visible during actual learner drives — afterwards it must be removed so it doesn't create false expectations for other road users.",
+      "pt": "A placa \"L\" só pode estar visível durante as condução de aprendizagem reais; depois deve ser retirada, para não criar falsas expectativas nos outros utentes da via."
+    },
+    "image": null
+  },
+  {
+    "id": "q353",
+    "category": "both",
+    "topic": "lernfahrt_ausstattung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was muss die Begleitperson während einer Lernfahrt bezüglich der Handbremse sicherstellen können?",
+      "es": "¿Qué debe poder hacer la persona acompañante durante una conducción de aprendizaje respecto al freno de mano?",
+      "fr": "Que doit pouvoir faire l'accompagnateur durant une course d'apprentissage concernant le frein à main ?",
+      "it": "Cosa deve poter fare l'accompagnatore durante una guida di apprendistato riguardo al freno a mano?",
+      "en": "What must the accompanying person be able to do during a learner drive regarding the handbrake?",
+      "pt": "O que o acompanhante deve conseguir fazer durante uma condução de aprendizagem quanto ao travão de mão?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Er/sie muss leicht auf eine funktionierende Handbremse zugreifen können, um im Notfall eingreifen zu können",
+          "es": "Debe tener fácil acceso a un freno de mano funcional para poder intervenir si es necesario",
+          "fr": "Il/elle doit pouvoir accéder facilement à un frein à main fonctionnel pour intervenir en cas de besoin",
+          "it": "Deve poter accedere facilmente a un freno a mano funzionante per intervenire in caso di necessità",
+          "en": "They must have easy access to a functioning handbrake to be able to intervene if needed",
+          "pt": "Deve ter fácil acesso a um travão de mão funcional para poder intervir se necessário"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Er/sie braucht keinen Zugriff auf die Handbremse, nur auf die Sprache",
+          "es": "No necesita acceso al freno de mano, solo debe hablar",
+          "fr": "Il/elle n'a pas besoin d'accéder au frein à main, seulement de parler",
+          "it": "Non ha bisogno di accedere al freno a mano, solo di parlare",
+          "en": "They don't need access to the handbrake, only need to speak",
+          "pt": "Não precisa de acesso ao travão de mão, só de falar"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Er/sie muss jederzeit zusammen mit dem Lernenden das Lenkrad kontrollieren",
+          "es": "Debe controlar el volante en todo momento junto con el alumno",
+          "fr": "Il/elle doit contrôler le volant en permanence avec l'élève",
+          "it": "Deve controllare il volante in ogni momento insieme all'allievo",
+          "en": "They must control the steering wheel together with the learner at all times",
+          "pt": "Deve controlar o volante em todo o momento junto com o aluno"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Die Begleitperson muss im Notfall selbst bremsen können. Deshalb muss sie leichten Zugriff auf eine funktionierende Handbremse haben.",
+      "es": "La persona acompañante debe poder frenar por su cuenta en caso de emergencia. Por eso necesita fácil acceso a un freno de mano funcional.",
+      "fr": "L'accompagnateur doit pouvoir freiner lui-même en cas d'urgence. Il doit donc avoir un accès facile à un frein à main fonctionnel.",
+      "it": "L'accompagnatore deve poter frenare autonomamente in caso di emergenza. Per questo serve un accesso facile a un freno a mano funzionante.",
+      "en": "The accompanying person must be able to brake on their own in an emergency. That is why they need easy access to a functioning handbrake.",
+      "pt": "O acompanhante deve poder travar por conta própria em caso de emergência. Por isso precisa de fácil acesso a um travão de mão funcional."
+    },
+    "image": null
+  },
+  {
+    "id": "q354",
+    "category": "both",
+    "topic": "lernfahrt_ausstattung",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Das Auto hat nur eine Fussfeststellbremse, ohne Handbremse für die Begleitperson erreichbar. Was gilt?",
+      "es": "El coche solo tiene freno de estacionamiento de pedal, sin freno de mano accesible para el acompañante. ¿Qué corresponde?",
+      "fr": "La voiture n'a qu'un frein de parking à pédale, sans frein à main accessible à l'accompagnateur. Que faut-il retenir ?",
+      "it": "L'auto ha solo un freno di stazionamento a pedale, senza freno a mano raggiungibile dall'accompagnatore. Cosa vale?",
+      "en": "The car only has a foot-operated parking brake, with no handbrake reachable by the accompanying person. What applies?",
+      "pt": "O carro só tem travão de estacionamento de pedal, sem travão de mão acessível ao acompanhante. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Dieses Fahrzeug darf nicht für Lernfahrten verwendet werden",
+          "es": "Ese vehículo no puede usarse para conducciones de aprendizaje",
+          "fr": "Ce véhicule ne peut pas être utilisé pour des courses d'apprentissage",
+          "it": "Quel veicolo non può essere usato per guide di apprendistato",
+          "en": "That vehicle may not be used for learner drives",
+          "pt": "Esse veículo não pode ser usado para condução de aprendizagem"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Kein Problem, die Begleitperson kann das Pedal mit der Hand betätigen",
+          "es": "No hay problema, el acompañante puede usar el pedal con la mano",
+          "fr": "Aucun problème, l'accompagnateur peut actionner la pédale avec la main",
+          "it": "Nessun problema, l'accompagnatore può azionare il pedale con la mano",
+          "en": "No problem, the accompanying person can operate the pedal with their hand",
+          "pt": "Sem problema, o acompanhante pode acionar o pedal com a mão"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Das ist nur auf der Autobahn ein Problem, sonst nicht",
+          "es": "Solo es un problema en autopista, no en otras vías",
+          "fr": "Ce n'est un problème que sur autoroute, pas ailleurs",
+          "it": "È un problema solo in autostrada, non altrove",
+          "en": "It's only a problem on the motorway, not elsewhere",
+          "pt": "Só é problema na autoestrada, não nas restantes vias"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Eine Fussfeststellbremse kann von der Begleitperson im Notfall nicht bedient werden. Fahrzeuge ohne für sie erreichbare Handbremse sind für Lernfahrten ungeeignet.",
+      "es": "La persona acompañante no puede accionar un freno de estacionamiento de pedal en una emergencia. Los vehículos sin freno de mano accesible para ella no son aptos para conducciones de aprendizaje.",
+      "fr": "L'accompagnateur ne peut pas actionner un frein de parking à pédale en cas d'urgence. Les véhicules sans frein à main accessible pour lui ne conviennent pas aux courses d'apprentissage.",
+      "it": "L'accompagnatore non può azionare un freno di stazionamento a pedale in un'emergenza. I veicoli senza freno a mano raggiungibile per lui non sono adatti alle guide di apprendistato.",
+      "en": "The accompanying person cannot operate a foot-parking brake in an emergency. Vehicles without a handbrake reachable by them are unsuitable for learner drives.",
+      "pt": "O acompanhante não consegue acionar um travão de estacionamento de pedal numa emergência. Veículos sem travão de mão acessível para ele não são adequados para condução de aprendizagem."
+    },
+    "image": null
+  },
+  {
+    "id": "q355",
+    "category": "both",
+    "topic": "viehtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was schreibt die Schweizer Regelung zum Platzangebot für Tiere beim Viehtransport vor?",
+      "es": "¿Qué exige la normativa suiza sobre el espacio para los animales durante el transporte de ganado?",
+      "fr": "Que prévoit la réglementation suisse sur l'espace disponible pour les animaux lors du transport de bétail ?",
+      "it": "Cosa prevede la normativa svizzera sullo spazio disponibile per gli animali durante il trasporto di bestiame?",
+      "en": "What does Swiss regulation require regarding the space available for animals during livestock transport?",
+      "pt": "O que exige a regulamentação suíça sobre o espaço para os animais durante o transporte de gado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Für jede Tierart ist ein Mindestplatzbedarf festgelegt, damit die Tiere ohne Verletzungsgefahr stehen können",
+          "es": "Cada especie tiene un espacio mínimo definido, para que los animales puedan mantenerse de pie sin lesionarse",
+          "fr": "Chaque espèce dispose d'un espace minimal défini, afin que les animaux puissent rester debout sans se blesser",
+          "it": "Per ogni specie è definito uno spazio minimo, affinché gli animali possano stare in piedi senza rischio di ferirsi",
+          "en": "Each species has a defined minimum space, so the animals can stand without risk of injury",
+          "pt": "Cada espécie tem um espaço mínimo definido, para que os animais possam ficar de pé sem risco de lesão"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Es gibt keine Mindestplatzvorgabe, es reicht, wenn die Tiere hineinpassen",
+          "es": "No existe ningún requisito mínimo de espacio, basta con que quepan",
+          "fr": "Il n'y a aucune exigence minimale d'espace, il suffit qu'ils tiennent",
+          "it": "Non esiste alcun requisito minimo di spazio, basta che entrino",
+          "en": "There is no minimum space requirement, it is enough that they fit",
+          "pt": "Não existe requisito mínimo de espaço, basta que caibam"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Ein Mindestplatz wird nur bei Fahrten über 500 km verlangt",
+          "es": "El espacio mínimo solo se exige para trayectos de más de 500 km",
+          "fr": "Un espace minimal n'est exigé que pour les trajets de plus de 500 km",
+          "it": "Uno spazio minimo è richiesto solo per tragitti superiori a 500 km",
+          "en": "A minimum space is only required for journeys over 500 km",
+          "pt": "O espaço mínimo só é exigido para trajetos superiores a 500 km"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Die Tierschutzverordnung (Kapitel Tiertransport, Anhang 4) legt für jede Tierart einen Mindestplatzbedarf fest, damit die Tiere während des Transports stehen können, ohne verletzt zu werden.",
+      "es": "La ordenanza de protección animal (capítulo de transporte de animales, anexo 4) fija para cada especie un espacio mínimo, para que los animales puedan permanecer de pie durante el transporte sin lesionarse.",
+      "fr": "L'ordonnance sur la protection des animaux (chapitre transport, annexe 4) fixe pour chaque espèce un espace minimal, afin que les animaux puissent rester debout pendant le transport sans se blesser.",
+      "it": "L'ordinanza sulla protezione degli animali (capitolo trasporto, allegato 4) stabilisce per ogni specie uno spazio minimo, affinché gli animali possano restare in piedi durante il trasporto senza ferirsi.",
+      "en": "The animal welfare ordinance (transport chapter, annex 4) sets a minimum space for each species, so animals can remain standing during transport without being injured.",
+      "pt": "A ordenança de proteção animal (capítulo do transporte, anexo 4) fixa para cada espécie um espaço mínimo, para que os animais possam permanecer de pé durante o transporte sem se lesionarem."
+    },
+    "image": null
+  },
+  {
+    "id": "q356",
+    "category": "both",
+    "topic": "viehtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Ein Tier ist krank oder verletzt. Wann darf es trotzdem transportiert werden?",
+      "es": "Un animal está enfermo o herido. ¿En qué caso puede transportarse igualmente?",
+      "fr": "Un animal est malade ou blessé. Dans quel cas peut-il quand même être transporté ?",
+      "it": "Un animale è malato o ferito. In quale caso può comunque essere trasportato?",
+      "en": "An animal is sick or injured. In which case may it still be transported?",
+      "pt": "Um animal está doente ou ferido. Em que caso pode ainda assim ser transportado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Nur wenn es für die tierärztliche Behandlung oder die Schlachtung unumgänglich ist, unter besonderen Vorsichtsmassnahmen",
+          "es": "Solo si es imprescindible para tratamiento veterinario o sacrificio, tomando precauciones especiales",
+          "fr": "Seulement si c'est indispensable pour un traitement vétérinaire ou l'abattage, avec des précautions particulières",
+          "it": "Solo se indispensabile per il trattamento veterinario o la macellazione, con particolari precauzioni",
+          "en": "Only if it is essential for veterinary treatment or slaughter, taking special precautions",
+          "pt": "Só se for imprescindível para tratamento veterinário ou abate, tomando precauções especiais"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Ein krankes oder verletztes Tier darf unter keinen Umständen transportiert werden",
+          "es": "Nunca puede transportarse un animal enfermo o herido, bajo ninguna circunstancia",
+          "fr": "Un animal malade ou blessé ne peut jamais être transporté, en aucune circonstance",
+          "it": "Un animale malato o ferito non può mai essere trasportato, in nessuna circostanza",
+          "en": "A sick or injured animal may never be transported, under any circumstances",
+          "pt": "Um animal doente ou ferido nunca pode ser transportado, em nenhuma circunstância"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Es kann normal transportiert werden, wenn die Fahrt kurz ist",
+          "es": "Puede transportarse con normalidad si el trayecto es corto",
+          "fr": "Il peut être transporté normalement si le trajet est court",
+          "it": "Può essere trasportato normalmente se il tragitto è breve",
+          "en": "It can be transported normally if the journey is short",
+          "pt": "Pode ser transportado normalmente se o trajeto for curto"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Kranke oder verletzte Tiere dürfen nur transportiert werden, wenn dies für eine Behandlung oder die Schlachtung nötig ist — und dann nur so weit wie unbedingt erforderlich, unter besonderen Vorsichtsmassnahmen.",
+      "es": "Los animales enfermos o heridos solo pueden transportarse si es necesario para su tratamiento o sacrificio, y solo lo estrictamente necesario, con precauciones especiales.",
+      "fr": "Les animaux malades ou blessés ne peuvent être transportés que si cela est nécessaire pour un traitement ou l'abattage, et seulement dans la mesure strictement nécessaire, avec des précautions particulières.",
+      "it": "Gli animali malati o feriti possono essere trasportati solo se necessario per il trattamento o la macellazione, e solo per quanto strettamente necessario, con particolari precauzioni.",
+      "en": "Sick or injured animals may only be transported if necessary for treatment or slaughter — and only as far as strictly required, with special precautions.",
+      "pt": "Animais doentes ou feridos só podem ser transportados se for necessário para tratamento ou abate, e apenas o estritamente necessário, com precauções especiais."
+    },
+    "image": null
+  },
+  {
+    "id": "q357",
+    "category": "both",
+    "topic": "viehtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was wird von Personen verlangt, die Fahrzeuge von Viehhandels- oder Transportunternehmen lenken?",
+      "es": "¿Qué se exige a las personas que conducen vehículos de empresas de comercio o transporte de ganado?",
+      "fr": "Que doivent avoir les personnes qui conduisent des véhicules d'entreprises de commerce ou de transport de bétail ?",
+      "it": "Cosa si richiede alle persone che guidano veicoli di aziende di commercio o trasporto di bestiame?",
+      "en": "What is required of people who drive vehicles for livestock trading or transport companies?",
+      "pt": "O que é exigido às pessoas que conduzem veículos de empresas de comércio ou transporte de gado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Sie müssen über eine fachspezifische Ausbildung im Umgang mit und Transport von Tieren verfügen",
+          "es": "Deben contar con formación específica para el manejo y transporte de animales",
+          "fr": "Elles doivent disposer d'une formation spécifique à la manipulation et au transport des animaux",
+          "it": "Devono possedere una formazione specifica nella gestione e nel trasporto degli animali",
+          "en": "They must have specific training in handling and transporting animals",
+          "pt": "Devem ter formação específica na manipulação e transporte de animais"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Es genügt der Führerausweis der passenden Kategorie für das Fahrzeug",
+          "es": "Solo necesitan el permiso de conducir de la categoría correspondiente al vehículo",
+          "fr": "Le permis de conduire de la catégorie correspondant au véhicule suffit",
+          "it": "Basta la licenza di condurre della categoria corrispondente al veicolo",
+          "en": "The driving licence for the vehicle's category is enough",
+          "pt": "Basta a carta de condução da categoria correspondente ao veículo"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Es wird keine zusätzliche Ausbildung verlangt, praktische Erfahrung genügt",
+          "es": "No se exige ninguna formación adicional, basta con experiencia práctica",
+          "fr": "Aucune formation supplémentaire n'est exigée, l'expérience pratique suffit",
+          "it": "Non è richiesta alcuna formazione aggiuntiva, basta l'esperienza pratica",
+          "en": "No additional training is required, practical experience is enough",
+          "pt": "Não é exigida formação adicional, basta experiência prática"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "In Viehhandels- und Transportunternehmen müssen Fahrerinnen und Fahrer sowie Tierbetreuerinnen und -betreuer über eine fachspezifische Ausbildung im Umgang mit Tieren verfügen.",
+      "es": "En las empresas de comercio y transporte de ganado, quienes conducen y quienes cuidan a los animales deben contar con formación específica en el manejo de animales.",
+      "fr": "Dans les entreprises de commerce et de transport de bétail, les conducteurs et les personnes s'occupant des animaux doivent disposer d'une formation spécifique à la manipulation des animaux.",
+      "it": "Nelle aziende di commercio e trasporto di bestiame, chi guida e chi si occupa degli animali deve possedere una formazione specifica nella gestione degli animali.",
+      "en": "In livestock trading and transport companies, drivers and animal handlers must have specific training in handling animals.",
+      "pt": "Nas empresas de comércio e transporte de gado, quem conduz e quem cuida dos animais deve ter formação específica na manipulação de animais."
+    },
+    "image": null
+  },
+  {
+    "id": "q358",
+    "category": "both",
+    "topic": "viehtransport",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was muss beim Ein- und Ausladen von Vieh vor allem gewährleistet sein?",
+      "es": "¿Qué debe garantizarse principalmente al cargar y descargar ganado de un vehículo?",
+      "fr": "Que doit-on garantir avant tout lors du chargement et du déchargement du bétail ?",
+      "it": "Cosa va garantito soprattutto durante il carico e lo scarico del bestiame?",
+      "en": "What must mainly be ensured when loading and unloading livestock?",
+      "pt": "O que deve ser garantido principalmente ao carregar e descarregar gado?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Ein sorgfältiger Umgang, der Stress und Verletzungen vermeidet, mit geeigneten Rampen und Sicherung",
+          "es": "Un manejo cuidadoso que evite estrés y lesiones a los animales, con rampas y sujeción adecuadas",
+          "fr": "Une manipulation soigneuse évitant stress et blessures, avec des rampes et une fixation adaptées",
+          "it": "Una gestione accurata che eviti stress e ferite agli animali, con rampe e fissaggio adeguati",
+          "en": "Careful handling that avoids stress and injury to the animals, with suitable ramps and securing",
+          "pt": "Um manuseio cuidadoso que evite stress e lesões aos animais, com rampas e fixação adequadas"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Nur dass der Vorgang möglichst schnell abläuft",
+          "es": "Únicamente que el proceso sea lo más rápido posible",
+          "fr": "Uniquement que le processus soit le plus rapide possible",
+          "it": "Solo che il processo avvenga il più rapidamente possibile",
+          "en": "Only that the process happens as quickly as possible",
+          "pt": "Apenas que o processo seja o mais rápido possível"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Dass die Tiere frei beweglich und ungesichert reisen, um sich bewegen zu können",
+          "es": "Que los animales viajen sueltos para poder moverse libremente",
+          "fr": "Que les animaux voyagent en liberté pour pouvoir bouger",
+          "it": "Che gli animali viaggino liberi per potersi muovere",
+          "en": "That the animals travel loose and unsecured so they can move freely",
+          "pt": "Que os animais viajem soltos para se poderem mover livremente"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Beim Ein- und Ausladen sind Stress und Verletzungsrisiko für die Tiere zu minimieren — mit geeigneten Rampen, Trittsicherheit und angemessener Sicherung während der Fahrt.",
+      "es": "Al cargar y descargar hay que minimizar el estrés y el riesgo de lesión para los animales, con rampas adecuadas, buen agarre y una sujeción apropiada durante el trayecto.",
+      "fr": "Lors du chargement et du déchargement, il faut minimiser le stress et le risque de blessure pour les animaux, avec des rampes adaptées, une bonne adhérence et une fixation appropriée pendant le trajet.",
+      "it": "Durante il carico e lo scarico va minimizzato lo stress e il rischio di ferite per gli animali, con rampe adeguate, buona aderenza e un fissaggio appropriato durante il tragitto.",
+      "en": "During loading and unloading, stress and injury risk for the animals must be minimized — with suitable ramps, good footing and proper securing during the journey.",
+      "pt": "No carregamento e descarregamento deve minimizar-se o stress e o risco de lesão para os animais, com rampas adequadas, boa aderência e fixação apropriada durante o trajeto."
+    },
+    "image": null
+  },
+  {
+    "id": "q359",
+    "category": "both",
+    "topic": "auslaendischer_fuehrerausweis",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du ziehst mit einem gültigen ausländischen Führerausweis nach Schweiz um. Wie lange darfst du damit fahren?",
+      "es": "Te trasladas a vivir a Suiza con una licencia de conducir extranjera válida. ¿Hasta cuándo puedes circular con ella?",
+      "fr": "Tu t'installes en Suisse avec un permis de conduire étranger valide. Jusqu'à quand peux-tu circuler avec ?",
+      "it": "Ti trasferisci a vivere in Svizzera con una patente estera valida. Fino a quando puoi circolare con essa?",
+      "en": "You move to live in Switzerland with a valid foreign driving licence. Until when can you drive with it?",
+      "pt": "Você se muda para viver na Suíça com uma carta de condução estrangeira válida. Até quando pode conduzir com ela?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Bis zu 12 Monate ab der Wohnsitznahme in der Schweiz",
+          "es": "Hasta 12 meses desde que fijas tu domicilio en Suiza",
+          "fr": "Jusqu'à 12 mois à compter de l'établissement de ton domicile en Suisse",
+          "it": "Fino a 12 mesi dall'assunzione del domicilio in Svizzera",
+          "en": "Up to 12 months from taking up residence in Switzerland",
+          "pt": "Até 12 meses a partir da fixação de domicílio na Suíça"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Unbegrenzt, solange der Ausweis im Herkunftsland gültig bleibt",
+          "es": "De forma indefinida, mientras la licencia siga vigente en el país de origen",
+          "fr": "Indéfiniment, tant que le permis reste valable dans le pays d'origine",
+          "it": "Indefinitamente, finché la patente resta valida nel paese d'origine",
+          "en": "Indefinitely, as long as the licence remains valid in the home country",
+          "pt": "Indefinidamente, enquanto a carta continuar válida no país de origem"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Nur während der ersten 3 Monate",
+          "es": "Solo durante los primeros 3 meses",
+          "fr": "Seulement pendant les 3 premiers mois",
+          "it": "Solo durante i primi 3 mesi",
+          "en": "Only during the first 3 months",
+          "pt": "Só durante os primeiros 3 meses"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Wer in der Schweiz Wohnsitz nimmt, darf mit dem ausländischen Führerausweis noch 12 Monate fahren; danach muss er gegen einen schweizerischen umgetauscht werden.",
+      "es": "Quien fija domicilio en Suiza puede seguir conduciendo con la licencia extranjera durante 12 meses; después debe canjearla por una suiza.",
+      "fr": "Quiconque s'installe en Suisse peut encore conduire avec son permis étranger pendant 12 mois ; il doit ensuite l'échanger contre un permis suisse.",
+      "it": "Chi prende domicilio in Svizzera può ancora guidare con la patente estera per 12 mesi; dopo deve scambiarla con una svizzera.",
+      "en": "Anyone taking up residence in Switzerland may still drive with the foreign licence for 12 months; after that it must be exchanged for a Swiss one.",
+      "pt": "Quem fixa domicílio na Suíça ainda pode conduzir com a carta estrangeira durante 12 meses; depois deve trocá-la por uma suíça."
+    },
+    "image": null
+  },
+  {
+    "id": "q360",
+    "category": "both",
+    "topic": "auslaendischer_fuehrerausweis",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Die 12 Monate seit der Wohnsitznahme sind vorbei und du hast deinen ausländischen Führerausweis nicht umgetauscht. Was gilt?",
+      "es": "Pasan los 12 meses desde que te instalas en Suiza y no has canjeado tu licencia extranjera. ¿Qué corresponde?",
+      "fr": "Les 12 mois depuis ton installation sont passés et tu n'as pas échangé ton permis étranger. Que faut-il retenir ?",
+      "it": "Sono passati i 12 mesi dal trasferimento e non hai scambiato la tua patente estera. Cosa vale?",
+      "en": "The 12 months since you took up residence have passed and you have not exchanged your foreign licence. What applies?",
+      "pt": "Passaram os 12 meses desde que se instalou e não trocou a sua carta estrangeira. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Du darfst in der Schweiz nicht mehr fahren, bis du sie gegen eine schweizerische umgetauscht hast",
+          "es": "Ya no puedes conducir en Suiza hasta canjearla por una licencia suiza",
+          "fr": "Tu ne peux plus conduire en Suisse tant que tu ne l'as pas échangé contre un permis suisse",
+          "it": "Non puoi più guidare in Svizzera finché non l'hai scambiata con una svizzera",
+          "en": "You may no longer drive in Switzerland until you exchange it for a Swiss one",
+          "pt": "Já não pode conduzir na Suíça até a trocar por uma carta suíça"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Du kannst problemlos weiterfahren, die Frist ist nur unverbindlich",
+          "es": "Puedes seguir conduciendo sin problema, el plazo es solo orientativo",
+          "fr": "Tu peux continuer à conduire sans problème, le délai n'est qu'indicatif",
+          "it": "Puoi continuare a guidare senza problemi, il termine è solo indicativo",
+          "en": "You can keep driving without issue, the deadline is only indicative",
+          "pt": "Pode continuar a conduzir sem problemas, o prazo é apenas indicativo"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Es genügt, ihn in deinem Herkunftsland zu erneuern, um weiter in der Schweiz zu fahren",
+          "es": "Basta con renovarla en tu país de origen para seguir circulando en Suiza",
+          "fr": "Il suffit de le renouveler dans ton pays d'origine pour continuer à circuler en Suisse",
+          "it": "Basta rinnovarla nel tuo paese d'origine per continuare a circolare in Svizzera",
+          "en": "It is enough to renew it in your home country to keep driving in Switzerland",
+          "pt": "Basta renová-la no seu país de origem para continuar a circular na Suíça"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Nach Ablauf der 12-monatigen Frist ist der ausländische Führerausweis in der Schweiz nicht mehr gültig; wer weiterfahren will, muss ihn vorher umgetauscht haben.",
+      "es": "Una vez vencido el plazo de 12 meses, la licencia extranjera deja de ser válida en Suiza; para seguir conduciendo hay que haberla canjeado antes.",
+      "fr": "Une fois le délai de 12 mois écoulé, le permis étranger n'est plus valable en Suisse ; pour continuer à conduire, il faut l'avoir échangé au préalable.",
+      "it": "Una volta scaduto il termine di 12 mesi, la patente estera non è più valida in Svizzera; per continuare a guidare bisogna averla già scambiata.",
+      "en": "Once the 12-month deadline has passed, the foreign licence is no longer valid in Switzerland; to keep driving it must have been exchanged beforehand.",
+      "pt": "Depois de decorrido o prazo de 12 meses, a carta estrangeira deixa de ser válida na Suíça; para continuar a conduzir é preciso já a ter trocado."
+    },
+    "image": null
+  },
+  {
+    "id": "q361",
+    "category": "both",
+    "topic": "auslaendischer_fuehrerausweis",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Was musst du tun, um nach Ablauf der 12-monatigen Frist weiter in der Schweiz fahren zu dürfen?",
+      "es": "¿Qué debes hacer para poder seguir conduciendo en Suiza después del plazo de 12 meses?",
+      "fr": "Que dois-tu faire pour pouvoir continuer à conduire en Suisse après le délai de 12 mois ?",
+      "it": "Cosa devi fare per poter continuare a guidare in Svizzera dopo il termine di 12 mesi?",
+      "en": "What must you do to keep driving in Switzerland after the 12-month deadline?",
+      "pt": "O que deve fazer para poder continuar a conduzir na Suíça depois do prazo de 12 meses?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Den ausländischen Führerausweis beim kantonalen Strassenverkehrsamt gegen einen schweizerischen umtauschen",
+          "es": "Canjear tu licencia extranjera por una suiza en la oficina de circulación cantonal",
+          "fr": "Échanger ton permis étranger contre un permis suisse auprès du service cantonal des automobiles",
+          "it": "Scambiare la tua patente estera con una svizzera presso l'ufficio cantonale della circolazione",
+          "en": "Exchange your foreign licence for a Swiss one at the cantonal road traffic office",
+          "pt": "Trocar a sua carta estrangeira por uma suíça no serviço de trânsito cantonal"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Nichts, die 12-Monats-Frist erneuert sich automatisch bei jeder Ein- und Ausreise",
+          "es": "Nada, el plazo de 12 meses se renueva automáticamente cada vez que sales y vuelves a entrar al país",
+          "fr": "Rien, le délai de 12 mois se renouvelle automatiquement à chaque sortie et entrée dans le pays",
+          "it": "Niente, il termine di 12 mesi si rinnova automaticamente a ogni uscita e ingresso nel paese",
+          "en": "Nothing, the 12-month deadline automatically renews every time you leave and re-enter the country",
+          "pt": "Nada, o prazo de 12 meses renova-se automaticamente sempre que sai e volta a entrar no país"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Die komplette Theorie- und praktische Prüfung von Neuem ablegen, ausnahmslos immer",
+          "es": "Aprobar de nuevo el examen teórico y práctico completo desde cero, siempre sin excepción",
+          "fr": "Repasser entièrement l'examen théorique et pratique depuis le début, toujours sans exception",
+          "it": "Superare di nuovo l'intero esame teorico e pratico da zero, sempre senza eccezioni",
+          "en": "Pass the full theory and practical exam again from scratch, always without exception",
+          "pt": "Fazer de novo o exame teórico e prático completo desde o início, sempre sem exceção"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Der Umtausch erfolgt beim kantonalen Strassenverkehrsamt; je nach Herkunftsland genügt oft ein vereinfachtes Verfahren, nicht immer eine komplette neue Prüfung.",
+      "es": "El canje se hace en la oficina de circulación cantonal; según el país de origen, a menudo basta con un procedimiento simplificado, no siempre un examen completo nuevo.",
+      "fr": "L'échange s'effectue auprès du service cantonal des automobiles ; selon le pays d'origine, une procédure simplifiée suffit souvent, pas toujours un nouvel examen complet.",
+      "it": "Lo scambio avviene presso l'ufficio cantonale della circolazione; a seconda del paese d'origine spesso basta una procedura semplificata, non sempre un nuovo esame completo.",
+      "en": "The exchange takes place at the cantonal road traffic office; depending on the country of origin, a simplified procedure is often enough, not always a full new exam.",
+      "pt": "A troca é feita no serviço de trânsito cantonal; consoante o país de origem, muitas vezes basta um procedimento simplificado, nem sempre um novo exame completo."
+    },
+    "image": null
+  },
+  {
+    "id": "q362",
+    "category": "both",
+    "topic": "auslaendischer_fuehrerausweis",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du bist Berufschauffeur mit einem EU-/EFTA-Führerausweis und ziehst in die Schweiz. Was gilt zur Umtauschfrist?",
+      "es": "Como conductor profesional con licencia de un país de la UE/AELC que se muda a vivir a Suiza, ¿qué corresponde respecto al plazo de canje?",
+      "fr": "En tant que chauffeur professionnel avec un permis UE/AELE qui s'installe en Suisse, que faut-il retenir sur le délai d'échange ?",
+      "it": "Come autista professionista con patente UE/AELS che si trasferisce in Svizzera, cosa vale sul termine di scambio?",
+      "en": "As a professional driver with an EU/EFTA licence moving to Switzerland, what applies to the exchange deadline?",
+      "pt": "Como condutor profissional com carta da UE/EFTA que se muda para a Suíça, o que se aplica quanto ao prazo de troca?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "correct": true,
+        "text": {
+          "de": "Er hat wie alle anderen 12 Monate zum Umtausch, ohne dies vor der ersten Berufsfahrt tun zu müssen",
+          "es": "Tiene 12 meses para canjearla, igual que el resto, sin necesidad de hacerlo antes de su primera conducción profesional",
+          "fr": "Il dispose de 12 mois pour l'échanger, comme tout le monde, sans devoir le faire avant sa première course professionnelle",
+          "it": "Ha 12 mesi per lo scambio, come tutti gli altri, senza doverlo fare prima della prima guida professionale",
+          "en": "They have 12 months to exchange it, like everyone else, without needing to do so before their first professional drive",
+          "pt": "Tem 12 meses para a trocar, como todos os outros, sem necessidade de o fazer antes da primeira condução profissional"
+        }
+      },
+      {
+        "id": "b",
+        "correct": false,
+        "text": {
+          "de": "Er muss ihn zwingend vor jeder Berufsfahrt in der Schweiz umgetauscht haben",
+          "es": "Debe canjearla obligatoriamente antes de realizar cualquier conducción profesional en Suiza",
+          "fr": "Il doit obligatoirement l'avoir échangé avant toute course professionnelle en Suisse",
+          "it": "Deve obbligatoriamente averla scambiata prima di ogni guida professionale in Svizzera",
+          "en": "They must have exchanged it before any professional drive in Switzerland",
+          "pt": "Deve obrigatoriamente tê-la trocado antes de qualquer condução profissional na Suíça"
+        }
+      },
+      {
+        "id": "c",
+        "correct": false,
+        "text": {
+          "de": "Berufschauffeure können ihren Ausweis nicht umtauschen, sie müssen die komplette Prüfung wiederholen",
+          "es": "Los conductores profesionales no pueden canjear su licencia, deben repetir el examen completo",
+          "fr": "Les chauffeurs professionnels ne peuvent pas échanger leur permis, ils doivent repasser l'examen complet",
+          "it": "Gli autisti professionisti non possono scambiare la patente, devono ripetere l'esame completo",
+          "en": "Professional drivers cannot exchange their licence, they must retake the full exam",
+          "pt": "Os condutores profissionais não podem trocar a carta, devem repetir o exame completo"
+        }
+      }
+    ],
+    "explanation": {
+      "de": "Auch Berufschauffeure mit EU-/EFTA-Führerausweis haben 12 Monate ab Wohnsitznahme Zeit für den Umtausch und müssen dies nicht vor der ersten Berufsfahrt erledigt haben.",
+      "es": "Los conductores profesionales con licencia de la UE/AELC también tienen 12 meses desde que fijan domicilio para canjearla, sin necesidad de hacerlo antes de su primera conducción profesional.",
+      "fr": "Les chauffeurs professionnels titulaires d'un permis UE/AELE disposent eux aussi de 12 mois depuis leur installation pour l'échanger, sans devoir le faire avant leur première course professionnelle.",
+      "it": "Anche gli autisti professionisti con patente UE/AELS hanno 12 mesi dal domicilio per lo scambio, senza doverlo fare prima della prima guida professionale.",
+      "en": "Professional drivers with an EU/EFTA licence also have 12 months from taking up residence to exchange it, without needing to do so before their first professional drive.",
+      "pt": "Os condutores profissionais com carta da UE/EFTA também têm 12 meses a partir da fixação de domicílio para a trocar, sem necessidade de o fazer antes da primeira condução profissional."
+    },
+    "image": null
   }
 ]
