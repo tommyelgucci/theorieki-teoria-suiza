@@ -154,7 +154,8 @@ body {
 }
 
 .stagger {
-  animation: rise-in 380ms var(--ease-out-soft) both;
+  /* `backwards` (no `both`): al terminar no retiene el transform y deja actuar a .lift:active */
+  animation: rise-in 380ms var(--ease-out-soft) backwards;
   animation-delay: calc(var(--i, 0) * 45ms);
 }
 
@@ -230,6 +231,22 @@ body {
   animation: reveal-in 320ms var(--ease-out-soft) 80ms both;
 }
 
+/* Tarjeta de estudio: al voltearla, el contenido nuevo gira hacia el frente. */
+@keyframes flip-in {
+  from {
+    opacity: 0;
+    transform: perspective(700px) rotateX(-75deg) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.flip-in {
+  animation: flip-in 340ms var(--ease-out-soft) both;
+}
+
 /* Sello de resultado (examen aprobado/suspendido). */
 @keyframes stamp-in {
   0% {
@@ -297,6 +314,7 @@ body {
   .pop,
   .reveal-in,
   .stamp-in,
+  .flip-in,
   .grow-x {
     animation: none;
   }

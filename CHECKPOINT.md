@@ -30,8 +30,14 @@ escalonadas, barras por tema que crecen, Backup colapsado en `<details>`.
 **Cuidado al migrar clases con scripts:** un regex sobre "cualquier cadena entre comillas" empareja mal
 (`' : '` cuenta como cadena) y corrompe espacios como `{' '}`; limitarse a valores de `className` y no
 tocar espacios.
-**Pendiente:** grises decorativos sueltos (`text-gray-400`, `bg-gray-100` sin par dark), y revisar
-Signs/Maneuvers dentro de cada subvista (explorar, tarjetas, reproductor) con capturas.
+**Subvistas (sesión siguiente):** `.flip-in` al voltear tarjetas de estudio (Signs/FirstAid/Vku; el
+contenido se remonta con `key`, el botón no, para no perder el foco de teclado); cuadrícula de señales con
+entrada escalonada y detalle con `.reveal-in`; acordeones (Tips, Kontrollfahrt, Vku, Wab, FirstAid) con
+`.reveal-in` al abrir; intro del examen con dos tarjetas de cifras (minutos y puntos permitidos).
+**Bug corregido:** `.stagger` usaba `fill-mode: both`, que retiene el `transform` final y anulaba
+`.lift:active`; ahora es `backwards`. Cualquier animación que coexista con hover/active debe evitar `forwards/both`.
+**Pendiente:** grises decorativos sueltos (`text-gray-400`, `bg-gray-100` sin par dark) y el reproductor de
+maniobras (controles) sin tocar.
 
 ---
 

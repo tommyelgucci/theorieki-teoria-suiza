@@ -40,7 +40,7 @@ function Explore() {
               setCategory(c.id)
               setOpenSign(null)
             }}
-            className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium ${
+            className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium transition-colors active:scale-95 ${
               category === c.id ? 'bg-swiss text-white' : 'bg-surface text-body ring-1 ring-line'
             }`}
           >
@@ -50,11 +50,12 @@ function Explore() {
       </div>
 
       <div className="grid grid-cols-3 gap-3">
-        {signs.map((sign) => (
+        {signs.map((sign, n) => (
           <button
             key={sign.id}
             onClick={() => setOpenSign(openSign === sign.id ? null : sign.id)}
-            className={`flex flex-col items-center gap-1 rounded-2xl bg-surface p-2.5 shadow-sm ring-1 transition-colors ${
+            style={{ '--i': n % 12 }}
+            className={`stagger lift flex flex-col items-center gap-1 rounded-2xl bg-surface p-2.5 shadow-card ring-1 ${
               openSign === sign.id ? 'ring-swiss' : 'ring-line hover:bg-sunken'
             }`}
           >
@@ -74,7 +75,7 @@ function Explore() {
 function SignDetail({ sign }) {
   const { lang } = useLang()
   return (
-    <div className="flex items-start gap-4 rounded-2xl bg-surface p-4 shadow-sm ring-1 ring-swiss/40">
+    <div className="reveal-in flex items-start gap-4 rounded-2xl bg-surface p-4 shadow-card ring-1 ring-swiss/40">
       <SignSprite draw={sign.draw} size={80} />
       <div className="min-w-0 flex-1">
         <div className="flex items-start gap-2">
@@ -168,14 +169,16 @@ function Flashcards() {
           flipped ? 'bg-red-50 dark:bg-red-900/30 ring-swiss/40' : 'bg-surface ring-line'
         }`}
       >
-        {flipped ? (
-          <>
-            <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(sign.name, lang)}</span>
-            <span className="text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</span>
-          </>
-        ) : (
-          <SignSprite draw={sign.draw} size={130} />
-        )}
+        <span key={String(flipped)} className="flip-in flex flex-col items-center gap-3">
+          {flipped ? (
+            <>
+              <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(sign.name, lang)}</span>
+              <span className="text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</span>
+            </>
+          ) : (
+            <SignSprite draw={sign.draw} size={130} />
+          )}
+        </span>
         <span className="mt-1 inline-flex items-center gap-1 text-xs text-gray-400">
           <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
         </span>

@@ -115,9 +115,24 @@ export default function Exam({ category, onExit }) {
   if (phase === 'intro') {
     return (
       <div className="mx-auto max-w-xl space-y-4 px-4 py-6">
-        <div className="rounded-2xl bg-surface p-5 shadow-sm ring-1 ring-line">
+        <div className="rounded-2xl bg-surface p-5 shadow-card ring-1 ring-line">
           <IconStopwatch className="h-8 w-8 text-swiss" />
           <h2 className="mt-2 text-xl font-bold text-ink">{t('examIntroTitle', lang)}</h2>
+          <div className="mt-4 grid grid-cols-2 gap-3">
+            {[
+              { value: Math.round(config.timeLimitSec / 60), label: t('minutes', lang) },
+              { value: config.maxPenalty, label: `${t('penaltyPoints', lang)} ${t('maxAllowed', lang)}` },
+            ].map((tile, n) => (
+              <div
+                key={n}
+                style={{ '--i': n + 1 }}
+                className="stagger rounded-xl bg-sunken p-3 text-center ring-1 ring-line"
+              >
+                <div className="text-3xl font-extrabold leading-none text-swiss">{tile.value}</div>
+                <div className="mt-1 text-[11px] leading-tight text-muted">{tile.label}</div>
+              </div>
+            ))}
+          </div>
           <ul className="mt-3 space-y-2 text-sm leading-relaxed text-body">
             <li>• {t('examIntro1', lang)}</li>
             <li>• {t('examIntro2', lang, { n: config.size, p: config.maxPenalty })}</li>

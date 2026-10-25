@@ -24,7 +24,7 @@ function Accordion({ items, renderExtra }) {
               <span className={`text-gray-400 transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
             </button>
             {isOpen && (
-              <div className="space-y-3 border-t border-line p-4 pt-3">
+              <div className="reveal-in space-y-3 border-t border-line p-4 pt-3">
                 {item.bullets ? (
                   <ul className="space-y-3">
                     {item.bullets.map((b, i) => (

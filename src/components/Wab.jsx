@@ -29,7 +29,7 @@ export default function Wab() {
                 <span className={`text-gray-400 transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
               </button>
               {isOpen && (
-                <ul className="space-y-3 border-t border-line p-4 pt-3">
+                <ul className="reveal-in space-y-3 border-t border-line p-4 pt-3">
                   {section.bullets.map((b, i) => (
                     <li key={i} className="flex gap-2 text-sm leading-relaxed text-body">
                       <span className="text-swiss">•</span>
