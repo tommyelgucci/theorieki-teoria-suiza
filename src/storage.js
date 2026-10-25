@@ -4,7 +4,7 @@ const PREFIX = 'chfahren.'
 
 // Claves globales del dispositivo (compartidas entre perfiles).
 // Todo lo demás (progreso) vive bajo el prefijo del perfil activo: chfahren.p.<id>.<clave>
-const GLOBAL_KEYS = new Set(['lang', 'theme', 'profiles', 'activeProfile'])
+const GLOBAL_KEYS = new Set(['lang', 'theme', 'showDe', 'profiles', 'activeProfile'])
 
 function gread(key, fallback) {
   try {
@@ -143,6 +143,9 @@ function isValidEntryShape(rest, rawValue) {
 export const storage = {
   getLang: () => gread('lang', null) ?? detectBrowserLang(),
   setLang: (v) => gwrite('lang', v),
+  // Mostrar el texto original en alemán bajo la traducción (el examen real no está en tu idioma).
+  getShowDe: () => gread('showDe', false) === true,
+  setShowDe: (v) => gwrite('showDe', !!v),
 
   getTheme() {
     const saved = gread('theme', null)

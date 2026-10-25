@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { useLang, t, tr } from '../i18n'
+import { storage } from '../storage'
 import { topicLabel } from '../data/topics'
 import { hasMultipleCorrect, canSpeak, speakDe } from '../utils'
 import { SIGNS } from '../data/signs'
@@ -35,6 +37,13 @@ function QuestionImage({ image }) {
 export default function QuestionCard({ question, selected, onToggle, revealed, showTopic = true }) {
   const { lang } = useLang()
   const multi = hasMultipleCorrect(question)
+  // El examen real es en alemán, francés o italiano: quien estudia en otro idioma puede ver el original debajo.
+  const [showDe, setShowDe] = useState(() => storage.getShowDe())
+  const withDe = showDe && lang !== 'de'
+  const toggleDe = () => {
+    storage.setShowDe(!showDe)
+    setShowDe(!showDe)
+  }
 
   return (
     <div className="q-in rounded-2xl bg-surface p-4 shadow-card ring-1 ring-line">
@@ -54,7 +63,21 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
       <div className="flex items-start gap-2">
         <p className="min-w-0 flex-1 text-base font-semibold leading-snug text-ink">
           {tr(question.question, lang)}
+          {withDe && <span className="mt-1 block text-sm font-normal italic text-muted">{question.question.de}</span>}
         </p>
+        {lang !== 'de' && (
+          <button
+            onClick={toggleDe}
+            aria-pressed={showDe}
+            aria-label={t('showGerman', lang)}
+            title={t('showGerman', lang)}
+            className={`shrink-0 rounded-full px-2 py-0.5 text-[11px] font-bold ring-1 transition-colors ${
+              showDe ? 'bg-swiss text-white ring-swiss' : 'bg-subtle text-muted ring-line'
+            }`}
+          >
+            DE
+          </button>
+        )}
         {canSpeak() && (
           <button
             onClick={() => speakDe(question.question.de)}
@@ -103,7 +126,10 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
               >
                 ✓
               </span>
-              <span className="text-ink">{tr(opt.text, lang)}</span>
+              <span className="text-ink">
+                {tr(opt.text, lang)}
+                {withDe && <span className="mt-0.5 block text-xs italic text-muted">{opt.text.de}</span>}
+              </span>
               {revealed && isSelected && !opt.correct && <IconCross className="ml-auto h-4 w-4 shrink-0 text-red-500" />}
             </button>
           )
@@ -116,6 +142,9 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
             <IconBulb className="h-4 w-4" /> {t('explanation', lang)}
           </p>
           <p>{tr(question.explanation, lang)}</p>
+          {withDe && question.explanation?.de && (
+            <p className="mt-2 border-t border-blue-200 pt-2 text-xs italic opacity-80 dark:border-blue-800">{question.explanation.de}</p>
+          )}
         </div>
       )}
     </div>

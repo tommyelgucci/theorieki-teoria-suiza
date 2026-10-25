@@ -383,6 +383,7 @@ export const STRINGS = {
   keepReviewing: { de: 'Weiter prüfen', es: 'Seguir revisando', fr: 'Continuer à vérifier', it: 'Continua a rivedere', en: 'Keep reviewing', pt: 'Continuar a rever' },
   submitNow: { de: 'Jetzt abgeben', es: 'Entregar ahora', fr: 'Rendre maintenant', it: 'Consegna ora', en: 'Submit now', pt: 'Entregar agora' },
   toggleTheme: { de: 'Dunkelmodus umschalten', es: 'Cambiar modo oscuro', fr: 'Basculer le mode sombre', it: 'Attiva/disattiva modalità scura', en: 'Toggle dark mode', pt: 'Alternar modo escuro' },
+  showGerman: { de: 'Originaltext anzeigen', es: 'Mostrar el texto original en alemán', fr: "Afficher le texte original en allemand", it: 'Mostra il testo originale in tedesco', en: 'Show the original German text', pt: 'Mostrar o texto original em alemão' },
   listenDe: { de: 'Auf Deutsch vorlesen', es: 'Escuchar en alemán', fr: 'Écouter en allemand', it: 'Ascolta in tedesco', en: 'Listen in German', pt: 'Ouvir em alemão' },
   backupTitle: { de: 'Datensicherung', es: 'Copia de seguridad', fr: 'Sauvegarde', it: 'Copia di sicurezza', en: 'Backup', pt: 'Cópia de segurança' },
   backupHint: {
