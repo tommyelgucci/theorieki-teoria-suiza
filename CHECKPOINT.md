@@ -36,8 +36,10 @@ entrada escalonada y detalle con `.reveal-in`; acordeones (Tips, Kontrollfahrt, 
 `.reveal-in` al abrir; intro del examen con dos tarjetas de cifras (minutos y puntos permitidos).
 **Bug corregido:** `.stagger` usaba `fill-mode: both`, que retiene el `transform` final y anulaba
 `.lift:active`; ahora es `backwards`. Cualquier animación que coexista con hover/active debe evitar `forwards/both`.
-**Pendiente:** grises decorativos sueltos (`text-gray-400`, `bg-gray-100` sin par dark) y el reproductor de
-maniobras (controles) sin tocar.
+**Cierre del pulido:** tokens `--faint` (chevrons/iconos decorativos) y `--track` (fondo de barras);
+no queda ningún `gray-*` suelto salvo el `<option>` del header y el spinner de carga. Los textos pequeños
+que usaban `text-gray-400` (contraste insuficiente sobre blanco) pasaron a `text-muted`. Reproductor de
+maniobras: botones con hover/pulsación, puntos de paso animados y el texto de cada paso entra con `.q-in`.
 
 ---
 

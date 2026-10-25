@@ -21,7 +21,7 @@ function Accordion({ items, renderExtra }) {
                 <Icon name={item.icon} className="h-5 w-5" />
               </span>
               <span className="flex-1 font-semibold text-ink">{tr(item.title, lang)}</span>
-              <span className={`text-gray-400 transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
+              <span className={`text-faint transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
             </button>
             {isOpen && (
               <div className="reveal-in space-y-3 border-t border-line p-4 pt-3">
@@ -113,7 +113,7 @@ export default function Kontrollfahrt({ navigate }) {
                   >
                     {done ? '✓' : ''}
                   </span>
-                  <span className={`text-sm leading-relaxed ${done ? 'text-gray-400 line-through' : 'text-body'}`}>
+                  <span className={`text-sm leading-relaxed ${done ? 'text-muted line-through' : 'text-body'}`}>
                     {tr(item.text, lang)}
                   </span>
                 </button>

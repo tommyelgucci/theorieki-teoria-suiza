@@ -32,7 +32,7 @@ export default function MenuCard({ onClick, icon, label, sub, badge, tint = 'red
       {badge != null && badge > 0 && (
         <span className="rounded-full bg-swiss px-2.5 py-0.5 text-sm font-bold text-white">{badge}</span>
       )}
-      <span aria-hidden className="text-gray-300 transition-transform duration-200 group-hover:translate-x-0.5">
+      <span aria-hidden className="text-faint transition-transform duration-200 group-hover:translate-x-0.5">
         ›
       </span>
     </button>

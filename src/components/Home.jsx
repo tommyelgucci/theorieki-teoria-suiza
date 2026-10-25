@@ -32,7 +32,7 @@ function CategoryButton({ active, onClick, icon, label, sub }) {
     <button
       onClick={onClick}
       className={`flex flex-1 flex-col items-center gap-1 lift rounded-2xl border-2 p-4 ${
-        active ? 'border-swiss bg-red-50 shadow-card dark:bg-red-900/30' : 'border-line bg-surface hover:border-gray-300 dark:hover:border-gray-500'
+        active ? 'border-swiss bg-red-50 shadow-card dark:bg-red-900/30' : 'border-line bg-surface hover:border-line-strong'
       }`}
     >
       {icon}
@@ -85,7 +85,7 @@ function Hero({ profile, navigate, pool }) {
       </div>
       <div className="mt-3 flex items-center gap-3 border-t border-line pt-3">
         <span className="flex items-center gap-1 text-sm font-bold text-ink">
-          <IconFlame className={`h-4 w-4 ${streak > 0 ? 'flame text-swiss' : 'text-gray-300 dark:text-gray-600'}`} /> {streak}
+          <IconFlame className={`h-4 w-4 ${streak > 0 ? 'flame text-swiss' : 'text-faint'}`} /> {streak}
         </span>
         <div className="h-2 flex-1 overflow-hidden rounded-full bg-subtle">
           <div

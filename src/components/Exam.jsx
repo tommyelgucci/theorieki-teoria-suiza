@@ -195,7 +195,7 @@ export default function Exam({ category, onExit }) {
             <IconHourglass className="h-4 w-4" /> {formatTime(timeLeft)}
           </span>
         </div>
-        <div className="h-1.5 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+        <div className="h-1.5 overflow-hidden rounded-full bg-track">
           <div
             className="h-full bg-swiss transition-all"
             style={{ width: `${((index + 1) / questions.length) * 100}%` }}
@@ -257,7 +257,7 @@ export default function Exam({ category, onExit }) {
               {questions.map((qq, i) => {
                 const answered = (answers[qq.id] || []).length > 0
                 const flagged = flags.includes(qq.id)
-                let cls = 'bg-gray-100 text-gray-500 ring-gray-300 dark:bg-gray-700 dark:text-gray-400 dark:ring-gray-600'
+                let cls = 'bg-subtle text-muted ring-line-strong'
                 if (answered) cls = 'bg-green-100 text-green-800 ring-green-400 dark:bg-green-900/40 dark:text-green-300 dark:ring-green-600'
                 if (flagged) cls += ' !ring-2 !ring-amber-400'
                 return (
@@ -284,7 +284,7 @@ export default function Exam({ category, onExit }) {
                 <span className="h-2.5 w-2.5 rounded-sm bg-green-400" /> {t('answered', lang)}
               </span>
               <span className="inline-flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-sm bg-gray-200 ring-1 ring-gray-300 dark:bg-gray-600 dark:ring-gray-500" /> {t('unanswered', lang)}
+                <span className="h-2.5 w-2.5 rounded-sm bg-track ring-1 ring-line-strong" /> {t('unanswered', lang)}
               </span>
               <span className="inline-flex items-center gap-1">
                 <IconFlagMark className="h-3 w-3 text-amber-500" /> {t('flagged', lang)}
@@ -301,7 +301,7 @@ export default function Exam({ category, onExit }) {
                 <IconCheck className="h-4 w-4 text-emerald-500" /> {answeredCount} {t('answered', lang)}
               </p>
               <p className={`flex items-center gap-1.5 ${questions.length - answeredCount > 0 ? 'font-semibold text-red-600' : ''}`}>
-                <span className="h-3 w-3 rounded-sm ring-1 ring-gray-400" /> {questions.length - answeredCount} {t('unanswered', lang)}
+                <span className="h-3 w-3 rounded-sm ring-1 ring-line-strong" /> {questions.length - answeredCount} {t('unanswered', lang)}
               </p>
               <p className="flex items-center gap-1.5">
                 <IconFlagMark className="h-4 w-4 text-amber-500" /> {flags.length} {t('flagged', lang)}

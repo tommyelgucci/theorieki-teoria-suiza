@@ -47,7 +47,7 @@ export default function Profiles({ onClose }) {
           <h2 className="flex items-center gap-1.5 text-lg font-bold text-ink">
             <IconPeople className="h-5 w-5" /> {t('profilesTitle', lang)}
           </h2>
-          <button onClick={onClose} aria-label={t('back', lang)} className="rounded-full p-1.5 text-xl leading-none text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+          <button onClick={onClose} aria-label={t('back', lang)} className="rounded-full p-1.5 text-xl leading-none text-muted hover:bg-subtle">
             ✕
           </button>
         </div>
@@ -62,7 +62,7 @@ export default function Profiles({ onClose }) {
                     className={`flex flex-1 items-center gap-3 rounded-2xl p-3 text-left ring-1 transition-colors ${
                       p.id === active.id
                         ? 'bg-red-50 ring-swiss/40 dark:bg-red-900/30'
-                        : 'bg-sunken ring-gray-200 hover:bg-gray-100 dark:ring-gray-600 dark:hover:bg-gray-700'
+                        : 'bg-sunken ring-line hover:bg-subtle'
                     }`}
                   >
                     <span className="text-2xl">{p.emoji}</span>
@@ -75,7 +75,7 @@ export default function Profiles({ onClose }) {
                     <button
                       onClick={() => remove(p.id)}
                       aria-label={t('profileDelete', lang)}
-                      className="rounded-full p-2 text-gray-400 hover:bg-red-50 hover:text-swiss dark:hover:bg-red-900/30"
+                      className="rounded-full p-2 text-muted hover:bg-red-50 hover:text-swiss dark:hover:bg-red-900/30"
                     >
                       <IconTrash className="h-4 w-4" />
                     </button>
@@ -89,7 +89,7 @@ export default function Profiles({ onClose }) {
             >
               + {t('profileNew', lang)}
             </button>
-            <p className="mt-3 text-center text-[11px] text-gray-400">{t('profilesHint', lang)}</p>
+            <p className="mt-3 text-center text-[11px] text-muted">{t('profilesHint', lang)}</p>
           </>
         ) : (
           <>

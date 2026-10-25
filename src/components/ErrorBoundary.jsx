@@ -34,7 +34,7 @@ export default class ErrorBoundary extends Component {
     }
 
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-gray-100 px-6 text-center dark:bg-gray-950">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-canvas px-6 text-center">
         <IconWarningSign className="h-12 w-12 text-amber-500" />
         <h1 className="text-xl font-bold text-ink">{t('errorTitle', lang)}</h1>
         <p className="max-w-sm text-sm leading-relaxed text-body">{t('errorBody', lang)}</p>
@@ -47,7 +47,7 @@ export default class ErrorBoundary extends Component {
           </button>
           <button
             onClick={reset}
-            className="rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-gray-50"
+            className="rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
           >
             {t('errorReset', lang)}
           </button>

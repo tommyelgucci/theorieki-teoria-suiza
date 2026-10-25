@@ -90,7 +90,7 @@ function SignDetail({ sign }) {
             </button>
           )}
         </div>
-        <p className="mt-1 text-xs text-gray-400">{sign.name[lang === 'de' ? 'es' : 'de']}</p>
+        <p className="mt-1 text-xs text-muted">{sign.name[lang === 'de' ? 'es' : 'de']}</p>
         <p className="mt-2 text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</p>
       </div>
     </div>
@@ -179,7 +179,7 @@ function Flashcards() {
             <SignSprite draw={sign.draw} size={130} />
           )}
         </span>
-        <span className="mt-1 inline-flex items-center gap-1 text-xs text-gray-400">
+        <span className="mt-1 inline-flex items-center gap-1 text-xs text-muted">
           <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
         </span>
       </button>
@@ -284,11 +284,11 @@ function Quiz() {
         </div>
         <div className="mt-3 space-y-2">
           {current.options.map((opt) => {
-            let cls = 'border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 hover:border-gray-300 dark:hover:border-gray-500'
+            let cls = 'border-line bg-sunken hover:border-line-strong'
             if (revealed) {
               if (opt.id === current.sign.id) cls = 'border-green-500 bg-green-50 dark:bg-green-900/30'
               else if (opt.id === picked) cls = 'border-red-500 bg-red-50 dark:bg-red-900/30'
-              else cls = 'border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 opacity-60'
+              else cls = 'border-line bg-sunken opacity-60'
             }
             return (
               <button

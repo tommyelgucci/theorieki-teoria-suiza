@@ -37,6 +37,8 @@
   --muted: #6b7280;
   --line: #e5e7eb;
   --line-strong: #d1d5db;
+  --faint: #9ca3af;
+  --track: #e5e7eb;
 }
 .dark {
   --canvas: #030712;
@@ -48,6 +50,8 @@
   --muted: #9ca3af;
   --line: #374151;
   --line-strong: #4b5563;
+  --faint: #6b7280;
+  --track: #374151;
 }
 
 @theme inline {
@@ -60,6 +64,8 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
+  --color-faint: var(--faint);
+  --color-track: var(--track);
 }
 
 html {

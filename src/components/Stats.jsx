@@ -77,7 +77,7 @@ function TopicBars() {
               {pct}% · {total}
             </span>
           </div>
-          <div className="h-2.5 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+          <div className="h-2.5 overflow-hidden rounded-full bg-track">
             <div
               className={`grow-x h-full rounded-full ${
                 pct >= 80

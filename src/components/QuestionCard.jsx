@@ -73,13 +73,13 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
         {question.options.map((opt) => {
           const isSelected = selected.includes(opt.id)
           let cls =
-            'border-gray-200 bg-gray-50 hover:border-gray-300 dark:border-gray-600 dark:bg-gray-700/50 dark:hover:border-gray-500'
+            'border-line bg-sunken hover:border-line-strong'
           if (!revealed && isSelected)
             cls = 'border-swiss bg-red-50 ring-1 ring-swiss dark:bg-red-900/30'
           if (revealed) {
             if (opt.correct) cls = 'border-green-500 bg-green-50 dark:border-green-600 dark:bg-green-900/30'
             else if (isSelected) cls = 'shake border-red-500 bg-red-50 dark:border-red-600 dark:bg-red-900/30'
-            else cls = 'border-gray-200 bg-gray-50 opacity-60 dark:border-gray-600 dark:bg-gray-700/50'
+            else cls = 'border-line bg-sunken opacity-60'
           }
           return (
             <button

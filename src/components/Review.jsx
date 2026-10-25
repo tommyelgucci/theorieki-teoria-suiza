@@ -52,7 +52,7 @@ export default function Review() {
           <IconRetry className="h-3.5 w-3.5" /> {queue.length} {t('failedCount', lang)}
         </span>
       </div>
-      <p className="text-xs text-gray-400">{t('reviewHint', lang)}</p>
+      <p className="text-xs text-muted">{t('reviewHint', lang)}</p>
 
       <QuestionCard key={question.id} question={question} selected={selected} onToggle={toggle} revealed={revealed} />
 

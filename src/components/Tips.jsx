@@ -22,7 +22,7 @@ export default function Tips({ category }) {
                 <Icon name={section.icon} className="h-5 w-5" />
               </span>
               <span className="flex-1 font-semibold text-ink">{tr(section.title, lang)}</span>
-              <span className={`text-gray-400 transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
+              <span className={`text-faint transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
             </button>
             {isOpen && (
               <ul className="reveal-in space-y-3 border-t border-line p-4 pt-3">

@@ -40,7 +40,7 @@ function Blocks() {
                 <Icon name={block.icon} className="h-5 w-5" />
               </span>
               <span className="flex-1 font-semibold text-ink">{tr(block.title, lang)}</span>
-              <span className={`text-gray-400 transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
+              <span className={`text-faint transition-transform ${isOpen ? 'rotate-90' : ''}`}>›</span>
             </button>
             {isOpen && (
               <ul className="reveal-in space-y-3 border-t border-line p-4 pt-3">
@@ -121,14 +121,14 @@ function Flashcards() {
         }`}
       >
         <span key={String(flipped)} className="flip-in flex flex-col items-center">
-        <span className="mb-2 text-gray-400">
+        <span className="mb-2 text-faint">
           {flipped ? <IconBulb className="h-6 w-6" /> : <IconQuestionBubble className="h-6 w-6" />}
         </span>
         <span className={`text-lg leading-snug ${flipped ? 'font-bold text-swiss-dark dark:text-red-300' : 'font-semibold text-ink'}`}>
           {flipped ? tr(card.back, lang) : tr(card.front, lang)}
         </span>
         </span>
-        <span className="mt-4 inline-flex items-center gap-1 text-xs text-gray-400">
+        <span className="mt-4 inline-flex items-center gap-1 text-xs text-muted">
           <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
         </span>
       </button>
