@@ -41,10 +41,10 @@ export default function Profiles({ onClose }) {
     <div className="fixed inset-0 z-40 flex items-end justify-center bg-black/50 sm:items-center" onClick={onClose}>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-full max-w-md rounded-t-3xl bg-white p-5 shadow-float dark:bg-gray-800 sm:rounded-3xl"
+        className="w-full max-w-md rounded-t-3xl bg-surface p-5 shadow-float sm:rounded-3xl"
       >
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="flex items-center gap-1.5 text-lg font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="flex items-center gap-1.5 text-lg font-bold text-ink">
             <IconPeople className="h-5 w-5" /> {t('profilesTitle', lang)}
           </h2>
           <button onClick={onClose} aria-label={t('back', lang)} className="rounded-full p-1.5 text-xl leading-none text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -62,11 +62,11 @@ export default function Profiles({ onClose }) {
                     className={`flex flex-1 items-center gap-3 rounded-2xl p-3 text-left ring-1 transition-colors ${
                       p.id === active.id
                         ? 'bg-red-50 ring-swiss/40 dark:bg-red-900/30'
-                        : 'bg-gray-50 ring-gray-200 hover:bg-gray-100 dark:bg-gray-700/50 dark:ring-gray-600 dark:hover:bg-gray-700'
+                        : 'bg-sunken ring-gray-200 hover:bg-gray-100 dark:ring-gray-600 dark:hover:bg-gray-700'
                     }`}
                   >
                     <span className="text-2xl">{p.emoji}</span>
-                    <span className="flex-1 font-semibold text-gray-900 dark:text-gray-100">
+                    <span className="flex-1 font-semibold text-ink">
                       {p.name || t('profileDefaultName', lang)}
                     </span>
                     {p.id === active.id && <span className="text-xs font-bold text-swiss">✓ {t('profileActive', lang)}</span>}
@@ -99,7 +99,7 @@ export default function Profiles({ onClose }) {
               placeholder={t('profileNamePlaceholder', lang)}
               maxLength={20}
               autoFocus
-              className="w-full rounded-xl border border-gray-200 bg-gray-50 p-3 text-gray-900 dark:border-gray-600 dark:bg-gray-700/50 dark:text-gray-100"
+              className="w-full rounded-xl border border-line bg-sunken p-3 text-ink"
             />
             <div className="mt-3 grid grid-cols-6 gap-2">
               {EMOJIS.map((e) => (
@@ -107,7 +107,7 @@ export default function Profiles({ onClose }) {
                   key={e}
                   onClick={() => setEmoji(e)}
                   className={`rounded-xl p-2 text-2xl transition-transform active:scale-90 ${
-                    emoji === e ? 'bg-red-50 ring-2 ring-swiss dark:bg-red-900/30' : 'bg-gray-50 dark:bg-gray-700/50'
+                    emoji === e ? 'bg-red-50 ring-2 ring-swiss dark:bg-red-900/30' : 'bg-sunken'
                   }`}
                 >
                   {e}
@@ -117,7 +117,7 @@ export default function Profiles({ onClose }) {
             <div className="mt-4 flex gap-2">
               <button
                 onClick={() => setCreating(false)}
-                className="flex-1 rounded-xl bg-white py-3 font-semibold text-gray-700 ring-1 ring-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:ring-gray-600"
+                className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong"
               >
                 {t('back', lang)}
               </button>

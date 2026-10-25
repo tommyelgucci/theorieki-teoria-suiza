@@ -25,6 +25,43 @@
   outline-color: #ff8a80;
 }
 
+/* Tokens semánticos: una sola variable por rol que cambia sola en modo oscuro,
+   así los componentes no repiten pares `bg-white dark:bg-gray-800`. */
+:root {
+  --canvas: #f3f4f6;
+  --surface: #ffffff;
+  --sunken: #f9fafb;
+  --subtle: #f3f4f6;
+  --ink: #111827;
+  --body: #374151;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --line-strong: #d1d5db;
+}
+.dark {
+  --canvas: #030712;
+  --surface: #1f2937;
+  --sunken: rgb(55 65 81 / 0.5);
+  --subtle: #374151;
+  --ink: #f3f4f6;
+  --body: #d1d5db;
+  --muted: #9ca3af;
+  --line: #374151;
+  --line-strong: #4b5563;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-sunken: var(--sunken);
+  --color-subtle: var(--subtle);
+  --color-ink: var(--ink);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+}
+
 html {
   -webkit-tap-highlight-color: transparent;
 }

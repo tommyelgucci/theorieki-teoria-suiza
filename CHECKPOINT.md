@@ -21,8 +21,17 @@ Header: el selector de idioma muestra solo el código (select nativo transparent
 los títulos de subpantalla ya no se corten ("Study m…").
 **Decisión:** todo el movimiento respeta `prefers-reduced-motion` (bloque al final de `index.css`);
 si se añade una animación nueva, añadir su clase ahí.
-**Pendiente (paso 3 del plan):** rediseño de jerarquía por pantalla (Stats, Signs, Maneuvers, FirstAid)
-y migrar el resto de clases `gray-*` sueltas a tokens semánticos.
+**Paso 3 (misma sesión):** tokens semánticos (`--canvas/--surface/--sunken/--subtle/--ink/--body/--muted/--line/--line-strong`
+en `index.css`, expuestos como `bg-surface`, `text-ink`, `ring-line`… y que cambian solos en modo oscuro);
+~16 componentes migrados de pares `bg-white dark:bg-gray-800` a un solo token. Nuevo `MenuCard.jsx`
+(+ `GroupLabel`) que sustituye a `MenuButton` de Home, a las tres copias de `HubCard` (FirstAid, Signs,
+Vku) y a las filas de Maneuvers: chip de color por sección, entrada escalonada. Stats: secciones
+escalonadas, barras por tema que crecen, Backup colapsado en `<details>`.
+**Cuidado al migrar clases con scripts:** un regex sobre "cualquier cadena entre comillas" empareja mal
+(`' : '` cuenta como cadena) y corrompe espacios como `{' '}`; limitarse a valores de `className` y no
+tocar espacios.
+**Pendiente:** grises decorativos sueltos (`text-gray-400`, `bg-gray-100` sin par dark), y revisar
+Signs/Maneuvers dentro de cada subvista (explorar, tarjetas, reproductor) con capturas.
 
 ---
 

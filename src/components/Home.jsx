@@ -5,6 +5,7 @@ import { questionsForCategory, readinessScore } from '../utils'
 import { loadQuestions } from '../data/questionBank'
 import { topicLabel } from '../data/topics'
 import ProgressRing from './ProgressRing'
+import MenuCard, { GroupLabel } from './MenuCard'
 import { CarIcon, MotoIcon } from './CategoryIcons'
 import {
   IconFirstAid,
@@ -31,57 +32,13 @@ function CategoryButton({ active, onClick, icon, label, sub }) {
     <button
       onClick={onClick}
       className={`flex flex-1 flex-col items-center gap-1 lift rounded-2xl border-2 p-4 ${
-        active ? 'border-swiss bg-red-50 shadow-card dark:bg-red-900/30' : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:border-gray-300 dark:hover:border-gray-500'
+        active ? 'border-swiss bg-red-50 shadow-card dark:bg-red-900/30' : 'border-line bg-surface hover:border-gray-300 dark:hover:border-gray-500'
       }`}
     >
       {icon}
-      <span className="font-bold text-gray-900 dark:text-gray-100">{label}</span>
-      <span className="text-xs text-gray-600 dark:text-gray-400">{sub}</span>
+      <span className="font-bold text-ink">{label}</span>
+      <span className="text-xs text-muted">{sub}</span>
     </button>
-  )
-}
-
-const CHIP_TINTS = {
-  red: 'bg-red-100 dark:bg-red-900/40',
-  amber: 'bg-amber-100 dark:bg-amber-900/40',
-  blue: 'bg-sky-100 dark:bg-sky-900/40',
-  green: 'bg-emerald-100 dark:bg-emerald-900/40',
-}
-
-const CHIP_TEXT = {
-  red: 'text-swiss dark:text-red-300',
-  amber: 'text-amber-600 dark:text-amber-300',
-  blue: 'text-sky-600 dark:text-sky-300',
-  green: 'text-emerald-600 dark:text-emerald-300',
-}
-
-function MenuButton({ onClick, icon, label, sub, badge, tint = 'red', i = 0 }) {
-  return (
-    <button
-      onClick={onClick}
-      style={{ '--i': i }}
-      className="stagger lift group flex w-full items-center gap-3.5 rounded-2xl bg-white dark:bg-gray-800 p-3.5 text-left shadow-card ring-1 ring-gray-200/70 dark:ring-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700"
-    >
-      <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl ${CHIP_TINTS[tint]} ${CHIP_TEXT[tint]}`}>
-        {icon}
-      </span>
-      <span className="min-w-0 flex-1">
-        <span className="block font-semibold leading-snug text-gray-900 dark:text-gray-100">{label}</span>
-        <span className="block text-[13px] leading-snug text-gray-500 dark:text-gray-400">{sub}</span>
-      </span>
-      {badge != null && badge > 0 && (
-        <span className="rounded-full bg-swiss px-2.5 py-0.5 text-sm font-bold text-white">{badge}</span>
-      )}
-      <span aria-hidden className="text-gray-300 transition-transform duration-200 group-hover:translate-x-0.5">›</span>
-    </button>
-  )
-}
-
-function GroupLabel({ children, i = 0 }) {
-  return (
-    <p style={{ '--i': i }} className="stagger px-1 pt-2 text-[11px] font-bold uppercase tracking-wider text-gray-600 dark:text-gray-400">
-      {children}
-    </p>
   )
 }
 
@@ -104,39 +61,39 @@ function Hero({ profile, navigate, pool }) {
   return (
     <button
       onClick={() => navigate('stats')}
-      className="lift block w-full rounded-3xl bg-white p-4 text-left shadow-card ring-1 ring-gray-200/70 dark:bg-gray-800 dark:ring-gray-700"
+      className="lift block w-full rounded-3xl bg-surface p-4 text-left shadow-card ring-1 ring-line"
     >
       <div className="flex items-center gap-4">
         <ProgressRing value={score ?? 4} size={84} stroke={8} color={ringColor}>
-          <span className="text-lg font-extrabold text-gray-900 dark:text-gray-100">
+          <span className="text-lg font-extrabold text-ink">
             {score != null ? `${score}` : '·'}
           </span>
         </ProgressRing>
         <div className="min-w-0 flex-1">
-          <p className="text-base font-bold leading-tight text-gray-900 dark:text-gray-100">
+          <p className="text-base font-bold leading-tight text-ink">
             {t('greeting', lang, { name })} {profile?.emoji}
           </p>
-          <p className="mt-0.5 text-sm text-gray-600 dark:text-gray-300">
+          <p className="mt-0.5 text-sm text-body">
             {score != null ? levelText : t('readinessEmpty', lang)}
           </p>
           {weakTopics.length > 0 && (
-            <p className="mt-1 truncate text-xs text-gray-600 dark:text-gray-400">
+            <p className="mt-1 truncate text-xs text-muted">
               {t('weakTopicsLabel', lang)} {weakTopics.map((tp) => topicLabel(tp, lang)).join(' · ')}
             </p>
           )}
         </div>
       </div>
-      <div className="mt-3 flex items-center gap-3 border-t border-gray-100 pt-3 dark:border-gray-700">
-        <span className="flex items-center gap-1 text-sm font-bold text-gray-800 dark:text-gray-200">
+      <div className="mt-3 flex items-center gap-3 border-t border-line pt-3">
+        <span className="flex items-center gap-1 text-sm font-bold text-ink">
           <IconFlame className={`h-4 w-4 ${streak > 0 ? 'flame text-swiss' : 'text-gray-300 dark:text-gray-600'}`} /> {streak}
         </span>
-        <div className="h-2 flex-1 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-700">
+        <div className="h-2 flex-1 overflow-hidden rounded-full bg-subtle">
           <div
             className="grow-x h-full rounded-full bg-gradient-to-r from-swiss to-gold"
             style={{ width: `${dailyPct}%` }}
           />
         </div>
-        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+        <span className="text-xs font-semibold text-muted">
           {t('dailyGoal', lang)} {Math.min(daily, DAILY_GOAL)}/{DAILY_GOAL}
         </span>
       </div>
@@ -218,7 +175,7 @@ export default function Home({ category, setCategory, navigate, profile }) {
         />
       </div>
 
-      <div style={{ '--i': 2 }} className="stagger flex items-center justify-between rounded-xl bg-white dark:bg-gray-800 px-4 py-2.5 text-xs text-gray-600 dark:text-gray-300 shadow-card ring-1 ring-gray-200/70 dark:ring-gray-700">
+      <div style={{ '--i': 2 }} className="stagger flex items-center justify-between rounded-xl bg-surface px-4 py-2.5 text-xs text-body shadow-card ring-1 ring-line">
         <span className="inline-flex items-center gap-1">
           <IconStack className="h-3.5 w-3.5" /> {pool ? pool.length : '·'} {t('categoryQuestions', lang)}
         </span>
@@ -229,7 +186,7 @@ export default function Home({ category, setCategory, navigate, profile }) {
 
       <div className="space-y-2.5">
         <GroupLabel i={3}>{t('groupBefore', lang)}</GroupLabel>
-        <MenuButton i={4}
+        <MenuCard i={4}
           onClick={() => navigate('firstaid')}
           icon={<IconFirstAid className="h-6 w-6" />}
           label={t('menuFirstAid', lang)}
@@ -238,9 +195,9 @@ export default function Home({ category, setCategory, navigate, profile }) {
         />
 
         <GroupLabel i={5}>{t('groupTheory', lang)}</GroupLabel>
-        <MenuButton i={6} onClick={() => navigate('study')} icon={<IconBookOpen className="h-6 w-6" />} label={t('menuStudy', lang)} sub={t('menuStudySub', lang)} tint="blue" />
-        <MenuButton i={7} onClick={() => navigate('exam')} icon={<IconStopwatch className="h-6 w-6" />} label={t('menuExam', lang)} sub={t('menuExamSub', lang)} tint="blue" />
-        <MenuButton i={8}
+        <MenuCard i={6} onClick={() => navigate('study')} icon={<IconBookOpen className="h-6 w-6" />} label={t('menuStudy', lang)} sub={t('menuStudySub', lang)} tint="blue" />
+        <MenuCard i={7} onClick={() => navigate('exam')} icon={<IconStopwatch className="h-6 w-6" />} label={t('menuExam', lang)} sub={t('menuExamSub', lang)} tint="blue" />
+        <MenuCard i={8}
           onClick={() => navigate('review')}
           icon={<IconRetry className="h-6 w-6" />}
           label={t('menuReview', lang)}
@@ -248,7 +205,7 @@ export default function Home({ category, setCategory, navigate, profile }) {
           badge={failedCount}
           tint="blue"
         />
-        <MenuButton i={9}
+        <MenuCard i={9}
           onClick={() => navigate('signs')}
           icon={<IconWarningSign className="h-6 w-6" />}
           label={t('menuSigns', lang)}
@@ -257,8 +214,8 @@ export default function Home({ category, setCategory, navigate, profile }) {
         />
 
         <GroupLabel i={10}>{t('groupPractical', lang)}</GroupLabel>
-        <MenuButton i={11} onClick={() => navigate('vku')} icon={<IconThoughtBubble className="h-6 w-6" />} label={t('menuVku', lang)} sub={t('menuVkuSub', lang)} tint="green" />
-        <MenuButton i={12}
+        <MenuCard i={11} onClick={() => navigate('vku')} icon={<IconThoughtBubble className="h-6 w-6" />} label={t('menuVku', lang)} sub={t('menuVkuSub', lang)} tint="green" />
+        <MenuCard i={12}
           onClick={() => navigate('maneuvers')}
           icon={<IconSteeringWheel className="h-6 w-6" />}
           label={t('menuManeuvers', lang)}
@@ -266,20 +223,20 @@ export default function Home({ category, setCategory, navigate, profile }) {
           badge={maneuverCount}
           tint="green"
         />
-        <MenuButton i={13} onClick={() => navigate('tips')} icon={<IconTarget className="h-6 w-6" />} label={t('menuTips', lang)} sub={t('menuTipsSub', lang)} tint="green" />
+        <MenuCard i={13} onClick={() => navigate('tips')} icon={<IconTarget className="h-6 w-6" />} label={t('menuTips', lang)} sub={t('menuTipsSub', lang)} tint="green" />
 
         <GroupLabel i={14}>{t('groupSpecial', lang)}</GroupLabel>
-        <MenuButton i={15}
+        <MenuCard i={15}
           onClick={() => navigate('kontrollfahrt')}
           icon={<IconIdCard className="h-6 w-6" />}
           label={t('menuKontrollfahrt', lang)}
           sub={t('menuKontrollfahrtSub', lang)}
           tint="amber"
         />
-        <MenuButton i={16} onClick={() => navigate('wab')} icon={<IconGraduationCap className="h-6 w-6" />} label={t('menuWab', lang)} sub={t('menuWabSub', lang)} tint="amber" />
+        <MenuCard i={16} onClick={() => navigate('wab')} icon={<IconGraduationCap className="h-6 w-6" />} label={t('menuWab', lang)} sub={t('menuWabSub', lang)} tint="amber" />
 
         <div className="pt-1">
-          <MenuButton i={17}
+          <MenuCard i={17}
             onClick={() => navigate('stats')}
             icon={<IconBarChart className="h-6 w-6" />}
             label={t('menuStats', lang)}
@@ -290,7 +247,7 @@ export default function Home({ category, setCategory, navigate, profile }) {
       </div>
 
       {lastExam && (
-        <p className="flex items-center justify-center gap-1 text-center text-xs text-gray-500 dark:text-gray-400">
+        <p className="flex items-center justify-center gap-1 text-center text-xs text-muted">
           {t('lastExam', lang)}:{' '}
           {lastExam.passed ? (
             <IconCheck className="h-3.5 w-3.5 text-emerald-500" />
@@ -301,9 +258,9 @@ export default function Home({ category, setCategory, navigate, profile }) {
         </p>
       )}
 
-      <p className="pt-2 text-center text-[11px] leading-relaxed text-gray-600 dark:text-gray-400">{t('disclaimer', lang)}</p>
+      <p className="pt-2 text-center text-[11px] leading-relaxed text-muted">{t('disclaimer', lang)}</p>
       <p className="text-center text-[11px]">
-        <a href="./privacy.html" target="_blank" rel="noreferrer" className="text-gray-600 underline hover:text-swiss dark:text-gray-400">
+        <a href="./privacy.html" target="_blank" rel="noreferrer" className="text-muted underline hover:text-swiss">
           {t('privacyPolicy', lang)}
         </a>
       </p>

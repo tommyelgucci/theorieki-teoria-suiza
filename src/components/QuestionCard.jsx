@@ -37,14 +37,14 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
   const multi = hasMultipleCorrect(question)
 
   return (
-    <div className="q-in rounded-2xl bg-white p-4 shadow-card ring-1 ring-gray-200/70 dark:bg-gray-800 dark:ring-gray-700">
+    <div className="q-in rounded-2xl bg-surface p-4 shadow-card ring-1 ring-line">
       {showTopic && (
         <div className="mb-2 flex items-center gap-2">
-          <span className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">
+          <span className="rounded-full bg-subtle px-2.5 py-0.5 text-xs font-medium text-body">
             {topicLabel(question.topic, lang)}
           </span>
           {question.category !== 'both' && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">
+            <span className="inline-flex items-center gap-1 rounded-full bg-subtle px-2.5 py-0.5 text-xs font-medium text-body">
               {question.category === 'B' ? <CarIcon className="h-3 w-auto" /> : <MotoIcon className="h-3 w-auto" />} {question.category}
             </span>
           )}
@@ -52,7 +52,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
       )}
 
       <div className="flex items-start gap-2">
-        <p className="min-w-0 flex-1 text-base font-semibold leading-snug text-gray-900 dark:text-gray-100">
+        <p className="min-w-0 flex-1 text-base font-semibold leading-snug text-ink">
           {tr(question.question, lang)}
         </p>
         {canSpeak() && (
@@ -67,7 +67,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
         )}
       </div>
       <QuestionImage image={question.image} />
-      {multi && !revealed && <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">☑︎ {t('multiHint', lang)}</p>}
+      {multi && !revealed && <p className="mt-1 text-xs text-muted">☑︎ {t('multiHint', lang)}</p>}
 
       <div className="mt-4 space-y-2">
         {question.options.map((opt) => {
@@ -98,12 +98,12 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
                 className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-xs font-bold ${
                   isSelected
                     ? 'border-swiss bg-swiss text-white'
-                    : 'border-gray-300 bg-white text-transparent dark:border-gray-500 dark:bg-gray-800'
+                    : 'border-line-strong bg-surface text-transparent'
                 } ${revealed && opt.correct ? 'pop !border-green-600 !bg-green-600 !text-white' : ''}`}
               >
                 ✓
               </span>
-              <span className="text-gray-800 dark:text-gray-200">{tr(opt.text, lang)}</span>
+              <span className="text-ink">{tr(opt.text, lang)}</span>
               {revealed && isSelected && !opt.correct && <IconCross className="ml-auto h-4 w-4 shrink-0 text-red-500" />}
             </button>
           )
