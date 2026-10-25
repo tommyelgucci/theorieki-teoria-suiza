@@ -149,7 +149,7 @@ function Backup() {
       <div className="flex gap-2">
         <button
           onClick={doExport}
-          className="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-swiss py-2.5 text-sm font-semibold text-white hover:bg-swiss-dark"
+          className="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-swiss py-2.5 text-sm font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           <IconDownload className="h-4 w-4" /> {t('exportBtn', lang)}
         </button>

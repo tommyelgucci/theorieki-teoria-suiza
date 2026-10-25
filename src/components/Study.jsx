@@ -88,7 +88,7 @@ export default function Study({ category, initialTopic }) {
               setSelected([])
               setRevealed(false)
             }}
-            className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+            className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
           >
             {t('studyAgain', lang)}
           </button>
@@ -99,7 +99,7 @@ export default function Study({ category, initialTopic }) {
             {t('question', lang)} {index + 1} {t('of', lang)} {pool.length}
           </p>
 
-          <QuestionCard question={question} selected={selected} onToggle={toggle} revealed={revealed} />
+          <QuestionCard key={question.id} question={question} selected={selected} onToggle={toggle} revealed={revealed} />
 
           <p
             role="status"
@@ -123,7 +123,7 @@ export default function Study({ category, initialTopic }) {
           {revealed ? (
             <button
               onClick={nextQuestion}
-              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
             >
               {t('next', lang)} →
             </button>
@@ -131,7 +131,7 @@ export default function Study({ category, initialTopic }) {
             <button
               onClick={checkAnswer}
               disabled={selected.length === 0}
-              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40"
+              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40 transition-all active:scale-[0.98]"
             >
               {t('check', lang)}
             </button>

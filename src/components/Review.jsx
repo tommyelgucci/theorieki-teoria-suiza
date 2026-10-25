@@ -54,7 +54,7 @@ export default function Review() {
       </div>
       <p className="text-xs text-gray-400">{t('reviewHint', lang)}</p>
 
-      <QuestionCard question={question} selected={selected} onToggle={toggle} revealed={revealed} />
+      <QuestionCard key={question.id} question={question} selected={selected} onToggle={toggle} revealed={revealed} />
 
       {revealed && (
         <p
@@ -81,7 +81,7 @@ export default function Review() {
             setSelected([])
             setRevealed(false)
           }}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('next', lang)} →
         </button>
@@ -89,7 +89,7 @@ export default function Review() {
         <button
           onClick={checkAnswer}
           disabled={selected.length === 0}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40 transition-all active:scale-[0.98]"
         >
           {t('check', lang)}
         </button>

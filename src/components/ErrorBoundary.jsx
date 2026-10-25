@@ -41,7 +41,7 @@ export default class ErrorBoundary extends Component {
         <div className="mt-2 flex w-full max-w-xs flex-col gap-2">
           <button
             onClick={() => window.location.reload()}
-            className="rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+            className="rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
           >
             {t('errorReload', lang)}
           </button>

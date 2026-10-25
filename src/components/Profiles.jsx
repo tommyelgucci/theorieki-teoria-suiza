@@ -123,7 +123,7 @@ export default function Profiles({ onClose }) {
               </button>
               <button
                 onClick={create}
-                className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+                className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
               >
                 ✓ {t('profileCreate', lang)}
               </button>

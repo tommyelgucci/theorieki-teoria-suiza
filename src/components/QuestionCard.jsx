@@ -37,7 +37,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
   const multi = hasMultipleCorrect(question)
 
   return (
-    <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-gray-200 dark:bg-gray-800 dark:ring-gray-700">
+    <div className="q-in rounded-2xl bg-white p-4 shadow-card ring-1 ring-gray-200/70 dark:bg-gray-800 dark:ring-gray-700">
       {showTopic && (
         <div className="mb-2 flex items-center gap-2">
           <span className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">
@@ -78,7 +78,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
             cls = 'border-swiss bg-red-50 ring-1 ring-swiss dark:bg-red-900/30'
           if (revealed) {
             if (opt.correct) cls = 'border-green-500 bg-green-50 dark:border-green-600 dark:bg-green-900/30'
-            else if (isSelected) cls = 'border-red-500 bg-red-50 dark:border-red-600 dark:bg-red-900/30'
+            else if (isSelected) cls = 'shake border-red-500 bg-red-50 dark:border-red-600 dark:bg-red-900/30'
             else cls = 'border-gray-200 bg-gray-50 opacity-60 dark:border-gray-600 dark:bg-gray-700/50'
           }
           return (
@@ -91,7 +91,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
               // las opciones, estuvieran marcadas o no.
               aria-pressed={isSelected}
               onClick={() => onToggle(opt.id)}
-              className={`flex w-full items-start gap-3 rounded-xl border p-3 text-left text-sm transition-colors ${cls}`}
+              className={`flex w-full items-start gap-3 rounded-xl border p-3 text-left text-sm transition-[background-color,border-color,opacity,transform] duration-150 enabled:active:scale-[0.985] ${cls}`}
             >
               <span
                 aria-hidden
@@ -99,7 +99,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
                   isSelected
                     ? 'border-swiss bg-swiss text-white'
                     : 'border-gray-300 bg-white text-transparent dark:border-gray-500 dark:bg-gray-800'
-                } ${revealed && opt.correct ? '!border-green-600 !bg-green-600 !text-white' : ''}`}
+                } ${revealed && opt.correct ? 'pop !border-green-600 !bg-green-600 !text-white' : ''}`}
               >
                 ✓
               </span>
@@ -111,7 +111,7 @@ export default function QuestionCard({ question, selected, onToggle, revealed, s
       </div>
 
       {revealed && (
-        <div className="mt-4 rounded-xl bg-blue-50 p-3 text-sm text-blue-900 dark:bg-blue-900/30 dark:text-blue-200">
+        <div className="reveal-in mt-4 rounded-xl bg-blue-50 p-3 text-sm text-blue-900 dark:bg-blue-900/30 dark:text-blue-200">
           <p className="mb-1 flex items-center gap-1 font-semibold">
             <IconBulb className="h-4 w-4" /> {t('explanation', lang)}
           </p>

@@ -78,7 +78,7 @@ export default function Kontrollfahrt({ navigate }) {
                 {item.topic && (
                   <button
                     onClick={() => navigate('study', item.topic)}
-                    className="rounded-full bg-swiss px-3 py-1.5 text-xs font-semibold text-white hover:bg-swiss-dark"
+                    className="rounded-full bg-swiss px-3 py-1.5 text-xs font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
                   >
                     📖 {t('practiceTopic', lang)}
                   </button>

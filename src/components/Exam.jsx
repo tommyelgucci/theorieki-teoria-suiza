@@ -127,7 +127,7 @@ export default function Exam({ category, onExit }) {
         </div>
         <button
           onClick={start}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('startExam', lang)} →
         </button>
@@ -187,7 +187,7 @@ export default function Exam({ category, onExit }) {
           />
         </div>
 
-        <QuestionCard question={q} selected={selected} onToggle={toggle} revealed={false} showTopic={false} />
+        <QuestionCard key={q.id} question={q} selected={selected} onToggle={toggle} revealed={false} showTopic={false} />
 
         <div className="flex gap-2">
           <button
@@ -200,7 +200,7 @@ export default function Exam({ category, onExit }) {
           {index < questions.length - 1 ? (
             <button
               onClick={() => setIndex((i) => i + 1)}
-              className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+              className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
             >
               {t('next', lang)} →
             </button>
@@ -328,7 +328,7 @@ export default function Exam({ category, onExit }) {
             <IconAlarm className="h-4 w-4" /> {t('timeUp', lang)}
           </p>
         )}
-        <div className={`flex justify-center ${result.passed ? 'text-green-600' : 'text-red-500'}`}>
+        <div className={`stamp-in flex justify-center ${result.passed ? 'text-green-600' : 'text-red-500'}`}>
           {result.passed ? <IconConfetti className="h-14 w-14" /> : <IconSadFace className="h-14 w-14" />}
         </div>
         <h2
@@ -349,7 +349,7 @@ export default function Exam({ category, onExit }) {
       <div className="flex gap-2">
         <button
           onClick={start}
-          className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('newExam', lang)}
         </button>

@@ -8,6 +8,24 @@ recordar.
 
 ---
 
+## 2026-10-25 — Pulido de UI y animaciones (rojo suizo se mantiene)
+
+**Qué se hizo:** tokens de diseño nuevos en `index.css` (`--shadow-raised`, `--color-success/danger`,
+curvas `--ease-out-soft`/`--ease-spring`, foco visible global) y utilidades de movimiento: `.stagger`
+(entrada escalonada vía `--i`), `.q-in` (pregunta nueva entra desde la derecha, `QuestionCard` se
+remonta con `key={question.id}` en Study/Review/FirstAid/Exam/Vku), `.shake`/`.pop` (opción
+incorrecta/correcta), `.reveal-in` (explicación), `.stamp-in` (resultado de examen), `.grow-x`,
+`.lift` (elevación/hundimiento de tarjetas). `ProgressRing` ahora se llena desde 0 al montarse.
+Botones primarios (`bg-swiss`) con feedback de pulsación. Home con entrada escalonada.
+Header: el selector de idioma muestra solo el código (select nativo transparente encima) para que
+los títulos de subpantalla ya no se corten ("Study m…").
+**Decisión:** todo el movimiento respeta `prefers-reduced-motion` (bloque al final de `index.css`);
+si se añade una animación nueva, añadir su clase ahí.
+**Pendiente (paso 3 del plan):** rediseño de jerarquía por pantalla (Stats, Signs, Maneuvers, FirstAid)
+y migrar el resto de clases `gray-*` sueltas a tokens semánticos.
+
+---
+
 ## 2026-09-12 (15) — Novena ronda: 5 temas más (cambio de color, neblineros delanteros, equipamiento de Lernfahrt, transporte de ganado, licencia extranjera)
 
 **Contexto:** el usuario pidió continuar con "todo lo que hace falta" de más fácil a más

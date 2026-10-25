@@ -300,7 +300,7 @@ export default function ManeuverPlayer({ maneuver, onBack }) {
         {!reducedMotion && (
           <button
             onClick={playing ? () => setPlaying(false) : handlePlay}
-            className="flex items-center gap-2 rounded-full bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+            className="flex items-center gap-2 rounded-full bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
           >
             {playing ? `⏸ ${t('pause', lang)}` : `▶ ${t('play', lang)}`}
           </button>

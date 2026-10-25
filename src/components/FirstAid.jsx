@@ -117,7 +117,7 @@ function Flashcards() {
             setDeck(shuffle([...FIRSTAID_CARDS]))
             setFlipped(false)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('practiceAnyway', lang)}
         </button>
@@ -222,7 +222,7 @@ function Quiz() {
             setRevealed(false)
             setScore(0)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('quizAgain', lang)}
         </button>
@@ -249,7 +249,7 @@ function Quiz() {
         <span>✓ {score}</span>
       </div>
 
-      <QuestionCard question={question} selected={selected} onToggle={toggle} revealed={revealed} showTopic={false} />
+      <QuestionCard key={question.id} question={question} selected={selected} onToggle={toggle} revealed={revealed} showTopic={false} />
 
       <p
         role="status"
@@ -277,7 +277,7 @@ function Quiz() {
             setSelected([])
             setRevealed(false)
           }}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('next', lang)} →
         </button>
@@ -285,7 +285,7 @@ function Quiz() {
         <button
           onClick={check}
           disabled={selected.length === 0}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40 transition-all active:scale-[0.98]"
         >
           {t('check', lang)}
         </button>

@@ -152,7 +152,7 @@ function Flashcards() {
             setDeck(shuffle([...SIGNS]))
             setFlipped(false)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('practiceAnyway', lang)}
         </button>
@@ -265,7 +265,7 @@ function Quiz() {
             setPicked(null)
             setScore(0)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('quizAgain', lang)}
         </button>
@@ -350,7 +350,7 @@ function Quiz() {
             setIndex((i) => i + 1)
             setPicked(null)
           }}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('next', lang)} →
         </button>
