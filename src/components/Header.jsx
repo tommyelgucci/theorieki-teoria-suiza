@@ -46,12 +46,18 @@ export default function Header({ onBack, title, category, theme, onToggleTheme, 
             {theme === 'dark' ? <IconSun className="h-[18px] w-[18px]" /> : <IconMoon className="h-[18px] w-[18px]" />}
           </button>
         )}
-        <div className="relative">
+        {/* El selector nativo queda encima, transparente: se ve solo el código (ES, DE…)
+            para no quitarle ancho al título, y al abrirlo lista los nombres completos. */}
+        <div className="relative flex h-8 items-center rounded-full border border-white/40 bg-white/10 pl-3 pr-6 text-sm font-semibold backdrop-blur-sm transition-colors focus-within:bg-white/20 hover:bg-white/20">
+          <span aria-hidden>{LANGS.find((l) => l.id === lang)?.label ?? lang.toUpperCase()}</span>
+          <span aria-hidden className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-xs text-white/80">
+            ▾
+          </span>
           <select
             value={lang}
             onChange={(e) => setLang(e.target.value)}
             aria-label="Sprache / Idioma / Langue / Lingua / Language"
-            className="appearance-none rounded-full border border-white/40 bg-white/10 py-1 pl-3 pr-7 text-sm font-semibold text-white outline-none backdrop-blur-sm hover:bg-white/20 focus:bg-white/20"
+            className="absolute inset-0 h-full w-full cursor-pointer appearance-none opacity-0"
           >
             {LANGS.map((l) => (
               <option key={l.id} value={l.id} className="text-gray-900">
@@ -59,9 +65,6 @@ export default function Header({ onBack, title, category, theme, onToggleTheme, 
               </option>
             ))}
           </select>
-          <span aria-hidden className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-xs text-white/80">
-            ▾
-          </span>
         </div>
       </div>
     </header>

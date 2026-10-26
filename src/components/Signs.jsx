@@ -20,27 +20,9 @@ import {
   IconCheck,
   IconCross,
 } from './Icons'
+import MenuCard from './MenuCard'
 
 const QUIZ_SIZE = 10
-
-function HubCard({ onClick, icon, label, sub, badge }) {
-  return (
-    <button
-      onClick={onClick}
-      className="flex w-full items-center gap-4 rounded-2xl bg-white dark:bg-gray-800 p-4 text-left shadow-sm ring-1 ring-gray-200 dark:ring-gray-700 transition-colors hover:bg-gray-50 dark:hover:bg-gray-700 active:bg-gray-100 dark:active:bg-gray-600"
-    >
-      <span className="text-swiss dark:text-red-300">{icon}</span>
-      <span className="min-w-0 flex-1">
-        <span className="block font-semibold text-gray-900 dark:text-gray-100">{label}</span>
-        <span className="block text-sm text-gray-500 dark:text-gray-400">{sub}</span>
-      </span>
-      {badge != null && badge > 0 && (
-        <span className="rounded-full bg-swiss px-2.5 py-0.5 text-sm font-bold text-white">{badge}</span>
-      )}
-      <span className="text-gray-300">›</span>
-    </button>
-  )
-}
 
 function Explore() {
   const { lang } = useLang()
@@ -58,8 +40,8 @@ function Explore() {
               setCategory(c.id)
               setOpenSign(null)
             }}
-            className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium ${
-              category === c.id ? 'bg-swiss text-white' : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 ring-1 ring-gray-200 dark:ring-gray-700'
+            className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium transition-colors active:scale-95 ${
+              category === c.id ? 'bg-swiss text-white' : 'bg-surface text-body ring-1 ring-line'
             }`}
           >
             {tr(c.label, lang)}
@@ -68,16 +50,17 @@ function Explore() {
       </div>
 
       <div className="grid grid-cols-3 gap-3">
-        {signs.map((sign) => (
+        {signs.map((sign, n) => (
           <button
             key={sign.id}
             onClick={() => setOpenSign(openSign === sign.id ? null : sign.id)}
-            className={`flex flex-col items-center gap-1 rounded-2xl bg-white dark:bg-gray-800 p-2.5 shadow-sm ring-1 transition-colors ${
-              openSign === sign.id ? 'ring-swiss' : 'ring-gray-200 dark:ring-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700'
+            style={{ '--i': n % 12 }}
+            className={`stagger lift flex flex-col items-center gap-1 rounded-2xl bg-surface p-2.5 shadow-card ring-1 ${
+              openSign === sign.id ? 'ring-swiss' : 'ring-line hover:bg-sunken'
             }`}
           >
             <SignSprite draw={sign.draw} size={72} />
-            <span className="text-center text-[10px] leading-tight text-gray-600 dark:text-gray-300">{tr(sign.name, lang)}</span>
+            <span className="text-center text-[10px] leading-tight text-body">{tr(sign.name, lang)}</span>
           </button>
         ))}
       </div>
@@ -92,11 +75,11 @@ function Explore() {
 function SignDetail({ sign }) {
   const { lang } = useLang()
   return (
-    <div className="flex items-start gap-4 rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-swiss/40">
+    <div className="reveal-in flex items-start gap-4 rounded-2xl bg-surface p-4 shadow-card ring-1 ring-swiss/40">
       <SignSprite draw={sign.draw} size={80} />
       <div className="min-w-0 flex-1">
         <div className="flex items-start gap-2">
-          <p className="min-w-0 flex-1 font-bold text-gray-900 dark:text-gray-100">{tr(sign.name, lang)}</p>
+          <p className="min-w-0 flex-1 font-bold text-ink">{tr(sign.name, lang)}</p>
           {canSpeak() && (
             <button
               onClick={() => speakDe(`${sign.name.de}. ${sign.meaning.de}`)}
@@ -107,8 +90,8 @@ function SignDetail({ sign }) {
             </button>
           )}
         </div>
-        <p className="mt-1 text-xs text-gray-400">{sign.name[lang === 'de' ? 'es' : 'de']}</p>
-        <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-gray-300">{tr(sign.meaning, lang)}</p>
+        <p className="mt-1 text-xs text-muted">{sign.name[lang === 'de' ? 'es' : 'de']}</p>
+        <p className="mt-2 text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</p>
       </div>
     </div>
   )
@@ -139,11 +122,11 @@ function Flashcards() {
   if (!sign) {
     const nextDue = storage.srsNextDue('signs')
     return (
-      <div className="rounded-2xl bg-white dark:bg-gray-800 p-8 text-center shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
+      <div className="rounded-2xl bg-surface p-8 text-center shadow-sm ring-1 ring-line">
         <IconConfetti className="mx-auto h-10 w-10 text-swiss" />
-        <p className="mt-3 text-lg font-semibold text-gray-900 dark:text-gray-100">{t('allCaughtUp', lang)}</p>
+        <p className="mt-3 text-lg font-semibold text-ink">{t('allCaughtUp', lang)}</p>
         {nextDue && (
-          <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          <p className="mt-1 text-sm text-muted">
             {t('nextReview', lang)}: {new Date(nextDue).toLocaleDateString(dateLocale(lang))}
           </p>
         )}
@@ -152,7 +135,7 @@ function Flashcards() {
             setDeck(shuffle([...SIGNS]))
             setFlipped(false)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('practiceAnyway', lang)}
         </button>
@@ -162,7 +145,7 @@ function Flashcards() {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+      <div className="flex items-center justify-between text-sm text-muted">
         <span className="inline-flex items-center gap-1">
           <IconCards className="h-4 w-4" /> {deck.length} {t('dueToday', lang)}
         </span>
@@ -183,18 +166,20 @@ function Flashcards() {
       <button
         onClick={() => setFlipped((f) => !f)}
         className={`flex min-h-64 w-full flex-col items-center justify-center gap-3 rounded-2xl p-6 text-center shadow-sm ring-1 transition-colors ${
-          flipped ? 'bg-red-50 dark:bg-red-900/30 ring-swiss/40' : 'bg-white dark:bg-gray-800 ring-gray-200 dark:ring-gray-700'
+          flipped ? 'bg-red-50 dark:bg-red-900/30 ring-swiss/40' : 'bg-surface ring-line'
         }`}
       >
-        {flipped ? (
-          <>
-            <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(sign.name, lang)}</span>
-            <span className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{tr(sign.meaning, lang)}</span>
-          </>
-        ) : (
-          <SignSprite draw={sign.draw} size={130} />
-        )}
-        <span className="mt-1 inline-flex items-center gap-1 text-xs text-gray-400">
+        <span key={String(flipped)} className="flip-in flex flex-col items-center gap-3">
+          {flipped ? (
+            <>
+              <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(sign.name, lang)}</span>
+              <span className="text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</span>
+            </>
+          ) : (
+            <SignSprite draw={sign.draw} size={130} />
+          )}
+        </span>
+        <span className="mt-1 inline-flex items-center gap-1 text-xs text-muted">
           <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
         </span>
       </button>
@@ -202,7 +187,7 @@ function Flashcards() {
       <div className="flex gap-2">
         <button
           onClick={repeatLater}
-          className="flex-1 rounded-xl bg-white dark:bg-gray-800 py-3 font-semibold text-gray-700 dark:text-gray-300 ring-1 ring-gray-300 dark:ring-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700"
+          className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
         >
           ↻ {t('repeatCard', lang)}
         </button>
@@ -243,7 +228,7 @@ function Quiz() {
   if (done) {
     const msg = score >= 8 ? t('quizMsgGreat', lang) : score >= 5 ? t('quizMsgOk', lang) : t('quizMsgLow', lang)
     return (
-      <div className="rounded-2xl bg-white dark:bg-gray-800 p-8 text-center shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
+      <div className="rounded-2xl bg-surface p-8 text-center shadow-sm ring-1 ring-line">
         {score >= rounds.length * 0.8 && <Confetti />}
         <div className="flex justify-center text-swiss">
           {score >= 8 ? (
@@ -254,10 +239,10 @@ function Quiz() {
             <IconBookOpen className="h-10 w-10" />
           )}
         </div>
-        <p className="mt-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+        <p className="mt-3 text-lg font-semibold text-ink">
           {t('quizResult', lang)}: {score}/{rounds.length}
         </p>
-        <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">{msg}</p>
+        <p className="mt-1 text-sm text-body">{msg}</p>
         <button
           onClick={() => {
             setRound((r) => r + 1)
@@ -265,7 +250,7 @@ function Quiz() {
             setPicked(null)
             setScore(0)
           }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('quizAgain', lang)}
         </button>
@@ -285,32 +270,32 @@ function Quiz() {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+      <div className="flex items-center justify-between text-sm text-muted">
         <span>
           {t('question', lang)} {index + 1} {t('of', lang)} {rounds.length}
         </span>
         <span>✓ {score}</span>
       </div>
 
-      <div className="rounded-2xl bg-white dark:bg-gray-800 p-4 shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-        <p className="text-center font-semibold text-gray-900 dark:text-gray-100">{t('whatSign', lang)}</p>
+      <div className="rounded-2xl bg-surface p-4 shadow-sm ring-1 ring-line">
+        <p className="text-center font-semibold text-ink">{t('whatSign', lang)}</p>
         <div className="mt-2 flex justify-center">
           <SignSprite draw={current.sign.draw} size={120} />
         </div>
         <div className="mt-3 space-y-2">
           {current.options.map((opt) => {
-            let cls = 'border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 hover:border-gray-300 dark:hover:border-gray-500'
+            let cls = 'border-line bg-sunken hover:border-line-strong'
             if (revealed) {
               if (opt.id === current.sign.id) cls = 'border-green-500 bg-green-50 dark:bg-green-900/30'
               else if (opt.id === picked) cls = 'border-red-500 bg-red-50 dark:bg-red-900/30'
-              else cls = 'border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 opacity-60'
+              else cls = 'border-line bg-sunken opacity-60'
             }
             return (
               <button
                 key={opt.id}
                 disabled={revealed}
                 onClick={() => pick(opt.id)}
-                className={`w-full rounded-xl border p-3 text-left text-sm text-gray-800 dark:text-gray-200 transition-colors ${cls}`}
+                className={`w-full rounded-xl border p-3 text-left text-sm text-ink transition-colors ${cls}`}
               >
                 {tr(opt.name, lang)}
               </button>
@@ -350,7 +335,7 @@ function Quiz() {
             setIndex((i) => i + 1)
             setPicked(null)
           }}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('next', lang)} →
         </button>
@@ -379,19 +364,19 @@ export default function Signs() {
 
   return (
     <div className="mx-auto max-w-xl space-y-4 px-4 py-5">
-      <div className="flex items-start gap-2 rounded-2xl bg-white dark:bg-gray-800 p-4 text-sm leading-relaxed text-gray-600 dark:text-gray-300 ring-1 ring-gray-200 dark:ring-gray-700">
+      <div className="flex items-start gap-2 rounded-2xl bg-surface p-4 text-sm leading-relaxed text-body ring-1 ring-line">
         <IconWarningSign className="mt-0.5 h-4 w-4 shrink-0 text-swiss" /> {t('signsIntro', lang)}
       </div>
       <div className="space-y-3">
-        <HubCard onClick={() => setView('explore')} icon={<IconStack className="h-8 w-8" />} label={t('signsExplore', lang)} sub={t('signsExploreSub', lang)} />
-        <HubCard
+        <MenuCard i={0} tint="blue" onClick={() => setView('explore')} icon={<IconStack className="h-6 w-6" />} label={t('signsExplore', lang)} sub={t('signsExploreSub', lang)} />
+        <MenuCard i={1} tint="green"
           onClick={() => setView('cards')}
-          icon={<IconCards className="h-8 w-8" />}
+          icon={<IconCards className="h-6 w-6" />}
           label={t('faCardsTitle', lang)}
           sub={t('signsCardsSub', lang)}
           badge={unknown}
         />
-        <HubCard onClick={() => setView('quiz')} icon={<IconQuestionBubble className="h-8 w-8" />} label={t('faQuizTitle', lang)} sub={t('signsQuizSub', lang)} />
+        <MenuCard i={2} tint="amber" onClick={() => setView('quiz')} icon={<IconQuestionBubble className="h-6 w-6" />} label={t('faQuizTitle', lang)} sub={t('signsQuizSub', lang)} />
       </div>
     </div>
   )

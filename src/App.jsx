@@ -121,7 +121,7 @@ export default function App() {
 
   return (
     <LangContext.Provider value={{ lang, setLang }}>
-      <div className="min-h-screen bg-gray-100 pb-8 dark:bg-gray-950">
+      <div className="min-h-screen bg-canvas pb-8">
         <Header
           title={titles[view]}
           category={['home', 'firstaid', 'signs', 'stats', 'kontrollfahrt', 'vku', 'wab'].includes(view) ? null : category}

@@ -60,7 +60,7 @@ export default function Study({ category, initialTopic }) {
         <button
           onClick={() => selectTopic('all')}
           className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium ${
-            topic === 'all' ? 'bg-swiss text-white' : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 ring-1 ring-gray-200 dark:ring-gray-700'
+            topic === 'all' ? 'bg-swiss text-white' : 'bg-surface text-body ring-1 ring-line'
           }`}
         >
           {t('allTopics', lang)}
@@ -70,7 +70,7 @@ export default function Study({ category, initialTopic }) {
             key={tp.id}
             onClick={() => selectTopic(tp.id)}
             className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium ${
-              topic === tp.id ? 'bg-swiss text-white' : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 ring-1 ring-gray-200 dark:ring-gray-700'
+              topic === tp.id ? 'bg-swiss text-white' : 'bg-surface text-body ring-1 ring-line'
             }`}
           >
             {tr(tp.label, lang)}
@@ -79,8 +79,8 @@ export default function Study({ category, initialTopic }) {
       </div>
 
       {done ? (
-        <div className="rounded-2xl bg-white dark:bg-gray-800 p-8 text-center shadow-sm ring-1 ring-gray-200 dark:ring-gray-700">
-          <p className="text-lg font-semibold text-gray-900 dark:text-gray-100">{t('studyDone', lang)}</p>
+        <div className="rounded-2xl bg-surface p-8 text-center shadow-sm ring-1 ring-line">
+          <p className="text-lg font-semibold text-ink">{t('studyDone', lang)}</p>
           <button
             onClick={() => {
               setRound((r) => r + 1)
@@ -88,18 +88,18 @@ export default function Study({ category, initialTopic }) {
               setSelected([])
               setRevealed(false)
             }}
-            className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark"
+            className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
           >
             {t('studyAgain', lang)}
           </button>
         </div>
       ) : (
         <>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-muted">
             {t('question', lang)} {index + 1} {t('of', lang)} {pool.length}
           </p>
 
-          <QuestionCard question={question} selected={selected} onToggle={toggle} revealed={revealed} />
+          <QuestionCard key={question.id} question={question} selected={selected} onToggle={toggle} revealed={revealed} />
 
           <p
             role="status"
@@ -123,7 +123,7 @@ export default function Study({ category, initialTopic }) {
           {revealed ? (
             <button
               onClick={nextQuestion}
-              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
             >
               {t('next', lang)} →
             </button>
@@ -131,7 +131,7 @@ export default function Study({ category, initialTopic }) {
             <button
               onClick={checkAnswer}
               disabled={selected.length === 0}
-              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40"
+              className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark disabled:opacity-40 transition-all active:scale-[0.98]"
             >
               {t('check', lang)}
             </button>

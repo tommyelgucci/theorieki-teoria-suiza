@@ -34,20 +34,20 @@ export default class ErrorBoundary extends Component {
     }
 
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-gray-100 px-6 text-center dark:bg-gray-950">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-canvas px-6 text-center">
         <IconWarningSign className="h-12 w-12 text-amber-500" />
-        <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">{t('errorTitle', lang)}</h1>
-        <p className="max-w-sm text-sm leading-relaxed text-gray-600 dark:text-gray-300">{t('errorBody', lang)}</p>
+        <h1 className="text-xl font-bold text-ink">{t('errorTitle', lang)}</h1>
+        <p className="max-w-sm text-sm leading-relaxed text-body">{t('errorBody', lang)}</p>
         <div className="mt-2 flex w-full max-w-xs flex-col gap-2">
           <button
             onClick={() => window.location.reload()}
-            className="rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+            className="rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
           >
             {t('errorReload', lang)}
           </button>
           <button
             onClick={reset}
-            className="rounded-xl bg-white py-3 font-semibold text-gray-600 ring-1 ring-gray-300 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-300 dark:ring-gray-600"
+            className="rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
           >
             {t('errorReset', lang)}
           </button>

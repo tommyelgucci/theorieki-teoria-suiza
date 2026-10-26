@@ -8,6 +8,41 @@ recordar.
 
 ---
 
+## 2026-10-25 — Pulido de UI y animaciones (rojo suizo se mantiene)
+
+**Qué se hizo:** tokens de diseño nuevos en `index.css` (`--shadow-raised`, `--color-success/danger`,
+curvas `--ease-out-soft`/`--ease-spring`, foco visible global) y utilidades de movimiento: `.stagger`
+(entrada escalonada vía `--i`), `.q-in` (pregunta nueva entra desde la derecha, `QuestionCard` se
+remonta con `key={question.id}` en Study/Review/FirstAid/Exam/Vku), `.shake`/`.pop` (opción
+incorrecta/correcta), `.reveal-in` (explicación), `.stamp-in` (resultado de examen), `.grow-x`,
+`.lift` (elevación/hundimiento de tarjetas). `ProgressRing` ahora se llena desde 0 al montarse.
+Botones primarios (`bg-swiss`) con feedback de pulsación. Home con entrada escalonada.
+Header: el selector de idioma muestra solo el código (select nativo transparente encima) para que
+los títulos de subpantalla ya no se corten ("Study m…").
+**Decisión:** todo el movimiento respeta `prefers-reduced-motion` (bloque al final de `index.css`);
+si se añade una animación nueva, añadir su clase ahí.
+**Paso 3 (misma sesión):** tokens semánticos (`--canvas/--surface/--sunken/--subtle/--ink/--body/--muted/--line/--line-strong`
+en `index.css`, expuestos como `bg-surface`, `text-ink`, `ring-line`… y que cambian solos en modo oscuro);
+~16 componentes migrados de pares `bg-white dark:bg-gray-800` a un solo token. Nuevo `MenuCard.jsx`
+(+ `GroupLabel`) que sustituye a `MenuButton` de Home, a las tres copias de `HubCard` (FirstAid, Signs,
+Vku) y a las filas de Maneuvers: chip de color por sección, entrada escalonada. Stats: secciones
+escalonadas, barras por tema que crecen, Backup colapsado en `<details>`.
+**Cuidado al migrar clases con scripts:** un regex sobre "cualquier cadena entre comillas" empareja mal
+(`' : '` cuenta como cadena) y corrompe espacios como `{' '}`; limitarse a valores de `className` y no
+tocar espacios.
+**Subvistas (sesión siguiente):** `.flip-in` al voltear tarjetas de estudio (Signs/FirstAid/Vku; el
+contenido se remonta con `key`, el botón no, para no perder el foco de teclado); cuadrícula de señales con
+entrada escalonada y detalle con `.reveal-in`; acordeones (Tips, Kontrollfahrt, Vku, Wab, FirstAid) con
+`.reveal-in` al abrir; intro del examen con dos tarjetas de cifras (minutos y puntos permitidos).
+**Bug corregido:** `.stagger` usaba `fill-mode: both`, que retiene el `transform` final y anulaba
+`.lift:active`; ahora es `backwards`. Cualquier animación que coexista con hover/active debe evitar `forwards/both`.
+**Cierre del pulido:** tokens `--faint` (chevrons/iconos decorativos) y `--track` (fondo de barras);
+no queda ningún `gray-*` suelto salvo el `<option>` del header y el spinner de carga. Los textos pequeños
+que usaban `text-gray-400` (contraste insuficiente sobre blanco) pasaron a `text-muted`. Reproductor de
+maniobras: botones con hover/pulsación, puntos de paso animados y el texto de cada paso entra con `.q-in`.
+
+---
+
 ## 2026-09-12 (15) — Novena ronda: 5 temas más (cambio de color, neblineros delanteros, equipamiento de Lernfahrt, transporte de ganado, licencia extranjera)
 
 **Contexto:** el usuario pidió continuar con "todo lo que hace falta" de más fácil a más

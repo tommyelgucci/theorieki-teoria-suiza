@@ -17,7 +17,7 @@ function Overlay({ onClose, children }) {
   return (
     <div className="fixed inset-0 z-30 flex items-end justify-center bg-black/50 sm:items-center" onClick={onClose}>
       <div
-        className="max-h-[80vh] w-full max-w-xl overflow-y-auto rounded-t-2xl bg-white p-4 shadow-xl sm:rounded-2xl dark:bg-gray-800"
+        className="max-h-[80vh] w-full max-w-xl overflow-y-auto rounded-t-2xl bg-surface p-4 shadow-xl sm:rounded-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {children}
@@ -115,19 +115,34 @@ export default function Exam({ category, onExit }) {
   if (phase === 'intro') {
     return (
       <div className="mx-auto max-w-xl space-y-4 px-4 py-6">
-        <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-gray-200 dark:bg-gray-800 dark:ring-gray-700">
+        <div className="rounded-2xl bg-surface p-5 shadow-card ring-1 ring-line">
           <IconStopwatch className="h-8 w-8 text-swiss" />
-          <h2 className="mt-2 text-xl font-bold text-gray-900 dark:text-gray-100">{t('examIntroTitle', lang)}</h2>
-          <ul className="mt-3 space-y-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+          <h2 className="mt-2 text-xl font-bold text-ink">{t('examIntroTitle', lang)}</h2>
+          <div className="mt-4 grid grid-cols-2 gap-3">
+            {[
+              { value: Math.round(config.timeLimitSec / 60), label: t('minutes', lang) },
+              { value: config.maxPenalty, label: `${t('penaltyPoints', lang)} ${t('maxAllowed', lang)}` },
+            ].map((tile, n) => (
+              <div
+                key={n}
+                style={{ '--i': n + 1 }}
+                className="stagger rounded-xl bg-sunken p-3 text-center ring-1 ring-line"
+              >
+                <div className="text-3xl font-extrabold leading-none text-swiss">{tile.value}</div>
+                <div className="mt-1 text-[11px] leading-tight text-muted">{tile.label}</div>
+              </div>
+            ))}
+          </div>
+          <ul className="mt-3 space-y-2 text-sm leading-relaxed text-body">
             <li>• {t('examIntro1', lang)}</li>
             <li>• {t('examIntro2', lang, { n: config.size, p: config.maxPenalty })}</li>
             <li>• {t('examIntro3', lang, { t: Math.round(config.timeLimitSec / 60) })}</li>
           </ul>
-          <p className="mt-3 text-[11px] leading-relaxed text-gray-600 dark:text-gray-400">{t('independenceShort', lang)}</p>
+          <p className="mt-3 text-[11px] leading-relaxed text-muted">{t('independenceShort', lang)}</p>
         </div>
         <button
           onClick={start}
-          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="w-full rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('startExam', lang)} →
         </button>
@@ -155,7 +170,7 @@ export default function Exam({ category, onExit }) {
     return (
       <div className="mx-auto max-w-xl space-y-4 px-4 py-4">
         <div className="flex items-center gap-2 text-sm">
-          <span className="min-w-0 flex-1 font-medium text-gray-700 dark:text-gray-300">
+          <span className="min-w-0 flex-1 font-medium text-body">
             {t('question', lang)} {index + 1} {t('of', lang)} {questions.length}
           </span>
           <button
@@ -164,7 +179,7 @@ export default function Exam({ category, onExit }) {
             className={`rounded-lg px-2.5 py-1.5 ring-1 transition-colors ${
               isFlagged
                 ? 'bg-amber-100 text-amber-600 ring-amber-400 dark:bg-amber-900/40 dark:text-amber-300 dark:ring-amber-500'
-                : 'bg-white text-gray-500 ring-gray-300 opacity-60 dark:bg-gray-800 dark:text-gray-400 dark:ring-gray-600'
+                : 'bg-surface text-muted ring-line-strong opacity-60'
             }`}
           >
             <IconFlagMark className="h-4 w-4" />
@@ -172,35 +187,35 @@ export default function Exam({ category, onExit }) {
           <button
             onClick={() => setShowNav(true)}
             aria-label={t('navigator', lang)}
-            className="rounded-lg bg-white px-2.5 py-1.5 text-gray-600 ring-1 ring-gray-300 dark:bg-gray-800 dark:text-gray-300 dark:ring-gray-600"
+            className="rounded-lg bg-surface px-2.5 py-1.5 text-body ring-1 ring-line-strong"
           >
             <IconGrid className="h-4 w-4" />
           </button>
-          <span className={`flex items-center gap-1 font-mono font-bold ${timeLeft < 60 ? 'text-red-600' : 'text-gray-700 dark:text-gray-300'}`}>
+          <span className={`flex items-center gap-1 font-mono font-bold ${timeLeft < 60 ? 'text-red-600' : 'text-body'}`}>
             <IconHourglass className="h-4 w-4" /> {formatTime(timeLeft)}
           </span>
         </div>
-        <div className="h-1.5 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+        <div className="h-1.5 overflow-hidden rounded-full bg-track">
           <div
             className="h-full bg-swiss transition-all"
             style={{ width: `${((index + 1) / questions.length) * 100}%` }}
           />
         </div>
 
-        <QuestionCard question={q} selected={selected} onToggle={toggle} revealed={false} showTopic={false} />
+        <QuestionCard key={q.id} question={q} selected={selected} onToggle={toggle} revealed={false} showTopic={false} />
 
         <div className="flex gap-2">
           <button
             onClick={() => setIndex((i) => Math.max(0, i - 1))}
             disabled={index === 0}
-            className="rounded-xl bg-white px-4 py-3 font-semibold text-gray-700 ring-1 ring-gray-300 disabled:opacity-40 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-600"
+            className="rounded-xl bg-surface px-4 py-3 font-semibold text-body ring-1 ring-line-strong disabled:opacity-40"
           >
             ←
           </button>
           {index < questions.length - 1 ? (
             <button
               onClick={() => setIndex((i) => i + 1)}
-              className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+              className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
             >
               {t('next', lang)} →
             </button>
@@ -214,7 +229,7 @@ export default function Exam({ category, onExit }) {
           )}
         </div>
 
-        <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+        <p className="text-center text-xs text-muted">
           {answeredCount}/{questions.length} {t('answered', lang)}
           {flags.length > 0 && (
             <span className="inline-flex items-center gap-0.5">
@@ -230,10 +245,10 @@ export default function Exam({ category, onExit }) {
         {showNav && (
           <Overlay onClose={() => setShowNav(false)}>
             <div className="mb-3 flex items-center justify-between">
-              <p className="font-semibold text-gray-900 dark:text-gray-100">{t('navigator', lang)}</p>
+              <p className="font-semibold text-ink">{t('navigator', lang)}</p>
               <button
                 onClick={() => setShowNav(false)}
-                className="rounded-lg px-2 py-0.5 text-sm text-gray-500 ring-1 ring-gray-300 dark:text-gray-400 dark:ring-gray-600"
+                className="rounded-lg px-2 py-0.5 text-sm text-muted ring-1 ring-line-strong"
               >
                 ✕
               </button>
@@ -242,7 +257,7 @@ export default function Exam({ category, onExit }) {
               {questions.map((qq, i) => {
                 const answered = (answers[qq.id] || []).length > 0
                 const flagged = flags.includes(qq.id)
-                let cls = 'bg-gray-100 text-gray-500 ring-gray-300 dark:bg-gray-700 dark:text-gray-400 dark:ring-gray-600'
+                let cls = 'bg-subtle text-muted ring-line-strong'
                 if (answered) cls = 'bg-green-100 text-green-800 ring-green-400 dark:bg-green-900/40 dark:text-green-300 dark:ring-green-600'
                 if (flagged) cls += ' !ring-2 !ring-amber-400'
                 return (
@@ -264,12 +279,12 @@ export default function Exam({ category, onExit }) {
                 )
               })}
             </div>
-            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-gray-500 dark:text-gray-400">
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted">
               <span className="inline-flex items-center gap-1">
                 <span className="h-2.5 w-2.5 rounded-sm bg-green-400" /> {t('answered', lang)}
               </span>
               <span className="inline-flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-sm bg-gray-200 ring-1 ring-gray-300 dark:bg-gray-600 dark:ring-gray-500" /> {t('unanswered', lang)}
+                <span className="h-2.5 w-2.5 rounded-sm bg-track ring-1 ring-line-strong" /> {t('unanswered', lang)}
               </span>
               <span className="inline-flex items-center gap-1">
                 <IconFlagMark className="h-3 w-3 text-amber-500" /> {t('flagged', lang)}
@@ -280,13 +295,13 @@ export default function Exam({ category, onExit }) {
 
         {showSummary && (
           <Overlay onClose={() => setShowSummary(false)}>
-            <p className="text-lg font-bold text-gray-900 dark:text-gray-100">{t('submitSummaryTitle', lang)}</p>
-            <div className="mt-3 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
+            <p className="text-lg font-bold text-ink">{t('submitSummaryTitle', lang)}</p>
+            <div className="mt-3 space-y-1.5 text-sm text-body">
               <p className="flex items-center gap-1.5">
                 <IconCheck className="h-4 w-4 text-emerald-500" /> {answeredCount} {t('answered', lang)}
               </p>
               <p className={`flex items-center gap-1.5 ${questions.length - answeredCount > 0 ? 'font-semibold text-red-600' : ''}`}>
-                <span className="h-3 w-3 rounded-sm ring-1 ring-gray-400" /> {questions.length - answeredCount} {t('unanswered', lang)}
+                <span className="h-3 w-3 rounded-sm ring-1 ring-line-strong" /> {questions.length - answeredCount} {t('unanswered', lang)}
               </p>
               <p className="flex items-center gap-1.5">
                 <IconFlagMark className="h-4 w-4 text-amber-500" /> {flags.length} {t('flagged', lang)}
@@ -295,7 +310,7 @@ export default function Exam({ category, onExit }) {
             <div className="mt-4 flex gap-2">
               <button
                 onClick={() => setShowSummary(false)}
-                className="flex-1 rounded-xl bg-white py-3 font-semibold text-gray-700 ring-1 ring-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:ring-gray-600"
+                className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong"
               >
                 {t('keepReviewing', lang)}
               </button>
@@ -328,7 +343,7 @@ export default function Exam({ category, onExit }) {
             <IconAlarm className="h-4 w-4" /> {t('timeUp', lang)}
           </p>
         )}
-        <div className={`flex justify-center ${result.passed ? 'text-green-600' : 'text-red-500'}`}>
+        <div className={`stamp-in flex justify-center ${result.passed ? 'text-green-600' : 'text-red-500'}`}>
           {result.passed ? <IconConfetti className="h-14 w-14" /> : <IconSadFace className="h-14 w-14" />}
         </div>
         <h2
@@ -338,10 +353,10 @@ export default function Exam({ category, onExit }) {
         >
           {result.passed ? t('passed', lang) : t('failed', lang)}
         </h2>
-        <p className="mt-2 text-gray-700 dark:text-gray-300">
+        <p className="mt-2 text-body">
           {t('penaltyPoints', lang)}: <b>{result.penalty}</b> (max. {config.maxPenalty} {t('maxAllowed', lang)})
         </p>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-muted">
           {result.correct}/{questions.length} {t('correctAnswers', lang)}
         </p>
       </div>
@@ -349,13 +364,13 @@ export default function Exam({ category, onExit }) {
       <div className="flex gap-2">
         <button
           onClick={start}
-          className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark"
+          className="flex-1 rounded-xl bg-swiss py-3 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
         >
           {t('newExam', lang)}
         </button>
         <button
           onClick={onExit}
-          className="flex-1 rounded-xl bg-white py-3 font-semibold text-gray-700 ring-1 ring-gray-300 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-600 dark:hover:bg-gray-700"
+          className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
         >
           {t('backHome', lang)}
         </button>
@@ -363,7 +378,7 @@ export default function Exam({ category, onExit }) {
 
       {result.wrongQuestions.length > 0 && (
         <div className="space-y-4 pt-2">
-          <h3 className="flex items-center gap-1.5 font-bold text-gray-900 dark:text-gray-100">
+          <h3 className="flex items-center gap-1.5 font-bold text-ink">
             <IconCross className="h-5 w-5 text-red-500" /> {t('reviewErrors', lang)} ({result.wrongQuestions.length})
           </h3>
           {result.wrongQuestions.map((q) => (
