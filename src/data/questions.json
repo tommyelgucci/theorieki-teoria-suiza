@@ -24558,5 +24558,687 @@
       "type": "marking",
       "id": "weisse_parkfelder"
     }
+  },
+  {
+    "id": "q395",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie lange gilt der Führerausweis auf Probe nach bestandener praktischer Prüfung?",
+      "es": "¿Cuánto dura el permiso de conducir a prueba tras aprobar el examen práctico?",
+      "fr": "Combien de temps le permis de conduire à l’essai est-il valable après l’examen pratique réussi ?",
+      "it": "Quanto dura la licenza di condurre in prova dopo aver superato l’esame pratico?",
+      "en": "How long does the probationary driving licence last after passing the practical test?",
+      "pt": "Quanto tempo dura a carta de condução a título provisório depois de passares no exame prático?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "3 Jahre",
+          "es": "3 años",
+          "fr": "3 ans",
+          "it": "3 anni",
+          "en": "3 years",
+          "pt": "3 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "1 Jahr",
+          "es": "1 año",
+          "fr": "1 an",
+          "it": "1 anno",
+          "en": "1 year",
+          "pt": "1 ano"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "5 Jahre",
+          "es": "5 años",
+          "fr": "5 ans",
+          "it": "5 anni",
+          "en": "5 years",
+          "pt": "5 anos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach bestandener praktischer Prüfung erhältst du zuerst den Führerausweis auf Probe. Die Probezeit dauert 3 Jahre; danach gibt es den unbefristeten Ausweis, wenn du die Auflagen erfüllt hast.",
+      "es": "Tras aprobar el examen práctico recibes primero el permiso a prueba. El período de prueba dura 3 años; después se obtiene el permiso definitivo si has cumplido los requisitos.",
+      "fr": "Après l’examen pratique, tu reçois d’abord le permis à l’essai. La période probatoire dure 3 ans ; ensuite, tu obtiens le permis définitif si tu as rempli les conditions.",
+      "it": "Dopo l’esame pratico ricevi prima la licenza in prova. Il periodo di prova dura 3 anni; poi si ottiene la licenza definitiva se sono soddisfatti i requisiti.",
+      "en": "After passing the practical test you first receive the probationary licence. The probation period lasts 3 years; afterwards you get the unrestricted licence if you have met the conditions.",
+      "pt": "Depois do exame prático recebes primeiro a carta provisória. O período probatório dura 3 anos; depois obténs a carta definitiva se cumpriste os requisitos."
+    },
+    "image": null
+  },
+  {
+    "id": "q396",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du hast den Führerausweis auf Probe und musst den Ausweis wegen einer Widerhandlung abgeben. Was geschieht mit der Probezeit?",
+      "es": "Tienes el permiso a prueba y te retiran el carné por una infracción. ¿Qué ocurre con el período de prueba?",
+      "fr": "Tu as le permis à l’essai et ton permis est retiré à la suite d’une infraction. Que devient la période probatoire ?",
+      "it": "Hai la licenza in prova e ti viene ritirata la patente per un’infrazione. Cosa succede al periodo di prova?",
+      "en": "You hold a probationary licence and it is withdrawn because of an offence. What happens to the probation period?",
+      "pt": "Tens a carta provisória e ela é apreendida por uma infração. O que acontece ao período probatório?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie verlängert sich um 1 Jahr",
+          "es": "Se prolonga 1 año",
+          "fr": "Elle est prolongée d’un an",
+          "it": "Si prolunga di 1 anno",
+          "en": "It is extended by 1 year",
+          "pt": "Prolonga-se por 1 ano"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie wird verkürzt",
+          "es": "Se acorta",
+          "fr": "Elle est raccourcie",
+          "it": "Si accorcia",
+          "en": "It is shortened",
+          "pt": "Encurta-se"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie bleibt unverändert",
+          "es": "Queda igual",
+          "fr": "Elle reste inchangée",
+          "it": "Resta invariata",
+          "en": "It stays unchanged",
+          "pt": "Mantém-se igual"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wird der Ausweis in der Probezeit wegen einer Widerhandlung entzogen, verlängert sich die Probezeit um 1 Jahr. Ein zweiter Entzug führt zur Annullierung des Ausweises.",
+      "es": "Si el permiso se retira durante el período de prueba por una infracción, este se prolonga 1 año. Una segunda retirada conlleva la anulación del permiso.",
+      "fr": "Si le permis est retiré pendant la période probatoire à la suite d’une infraction, celle-ci est prolongée d’un an. Un deuxième retrait entraîne l’annulation du permis.",
+      "it": "Se la patente viene ritirata durante il periodo di prova per un’infrazione, questo si prolunga di 1 anno. Un secondo ritiro comporta l’annullamento della licenza.",
+      "en": "If the licence is withdrawn during probation because of an offence, the probation period is extended by 1 year. A second withdrawal leads to the licence being annulled.",
+      "pt": "Se a carta for apreendida durante o período probatório por uma infração, este prolonga-se por 1 ano. Uma segunda apreensão leva à anulação da carta."
+    },
+    "image": null
+  },
+  {
+    "id": "q397",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Neulenker verliert in der Probezeit zum zweiten Mal den Ausweis wegen einer Widerhandlung. Was gilt?",
+      "es": "Un conductor novel pierde por segunda vez el permiso durante el período de prueba por una infracción. ¿Qué ocurre?",
+      "fr": "Un nouveau conducteur perd pour la deuxième fois son permis pendant la période probatoire à cause d’une infraction. Que se passe-t-il ?",
+      "it": "Un neopatentato perde per la seconda volta la patente durante il periodo di prova a causa di un’infrazione. Cosa succede?",
+      "en": "A new driver loses the licence for the second time during probation because of an offence. What applies?",
+      "pt": "Um condutor novo perde pela segunda vez a carta durante o período probatório por uma infração. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Ausweis wird annulliert – die Person muss nochmals mit Lernfahrausweis und Prüfungen von vorn beginnen",
+          "es": "El permiso se anula: hay que empezar de nuevo con permiso de aprendizaje y exámenes",
+          "fr": "Le permis est annulé : il faut repartir de zéro avec permis d’élève et examens",
+          "it": "La patente viene annullata: si deve ricominciare da capo con foglio rosa ed esami",
+          "en": "The licence is annulled – the person must start over with a learner licence and tests",
+          "pt": "A carta é anulada: é preciso recomeçar do zero com licença de aprendizagem e exames"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Probezeit wird nochmals um 1 Jahr verlängert",
+          "es": "El período de prueba se prolonga otro año",
+          "fr": "La période probatoire est prolongée d’un an encore",
+          "it": "Il periodo di prova viene prolungato di un altro anno",
+          "en": "The probation period is extended by another year",
+          "pt": "O período probatório é prolongado por mais 1 ano"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es geschieht nichts, wenn die Busse bezahlt ist",
+          "es": "No ocurre nada si se paga la multa",
+          "fr": "Rien ne se passe si l’amende est payée",
+          "it": "Non succede nulla se la multa è pagata",
+          "en": "Nothing happens once the fine is paid",
+          "pt": "Nada acontece se a multa for paga"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim zweiten Entzug in der Probezeit verfällt der Führerausweis (Annullierung). Nach einer Sperrfrist gibt es einen neuen Lernfahrausweis; Theorie- und Praxisprüfung sind erneut abzulegen.",
+      "es": "Con la segunda retirada en el período de prueba el permiso caduca (anulación). Tras un plazo de espera se obtiene un nuevo permiso de aprendizaje y hay que repetir los exámenes teórico y práctico.",
+      "fr": "Lors du deuxième retrait pendant la période probatoire, le permis est annulé. Après un délai d’attente, un nouveau permis d’élève est délivré ; les examens théorique et pratique sont à repasser.",
+      "it": "Al secondo ritiro durante il periodo di prova la patente decade (annullamento). Dopo un periodo di attesa si ottiene un nuovo foglio rosa e vanno ripetuti gli esami teorico e pratico.",
+      "en": "With a second withdrawal during probation the licence is annulled. After a waiting period a new learner licence is issued, and the theory and practical tests must be taken again.",
+      "pt": "Na segunda apreensão durante o período probatório a carta é anulada. Após um prazo de espera obtém-se nova licença de aprendizagem e é preciso repetir os exames teórico e prático."
+    },
+    "image": null
+  },
+  {
+    "id": "q398",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Bis wann musst du den obligatorischen Weiterausbildungskurs (WAB) besuchen, wenn du den Führerausweis auf Probe hast?",
+      "es": "¿Hasta cuándo debes hacer el curso de formación continua (WAB) obligatorio si tienes el permiso a prueba?",
+      "fr": "Jusqu’à quand dois-tu suivre le cours de formation complémentaire (WAB) obligatoire si tu as le permis à l’essai ?",
+      "it": "Entro quando devi frequentare il corso di perfezionamento (WAB) obbligatorio se hai la licenza in prova?",
+      "en": "By when must you attend the compulsory further-training course (WAB) if you hold the probationary licence?",
+      "pt": "Até quando deves frequentar o curso de formação complementar (WAB) obrigatório se tens a carta provisória?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Innerhalb von 12 Monaten nach bestandener Prüfung",
+          "es": "En los 12 meses siguientes a aprobar el examen",
+          "fr": "Dans les 12 mois qui suivent l’examen réussi",
+          "it": "Entro 12 mesi dal superamento dell’esame",
+          "en": "Within 12 months of passing the test",
+          "pt": "No prazo de 12 meses após passares no exame"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Erst am Ende der dreijährigen Probezeit",
+          "es": "Solo al final de los tres años de prueba",
+          "fr": "Seulement à la fin des trois ans de période probatoire",
+          "it": "Solo alla fine dei tre anni di prova",
+          "en": "Only at the end of the three-year probation",
+          "pt": "Só no fim dos três anos de período probatório"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Kurs ist freiwillig",
+          "es": "El curso es voluntario",
+          "fr": "Le cours est facultatif",
+          "it": "Il corso è facoltativo",
+          "en": "The course is voluntary",
+          "pt": "O curso é facultativo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der WAB-Kurs ist für alle mit Ausweis auf Probe obligatorisch und muss innerhalb der ersten 12 Monate besucht werden. Wer ihn nicht rechtzeitig macht, riskiert die Annullierung des Ausweises.",
+      "es": "El curso WAB es obligatorio para todos los titulares del permiso a prueba y debe hacerse en los primeros 12 meses. Quien no lo hace a tiempo corre el riesgo de que se anule el permiso.",
+      "fr": "Le cours WAB est obligatoire pour tous les titulaires du permis à l’essai et doit être suivi dans les 12 premiers mois. Qui ne le fait pas à temps risque l’annulation du permis.",
+      "it": "Il corso WAB è obbligatorio per tutti i titolari della licenza in prova e va frequentato entro i primi 12 mesi. Chi non lo fa in tempo rischia l’annullamento della licenza.",
+      "en": "The WAB course is compulsory for everyone with a probationary licence and must be attended within the first 12 months. Missing the deadline risks the licence being annulled.",
+      "pt": "O curso WAB é obrigatório para todos os titulares da carta provisória e tem de ser feito nos primeiros 12 meses. Quem não o faz a tempo corre o risco de ver a carta anulada."
+    },
+    "image": null
+  },
+  {
+    "id": "q399",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Dein Auto hat Spurhalteassistent und adaptiven Tempomat. Wer ist für das Fahren verantwortlich?",
+      "es": "Tu coche tiene asistente de mantenimiento de carril y control de crucero adaptativo. ¿Quién es responsable de la conducción?",
+      "fr": "Ta voiture est équipée d’un assistant de maintien de voie et d’un régulateur de vitesse adaptatif. Qui est responsable de la conduite ?",
+      "it": "La tua auto ha l’assistente di mantenimento della corsia e il cruise control adattivo. Chi è responsabile della guida?",
+      "en": "Your car has lane-keeping assist and adaptive cruise control. Who is responsible for driving?",
+      "pt": "O teu carro tem assistente de manutenção de faixa e controlo de velocidade adaptativo. Quem é responsável pela condução?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Immer ich als Fahrzeugführer – ich muss das Fahrzeug jederzeit beherrschen und eingreifen können",
+          "es": "Siempre yo como conductor: debo dominar el vehículo en todo momento y poder intervenir",
+          "fr": "Toujours moi en tant que conducteur : je dois maîtriser le véhicule en tout temps et pouvoir intervenir",
+          "it": "Sempre io come conducente: devo dominare il veicolo in ogni momento e poter intervenire",
+          "en": "Always me as the driver – I must be in control of the vehicle at all times and able to intervene",
+          "pt": "Sempre eu como condutor: devo dominar o veículo em qualquer momento e poder intervir"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Assistenzsystem, solange es eingeschaltet ist",
+          "es": "El sistema de asistencia mientras esté conectado",
+          "fr": "Le système d’assistance tant qu’il est activé",
+          "it": "Il sistema di assistenza finché è attivo",
+          "en": "The assistance system, as long as it is switched on",
+          "pt": "O sistema de assistência enquanto estiver ligado"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Fahrzeughersteller",
+          "es": "El fabricante del vehículo",
+          "fr": "Le constructeur du véhicule",
+          "it": "Il costruttore del veicolo",
+          "en": "The vehicle manufacturer",
+          "pt": "O fabricante do veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Assistenzsysteme unterstützen, entlasten dich aber nicht von der Verantwortung. Als Fahrzeugführer musst du dein Fahrzeug jederzeit beherrschen, aufmerksam bleiben und notfalls selbst bremsen oder lenken.",
+      "es": "Los sistemas de asistencia ayudan, pero no te eximen de la responsabilidad. Como conductor debes dominar el vehículo en todo momento, mantener la atención y, si hace falta, frenar o girar tú mismo.",
+      "fr": "Les systèmes d’assistance aident, mais ne te dégagent pas de ta responsabilité. En tant que conducteur, tu dois maîtriser ton véhicule en tout temps, rester attentif et, au besoin, freiner ou braquer toi-même.",
+      "it": "I sistemi di assistenza aiutano, ma non ti sollevano dalla responsabilità. Come conducente devi dominare il veicolo in ogni momento, restare attento e, se serve, frenare o sterzare tu stesso.",
+      "en": "Assistance systems help, but they do not relieve you of responsibility. As the driver you must be in control of your vehicle at all times, stay alert and brake or steer yourself if necessary.",
+      "pt": "Os sistemas de assistência ajudam, mas não te isentam da responsabilidade. Como condutor deves dominar o veículo em qualquer momento, manter-te atento e, se for preciso, travar ou virar tu próprio."
+    },
+    "image": null
+  },
+  {
+    "id": "q400",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du willst ein Kind in einem rückwärtsgerichteten Kindersitz auf dem Beifahrersitz mitnehmen. Was ist zu beachten?",
+      "es": "Quieres llevar a un niño en una silla a contramarcha en el asiento del copiloto. ¿Qué hay que tener en cuenta?",
+      "fr": "Tu veux transporter un enfant dans un siège dos à la route sur le siège passager. À quoi faut-il faire attention ?",
+      "it": "Vuoi trasportare un bambino in un seggiolino rivolto all’indietro sul sedile del passeggero. Cosa devi considerare?",
+      "en": "You want to carry a child in a rear-facing child seat on the front passenger seat. What must you consider?",
+      "pt": "Queres transportar uma criança numa cadeira virada para trás no lugar do pendura. O que deves ter em conta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Beifahrer-Airbag muss ausgeschaltet sein",
+          "es": "El airbag del acompañante debe estar desactivado",
+          "fr": "L’airbag passager doit être désactivé",
+          "it": "L’airbag del passeggero deve essere disattivato",
+          "en": "The front passenger airbag must be switched off",
+          "pt": "O airbag do pendura tem de estar desligado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Der Airbag bleibt eingeschaltet, er schützt das Kind zusätzlich",
+          "es": "El airbag sigue activado: protege además al niño",
+          "fr": "L’airbag reste activé, il protège l’enfant en plus",
+          "it": "L’airbag resta attivo: protegge ulteriormente il bambino",
+          "en": "The airbag stays on because it protects the child additionally",
+          "pt": "O airbag fica ligado porque protege ainda mais a criança"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Rückwärtsgerichtete Sitze sind auf dem Beifahrersitz verboten",
+          "es": "Las sillas a contramarcha están prohibidas en el asiento del copiloto",
+          "fr": "Les sièges dos à la route sont interdits sur le siège passager",
+          "it": "I seggiolini rivolti all’indietro sono vietati sul sedile del passeggero",
+          "en": "Rear-facing seats are prohibited on the front passenger seat",
+          "pt": "As cadeiras viradas para trás são proibidas no lugar do pendura"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einem rückwärtsgerichteten Kindersitz auf dem Beifahrersitz würde der sich öffnende Airbag mit grosser Wucht gegen den Sitz schlagen und das Kind lebensgefährlich verletzen – er muss deaktiviert sein.",
+      "es": "Con una silla a contramarcha en el asiento del copiloto, el airbag al desplegarse golpearía el asiento con gran fuerza y pondría en peligro la vida del niño: debe estar desactivado.",
+      "fr": "Avec un siège dos à la route sur le siège passager, l’airbag, en se déployant, frapperait le siège avec une grande force et mettrait la vie de l’enfant en danger : il doit être désactivé.",
+      "it": "Con un seggiolino rivolto all’indietro sul sedile del passeggero, l’airbag aprendosi colpirebbe il seggiolino con grande forza mettendo in pericolo la vita del bambino: deve essere disattivato.",
+      "en": "With a rear-facing seat on the front passenger seat, the inflating airbag would hit the seat with great force and endanger the child’s life – it must be deactivated.",
+      "pt": "Com uma cadeira virada para trás no lugar do pendura, o airbag ao inflar bateria na cadeira com grande força e poria a vida da criança em risco: tem de estar desativado."
+    },
+    "image": null
+  },
+  {
+    "id": "q401",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Bei Nässe bricht das Heck deines Autos in der Kurve aus (Übersteuern). Was tust du?",
+      "es": "Con lluvia, la parte trasera de tu coche se desliza en la curva (sobreviraje). ¿Qué haces?",
+      "fr": "Sur chaussée mouillée, l’arrière de ta voiture dérape dans le virage (survirage). Que fais-tu ?",
+      "it": "Con il bagnato il posteriore della tua auto scivola in curva (sovrasterzo). Cosa fai?",
+      "en": "On a wet road the rear of your car slides out in a bend (oversteer). What do you do?",
+      "pt": "Com piso molhado, a traseira do teu carro derrapa na curva (sobreviragem). O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Gas wegnehmen und in Richtung des ausbrechenden Hecks gegenlenken – nicht hart bremsen",
+          "es": "Soltar el acelerador y contravolantear hacia el lado donde se va la trasera, sin frenar bruscamente",
+          "fr": "Lever le pied de l’accélérateur et contre-braquer du côté où part l’arrière, sans freiner brutalement",
+          "it": "Sollevare il piede dall’acceleratore e controsterzare verso il lato in cui scivola il posteriore, senza frenare bruscamente",
+          "en": "Ease off the throttle and steer into the direction the rear is sliding – do not brake hard",
+          "pt": "Tirar o pé do acelerador e contra-virar para o lado para onde a traseira escorrega, sem travar a fundo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Voll bremsen und das Lenkrad festhalten",
+          "es": "Frenar a fondo y sujetar el volante",
+          "fr": "Freiner à fond et tenir fermement le volant",
+          "it": "Frenare a fondo e tenere saldo il volante",
+          "en": "Brake fully and hold the steering wheel firmly",
+          "pt": "Travar a fundo e segurar o volante com força"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Stark beschleunigen, um wieder Grip zu bekommen",
+          "es": "Acelerar fuerte para recuperar agarre",
+          "fr": "Accélérer fort pour retrouver de l’adhérence",
+          "it": "Accelerare forte per ritrovare aderenza",
+          "en": "Accelerate hard to regain grip",
+          "pt": "Acelerar a fundo para recuperar aderência"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Ausbrechen des Hecks hilft sanftes Gaswegnehmen und Gegenlenken in die Richtung, in die das Heck rutscht. Hartes Bremsen oder Gasgeben verschärft das Schleudern; ESP unterstützt, ersetzt aber nicht die angepasste Fahrweise.",
+      "es": "Cuando se va la trasera ayuda soltar suavemente el acelerador y contravolantear hacia el lado del deslizamiento. Frenar o acelerar bruscamente agrava el derrape; el ESP ayuda, pero no sustituye una conducción adaptada.",
+      "fr": "Quand l’arrière part, il faut lever doucement le pied et contre-braquer du côté du dérapage. Un freinage ou une accélération brutale aggrave le dérapage ; l’ESP aide mais ne remplace pas une conduite adaptée.",
+      "it": "Quando il posteriore scivola aiuta sollevare dolcemente il piede dall’acceleratore e controsterzare dal lato dello scivolamento. Frenare o accelerare bruscamente peggiora lo slittamento; l’ESP aiuta ma non sostituisce una guida adeguata.",
+      "en": "When the rear slides, easing off the throttle gently and steering into the slide helps. Hard braking or accelerating makes the skid worse; ESP assists but does not replace an adapted driving style.",
+      "pt": "Quando a traseira derrapa, ajuda tirar suavemente o pé do acelerador e contra-virar para o lado da derrapagem. Travar ou acelerar com força agrava a derrapagem; o ESP ajuda, mas não substitui uma condução adaptada."
+    },
+    "image": null
+  },
+  {
+    "id": "q402",
+    "category": "both",
+    "topic": "fahrzeug",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wann muss ein neuer Personenwagen in der Schweiz zur ersten periodischen Fahrzeugprüfung (MFK)?",
+      "es": "¿Cuándo debe pasar un turismo nuevo en Suiza su primera inspección periódica (MFK)?",
+      "fr": "Quand une voiture de tourisme neuve doit-elle passer son premier contrôle périodique (MFK) en Suisse ?",
+      "it": "Quando un’auto nuova deve sottoporsi in Svizzera alla prima revisione periodica (MFK)?",
+      "en": "When must a new passenger car in Switzerland go to its first periodic inspection (MFK)?",
+      "pt": "Quando é que um automóvel novo na Suíça tem de ir à primeira inspeção periódica (MFK)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nach 4 Jahren – danach nach 3 Jahren und dann alle 2 Jahre",
+          "es": "Tras 4 años; luego a los 3 años y después cada 2 años",
+          "fr": "Après 4 ans, puis après 3 ans, ensuite tous les 2 ans",
+          "it": "Dopo 4 anni, poi dopo 3 anni e quindi ogni 2 anni",
+          "en": "After 4 years – then after 3 years and then every 2 years",
+          "pt": "Aos 4 anos; depois aos 3 anos e a seguir de 2 em 2 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Jedes Jahr ab dem ersten Tag",
+          "es": "Cada año desde el primer día",
+          "fr": "Chaque année dès le premier jour",
+          "it": "Ogni anno dal primo giorno",
+          "en": "Every year from day one",
+          "pt": "Todos os anos desde o primeiro dia"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur wenn die Polizei es verlangt",
+          "es": "Solo si lo exige la policía",
+          "fr": "Seulement si la police l’exige",
+          "it": "Solo se lo richiede la polizia",
+          "en": "Only if the police require it",
+          "pt": "Só se a polícia o exigir"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Neue Personenwagen müssen nach 4 Jahren erstmals zur amtlichen Prüfung, dann nach weiteren 3 Jahren und anschliessend alle 2 Jahre. Das Strassenverkehrsamt bietet dich dazu auf.",
+      "es": "Los turismos nuevos pasan la primera inspección oficial a los 4 años, luego 3 años más tarde y después cada 2 años. La oficina de tráfico te cita para ello.",
+      "fr": "Les voitures de tourisme neuves passent leur premier contrôle officiel après 4 ans, puis 3 ans plus tard et ensuite tous les 2 ans. Le service des automobiles te convoque.",
+      "it": "Le auto nuove vanno alla prima verifica ufficiale dopo 4 anni, poi dopo altri 3 anni e quindi ogni 2 anni. L’ufficio della circolazione ti convoca.",
+      "en": "New passenger cars go to their first official inspection after 4 years, then 3 years later and every 2 years after that. The road traffic office summons you.",
+      "pt": "Os automóveis novos vão à primeira inspeção oficial aos 4 anos, depois 3 anos mais tarde e a seguir de 2 em 2 anos. O serviço de viação convoca-te."
+    },
+    "image": null
+  },
+  {
+    "id": "q403",
+    "category": "both",
+    "topic": "geschwindigkeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst in einer Tempo-30-Zone und kommst an eine Einmündung ohne Signale. Wer hat Vortritt?",
+      "es": "Circulas por una zona 30 y llegas a un cruce sin señales. ¿Quién tiene prioridad?",
+      "fr": "Tu roules dans une zone 30 et arrives à une jonction sans signaux. Qui a la priorité ?",
+      "it": "Circoli in una zona 30 e arrivi a un incrocio senza segnali. Chi ha la precedenza?",
+      "en": "You drive in a 30 km/h zone and reach a junction without signs. Who has priority?",
+      "pt": "Circulas numa zona 30 e chegas a um cruzamento sem sinais. Quem tem prioridade?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es gilt der Rechtsvortritt, wie üblich ohne Signalisation",
+          "es": "Rige la prioridad de la derecha, como de costumbre sin señalización",
+          "fr": "La priorité de droite s’applique, comme d’habitude sans signalisation",
+          "it": "Vale la precedenza da destra, come di consueto senza segnaletica",
+          "en": "The right-of-way-from-the-right rule applies, as usual without signs",
+          "pt": "Aplica-se a prioridade da direita, como é habitual sem sinalização"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Wer schneller fährt",
+          "es": "Quien va más rápido",
+          "fr": "Celui qui roule le plus vite",
+          "it": "Chi va più veloce",
+          "en": "Whoever drives faster",
+          "pt": "Quem vai mais depressa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Wer zuerst ankommt",
+          "es": "Quien llegue primero",
+          "fr": "Celui qui arrive le premier",
+          "it": "Chi arriva per primo",
+          "en": "Whoever arrives first",
+          "pt": "Quem chegar primeiro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In Tempo-30-Zonen gibt es in der Regel keine Vortrittssignale: Es gilt der Rechtsvortritt wie überall, wo nichts anderes signalisiert ist.",
+      "es": "En las zonas 30 normalmente no hay señales de prioridad: rige la prioridad de la derecha, como en cualquier sitio donde no se indique otra cosa.",
+      "fr": "Dans les zones 30, il n’y a en principe pas de signaux de priorité : la priorité de droite s’applique, comme partout où rien d’autre n’est signalé.",
+      "it": "Nelle zone 30 di norma non ci sono segnali di precedenza: vale la precedenza da destra, come ovunque non sia segnalato altro.",
+      "en": "In 30 km/h zones there are usually no priority signs: the right-of-way-from-the-right rule applies, as everywhere where nothing else is signposted.",
+      "pt": "Nas zonas 30 normalmente não há sinais de prioridade: aplica-se a prioridade da direita, como em qualquer sítio onde nada mais esteja sinalizado."
+    },
+    "image": null
+  },
+  {
+    "id": "q404",
+    "category": "both",
+    "topic": "geschwindigkeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ab welcher Geschwindigkeit innerorts (Limit 50 km/h) gilt in der Schweiz ein Raserdelikt?",
+      "es": "¿A partir de qué velocidad dentro de poblado (límite 50 km/h) hay en Suiza delito de exceso de velocidad extremo (Raserdelikt)?",
+      "fr": "À partir de quelle vitesse en localité (limite 50 km/h) y a-t-il en Suisse un délit de chauffard (Raserdelikt) ?",
+      "it": "A partire da quale velocità nei centri abitati (limite 50 km/h) in Svizzera si configura il reato di “pirata della strada” (Raserdelikt)?",
+      "en": "From what speed in a built-up area (limit 50 km/h) is there a “Raserdelikt” (extreme speeding offence) in Switzerland?",
+      "pt": "A partir de que velocidade dentro de localidades (limite 50 km/h) existe na Suíça um crime de excesso de velocidade extremo (Raserdelikt)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ab 100 km/h (50 km/h zu schnell)",
+          "es": "A partir de 100 km/h (50 km/h de más)",
+          "fr": "À partir de 100 km/h (50 km/h de trop)",
+          "it": "A partire da 100 km/h (50 km/h in più)",
+          "en": "From 100 km/h (50 km/h over)",
+          "pt": "A partir de 100 km/h (50 km/h acima)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ab 70 km/h",
+          "es": "A partir de 70 km/h",
+          "fr": "À partir de 70 km/h",
+          "it": "A partire da 70 km/h",
+          "en": "From 70 km/h",
+          "pt": "A partir de 70 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ab 120 km/h",
+          "es": "A partir de 120 km/h",
+          "fr": "À partir de 120 km/h",
+          "it": "A partire da 120 km/h",
+          "en": "From 120 km/h",
+          "pt": "A partir de 120 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Raserdelikt liegt vor, wenn man innerorts mit 50 km/h Limite mindestens 50 km/h zu schnell fährt (ab 100), ausserorts bei Limite 80 mindestens 60 km/h zu schnell (ab 140) und auf der Autobahn mindestens 80 km/h zu schnell (ab 200).",
+      "es": "Hay delito de exceso de velocidad extremo cuando, con límite de 50 km/h en poblado, se circula al menos 50 km/h por encima (desde 100), fuera de poblado con límite 80 al menos 60 km/h por encima (desde 140) y en autopista al menos 80 km/h por encima (desde 200).",
+      "fr": "Il y a délit de chauffard lorsque, avec une limite de 50 km/h en localité, on roule au moins 50 km/h trop vite (dès 100), hors localité avec limite 80 au moins 60 km/h trop vite (dès 140) et sur l’autoroute au moins 80 km/h trop vite (dès 200).",
+      "it": "C’è reato di “pirata della strada” quando nei centri abitati con limite 50 si supera il limite di almeno 50 km/h (da 100), fuori dai centri con limite 80 di almeno 60 km/h (da 140) e in autostrada di almeno 80 km/h (da 200).",
+      "en": "A Raserdelikt exists when you drive at least 50 km/h over the limit in a 50 km/h built-up area (from 100), at least 60 km/h over a limit of 80 outside built-up areas (from 140) and at least 80 km/h over on the motorway (from 200).",
+      "pt": "Há Raserdelikt quando se circula pelo menos 50 km/h acima do limite de 50 dentro de localidades (a partir de 100), pelo menos 60 km/h acima do limite de 80 fora de localidades (a partir de 140) e pelo menos 80 km/h acima na autoestrada (a partir de 200)."
+    },
+    "image": null
+  },
+  {
+    "id": "q405",
+    "category": "both",
+    "topic": "alkohol",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ab welchem Alter müssen Fahrzeuglenker alle zwei Jahre zur ärztlichen Kontrolluntersuchung?",
+      "es": "¿A partir de qué edad deben los conductores someterse cada dos años a un control médico?",
+      "fr": "À partir de quel âge les conducteurs doivent-ils passer un contrôle médical tous les deux ans ?",
+      "it": "A partire da quale età i conducenti devono sottoporsi ogni due anni a un controllo medico?",
+      "en": "From what age must drivers undergo a medical check-up every two years?",
+      "pt": "A partir de que idade os condutores têm de fazer um controlo médico de dois em dois anos?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ab 75 Jahren",
+          "es": "A partir de los 75 años",
+          "fr": "À partir de 75 ans",
+          "it": "A partire da 75 anni",
+          "en": "From age 75",
+          "pt": "A partir dos 75 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ab 60 Jahren",
+          "es": "A partir de los 60 años",
+          "fr": "À partir de 60 ans",
+          "it": "A partire da 60 anni",
+          "en": "From age 60",
+          "pt": "A partir dos 60 anos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ab 90 Jahren",
+          "es": "A partir de los 90 años",
+          "fr": "À partir de 90 ans",
+          "it": "A partire da 90 anni",
+          "en": "From age 90",
+          "pt": "A partir dos 90 anos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ab dem 75. Geburtstag verlangt das Strassenverkehrsamt alle zwei Jahre eine ärztliche Kontrolluntersuchung, um die Fahreignung zu überprüfen.",
+      "es": "Desde los 75 años, la oficina de tráfico exige cada dos años un control médico para comprobar la aptitud para conducir.",
+      "fr": "Dès 75 ans, le service des automobiles exige tous les deux ans un contrôle médical pour vérifier l’aptitude à la conduite.",
+      "it": "Dal compimento dei 75 anni l’ufficio della circolazione richiede ogni due anni un controllo medico per verificare l’idoneità alla guida.",
+      "en": "From the age of 75 the road traffic office requires a medical check-up every two years to verify fitness to drive.",
+      "pt": "A partir dos 75 anos, o serviço de viação exige de dois em dois anos um controlo médico para verificar a aptidão para conduzir."
+    },
+    "image": null
   }
 ]

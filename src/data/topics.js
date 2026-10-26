@@ -2,6 +2,8 @@ import { tr } from '../i18n'
 
 export const TOPICS = [
   { id: 'markierungen', label: { de: 'Markierungen', es: 'Marcas viales', fr: 'Marquages', it: 'Segnaletica orizzontale', en: 'Road markings', pt: 'Marcas rodoviárias' } },
+  { id: 'probezeit', label: { de: 'Führerausweis auf Probe', es: 'Permiso a prueba', fr: 'Permis à l’essai', it: 'Licenza in prova', en: 'Probationary licence', pt: 'Carta provisória' } },
+  { id: 'assistenz', label: { de: 'Fahrassistenz & Technik', es: 'Asistencias y técnica', fr: 'Aides à la conduite et technique', it: 'Assistenza alla guida e tecnica', en: 'Driver assistance & technology', pt: 'Assistência à condução e técnica' } },
   { id: 'vortritt', label: { de: 'Vortritt', es: 'Prioridad', fr: 'Priorité', it: 'Precedenza', en: 'Right of way', pt: 'Prioridade' } },
   { id: 'einspuren', label: { de: 'Einspuren', es: 'Einspuren (posición de carril)', fr: 'Présélection (voie)', it: 'Preselezione (corsia)', en: 'Lane positioning', pt: 'Pré-seleção (posição na faixa)' } },
   { id: 'kreisverkehr', label: { de: 'Kreisverkehr', es: 'Rotondas', fr: 'Giratoires', it: 'Rotatorie', en: 'Roundabouts', pt: 'Rotundas' } },
