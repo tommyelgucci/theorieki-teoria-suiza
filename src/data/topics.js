@@ -1,6 +1,7 @@
 import { tr } from '../i18n'
 
 export const TOPICS = [
+  { id: 'markierungen', label: { de: 'Markierungen', es: 'Marcas viales', fr: 'Marquages', it: 'Segnaletica orizzontale', en: 'Road markings', pt: 'Marcas rodoviárias' } },
   { id: 'vortritt', label: { de: 'Vortritt', es: 'Prioridad', fr: 'Priorité', it: 'Precedenza', en: 'Right of way', pt: 'Prioridade' } },
   { id: 'einspuren', label: { de: 'Einspuren', es: 'Einspuren (posición de carril)', fr: 'Présélection (voie)', it: 'Preselezione (corsia)', en: 'Lane positioning', pt: 'Pré-seleção (posição na faixa)' } },
   { id: 'kreisverkehr', label: { de: 'Kreisverkehr', es: 'Rotondas', fr: 'Giratoires', it: 'Rotatorie', en: 'Roundabouts', pt: 'Rotundas' } },

@@ -23654,5 +23654,909 @@
       "pt": "As viseiras escurecidas absorvem luz e pioram claramente a visão no escuro. De noite e em túneis deve usar-se uma viseira transparente; conduzir com ela aberta não protege os olhos nem a cara."
     },
     "image": null
+  },
+  {
+    "id": "q381",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du siehst diese Markierung in der Fahrbahnmitte. Was gilt?",
+      "es": "Ves esta marca en el centro de la calzada. ¿Qué rige?",
+      "fr": "Tu vois ce marquage au milieu de la chaussée. Que faut-il respecter ?",
+      "it": "Vedi questa segnaletica al centro della carreggiata. Cosa vale?",
+      "en": "You see this marking in the middle of the road. What applies?",
+      "pt": "Vês esta marca no meio da estrada. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die durchgezogene Linie darf nicht überfahren werden",
+          "es": "La línea continua no se puede cruzar",
+          "fr": "La ligne continue ne doit pas être franchie",
+          "it": "La linea continua non può essere superata",
+          "en": "The solid line must not be crossed",
+          "pt": "A linha contínua não pode ser atravessada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich darf sie zum Überholen überfahren, wenn niemand entgegenkommt",
+          "es": "Puedo cruzarla para adelantar si no viene nadie de frente",
+          "fr": "Je peux la franchir pour dépasser si personne ne vient en face",
+          "it": "Posso superarla per sorpassare se non arriva nessuno di fronte",
+          "en": "I may cross it to overtake if nobody is coming the other way",
+          "pt": "Posso atravessá-la para ultrapassar se não vier ninguém em sentido contrário"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie markiert einen Parkplatz",
+          "es": "Marca una plaza de aparcamiento",
+          "fr": "Elle marque une place de stationnement",
+          "it": "Indica un posto auto",
+          "en": "It marks a parking space",
+          "pt": "Marca um lugar de estacionamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Sicherheitslinie (durchgezogene Linie) darf nicht überfahren werden – weder zum Überholen noch zum Spurwechseln. Sie schützt vor Gegenverkehr und unübersichtlichen Stellen.",
+      "es": "La línea de seguridad (continua) no se puede cruzar, ni para adelantar ni para cambiar de carril. Protege frente al tráfico en sentido contrario y en tramos con poca visibilidad.",
+      "fr": "La ligne de sécurité (continue) ne doit pas être franchie, ni pour dépasser ni pour changer de voie. Elle protège contre le trafic en sens inverse et dans les endroits sans visibilité.",
+      "it": "La linea di sicurezza (continua) non può essere superata, né per sorpassare né per cambiare corsia. Protegge dal traffico contrario e nei punti con scarsa visibilità.",
+      "en": "The safety line (solid line) must not be crossed, neither to overtake nor to change lane. It protects against oncoming traffic and at places with poor visibility.",
+      "pt": "A linha de segurança (contínua) não pode ser atravessada, nem para ultrapassar nem para mudar de faixa. Protege do trânsito em sentido contrário e de locais com pouca visibilidade."
+    },
+    "image": {
+      "type": "marking",
+      "id": "sicherheitslinie"
+    }
+  },
+  {
+    "id": "q382",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Bedeutung hat diese unterbrochene weisse Linie?",
+      "es": "¿Qué significa esta línea blanca discontinua?",
+      "fr": "Que signifie cette ligne blanche interrompue ?",
+      "it": "Che significato ha questa linea bianca discontinua?",
+      "en": "What does this broken white line mean?",
+      "pt": "Que significa esta linha branca interrompida?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie trennt Fahrstreifen und darf überfahren werden, wenn es sicher ist",
+          "es": "Separa carriles y se puede cruzar cuando es seguro",
+          "fr": "Elle sépare les voies et peut être franchie quand c’est sûr",
+          "it": "Separa le corsie e può essere superata quando è sicuro",
+          "en": "It separates lanes and may be crossed when it is safe",
+          "pt": "Separa faixas e pode ser atravessada quando é seguro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Überfahren ist verboten",
+          "es": "Está prohibido cruzarla",
+          "fr": "Il est interdit de la franchir",
+          "it": "È vietato superarla",
+          "en": "Crossing it is prohibited",
+          "pt": "É proibido atravessá-la"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie gilt nur für Velos",
+          "es": "Solo vale para bicicletas",
+          "fr": "Elle ne vaut que pour les vélos",
+          "it": "Vale solo per le biciclette",
+          "en": "It applies to bicycles only",
+          "pt": "Só vale para bicicletas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Leitlinie (kurze Striche) trennt Fahrstreifen. Du darfst sie zum Überholen oder Spurwechseln überfahren, wenn du niemanden gefährdest.",
+      "es": "La línea de guía (trazos cortos) separa carriles. Puedes cruzarla para adelantar o cambiar de carril si no pones a nadie en peligro.",
+      "fr": "La ligne de guidage (traits courts) sépare les voies. Tu peux la franchir pour dépasser ou changer de voie si tu ne mets personne en danger.",
+      "it": "La linea di guida (tratti corti) separa le corsie. Puoi superarla per sorpassare o cambiare corsia se non metti in pericolo nessuno.",
+      "en": "The guide line (short dashes) separates lanes. You may cross it to overtake or change lane if you endanger nobody.",
+      "pt": "A linha de guia (traços curtos) separa faixas. Podes atravessá-la para ultrapassar ou mudar de faixa se não puseres ninguém em perigo."
+    },
+    "image": {
+      "type": "marking",
+      "id": "leitlinie"
+    }
+  },
+  {
+    "id": "q383",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du näherst dich einer Linie mit langen Strichen und kurzen Lücken. Was kündigt sie an?",
+      "es": "Te acercas a una línea de trazos largos y huecos cortos. ¿Qué anuncia?",
+      "fr": "Tu t’approches d’une ligne à longs traits et courts intervalles. Qu’annonce-t-elle ?",
+      "it": "Ti avvicini a una linea con tratti lunghi e spazi brevi. Cosa annuncia?",
+      "en": "You approach a line with long dashes and short gaps. What does it announce?",
+      "pt": "Aproximas-te de uma linha com traços longos e intervalos curtos. O que anuncia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Sicherheitslinie oder eine Gefahrenstelle – erhöhte Vorsicht",
+          "es": "Una línea de seguridad o un punto peligroso: precaución adicional",
+          "fr": "Une ligne de sécurité ou un endroit dangereux : prudence accrue",
+          "it": "Una linea di sicurezza o un punto pericoloso: prudenza maggiore",
+          "en": "A safety line or a danger spot – extra caution",
+          "pt": "Uma linha de segurança ou um ponto perigoso: atenção redobrada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Den Beginn einer Tempo-30-Zone",
+          "es": "El comienzo de una zona 30",
+          "fr": "Le début d’une zone 30",
+          "it": "L’inizio di una zona 30",
+          "en": "The start of a 30 km/h zone",
+          "pt": "O início de uma zona 30"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Ende eines Überholverbots",
+          "es": "El final de una prohibición de adelantar",
+          "fr": "La fin d’une interdiction de dépasser",
+          "it": "La fine di un divieto di sorpasso",
+          "en": "The end of an overtaking ban",
+          "pt": "O fim de uma proibição de ultrapassar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Warnlinie hat lange Striche und kurze Lücken. Sie warnt vor einer Sicherheitslinie oder Gefahrenstelle – bald ist kein Überholen mehr möglich.",
+      "es": "La línea de advertencia tiene trazos largos y huecos cortos. Avisa de una línea de seguridad o de un punto peligroso: pronto no se podrá adelantar.",
+      "fr": "La ligne d’avertissement a de longs traits et de courts intervalles. Elle avertit d’une ligne de sécurité ou d’un endroit dangereux : bientôt, dépasser ne sera plus possible.",
+      "it": "La linea di avvertimento ha tratti lunghi e spazi brevi. Avverte di una linea di sicurezza o di un punto pericoloso: presto non si potrà più sorpassare.",
+      "en": "The warning line has long dashes and short gaps. It warns of a safety line or danger spot – soon overtaking will no longer be possible.",
+      "pt": "A linha de aviso tem traços longos e intervalos curtos. Avisa de uma linha de segurança ou de um ponto perigoso: em breve já não será possível ultrapassar."
+    },
+    "image": {
+      "type": "marking",
+      "id": "warnlinie"
+    }
+  },
+  {
+    "id": "q384",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Woran erkennst du eine Warnlinie im Vergleich zur Leitlinie?",
+      "es": "¿En qué se distingue una línea de advertencia de una de guía?",
+      "fr": "À quoi reconnais-tu une ligne d’avertissement par rapport à une ligne de guidage ?",
+      "it": "Da cosa riconosci una linea di avvertimento rispetto a una di guida?",
+      "en": "How do you tell a warning line from a guide line?",
+      "pt": "Como distingues uma linha de aviso de uma linha de guia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Bei der Warnlinie sind die Striche länger als die Lücken",
+          "es": "En la de advertencia los trazos son más largos que los huecos",
+          "fr": "Sur la ligne d’avertissement, les traits sont plus longs que les intervalles",
+          "it": "Nella linea di avvertimento i tratti sono più lunghi degli spazi",
+          "en": "On the warning line the dashes are longer than the gaps",
+          "pt": "Na linha de aviso os traços são mais longos do que os intervalos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Warnlinie ist gelb, die Leitlinie weiss",
+          "es": "La de advertencia es amarilla y la de guía blanca",
+          "fr": "La ligne d’avertissement est jaune, la ligne de guidage blanche",
+          "it": "La linea di avvertimento è gialla, quella di guida bianca",
+          "en": "The warning line is yellow, the guide line is white",
+          "pt": "A linha de aviso é amarela e a de guia branca"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Warnlinie ist durchgezogen, die Leitlinie unterbrochen",
+          "es": "La de advertencia es continua y la de guía discontinua",
+          "fr": "La ligne d’avertissement est continue, la ligne de guidage interrompue",
+          "it": "La linea di avvertimento è continua, quella di guida discontinua",
+          "en": "The warning line is solid, the guide line is broken",
+          "pt": "A linha de aviso é contínua e a de guia interrompida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beide sind unterbrochene weisse Linien. Bei der Leitlinie sind die Lücken länger als die Striche, bei der Warnlinie sind die Striche länger – das Zeichen für erhöhte Vorsicht.",
+      "es": "Ambas son líneas blancas discontinuas. En la de guía los huecos son más largos que los trazos; en la de advertencia, los trazos son más largos: señal de precaución.",
+      "fr": "Toutes deux sont des lignes blanches interrompues. Sur la ligne de guidage, les intervalles sont plus longs que les traits ; sur la ligne d’avertissement, les traits sont plus longs : signe de prudence accrue.",
+      "it": "Entrambe sono linee bianche discontinue. In quella di guida gli spazi sono più lunghi dei tratti; in quella di avvertimento i tratti sono più lunghi: segno di maggiore prudenza.",
+      "en": "Both are broken white lines. On the guide line the gaps are longer than the dashes; on the warning line the dashes are longer – a sign for extra caution.",
+      "pt": "Ambas são linhas brancas interrompidas. Na de guia os intervalos são mais longos do que os traços; na de aviso os traços são mais longos: sinal de atenção redobrada."
+    },
+    "image": null
+  },
+  {
+    "id": "q385",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Darfst du diese weiss schraffierte Fläche befahren?",
+      "es": "¿Puedes circular por esta superficie con rayado blanco?",
+      "fr": "As-tu le droit de rouler sur cette surface hachurée en blanc ?",
+      "it": "Puoi percorrere questa superficie tratteggiata di bianco?",
+      "en": "May you drive on this white hatched area?",
+      "pt": "Podes circular nesta superfície com riscas brancas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, Sperrflächen dürfen nicht befahren werden",
+          "es": "No, las zonas de exclusión no se pueden pisar",
+          "fr": "Non, les zones interdites ne doivent pas être empruntées",
+          "it": "No, le zone interdette non possono essere percorse",
+          "en": "No, no-entry areas must not be driven on",
+          "pt": "Não, as zonas interditas não podem ser percorridas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, wenn ich dadurch niemanden behindere",
+          "es": "Sí, si con ello no molesto a nadie",
+          "fr": "Oui, si je ne gêne personne",
+          "it": "Sì, se così non ostacolo nessuno",
+          "en": "Yes, as long as I do not obstruct anybody",
+          "pt": "Sim, desde que não prejudique ninguém"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, um schneller zu überholen",
+          "es": "Sí, para adelantar más rápido",
+          "fr": "Oui, pour dépasser plus vite",
+          "it": "Sì, per sorpassare più in fretta",
+          "en": "Yes, to overtake faster",
+          "pt": "Sim, para ultrapassar mais depressa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Weiss schraffierte Flächen mit Sicherheitslinie sind Sperrflächen: Sie dürfen nicht befahren werden. Sie leiten den Verkehr oder schützen Inseln und Verzweigungen.",
+      "es": "Las superficies con rayado blanco y línea de seguridad son zonas de exclusión: no se pueden pisar. Guían el tráfico o protegen islas y bifurcaciones.",
+      "fr": "Les surfaces hachurées en blanc avec ligne de sécurité sont des zones interdites : on ne doit pas les emprunter. Elles guident le trafic ou protègent des îlots et des bifurcations.",
+      "it": "Le superfici tratteggiate di bianco con linea di sicurezza sono zone interdette: non si possono percorrere. Guidano il traffico o proteggono isole e biforcazioni.",
+      "en": "White hatched areas with a safety line are no-entry areas: they must not be driven on. They guide traffic or protect islands and junctions.",
+      "pt": "As superfícies com riscas brancas e linha de segurança são zonas interditas: não se pode circular nelas. Orientam o trânsito ou protegem ilhéus e bifurcações."
+    },
+    "image": {
+      "type": "marking",
+      "id": "sperrflaeche"
+    }
+  },
+  {
+    "id": "q386",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du kommst zu dieser durchgezogenen Querlinie (z. B. bei «Stop»). Wo hältst du an?",
+      "es": "Llegas a esta línea transversal continua (p. ej. en un «Stop»). ¿Dónde te detienes?",
+      "fr": "Tu arrives à cette ligne transversale continue (p. ex. à un « Stop »). Où t’arrêtes-tu ?",
+      "it": "Arrivi a questa linea trasversale continua (ad es. a uno «Stop»). Dove ti fermi?",
+      "en": "You reach this solid transverse line (e.g. at a “Stop” sign). Where do you stop?",
+      "pt": "Chegas a esta linha transversal contínua (p. ex. num «Stop»). Onde páras?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Vor der Linie",
+          "es": "Antes de la línea",
+          "fr": "Avant la ligne",
+          "it": "Prima della linea",
+          "en": "In front of the line",
+          "pt": "Antes da linha"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit den Vorderrädern auf der Linie, um besser zu sehen",
+          "es": "Con las ruedas delanteras sobre la línea para ver mejor",
+          "fr": "Les roues avant sur la ligne pour mieux voir",
+          "it": "Con le ruote anteriori sulla linea per vedere meglio",
+          "en": "With the front wheels on the line to see better",
+          "pt": "Com as rodas da frente sobre a linha para ver melhor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Hinter der Linie, mitten in der Kreuzung",
+          "es": "Pasada la línea, en medio del cruce",
+          "fr": "Après la ligne, au milieu de l’intersection",
+          "it": "Oltre la linea, in mezzo all’incrocio",
+          "en": "Beyond the line, in the middle of the junction",
+          "pt": "Depois da linha, no meio do cruzamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Haltelinie zeigt, wo du anhalten musst: vor der Linie. Wer darüber hinausrollt, blockiert den Querverkehr und Fussgängerstreifen.",
+      "es": "La línea de detención indica dónde debes parar: antes de la línea. Quien se pasa bloquea el tráfico transversal y los pasos de peatones.",
+      "fr": "La ligne d’arrêt indique où tu dois t’arrêter : avant la ligne. Qui la dépasse bloque la circulation transversale et les passages pour piétons.",
+      "it": "La linea di arresto indica dove devi fermarti: prima della linea. Chi la supera blocca il traffico trasversale e i passaggi pedonali.",
+      "en": "The stop line shows where you must stop: in front of the line. Rolling past it blocks cross traffic and pedestrian crossings.",
+      "pt": "A linha de paragem indica onde deves parar: antes da linha. Quem a ultrapassa bloqueia o trânsito transversal e as passadeiras."
+    },
+    "image": {
+      "type": "marking",
+      "id": "haltelinie"
+    }
+  },
+  {
+    "id": "q387",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Was bedeutet diese Reihe weisser Dreiecke auf der Fahrbahn?",
+      "es": "¿Qué significa esta hilera de triángulos blancos en la calzada?",
+      "fr": "Que signifie cette rangée de triangles blancs sur la chaussée ?",
+      "it": "Cosa significa questa fila di triangoli bianchi sulla carreggiata?",
+      "en": "What does this row of white triangles on the road mean?",
+      "pt": "O que significa esta fila de triângulos brancos na estrada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Hier muss ich warten und bei Bedarf anhalten, wenn ich keinen Vortritt habe",
+          "es": "Aquí debo esperar y, si hace falta, detenerme, si no tengo prioridad",
+          "fr": "Ici je dois attendre et, au besoin, m’arrêter si je n’ai pas la priorité",
+          "it": "Qui devo attendere e, se serve, fermarmi, se non ho la precedenza",
+          "en": "Here I must wait and stop if necessary when I do not have priority",
+          "pt": "Aqui devo esperar e, se necessário, parar se não tiver prioridade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Hier beginnt eine Sperrfläche",
+          "es": "Aquí empieza una zona de exclusión",
+          "fr": "Ici commence une zone interdite",
+          "it": "Qui inizia una zona interdetta",
+          "en": "A no-entry area begins here",
+          "pt": "Aqui começa uma zona interdita"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Hier haben Fussgänger Vortritt",
+          "es": "Aquí los peatones tienen prioridad",
+          "fr": "Ici les piétons ont la priorité",
+          "it": "Qui i pedoni hanno la precedenza",
+          "en": "Pedestrians have priority here",
+          "pt": "Aqui os peões têm prioridade"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Wartelinie (Dreiecke) markiert die Stelle, an der du bei fehlendem Vortritt warten musst – etwa vor einem Kreisel oder bei «Kein Vortritt».",
+      "es": "La línea de espera (triángulos) marca el lugar donde debes esperar si no tienes prioridad, por ejemplo antes de una rotonda o ante «Ceda el paso».",
+      "fr": "La ligne d’attente (triangles) marque l’endroit où tu dois attendre si tu n’as pas la priorité – par exemple avant un giratoire ou à un « Cédez le passage ».",
+      "it": "La linea di attesa (triangoli) indica il punto in cui devi aspettare se non hai la precedenza, ad esempio prima di una rotatoria o a un «Dare precedenza».",
+      "en": "The give-way line (triangles) marks where you must wait if you do not have priority – for example before a roundabout or at a “Give way” sign.",
+      "pt": "A linha de espera (triângulos) marca o local onde deves esperar se não tiveres prioridade, por exemplo antes de uma rotunda ou num «Dê prioridade»."
+    },
+    "image": {
+      "type": "marking",
+      "id": "wartelinie"
+    }
+  },
+  {
+    "id": "q388",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was bedeutet die blaue Markierung dieser Parkfelder?",
+      "es": "¿Qué significa el marcado azul de estas plazas?",
+      "fr": "Que signifie le marquage bleu de ces places ?",
+      "it": "Cosa significa la segnaletica blu di questi posti?",
+      "en": "What does the blue marking of these parking bays mean?",
+      "pt": "O que significa a marca azul destes lugares?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Parkieren nur zeitlich begrenzt und mit eingestellter Parkscheibe",
+          "es": "Estacionamiento solo con límite de tiempo y con el disco colocado",
+          "fr": "Stationnement limité dans le temps, uniquement avec le disque réglé",
+          "it": "Parcheggio solo a tempo limitato e con il disco orario impostato",
+          "en": "Parking only for a limited time and with a set parking disc",
+          "pt": "Estacionamento apenas por tempo limitado e com o disco acertado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gratis parkieren ohne zeitliche Beschränkung",
+          "es": "Estacionar gratis sin límite de tiempo",
+          "fr": "Stationnement gratuit sans limite de temps",
+          "it": "Parcheggio gratuito senza limiti di tempo",
+          "en": "Free parking without any time limit",
+          "pt": "Estacionar grátis sem limite de tempo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkplätze nur für Anwohner",
+          "es": "Plazas solo para residentes",
+          "fr": "Places réservées aux riverains",
+          "it": "Posti riservati ai residenti",
+          "en": "Spaces for residents only",
+          "pt": "Lugares só para residentes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Blauen Zone darfst du höchstens während der erlaubten Zeit parkieren und musst die Parkscheibe auf die nächste halbe Stunde nach deiner Ankunft einstellen und gut sichtbar hinlegen.",
+      "es": "En la zona azul solo puedes estacionar durante el tiempo permitido y debes poner el disco en la siguiente media hora posterior a tu llegada, bien visible.",
+      "fr": "En zone bleue, tu ne peux stationner que pendant la durée autorisée et tu dois régler le disque sur la demi-heure qui suit ton arrivée et le placer bien en vue.",
+      "it": "In zona blu puoi parcheggiare solo per il tempo consentito e devi impostare il disco sulla mezz’ora successiva al tuo arrivo e metterlo ben visibile.",
+      "en": "In the blue zone you may only park for the permitted time and must set the parking disc to the next half hour after your arrival and place it clearly visible.",
+      "pt": "Na zona azul só podes estacionar durante o tempo permitido e deves acertar o disco na meia hora seguinte à tua chegada e colocá-lo bem visível."
+    },
+    "image": {
+      "type": "marking",
+      "id": "blaue_zone"
+    }
+  },
+  {
+    "id": "q389",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Am Fahrbahnrand verläuft eine durchgezogene gelbe Linie. Was bedeutet sie?",
+      "es": "En el borde de la calzada hay una línea amarilla continua. ¿Qué significa?",
+      "fr": "Une ligne jaune continue longe le bord de la chaussée. Que signifie-t-elle ?",
+      "it": "Sul bordo della carreggiata corre una linea gialla continua. Cosa significa?",
+      "en": "A solid yellow line runs along the edge of the road. What does it mean?",
+      "pt": "Na berma da estrada há uma linha amarela contínua. O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Halteverbot: hier darf weder gehalten noch parkiert werden",
+          "es": "Prohibido detenerse: aquí no se puede parar ni estacionar",
+          "fr": "Arrêt interdit : ici on ne peut ni s’arrêter ni stationner",
+          "it": "Divieto di fermata: qui non ci si può né fermare né parcheggiare",
+          "en": "No stopping: you may neither stop nor park here",
+          "pt": "Paragem proibida: aqui não se pode parar nem estacionar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Parkierverbot: kurzes Halten ist erlaubt",
+          "es": "Prohibido estacionar: se puede parar brevemente",
+          "fr": "Stationnement interdit : un arrêt bref est permis",
+          "it": "Divieto di parcheggio: una breve fermata è consentita",
+          "en": "No parking: a brief stop is allowed",
+          "pt": "Estacionamento proibido: é permitida uma paragem breve"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren erlaubt, aber nur mit Parkscheibe",
+          "es": "Se puede estacionar, pero solo con disco",
+          "fr": "Stationnement autorisé, mais seulement avec disque",
+          "it": "Parcheggio consentito, ma solo con il disco orario",
+          "en": "Parking allowed, but only with a parking disc",
+          "pt": "Estacionamento permitido, mas só com disco"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe durchgezogene Linie am Rand = Halteverbot. Auch kurzes Anhalten zum Aus- oder Einsteigen ist dort verboten.",
+      "es": "Línea amarilla continua en el borde = prohibido detenerse. Tampoco se puede parar brevemente para subir o bajar.",
+      "fr": "Ligne jaune continue en bordure = arrêt interdit. Même un arrêt bref pour monter ou descendre y est interdit.",
+      "it": "Linea gialla continua sul bordo = divieto di fermata. Anche una breve sosta per salire o scendere è vietata.",
+      "en": "Solid yellow line at the edge = no stopping. Even a brief stop to get in or out is prohibited there.",
+      "pt": "Linha amarela contínua na berma = paragem proibida. Mesmo uma paragem breve para entrar ou sair é proibida."
+    },
+    "image": {
+      "type": "marking",
+      "id": "gelb_durchgezogen"
+    }
+  },
+  {
+    "id": "q390",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Am Fahrbahnrand verläuft eine unterbrochene gelbe Linie. Was darfst du?",
+      "es": "En el borde de la calzada hay una línea amarilla discontinua. ¿Qué puedes hacer?",
+      "fr": "Une ligne jaune interrompue longe le bord de la chaussée. Que peux-tu faire ?",
+      "it": "Sul bordo della carreggiata corre una linea gialla discontinua. Cosa puoi fare?",
+      "en": "A broken yellow line runs along the edge of the road. What may you do?",
+      "pt": "Na berma da estrada há uma linha amarela interrompida. O que podes fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Kurz halten (z. B. zum Aus- oder Einsteigen), aber nicht parkieren",
+          "es": "Parar brevemente (p. ej. para subir o bajar), pero no estacionar",
+          "fr": "M’arrêter brièvement (p. ex. pour monter ou descendre), mais pas stationner",
+          "it": "Fermarmi brevemente (ad es. per salire o scendere), ma non parcheggiare",
+          "en": "Stop briefly (e.g. to get in or out) but not park",
+          "pt": "Parar brevemente (p. ex. para entrar ou sair), mas não estacionar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nicht einmal kurz anhalten",
+          "es": "Ni siquiera parar brevemente",
+          "fr": "Même pas m’arrêter brièvement",
+          "it": "Nemmeno fermarmi brevemente",
+          "en": "Not even stop briefly",
+          "pt": "Nem sequer parar brevemente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beliebig lange parkieren",
+          "es": "Estacionar el tiempo que quiera",
+          "fr": "Stationner aussi longtemps que je veux",
+          "it": "Parcheggiare quanto voglio",
+          "en": "Park for as long as I like",
+          "pt": "Estacionar o tempo que quiser"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe unterbrochene Linie am Rand = Parkierverbot. Kurzes Halten (Ein- oder Aussteigen, Güter laden) ist erlaubt, solange du niemanden behinderst.",
+      "es": "Línea amarilla discontinua en el borde = prohibido estacionar. Se puede parar brevemente (subir o bajar, cargar) mientras no estorbes a nadie.",
+      "fr": "Ligne jaune interrompue en bordure = stationnement interdit. Un arrêt bref (monter, descendre, charger) est permis tant que tu ne gênes personne.",
+      "it": "Linea gialla discontinua sul bordo = divieto di parcheggio. Una breve fermata (salire, scendere, caricare) è consentita finché non intralci nessuno.",
+      "en": "Broken yellow line at the edge = no parking. A brief stop (getting in or out, loading) is allowed as long as you obstruct nobody.",
+      "pt": "Linha amarela interrompida na berma = estacionamento proibido. É permitida uma paragem breve (entrar, sair, carregar) desde que não prejudiques ninguém."
+    },
+    "image": {
+      "type": "marking",
+      "id": "gelb_unterbrochen"
+    }
+  },
+  {
+    "id": "q391",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Vor einer Bushaltestelle ist eine gelbe Zickzacklinie markiert. Was gilt?",
+      "es": "Ante una parada de autobús hay una línea amarilla en zigzag. ¿Qué rige?",
+      "fr": "Devant un arrêt de bus, une ligne jaune en zigzag est marquée. Que faut-il respecter ?",
+      "it": "Davanti a una fermata dell’autobus è tracciata una linea gialla a zigzag. Cosa vale?",
+      "en": "A yellow zigzag line is marked at a bus stop. What applies?",
+      "pt": "Junto a uma paragem de autocarro está marcada uma linha amarela em ziguezague. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Halteverbot, damit Bus oder Tram ungehindert halten können",
+          "es": "Prohibido detenerse, para que autobús y tranvía puedan parar sin obstáculos",
+          "fr": "Arrêt interdit, pour que bus et tram puissent s’arrêter sans entrave",
+          "it": "Divieto di fermata, così bus e tram possono fermarsi senza ostacoli",
+          "en": "No stopping, so that buses and trams can stop without obstruction",
+          "pt": "Paragem proibida, para que autocarros e elétricos parem sem obstáculos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Hier folgt ein Fussgängerstreifen",
+          "es": "Aquí viene un paso de peatones",
+          "fr": "Un passage pour piétons suit",
+          "it": "Segue un passaggio pedonale",
+          "en": "A pedestrian crossing follows",
+          "pt": "Segue-se uma passadeira"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren ist hier für 15 Minuten erlaubt",
+          "es": "Aquí se puede estacionar 15 minutos",
+          "fr": "Le stationnement est autorisé ici pendant 15 minutes",
+          "it": "Qui si può parcheggiare per 15 minuti",
+          "en": "Parking is allowed here for 15 minutes",
+          "pt": "Aqui é permitido estacionar durante 15 minutos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die gelbe Zickzacklinie kennzeichnet den Haltestellenbereich und bedeutet Halteverbot. So kann das öffentliche Verkehrsmittel an den Randstein fahren.",
+      "es": "La línea amarilla en zigzag señala la zona de la parada y significa prohibido detenerse. Así el transporte público puede llegar hasta el bordillo.",
+      "fr": "La ligne jaune en zigzag signale la zone de l’arrêt et signifie arrêt interdit. Ainsi, le transport public peut s’approcher de la bordure.",
+      "it": "La linea gialla a zigzag segnala la zona della fermata e significa divieto di fermata. Così il mezzo pubblico può avvicinarsi al marciapiede.",
+      "en": "The yellow zigzag line marks the stop area and means no stopping. This lets public transport pull up to the kerb.",
+      "pt": "A linha amarela em ziguezague assinala a zona da paragem e significa paragem proibida. Assim o transporte público pode encostar ao lancil."
+    },
+    "image": {
+      "type": "marking",
+      "id": "zickzack"
+    }
+  },
+  {
+    "id": "q392",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst mit dem Auto neben einem Velostreifen mit durchgezogener gelber Linie. Darfst du ihn befahren?",
+      "es": "Conduces un coche junto a un carril bici con línea amarilla continua. ¿Puedes circular por él?",
+      "fr": "Tu roules en voiture le long d’une bande cyclable à ligne jaune continue. As-tu le droit de l’emprunter ?",
+      "it": "Guidi un’auto accanto a una corsia ciclabile con linea gialla continua. Puoi percorrerla?",
+      "en": "You drive a car next to a cycle lane with a solid yellow line. May you drive on it?",
+      "pt": "Conduzes um carro ao lado de uma faixa para bicicletas com linha amarela contínua. Podes circular nela?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, bei durchgezogener Linie ist der Velostreifen für Motorfahrzeuge tabu",
+          "es": "No, con línea continua el carril bici está vedado a los vehículos a motor",
+          "fr": "Non, avec une ligne continue, la bande cyclable est interdite aux véhicules à moteur",
+          "it": "No, con linea continua la corsia ciclabile è vietata ai veicoli a motore",
+          "en": "No, with a solid line the cycle lane is off limits to motor vehicles",
+          "pt": "Não, com linha contínua a faixa para bicicletas está vedada aos veículos a motor"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, zum Überholen eines langsamen Velos",
+          "es": "Sí, para adelantar a una bici lenta",
+          "fr": "Oui, pour dépasser un vélo lent",
+          "it": "Sì, per sorpassare una bici lenta",
+          "en": "Yes, to overtake a slow bicycle",
+          "pt": "Sim, para ultrapassar uma bicicleta lenta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, wenn keine Velos in Sicht sind",
+          "es": "Sí, si no hay bicis a la vista",
+          "fr": "Oui, s’il n’y a pas de vélos en vue",
+          "it": "Sì, se non ci sono bici in vista",
+          "en": "Yes, if no bicycles are in sight",
+          "pt": "Sim, se não houver bicicletas à vista"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Velostreifen mit durchgezogener gelber Linie darf von Motorfahrzeugen nicht befahren werden. Bei unterbrochener Linie ist das nur bei Bedarf erlaubt und nur ohne Velos zu behindern.",
+      "es": "Un carril bici con línea amarilla continua no puede ser invadido por vehículos a motor. Con línea discontinua solo se permite si es necesario y sin estorbar a las bicis.",
+      "fr": "Une bande cyclable à ligne jaune continue ne peut pas être empruntée par des véhicules à moteur. Avec une ligne interrompue, seulement si nécessaire et sans gêner les vélos.",
+      "it": "Una corsia ciclabile con linea gialla continua non può essere percorsa dai veicoli a motore. Con linea discontinua solo se necessario e senza intralciare le bici.",
+      "en": "A cycle lane with a solid yellow line must not be used by motor vehicles. With a broken line it is allowed only when necessary and without obstructing cyclists.",
+      "pt": "Uma faixa para bicicletas com linha amarela contínua não pode ser usada por veículos a motor. Com linha interrompida só é permitido se necessário e sem prejudicar os ciclistas."
+    },
+    "image": {
+      "type": "marking",
+      "id": "velostreifen"
+    }
+  },
+  {
+    "id": "q393",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer Baustelle sind gelbe und weisse Markierungen sichtbar. Was gilt?",
+      "es": "En una obra se ven marcas amarillas y blancas. ¿Qué rige?",
+      "fr": "Sur un chantier, des marquages jaunes et blancs sont visibles. Que faut-il respecter ?",
+      "it": "In un cantiere si vedono segni gialli e bianchi. Cosa vale?",
+      "en": "Yellow and white markings are visible at a roadworks site. What applies?",
+      "pt": "Numa obra veem-se marcas amarelas e brancas. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die gelben, vorübergehenden Markierungen gehen den weissen vor",
+          "es": "Las marcas amarillas, provisionales, prevalecen sobre las blancas",
+          "fr": "Les marquages jaunes, provisoires, priment sur les blancs",
+          "it": "I segni gialli, provvisori, prevalgono su quelli bianchi",
+          "en": "The yellow temporary markings take precedence over the white ones",
+          "pt": "As marcas amarelas, provisórias, prevalecem sobre as brancas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die weissen Markierungen gelten immer, gelbe sind nur Dekoration",
+          "es": "Las blancas rigen siempre; las amarillas son solo decoración",
+          "fr": "Les marquages blancs valent toujours, les jaunes sont décoratifs",
+          "it": "Quelli bianchi valgono sempre, quelli gialli sono decorativi",
+          "en": "The white markings always apply, yellow ones are merely decoration",
+          "pt": "As brancas valem sempre; as amarelas são apenas decoração"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich wähle die Markierung, die für mich bequemer ist",
+          "es": "Elijo la marca que me resulte más cómoda",
+          "fr": "Je choisis le marquage qui m’arrange le plus",
+          "it": "Scelgo il segno che mi è più comodo",
+          "en": "I choose whichever marking is more convenient for me",
+          "pt": "Escolho a marca que me for mais cómoda"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe Markierungen zeigen eine vorübergehende Verkehrsführung, z. B. bei Baustellen. Sie gehen den bestehenden weissen Markierungen vor.",
+      "es": "Las marcas amarillas indican una ordenación provisional del tráfico, por ejemplo en obras. Prevalecen sobre las blancas existentes.",
+      "fr": "Les marquages jaunes indiquent une signalisation provisoire du trafic, p. ex. sur les chantiers. Ils priment sur les marquages blancs existants.",
+      "it": "I segni gialli indicano una gestione provvisoria del traffico, ad es. nei cantieri. Prevalgono su quelli bianchi esistenti.",
+      "en": "Yellow markings show a temporary traffic arrangement, e.g. at roadworks. They take precedence over the existing white markings.",
+      "pt": "As marcas amarelas indicam uma organização provisória do trânsito, por exemplo em obras. Prevalecem sobre as brancas existentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q394",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du findest einen freien, weiss markierten Parkplatz. Was gilt?",
+      "es": "Encuentras una plaza libre marcada en blanco. ¿Qué rige?",
+      "fr": "Tu trouves une place libre marquée en blanc. Que faut-il respecter ?",
+      "it": "Trovi un posto libero marcato in bianco. Cosa vale?",
+      "en": "You find a free white-marked parking space. What applies?",
+      "pt": "Encontras um lugar livre marcado a branco. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Parkieren ist erlaubt, ausser die Signalisation beschränkt es (Gebühr, Zeit)",
+          "es": "Se puede estacionar, salvo que la señalización lo limite (tarifa, tiempo)",
+          "fr": "Le stationnement est autorisé, sauf si la signalisation le limite (taxe, durée)",
+          "it": "Il parcheggio è consentito, salvo limitazioni della segnaletica (tariffa, tempo)",
+          "en": "Parking is allowed unless the signs restrict it (fee, time)",
+          "pt": "Estacionar é permitido, salvo se a sinalização o limitar (tarifa, tempo)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Parkieren ist nur mit Parkscheibe erlaubt",
+          "es": "Solo se puede estacionar con disco",
+          "fr": "Le stationnement n’est autorisé qu’avec disque",
+          "it": "Il parcheggio è consentito solo con il disco orario",
+          "en": "Parking is only allowed with a parking disc",
+          "pt": "Só é permitido estacionar com disco"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren ist immer verboten",
+          "es": "Estacionar está siempre prohibido",
+          "fr": "Le stationnement est toujours interdit",
+          "it": "Il parcheggio è sempre vietato",
+          "en": "Parking is always prohibited",
+          "pt": "Estacionar é sempre proibido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Weiss markierte Parkfelder sind gewöhnliche Parkplätze. Achte auf Signale, die Gebühr, Höchstdauer oder Benützerkreis regeln. Die Parkscheibe brauchst du nur in der Blauen Zone.",
+      "es": "Las plazas marcadas en blanco son plazas normales. Atiende a las señales que regulan tarifa, duración máxima o usuarios. El disco solo hace falta en la zona azul.",
+      "fr": "Les places marquées en blanc sont des places ordinaires. Observe les signaux qui règlent la taxe, la durée maximale ou les usagers. Le disque n’est exigé qu’en zone bleue.",
+      "it": "I posti marcati in bianco sono posti normali. Rispetta i segnali che regolano tariffa, durata massima o utenti. Il disco serve solo in zona blu.",
+      "en": "White-marked bays are ordinary parking spaces. Watch for signs regulating the fee, maximum duration or users. You only need the disc in the blue zone.",
+      "pt": "Os lugares marcados a branco são lugares normais. Atenta aos sinais que regulam tarifa, duração máxima ou utilizadores. O disco só é necessário na zona azul."
+    },
+    "image": {
+      "type": "marking",
+      "id": "weisse_parkfelder"
+    }
   }
 ]

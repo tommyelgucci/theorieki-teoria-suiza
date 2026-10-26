@@ -6,6 +6,7 @@ import { hasMultipleCorrect, canSpeak, speakDe } from '../utils'
 import { SIGNS } from '../data/signs'
 import SignSprite from './SignSprite'
 import SceneDiagram from './SceneDiagram'
+import MarkingSprite from './MarkingSprite'
 import { CarIcon, MotoIcon } from './CategoryIcons'
 import { IconSpeaker, IconCross, IconBulb } from './Icons'
 
@@ -18,6 +19,13 @@ function QuestionImage({ image }) {
         <SignSprite draw={sign.draw} size={110} />
       </div>
     ) : null
+  }
+  if (image.type === 'marking') {
+    return (
+      <div className="my-3 flex justify-center">
+        <MarkingSprite id={image.id} width={220} />
+      </div>
+    )
   }
   if (image.type === 'scene') {
     return (
