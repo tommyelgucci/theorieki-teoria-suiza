@@ -13,7 +13,7 @@ abordarlo. Última actualización: 2026-09-12 (ver `CHECKPOINT.md` para el detal
   flaky (ver "Cerrado").
 - CI en pull requests (`.github/workflows/ci.yml`): lint + test + build en cada PR
   contra `main`.
-- 362 preguntas (350 categoría B, 362 categoría A — 350 compartidas + 12 propias de A),
+- 405 preguntas (375 categoría B, 405 categoría A — 375 compartidas + 30 propias de A),
   todas con traducción completa en los 6 idiomas, sin huecos. 15 bloques de tips, ídem.
   Ampliado en ocho rondas de la sesión de 2026-08-19 con 44 temas nuevos (176 preguntas)
   redactados desde cero a partir de VRV/SVG/SSV/VMSV/VZV, con 8 preguntas más de
@@ -21,7 +21,7 @@ abordarlo. Última actualización: 2026-09-12 (ver `CHECKPOINT.md` para el detal
   preguntas más: cambio de color de vehículo, neblineros delanteros, equipamiento de la
   conducción de aprendizaje, transporte de ganado, licencia extranjera al residir en
   Suiza) en la sesión de 2026-09-12, ver `CHECKPOINT.md`.
-- El chunk `questions-*.js` ronda ya los 1010 KB minificado. Se subió
+- El chunk `questions-*.js` ronda ya los 1156 KB minificado (363 KB gzip) con 405 preguntas, a 44 KB del umbral de 1200 del aviso de Rollup (verificado el 2026-10-26). Partir el JSON por tema NO ayuda: toda vista que lo usa necesita el banco entero. La optimización real sería partir por idioma (estructura + un archivo de textos por idioma, recomponiendo el objeto `{de, <lang>}` en `loadQuestions`), pero obliga a que Study/Exam/Review/Stats carguen el banco de forma asíncrona y recarguen al cambiar de idioma. Antes: la versión anterior de esta nota decía "~1010 KB". Se subió
   `build.chunkSizeWarningLimit` de 1000 a 1200 en `vite.config.js` en la ronda 9 para que
   el aviso de Rollup no reaparezca — el chunk sigue siendo lazy y esto no es un problema
   de rendimiento real. Si se añade una décima ronda de ~20 preguntas más, es probable que

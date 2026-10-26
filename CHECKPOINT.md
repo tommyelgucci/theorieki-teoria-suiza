@@ -8,6 +8,29 @@ recordar.
 
 ---
 
+## 2026-10-26 — Ronda de contenido: moto, marcas viales, cifras clave, carnet a prueba
+
+**Contexto:** el usuario pidió investigar qué faltaba (temas, flashcards) y hacerlo de lo fácil a lo difícil.
+Análisis por palabras clave en alemán sobre el banco. **Corrección:** el análisis dio falsos huecos en
+drogas/medicamentos/accidente (ya cubiertos en q018, q082, q083, q088, q153 con otras palabras); antes de
+escribir un tema, leer las preguntas relacionadas y no fiarse del conteo de keywords.
+**Hecho:** (1) interruptor «DE» en `QuestionCard` (`storage.getShowDe`, clave global `showDe`);
+(2) vista `Numbers` + `src/data/numbers.js` (tabla y mazo SRS desde la misma lista, 45 filas) y
+`CardDeck.jsx` reutilizable (FirstAid/Vku/Signs aún tienen su copia propia del mazo: candidato a refactor);
+(3) 18 preguntas de moto (q363–q380, categoría A); (4) marcas viales: `MarkingSprite`, `markings.js`,
+vista `Markings` dentro del hub de Señales, tema `markierungen` con 14 preguntas (q381–q394) y imágenes
+`type: "marking"`; (5) 11 preguntas: `probezeit` (4), `assistenz` (3), MFK, zona 30, Raserdelikt, control
+médico ≥75 (q395–q405). Banco: 405 preguntas (375 B / 405 A). Nuevo `questions.test.js` valida ids únicos,
+6 idiomas, temas y referencias de imagen; también `Numbers.test.jsx` y `Markings.test.jsx`.
+**No hecho (a propósito):** partir el banco en chunks (ver ROADMAP: no mejora nada por tema).
+**A verificar con una fuente oficial antes de publicar:** cifras nuevas escritas de memoria sobre el
+derecho vigente — Raserdelikt (100/140/200), control médico a los 75, MFK 4-3-2, Velostreifen amarillo,
+zigzag = Halteverbot, disco en la «siguiente media hora»; y una posible incoherencia previa: q150 dice que
+con remolque rige 80 km/h (100 solo con combinación autorizada) mientras q300/q302 hablan de 100 km/h hasta
+3,5 t y 80 por encima.
+
+---
+
 ## 2026-10-25 — Pulido de UI y animaciones (rojo suizo se mantiene)
 
 **Qué se hizo:** tokens de diseño nuevos en `index.css` (`--shadow-raised`, `--color-success/danger`,
