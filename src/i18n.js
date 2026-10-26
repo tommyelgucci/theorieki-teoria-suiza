@@ -311,6 +311,10 @@ export const STRINGS = {
     pt: 'Lê os temas novamente com calma.',
   },
   menuSigns: { de: 'Verkehrssignale', es: 'Señales de tráfico', fr: 'Signaux routiers', it: 'Segnali stradali', en: 'Traffic signs', pt: 'Sinais de trânsito' },
+  menuNumbers: { de: 'Wichtige Zahlen', es: 'Cifras clave', fr: 'Chiffres clés', it: 'Numeri chiave', en: 'Key numbers', pt: 'Números-chave' },
+  menuNumbersSub: { de: 'Tempo, Abstände, Fristen & Karten', es: 'Velocidades, distancias, plazos y tarjetas', fr: 'Vitesses, distances, délais et cartes', it: 'Velocità, distanze, termini e carte', en: 'Speeds, distances, deadlines & cards', pt: 'Velocidades, distâncias, prazos e cartões' },
+  numbersOverview: { de: 'Übersicht', es: 'Resumen', fr: 'Aperçu', it: 'Panoramica', en: 'Overview', pt: 'Resumo' },
+  numbersCards: { de: 'Karten', es: 'Tarjetas', fr: 'Cartes', it: 'Carte', en: 'Cards', pt: 'Cartões' },
   menuSignsSub: { de: 'Lernen, Karten & Quiz', es: 'Aprender, tarjetas y quiz', fr: 'Apprendre, cartes et quiz', it: 'Impara, carte e quiz', en: 'Learn, cards & quiz', pt: 'Aprender, cartões e questionário' },
   signsIntro: {
     de: 'Die wichtigsten Schweizer Verkehrssignale nach Kategorie. Vereinfachte Darstellungen zum Lernen.',
