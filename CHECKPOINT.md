@@ -25,9 +25,13 @@ médico ≥75 (q395–q405). Banco: 405 preguntas (375 B / 405 A). Nuevo `questi
 **No hecho (a propósito):** partir el banco en chunks (ver ROADMAP: no mejora nada por tema).
 **A verificar con una fuente oficial antes de publicar:** cifras nuevas escritas de memoria sobre el
 derecho vigente — Raserdelikt (100/140/200), control médico a los 75, MFK 4-3-2, Velostreifen amarillo,
-zigzag = Halteverbot, disco en la «siguiente media hora»; y una posible incoherencia previa: q150 dice que
-con remolque rige 80 km/h (100 solo con combinación autorizada) mientras q300/q302 hablan de 100 km/h hasta
-3,5 t y 80 por encima.
+zigzag = Halteverbot, disco en la «siguiente media hora».
+**Remolques (resuelto, 2026-10-26):** q150, q300 y q302 parecían contradecirse. Según TCS, ASTRA y las oficinas
+de tráfico de TG, SO y BL, desde el 1-1-2021 un vehículo ligero con remolque ≤ 3,5 t circula a 100 km/h en
+autopista/Autostrasse si el remolque está homologado para 100 (campo 24 del permiso; sin inspección), si no
+80 km/h; más de 3,5 t: 80. q150 y q300 se reescribieron para preguntar por el caso concreto (sin homologación
+→ 80) y por la condición (≤ 3,5 t y homologado → 100); q302 estaba bien; fila n09 de `numbers.js` actualizada.
+Sin acceso al texto de la VRV (fedlex bloqueado en el sandbox): confirmar contra Art. 5 VRV si se puede.
 
 ---
 

@@ -9340,12 +9340,12 @@
     "type": "multiple_choice",
     "points": 2,
     "question": {
-      "de": "Du ziehst einen Anhänger mit dem Auto. Welche Höchstgeschwindigkeit gilt generell auf der Autobahn?",
-      "es": "Llevas un remolque con el coche. ¿Qué velocidad máxima rige en general en la autopista?",
-      "fr": "Tu tractes une remorque avec la voiture. Quelle vitesse maximale s'applique en général sur l'autoroute ?",
-      "it": "Traini un rimorchio con l'auto. Quale velocità massima vale in generale in autostrada?",
-      "en": "You tow a trailer with the car. What speed limit generally applies on the motorway?",
-      "pt": "Rebocas um atrelado com o carro. Que velocidade máxima vigora em geral na autoestrada?"
+      "de": "Du ziehst mit dem Auto einen Anhänger, der nicht für 100 km/h zugelassen ist. Welche Höchstgeschwindigkeit gilt auf der Autobahn?",
+      "es": "Remolcas con el coche un remolque que no está homologado para 100 km/h. ¿Qué velocidad máxima rige en autopista?",
+      "fr": "Tu tractes avec ta voiture une remorque qui n’est pas homologuée pour 100 km/h. Quelle vitesse maximale s’applique sur l’autoroute ?",
+      "it": "Traini con l’auto un rimorchio non omologato per 100 km/h. Quale velocità massima vale in autostrada?",
+      "en": "You tow a trailer that is not approved for 100 km/h with your car. What maximum speed applies on the motorway?",
+      "pt": "Reboca com o carro um reboque que não está homologado para 100 km/h. Que velocidade máxima se aplica na autoestrada?"
     },
     "options": [
       {
@@ -9386,12 +9386,12 @@
       }
     ],
     "explanation": {
-      "de": "Mit Anhänger gelten generell 80 km/h (100 nur mit speziell zugelassener Kombination).",
-      "es": "Con remolque rigen en general 80 km/h (100 solo con conjuntos homologados especialmente).",
-      "fr": "Avec remorque : 80 km/h en général (100 seulement avec un attelage spécialement homologué).",
-      "it": "Con rimorchio valgono in generale 80 km/h (100 solo con combinazione appositamente omologata).",
-      "en": "With a trailer, 80 km/h applies generally (100 only with a specially approved combination).",
-      "pt": "Com atrelado vigoram em geral 80 km/h (100 só com conjuntos homologados especialmente)."
+      "de": "Mit einem Anhänger, der nicht für 100 km/h zugelassen ist, gelten auf Autobahn und Autostrasse 80 km/h. 100 km/h sind nur erlaubt, wenn der Anhänger höchstens 3,5 t Gesamtgewicht hat und dafür zugelassen ist.",
+      "es": "Con un remolque no homologado para 100 km/h rigen 80 km/h en autopista y Autostrasse. Solo se permiten 100 km/h si el remolque pesa como máximo 3,5 t en total y está homologado para ello.",
+      "fr": "Avec une remorque non homologuée pour 100 km/h, la limite est de 80 km/h sur l’autoroute et la semi-autoroute. 100 km/h ne sont permis que si la remorque pèse au plus 3,5 t au total et est homologuée pour cette vitesse.",
+      "it": "Con un rimorchio non omologato per 100 km/h vale il limite di 80 km/h in autostrada e superstrada. I 100 km/h sono consentiti solo se il rimorchio pesa al massimo 3,5 t in totale ed è omologato per tale velocità.",
+      "en": "With a trailer not approved for 100 km/h, the limit is 80 km/h on motorways and expressways. 100 km/h is only allowed if the trailer weighs at most 3.5 t in total and is approved for that speed.",
+      "pt": "Com um reboque não homologado para 100 km/h, o limite é de 80 km/h na autoestrada e na via rápida. Só são permitidos 100 km/h se o reboque pesar no máximo 3,5 t no total e estiver homologado para essa velocidade."
     },
     "image": null
   },
@@ -18640,58 +18640,58 @@
     "type": "multiple_choice",
     "points": 1,
     "question": {
-      "de": "Welche Höchstgeschwindigkeit gilt allgemein für einen leichten Personenwagen mit Anhänger, dessen Gesamtgewicht 3,5 Tonnen nicht übersteigt?",
-      "es": "¿Qué velocidad máxima rige, en general, para un turismo ligero con remolque cuyo peso total no supera las 3,5 toneladas?",
-      "fr": "Quelle vitesse maximale s'applique en général à une voiture légère avec remorque dont le poids total ne dépasse pas 3,5 tonnes ?",
-      "it": "Quale velocità massima vale in generale per un'autovettura leggera con rimorchio il cui peso totale non supera le 3,5 tonnellate?",
-      "en": "What maximum speed generally applies to a light car with a trailer whose total weight does not exceed 3.5 tonnes?",
-      "pt": "Que velocidade máxima vigora, em geral, para um automóvel ligeiro com reboque cujo peso total não excede 3,5 toneladas?"
+      "de": "Unter welcher Bedingung darf ein leichter Personenwagen mit Anhänger auf der Autobahn 100 km/h fahren?",
+      "es": "¿En qué condición puede un turismo ligero con remolque circular a 100 km/h en autopista?",
+      "fr": "À quelle condition une voiture de tourisme légère avec remorque peut-elle rouler à 100 km/h sur l’autoroute ?",
+      "it": "A quale condizione un’auto leggera con rimorchio può viaggiare a 100 km/h in autostrada?",
+      "en": "Under what condition may a light passenger car with a trailer drive 100 km/h on the motorway?",
+      "pt": "Em que condição pode um automóvel ligeiro com reboque circular a 100 km/h na autoestrada?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "de": "100 km/h",
-          "es": "100 km/h",
-          "fr": "100 km/h",
-          "it": "100 km/h",
-          "en": "100 km/h",
-          "pt": "100 km/h"
+          "de": "Der Anhänger wiegt höchstens 3,5 Tonnen und ist für 100 km/h zugelassen",
+          "es": "El remolque pesa como máximo 3,5 toneladas y está homologado para 100 km/h",
+          "fr": "La remorque pèse au plus 3,5 tonnes et est homologuée pour 100 km/h",
+          "it": "Il rimorchio pesa al massimo 3,5 tonnellate ed è omologato per 100 km/h",
+          "en": "The trailer weighs at most 3.5 tonnes and is approved for 100 km/h",
+          "pt": "O reboque pesa no máximo 3,5 toneladas e está homologado para 100 km/h"
         },
         "correct": true
       },
       {
         "id": "b",
         "text": {
-          "de": "60 km/h",
-          "es": "60 km/h",
-          "fr": "60 km/h",
-          "it": "60 km/h",
-          "en": "60 km/h",
-          "pt": "60 km/h"
+          "de": "Es genügt, dass der Anhänger höchstens 3,5 Tonnen wiegt – eine Zulassung für 100 km/h ist nicht nötig",
+          "es": "Basta con que el remolque pese como máximo 3,5 toneladas; no hace falta homologación para 100 km/h",
+          "fr": "Il suffit que la remorque pèse au plus 3,5 tonnes ; une homologation pour 100 km/h n’est pas nécessaire",
+          "it": "Basta che il rimorchio pesi al massimo 3,5 tonnellate; non serve l’omologazione per 100 km/h",
+          "en": "It is enough for the trailer to weigh at most 3.5 tonnes – no approval for 100 km/h is needed",
+          "pt": "Basta que o reboque pese no máximo 3,5 toneladas; não é necessária homologação para 100 km/h"
         },
         "correct": false
       },
       {
         "id": "c",
         "text": {
-          "de": "130 km/h",
-          "es": "130 km/h",
-          "fr": "130 km/h",
-          "it": "130 km/h",
-          "en": "130 km/h",
-          "pt": "130 km/h"
+          "de": "Nur mit einer Sonderbewilligung des Strassenverkehrsamts",
+          "es": "Solo con una autorización especial de la oficina de tráfico",
+          "fr": "Seulement avec une autorisation spéciale du service des automobiles",
+          "it": "Solo con un’autorizzazione speciale dell’ufficio della circolazione",
+          "en": "Only with a special permit from the road traffic office",
+          "pt": "Só com uma autorização especial do serviço de viação"
         },
         "correct": false
       }
     ],
     "explanation": {
-      "de": "Für leichte Motorwagen mit Anhänger bis 3,5 Tonnen Gesamtgewicht gilt in der Schweiz eine Höchstgeschwindigkeit von 100 km/h.",
-      "es": "Para turismos ligeros con remolque de hasta 3,5 toneladas de peso total, en Suiza rige una velocidad máxima de 100 km/h.",
-      "fr": "Pour les voitures légères avec remorque jusqu'à 3,5 tonnes de poids total, la vitesse maximale en Suisse est de 100 km/h.",
-      "it": "Per le autovetture leggere con rimorchio fino a 3,5 tonnellate di peso totale, in Svizzera vale una velocità massima di 100 km/h.",
-      "en": "For light motor vehicles with a trailer up to 3.5 tonnes total weight, the maximum speed in Switzerland is 100 km/h.",
-      "pt": "Para automóveis ligeiros com reboque até 3,5 toneladas de peso total, na Suíça vigora uma velocidade máxima de 100 km/h."
+      "de": "Seit 2021 gilt auf Autobahn und Autostrasse 100 km/h für leichte Motorwagen mit Anhänger bis 3,5 t Gesamtgewicht, sofern der Anhänger dafür zugelassen ist (Typengenehmigung); sonst 80 km/h. Das abzuklären ist Sache des Fahrers, eine Prüfung beim Strassenverkehrsamt ist nicht nötig.",
+      "es": "Desde 2021 rigen 100 km/h en autopista y Autostrasse para vehículos ligeros con remolque de hasta 3,5 t de peso total, siempre que el remolque esté homologado para ello (homologación de tipo); si no, 80 km/h. Comprobarlo es responsabilidad del conductor; no hace falta ninguna inspección en la oficina de tráfico.",
+      "fr": "Depuis 2021, la limite est de 100 km/h sur l’autoroute et la semi-autoroute pour les véhicules légers avec remorque jusqu’à 3,5 t de poids total, pour autant que la remorque y soit homologuée (réception par type) ; sinon 80 km/h. C’est au conducteur de le vérifier ; aucun contrôle au service des automobiles n’est nécessaire.",
+      "it": "Dal 2021 vale il limite di 100 km/h in autostrada e superstrada per i veicoli leggeri con rimorchio fino a 3,5 t di peso totale, purché il rimorchio sia omologato (omologazione del tipo); altrimenti 80 km/h. Verificarlo spetta al conducente; non serve alcun controllo all’ufficio della circolazione.",
+      "en": "Since 2021 the limit is 100 km/h on motorways and expressways for light vehicles with a trailer up to 3.5 t total weight, provided the trailer is approved for it (type approval); otherwise 80 km/h. Checking this is the driver’s responsibility; no inspection at the road traffic office is needed.",
+      "pt": "Desde 2021 o limite é de 100 km/h na autoestrada e na via rápida para veículos ligeiros com reboque até 3,5 t de peso total, desde que o reboque esteja homologado para isso (homologação de tipo); caso contrário, 80 km/h. Verificá-lo é da responsabilidade do condutor; não é necessária nenhuma inspeção no serviço de viação."
     },
     "image": null
   },
