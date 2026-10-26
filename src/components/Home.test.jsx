@@ -30,7 +30,7 @@ describe('Pantalla de inicio', () => {
 
     await user.click(screen.getByRole('button', { name: new RegExp(t('moto', LANG), 'i') }))
 
-    expect(await screen.findByText(catalogo(362))).toBeInTheDocument()
+    expect(await screen.findByText(catalogo(380))).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: new RegExp(t('car', LANG), 'i') }))
 

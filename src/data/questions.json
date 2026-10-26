@@ -22538,5 +22538,1121 @@
       "pt": "Os condutores profissionais com carta da UE/EFTA também têm 12 meses a partir da fixação de domicílio para a trocar, sem necessidade de o fazer antes da primeira condução profissional."
     },
     "image": null
+  },
+  {
+    "id": "q363",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du willst bei höherem Tempo mit dem Motorrad in eine Rechtskurve einlenken. Wie leitest du die Schräglage ein?",
+      "es": "Quieres entrar en una curva a la derecha con la moto a velocidad alta. ¿Cómo inicias la inclinación?",
+      "fr": "Tu veux prendre un virage à droite à moto, à vitesse élevée. Comment amorces-tu l’inclinaison ?",
+      "it": "Vuoi affrontare una curva a destra in moto a velocità sostenuta. Come inizi l’inclinazione?",
+      "en": "You want to enter a right-hand bend on your motorcycle at higher speed. How do you start the lean?",
+      "pt": "Queres entrar numa curva à direita de mota a velocidade elevada. Como inicias a inclinação?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mit einem kurzen Druck nach vorne auf das rechte Lenkerende (Gegenlenken)",
+          "es": "Con un breve empujón hacia delante en el puño derecho (contramanillar)",
+          "fr": "Par une brève poussée vers l’avant sur la poignée droite (contre-braquage)",
+          "it": "Con una breve spinta in avanti sulla manopola destra (controsterzo)",
+          "en": "With a short push forward on the right handlebar grip (counter-steering)",
+          "pt": "Com um breve empurrão para a frente no punho direito (contra-direção)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Indem ich den Lenker langsam nach rechts drehe, wie beim Velo im Schritttempo",
+          "es": "Girando despacio el manillar hacia la derecha, como en una bici a paso lento",
+          "fr": "En tournant lentement le guidon vers la droite, comme à vélo au pas",
+          "it": "Girando lentamente il manubrio a destra, come in bici a passo d’uomo",
+          "en": "By slowly turning the handlebars to the right, like on a bicycle at walking pace",
+          "pt": "Rodando devagar o guiador para a direita, como numa bicicleta a passo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur durch Verlagern des Oberkörpers, ohne den Lenker zu bewegen",
+          "es": "Solo desplazando el torso, sin mover el manillar",
+          "fr": "Seulement en déplaçant le buste, sans bouger le guidon",
+          "it": "Solo spostando il busto, senza muovere il manubrio",
+          "en": "Only by shifting the upper body, without moving the handlebars",
+          "pt": "Só deslocando o tronco, sem mexer no guiador"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei höherem Tempo kippt das Motorrad durch einen kurzen Impuls am kurveninneren Lenkerende in die gewünschte Richtung (Gegenlenken). Danach hält man die Schräglage mit leichtem Lenkerdruck.",
+      "es": "A velocidad alta, un breve impulso en el puño del lado interior de la curva inclina la moto hacia donde quieres (contramanillar). Después se mantiene la inclinación con una ligera presión en el manillar.",
+      "fr": "À vitesse élevée, une brève impulsion sur la poignée intérieure du virage fait basculer la moto du côté voulu (contre-braquage). Ensuite, on maintient l’inclinaison par une légère pression sur le guidon.",
+      "it": "A velocità elevata, un breve impulso sulla manopola interna alla curva fa inclinare la moto dalla parte voluta (controsterzo). Poi si mantiene l’inclinazione con una leggera pressione sul manubrio.",
+      "en": "At higher speed, a short push on the inside grip makes the motorcycle lean in the desired direction (counter-steering). You then hold the lean with light pressure on the handlebars.",
+      "pt": "A velocidade elevada, um breve impulso no punho do lado de dentro da curva inclina a mota para onde queres (contra-direção). Depois mantém-se a inclinação com uma ligeira pressão no guiador."
+    },
+    "image": null
+  },
+  {
+    "id": "q364",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Wohin richtest du in einer Kurve deinen Blick mit dem Motorrad?",
+      "es": "¿Hacia dónde diriges la mirada en una curva con la moto?",
+      "fr": "Où diriges-tu ton regard dans un virage à moto ?",
+      "it": "Dove rivolgi lo sguardo in una curva in moto?",
+      "en": "Where do you look in a bend on your motorcycle?",
+      "pt": "Para onde diriges o olhar numa curva de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weit voraus durch die Kurve, zum Kurvenausgang",
+          "es": "Lejos, a través de la curva, hacia la salida",
+          "fr": "Loin devant, à travers le virage, vers la sortie",
+          "it": "Lontano, attraverso la curva, verso l’uscita",
+          "en": "Far ahead through the bend, towards the exit",
+          "pt": "Ao longe, através da curva, para a saída"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Direkt auf das Vorderrad",
+          "es": "Directamente a la rueda delantera",
+          "fr": "Directement sur la roue avant",
+          "it": "Direttamente sulla ruota anteriore",
+          "en": "Straight at the front wheel",
+          "pt": "Diretamente para a roda da frente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Auf den Strassenrand oder die Leitplanke direkt vor mir",
+          "es": "Al borde de la calzada o a la barrera justo delante de mí",
+          "fr": "Sur le bord de la route ou la glissière juste devant moi",
+          "it": "Al bordo della strada o al guardrail proprio davanti a me",
+          "en": "At the road edge or crash barrier right in front of me",
+          "pt": "Para a berma ou o rail de proteção mesmo à minha frente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Motorrad folgt dem Blick: Wer weit durch die Kurve schaut, fährt flüssiger und sicherer. Wer auf ein Hindernis starrt, steuert oft genau darauf zu.",
+      "es": "La moto sigue la mirada: quien mira lejos a través de la curva conduce con más fluidez y seguridad. Quien se fija en un obstáculo suele acabar yendo hacia él.",
+      "fr": "La moto suit le regard : en regardant loin à travers le virage, on roule plus souplement et plus sûrement. Celui qui fixe un obstacle finit souvent par aller droit dessus.",
+      "it": "La moto segue lo sguardo: chi guarda lontano attraverso la curva guida in modo più fluido e sicuro. Chi fissa un ostacolo spesso finisce per andargli addosso.",
+      "en": "The motorcycle follows your eyes: looking far through the bend makes you smoother and safer. If you stare at an obstacle, you often steer straight towards it.",
+      "pt": "A mota segue o olhar: quem olha ao longe através da curva conduz com mais fluidez e segurança. Quem fixa um obstáculo acaba muitas vezes por ir direito a ele."
+    },
+    "image": null
+  },
+  {
+    "id": "q365",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du musst mit dem Motorrad Tramschienen überqueren. Was ist richtig?",
+      "es": "Tienes que cruzar unas vías de tranvía con la moto. ¿Qué es lo correcto?",
+      "fr": "Tu dois traverser des rails de tram à moto. Que faut-il faire ?",
+      "it": "Devi attraversare dei binari del tram in moto. Qual è il comportamento corretto?",
+      "en": "You have to cross tram rails on your motorcycle. What is correct?",
+      "pt": "Tens de atravessar carris de elétrico de mota. O que é correto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Möglichst im rechten Winkel überqueren, ohne zu bremsen oder zu beschleunigen",
+          "es": "Cruzarlas lo más perpendicularmente posible, sin frenar ni acelerar",
+          "fr": "Les traverser le plus perpendiculairement possible, sans freiner ni accélérer",
+          "it": "Attraversarli il più possibile ad angolo retto, senza frenare né accelerare",
+          "en": "Cross them as close to a right angle as possible, without braking or accelerating",
+          "pt": "Atravessá-los o mais possível em ângulo reto, sem travar nem acelerar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Spitzwinklig überqueren, damit die Räder in der Rille bleiben",
+          "es": "Cruzarlas en ángulo muy agudo para que las ruedas sigan el carril",
+          "fr": "Les traverser en biais très aigu pour que les roues restent dans la rainure",
+          "it": "Attraversarli con un angolo molto stretto, così le ruote restano nella gola",
+          "en": "Cross them at a very shallow angle so the wheels stay in the groove",
+          "pt": "Atravessá-los num ângulo muito fechado para as rodas ficarem no rail"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beim Überqueren kräftig bremsen, um die Kontrolle zu behalten",
+          "es": "Frenar fuerte al cruzarlas para mantener el control",
+          "fr": "Freiner fort pendant la traversée pour garder le contrôle",
+          "it": "Frenare con decisione durante l’attraversamento per mantenere il controllo",
+          "en": "Brake hard while crossing to keep control",
+          "pt": "Travar com força ao atravessar para manter o controlo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer Schienen spitzwinklig quert, kann in der Rille hängen bleiben und stürzen. Im rechten Winkel, mit konstantem Tempo und lockerem Lenker, ist das Risiko am kleinsten.",
+      "es": "Quien cruza las vías en ángulo agudo puede quedar atrapado en el carril y caerse. En ángulo recto, a velocidad constante y con el manillar suelto, el riesgo es mínimo.",
+      "fr": "Celui qui traverse des rails en biais peut se coincer dans la rainure et chuter. À angle droit, à vitesse constante et guidon souple, le risque est minimal.",
+      "it": "Chi attraversa i binari con un angolo stretto può rimanere incastrato nella gola e cadere. Ad angolo retto, a velocità costante e con il manubrio morbido, il rischio è minimo.",
+      "en": "Crossing rails at a shallow angle can trap the wheel in the groove and cause a fall. At a right angle, at constant speed and with relaxed handlebars, the risk is lowest.",
+      "pt": "Quem atravessa os carris em ângulo agudo pode ficar preso no rail e cair. Em ângulo reto, a velocidade constante e com o guiador solto, o risco é mínimo."
+    },
+    "image": null
+  },
+  {
+    "id": "q366",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "In einer Kurve liegt Rollsplitt. Wie verhältst du dich mit dem Motorrad?",
+      "es": "Hay gravilla suelta en una curva. ¿Cómo te comportas con la moto?",
+      "fr": "Il y a du gravillon dans un virage. Comment te comportes-tu à moto ?",
+      "it": "C’è ghiaietto in una curva. Come ti comporti in moto?",
+      "en": "There is loose gravel in a bend. How do you behave on your motorcycle?",
+      "pt": "Há gravilha solta numa curva. Como te comportas de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Schon vor der Kurve das Tempo reduzieren und die Schräglage klein halten",
+          "es": "Reducir la velocidad ya antes de la curva y mantener poca inclinación",
+          "fr": "Réduire la vitesse déjà avant le virage et limiter l’inclinaison",
+          "it": "Ridurre la velocità già prima della curva e mantenere poca inclinazione",
+          "en": "Reduce speed before the bend and keep the lean angle small",
+          "pt": "Reduzir a velocidade já antes da curva e manter pouca inclinação"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit Schwung durchfahren, damit die Reifen mehr Halt finden",
+          "es": "Pasar con ímpetu para que los neumáticos agarren más",
+          "fr": "Passer avec de l’élan pour que les pneus accrochent mieux",
+          "it": "Passare con slancio perché le gomme aderiscano di più",
+          "en": "Go through with momentum so the tyres grip better",
+          "pt": "Passar com balanço para os pneus terem mais aderência"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "In der Kurve kräftig bremsen, um langsamer zu werden",
+          "es": "Frenar fuerte dentro de la curva para ir más despacio",
+          "fr": "Freiner fort dans le virage pour ralentir",
+          "it": "Frenare con forza in curva per rallentare",
+          "en": "Brake hard in the bend to slow down",
+          "pt": "Travar com força na curva para abrandar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auf losem Untergrund haften die Reifen kaum. Tempo daher vor der Kurve abbauen, wenig Schräglage fahren und in der Kurve nicht hart bremsen oder beschleunigen.",
+      "es": "Sobre un suelo suelto los neumáticos apenas agarran. Hay que reducir antes de la curva, inclinar poco y no frenar ni acelerar bruscamente dentro de ella.",
+      "fr": "Sur un sol meuble, les pneus accrochent à peine. Il faut ralentir avant le virage, peu s’incliner et ne pas freiner ni accélérer fort dans la courbe.",
+      "it": "Su fondo sciolto le gomme aderiscono poco. Bisogna rallentare prima della curva, inclinare poco e non frenare né accelerare bruscamente in curva.",
+      "en": "Tyres barely grip on loose surfaces. Slow down before the bend, use little lean and avoid hard braking or acceleration in the bend.",
+      "pt": "Em piso solto os pneus quase não aderem. Reduz-se antes da curva, inclina-se pouco e não se trava nem acelera com força dentro dela."
+    },
+    "image": null
+  },
+  {
+    "id": "q367",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hast mit dem Motorrad abgebogen. Was ist beim Blinker zu beachten?",
+      "es": "Has girado con la moto. ¿Qué hay que tener en cuenta con el intermitente?",
+      "fr": "Tu as tourné à moto. À quoi faut-il penser pour le clignotant ?",
+      "it": "Hai svoltato in moto. Cosa devi ricordare riguardo all’indicatore di direzione?",
+      "en": "You have turned on your motorcycle. What do you have to keep in mind with the indicator?",
+      "pt": "Viraste de mota. O que deves ter em conta com o pisca?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Viele Motorräder schalten den Blinker nicht selbst aus – ich stelle ihn von Hand ab",
+          "es": "Muchas motos no apagan solas el intermitente: lo apago yo a mano",
+          "fr": "Beaucoup de motos n’éteignent pas seules le clignotant : je le coupe à la main",
+          "it": "Molte moto non spengono da sole l’indicatore: lo spengo io a mano",
+          "en": "Many motorcycles do not cancel the indicator by themselves – I switch it off by hand",
+          "pt": "Muitas motas não desligam sozinhas o pisca – desligo-o eu à mão"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Bei allen Motorrädern geht der Blinker automatisch aus",
+          "es": "En todas las motos el intermitente se apaga automáticamente",
+          "fr": "Sur toutes les motos, le clignotant s’éteint automatiquement",
+          "it": "Su tutte le moto l’indicatore si spegne automaticamente",
+          "en": "On all motorcycles the indicator switches off automatically",
+          "pt": "Em todas as motas o pisca desliga-se automaticamente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich lasse ihn blinken, damit mich andere besser sehen",
+          "es": "Lo dejo parpadeando para que los demás me vean mejor",
+          "fr": "Je le laisse clignoter pour que les autres me voient mieux",
+          "it": "Lo lascio lampeggiare perché gli altri mi vedano meglio",
+          "en": "I leave it flashing so other road users see me better",
+          "pt": "Deixo-o a piscar para os outros me verem melhor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein vergessener Blinker täuscht andere Verkehrsteilnehmer über deine Absicht und kann zu gefährlichen Fehlentscheiden führen – nach dem Abbiegen immer kontrollieren.",
+      "es": "Un intermitente olvidado engaña a los demás sobre tus intenciones y puede provocar decisiones peligrosas; comprueba siempre que está apagado después de girar.",
+      "fr": "Un clignotant oublié trompe les autres usagers sur tes intentions et peut provoquer des décisions dangereuses ; vérifie-le toujours après avoir tourné.",
+      "it": "Un indicatore dimenticato inganna gli altri utenti sulle tue intenzioni e può causare decisioni pericolose: controllalo sempre dopo aver svoltato.",
+      "en": "A forgotten indicator misleads other road users about your intentions and can lead to dangerous decisions – always check it after turning.",
+      "pt": "Um pisca esquecido engana os outros utentes quanto às tuas intenções e pode levar a decisões perigosas – verifica-o sempre depois de virar."
+    },
+    "image": null
+  },
+  {
+    "id": "q368",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Auto steht dir entgegen und will links abbiegen. Der Fahrer schaut in deine Richtung. Was nimmst du als Motorradfahrer an?",
+      "es": "Un coche viene de frente y quiere girar a la izquierda. El conductor mira en tu dirección. ¿Qué supones como motorista?",
+      "fr": "Une voiture arrive en face et veut tourner à gauche. Le conducteur regarde dans ta direction. Que supposes-tu en tant que motard ?",
+      "it": "Un’auto arriva di fronte e vuole svoltare a sinistra. Il conducente guarda nella tua direzione. Cosa presumi da motociclista?",
+      "en": "A car is coming towards you and wants to turn left. The driver is looking in your direction. What do you assume as a motorcyclist?",
+      "pt": "Um carro vem de frente e quer virar à esquerda. O condutor olha na tua direção. O que presumes como motociclista?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dass er mich übersehen haben könnte – ich bin bremsbereit, auch wenn ich Vortritt habe",
+          "es": "Que puede no haberme visto: estoy listo para frenar aunque tenga prioridad",
+          "fr": "Qu’il a pu ne pas me voir : je suis prêt à freiner même si j’ai la priorité",
+          "it": "Che potrebbe non avermi visto: sono pronto a frenare anche se ho la precedenza",
+          "en": "That he may not have seen me – I am ready to brake even though I have priority",
+          "pt": "Que pode não me ter visto – estou pronto para travar mesmo tendo prioridade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Dass er mich sicher gesehen hat, weil er in meine Richtung schaut",
+          "es": "Que seguro me ha visto, porque mira hacia mí",
+          "fr": "Qu’il m’a sûrement vu, puisqu’il regarde vers moi",
+          "it": "Che mi ha sicuramente visto, perché guarda verso di me",
+          "en": "That he has surely seen me because he is looking my way",
+          "pt": "Que de certeza me viu, porque olha na minha direção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Dass nichts passieren kann, weil ich Vortritt habe",
+          "es": "Que no puede pasar nada, porque tengo prioridad",
+          "fr": "Que rien ne peut arriver, puisque j’ai la priorité",
+          "it": "Che non può succedere nulla, perché ho la precedenza",
+          "en": "That nothing can happen because I have priority",
+          "pt": "Que nada pode acontecer, porque tenho prioridade"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Motorräder werden oft übersehen, auch bei direktem Blickkontakt. Rechtlich hat der Entgegenkommende Vortritt – verlass dich aber nie darauf, sondern rechne mit dem Fehler des anderen.",
+      "es": "A las motos se las ve mal, incluso con contacto visual directo. Legalmente tienes prioridad, pero nunca confíes en ello: cuenta con el error del otro.",
+      "fr": "Les motos sont souvent oubliées, même avec un contact visuel direct. Légalement tu as la priorité, mais ne t’y fie jamais : compte avec l’erreur de l’autre.",
+      "it": "Le moto vengono spesso non viste, anche con contatto visivo diretto. Legalmente hai la precedenza, ma non farci mai affidamento: metti in conto l’errore dell’altro.",
+      "en": "Motorcycles are often overlooked, even with direct eye contact. Legally you have priority, but never rely on it – allow for the other driver’s mistake.",
+      "pt": "As motas são muitas vezes ignoradas, mesmo com contacto visual direto. Legalmente tens prioridade, mas nunca contes com isso: conta com o erro do outro."
+    },
+    "image": null
+  },
+  {
+    "id": "q369",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hältst mit dem Motorrad an einer Ampel an. Wo stellst du dich in der Spur am besten hin?",
+      "es": "Te detienes con la moto en un semáforo. ¿Dónde es mejor colocarte dentro del carril?",
+      "fr": "Tu t’arrêtes à moto à un feu. Où te placer de préférence dans la voie ?",
+      "it": "Ti fermi in moto a un semaforo. Dove ti conviene metterti nella corsia?",
+      "en": "You stop at traffic lights on your motorcycle. Where is it best to stand in the lane?",
+      "pt": "Paras de mota num semáforo. Onde é melhor colocares-te na faixa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In einer der beiden Reifenspuren, nicht in der Mitte",
+          "es": "En una de las dos rodadas, no en el centro",
+          "fr": "Dans l’une des deux traces de roues, pas au milieu",
+          "it": "In una delle due tracce delle ruote, non al centro",
+          "en": "In one of the two wheel tracks, not in the middle",
+          "pt": "Numa das duas rodadas, não ao meio"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Genau in der Mitte, dort ist der Belag am saubersten",
+          "es": "Justo en el centro, donde el asfalto está más limpio",
+          "fr": "Exactement au milieu, là où le revêtement est le plus propre",
+          "it": "Esattamente al centro, dove l’asfalto è più pulito",
+          "en": "Exactly in the middle, where the surface is cleanest",
+          "pt": "Mesmo ao meio, onde o piso está mais limpo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ganz am Rand neben dem Trottoir",
+          "es": "Pegado al borde junto a la acera",
+          "fr": "Tout au bord, à côté du trottoir",
+          "it": "Proprio al bordo accanto al marciapiede",
+          "en": "Right at the edge next to the pavement",
+          "pt": "Mesmo na berma junto ao passeio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Spurmitte tropfen Autos Öl und Kühlflüssigkeit, besonders an Ampeln – der Belag ist dort glitschig. Die Reifenspuren sind meist sauberer und griffiger.",
+      "es": "En el centro del carril los coches gotean aceite y refrigerante, sobre todo en los semáforos: el firme allí resbala. Las rodadas suelen estar más limpias y agarrar mejor.",
+      "fr": "Au milieu de la voie, les voitures laissent tomber de l’huile et du liquide de refroidissement, surtout aux feux : la chaussée y est glissante. Les traces de roues sont en général plus propres et plus adhérentes.",
+      "it": "Al centro della corsia le auto perdono olio e liquido di raffreddamento, soprattutto ai semafori: lì il fondo è scivoloso. Le tracce delle ruote sono di solito più pulite e più aderenti.",
+      "en": "In the middle of the lane, cars drip oil and coolant, especially at traffic lights – the surface is slippery there. The wheel tracks are usually cleaner and grippier.",
+      "pt": "No meio da faixa os carros pingam óleo e líquido de refrigeração, sobretudo nos semáforos: o piso é escorregadio. As rodadas costumam estar mais limpas e aderentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q370",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst mit einem Mitfahrer. Wie verändert sich das Fahrverhalten deines Motorrads?",
+      "es": "Llevas a un pasajero. ¿Cómo cambia el comportamiento de tu moto?",
+      "fr": "Tu roules avec un passager. Comment le comportement de ta moto change-t-il ?",
+      "it": "Viaggi con un passeggero. Come cambia il comportamento della tua moto?",
+      "en": "You are riding with a passenger. How does your motorcycle’s handling change?",
+      "pt": "Levas um passageiro. Como muda o comportamento da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Bremsweg wird länger und das Motorrad reagiert träger – früher bremsen, sanfter beschleunigen",
+          "es": "La distancia de frenado aumenta y la moto reacciona con más lentitud: frenar antes y acelerar con suavidad",
+          "fr": "La distance de freinage s’allonge et la moto réagit plus lentement : freiner plus tôt, accélérer plus doucement",
+          "it": "Lo spazio di frenata aumenta e la moto reagisce più lentamente: frenare prima e accelerare con dolcezza",
+          "en": "The braking distance gets longer and the bike reacts more slowly – brake earlier and accelerate more gently",
+          "pt": "A distância de travagem aumenta e a mota reage mais devagar – travar mais cedo e acelerar com suavidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es ändert sich nichts, ein Mitfahrer macht keinen Unterschied",
+          "es": "No cambia nada, un pasajero no supone ninguna diferencia",
+          "fr": "Rien ne change, un passager ne fait aucune différence",
+          "it": "Non cambia nulla, un passeggero non fa differenza",
+          "en": "Nothing changes, a passenger makes no difference",
+          "pt": "Nada muda, um passageiro não faz diferença"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Motorrad wird wendiger, weil mehr Gewicht auf dem Hinterrad liegt",
+          "es": "La moto se vuelve más ágil porque hay más peso en la rueda trasera",
+          "fr": "La moto devient plus maniable parce qu’il y a plus de poids sur la roue arrière",
+          "it": "La moto diventa più maneggevole perché c’è più peso sulla ruota posteriore",
+          "en": "The bike becomes more agile because more weight sits on the rear wheel",
+          "pt": "A mota fica mais ágil porque há mais peso na roda de trás"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Mehr Gewicht heisst längerer Bremsweg, mehr Trägheit und andere Balance. Vorausschauend fahren, früher bremsen, Reifendruck und Federung auf die Beladung abstimmen.",
+      "es": "Más peso significa más distancia de frenado, más inercia y otro equilibrio. Conduce con anticipación, frena antes y ajusta la presión de los neumáticos y la suspensión a la carga.",
+      "fr": "Plus de poids signifie freinage plus long, plus d’inertie et un autre équilibre. Anticipe, freine plus tôt et adapte la pression des pneus et la suspension à la charge.",
+      "it": "Più peso significa spazio di frenata più lungo, più inerzia e un diverso equilibrio. Guida con anticipo, frena prima e adatta pressione delle gomme e sospensioni al carico.",
+      "en": "More weight means a longer braking distance, more inertia and different balance. Ride ahead of the traffic, brake earlier and adjust tyre pressure and suspension to the load.",
+      "pt": "Mais peso significa maior distância de travagem, mais inércia e outro equilíbrio. Conduz com antecipação, trava mais cedo e ajusta a pressão dos pneus e a suspensão à carga."
+    },
+    "image": null
+  },
+  {
+    "id": "q371",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst mit dem Motorrad aus gleissendem Sonnenlicht in einen Tunnel. Was ist richtig?",
+      "es": "Entras con la moto en un túnel viniendo de un sol deslumbrante. ¿Qué es lo correcto?",
+      "fr": "Tu entres à moto dans un tunnel en venant d’un soleil éblouissant. Que faut-il faire ?",
+      "it": "Entri in moto in una galleria venendo da un sole abbagliante. Qual è il comportamento corretto?",
+      "en": "You ride from dazzling sunlight into a tunnel on your motorcycle. What is correct?",
+      "pt": "Entras de mota num túnel vindo de um sol ofuscante. O que é correto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Tempo reduzieren, weil sich das Auge erst an die Dunkelheit anpassen muss",
+          "es": "Reducir la velocidad, porque el ojo necesita tiempo para adaptarse a la oscuridad",
+          "fr": "Ralentir, car l’œil doit d’abord s’adapter à l’obscurité",
+          "it": "Rallentare, perché l’occhio deve prima adattarsi al buio",
+          "en": "Slow down, because your eyes first need to adapt to the dark",
+          "pt": "Reduzir a velocidade, porque o olho precisa primeiro de se adaptar à escuridão"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Beschleunigen, um den Tunnel schneller hinter mir zu haben",
+          "es": "Acelerar para dejar atrás el túnel cuanto antes",
+          "fr": "Accélérer pour sortir plus vite du tunnel",
+          "it": "Accelerare per lasciarsi la galleria alle spalle più in fretta",
+          "en": "Accelerate to get through the tunnel faster",
+          "pt": "Acelerar para deixar o túnel para trás mais depressa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Fernlicht einschalten, um besser zu sehen",
+          "es": "Encender las luces largas para ver mejor",
+          "fr": "Allumer les feux de route pour mieux voir",
+          "it": "Accendere gli abbaglianti per vedere meglio",
+          "en": "Switch on the high beam to see better",
+          "pt": "Ligar os máximos para ver melhor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Wechsel von hell zu dunkel sieht man kurzzeitig fast nichts. Tempo abbauen, Abstand halten – das Fernlicht blendet andere Verkehrsteilnehmer.",
+      "es": "Al pasar de la luz a la oscuridad se ve casi nada durante un momento. Reduce la velocidad y mantén la distancia; las luces largas deslumbran a los demás.",
+      "fr": "En passant de la lumière à l’obscurité, on ne voit presque rien un instant. Ralentis et garde ta distance ; les feux de route éblouissent les autres usagers.",
+      "it": "Passando dalla luce al buio per un momento non si vede quasi nulla. Rallenta e mantieni la distanza; gli abbaglianti abbagliano gli altri utenti.",
+      "en": "Going from bright to dark leaves you almost blind for a moment. Reduce speed and keep your distance; high beam dazzles other road users.",
+      "pt": "Ao passar da luz para a escuridão quase não se vê nada por instantes. Reduz a velocidade e mantém a distância; os máximos encadeiam os outros utentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q372",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Es ist ein kalter Morgen. Was gilt für die Reifen deines Motorrads?",
+      "es": "Es una mañana fría. ¿Qué ocurre con los neumáticos de tu moto?",
+      "fr": "C’est un matin froid. Que faut-il savoir des pneus de ta moto ?",
+      "it": "È una mattina fredda. Cosa vale per le gomme della tua moto?",
+      "en": "It is a cold morning. What applies to your motorcycle’s tyres?",
+      "pt": "É uma manhã fria. O que se aplica aos pneus da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Kalte Reifen haften weniger – die ersten Kilometer vorsichtig fahren, mit wenig Schräglage",
+          "es": "Los neumáticos fríos agarran menos: los primeros kilómetros con cuidado y poca inclinación",
+          "fr": "Les pneus froids adhèrent moins : sur les premiers kilomètres, rouler prudemment avec peu d’inclinaison",
+          "it": "Le gomme fredde aderiscono meno: i primi chilometri guida con prudenza e poca inclinazione",
+          "en": "Cold tyres grip less – ride carefully for the first kilometres, with little lean",
+          "pt": "Os pneus frios aderem menos: nos primeiros quilómetros conduz com cuidado e pouca inclinação"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Bei Kälte haften die Reifen besser als bei Wärme",
+          "es": "Con frío los neumáticos agarran mejor que con calor",
+          "fr": "Par temps froid, les pneus adhèrent mieux que par temps chaud",
+          "it": "Con il freddo le gomme aderiscono meglio che con il caldo",
+          "en": "In the cold, tyres grip better than in warm weather",
+          "pt": "Com frio os pneus aderem melhor do que com calor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich lasse Luft ab, damit die Auflagefläche grösser wird",
+          "es": "Dejo salir aire para aumentar la superficie de contacto",
+          "fr": "Je dégonfle un peu pour agrandir la surface de contact",
+          "it": "Sgonfio un po’ per aumentare la superficie di contatto",
+          "en": "I let some air out to enlarge the contact patch",
+          "pt": "Deixo sair ar para aumentar a área de contacto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gummi wird erst mit Betriebstemperatur richtig griffig. Bei Kälte fehlt anfangs der Grip; zu wenig Luftdruck verschlechtert zusätzlich das Fahrverhalten.",
+      "es": "El caucho solo agarra bien a temperatura de funcionamiento. Con frío falta agarre al principio; además, poca presión empeora el comportamiento de la moto.",
+      "fr": "La gomme n’est vraiment adhérente qu’à température de fonctionnement. Par temps froid, l’adhérence manque au début ; une pression trop basse détériore en plus le comportement.",
+      "it": "La gomma aderisce bene solo a temperatura di esercizio. Con il freddo all’inizio manca aderenza; una pressione troppo bassa peggiora inoltre il comportamento.",
+      "en": "Rubber only grips properly at operating temperature. In the cold, grip is lacking at first; too little pressure also worsens handling.",
+      "pt": "A borracha só adere bem à temperatura de funcionamento. Com frio falta aderência no início; pressão a menos piora ainda o comportamento."
+    },
+    "image": null
+  },
+  {
+    "id": "q373",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wann kontrollierst du den Reifendruck deines Motorrads am besten?",
+      "es": "¿Cuándo es mejor comprobar la presión de los neumáticos de tu moto?",
+      "fr": "Quand est-il préférable de contrôler la pression des pneus de ta moto ?",
+      "it": "Quando è meglio controllare la pressione delle gomme della tua moto?",
+      "en": "When is the best time to check your motorcycle’s tyre pressure?",
+      "pt": "Quando é melhor verificar a pressão dos pneus da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Bei kalten Reifen, regelmässig und vor langen Fahrten oder mit Beladung",
+          "es": "Con los neumáticos fríos, con regularidad y antes de viajes largos o con carga",
+          "fr": "À froid, régulièrement et avant les longs trajets ou avec une charge",
+          "it": "A gomme fredde, regolarmente e prima di lunghi viaggi o con carico",
+          "en": "With cold tyres, regularly and before long rides or when loaded",
+          "pt": "Com os pneus frios, regularmente e antes de viagens longas ou com carga"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Direkt nach einer langen, schnellen Fahrt, wenn die Reifen warm sind",
+          "es": "Justo después de un viaje largo y rápido, con los neumáticos calientes",
+          "fr": "Juste après un long trajet rapide, quand les pneus sont chauds",
+          "it": "Subito dopo un lungo viaggio veloce, con le gomme calde",
+          "en": "Right after a long fast ride, when the tyres are warm",
+          "pt": "Logo depois de uma viagem longa e rápida, com os pneus quentes"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nie – der Reifendruck bleibt immer gleich",
+          "es": "Nunca: la presión no cambia",
+          "fr": "Jamais : la pression reste toujours la même",
+          "it": "Mai: la pressione resta sempre uguale",
+          "en": "Never – the tyre pressure always stays the same",
+          "pt": "Nunca: a pressão mantém-se sempre igual"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Warme Reifen zeigen einen höheren Druck, deshalb wird kalt gemessen. Der richtige Druck (laut Betriebsanleitung) beeinflusst Grip, Verschleiss und Stabilität direkt.",
+      "es": "Los neumáticos calientes marcan más presión, por eso se mide en frío. La presión correcta (según el manual) influye directamente en el agarre, el desgaste y la estabilidad.",
+      "fr": "Des pneus chauds affichent une pression plus élevée, c’est pourquoi on mesure à froid. La bonne pression (selon le manuel) influence directement l’adhérence, l’usure et la stabilité.",
+      "it": "Le gomme calde mostrano una pressione più alta, per questo si misura a freddo. La pressione corretta (secondo il manuale) influisce direttamente su aderenza, usura e stabilità.",
+      "en": "Warm tyres show a higher pressure, which is why you measure when cold. The right pressure (per the manual) directly affects grip, wear and stability.",
+      "pt": "Pneus quentes mostram pressão mais alta, por isso mede-se a frio. A pressão correta (segundo o manual) influencia diretamente a aderência, o desgaste e a estabilidade."
+    },
+    "image": null
+  },
+  {
+    "id": "q374",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du bist gestürzt und dein Helm hat den Boden getroffen, äusserlich ist nichts zu sehen. Was tust du?",
+      "es": "Te has caído y el casco ha golpeado el suelo, por fuera no se ve nada. ¿Qué haces?",
+      "fr": "Tu as chuté et ton casque a heurté le sol, rien n’est visible à l’extérieur. Que fais-tu ?",
+      "it": "Sei caduto e il casco ha colpito il suolo, all’esterno non si vede nulla. Cosa fai?",
+      "en": "You have fallen and your helmet hit the ground, nothing is visible from outside. What do you do?",
+      "pt": "Caíste e o capacete bateu no chão, por fora não se vê nada. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ich ersetze den Helm – innere Schäden sind von aussen nicht erkennbar",
+          "es": "Lo sustituyo: los daños internos no se ven desde fuera",
+          "fr": "Je le remplace : les dégâts internes ne se voient pas de l’extérieur",
+          "it": "Lo sostituisco: i danni interni non si vedono dall’esterno",
+          "en": "I replace it – internal damage cannot be seen from outside",
+          "pt": "Substituo-o: os danos internos não se veem por fora"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich benütze ihn weiter, solange aussen nichts zu sehen ist",
+          "es": "Sigo usándolo mientras por fuera no se vea nada",
+          "fr": "Je continue à l’utiliser tant que rien n’est visible à l’extérieur",
+          "it": "Continuo a usarlo finché all’esterno non si vede nulla",
+          "en": "I keep using it as long as nothing is visible outside",
+          "pt": "Continuo a usá-lo enquanto por fora não se vir nada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich klebe die Stelle, damit er wieder dicht ist",
+          "es": "Pego la zona para que vuelva a quedar sellado",
+          "fr": "Je colle l’endroit pour qu’il soit de nouveau étanche",
+          "it": "Incollo il punto così torna a essere sigillato",
+          "en": "I glue the spot so that it is sealed again",
+          "pt": "Colo a zona para voltar a ficar vedado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Schutzschale nimmt Stösse auf und verformt sich dabei innen, ohne dass es aussen sichtbar sein muss. Nach einem Aufprall verliert der Helm seine Schutzwirkung – ersetzen.",
+      "es": "La carcasa absorbe golpes y se deforma por dentro sin que tenga que verse fuera. Tras un impacto el casco pierde su capacidad de protección: hay que sustituirlo.",
+      "fr": "La calotte absorbe les chocs et se déforme à l’intérieur sans que ce soit visible dehors. Après un impact, le casque perd son effet protecteur : il faut le remplacer.",
+      "it": "La calotta assorbe gli urti e si deforma all’interno senza che sia visibile all’esterno. Dopo un impatto il casco perde la sua capacità protettiva: va sostituito.",
+      "en": "The shell absorbs impacts and deforms inside without it showing outside. After an impact the helmet loses its protective effect – replace it.",
+      "pt": "A carapaça absorve choques e deforma-se por dentro sem que se veja por fora. Depois de um impacto o capacete perde a proteção: deve ser substituído."
+    },
+    "image": null
+  },
+  {
+    "id": "q375",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Wie muss dein Motorradhelm sitzen?",
+      "es": "¿Cómo debe quedar tu casco de moto?",
+      "fr": "Comment ton casque de moto doit-il être placé ?",
+      "it": "Come deve calzare il tuo casco da moto?",
+      "en": "How must your motorcycle helmet fit?",
+      "pt": "Como deve assentar o teu capacete de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fest, mit geschlossenem Kinnriemen – er darf sich nicht nach vorne oder hinten abziehen lassen",
+          "es": "Ajustado, con la correa de barbilla abrochada: no debe poder quitarse hacia delante ni hacia atrás",
+          "fr": "Bien serré, jugulaire fermée : il ne doit pas pouvoir être retiré vers l’avant ni vers l’arrière",
+          "it": "Ben aderente, con il sottogola chiuso: non deve potersi sfilare né in avanti né indietro",
+          "en": "Snug, with the chin strap fastened – it must not be possible to pull it off forwards or backwards",
+          "pt": "Bem ajustado, com a jugular apertada: não deve poder sair para a frente nem para trás"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Locker, damit er nicht drückt – der Kinnriemen bleibt offen",
+          "es": "Holgado para que no apriete, con la correa sin abrochar",
+          "fr": "Lâche pour ne pas serrer, jugulaire ouverte",
+          "it": "Largo per non stringere, con il sottogola aperto",
+          "en": "Loose so it does not press – the chin strap stays open",
+          "pt": "Folgado para não apertar, com a jugular aberta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Kinnriemen ist nur auf der Autobahn nötig",
+          "es": "La correa solo hace falta en la autopista",
+          "fr": "La jugulaire n’est nécessaire que sur l’autoroute",
+          "it": "Il sottogola serve solo in autostrada",
+          "en": "The chin strap is only needed on the motorway",
+          "pt": "A jugular só é necessária na autoestrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein nicht richtig geschlossener oder zu grosser Helm kann beim Sturz abgestreift werden und schützt dann nicht. Immer mit geschlossenem Kinnriemen fahren, auch auf kurzen Strecken.",
+      "es": "Un casco mal abrochado o demasiado grande puede salirse en una caída y entonces no protege. Conduce siempre con la correa abrochada, también en trayectos cortos.",
+      "fr": "Un casque mal fermé ou trop grand peut se détacher lors d’une chute et ne protège alors plus. Roule toujours jugulaire fermée, même sur de courtes distances.",
+      "it": "Un casco chiuso male o troppo grande può sfilarsi in una caduta e allora non protegge. Guida sempre con il sottogola chiuso, anche sui tragitti brevi.",
+      "en": "A helmet that is not properly fastened or is too big can come off in a fall and then offers no protection. Always ride with the chin strap fastened, even on short trips.",
+      "pt": "Um capacete mal apertado ou demasiado grande pode sair numa queda e deixa de proteger. Conduz sempre com a jugular apertada, mesmo em percursos curtos."
+    },
+    "image": null
+  },
+  {
+    "id": "q376",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du machst mit dem Motorrad bei grosser Hitze eine lange Tour. Was ist sinnvoll?",
+      "es": "Haces una ruta larga con la moto con mucho calor. ¿Qué tiene sentido?",
+      "fr": "Tu fais un long trajet à moto par forte chaleur. Qu’est-ce qui est judicieux ?",
+      "it": "Fai un lungo giro in moto con molto caldo. Cosa ha senso?",
+      "en": "You make a long motorcycle tour in great heat. What makes sense?",
+      "pt": "Fazes um longo passeio de mota com muito calor. O que faz sentido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Regelmässig Pausen einlegen und genug trinken",
+          "es": "Hacer pausas con regularidad y beber lo suficiente",
+          "fr": "Faire des pauses régulières et boire suffisamment",
+          "it": "Fare pause regolari e bere abbastanza",
+          "en": "Take regular breaks and drink enough",
+          "pt": "Fazer pausas regulares e beber o suficiente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Schutzkleidung ausziehen, damit es kühler wird",
+          "es": "Quitarse la ropa de protección para tener menos calor",
+          "fr": "Enlever l’équipement de protection pour avoir moins chaud",
+          "it": "Togliere l’abbigliamento protettivo per avere meno caldo",
+          "en": "Take off the protective clothing to cool down",
+          "pt": "Tirar o equipamento de proteção para ter menos calor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Möglichst ohne Pause durchfahren, um früher anzukommen",
+          "es": "Seguir sin parar para llegar antes",
+          "fr": "Rouler sans pause pour arriver plus tôt",
+          "it": "Guidare senza fermarsi per arrivare prima",
+          "en": "Ride without stopping to arrive sooner",
+          "pt": "Conduzir sem parar para chegar mais cedo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Hitze und Schutzkleidung ermüden schneller; Müdigkeit verlängert die Reaktionszeit. Regelmässige Pausen und viel Trinken halten die Konzentration oben – auf Schutz verzichtet man nie.",
+      "es": "El calor y la ropa de protección cansan antes, y el cansancio alarga el tiempo de reacción. Pausas regulares y mucha agua mantienen la concentración; nunca se renuncia a la protección.",
+      "fr": "La chaleur et l’équipement de protection fatiguent plus vite, et la fatigue allonge le temps de réaction. Des pauses régulières et beaucoup d’eau maintiennent la concentration ; on ne renonce jamais à la protection.",
+      "it": "Il caldo e l’abbigliamento protettivo stancano prima e la stanchezza allunga i tempi di reazione. Pause regolari e molta acqua mantengono la concentrazione; alla protezione non si rinuncia mai.",
+      "en": "Heat and protective clothing tire you faster, and fatigue lengthens reaction time. Regular breaks and plenty of water keep concentration up – you never give up protection.",
+      "pt": "O calor e o equipamento de proteção cansam mais depressa, e o cansaço aumenta o tempo de reação. Pausas regulares e muita água mantêm a concentração; nunca se abdica da proteção."
+    },
+    "image": null
+  },
+  {
+    "id": "q377",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie viele Kontrollschilder trägt ein Motorrad?",
+      "es": "¿Cuántas matrículas lleva una moto?",
+      "fr": "Combien de plaques de contrôle une moto porte-t-elle ?",
+      "it": "Quante targhe porta una moto?",
+      "en": "How many number plates does a motorcycle carry?",
+      "pt": "Quantas matrículas leva uma mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eines, hinten",
+          "es": "Una, en la parte trasera",
+          "fr": "Une, à l’arrière",
+          "it": "Una, dietro",
+          "en": "One, at the rear",
+          "pt": "Uma, atrás"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Zwei, vorne und hinten",
+          "es": "Dos, delante y detrás",
+          "fr": "Deux, à l’avant et à l’arrière",
+          "it": "Due, davanti e dietro",
+          "en": "Two, front and rear",
+          "pt": "Duas, à frente e atrás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Keines – nur eine Vignette",
+          "es": "Ninguna, solo una viñeta",
+          "fr": "Aucune, seulement une vignette",
+          "it": "Nessuna, solo un contrassegno",
+          "en": "None – only a vignette",
+          "pt": "Nenhuma, apenas uma vinheta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Motorräder führen nur hinten ein Kontrollschild. Motorfahrräder (Mofas) tragen statt eines Kontrollschildes eine Vignette.",
+      "es": "Las motos llevan matrícula solo atrás. Los ciclomotores llevan una viñeta en lugar de matrícula.",
+      "fr": "Les motos ne portent une plaque qu’à l’arrière. Les cyclomoteurs portent une vignette au lieu d’une plaque.",
+      "it": "Le moto portano la targa solo dietro. I ciclomotori portano un contrassegno al posto della targa.",
+      "en": "Motorcycles carry a number plate at the rear only. Mopeds (Motorfahrräder) carry a vignette instead of a plate.",
+      "pt": "As motas levam matrícula apenas atrás. Os ciclomotores levam uma vinheta em vez de matrícula."
+    },
+    "image": null
+  },
+  {
+    "id": "q378",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du musst mit dem Motorrad auf engem Raum langsam manövrieren oder wenden. Wie bleibt das Motorrad stabil?",
+      "es": "Tienes que maniobrar despacio o dar la vuelta con la moto en poco espacio. ¿Cómo se mantiene estable?",
+      "fr": "Tu dois manœuvrer lentement ou faire demi-tour à moto sur un espace étroit. Comment la moto reste-t-elle stable ?",
+      "it": "Devi manovrare lentamente o invertire la marcia in moto in poco spazio. Come resta stabile la moto?",
+      "en": "You have to manoeuvre slowly or turn around on your motorcycle in tight space. How does it stay stable?",
+      "pt": "Tens de manobrar devagar ou inverter a marcha de mota em pouco espaço. Como se mantém estável?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Blick in Fahrtrichtung, Gas halten, Kupplung leicht schleifen lassen und mit der Hinterradbremse dosieren",
+          "es": "Mirar en el sentido de la marcha, mantener el gas, dejar patinar levemente el embrague y dosificar con el freno trasero",
+          "fr": "Regarder dans le sens de la marche, garder le gaz, laisser légèrement patiner l’embrayage et doser avec le frein arrière",
+          "it": "Guardare nella direzione di marcia, mantenere il gas, far slittare leggermente la frizione e dosare con il freno posteriore",
+          "en": "Look in the direction of travel, keep the throttle open, slip the clutch slightly and control speed with the rear brake",
+          "pt": "Olhar na direção da marcha, manter o acelerador, deixar a embraiagem patinar ligeiramente e dosear com o travão traseiro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf das Vorderrad schauen und den Lenker voll einschlagen",
+          "es": "Mirar la rueda delantera y girar el manillar a tope",
+          "fr": "Regarder la roue avant et braquer le guidon à fond",
+          "it": "Guardare la ruota anteriore e girare il manubrio a fondo",
+          "en": "Look at the front wheel and turn the handlebars to full lock",
+          "pt": "Olhar para a roda da frente e rodar o guiador até ao fim"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Vorderradbremse ziehen und mit den Füssen abstützen",
+          "es": "Tirar del freno delantero y apoyarse con los pies",
+          "fr": "Serrer le frein avant et s’appuyer avec les pieds",
+          "it": "Tirare il freno anteriore e appoggiarsi con i piedi",
+          "en": "Pull the front brake and support yourself with your feet",
+          "pt": "Apertar o travão da frente e apoiar-se com os pés"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Schritttempo stabilisiert Gas und leicht schleifende Kupplung das Motorrad, die Hinterradbremse dosiert die Geschwindigkeit. Der Blick bestimmt die Richtung – nicht auf das Vorderrad starren.",
+      "es": "A paso lento, el gas y el embrague ligeramente patinando estabilizan la moto, y el freno trasero dosifica la velocidad. La mirada marca la dirección: no te fijes en la rueda delantera.",
+      "fr": "Au pas, le gaz et l’embrayage légèrement patinant stabilisent la moto, et le frein arrière dose la vitesse. Le regard détermine la direction : ne fixe pas la roue avant.",
+      "it": "A passo d’uomo, il gas e la frizione leggermente slittante stabilizzano la moto, mentre il freno posteriore dosa la velocità. Lo sguardo decide la direzione: non fissare la ruota anteriore.",
+      "en": "At walking pace, throttle and a slightly slipping clutch stabilise the bike, and the rear brake controls speed. Your eyes decide direction – do not stare at the front wheel.",
+      "pt": "A passo, o acelerador e a embraiagem a patinar ligeiramente estabilizam a mota, e o travão traseiro doseia a velocidade. O olhar define a direção: não fixes a roda da frente."
+    },
+    "image": null
+  },
+  {
+    "id": "q379",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein Motorrad hat ABS. Was bedeutet das?",
+      "es": "Tu moto tiene ABS. ¿Qué significa eso?",
+      "fr": "Ta moto est équipée de l’ABS. Qu’est-ce que cela signifie ?",
+      "it": "La tua moto ha l’ABS. Cosa significa?",
+      "en": "Your motorcycle has ABS. What does that mean?",
+      "pt": "A tua mota tem ABS. O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Räder blockieren beim Bremsen weniger schnell – vorausschauend fahren muss ich trotzdem",
+          "es": "Las ruedas se bloquean menos al frenar, pero aun así debo conducir con previsión",
+          "fr": "Les roues se bloquent moins vite au freinage, mais je dois quand même anticiper",
+          "it": "Le ruote si bloccano meno facilmente in frenata, ma devo comunque guidare con previdenza",
+          "en": "The wheels lock less easily when braking – I still have to ride with foresight",
+          "pt": "As rodas bloqueiam menos facilmente ao travar, mas devo conduzir com antecipação na mesma"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich kann in jeder Schräglage voll bremsen, ohne zu stürzen",
+          "es": "Puedo frenar a fondo con cualquier inclinación sin caerme",
+          "fr": "Je peux freiner à fond dans n’importe quelle inclinaison sans chuter",
+          "it": "Posso frenare a fondo con qualsiasi inclinazione senza cadere",
+          "en": "I can brake fully at any lean angle without falling",
+          "pt": "Posso travar a fundo com qualquer inclinação sem cair"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Bremsweg ist immer kürzer, egal auf welchem Untergrund",
+          "es": "La distancia de frenado siempre es menor, sea cual sea el suelo",
+          "fr": "La distance de freinage est toujours plus courte, quel que soit le sol",
+          "it": "Lo spazio di frenata è sempre più corto, qualunque sia il fondo",
+          "en": "The braking distance is always shorter, whatever the surface",
+          "pt": "A distância de travagem é sempre menor, seja qual for o piso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "ABS verhindert das Blockieren der Räder und erhöht die Sicherheit, hebt aber die Physik nicht auf: In starker Schräglage oder auf losem Untergrund bleibt der Grip begrenzt.",
+      "es": "El ABS evita que se bloqueen las ruedas y aumenta la seguridad, pero no anula la física: con mucha inclinación o en suelo suelto el agarre sigue siendo limitado.",
+      "fr": "L’ABS évite le blocage des roues et augmente la sécurité, mais n’abolit pas la physique : en forte inclinaison ou sur sol meuble, l’adhérence reste limitée.",
+      "it": "L’ABS impedisce il bloccaggio delle ruote e aumenta la sicurezza, ma non annulla la fisica: con forte inclinazione o su fondo sciolto l’aderenza resta limitata.",
+      "en": "ABS prevents the wheels from locking and increases safety, but it does not cancel physics: at a large lean angle or on loose surfaces, grip remains limited.",
+      "pt": "O ABS evita o bloqueio das rodas e aumenta a segurança, mas não anula a física: com muita inclinação ou em piso solto a aderência continua limitada."
+    },
+    "image": null
+  },
+  {
+    "id": "q380",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst nachts mit dem Motorrad. Welches Visier ist geeignet?",
+      "es": "Conduces de noche con la moto. ¿Qué visera es adecuada?",
+      "fr": "Tu roules de nuit à moto. Quel écran est adapté ?",
+      "it": "Guidi di notte in moto. Quale visiera è adatta?",
+      "en": "You ride at night on your motorcycle. Which visor is suitable?",
+      "pt": "Conduzes de noite de mota. Que viseira é adequada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ein klares Visier",
+          "es": "Una visera transparente",
+          "fr": "Un écran clair",
+          "it": "Una visiera trasparente",
+          "en": "A clear visor",
+          "pt": "Uma viseira transparente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein getöntes Visier, es reduziert die Blendung",
+          "es": "Una visera tintada, porque reduce el deslumbramiento",
+          "fr": "Un écran teinté, car il réduit l’éblouissement",
+          "it": "Una visiera scura, perché riduce l’abbagliamento",
+          "en": "A tinted visor, because it reduces glare",
+          "pt": "Uma viseira escurecida, porque reduz o encandeamento"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Visier offen lassen, damit es nicht beschlägt",
+          "es": "Dejar la visera abierta para que no se empañe",
+          "fr": "Laisser l’écran ouvert pour qu’il ne s’embue pas",
+          "it": "Lasciare la visiera aperta perché non si appanni",
+          "en": "Leave the visor open so it does not fog up",
+          "pt": "Deixar a viseira aberta para não embaciar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Getönte Visiere schlucken Licht und verschlechtern bei Dunkelheit die Sicht deutlich. Nachts und im Tunnel gehört ein klares Visier an den Helm; offen fahren schützt Augen und Gesicht nicht.",
+      "es": "Las viseras tintadas absorben luz y empeoran claramente la visibilidad en la oscuridad. De noche y en el túnel hay que llevar una visera transparente; con la visera abierta no se protegen ojos ni cara.",
+      "fr": "Les écrans teintés absorbent la lumière et dégradent nettement la vue dans l’obscurité. De nuit et en tunnel, il faut un écran clair ; rouler écran ouvert ne protège ni les yeux ni le visage.",
+      "it": "Le visiere scure assorbono luce e peggiorano nettamente la visibilità al buio. Di notte e in galleria ci vuole una visiera trasparente; guidare a visiera aperta non protegge né occhi né viso.",
+      "en": "Tinted visors absorb light and clearly worsen vision in the dark. At night and in tunnels a clear visor is needed; riding with it open protects neither eyes nor face.",
+      "pt": "As viseiras escurecidas absorvem luz e pioram claramente a visão no escuro. De noite e em túneis deve usar-se uma viseira transparente; conduzir com ela aberta não protege os olhos nem a cara."
+    },
+    "image": null
   }
 ]
