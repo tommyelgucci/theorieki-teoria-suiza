@@ -8,6 +8,7 @@ import Confetti from './Confetti'
 import {
   IconWarningSign,
   IconStack,
+  IconRuler,
   IconCards,
   IconQuestionBubble,
   IconConfetti,
@@ -21,6 +22,7 @@ import {
   IconCross,
 } from './Icons'
 import MenuCard from './MenuCard'
+import Markings from './Markings'
 
 const QUIZ_SIZE = 10
 
@@ -358,6 +360,7 @@ export default function Signs() {
         {view === 'explore' && <Explore />}
         {view === 'cards' && <Flashcards />}
         {view === 'quiz' && <Quiz />}
+        {view === 'markings' && <Markings />}
       </div>
     )
   }
@@ -377,6 +380,7 @@ export default function Signs() {
           badge={unknown}
         />
         <MenuCard i={2} tint="amber" onClick={() => setView('quiz')} icon={<IconQuestionBubble className="h-6 w-6" />} label={t('faQuizTitle', lang)} sub={t('signsQuizSub', lang)} />
+        <MenuCard i={3} tint="red" onClick={() => setView('markings')} icon={<IconRuler className="h-6 w-6" />} label={t('markingsTitle', lang)} sub={t('markingsSub', lang)} />
       </div>
     </div>
   )
