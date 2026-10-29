@@ -20,6 +20,7 @@ const Kontrollfahrt = lazyWithReload(() => import('./components/Kontrollfahrt'))
 const Vku = lazyWithReload(() => import('./components/Vku'))
 const Wab = lazyWithReload(() => import('./components/Wab'))
 const Numbers = lazyWithReload(() => import('./components/Numbers'))
+const Vocab = lazyWithReload(() => import('./components/Vocab'))
 const Profiles = lazyWithReload(() => import('./components/Profiles'))
 
 const VIEW_KEY = 'theorieki.view'
@@ -119,6 +120,7 @@ export default function App() {
     vku: t('menuVku', lang),
     wab: t('menuWab', lang),
     numbers: t('menuNumbers', lang),
+    vocab: t('menuVocab', lang),
   }
 
   return (
@@ -126,7 +128,7 @@ export default function App() {
       <div className="min-h-screen bg-canvas pb-8">
         <Header
           title={titles[view]}
-          category={['home', 'firstaid', 'signs', 'stats', 'kontrollfahrt', 'vku', 'wab', 'numbers'].includes(view) ? null : category}
+          category={['home', 'firstaid', 'signs', 'stats', 'kontrollfahrt', 'vku', 'wab', 'numbers', 'vocab'].includes(view) ? null : category}
           onBack={view !== 'home' ? () => go('home') : null}
           theme={theme}
           onToggleTheme={toggleTheme}
@@ -159,6 +161,7 @@ export default function App() {
           {view === 'vku' && <Vku />}
           {view === 'wab' && <Wab />}
           {view === 'numbers' && <Numbers />}
+          {view === 'vocab' && <Vocab />}
         </Suspense>
         </main>
       </div>
