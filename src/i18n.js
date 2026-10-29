@@ -311,6 +311,13 @@ export const STRINGS = {
     pt: 'Lê os temas novamente com calma.',
   },
   menuSigns: { de: 'Verkehrssignale', es: 'Señales de tráfico', fr: 'Signaux routiers', it: 'Segnali stradali', en: 'Traffic signs', pt: 'Sinais de trânsito' },
+  markingsTitle: { de: 'Bodenmarkierungen', es: 'Marcas viales', fr: 'Marquages au sol', it: 'Segnaletica orizzontale', en: 'Road markings', pt: 'Marcas rodoviárias' },
+  markingsSub: { de: 'Linien, Zonen & Parkfelder', es: 'Líneas, zonas y plazas de aparcamiento', fr: 'Lignes, zones et places de stationnement', it: 'Linee, zone e posti auto', en: 'Lines, zones & parking bays', pt: 'Linhas, zonas e lugares de estacionamento' },
+  whatMarking: { de: 'Was bedeutet diese Markierung?', es: '¿Qué significa esta marca?', fr: 'Que signifie ce marquage ?', it: 'Cosa significa questa segnaletica?', en: 'What does this marking mean?', pt: 'O que significa esta marca?' },
+  menuNumbers: { de: 'Wichtige Zahlen', es: 'Cifras clave', fr: 'Chiffres clés', it: 'Numeri chiave', en: 'Key numbers', pt: 'Números-chave' },
+  menuNumbersSub: { de: 'Tempo, Abstände, Fristen & Karten', es: 'Velocidades, distancias, plazos y tarjetas', fr: 'Vitesses, distances, délais et cartes', it: 'Velocità, distanze, termini e carte', en: 'Speeds, distances, deadlines & cards', pt: 'Velocidades, distâncias, prazos e cartões' },
+  numbersOverview: { de: 'Übersicht', es: 'Resumen', fr: 'Aperçu', it: 'Panoramica', en: 'Overview', pt: 'Resumo' },
+  numbersCards: { de: 'Karten', es: 'Tarjetas', fr: 'Cartes', it: 'Carte', en: 'Cards', pt: 'Cartões' },
   menuSignsSub: { de: 'Lernen, Karten & Quiz', es: 'Aprender, tarjetas y quiz', fr: 'Apprendre, cartes et quiz', it: 'Impara, carte e quiz', en: 'Learn, cards & quiz', pt: 'Aprender, cartões e questionário' },
   signsIntro: {
     de: 'Die wichtigsten Schweizer Verkehrssignale nach Kategorie. Vereinfachte Darstellungen zum Lernen.',
@@ -383,6 +390,7 @@ export const STRINGS = {
   keepReviewing: { de: 'Weiter prüfen', es: 'Seguir revisando', fr: 'Continuer à vérifier', it: 'Continua a rivedere', en: 'Keep reviewing', pt: 'Continuar a rever' },
   submitNow: { de: 'Jetzt abgeben', es: 'Entregar ahora', fr: 'Rendre maintenant', it: 'Consegna ora', en: 'Submit now', pt: 'Entregar agora' },
   toggleTheme: { de: 'Dunkelmodus umschalten', es: 'Cambiar modo oscuro', fr: 'Basculer le mode sombre', it: 'Attiva/disattiva modalità scura', en: 'Toggle dark mode', pt: 'Alternar modo escuro' },
+  showGerman: { de: 'Originaltext anzeigen', es: 'Mostrar el texto original en alemán', fr: "Afficher le texte original en allemand", it: 'Mostra il testo originale in tedesco', en: 'Show the original German text', pt: 'Mostrar o texto original em alemão' },
   listenDe: { de: 'Auf Deutsch vorlesen', es: 'Escuchar en alemán', fr: 'Écouter en allemand', it: 'Ascolta in tedesco', en: 'Listen in German', pt: 'Ouvir em alemão' },
   backupTitle: { de: 'Datensicherung', es: 'Copia de seguridad', fr: 'Sauvegarde', it: 'Copia di sicurezza', en: 'Backup', pt: 'Cópia de segurança' },
   backupHint: {
