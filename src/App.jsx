@@ -156,7 +156,7 @@ export default function App() {
           {view === 'maneuvers' && <Maneuvers category={category} />}
           {view === 'firstaid' && <FirstAid />}
           {view === 'signs' && <Signs />}
-          {view === 'stats' && <Stats />}
+          {view === 'stats' && <Stats navigate={go} />}
           {view === 'kontrollfahrt' && <Kontrollfahrt navigate={go} />}
           {view === 'vku' && <Vku />}
           {view === 'wab' && <Wab />}

@@ -42,7 +42,7 @@ function StatTile({ icon, value, label, ring }) {
   )
 }
 
-function TopicBars() {
+function TopicBars({ navigate }) {
   const { lang } = useLang()
   const stats = storage.getStats()
 
@@ -70,11 +70,19 @@ function TopicBars() {
   return (
     <div className="space-y-2.5">
       {rows.map(({ topic, pct, total }, n) => (
-        <div key={topic.id}>
+        <button
+          key={topic.id}
+          onClick={() => navigate?.('study', topic.id)}
+          title={t('practiceTopic', lang)}
+          className="group block w-full rounded-lg text-left transition-colors hover:bg-sunken"
+        >
           <div className="mb-0.5 flex items-baseline justify-between text-xs">
             <span className="font-medium text-body">{tr(topic.label, lang)}</span>
             <span className="text-muted">
-              {pct}% · {total}
+              {pct}% · {total}{' '}
+              <span aria-hidden className="inline-block text-faint transition-transform group-hover:translate-x-0.5">
+                ›
+              </span>
             </span>
           </div>
           <div className="h-2.5 overflow-hidden rounded-full bg-track">
@@ -89,7 +97,7 @@ function TopicBars() {
               style={{ width: `${Math.max(pct, 4)}%`, animationDelay: `${120 + n * 60}ms` }}
             />
           </div>
-        </div>
+        </button>
       ))}
     </div>
   )
@@ -189,7 +197,7 @@ function Backup() {
   )
 }
 
-export default function Stats() {
+export default function Stats({ navigate }) {
   const { lang } = useLang()
   const streak = storage.getStreak()
   const daysStudied = storage.getStudyDays().length
@@ -217,7 +225,7 @@ export default function Stats() {
           <IconStack className="h-5 w-5" /> {t('byTopic', lang)}
         </h2>
         <p className="mb-3 text-xs text-muted">{t('byTopicHint', lang)}</p>
-        <TopicBars />
+        <TopicBars navigate={navigate} />
       </div>
 
       <div className="stagger rounded-2xl bg-surface p-4 shadow-card ring-1 ring-line" style={{ '--i': 2 }}>
