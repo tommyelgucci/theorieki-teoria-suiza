@@ -318,6 +318,7 @@ export const STRINGS = {
   menuVocabSub: { de: 'Wichtige Begriffe auf Deutsch', es: 'Términos clave en alemán', fr: 'Termes clés en allemand', it: 'Termini chiave in tedesco', en: 'Key terms in German', pt: 'Termos-chave em alemão' },
   vocabSearch: { de: 'Begriff suchen…', es: 'Buscar término…', fr: 'Chercher un terme…', it: 'Cerca un termine…', en: 'Search a term…', pt: 'Procurar um termo…' },
   vocabNoResults: { de: 'Nichts gefunden', es: 'Sin resultados', fr: 'Aucun résultat', it: 'Nessun risultato', en: 'No results', pt: 'Sem resultados' },
+  examByTopic: { de: 'Ergebnis nach Thema', es: 'Resultado por tema', fr: 'Résultat par thème', it: 'Risultato per tema', en: 'Result by topic', pt: 'Resultado por tema' },
   menuNumbers: { de: 'Wichtige Zahlen', es: 'Cifras clave', fr: 'Chiffres clés', it: 'Numeri chiave', en: 'Key numbers', pt: 'Números-chave' },
   menuNumbersSub: { de: 'Tempo, Abstände, Fristen & Karten', es: 'Velocidades, distancias, plazos y tarjetas', fr: 'Vitesses, distances, délais et cartes', it: 'Velocità, distanze, termini e carte', en: 'Speeds, distances, deadlines & cards', pt: 'Velocidades, distâncias, prazos e cartões' },
   numbersOverview: { de: 'Übersicht', es: 'Resumen', fr: 'Aperçu', it: 'Panoramica', en: 'Overview', pt: 'Resumo' },

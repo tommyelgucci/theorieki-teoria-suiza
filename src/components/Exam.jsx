@@ -5,6 +5,7 @@ import { storage } from '../storage'
 import { examConfig, shuffle, isAnswerCorrect } from '../utils'
 import questionBank from '../data/questions.json'
 import QuestionCard from './QuestionCard'
+import { topicLabel } from '../data/topics'
 import { IconStopwatch, IconFlagMark, IconGrid, IconHourglass, IconCheck, IconConfetti, IconSadFace, IconAlarm, IconCross } from './Icons'
 
 function formatTime(sec) {
@@ -71,15 +72,25 @@ export default function Exam({ category, onExit }) {
     let penalty = 0
     let correct = 0
     const wrongQuestions = []
+    const topics = {}
     for (const q of questions) {
       const sel = answers[q.id] || []
-      if (isAnswerCorrect(q, sel)) correct += 1
-      else {
+      const tp = (topics[q.topic] ||= { id: q.topic, ok: 0, total: 0 })
+      tp.total += 1
+      if (isAnswerCorrect(q, sel)) {
+        correct += 1
+        tp.ok += 1
+      } else {
         penalty += q.points || 3
         wrongQuestions.push(q)
       }
     }
-    return { penalty, correct, wrongQuestions, passed: penalty <= config.maxPenalty }
+    // Solo los temas con algún fallo, de peor a mejor: lo que conviene repasar.
+    const weakTopics = Object.values(topics)
+      .filter((tp) => tp.ok < tp.total)
+      .sort((a, b) => a.ok / a.total - b.ok / b.total || b.total - a.total)
+      .slice(0, 6)
+    return { penalty, correct, wrongQuestions, weakTopics, passed: penalty <= config.maxPenalty }
   }, [phase, questions, answers, config.maxPenalty])
 
   function finish() {
@@ -360,6 +371,30 @@ export default function Exam({ category, onExit }) {
           {result.correct}/{questions.length} {t('correctAnswers', lang)}
         </p>
       </div>
+
+      {result.weakTopics.length > 0 && (
+        <div className="rounded-2xl bg-surface p-4 shadow-card ring-1 ring-line">
+          <h3 className="mb-3 font-bold text-ink">{t('examByTopic', lang)}</h3>
+          <ul className="space-y-2.5">
+            {result.weakTopics.map((tp, n) => (
+              <li key={tp.id}>
+                <div className="mb-0.5 flex items-baseline justify-between gap-3 text-xs">
+                  <span className="font-medium text-body">{topicLabel(tp.id, lang)}</span>
+                  <span className="shrink-0 text-muted">
+                    {tp.ok}/{tp.total}
+                  </span>
+                </div>
+                <div className="h-2 overflow-hidden rounded-full bg-track">
+                  <div
+                    className="grow-x h-full rounded-full bg-gradient-to-r from-red-400 to-red-600"
+                    style={{ width: `${Math.max(6, (100 * tp.ok) / tp.total)}%`, animationDelay: `${120 + n * 60}ms` }}
+                  />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="flex gap-2">
         <button
