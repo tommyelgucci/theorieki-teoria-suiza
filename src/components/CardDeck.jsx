@@ -9,8 +9,10 @@ import { IconCards, IconSpeaker, IconTap, IconConfetti, IconQuestionBubble, Icon
  * - module: clave SRS en storage (p. ej. 'numbers')
  * - cards: [{ id, front, back }] con front/back = textos por idioma
  * - renderFront / renderBack: opcionales, para tarjetas que no son solo texto (p. ej. un dibujo)
+ * - backIcon: icono sobre el texto de la cara trasera (por defecto una bombilla)
+ * - speakText(card, flipped): qué se lee en voz alta en alemán (por defecto, el texto de la cara visible)
  */
-export default function CardDeck({ module, cards, renderFront, renderBack }) {
+export default function CardDeck({ module, cards, renderFront, renderBack, backIcon: BackIcon = IconBulb, speakText }) {
   const { lang } = useLang()
   const ids = cards.map((c) => c.id)
   const [deck, setDeck] = useState(() => {
@@ -67,7 +69,7 @@ export default function CardDeck({ module, cards, renderFront, renderBack }) {
         <span className="flex items-center gap-2">
           {canSpeak() && (
             <button
-              onClick={() => speakDe(flipped ? card.back.de : card.front.de)}
+              onClick={() => speakDe(speakText ? speakText(card, flipped) : flipped ? card.back.de : card.front.de)}
               aria-label={t('listenDe', lang)}
               className="rounded-full opacity-70 hover:opacity-100"
             >
@@ -89,7 +91,7 @@ export default function CardDeck({ module, cards, renderFront, renderBack }) {
             (renderBack && renderBack(card, lang)) || (
               <>
                 <span className="mb-2 text-faint">
-                  <IconBulb className="h-6 w-6" />
+                  <BackIcon className="h-6 w-6" />
                 </span>
                 <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(card.back, lang)}</span>
               </>
