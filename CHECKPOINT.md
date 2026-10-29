@@ -8,6 +8,25 @@ recordar.
 
 ---
 
+## 2026-10-29 — Seguimiento: contenido a main, refactor de mazos, vocabulario, desglose por tema
+
+**Incidente de ramas:** el PR #20 (apilado sobre #19) se mergeó en `claude/ui-design-animations` *después* de
+que #19 ya estuviera en `main`, así que el contenido no llegó a `main` y la corrección de remolques (commit
+posterior) tampoco. Se llevó a `main` con #21 (rama `claude/content-to-main`). **Lección:** no apilar un PR
+sobre una rama cuyo PR ya se va a mergear; abrir siempre contra `main` (si el anterior se mergea antes, el diff
+se reduce solo).
+**Hecho:** (1) Primeros auxilios, VKU y Señales usan `CardDeck` (−300 líneas; `backIcon` y `speakText` son props;
+`CardDeck` marca el día de estudio al pulsar «me la sé», que antes esos tres mazos no hacían);
+(2) `Vocab.jsx` + `src/data/vocab.js`: 67 términos en alemán con explicación en 6 idiomas, buscador y tarjetas;
+(3) resultado del examen desglosado por tema (hasta 6 temas con fallos); (4) en Estadísticas cada tema es un
+botón hacia el modo estudio filtrado; (5) revisión visual en modo oscuro de Home, Cifras clave, Vocabulario,
+Marcas viales y tarjetas de Señales.
+**Pendiente / ideas:** más señales (el mazo tiene 64; Wegweiser 4, Hinweis 12; cada señal requiere dibujo en
+`SignSprite`), marcar preguntas para repasar, más preguntas con imagen (14 % hoy), partir el banco por idioma
+si el chunk (1,16 MB) llega al umbral de 1200 KB.
+
+---
+
 ## 2026-10-26 — Ronda de contenido: moto, marcas viales, cifras clave, carnet a prueba
 
 **Contexto:** el usuario pidió investigar qué faltaba (temas, flashcards) y hacerlo de lo fácil a lo difícil.
