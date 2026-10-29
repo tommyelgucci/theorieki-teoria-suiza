@@ -43,4 +43,18 @@ describe('Simulación de examen', () => {
       screen.getByText(`${t('question', LANG)} 1 ${t('of', LANG)} 50`),
     ).toBeInTheDocument()
   })
+
+  it('al entregar sin responder, el resultado desglosa por tema los fallos', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+
+    await user.click(screen.getByRole('button', { name: text('menuExam') }))
+    await user.click(await screen.findByRole('button', { name: text('startExam') }))
+    await user.click(screen.getAllByRole('button', { name: text('submitExam') })[0])
+    await user.click(await screen.findByRole('button', { name: text('submitNow') }))
+
+    expect(await screen.findByText(t('examByTopic', LANG))).toBeInTheDocument()
+    // sin una sola respuesta, ningún tema puede salir con todos los aciertos
+    expect(screen.getAllByText(/^0\/\d+$/).length).toBeGreaterThan(0)
+  })
 })

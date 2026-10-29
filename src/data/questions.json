@@ -9340,12 +9340,12 @@
     "type": "multiple_choice",
     "points": 2,
     "question": {
-      "de": "Du ziehst einen Anhänger mit dem Auto. Welche Höchstgeschwindigkeit gilt generell auf der Autobahn?",
-      "es": "Llevas un remolque con el coche. ¿Qué velocidad máxima rige en general en la autopista?",
-      "fr": "Tu tractes une remorque avec la voiture. Quelle vitesse maximale s'applique en général sur l'autoroute ?",
-      "it": "Traini un rimorchio con l'auto. Quale velocità massima vale in generale in autostrada?",
-      "en": "You tow a trailer with the car. What speed limit generally applies on the motorway?",
-      "pt": "Rebocas um atrelado com o carro. Que velocidade máxima vigora em geral na autoestrada?"
+      "de": "Du ziehst mit dem Auto einen Anhänger, der nicht für 100 km/h zugelassen ist. Welche Höchstgeschwindigkeit gilt auf der Autobahn?",
+      "es": "Remolcas con el coche un remolque que no está homologado para 100 km/h. ¿Qué velocidad máxima rige en autopista?",
+      "fr": "Tu tractes avec ta voiture une remorque qui n’est pas homologuée pour 100 km/h. Quelle vitesse maximale s’applique sur l’autoroute ?",
+      "it": "Traini con l’auto un rimorchio non omologato per 100 km/h. Quale velocità massima vale in autostrada?",
+      "en": "You tow a trailer that is not approved for 100 km/h with your car. What maximum speed applies on the motorway?",
+      "pt": "Reboca com o carro um reboque que não está homologado para 100 km/h. Que velocidade máxima se aplica na autoestrada?"
     },
     "options": [
       {
@@ -9386,12 +9386,12 @@
       }
     ],
     "explanation": {
-      "de": "Mit Anhänger gelten generell 80 km/h (100 nur mit speziell zugelassener Kombination).",
-      "es": "Con remolque rigen en general 80 km/h (100 solo con conjuntos homologados especialmente).",
-      "fr": "Avec remorque : 80 km/h en général (100 seulement avec un attelage spécialement homologué).",
-      "it": "Con rimorchio valgono in generale 80 km/h (100 solo con combinazione appositamente omologata).",
-      "en": "With a trailer, 80 km/h applies generally (100 only with a specially approved combination).",
-      "pt": "Com atrelado vigoram em geral 80 km/h (100 só com conjuntos homologados especialmente)."
+      "de": "Mit einem Anhänger, der nicht für 100 km/h zugelassen ist, gelten auf Autobahn und Autostrasse 80 km/h. 100 km/h sind nur erlaubt, wenn der Anhänger höchstens 3,5 t Gesamtgewicht hat und dafür zugelassen ist.",
+      "es": "Con un remolque no homologado para 100 km/h rigen 80 km/h en autopista y Autostrasse. Solo se permiten 100 km/h si el remolque pesa como máximo 3,5 t en total y está homologado para ello.",
+      "fr": "Avec une remorque non homologuée pour 100 km/h, la limite est de 80 km/h sur l’autoroute et la semi-autoroute. 100 km/h ne sont permis que si la remorque pèse au plus 3,5 t au total et est homologuée pour cette vitesse.",
+      "it": "Con un rimorchio non omologato per 100 km/h vale il limite di 80 km/h in autostrada e superstrada. I 100 km/h sono consentiti solo se il rimorchio pesa al massimo 3,5 t in totale ed è omologato per tale velocità.",
+      "en": "With a trailer not approved for 100 km/h, the limit is 80 km/h on motorways and expressways. 100 km/h is only allowed if the trailer weighs at most 3.5 t in total and is approved for that speed.",
+      "pt": "Com um reboque não homologado para 100 km/h, o limite é de 80 km/h na autoestrada e na via rápida. Só são permitidos 100 km/h se o reboque pesar no máximo 3,5 t no total e estiver homologado para essa velocidade."
     },
     "image": null
   },
@@ -18640,58 +18640,58 @@
     "type": "multiple_choice",
     "points": 1,
     "question": {
-      "de": "Welche Höchstgeschwindigkeit gilt allgemein für einen leichten Personenwagen mit Anhänger, dessen Gesamtgewicht 3,5 Tonnen nicht übersteigt?",
-      "es": "¿Qué velocidad máxima rige, en general, para un turismo ligero con remolque cuyo peso total no supera las 3,5 toneladas?",
-      "fr": "Quelle vitesse maximale s'applique en général à une voiture légère avec remorque dont le poids total ne dépasse pas 3,5 tonnes ?",
-      "it": "Quale velocità massima vale in generale per un'autovettura leggera con rimorchio il cui peso totale non supera le 3,5 tonnellate?",
-      "en": "What maximum speed generally applies to a light car with a trailer whose total weight does not exceed 3.5 tonnes?",
-      "pt": "Que velocidade máxima vigora, em geral, para um automóvel ligeiro com reboque cujo peso total não excede 3,5 toneladas?"
+      "de": "Unter welcher Bedingung darf ein leichter Personenwagen mit Anhänger auf der Autobahn 100 km/h fahren?",
+      "es": "¿En qué condición puede un turismo ligero con remolque circular a 100 km/h en autopista?",
+      "fr": "À quelle condition une voiture de tourisme légère avec remorque peut-elle rouler à 100 km/h sur l’autoroute ?",
+      "it": "A quale condizione un’auto leggera con rimorchio può viaggiare a 100 km/h in autostrada?",
+      "en": "Under what condition may a light passenger car with a trailer drive 100 km/h on the motorway?",
+      "pt": "Em que condição pode um automóvel ligeiro com reboque circular a 100 km/h na autoestrada?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "de": "100 km/h",
-          "es": "100 km/h",
-          "fr": "100 km/h",
-          "it": "100 km/h",
-          "en": "100 km/h",
-          "pt": "100 km/h"
+          "de": "Der Anhänger wiegt höchstens 3,5 Tonnen und ist für 100 km/h zugelassen",
+          "es": "El remolque pesa como máximo 3,5 toneladas y está homologado para 100 km/h",
+          "fr": "La remorque pèse au plus 3,5 tonnes et est homologuée pour 100 km/h",
+          "it": "Il rimorchio pesa al massimo 3,5 tonnellate ed è omologato per 100 km/h",
+          "en": "The trailer weighs at most 3.5 tonnes and is approved for 100 km/h",
+          "pt": "O reboque pesa no máximo 3,5 toneladas e está homologado para 100 km/h"
         },
         "correct": true
       },
       {
         "id": "b",
         "text": {
-          "de": "60 km/h",
-          "es": "60 km/h",
-          "fr": "60 km/h",
-          "it": "60 km/h",
-          "en": "60 km/h",
-          "pt": "60 km/h"
+          "de": "Es genügt, dass der Anhänger höchstens 3,5 Tonnen wiegt – eine Zulassung für 100 km/h ist nicht nötig",
+          "es": "Basta con que el remolque pese como máximo 3,5 toneladas; no hace falta homologación para 100 km/h",
+          "fr": "Il suffit que la remorque pèse au plus 3,5 tonnes ; une homologation pour 100 km/h n’est pas nécessaire",
+          "it": "Basta che il rimorchio pesi al massimo 3,5 tonnellate; non serve l’omologazione per 100 km/h",
+          "en": "It is enough for the trailer to weigh at most 3.5 tonnes – no approval for 100 km/h is needed",
+          "pt": "Basta que o reboque pese no máximo 3,5 toneladas; não é necessária homologação para 100 km/h"
         },
         "correct": false
       },
       {
         "id": "c",
         "text": {
-          "de": "130 km/h",
-          "es": "130 km/h",
-          "fr": "130 km/h",
-          "it": "130 km/h",
-          "en": "130 km/h",
-          "pt": "130 km/h"
+          "de": "Nur mit einer Sonderbewilligung des Strassenverkehrsamts",
+          "es": "Solo con una autorización especial de la oficina de tráfico",
+          "fr": "Seulement avec une autorisation spéciale du service des automobiles",
+          "it": "Solo con un’autorizzazione speciale dell’ufficio della circolazione",
+          "en": "Only with a special permit from the road traffic office",
+          "pt": "Só com uma autorização especial do serviço de viação"
         },
         "correct": false
       }
     ],
     "explanation": {
-      "de": "Für leichte Motorwagen mit Anhänger bis 3,5 Tonnen Gesamtgewicht gilt in der Schweiz eine Höchstgeschwindigkeit von 100 km/h.",
-      "es": "Para turismos ligeros con remolque de hasta 3,5 toneladas de peso total, en Suiza rige una velocidad máxima de 100 km/h.",
-      "fr": "Pour les voitures légères avec remorque jusqu'à 3,5 tonnes de poids total, la vitesse maximale en Suisse est de 100 km/h.",
-      "it": "Per le autovetture leggere con rimorchio fino a 3,5 tonnellate di peso totale, in Svizzera vale una velocità massima di 100 km/h.",
-      "en": "For light motor vehicles with a trailer up to 3.5 tonnes total weight, the maximum speed in Switzerland is 100 km/h.",
-      "pt": "Para automóveis ligeiros com reboque até 3,5 toneladas de peso total, na Suíça vigora uma velocidade máxima de 100 km/h."
+      "de": "Seit 2021 gilt auf Autobahn und Autostrasse 100 km/h für leichte Motorwagen mit Anhänger bis 3,5 t Gesamtgewicht, sofern der Anhänger dafür zugelassen ist (Typengenehmigung); sonst 80 km/h. Das abzuklären ist Sache des Fahrers, eine Prüfung beim Strassenverkehrsamt ist nicht nötig.",
+      "es": "Desde 2021 rigen 100 km/h en autopista y Autostrasse para vehículos ligeros con remolque de hasta 3,5 t de peso total, siempre que el remolque esté homologado para ello (homologación de tipo); si no, 80 km/h. Comprobarlo es responsabilidad del conductor; no hace falta ninguna inspección en la oficina de tráfico.",
+      "fr": "Depuis 2021, la limite est de 100 km/h sur l’autoroute et la semi-autoroute pour les véhicules légers avec remorque jusqu’à 3,5 t de poids total, pour autant que la remorque y soit homologuée (réception par type) ; sinon 80 km/h. C’est au conducteur de le vérifier ; aucun contrôle au service des automobiles n’est nécessaire.",
+      "it": "Dal 2021 vale il limite di 100 km/h in autostrada e superstrada per i veicoli leggeri con rimorchio fino a 3,5 t di peso totale, purché il rimorchio sia omologato (omologazione del tipo); altrimenti 80 km/h. Verificarlo spetta al conducente; non serve alcun controllo all’ufficio della circolazione.",
+      "en": "Since 2021 the limit is 100 km/h on motorways and expressways for light vehicles with a trailer up to 3.5 t total weight, provided the trailer is approved for it (type approval); otherwise 80 km/h. Checking this is the driver’s responsibility; no inspection at the road traffic office is needed.",
+      "pt": "Desde 2021 o limite é de 100 km/h na autoestrada e na via rápida para veículos ligeiros com reboque até 3,5 t de peso total, desde que o reboque esteja homologado para isso (homologação de tipo); caso contrário, 80 km/h. Verificá-lo é da responsabilidade do condutor; não é necessária nenhuma inspeção no serviço de viação."
     },
     "image": null
   },
@@ -22536,6 +22536,2708 @@
       "it": "Anche gli autisti professionisti con patente UE/AELS hanno 12 mesi dal domicilio per lo scambio, senza doverlo fare prima della prima guida professionale.",
       "en": "Professional drivers with an EU/EFTA licence also have 12 months from taking up residence to exchange it, without needing to do so before their first professional drive.",
       "pt": "Os condutores profissionais com carta da UE/EFTA também têm 12 meses a partir da fixação de domicílio para a trocar, sem necessidade de o fazer antes da primeira condução profissional."
+    },
+    "image": null
+  },
+  {
+    "id": "q363",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du willst bei höherem Tempo mit dem Motorrad in eine Rechtskurve einlenken. Wie leitest du die Schräglage ein?",
+      "es": "Quieres entrar en una curva a la derecha con la moto a velocidad alta. ¿Cómo inicias la inclinación?",
+      "fr": "Tu veux prendre un virage à droite à moto, à vitesse élevée. Comment amorces-tu l’inclinaison ?",
+      "it": "Vuoi affrontare una curva a destra in moto a velocità sostenuta. Come inizi l’inclinazione?",
+      "en": "You want to enter a right-hand bend on your motorcycle at higher speed. How do you start the lean?",
+      "pt": "Queres entrar numa curva à direita de mota a velocidade elevada. Como inicias a inclinação?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Mit einem kurzen Druck nach vorne auf das rechte Lenkerende (Gegenlenken)",
+          "es": "Con un breve empujón hacia delante en el puño derecho (contramanillar)",
+          "fr": "Par une brève poussée vers l’avant sur la poignée droite (contre-braquage)",
+          "it": "Con una breve spinta in avanti sulla manopola destra (controsterzo)",
+          "en": "With a short push forward on the right handlebar grip (counter-steering)",
+          "pt": "Com um breve empurrão para a frente no punho direito (contra-direção)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Indem ich den Lenker langsam nach rechts drehe, wie beim Velo im Schritttempo",
+          "es": "Girando despacio el manillar hacia la derecha, como en una bici a paso lento",
+          "fr": "En tournant lentement le guidon vers la droite, comme à vélo au pas",
+          "it": "Girando lentamente il manubrio a destra, come in bici a passo d’uomo",
+          "en": "By slowly turning the handlebars to the right, like on a bicycle at walking pace",
+          "pt": "Rodando devagar o guiador para a direita, como numa bicicleta a passo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur durch Verlagern des Oberkörpers, ohne den Lenker zu bewegen",
+          "es": "Solo desplazando el torso, sin mover el manillar",
+          "fr": "Seulement en déplaçant le buste, sans bouger le guidon",
+          "it": "Solo spostando il busto, senza muovere il manubrio",
+          "en": "Only by shifting the upper body, without moving the handlebars",
+          "pt": "Só deslocando o tronco, sem mexer no guiador"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei höherem Tempo kippt das Motorrad durch einen kurzen Impuls am kurveninneren Lenkerende in die gewünschte Richtung (Gegenlenken). Danach hält man die Schräglage mit leichtem Lenkerdruck.",
+      "es": "A velocidad alta, un breve impulso en el puño del lado interior de la curva inclina la moto hacia donde quieres (contramanillar). Después se mantiene la inclinación con una ligera presión en el manillar.",
+      "fr": "À vitesse élevée, une brève impulsion sur la poignée intérieure du virage fait basculer la moto du côté voulu (contre-braquage). Ensuite, on maintient l’inclinaison par une légère pression sur le guidon.",
+      "it": "A velocità elevata, un breve impulso sulla manopola interna alla curva fa inclinare la moto dalla parte voluta (controsterzo). Poi si mantiene l’inclinazione con una leggera pressione sul manubrio.",
+      "en": "At higher speed, a short push on the inside grip makes the motorcycle lean in the desired direction (counter-steering). You then hold the lean with light pressure on the handlebars.",
+      "pt": "A velocidade elevada, um breve impulso no punho do lado de dentro da curva inclina a mota para onde queres (contra-direção). Depois mantém-se a inclinação com uma ligeira pressão no guiador."
+    },
+    "image": null
+  },
+  {
+    "id": "q364",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Wohin richtest du in einer Kurve deinen Blick mit dem Motorrad?",
+      "es": "¿Hacia dónde diriges la mirada en una curva con la moto?",
+      "fr": "Où diriges-tu ton regard dans un virage à moto ?",
+      "it": "Dove rivolgi lo sguardo in una curva in moto?",
+      "en": "Where do you look in a bend on your motorcycle?",
+      "pt": "Para onde diriges o olhar numa curva de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Weit voraus durch die Kurve, zum Kurvenausgang",
+          "es": "Lejos, a través de la curva, hacia la salida",
+          "fr": "Loin devant, à travers le virage, vers la sortie",
+          "it": "Lontano, attraverso la curva, verso l’uscita",
+          "en": "Far ahead through the bend, towards the exit",
+          "pt": "Ao longe, através da curva, para a saída"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Direkt auf das Vorderrad",
+          "es": "Directamente a la rueda delantera",
+          "fr": "Directement sur la roue avant",
+          "it": "Direttamente sulla ruota anteriore",
+          "en": "Straight at the front wheel",
+          "pt": "Diretamente para a roda da frente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Auf den Strassenrand oder die Leitplanke direkt vor mir",
+          "es": "Al borde de la calzada o a la barrera justo delante de mí",
+          "fr": "Sur le bord de la route ou la glissière juste devant moi",
+          "it": "Al bordo della strada o al guardrail proprio davanti a me",
+          "en": "At the road edge or crash barrier right in front of me",
+          "pt": "Para a berma ou o rail de proteção mesmo à minha frente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Das Motorrad folgt dem Blick: Wer weit durch die Kurve schaut, fährt flüssiger und sicherer. Wer auf ein Hindernis starrt, steuert oft genau darauf zu.",
+      "es": "La moto sigue la mirada: quien mira lejos a través de la curva conduce con más fluidez y seguridad. Quien se fija en un obstáculo suele acabar yendo hacia él.",
+      "fr": "La moto suit le regard : en regardant loin à travers le virage, on roule plus souplement et plus sûrement. Celui qui fixe un obstacle finit souvent par aller droit dessus.",
+      "it": "La moto segue lo sguardo: chi guarda lontano attraverso la curva guida in modo più fluido e sicuro. Chi fissa un ostacolo spesso finisce per andargli addosso.",
+      "en": "The motorcycle follows your eyes: looking far through the bend makes you smoother and safer. If you stare at an obstacle, you often steer straight towards it.",
+      "pt": "A mota segue o olhar: quem olha ao longe através da curva conduz com mais fluidez e segurança. Quem fixa um obstáculo acaba muitas vezes por ir direito a ele."
+    },
+    "image": null
+  },
+  {
+    "id": "q365",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du musst mit dem Motorrad Tramschienen überqueren. Was ist richtig?",
+      "es": "Tienes que cruzar unas vías de tranvía con la moto. ¿Qué es lo correcto?",
+      "fr": "Tu dois traverser des rails de tram à moto. Que faut-il faire ?",
+      "it": "Devi attraversare dei binari del tram in moto. Qual è il comportamento corretto?",
+      "en": "You have to cross tram rails on your motorcycle. What is correct?",
+      "pt": "Tens de atravessar carris de elétrico de mota. O que é correto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Möglichst im rechten Winkel überqueren, ohne zu bremsen oder zu beschleunigen",
+          "es": "Cruzarlas lo más perpendicularmente posible, sin frenar ni acelerar",
+          "fr": "Les traverser le plus perpendiculairement possible, sans freiner ni accélérer",
+          "it": "Attraversarli il più possibile ad angolo retto, senza frenare né accelerare",
+          "en": "Cross them as close to a right angle as possible, without braking or accelerating",
+          "pt": "Atravessá-los o mais possível em ângulo reto, sem travar nem acelerar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Spitzwinklig überqueren, damit die Räder in der Rille bleiben",
+          "es": "Cruzarlas en ángulo muy agudo para que las ruedas sigan el carril",
+          "fr": "Les traverser en biais très aigu pour que les roues restent dans la rainure",
+          "it": "Attraversarli con un angolo molto stretto, così le ruote restano nella gola",
+          "en": "Cross them at a very shallow angle so the wheels stay in the groove",
+          "pt": "Atravessá-los num ângulo muito fechado para as rodas ficarem no rail"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beim Überqueren kräftig bremsen, um die Kontrolle zu behalten",
+          "es": "Frenar fuerte al cruzarlas para mantener el control",
+          "fr": "Freiner fort pendant la traversée pour garder le contrôle",
+          "it": "Frenare con decisione durante l’attraversamento per mantenere il controllo",
+          "en": "Brake hard while crossing to keep control",
+          "pt": "Travar com força ao atravessar para manter o controlo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wer Schienen spitzwinklig quert, kann in der Rille hängen bleiben und stürzen. Im rechten Winkel, mit konstantem Tempo und lockerem Lenker, ist das Risiko am kleinsten.",
+      "es": "Quien cruza las vías en ángulo agudo puede quedar atrapado en el carril y caerse. En ángulo recto, a velocidad constante y con el manillar suelto, el riesgo es mínimo.",
+      "fr": "Celui qui traverse des rails en biais peut se coincer dans la rainure et chuter. À angle droit, à vitesse constante et guidon souple, le risque est minimal.",
+      "it": "Chi attraversa i binari con un angolo stretto può rimanere incastrato nella gola e cadere. Ad angolo retto, a velocità costante e con il manubrio morbido, il rischio è minimo.",
+      "en": "Crossing rails at a shallow angle can trap the wheel in the groove and cause a fall. At a right angle, at constant speed and with relaxed handlebars, the risk is lowest.",
+      "pt": "Quem atravessa os carris em ângulo agudo pode ficar preso no rail e cair. Em ângulo reto, a velocidade constante e com o guiador solto, o risco é mínimo."
+    },
+    "image": null
+  },
+  {
+    "id": "q366",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "In einer Kurve liegt Rollsplitt. Wie verhältst du dich mit dem Motorrad?",
+      "es": "Hay gravilla suelta en una curva. ¿Cómo te comportas con la moto?",
+      "fr": "Il y a du gravillon dans un virage. Comment te comportes-tu à moto ?",
+      "it": "C’è ghiaietto in una curva. Come ti comporti in moto?",
+      "en": "There is loose gravel in a bend. How do you behave on your motorcycle?",
+      "pt": "Há gravilha solta numa curva. Como te comportas de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Schon vor der Kurve das Tempo reduzieren und die Schräglage klein halten",
+          "es": "Reducir la velocidad ya antes de la curva y mantener poca inclinación",
+          "fr": "Réduire la vitesse déjà avant le virage et limiter l’inclinaison",
+          "it": "Ridurre la velocità già prima della curva e mantenere poca inclinazione",
+          "en": "Reduce speed before the bend and keep the lean angle small",
+          "pt": "Reduzir a velocidade já antes da curva e manter pouca inclinação"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit Schwung durchfahren, damit die Reifen mehr Halt finden",
+          "es": "Pasar con ímpetu para que los neumáticos agarren más",
+          "fr": "Passer avec de l’élan pour que les pneus accrochent mieux",
+          "it": "Passare con slancio perché le gomme aderiscano di più",
+          "en": "Go through with momentum so the tyres grip better",
+          "pt": "Passar com balanço para os pneus terem mais aderência"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "In der Kurve kräftig bremsen, um langsamer zu werden",
+          "es": "Frenar fuerte dentro de la curva para ir más despacio",
+          "fr": "Freiner fort dans le virage pour ralentir",
+          "it": "Frenare con forza in curva per rallentare",
+          "en": "Brake hard in the bend to slow down",
+          "pt": "Travar com força na curva para abrandar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Auf losem Untergrund haften die Reifen kaum. Tempo daher vor der Kurve abbauen, wenig Schräglage fahren und in der Kurve nicht hart bremsen oder beschleunigen.",
+      "es": "Sobre un suelo suelto los neumáticos apenas agarran. Hay que reducir antes de la curva, inclinar poco y no frenar ni acelerar bruscamente dentro de ella.",
+      "fr": "Sur un sol meuble, les pneus accrochent à peine. Il faut ralentir avant le virage, peu s’incliner et ne pas freiner ni accélérer fort dans la courbe.",
+      "it": "Su fondo sciolto le gomme aderiscono poco. Bisogna rallentare prima della curva, inclinare poco e non frenare né accelerare bruscamente in curva.",
+      "en": "Tyres barely grip on loose surfaces. Slow down before the bend, use little lean and avoid hard braking or acceleration in the bend.",
+      "pt": "Em piso solto os pneus quase não aderem. Reduz-se antes da curva, inclina-se pouco e não se trava nem acelera com força dentro dela."
+    },
+    "image": null
+  },
+  {
+    "id": "q367",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hast mit dem Motorrad abgebogen. Was ist beim Blinker zu beachten?",
+      "es": "Has girado con la moto. ¿Qué hay que tener en cuenta con el intermitente?",
+      "fr": "Tu as tourné à moto. À quoi faut-il penser pour le clignotant ?",
+      "it": "Hai svoltato in moto. Cosa devi ricordare riguardo all’indicatore di direzione?",
+      "en": "You have turned on your motorcycle. What do you have to keep in mind with the indicator?",
+      "pt": "Viraste de mota. O que deves ter em conta com o pisca?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Viele Motorräder schalten den Blinker nicht selbst aus – ich stelle ihn von Hand ab",
+          "es": "Muchas motos no apagan solas el intermitente: lo apago yo a mano",
+          "fr": "Beaucoup de motos n’éteignent pas seules le clignotant : je le coupe à la main",
+          "it": "Molte moto non spengono da sole l’indicatore: lo spengo io a mano",
+          "en": "Many motorcycles do not cancel the indicator by themselves – I switch it off by hand",
+          "pt": "Muitas motas não desligam sozinhas o pisca – desligo-o eu à mão"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Bei allen Motorrädern geht der Blinker automatisch aus",
+          "es": "En todas las motos el intermitente se apaga automáticamente",
+          "fr": "Sur toutes les motos, le clignotant s’éteint automatiquement",
+          "it": "Su tutte le moto l’indicatore si spegne automaticamente",
+          "en": "On all motorcycles the indicator switches off automatically",
+          "pt": "Em todas as motas o pisca desliga-se automaticamente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich lasse ihn blinken, damit mich andere besser sehen",
+          "es": "Lo dejo parpadeando para que los demás me vean mejor",
+          "fr": "Je le laisse clignoter pour que les autres me voient mieux",
+          "it": "Lo lascio lampeggiare perché gli altri mi vedano meglio",
+          "en": "I leave it flashing so other road users see me better",
+          "pt": "Deixo-o a piscar para os outros me verem melhor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein vergessener Blinker täuscht andere Verkehrsteilnehmer über deine Absicht und kann zu gefährlichen Fehlentscheiden führen – nach dem Abbiegen immer kontrollieren.",
+      "es": "Un intermitente olvidado engaña a los demás sobre tus intenciones y puede provocar decisiones peligrosas; comprueba siempre que está apagado después de girar.",
+      "fr": "Un clignotant oublié trompe les autres usagers sur tes intentions et peut provoquer des décisions dangereuses ; vérifie-le toujours après avoir tourné.",
+      "it": "Un indicatore dimenticato inganna gli altri utenti sulle tue intenzioni e può causare decisioni pericolose: controllalo sempre dopo aver svoltato.",
+      "en": "A forgotten indicator misleads other road users about your intentions and can lead to dangerous decisions – always check it after turning.",
+      "pt": "Um pisca esquecido engana os outros utentes quanto às tuas intenções e pode levar a decisões perigosas – verifica-o sempre depois de virar."
+    },
+    "image": null
+  },
+  {
+    "id": "q368",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Auto steht dir entgegen und will links abbiegen. Der Fahrer schaut in deine Richtung. Was nimmst du als Motorradfahrer an?",
+      "es": "Un coche viene de frente y quiere girar a la izquierda. El conductor mira en tu dirección. ¿Qué supones como motorista?",
+      "fr": "Une voiture arrive en face et veut tourner à gauche. Le conducteur regarde dans ta direction. Que supposes-tu en tant que motard ?",
+      "it": "Un’auto arriva di fronte e vuole svoltare a sinistra. Il conducente guarda nella tua direzione. Cosa presumi da motociclista?",
+      "en": "A car is coming towards you and wants to turn left. The driver is looking in your direction. What do you assume as a motorcyclist?",
+      "pt": "Um carro vem de frente e quer virar à esquerda. O condutor olha na tua direção. O que presumes como motociclista?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Dass er mich übersehen haben könnte – ich bin bremsbereit, auch wenn ich Vortritt habe",
+          "es": "Que puede no haberme visto: estoy listo para frenar aunque tenga prioridad",
+          "fr": "Qu’il a pu ne pas me voir : je suis prêt à freiner même si j’ai la priorité",
+          "it": "Che potrebbe non avermi visto: sono pronto a frenare anche se ho la precedenza",
+          "en": "That he may not have seen me – I am ready to brake even though I have priority",
+          "pt": "Que pode não me ter visto – estou pronto para travar mesmo tendo prioridade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Dass er mich sicher gesehen hat, weil er in meine Richtung schaut",
+          "es": "Que seguro me ha visto, porque mira hacia mí",
+          "fr": "Qu’il m’a sûrement vu, puisqu’il regarde vers moi",
+          "it": "Che mi ha sicuramente visto, perché guarda verso di me",
+          "en": "That he has surely seen me because he is looking my way",
+          "pt": "Que de certeza me viu, porque olha na minha direção"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Dass nichts passieren kann, weil ich Vortritt habe",
+          "es": "Que no puede pasar nada, porque tengo prioridad",
+          "fr": "Que rien ne peut arriver, puisque j’ai la priorité",
+          "it": "Che non può succedere nulla, perché ho la precedenza",
+          "en": "That nothing can happen because I have priority",
+          "pt": "Que nada pode acontecer, porque tenho prioridade"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Motorräder werden oft übersehen, auch bei direktem Blickkontakt. Rechtlich hat der Entgegenkommende Vortritt – verlass dich aber nie darauf, sondern rechne mit dem Fehler des anderen.",
+      "es": "A las motos se las ve mal, incluso con contacto visual directo. Legalmente tienes prioridad, pero nunca confíes en ello: cuenta con el error del otro.",
+      "fr": "Les motos sont souvent oubliées, même avec un contact visuel direct. Légalement tu as la priorité, mais ne t’y fie jamais : compte avec l’erreur de l’autre.",
+      "it": "Le moto vengono spesso non viste, anche con contatto visivo diretto. Legalmente hai la precedenza, ma non farci mai affidamento: metti in conto l’errore dell’altro.",
+      "en": "Motorcycles are often overlooked, even with direct eye contact. Legally you have priority, but never rely on it – allow for the other driver’s mistake.",
+      "pt": "As motas são muitas vezes ignoradas, mesmo com contacto visual direto. Legalmente tens prioridade, mas nunca contes com isso: conta com o erro do outro."
+    },
+    "image": null
+  },
+  {
+    "id": "q369",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du hältst mit dem Motorrad an einer Ampel an. Wo stellst du dich in der Spur am besten hin?",
+      "es": "Te detienes con la moto en un semáforo. ¿Dónde es mejor colocarte dentro del carril?",
+      "fr": "Tu t’arrêtes à moto à un feu. Où te placer de préférence dans la voie ?",
+      "it": "Ti fermi in moto a un semaforo. Dove ti conviene metterti nella corsia?",
+      "en": "You stop at traffic lights on your motorcycle. Where is it best to stand in the lane?",
+      "pt": "Paras de mota num semáforo. Onde é melhor colocares-te na faixa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "In einer der beiden Reifenspuren, nicht in der Mitte",
+          "es": "En una de las dos rodadas, no en el centro",
+          "fr": "Dans l’une des deux traces de roues, pas au milieu",
+          "it": "In una delle due tracce delle ruote, non al centro",
+          "en": "In one of the two wheel tracks, not in the middle",
+          "pt": "Numa das duas rodadas, não ao meio"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Genau in der Mitte, dort ist der Belag am saubersten",
+          "es": "Justo en el centro, donde el asfalto está más limpio",
+          "fr": "Exactement au milieu, là où le revêtement est le plus propre",
+          "it": "Esattamente al centro, dove l’asfalto è più pulito",
+          "en": "Exactly in the middle, where the surface is cleanest",
+          "pt": "Mesmo ao meio, onde o piso está mais limpo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ganz am Rand neben dem Trottoir",
+          "es": "Pegado al borde junto a la acera",
+          "fr": "Tout au bord, à côté du trottoir",
+          "it": "Proprio al bordo accanto al marciapiede",
+          "en": "Right at the edge next to the pavement",
+          "pt": "Mesmo na berma junto ao passeio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Spurmitte tropfen Autos Öl und Kühlflüssigkeit, besonders an Ampeln – der Belag ist dort glitschig. Die Reifenspuren sind meist sauberer und griffiger.",
+      "es": "En el centro del carril los coches gotean aceite y refrigerante, sobre todo en los semáforos: el firme allí resbala. Las rodadas suelen estar más limpias y agarrar mejor.",
+      "fr": "Au milieu de la voie, les voitures laissent tomber de l’huile et du liquide de refroidissement, surtout aux feux : la chaussée y est glissante. Les traces de roues sont en général plus propres et plus adhérentes.",
+      "it": "Al centro della corsia le auto perdono olio e liquido di raffreddamento, soprattutto ai semafori: lì il fondo è scivoloso. Le tracce delle ruote sono di solito più pulite e più aderenti.",
+      "en": "In the middle of the lane, cars drip oil and coolant, especially at traffic lights – the surface is slippery there. The wheel tracks are usually cleaner and grippier.",
+      "pt": "No meio da faixa os carros pingam óleo e líquido de refrigeração, sobretudo nos semáforos: o piso é escorregadio. As rodadas costumam estar mais limpas e aderentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q370",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst mit einem Mitfahrer. Wie verändert sich das Fahrverhalten deines Motorrads?",
+      "es": "Llevas a un pasajero. ¿Cómo cambia el comportamiento de tu moto?",
+      "fr": "Tu roules avec un passager. Comment le comportement de ta moto change-t-il ?",
+      "it": "Viaggi con un passeggero. Come cambia il comportamento della tua moto?",
+      "en": "You are riding with a passenger. How does your motorcycle’s handling change?",
+      "pt": "Levas um passageiro. Como muda o comportamento da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Bremsweg wird länger und das Motorrad reagiert träger – früher bremsen, sanfter beschleunigen",
+          "es": "La distancia de frenado aumenta y la moto reacciona con más lentitud: frenar antes y acelerar con suavidad",
+          "fr": "La distance de freinage s’allonge et la moto réagit plus lentement : freiner plus tôt, accélérer plus doucement",
+          "it": "Lo spazio di frenata aumenta e la moto reagisce più lentamente: frenare prima e accelerare con dolcezza",
+          "en": "The braking distance gets longer and the bike reacts more slowly – brake earlier and accelerate more gently",
+          "pt": "A distância de travagem aumenta e a mota reage mais devagar – travar mais cedo e acelerar com suavidade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Es ändert sich nichts, ein Mitfahrer macht keinen Unterschied",
+          "es": "No cambia nada, un pasajero no supone ninguna diferencia",
+          "fr": "Rien ne change, un passager ne fait aucune différence",
+          "it": "Non cambia nulla, un passeggero non fa differenza",
+          "en": "Nothing changes, a passenger makes no difference",
+          "pt": "Nada muda, um passageiro não faz diferença"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Motorrad wird wendiger, weil mehr Gewicht auf dem Hinterrad liegt",
+          "es": "La moto se vuelve más ágil porque hay más peso en la rueda trasera",
+          "fr": "La moto devient plus maniable parce qu’il y a plus de poids sur la roue arrière",
+          "it": "La moto diventa più maneggevole perché c’è più peso sulla ruota posteriore",
+          "en": "The bike becomes more agile because more weight sits on the rear wheel",
+          "pt": "A mota fica mais ágil porque há mais peso na roda de trás"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Mehr Gewicht heisst längerer Bremsweg, mehr Trägheit und andere Balance. Vorausschauend fahren, früher bremsen, Reifendruck und Federung auf die Beladung abstimmen.",
+      "es": "Más peso significa más distancia de frenado, más inercia y otro equilibrio. Conduce con anticipación, frena antes y ajusta la presión de los neumáticos y la suspensión a la carga.",
+      "fr": "Plus de poids signifie freinage plus long, plus d’inertie et un autre équilibre. Anticipe, freine plus tôt et adapte la pression des pneus et la suspension à la charge.",
+      "it": "Più peso significa spazio di frenata più lungo, più inerzia e un diverso equilibrio. Guida con anticipo, frena prima e adatta pressione delle gomme e sospensioni al carico.",
+      "en": "More weight means a longer braking distance, more inertia and different balance. Ride ahead of the traffic, brake earlier and adjust tyre pressure and suspension to the load.",
+      "pt": "Mais peso significa maior distância de travagem, mais inércia e outro equilíbrio. Conduz com antecipação, trava mais cedo e ajusta a pressão dos pneus e a suspensão à carga."
+    },
+    "image": null
+  },
+  {
+    "id": "q371",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst mit dem Motorrad aus gleissendem Sonnenlicht in einen Tunnel. Was ist richtig?",
+      "es": "Entras con la moto en un túnel viniendo de un sol deslumbrante. ¿Qué es lo correcto?",
+      "fr": "Tu entres à moto dans un tunnel en venant d’un soleil éblouissant. Que faut-il faire ?",
+      "it": "Entri in moto in una galleria venendo da un sole abbagliante. Qual è il comportamento corretto?",
+      "en": "You ride from dazzling sunlight into a tunnel on your motorcycle. What is correct?",
+      "pt": "Entras de mota num túnel vindo de um sol ofuscante. O que é correto?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Tempo reduzieren, weil sich das Auge erst an die Dunkelheit anpassen muss",
+          "es": "Reducir la velocidad, porque el ojo necesita tiempo para adaptarse a la oscuridad",
+          "fr": "Ralentir, car l’œil doit d’abord s’adapter à l’obscurité",
+          "it": "Rallentare, perché l’occhio deve prima adattarsi al buio",
+          "en": "Slow down, because your eyes first need to adapt to the dark",
+          "pt": "Reduzir a velocidade, porque o olho precisa primeiro de se adaptar à escuridão"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Beschleunigen, um den Tunnel schneller hinter mir zu haben",
+          "es": "Acelerar para dejar atrás el túnel cuanto antes",
+          "fr": "Accélérer pour sortir plus vite du tunnel",
+          "it": "Accelerare per lasciarsi la galleria alle spalle più in fretta",
+          "en": "Accelerate to get through the tunnel faster",
+          "pt": "Acelerar para deixar o túnel para trás mais depressa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Fernlicht einschalten, um besser zu sehen",
+          "es": "Encender las luces largas para ver mejor",
+          "fr": "Allumer les feux de route pour mieux voir",
+          "it": "Accendere gli abbaglianti per vedere meglio",
+          "en": "Switch on the high beam to see better",
+          "pt": "Ligar os máximos para ver melhor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Wechsel von hell zu dunkel sieht man kurzzeitig fast nichts. Tempo abbauen, Abstand halten – das Fernlicht blendet andere Verkehrsteilnehmer.",
+      "es": "Al pasar de la luz a la oscuridad se ve casi nada durante un momento. Reduce la velocidad y mantén la distancia; las luces largas deslumbran a los demás.",
+      "fr": "En passant de la lumière à l’obscurité, on ne voit presque rien un instant. Ralentis et garde ta distance ; les feux de route éblouissent les autres usagers.",
+      "it": "Passando dalla luce al buio per un momento non si vede quasi nulla. Rallenta e mantieni la distanza; gli abbaglianti abbagliano gli altri utenti.",
+      "en": "Going from bright to dark leaves you almost blind for a moment. Reduce speed and keep your distance; high beam dazzles other road users.",
+      "pt": "Ao passar da luz para a escuridão quase não se vê nada por instantes. Reduz a velocidade e mantém a distância; os máximos encadeiam os outros utentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q372",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Es ist ein kalter Morgen. Was gilt für die Reifen deines Motorrads?",
+      "es": "Es una mañana fría. ¿Qué ocurre con los neumáticos de tu moto?",
+      "fr": "C’est un matin froid. Que faut-il savoir des pneus de ta moto ?",
+      "it": "È una mattina fredda. Cosa vale per le gomme della tua moto?",
+      "en": "It is a cold morning. What applies to your motorcycle’s tyres?",
+      "pt": "É uma manhã fria. O que se aplica aos pneus da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Kalte Reifen haften weniger – die ersten Kilometer vorsichtig fahren, mit wenig Schräglage",
+          "es": "Los neumáticos fríos agarran menos: los primeros kilómetros con cuidado y poca inclinación",
+          "fr": "Les pneus froids adhèrent moins : sur les premiers kilomètres, rouler prudemment avec peu d’inclinaison",
+          "it": "Le gomme fredde aderiscono meno: i primi chilometri guida con prudenza e poca inclinazione",
+          "en": "Cold tyres grip less – ride carefully for the first kilometres, with little lean",
+          "pt": "Os pneus frios aderem menos: nos primeiros quilómetros conduz com cuidado e pouca inclinação"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Bei Kälte haften die Reifen besser als bei Wärme",
+          "es": "Con frío los neumáticos agarran mejor que con calor",
+          "fr": "Par temps froid, les pneus adhèrent mieux que par temps chaud",
+          "it": "Con il freddo le gomme aderiscono meglio che con il caldo",
+          "en": "In the cold, tyres grip better than in warm weather",
+          "pt": "Com frio os pneus aderem melhor do que com calor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich lasse Luft ab, damit die Auflagefläche grösser wird",
+          "es": "Dejo salir aire para aumentar la superficie de contacto",
+          "fr": "Je dégonfle un peu pour agrandir la surface de contact",
+          "it": "Sgonfio un po’ per aumentare la superficie di contatto",
+          "en": "I let some air out to enlarge the contact patch",
+          "pt": "Deixo sair ar para aumentar a área de contacto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gummi wird erst mit Betriebstemperatur richtig griffig. Bei Kälte fehlt anfangs der Grip; zu wenig Luftdruck verschlechtert zusätzlich das Fahrverhalten.",
+      "es": "El caucho solo agarra bien a temperatura de funcionamiento. Con frío falta agarre al principio; además, poca presión empeora el comportamiento de la moto.",
+      "fr": "La gomme n’est vraiment adhérente qu’à température de fonctionnement. Par temps froid, l’adhérence manque au début ; une pression trop basse détériore en plus le comportement.",
+      "it": "La gomma aderisce bene solo a temperatura di esercizio. Con il freddo all’inizio manca aderenza; una pressione troppo bassa peggiora inoltre il comportamento.",
+      "en": "Rubber only grips properly at operating temperature. In the cold, grip is lacking at first; too little pressure also worsens handling.",
+      "pt": "A borracha só adere bem à temperatura de funcionamento. Com frio falta aderência no início; pressão a menos piora ainda o comportamento."
+    },
+    "image": null
+  },
+  {
+    "id": "q373",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wann kontrollierst du den Reifendruck deines Motorrads am besten?",
+      "es": "¿Cuándo es mejor comprobar la presión de los neumáticos de tu moto?",
+      "fr": "Quand est-il préférable de contrôler la pression des pneus de ta moto ?",
+      "it": "Quando è meglio controllare la pressione delle gomme della tua moto?",
+      "en": "When is the best time to check your motorcycle’s tyre pressure?",
+      "pt": "Quando é melhor verificar a pressão dos pneus da tua mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Bei kalten Reifen, regelmässig und vor langen Fahrten oder mit Beladung",
+          "es": "Con los neumáticos fríos, con regularidad y antes de viajes largos o con carga",
+          "fr": "À froid, régulièrement et avant les longs trajets ou avec une charge",
+          "it": "A gomme fredde, regolarmente e prima di lunghi viaggi o con carico",
+          "en": "With cold tyres, regularly and before long rides or when loaded",
+          "pt": "Com os pneus frios, regularmente e antes de viagens longas ou com carga"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Direkt nach einer langen, schnellen Fahrt, wenn die Reifen warm sind",
+          "es": "Justo después de un viaje largo y rápido, con los neumáticos calientes",
+          "fr": "Juste après un long trajet rapide, quand les pneus sont chauds",
+          "it": "Subito dopo un lungo viaggio veloce, con le gomme calde",
+          "en": "Right after a long fast ride, when the tyres are warm",
+          "pt": "Logo depois de uma viagem longa e rápida, com os pneus quentes"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nie – der Reifendruck bleibt immer gleich",
+          "es": "Nunca: la presión no cambia",
+          "fr": "Jamais : la pression reste toujours la même",
+          "it": "Mai: la pressione resta sempre uguale",
+          "en": "Never – the tyre pressure always stays the same",
+          "pt": "Nunca: a pressão mantém-se sempre igual"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Warme Reifen zeigen einen höheren Druck, deshalb wird kalt gemessen. Der richtige Druck (laut Betriebsanleitung) beeinflusst Grip, Verschleiss und Stabilität direkt.",
+      "es": "Los neumáticos calientes marcan más presión, por eso se mide en frío. La presión correcta (según el manual) influye directamente en el agarre, el desgaste y la estabilidad.",
+      "fr": "Des pneus chauds affichent une pression plus élevée, c’est pourquoi on mesure à froid. La bonne pression (selon le manuel) influence directement l’adhérence, l’usure et la stabilité.",
+      "it": "Le gomme calde mostrano una pressione più alta, per questo si misura a freddo. La pressione corretta (secondo il manuale) influisce direttamente su aderenza, usura e stabilità.",
+      "en": "Warm tyres show a higher pressure, which is why you measure when cold. The right pressure (per the manual) directly affects grip, wear and stability.",
+      "pt": "Pneus quentes mostram pressão mais alta, por isso mede-se a frio. A pressão correta (segundo o manual) influencia diretamente a aderência, o desgaste e a estabilidade."
+    },
+    "image": null
+  },
+  {
+    "id": "q374",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du bist gestürzt und dein Helm hat den Boden getroffen, äusserlich ist nichts zu sehen. Was tust du?",
+      "es": "Te has caído y el casco ha golpeado el suelo, por fuera no se ve nada. ¿Qué haces?",
+      "fr": "Tu as chuté et ton casque a heurté le sol, rien n’est visible à l’extérieur. Que fais-tu ?",
+      "it": "Sei caduto e il casco ha colpito il suolo, all’esterno non si vede nulla. Cosa fai?",
+      "en": "You have fallen and your helmet hit the ground, nothing is visible from outside. What do you do?",
+      "pt": "Caíste e o capacete bateu no chão, por fora não se vê nada. O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ich ersetze den Helm – innere Schäden sind von aussen nicht erkennbar",
+          "es": "Lo sustituyo: los daños internos no se ven desde fuera",
+          "fr": "Je le remplace : les dégâts internes ne se voient pas de l’extérieur",
+          "it": "Lo sostituisco: i danni interni non si vedono dall’esterno",
+          "en": "I replace it – internal damage cannot be seen from outside",
+          "pt": "Substituo-o: os danos internos não se veem por fora"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich benütze ihn weiter, solange aussen nichts zu sehen ist",
+          "es": "Sigo usándolo mientras por fuera no se vea nada",
+          "fr": "Je continue à l’utiliser tant que rien n’est visible à l’extérieur",
+          "it": "Continuo a usarlo finché all’esterno non si vede nulla",
+          "en": "I keep using it as long as nothing is visible outside",
+          "pt": "Continuo a usá-lo enquanto por fora não se vir nada"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich klebe die Stelle, damit er wieder dicht ist",
+          "es": "Pego la zona para que vuelva a quedar sellado",
+          "fr": "Je colle l’endroit pour qu’il soit de nouveau étanche",
+          "it": "Incollo il punto così torna a essere sigillato",
+          "en": "I glue the spot so that it is sealed again",
+          "pt": "Colo a zona para voltar a ficar vedado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Schutzschale nimmt Stösse auf und verformt sich dabei innen, ohne dass es aussen sichtbar sein muss. Nach einem Aufprall verliert der Helm seine Schutzwirkung – ersetzen.",
+      "es": "La carcasa absorbe golpes y se deforma por dentro sin que tenga que verse fuera. Tras un impacto el casco pierde su capacidad de protección: hay que sustituirlo.",
+      "fr": "La calotte absorbe les chocs et se déforme à l’intérieur sans que ce soit visible dehors. Après un impact, le casque perd son effet protecteur : il faut le remplacer.",
+      "it": "La calotta assorbe gli urti e si deforma all’interno senza che sia visibile all’esterno. Dopo un impatto il casco perde la sua capacità protettiva: va sostituito.",
+      "en": "The shell absorbs impacts and deforms inside without it showing outside. After an impact the helmet loses its protective effect – replace it.",
+      "pt": "A carapaça absorve choques e deforma-se por dentro sem que se veja por fora. Depois de um impacto o capacete perde a proteção: deve ser substituído."
+    },
+    "image": null
+  },
+  {
+    "id": "q375",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Wie muss dein Motorradhelm sitzen?",
+      "es": "¿Cómo debe quedar tu casco de moto?",
+      "fr": "Comment ton casque de moto doit-il être placé ?",
+      "it": "Come deve calzare il tuo casco da moto?",
+      "en": "How must your motorcycle helmet fit?",
+      "pt": "Como deve assentar o teu capacete de mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Fest, mit geschlossenem Kinnriemen – er darf sich nicht nach vorne oder hinten abziehen lassen",
+          "es": "Ajustado, con la correa de barbilla abrochada: no debe poder quitarse hacia delante ni hacia atrás",
+          "fr": "Bien serré, jugulaire fermée : il ne doit pas pouvoir être retiré vers l’avant ni vers l’arrière",
+          "it": "Ben aderente, con il sottogola chiuso: non deve potersi sfilare né in avanti né indietro",
+          "en": "Snug, with the chin strap fastened – it must not be possible to pull it off forwards or backwards",
+          "pt": "Bem ajustado, com a jugular apertada: não deve poder sair para a frente nem para trás"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Locker, damit er nicht drückt – der Kinnriemen bleibt offen",
+          "es": "Holgado para que no apriete, con la correa sin abrochar",
+          "fr": "Lâche pour ne pas serrer, jugulaire ouverte",
+          "it": "Largo per non stringere, con il sottogola aperto",
+          "en": "Loose so it does not press – the chin strap stays open",
+          "pt": "Folgado para não apertar, com a jugular aberta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Kinnriemen ist nur auf der Autobahn nötig",
+          "es": "La correa solo hace falta en la autopista",
+          "fr": "La jugulaire n’est nécessaire que sur l’autoroute",
+          "it": "Il sottogola serve solo in autostrada",
+          "en": "The chin strap is only needed on the motorway",
+          "pt": "A jugular só é necessária na autoestrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein nicht richtig geschlossener oder zu grosser Helm kann beim Sturz abgestreift werden und schützt dann nicht. Immer mit geschlossenem Kinnriemen fahren, auch auf kurzen Strecken.",
+      "es": "Un casco mal abrochado o demasiado grande puede salirse en una caída y entonces no protege. Conduce siempre con la correa abrochada, también en trayectos cortos.",
+      "fr": "Un casque mal fermé ou trop grand peut se détacher lors d’une chute et ne protège alors plus. Roule toujours jugulaire fermée, même sur de courtes distances.",
+      "it": "Un casco chiuso male o troppo grande può sfilarsi in una caduta e allora non protegge. Guida sempre con il sottogola chiuso, anche sui tragitti brevi.",
+      "en": "A helmet that is not properly fastened or is too big can come off in a fall and then offers no protection. Always ride with the chin strap fastened, even on short trips.",
+      "pt": "Um capacete mal apertado ou demasiado grande pode sair numa queda e deixa de proteger. Conduz sempre com a jugular apertada, mesmo em percursos curtos."
+    },
+    "image": null
+  },
+  {
+    "id": "q376",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du machst mit dem Motorrad bei grosser Hitze eine lange Tour. Was ist sinnvoll?",
+      "es": "Haces una ruta larga con la moto con mucho calor. ¿Qué tiene sentido?",
+      "fr": "Tu fais un long trajet à moto par forte chaleur. Qu’est-ce qui est judicieux ?",
+      "it": "Fai un lungo giro in moto con molto caldo. Cosa ha senso?",
+      "en": "You make a long motorcycle tour in great heat. What makes sense?",
+      "pt": "Fazes um longo passeio de mota com muito calor. O que faz sentido?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Regelmässig Pausen einlegen und genug trinken",
+          "es": "Hacer pausas con regularidad y beber lo suficiente",
+          "fr": "Faire des pauses régulières et boire suffisamment",
+          "it": "Fare pause regolari e bere abbastanza",
+          "en": "Take regular breaks and drink enough",
+          "pt": "Fazer pausas regulares e beber o suficiente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Schutzkleidung ausziehen, damit es kühler wird",
+          "es": "Quitarse la ropa de protección para tener menos calor",
+          "fr": "Enlever l’équipement de protection pour avoir moins chaud",
+          "it": "Togliere l’abbigliamento protettivo per avere meno caldo",
+          "en": "Take off the protective clothing to cool down",
+          "pt": "Tirar o equipamento de proteção para ter menos calor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Möglichst ohne Pause durchfahren, um früher anzukommen",
+          "es": "Seguir sin parar para llegar antes",
+          "fr": "Rouler sans pause pour arriver plus tôt",
+          "it": "Guidare senza fermarsi per arrivare prima",
+          "en": "Ride without stopping to arrive sooner",
+          "pt": "Conduzir sem parar para chegar mais cedo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Hitze und Schutzkleidung ermüden schneller; Müdigkeit verlängert die Reaktionszeit. Regelmässige Pausen und viel Trinken halten die Konzentration oben – auf Schutz verzichtet man nie.",
+      "es": "El calor y la ropa de protección cansan antes, y el cansancio alarga el tiempo de reacción. Pausas regulares y mucha agua mantienen la concentración; nunca se renuncia a la protección.",
+      "fr": "La chaleur et l’équipement de protection fatiguent plus vite, et la fatigue allonge le temps de réaction. Des pauses régulières et beaucoup d’eau maintiennent la concentration ; on ne renonce jamais à la protection.",
+      "it": "Il caldo e l’abbigliamento protettivo stancano prima e la stanchezza allunga i tempi di reazione. Pause regolari e molta acqua mantengono la concentrazione; alla protezione non si rinuncia mai.",
+      "en": "Heat and protective clothing tire you faster, and fatigue lengthens reaction time. Regular breaks and plenty of water keep concentration up – you never give up protection.",
+      "pt": "O calor e o equipamento de proteção cansam mais depressa, e o cansaço aumenta o tempo de reação. Pausas regulares e muita água mantêm a concentração; nunca se abdica da proteção."
+    },
+    "image": null
+  },
+  {
+    "id": "q377",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Wie viele Kontrollschilder trägt ein Motorrad?",
+      "es": "¿Cuántas matrículas lleva una moto?",
+      "fr": "Combien de plaques de contrôle une moto porte-t-elle ?",
+      "it": "Quante targhe porta una moto?",
+      "en": "How many number plates does a motorcycle carry?",
+      "pt": "Quantas matrículas leva uma mota?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eines, hinten",
+          "es": "Una, en la parte trasera",
+          "fr": "Une, à l’arrière",
+          "it": "Una, dietro",
+          "en": "One, at the rear",
+          "pt": "Uma, atrás"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Zwei, vorne und hinten",
+          "es": "Dos, delante y detrás",
+          "fr": "Deux, à l’avant et à l’arrière",
+          "it": "Due, davanti e dietro",
+          "en": "Two, front and rear",
+          "pt": "Duas, à frente e atrás"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Keines – nur eine Vignette",
+          "es": "Ninguna, solo una viñeta",
+          "fr": "Aucune, seulement une vignette",
+          "it": "Nessuna, solo un contrassegno",
+          "en": "None – only a vignette",
+          "pt": "Nenhuma, apenas uma vinheta"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Motorräder führen nur hinten ein Kontrollschild. Motorfahrräder (Mofas) tragen statt eines Kontrollschildes eine Vignette.",
+      "es": "Las motos llevan matrícula solo atrás. Los ciclomotores llevan una viñeta en lugar de matrícula.",
+      "fr": "Les motos ne portent une plaque qu’à l’arrière. Les cyclomoteurs portent une vignette au lieu d’une plaque.",
+      "it": "Le moto portano la targa solo dietro. I ciclomotori portano un contrassegno al posto della targa.",
+      "en": "Motorcycles carry a number plate at the rear only. Mopeds (Motorfahrräder) carry a vignette instead of a plate.",
+      "pt": "As motas levam matrícula apenas atrás. Os ciclomotores levam uma vinheta em vez de matrícula."
+    },
+    "image": null
+  },
+  {
+    "id": "q378",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du musst mit dem Motorrad auf engem Raum langsam manövrieren oder wenden. Wie bleibt das Motorrad stabil?",
+      "es": "Tienes que maniobrar despacio o dar la vuelta con la moto en poco espacio. ¿Cómo se mantiene estable?",
+      "fr": "Tu dois manœuvrer lentement ou faire demi-tour à moto sur un espace étroit. Comment la moto reste-t-elle stable ?",
+      "it": "Devi manovrare lentamente o invertire la marcia in moto in poco spazio. Come resta stabile la moto?",
+      "en": "You have to manoeuvre slowly or turn around on your motorcycle in tight space. How does it stay stable?",
+      "pt": "Tens de manobrar devagar ou inverter a marcha de mota em pouco espaço. Como se mantém estável?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Blick in Fahrtrichtung, Gas halten, Kupplung leicht schleifen lassen und mit der Hinterradbremse dosieren",
+          "es": "Mirar en el sentido de la marcha, mantener el gas, dejar patinar levemente el embrague y dosificar con el freno trasero",
+          "fr": "Regarder dans le sens de la marche, garder le gaz, laisser légèrement patiner l’embrayage et doser avec le frein arrière",
+          "it": "Guardare nella direzione di marcia, mantenere il gas, far slittare leggermente la frizione e dosare con il freno posteriore",
+          "en": "Look in the direction of travel, keep the throttle open, slip the clutch slightly and control speed with the rear brake",
+          "pt": "Olhar na direção da marcha, manter o acelerador, deixar a embraiagem patinar ligeiramente e dosear com o travão traseiro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Auf das Vorderrad schauen und den Lenker voll einschlagen",
+          "es": "Mirar la rueda delantera y girar el manillar a tope",
+          "fr": "Regarder la roue avant et braquer le guidon à fond",
+          "it": "Guardare la ruota anteriore e girare il manubrio a fondo",
+          "en": "Look at the front wheel and turn the handlebars to full lock",
+          "pt": "Olhar para a roda da frente e rodar o guiador até ao fim"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Vorderradbremse ziehen und mit den Füssen abstützen",
+          "es": "Tirar del freno delantero y apoyarse con los pies",
+          "fr": "Serrer le frein avant et s’appuyer avec les pieds",
+          "it": "Tirare il freno anteriore e appoggiarsi con i piedi",
+          "en": "Pull the front brake and support yourself with your feet",
+          "pt": "Apertar o travão da frente e apoiar-se com os pés"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Schritttempo stabilisiert Gas und leicht schleifende Kupplung das Motorrad, die Hinterradbremse dosiert die Geschwindigkeit. Der Blick bestimmt die Richtung – nicht auf das Vorderrad starren.",
+      "es": "A paso lento, el gas y el embrague ligeramente patinando estabilizan la moto, y el freno trasero dosifica la velocidad. La mirada marca la dirección: no te fijes en la rueda delantera.",
+      "fr": "Au pas, le gaz et l’embrayage légèrement patinant stabilisent la moto, et le frein arrière dose la vitesse. Le regard détermine la direction : ne fixe pas la roue avant.",
+      "it": "A passo d’uomo, il gas e la frizione leggermente slittante stabilizzano la moto, mentre il freno posteriore dosa la velocità. Lo sguardo decide la direzione: non fissare la ruota anteriore.",
+      "en": "At walking pace, throttle and a slightly slipping clutch stabilise the bike, and the rear brake controls speed. Your eyes decide direction – do not stare at the front wheel.",
+      "pt": "A passo, o acelerador e a embraiagem a patinar ligeiramente estabilizam a mota, e o travão traseiro doseia a velocidade. O olhar define a direção: não fixes a roda da frente."
+    },
+    "image": null
+  },
+  {
+    "id": "q379",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Dein Motorrad hat ABS. Was bedeutet das?",
+      "es": "Tu moto tiene ABS. ¿Qué significa eso?",
+      "fr": "Ta moto est équipée de l’ABS. Qu’est-ce que cela signifie ?",
+      "it": "La tua moto ha l’ABS. Cosa significa?",
+      "en": "Your motorcycle has ABS. What does that mean?",
+      "pt": "A tua mota tem ABS. O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die Räder blockieren beim Bremsen weniger schnell – vorausschauend fahren muss ich trotzdem",
+          "es": "Las ruedas se bloquean menos al frenar, pero aun así debo conducir con previsión",
+          "fr": "Les roues se bloquent moins vite au freinage, mais je dois quand même anticiper",
+          "it": "Le ruote si bloccano meno facilmente in frenata, ma devo comunque guidare con previdenza",
+          "en": "The wheels lock less easily when braking – I still have to ride with foresight",
+          "pt": "As rodas bloqueiam menos facilmente ao travar, mas devo conduzir com antecipação na mesma"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich kann in jeder Schräglage voll bremsen, ohne zu stürzen",
+          "es": "Puedo frenar a fondo con cualquier inclinación sin caerme",
+          "fr": "Je peux freiner à fond dans n’importe quelle inclinaison sans chuter",
+          "it": "Posso frenare a fondo con qualsiasi inclinazione senza cadere",
+          "en": "I can brake fully at any lean angle without falling",
+          "pt": "Posso travar a fundo com qualquer inclinação sem cair"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Bremsweg ist immer kürzer, egal auf welchem Untergrund",
+          "es": "La distancia de frenado siempre es menor, sea cual sea el suelo",
+          "fr": "La distance de freinage est toujours plus courte, quel que soit le sol",
+          "it": "Lo spazio di frenata è sempre più corto, qualunque sia il fondo",
+          "en": "The braking distance is always shorter, whatever the surface",
+          "pt": "A distância de travagem é sempre menor, seja qual for o piso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "ABS verhindert das Blockieren der Räder und erhöht die Sicherheit, hebt aber die Physik nicht auf: In starker Schräglage oder auf losem Untergrund bleibt der Grip begrenzt.",
+      "es": "El ABS evita que se bloqueen las ruedas y aumenta la seguridad, pero no anula la física: con mucha inclinación o en suelo suelto el agarre sigue siendo limitado.",
+      "fr": "L’ABS évite le blocage des roues et augmente la sécurité, mais n’abolit pas la physique : en forte inclinaison ou sur sol meuble, l’adhérence reste limitée.",
+      "it": "L’ABS impedisce il bloccaggio delle ruote e aumenta la sicurezza, ma non annulla la fisica: con forte inclinazione o su fondo sciolto l’aderenza resta limitata.",
+      "en": "ABS prevents the wheels from locking and increases safety, but it does not cancel physics: at a large lean angle or on loose surfaces, grip remains limited.",
+      "pt": "O ABS evita o bloqueio das rodas e aumenta a segurança, mas não anula a física: com muita inclinação ou em piso solto a aderência continua limitada."
+    },
+    "image": null
+  },
+  {
+    "id": "q380",
+    "category": "A",
+    "topic": "motorrad",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Du fährst nachts mit dem Motorrad. Welches Visier ist geeignet?",
+      "es": "Conduces de noche con la moto. ¿Qué visera es adecuada?",
+      "fr": "Tu roules de nuit à moto. Quel écran est adapté ?",
+      "it": "Guidi di notte in moto. Quale visiera è adatta?",
+      "en": "You ride at night on your motorcycle. Which visor is suitable?",
+      "pt": "Conduzes de noite de mota. Que viseira é adequada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ein klares Visier",
+          "es": "Una visera transparente",
+          "fr": "Un écran clair",
+          "it": "Una visiera trasparente",
+          "en": "A clear visor",
+          "pt": "Uma viseira transparente"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ein getöntes Visier, es reduziert die Blendung",
+          "es": "Una visera tintada, porque reduce el deslumbramiento",
+          "fr": "Un écran teinté, car il réduit l’éblouissement",
+          "it": "Una visiera scura, perché riduce l’abbagliamento",
+          "en": "A tinted visor, because it reduces glare",
+          "pt": "Uma viseira escurecida, porque reduz o encandeamento"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Visier offen lassen, damit es nicht beschlägt",
+          "es": "Dejar la visera abierta para que no se empañe",
+          "fr": "Laisser l’écran ouvert pour qu’il ne s’embue pas",
+          "it": "Lasciare la visiera aperta perché non si appanni",
+          "en": "Leave the visor open so it does not fog up",
+          "pt": "Deixar a viseira aberta para não embaciar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Getönte Visiere schlucken Licht und verschlechtern bei Dunkelheit die Sicht deutlich. Nachts und im Tunnel gehört ein klares Visier an den Helm; offen fahren schützt Augen und Gesicht nicht.",
+      "es": "Las viseras tintadas absorben luz y empeoran claramente la visibilidad en la oscuridad. De noche y en el túnel hay que llevar una visera transparente; con la visera abierta no se protegen ojos ni cara.",
+      "fr": "Les écrans teintés absorbent la lumière et dégradent nettement la vue dans l’obscurité. De nuit et en tunnel, il faut un écran clair ; rouler écran ouvert ne protège ni les yeux ni le visage.",
+      "it": "Le visiere scure assorbono luce e peggiorano nettamente la visibilità al buio. Di notte e in galleria ci vuole una visiera trasparente; guidare a visiera aperta non protegge né occhi né viso.",
+      "en": "Tinted visors absorb light and clearly worsen vision in the dark. At night and in tunnels a clear visor is needed; riding with it open protects neither eyes nor face.",
+      "pt": "As viseiras escurecidas absorvem luz e pioram claramente a visão no escuro. De noite e em túneis deve usar-se uma viseira transparente; conduzir com ela aberta não protege os olhos nem a cara."
+    },
+    "image": null
+  },
+  {
+    "id": "q381",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du siehst diese Markierung in der Fahrbahnmitte. Was gilt?",
+      "es": "Ves esta marca en el centro de la calzada. ¿Qué rige?",
+      "fr": "Tu vois ce marquage au milieu de la chaussée. Que faut-il respecter ?",
+      "it": "Vedi questa segnaletica al centro della carreggiata. Cosa vale?",
+      "en": "You see this marking in the middle of the road. What applies?",
+      "pt": "Vês esta marca no meio da estrada. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die durchgezogene Linie darf nicht überfahren werden",
+          "es": "La línea continua no se puede cruzar",
+          "fr": "La ligne continue ne doit pas être franchie",
+          "it": "La linea continua non può essere superata",
+          "en": "The solid line must not be crossed",
+          "pt": "A linha contínua não pode ser atravessada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ich darf sie zum Überholen überfahren, wenn niemand entgegenkommt",
+          "es": "Puedo cruzarla para adelantar si no viene nadie de frente",
+          "fr": "Je peux la franchir pour dépasser si personne ne vient en face",
+          "it": "Posso superarla per sorpassare se non arriva nessuno di fronte",
+          "en": "I may cross it to overtake if nobody is coming the other way",
+          "pt": "Posso atravessá-la para ultrapassar se não vier ninguém em sentido contrário"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie markiert einen Parkplatz",
+          "es": "Marca una plaza de aparcamiento",
+          "fr": "Elle marque une place de stationnement",
+          "it": "Indica un posto auto",
+          "en": "It marks a parking space",
+          "pt": "Marca um lugar de estacionamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Sicherheitslinie (durchgezogene Linie) darf nicht überfahren werden – weder zum Überholen noch zum Spurwechseln. Sie schützt vor Gegenverkehr und unübersichtlichen Stellen.",
+      "es": "La línea de seguridad (continua) no se puede cruzar, ni para adelantar ni para cambiar de carril. Protege frente al tráfico en sentido contrario y en tramos con poca visibilidad.",
+      "fr": "La ligne de sécurité (continue) ne doit pas être franchie, ni pour dépasser ni pour changer de voie. Elle protège contre le trafic en sens inverse et dans les endroits sans visibilité.",
+      "it": "La linea di sicurezza (continua) non può essere superata, né per sorpassare né per cambiare corsia. Protegge dal traffico contrario e nei punti con scarsa visibilità.",
+      "en": "The safety line (solid line) must not be crossed, neither to overtake nor to change lane. It protects against oncoming traffic and at places with poor visibility.",
+      "pt": "A linha de segurança (contínua) não pode ser atravessada, nem para ultrapassar nem para mudar de faixa. Protege do trânsito em sentido contrário e de locais com pouca visibilidade."
+    },
+    "image": {
+      "type": "marking",
+      "id": "sicherheitslinie"
+    }
+  },
+  {
+    "id": "q382",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Welche Bedeutung hat diese unterbrochene weisse Linie?",
+      "es": "¿Qué significa esta línea blanca discontinua?",
+      "fr": "Que signifie cette ligne blanche interrompue ?",
+      "it": "Che significato ha questa linea bianca discontinua?",
+      "en": "What does this broken white line mean?",
+      "pt": "Que significa esta linha branca interrompida?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie trennt Fahrstreifen und darf überfahren werden, wenn es sicher ist",
+          "es": "Separa carriles y se puede cruzar cuando es seguro",
+          "fr": "Elle sépare les voies et peut être franchie quand c’est sûr",
+          "it": "Separa le corsie e può essere superata quando è sicuro",
+          "en": "It separates lanes and may be crossed when it is safe",
+          "pt": "Separa faixas e pode ser atravessada quando é seguro"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Überfahren ist verboten",
+          "es": "Está prohibido cruzarla",
+          "fr": "Il est interdit de la franchir",
+          "it": "È vietato superarla",
+          "en": "Crossing it is prohibited",
+          "pt": "É proibido atravessá-la"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie gilt nur für Velos",
+          "es": "Solo vale para bicicletas",
+          "fr": "Elle ne vaut que pour les vélos",
+          "it": "Vale solo per le biciclette",
+          "en": "It applies to bicycles only",
+          "pt": "Só vale para bicicletas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Leitlinie (kurze Striche) trennt Fahrstreifen. Du darfst sie zum Überholen oder Spurwechseln überfahren, wenn du niemanden gefährdest.",
+      "es": "La línea de guía (trazos cortos) separa carriles. Puedes cruzarla para adelantar o cambiar de carril si no pones a nadie en peligro.",
+      "fr": "La ligne de guidage (traits courts) sépare les voies. Tu peux la franchir pour dépasser ou changer de voie si tu ne mets personne en danger.",
+      "it": "La linea di guida (tratti corti) separa le corsie. Puoi superarla per sorpassare o cambiare corsia se non metti in pericolo nessuno.",
+      "en": "The guide line (short dashes) separates lanes. You may cross it to overtake or change lane if you endanger nobody.",
+      "pt": "A linha de guia (traços curtos) separa faixas. Podes atravessá-la para ultrapassar ou mudar de faixa se não puseres ninguém em perigo."
+    },
+    "image": {
+      "type": "marking",
+      "id": "leitlinie"
+    }
+  },
+  {
+    "id": "q383",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du näherst dich einer Linie mit langen Strichen und kurzen Lücken. Was kündigt sie an?",
+      "es": "Te acercas a una línea de trazos largos y huecos cortos. ¿Qué anuncia?",
+      "fr": "Tu t’approches d’une ligne à longs traits et courts intervalles. Qu’annonce-t-elle ?",
+      "it": "Ti avvicini a una linea con tratti lunghi e spazi brevi. Cosa annuncia?",
+      "en": "You approach a line with long dashes and short gaps. What does it announce?",
+      "pt": "Aproximas-te de uma linha com traços longos e intervalos curtos. O que anuncia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Eine Sicherheitslinie oder eine Gefahrenstelle – erhöhte Vorsicht",
+          "es": "Una línea de seguridad o un punto peligroso: precaución adicional",
+          "fr": "Une ligne de sécurité ou un endroit dangereux : prudence accrue",
+          "it": "Una linea di sicurezza o un punto pericoloso: prudenza maggiore",
+          "en": "A safety line or a danger spot – extra caution",
+          "pt": "Uma linha de segurança ou um ponto perigoso: atenção redobrada"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Den Beginn einer Tempo-30-Zone",
+          "es": "El comienzo de una zona 30",
+          "fr": "Le début d’une zone 30",
+          "it": "L’inizio di una zona 30",
+          "en": "The start of a 30 km/h zone",
+          "pt": "O início de uma zona 30"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Das Ende eines Überholverbots",
+          "es": "El final de una prohibición de adelantar",
+          "fr": "La fin d’une interdiction de dépasser",
+          "it": "La fine di un divieto di sorpasso",
+          "en": "The end of an overtaking ban",
+          "pt": "O fim de uma proibição de ultrapassar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Warnlinie hat lange Striche und kurze Lücken. Sie warnt vor einer Sicherheitslinie oder Gefahrenstelle – bald ist kein Überholen mehr möglich.",
+      "es": "La línea de advertencia tiene trazos largos y huecos cortos. Avisa de una línea de seguridad o de un punto peligroso: pronto no se podrá adelantar.",
+      "fr": "La ligne d’avertissement a de longs traits et de courts intervalles. Elle avertit d’une ligne de sécurité ou d’un endroit dangereux : bientôt, dépasser ne sera plus possible.",
+      "it": "La linea di avvertimento ha tratti lunghi e spazi brevi. Avverte di una linea di sicurezza o di un punto pericoloso: presto non si potrà più sorpassare.",
+      "en": "The warning line has long dashes and short gaps. It warns of a safety line or danger spot – soon overtaking will no longer be possible.",
+      "pt": "A linha de aviso tem traços longos e intervalos curtos. Avisa de uma linha de segurança ou de um ponto perigoso: em breve já não será possível ultrapassar."
+    },
+    "image": {
+      "type": "marking",
+      "id": "warnlinie"
+    }
+  },
+  {
+    "id": "q384",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Woran erkennst du eine Warnlinie im Vergleich zur Leitlinie?",
+      "es": "¿En qué se distingue una línea de advertencia de una de guía?",
+      "fr": "À quoi reconnais-tu une ligne d’avertissement par rapport à une ligne de guidage ?",
+      "it": "Da cosa riconosci una linea di avvertimento rispetto a una di guida?",
+      "en": "How do you tell a warning line from a guide line?",
+      "pt": "Como distingues uma linha de aviso de uma linha de guia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Bei der Warnlinie sind die Striche länger als die Lücken",
+          "es": "En la de advertencia los trazos son más largos que los huecos",
+          "fr": "Sur la ligne d’avertissement, les traits sont plus longs que les intervalles",
+          "it": "Nella linea di avvertimento i tratti sono più lunghi degli spazi",
+          "en": "On the warning line the dashes are longer than the gaps",
+          "pt": "Na linha de aviso os traços são mais longos do que os intervalos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Warnlinie ist gelb, die Leitlinie weiss",
+          "es": "La de advertencia es amarilla y la de guía blanca",
+          "fr": "La ligne d’avertissement est jaune, la ligne de guidage blanche",
+          "it": "La linea di avvertimento è gialla, quella di guida bianca",
+          "en": "The warning line is yellow, the guide line is white",
+          "pt": "A linha de aviso é amarela e a de guia branca"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Die Warnlinie ist durchgezogen, die Leitlinie unterbrochen",
+          "es": "La de advertencia es continua y la de guía discontinua",
+          "fr": "La ligne d’avertissement est continue, la ligne de guidage interrompue",
+          "it": "La linea di avvertimento è continua, quella di guida discontinua",
+          "en": "The warning line is solid, the guide line is broken",
+          "pt": "A linha de aviso é contínua e a de guia interrompida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beide sind unterbrochene weisse Linien. Bei der Leitlinie sind die Lücken länger als die Striche, bei der Warnlinie sind die Striche länger – das Zeichen für erhöhte Vorsicht.",
+      "es": "Ambas son líneas blancas discontinuas. En la de guía los huecos son más largos que los trazos; en la de advertencia, los trazos son más largos: señal de precaución.",
+      "fr": "Toutes deux sont des lignes blanches interrompues. Sur la ligne de guidage, les intervalles sont plus longs que les traits ; sur la ligne d’avertissement, les traits sont plus longs : signe de prudence accrue.",
+      "it": "Entrambe sono linee bianche discontinue. In quella di guida gli spazi sono più lunghi dei tratti; in quella di avvertimento i tratti sono più lunghi: segno di maggiore prudenza.",
+      "en": "Both are broken white lines. On the guide line the gaps are longer than the dashes; on the warning line the dashes are longer – a sign for extra caution.",
+      "pt": "Ambas são linhas brancas interrompidas. Na de guia os intervalos são mais longos do que os traços; na de aviso os traços são mais longos: sinal de atenção redobrada."
+    },
+    "image": null
+  },
+  {
+    "id": "q385",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Darfst du diese weiss schraffierte Fläche befahren?",
+      "es": "¿Puedes circular por esta superficie con rayado blanco?",
+      "fr": "As-tu le droit de rouler sur cette surface hachurée en blanc ?",
+      "it": "Puoi percorrere questa superficie tratteggiata di bianco?",
+      "en": "May you drive on this white hatched area?",
+      "pt": "Podes circular nesta superfície com riscas brancas?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, Sperrflächen dürfen nicht befahren werden",
+          "es": "No, las zonas de exclusión no se pueden pisar",
+          "fr": "Non, les zones interdites ne doivent pas être empruntées",
+          "it": "No, le zone interdette non possono essere percorse",
+          "en": "No, no-entry areas must not be driven on",
+          "pt": "Não, as zonas interditas não podem ser percorridas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, wenn ich dadurch niemanden behindere",
+          "es": "Sí, si con ello no molesto a nadie",
+          "fr": "Oui, si je ne gêne personne",
+          "it": "Sì, se così non ostacolo nessuno",
+          "en": "Yes, as long as I do not obstruct anybody",
+          "pt": "Sim, desde que não prejudique ninguém"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, um schneller zu überholen",
+          "es": "Sí, para adelantar más rápido",
+          "fr": "Oui, pour dépasser plus vite",
+          "it": "Sì, per sorpassare più in fretta",
+          "en": "Yes, to overtake faster",
+          "pt": "Sim, para ultrapassar mais depressa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Weiss schraffierte Flächen mit Sicherheitslinie sind Sperrflächen: Sie dürfen nicht befahren werden. Sie leiten den Verkehr oder schützen Inseln und Verzweigungen.",
+      "es": "Las superficies con rayado blanco y línea de seguridad son zonas de exclusión: no se pueden pisar. Guían el tráfico o protegen islas y bifurcaciones.",
+      "fr": "Les surfaces hachurées en blanc avec ligne de sécurité sont des zones interdites : on ne doit pas les emprunter. Elles guident le trafic ou protègent des îlots et des bifurcations.",
+      "it": "Le superfici tratteggiate di bianco con linea di sicurezza sono zone interdette: non si possono percorrere. Guidano il traffico o proteggono isole e biforcazioni.",
+      "en": "White hatched areas with a safety line are no-entry areas: they must not be driven on. They guide traffic or protect islands and junctions.",
+      "pt": "As superfícies com riscas brancas e linha de segurança são zonas interditas: não se pode circular nelas. Orientam o trânsito ou protegem ilhéus e bifurcações."
+    },
+    "image": {
+      "type": "marking",
+      "id": "sperrflaeche"
+    }
+  },
+  {
+    "id": "q386",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du kommst zu dieser durchgezogenen Querlinie (z. B. bei «Stop»). Wo hältst du an?",
+      "es": "Llegas a esta línea transversal continua (p. ej. en un «Stop»). ¿Dónde te detienes?",
+      "fr": "Tu arrives à cette ligne transversale continue (p. ex. à un « Stop »). Où t’arrêtes-tu ?",
+      "it": "Arrivi a questa linea trasversale continua (ad es. a uno «Stop»). Dove ti fermi?",
+      "en": "You reach this solid transverse line (e.g. at a “Stop” sign). Where do you stop?",
+      "pt": "Chegas a esta linha transversal contínua (p. ex. num «Stop»). Onde páras?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Vor der Linie",
+          "es": "Antes de la línea",
+          "fr": "Avant la ligne",
+          "it": "Prima della linea",
+          "en": "In front of the line",
+          "pt": "Antes da linha"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Mit den Vorderrädern auf der Linie, um besser zu sehen",
+          "es": "Con las ruedas delanteras sobre la línea para ver mejor",
+          "fr": "Les roues avant sur la ligne pour mieux voir",
+          "it": "Con le ruote anteriori sulla linea per vedere meglio",
+          "en": "With the front wheels on the line to see better",
+          "pt": "Com as rodas da frente sobre a linha para ver melhor"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Hinter der Linie, mitten in der Kreuzung",
+          "es": "Pasada la línea, en medio del cruce",
+          "fr": "Après la ligne, au milieu de l’intersection",
+          "it": "Oltre la linea, in mezzo all’incrocio",
+          "en": "Beyond the line, in the middle of the junction",
+          "pt": "Depois da linha, no meio do cruzamento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Haltelinie zeigt, wo du anhalten musst: vor der Linie. Wer darüber hinausrollt, blockiert den Querverkehr und Fussgängerstreifen.",
+      "es": "La línea de detención indica dónde debes parar: antes de la línea. Quien se pasa bloquea el tráfico transversal y los pasos de peatones.",
+      "fr": "La ligne d’arrêt indique où tu dois t’arrêter : avant la ligne. Qui la dépasse bloque la circulation transversale et les passages pour piétons.",
+      "it": "La linea di arresto indica dove devi fermarti: prima della linea. Chi la supera blocca il traffico trasversale e i passaggi pedonali.",
+      "en": "The stop line shows where you must stop: in front of the line. Rolling past it blocks cross traffic and pedestrian crossings.",
+      "pt": "A linha de paragem indica onde deves parar: antes da linha. Quem a ultrapassa bloqueia o trânsito transversal e as passadeiras."
+    },
+    "image": {
+      "type": "marking",
+      "id": "haltelinie"
+    }
+  },
+  {
+    "id": "q387",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Was bedeutet diese Reihe weisser Dreiecke auf der Fahrbahn?",
+      "es": "¿Qué significa esta hilera de triángulos blancos en la calzada?",
+      "fr": "Que signifie cette rangée de triangles blancs sur la chaussée ?",
+      "it": "Cosa significa questa fila di triangoli bianchi sulla carreggiata?",
+      "en": "What does this row of white triangles on the road mean?",
+      "pt": "O que significa esta fila de triângulos brancos na estrada?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Hier muss ich warten und bei Bedarf anhalten, wenn ich keinen Vortritt habe",
+          "es": "Aquí debo esperar y, si hace falta, detenerme, si no tengo prioridad",
+          "fr": "Ici je dois attendre et, au besoin, m’arrêter si je n’ai pas la priorité",
+          "it": "Qui devo attendere e, se serve, fermarmi, se non ho la precedenza",
+          "en": "Here I must wait and stop if necessary when I do not have priority",
+          "pt": "Aqui devo esperar e, se necessário, parar se não tiver prioridade"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Hier beginnt eine Sperrfläche",
+          "es": "Aquí empieza una zona de exclusión",
+          "fr": "Ici commence une zone interdite",
+          "it": "Qui inizia una zona interdetta",
+          "en": "A no-entry area begins here",
+          "pt": "Aqui começa uma zona interdita"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Hier haben Fussgänger Vortritt",
+          "es": "Aquí los peatones tienen prioridad",
+          "fr": "Ici les piétons ont la priorité",
+          "it": "Qui i pedoni hanno la precedenza",
+          "en": "Pedestrians have priority here",
+          "pt": "Aqui os peões têm prioridade"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die Wartelinie (Dreiecke) markiert die Stelle, an der du bei fehlendem Vortritt warten musst – etwa vor einem Kreisel oder bei «Kein Vortritt».",
+      "es": "La línea de espera (triángulos) marca el lugar donde debes esperar si no tienes prioridad, por ejemplo antes de una rotonda o ante «Ceda el paso».",
+      "fr": "La ligne d’attente (triangles) marque l’endroit où tu dois attendre si tu n’as pas la priorité – par exemple avant un giratoire ou à un « Cédez le passage ».",
+      "it": "La linea di attesa (triangoli) indica il punto in cui devi aspettare se non hai la precedenza, ad esempio prima di una rotatoria o a un «Dare precedenza».",
+      "en": "The give-way line (triangles) marks where you must wait if you do not have priority – for example before a roundabout or at a “Give way” sign.",
+      "pt": "A linha de espera (triângulos) marca o local onde deves esperar se não tiveres prioridade, por exemplo antes de uma rotunda ou num «Dê prioridade»."
+    },
+    "image": {
+      "type": "marking",
+      "id": "wartelinie"
+    }
+  },
+  {
+    "id": "q388",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Was bedeutet die blaue Markierung dieser Parkfelder?",
+      "es": "¿Qué significa el marcado azul de estas plazas?",
+      "fr": "Que signifie le marquage bleu de ces places ?",
+      "it": "Cosa significa la segnaletica blu di questi posti?",
+      "en": "What does the blue marking of these parking bays mean?",
+      "pt": "O que significa a marca azul destes lugares?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Parkieren nur zeitlich begrenzt und mit eingestellter Parkscheibe",
+          "es": "Estacionamiento solo con límite de tiempo y con el disco colocado",
+          "fr": "Stationnement limité dans le temps, uniquement avec le disque réglé",
+          "it": "Parcheggio solo a tempo limitato e con il disco orario impostato",
+          "en": "Parking only for a limited time and with a set parking disc",
+          "pt": "Estacionamento apenas por tempo limitado e com o disco acertado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Gratis parkieren ohne zeitliche Beschränkung",
+          "es": "Estacionar gratis sin límite de tiempo",
+          "fr": "Stationnement gratuit sans limite de temps",
+          "it": "Parcheggio gratuito senza limiti di tempo",
+          "en": "Free parking without any time limit",
+          "pt": "Estacionar grátis sem limite de tempo"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkplätze nur für Anwohner",
+          "es": "Plazas solo para residentes",
+          "fr": "Places réservées aux riverains",
+          "it": "Posti riservati ai residenti",
+          "en": "Spaces for residents only",
+          "pt": "Lugares só para residentes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In der Blauen Zone darfst du höchstens während der erlaubten Zeit parkieren und musst die Parkscheibe auf die nächste halbe Stunde nach deiner Ankunft einstellen und gut sichtbar hinlegen.",
+      "es": "En la zona azul solo puedes estacionar durante el tiempo permitido y debes poner el disco en la siguiente media hora posterior a tu llegada, bien visible.",
+      "fr": "En zone bleue, tu ne peux stationner que pendant la durée autorisée et tu dois régler le disque sur la demi-heure qui suit ton arrivée et le placer bien en vue.",
+      "it": "In zona blu puoi parcheggiare solo per il tempo consentito e devi impostare il disco sulla mezz’ora successiva al tuo arrivo e metterlo ben visibile.",
+      "en": "In the blue zone you may only park for the permitted time and must set the parking disc to the next half hour after your arrival and place it clearly visible.",
+      "pt": "Na zona azul só podes estacionar durante o tempo permitido e deves acertar o disco na meia hora seguinte à tua chegada e colocá-lo bem visível."
+    },
+    "image": {
+      "type": "marking",
+      "id": "blaue_zone"
+    }
+  },
+  {
+    "id": "q389",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Am Fahrbahnrand verläuft eine durchgezogene gelbe Linie. Was bedeutet sie?",
+      "es": "En el borde de la calzada hay una línea amarilla continua. ¿Qué significa?",
+      "fr": "Une ligne jaune continue longe le bord de la chaussée. Que signifie-t-elle ?",
+      "it": "Sul bordo della carreggiata corre una linea gialla continua. Cosa significa?",
+      "en": "A solid yellow line runs along the edge of the road. What does it mean?",
+      "pt": "Na berma da estrada há uma linha amarela contínua. O que significa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Halteverbot: hier darf weder gehalten noch parkiert werden",
+          "es": "Prohibido detenerse: aquí no se puede parar ni estacionar",
+          "fr": "Arrêt interdit : ici on ne peut ni s’arrêter ni stationner",
+          "it": "Divieto di fermata: qui non ci si può né fermare né parcheggiare",
+          "en": "No stopping: you may neither stop nor park here",
+          "pt": "Paragem proibida: aqui não se pode parar nem estacionar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Parkierverbot: kurzes Halten ist erlaubt",
+          "es": "Prohibido estacionar: se puede parar brevemente",
+          "fr": "Stationnement interdit : un arrêt bref est permis",
+          "it": "Divieto di parcheggio: una breve fermata è consentita",
+          "en": "No parking: a brief stop is allowed",
+          "pt": "Estacionamento proibido: é permitida uma paragem breve"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren erlaubt, aber nur mit Parkscheibe",
+          "es": "Se puede estacionar, pero solo con disco",
+          "fr": "Stationnement autorisé, mais seulement avec disque",
+          "it": "Parcheggio consentito, ma solo con il disco orario",
+          "en": "Parking allowed, but only with a parking disc",
+          "pt": "Estacionamento permitido, mas só com disco"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe durchgezogene Linie am Rand = Halteverbot. Auch kurzes Anhalten zum Aus- oder Einsteigen ist dort verboten.",
+      "es": "Línea amarilla continua en el borde = prohibido detenerse. Tampoco se puede parar brevemente para subir o bajar.",
+      "fr": "Ligne jaune continue en bordure = arrêt interdit. Même un arrêt bref pour monter ou descendre y est interdit.",
+      "it": "Linea gialla continua sul bordo = divieto di fermata. Anche una breve sosta per salire o scendere è vietata.",
+      "en": "Solid yellow line at the edge = no stopping. Even a brief stop to get in or out is prohibited there.",
+      "pt": "Linha amarela contínua na berma = paragem proibida. Mesmo uma paragem breve para entrar ou sair é proibida."
+    },
+    "image": {
+      "type": "marking",
+      "id": "gelb_durchgezogen"
+    }
+  },
+  {
+    "id": "q390",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Am Fahrbahnrand verläuft eine unterbrochene gelbe Linie. Was darfst du?",
+      "es": "En el borde de la calzada hay una línea amarilla discontinua. ¿Qué puedes hacer?",
+      "fr": "Une ligne jaune interrompue longe le bord de la chaussée. Que peux-tu faire ?",
+      "it": "Sul bordo della carreggiata corre una linea gialla discontinua. Cosa puoi fare?",
+      "en": "A broken yellow line runs along the edge of the road. What may you do?",
+      "pt": "Na berma da estrada há uma linha amarela interrompida. O que podes fazer?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Kurz halten (z. B. zum Aus- oder Einsteigen), aber nicht parkieren",
+          "es": "Parar brevemente (p. ej. para subir o bajar), pero no estacionar",
+          "fr": "M’arrêter brièvement (p. ex. pour monter ou descendre), mais pas stationner",
+          "it": "Fermarmi brevemente (ad es. per salire o scendere), ma non parcheggiare",
+          "en": "Stop briefly (e.g. to get in or out) but not park",
+          "pt": "Parar brevemente (p. ex. para entrar ou sair), mas não estacionar"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Nicht einmal kurz anhalten",
+          "es": "Ni siquiera parar brevemente",
+          "fr": "Même pas m’arrêter brièvement",
+          "it": "Nemmeno fermarmi brevemente",
+          "en": "Not even stop briefly",
+          "pt": "Nem sequer parar brevemente"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Beliebig lange parkieren",
+          "es": "Estacionar el tiempo que quiera",
+          "fr": "Stationner aussi longtemps que je veux",
+          "it": "Parcheggiare quanto voglio",
+          "en": "Park for as long as I like",
+          "pt": "Estacionar o tempo que quiser"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe unterbrochene Linie am Rand = Parkierverbot. Kurzes Halten (Ein- oder Aussteigen, Güter laden) ist erlaubt, solange du niemanden behinderst.",
+      "es": "Línea amarilla discontinua en el borde = prohibido estacionar. Se puede parar brevemente (subir o bajar, cargar) mientras no estorbes a nadie.",
+      "fr": "Ligne jaune interrompue en bordure = stationnement interdit. Un arrêt bref (monter, descendre, charger) est permis tant que tu ne gênes personne.",
+      "it": "Linea gialla discontinua sul bordo = divieto di parcheggio. Una breve fermata (salire, scendere, caricare) è consentita finché non intralci nessuno.",
+      "en": "Broken yellow line at the edge = no parking. A brief stop (getting in or out, loading) is allowed as long as you obstruct nobody.",
+      "pt": "Linha amarela interrompida na berma = estacionamento proibido. É permitida uma paragem breve (entrar, sair, carregar) desde que não prejudiques ninguém."
+    },
+    "image": {
+      "type": "marking",
+      "id": "gelb_unterbrochen"
+    }
+  },
+  {
+    "id": "q391",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Vor einer Bushaltestelle ist eine gelbe Zickzacklinie markiert. Was gilt?",
+      "es": "Ante una parada de autobús hay una línea amarilla en zigzag. ¿Qué rige?",
+      "fr": "Devant un arrêt de bus, une ligne jaune en zigzag est marquée. Que faut-il respecter ?",
+      "it": "Davanti a una fermata dell’autobus è tracciata una linea gialla a zigzag. Cosa vale?",
+      "en": "A yellow zigzag line is marked at a bus stop. What applies?",
+      "pt": "Junto a uma paragem de autocarro está marcada uma linha amarela em ziguezague. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Halteverbot, damit Bus oder Tram ungehindert halten können",
+          "es": "Prohibido detenerse, para que autobús y tranvía puedan parar sin obstáculos",
+          "fr": "Arrêt interdit, pour que bus et tram puissent s’arrêter sans entrave",
+          "it": "Divieto di fermata, così bus e tram possono fermarsi senza ostacoli",
+          "en": "No stopping, so that buses and trams can stop without obstruction",
+          "pt": "Paragem proibida, para que autocarros e elétricos parem sem obstáculos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Hier folgt ein Fussgängerstreifen",
+          "es": "Aquí viene un paso de peatones",
+          "fr": "Un passage pour piétons suit",
+          "it": "Segue un passaggio pedonale",
+          "en": "A pedestrian crossing follows",
+          "pt": "Segue-se uma passadeira"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren ist hier für 15 Minuten erlaubt",
+          "es": "Aquí se puede estacionar 15 minutos",
+          "fr": "Le stationnement est autorisé ici pendant 15 minutes",
+          "it": "Qui si può parcheggiare per 15 minuti",
+          "en": "Parking is allowed here for 15 minutes",
+          "pt": "Aqui é permitido estacionar durante 15 minutos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Die gelbe Zickzacklinie kennzeichnet den Haltestellenbereich und bedeutet Halteverbot. So kann das öffentliche Verkehrsmittel an den Randstein fahren.",
+      "es": "La línea amarilla en zigzag señala la zona de la parada y significa prohibido detenerse. Así el transporte público puede llegar hasta el bordillo.",
+      "fr": "La ligne jaune en zigzag signale la zone de l’arrêt et signifie arrêt interdit. Ainsi, le transport public peut s’approcher de la bordure.",
+      "it": "La linea gialla a zigzag segnala la zona della fermata e significa divieto di fermata. Così il mezzo pubblico può avvicinarsi al marciapiede.",
+      "en": "The yellow zigzag line marks the stop area and means no stopping. This lets public transport pull up to the kerb.",
+      "pt": "A linha amarela em ziguezague assinala a zona da paragem e significa paragem proibida. Assim o transporte público pode encostar ao lancil."
+    },
+    "image": {
+      "type": "marking",
+      "id": "zickzack"
+    }
+  },
+  {
+    "id": "q392",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst mit dem Auto neben einem Velostreifen mit durchgezogener gelber Linie. Darfst du ihn befahren?",
+      "es": "Conduces un coche junto a un carril bici con línea amarilla continua. ¿Puedes circular por él?",
+      "fr": "Tu roules en voiture le long d’une bande cyclable à ligne jaune continue. As-tu le droit de l’emprunter ?",
+      "it": "Guidi un’auto accanto a una corsia ciclabile con linea gialla continua. Puoi percorrerla?",
+      "en": "You drive a car next to a cycle lane with a solid yellow line. May you drive on it?",
+      "pt": "Conduzes um carro ao lado de uma faixa para bicicletas com linha amarela contínua. Podes circular nela?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nein, bei durchgezogener Linie ist der Velostreifen für Motorfahrzeuge tabu",
+          "es": "No, con línea continua el carril bici está vedado a los vehículos a motor",
+          "fr": "Non, avec une ligne continue, la bande cyclable est interdite aux véhicules à moteur",
+          "it": "No, con linea continua la corsia ciclabile è vietata ai veicoli a motore",
+          "en": "No, with a solid line the cycle lane is off limits to motor vehicles",
+          "pt": "Não, com linha contínua a faixa para bicicletas está vedada aos veículos a motor"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ja, zum Überholen eines langsamen Velos",
+          "es": "Sí, para adelantar a una bici lenta",
+          "fr": "Oui, pour dépasser un vélo lent",
+          "it": "Sì, per sorpassare una bici lenta",
+          "en": "Yes, to overtake a slow bicycle",
+          "pt": "Sim, para ultrapassar uma bicicleta lenta"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ja, wenn keine Velos in Sicht sind",
+          "es": "Sí, si no hay bicis a la vista",
+          "fr": "Oui, s’il n’y a pas de vélos en vue",
+          "it": "Sì, se non ci sono bici in vista",
+          "en": "Yes, if no bicycles are in sight",
+          "pt": "Sim, se não houver bicicletas à vista"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Velostreifen mit durchgezogener gelber Linie darf von Motorfahrzeugen nicht befahren werden. Bei unterbrochener Linie ist das nur bei Bedarf erlaubt und nur ohne Velos zu behindern.",
+      "es": "Un carril bici con línea amarilla continua no puede ser invadido por vehículos a motor. Con línea discontinua solo se permite si es necesario y sin estorbar a las bicis.",
+      "fr": "Une bande cyclable à ligne jaune continue ne peut pas être empruntée par des véhicules à moteur. Avec une ligne interrompue, seulement si nécessaire et sans gêner les vélos.",
+      "it": "Una corsia ciclabile con linea gialla continua non può essere percorsa dai veicoli a motore. Con linea discontinua solo se necessario e senza intralciare le bici.",
+      "en": "A cycle lane with a solid yellow line must not be used by motor vehicles. With a broken line it is allowed only when necessary and without obstructing cyclists.",
+      "pt": "Uma faixa para bicicletas com linha amarela contínua não pode ser usada por veículos a motor. Com linha interrompida só é permitido se necessário e sem prejudicar os ciclistas."
+    },
+    "image": {
+      "type": "marking",
+      "id": "velostreifen"
+    }
+  },
+  {
+    "id": "q393",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Auf einer Baustelle sind gelbe und weisse Markierungen sichtbar. Was gilt?",
+      "es": "En una obra se ven marcas amarillas y blancas. ¿Qué rige?",
+      "fr": "Sur un chantier, des marquages jaunes et blancs sont visibles. Que faut-il respecter ?",
+      "it": "In un cantiere si vedono segni gialli e bianchi. Cosa vale?",
+      "en": "Yellow and white markings are visible at a roadworks site. What applies?",
+      "pt": "Numa obra veem-se marcas amarelas e brancas. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Die gelben, vorübergehenden Markierungen gehen den weissen vor",
+          "es": "Las marcas amarillas, provisionales, prevalecen sobre las blancas",
+          "fr": "Les marquages jaunes, provisoires, priment sur les blancs",
+          "it": "I segni gialli, provvisori, prevalgono su quelli bianchi",
+          "en": "The yellow temporary markings take precedence over the white ones",
+          "pt": "As marcas amarelas, provisórias, prevalecem sobre as brancas"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die weissen Markierungen gelten immer, gelbe sind nur Dekoration",
+          "es": "Las blancas rigen siempre; las amarillas son solo decoración",
+          "fr": "Les marquages blancs valent toujours, les jaunes sont décoratifs",
+          "it": "Quelli bianchi valgono sempre, quelli gialli sono decorativi",
+          "en": "The white markings always apply, yellow ones are merely decoration",
+          "pt": "As brancas valem sempre; as amarelas são apenas decoração"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ich wähle die Markierung, die für mich bequemer ist",
+          "es": "Elijo la marca que me resulte más cómoda",
+          "fr": "Je choisis le marquage qui m’arrange le plus",
+          "it": "Scelgo il segno che mi è più comodo",
+          "en": "I choose whichever marking is more convenient for me",
+          "pt": "Escolho a marca que me for mais cómoda"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Gelbe Markierungen zeigen eine vorübergehende Verkehrsführung, z. B. bei Baustellen. Sie gehen den bestehenden weissen Markierungen vor.",
+      "es": "Las marcas amarillas indican una ordenación provisional del tráfico, por ejemplo en obras. Prevalecen sobre las blancas existentes.",
+      "fr": "Les marquages jaunes indiquent une signalisation provisoire du trafic, p. ex. sur les chantiers. Ils priment sur les marquages blancs existants.",
+      "it": "I segni gialli indicano una gestione provvisoria del traffico, ad es. nei cantieri. Prevalgono su quelli bianchi esistenti.",
+      "en": "Yellow markings show a temporary traffic arrangement, e.g. at roadworks. They take precedence over the existing white markings.",
+      "pt": "As marcas amarelas indicam uma organização provisória do trânsito, por exemplo em obras. Prevalecem sobre as brancas existentes."
+    },
+    "image": null
+  },
+  {
+    "id": "q394",
+    "category": "both",
+    "topic": "markierungen",
+    "type": "multiple_choice",
+    "points": 1,
+    "question": {
+      "de": "Du findest einen freien, weiss markierten Parkplatz. Was gilt?",
+      "es": "Encuentras una plaza libre marcada en blanco. ¿Qué rige?",
+      "fr": "Tu trouves une place libre marquée en blanc. Que faut-il respecter ?",
+      "it": "Trovi un posto libero marcato in bianco. Cosa vale?",
+      "en": "You find a free white-marked parking space. What applies?",
+      "pt": "Encontras um lugar livre marcado a branco. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Parkieren ist erlaubt, ausser die Signalisation beschränkt es (Gebühr, Zeit)",
+          "es": "Se puede estacionar, salvo que la señalización lo limite (tarifa, tiempo)",
+          "fr": "Le stationnement est autorisé, sauf si la signalisation le limite (taxe, durée)",
+          "it": "Il parcheggio è consentito, salvo limitazioni della segnaletica (tariffa, tempo)",
+          "en": "Parking is allowed unless the signs restrict it (fee, time)",
+          "pt": "Estacionar é permitido, salvo se a sinalização o limitar (tarifa, tempo)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Parkieren ist nur mit Parkscheibe erlaubt",
+          "es": "Solo se puede estacionar con disco",
+          "fr": "Le stationnement n’est autorisé qu’avec disque",
+          "it": "Il parcheggio è consentito solo con il disco orario",
+          "en": "Parking is only allowed with a parking disc",
+          "pt": "Só é permitido estacionar com disco"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Parkieren ist immer verboten",
+          "es": "Estacionar está siempre prohibido",
+          "fr": "Le stationnement est toujours interdit",
+          "it": "Il parcheggio è sempre vietato",
+          "en": "Parking is always prohibited",
+          "pt": "Estacionar é sempre proibido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Weiss markierte Parkfelder sind gewöhnliche Parkplätze. Achte auf Signale, die Gebühr, Höchstdauer oder Benützerkreis regeln. Die Parkscheibe brauchst du nur in der Blauen Zone.",
+      "es": "Las plazas marcadas en blanco son plazas normales. Atiende a las señales que regulan tarifa, duración máxima o usuarios. El disco solo hace falta en la zona azul.",
+      "fr": "Les places marquées en blanc sont des places ordinaires. Observe les signaux qui règlent la taxe, la durée maximale ou les usagers. Le disque n’est exigé qu’en zone bleue.",
+      "it": "I posti marcati in bianco sono posti normali. Rispetta i segnali che regolano tariffa, durata massima o utenti. Il disco serve solo in zona blu.",
+      "en": "White-marked bays are ordinary parking spaces. Watch for signs regulating the fee, maximum duration or users. You only need the disc in the blue zone.",
+      "pt": "Os lugares marcados a branco são lugares normais. Atenta aos sinais que regulam tarifa, duração máxima ou utilizadores. O disco só é necessário na zona azul."
+    },
+    "image": {
+      "type": "marking",
+      "id": "weisse_parkfelder"
+    }
+  },
+  {
+    "id": "q395",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wie lange gilt der Führerausweis auf Probe nach bestandener praktischer Prüfung?",
+      "es": "¿Cuánto dura el permiso de conducir a prueba tras aprobar el examen práctico?",
+      "fr": "Combien de temps le permis de conduire à l’essai est-il valable après l’examen pratique réussi ?",
+      "it": "Quanto dura la licenza di condurre in prova dopo aver superato l’esame pratico?",
+      "en": "How long does the probationary driving licence last after passing the practical test?",
+      "pt": "Quanto tempo dura a carta de condução a título provisório depois de passares no exame prático?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "3 Jahre",
+          "es": "3 años",
+          "fr": "3 ans",
+          "it": "3 anni",
+          "en": "3 years",
+          "pt": "3 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "1 Jahr",
+          "es": "1 año",
+          "fr": "1 an",
+          "it": "1 anno",
+          "en": "1 year",
+          "pt": "1 ano"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "5 Jahre",
+          "es": "5 años",
+          "fr": "5 ans",
+          "it": "5 anni",
+          "en": "5 years",
+          "pt": "5 anos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Nach bestandener praktischer Prüfung erhältst du zuerst den Führerausweis auf Probe. Die Probezeit dauert 3 Jahre; danach gibt es den unbefristeten Ausweis, wenn du die Auflagen erfüllt hast.",
+      "es": "Tras aprobar el examen práctico recibes primero el permiso a prueba. El período de prueba dura 3 años; después se obtiene el permiso definitivo si has cumplido los requisitos.",
+      "fr": "Après l’examen pratique, tu reçois d’abord le permis à l’essai. La période probatoire dure 3 ans ; ensuite, tu obtiens le permis définitif si tu as rempli les conditions.",
+      "it": "Dopo l’esame pratico ricevi prima la licenza in prova. Il periodo di prova dura 3 anni; poi si ottiene la licenza definitiva se sono soddisfatti i requisiti.",
+      "en": "After passing the practical test you first receive the probationary licence. The probation period lasts 3 years; afterwards you get the unrestricted licence if you have met the conditions.",
+      "pt": "Depois do exame prático recebes primeiro a carta provisória. O período probatório dura 3 anos; depois obténs a carta definitiva se cumpriste os requisitos."
+    },
+    "image": null
+  },
+  {
+    "id": "q396",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du hast den Führerausweis auf Probe und musst den Ausweis wegen einer Widerhandlung abgeben. Was geschieht mit der Probezeit?",
+      "es": "Tienes el permiso a prueba y te retiran el carné por una infracción. ¿Qué ocurre con el período de prueba?",
+      "fr": "Tu as le permis à l’essai et ton permis est retiré à la suite d’une infraction. Que devient la période probatoire ?",
+      "it": "Hai la licenza in prova e ti viene ritirata la patente per un’infrazione. Cosa succede al periodo di prova?",
+      "en": "You hold a probationary licence and it is withdrawn because of an offence. What happens to the probation period?",
+      "pt": "Tens a carta provisória e ela é apreendida por uma infração. O que acontece ao período probatório?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Sie verlängert sich um 1 Jahr",
+          "es": "Se prolonga 1 año",
+          "fr": "Elle est prolongée d’un an",
+          "it": "Si prolunga di 1 anno",
+          "en": "It is extended by 1 year",
+          "pt": "Prolonga-se por 1 ano"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Sie wird verkürzt",
+          "es": "Se acorta",
+          "fr": "Elle est raccourcie",
+          "it": "Si accorcia",
+          "en": "It is shortened",
+          "pt": "Encurta-se"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Sie bleibt unverändert",
+          "es": "Queda igual",
+          "fr": "Elle reste inchangée",
+          "it": "Resta invariata",
+          "en": "It stays unchanged",
+          "pt": "Mantém-se igual"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Wird der Ausweis in der Probezeit wegen einer Widerhandlung entzogen, verlängert sich die Probezeit um 1 Jahr. Ein zweiter Entzug führt zur Annullierung des Ausweises.",
+      "es": "Si el permiso se retira durante el período de prueba por una infracción, este se prolonga 1 año. Una segunda retirada conlleva la anulación del permiso.",
+      "fr": "Si le permis est retiré pendant la période probatoire à la suite d’une infraction, celle-ci est prolongée d’un an. Un deuxième retrait entraîne l’annulation du permis.",
+      "it": "Se la patente viene ritirata durante il periodo di prova per un’infrazione, questo si prolunga di 1 anno. Un secondo ritiro comporta l’annullamento della licenza.",
+      "en": "If the licence is withdrawn during probation because of an offence, the probation period is extended by 1 year. A second withdrawal leads to the licence being annulled.",
+      "pt": "Se a carta for apreendida durante o período probatório por uma infração, este prolonga-se por 1 ano. Uma segunda apreensão leva à anulação da carta."
+    },
+    "image": null
+  },
+  {
+    "id": "q397",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ein Neulenker verliert in der Probezeit zum zweiten Mal den Ausweis wegen einer Widerhandlung. Was gilt?",
+      "es": "Un conductor novel pierde por segunda vez el permiso durante el período de prueba por una infracción. ¿Qué ocurre?",
+      "fr": "Un nouveau conducteur perd pour la deuxième fois son permis pendant la période probatoire à cause d’une infraction. Que se passe-t-il ?",
+      "it": "Un neopatentato perde per la seconda volta la patente durante il periodo di prova a causa di un’infrazione. Cosa succede?",
+      "en": "A new driver loses the licence for the second time during probation because of an offence. What applies?",
+      "pt": "Um condutor novo perde pela segunda vez a carta durante o período probatório por uma infração. O que se aplica?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Ausweis wird annulliert – die Person muss nochmals mit Lernfahrausweis und Prüfungen von vorn beginnen",
+          "es": "El permiso se anula: hay que empezar de nuevo con permiso de aprendizaje y exámenes",
+          "fr": "Le permis est annulé : il faut repartir de zéro avec permis d’élève et examens",
+          "it": "La patente viene annullata: si deve ricominciare da capo con foglio rosa ed esami",
+          "en": "The licence is annulled – the person must start over with a learner licence and tests",
+          "pt": "A carta é anulada: é preciso recomeçar do zero com licença de aprendizagem e exames"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Die Probezeit wird nochmals um 1 Jahr verlängert",
+          "es": "El período de prueba se prolonga otro año",
+          "fr": "La période probatoire est prolongée d’un an encore",
+          "it": "Il periodo di prova viene prolungato di un altro anno",
+          "en": "The probation period is extended by another year",
+          "pt": "O período probatório é prolongado por mais 1 ano"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Es geschieht nichts, wenn die Busse bezahlt ist",
+          "es": "No ocurre nada si se paga la multa",
+          "fr": "Rien ne se passe si l’amende est payée",
+          "it": "Non succede nulla se la multa è pagata",
+          "en": "Nothing happens once the fine is paid",
+          "pt": "Nada acontece se a multa for paga"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim zweiten Entzug in der Probezeit verfällt der Führerausweis (Annullierung). Nach einer Sperrfrist gibt es einen neuen Lernfahrausweis; Theorie- und Praxisprüfung sind erneut abzulegen.",
+      "es": "Con la segunda retirada en el período de prueba el permiso caduca (anulación). Tras un plazo de espera se obtiene un nuevo permiso de aprendizaje y hay que repetir los exámenes teórico y práctico.",
+      "fr": "Lors du deuxième retrait pendant la période probatoire, le permis est annulé. Après un délai d’attente, un nouveau permis d’élève est délivré ; les examens théorique et pratique sont à repasser.",
+      "it": "Al secondo ritiro durante il periodo di prova la patente decade (annullamento). Dopo un periodo di attesa si ottiene un nuovo foglio rosa e vanno ripetuti gli esami teorico e pratico.",
+      "en": "With a second withdrawal during probation the licence is annulled. After a waiting period a new learner licence is issued, and the theory and practical tests must be taken again.",
+      "pt": "Na segunda apreensão durante o período probatório a carta é anulada. Após um prazo de espera obtém-se nova licença de aprendizagem e é preciso repetir os exames teórico e prático."
+    },
+    "image": null
+  },
+  {
+    "id": "q398",
+    "category": "both",
+    "topic": "probezeit",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Bis wann musst du den obligatorischen Weiterausbildungskurs (WAB) besuchen, wenn du den Führerausweis auf Probe hast?",
+      "es": "¿Hasta cuándo debes hacer el curso de formación continua (WAB) obligatorio si tienes el permiso a prueba?",
+      "fr": "Jusqu’à quand dois-tu suivre le cours de formation complémentaire (WAB) obligatoire si tu as le permis à l’essai ?",
+      "it": "Entro quando devi frequentare il corso di perfezionamento (WAB) obbligatorio se hai la licenza in prova?",
+      "en": "By when must you attend the compulsory further-training course (WAB) if you hold the probationary licence?",
+      "pt": "Até quando deves frequentar o curso de formação complementar (WAB) obrigatório se tens a carta provisória?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Innerhalb von 12 Monaten nach bestandener Prüfung",
+          "es": "En los 12 meses siguientes a aprobar el examen",
+          "fr": "Dans les 12 mois qui suivent l’examen réussi",
+          "it": "Entro 12 mesi dal superamento dell’esame",
+          "en": "Within 12 months of passing the test",
+          "pt": "No prazo de 12 meses após passares no exame"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Erst am Ende der dreijährigen Probezeit",
+          "es": "Solo al final de los tres años de prueba",
+          "fr": "Seulement à la fin des trois ans de période probatoire",
+          "it": "Solo alla fine dei tre anni di prova",
+          "en": "Only at the end of the three-year probation",
+          "pt": "Só no fim dos três anos de período probatório"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Kurs ist freiwillig",
+          "es": "El curso es voluntario",
+          "fr": "Le cours est facultatif",
+          "it": "Il corso è facoltativo",
+          "en": "The course is voluntary",
+          "pt": "O curso é facultativo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Der WAB-Kurs ist für alle mit Ausweis auf Probe obligatorisch und muss innerhalb der ersten 12 Monate besucht werden. Wer ihn nicht rechtzeitig macht, riskiert die Annullierung des Ausweises.",
+      "es": "El curso WAB es obligatorio para todos los titulares del permiso a prueba y debe hacerse en los primeros 12 meses. Quien no lo hace a tiempo corre el riesgo de que se anule el permiso.",
+      "fr": "Le cours WAB est obligatoire pour tous les titulaires du permis à l’essai et doit être suivi dans les 12 premiers mois. Qui ne le fait pas à temps risque l’annulation du permis.",
+      "it": "Il corso WAB è obbligatorio per tutti i titolari della licenza in prova e va frequentato entro i primi 12 mesi. Chi non lo fa in tempo rischia l’annullamento della licenza.",
+      "en": "The WAB course is compulsory for everyone with a probationary licence and must be attended within the first 12 months. Missing the deadline risks the licence being annulled.",
+      "pt": "O curso WAB é obrigatório para todos os titulares da carta provisória e tem de ser feito nos primeiros 12 meses. Quem não o faz a tempo corre o risco de ver a carta anulada."
+    },
+    "image": null
+  },
+  {
+    "id": "q399",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Dein Auto hat Spurhalteassistent und adaptiven Tempomat. Wer ist für das Fahren verantwortlich?",
+      "es": "Tu coche tiene asistente de mantenimiento de carril y control de crucero adaptativo. ¿Quién es responsable de la conducción?",
+      "fr": "Ta voiture est équipée d’un assistant de maintien de voie et d’un régulateur de vitesse adaptatif. Qui est responsable de la conduite ?",
+      "it": "La tua auto ha l’assistente di mantenimento della corsia e il cruise control adattivo. Chi è responsabile della guida?",
+      "en": "Your car has lane-keeping assist and adaptive cruise control. Who is responsible for driving?",
+      "pt": "O teu carro tem assistente de manutenção de faixa e controlo de velocidade adaptativo. Quem é responsável pela condução?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Immer ich als Fahrzeugführer – ich muss das Fahrzeug jederzeit beherrschen und eingreifen können",
+          "es": "Siempre yo como conductor: debo dominar el vehículo en todo momento y poder intervenir",
+          "fr": "Toujours moi en tant que conducteur : je dois maîtriser le véhicule en tout temps et pouvoir intervenir",
+          "it": "Sempre io come conducente: devo dominare il veicolo in ogni momento e poter intervenire",
+          "en": "Always me as the driver – I must be in control of the vehicle at all times and able to intervene",
+          "pt": "Sempre eu como condutor: devo dominar o veículo em qualquer momento e poder intervir"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Das Assistenzsystem, solange es eingeschaltet ist",
+          "es": "El sistema de asistencia mientras esté conectado",
+          "fr": "Le système d’assistance tant qu’il est activé",
+          "it": "Il sistema di assistenza finché è attivo",
+          "en": "The assistance system, as long as it is switched on",
+          "pt": "O sistema de assistência enquanto estiver ligado"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Der Fahrzeughersteller",
+          "es": "El fabricante del vehículo",
+          "fr": "Le constructeur du véhicule",
+          "it": "Il costruttore del veicolo",
+          "en": "The vehicle manufacturer",
+          "pt": "O fabricante do veículo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Assistenzsysteme unterstützen, entlasten dich aber nicht von der Verantwortung. Als Fahrzeugführer musst du dein Fahrzeug jederzeit beherrschen, aufmerksam bleiben und notfalls selbst bremsen oder lenken.",
+      "es": "Los sistemas de asistencia ayudan, pero no te eximen de la responsabilidad. Como conductor debes dominar el vehículo en todo momento, mantener la atención y, si hace falta, frenar o girar tú mismo.",
+      "fr": "Les systèmes d’assistance aident, mais ne te dégagent pas de ta responsabilité. En tant que conducteur, tu dois maîtriser ton véhicule en tout temps, rester attentif et, au besoin, freiner ou braquer toi-même.",
+      "it": "I sistemi di assistenza aiutano, ma non ti sollevano dalla responsabilità. Come conducente devi dominare il veicolo in ogni momento, restare attento e, se serve, frenare o sterzare tu stesso.",
+      "en": "Assistance systems help, but they do not relieve you of responsibility. As the driver you must be in control of your vehicle at all times, stay alert and brake or steer yourself if necessary.",
+      "pt": "Os sistemas de assistência ajudam, mas não te isentam da responsabilidade. Como condutor deves dominar o veículo em qualquer momento, manter-te atento e, se for preciso, travar ou virar tu próprio."
+    },
+    "image": null
+  },
+  {
+    "id": "q400",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du willst ein Kind in einem rückwärtsgerichteten Kindersitz auf dem Beifahrersitz mitnehmen. Was ist zu beachten?",
+      "es": "Quieres llevar a un niño en una silla a contramarcha en el asiento del copiloto. ¿Qué hay que tener en cuenta?",
+      "fr": "Tu veux transporter un enfant dans un siège dos à la route sur le siège passager. À quoi faut-il faire attention ?",
+      "it": "Vuoi trasportare un bambino in un seggiolino rivolto all’indietro sul sedile del passeggero. Cosa devi considerare?",
+      "en": "You want to carry a child in a rear-facing child seat on the front passenger seat. What must you consider?",
+      "pt": "Queres transportar uma criança numa cadeira virada para trás no lugar do pendura. O que deves ter em conta?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Der Beifahrer-Airbag muss ausgeschaltet sein",
+          "es": "El airbag del acompañante debe estar desactivado",
+          "fr": "L’airbag passager doit être désactivé",
+          "it": "L’airbag del passeggero deve essere disattivato",
+          "en": "The front passenger airbag must be switched off",
+          "pt": "O airbag do pendura tem de estar desligado"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Der Airbag bleibt eingeschaltet, er schützt das Kind zusätzlich",
+          "es": "El airbag sigue activado: protege además al niño",
+          "fr": "L’airbag reste activé, il protège l’enfant en plus",
+          "it": "L’airbag resta attivo: protegge ulteriormente il bambino",
+          "en": "The airbag stays on because it protects the child additionally",
+          "pt": "O airbag fica ligado porque protege ainda mais a criança"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Rückwärtsgerichtete Sitze sind auf dem Beifahrersitz verboten",
+          "es": "Las sillas a contramarcha están prohibidas en el asiento del copiloto",
+          "fr": "Les sièges dos à la route sont interdits sur le siège passager",
+          "it": "I seggiolini rivolti all’indietro sono vietati sul sedile del passeggero",
+          "en": "Rear-facing seats are prohibited on the front passenger seat",
+          "pt": "As cadeiras viradas para trás são proibidas no lugar do pendura"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Bei einem rückwärtsgerichteten Kindersitz auf dem Beifahrersitz würde der sich öffnende Airbag mit grosser Wucht gegen den Sitz schlagen und das Kind lebensgefährlich verletzen – er muss deaktiviert sein.",
+      "es": "Con una silla a contramarcha en el asiento del copiloto, el airbag al desplegarse golpearía el asiento con gran fuerza y pondría en peligro la vida del niño: debe estar desactivado.",
+      "fr": "Avec un siège dos à la route sur le siège passager, l’airbag, en se déployant, frapperait le siège avec une grande force et mettrait la vie de l’enfant en danger : il doit être désactivé.",
+      "it": "Con un seggiolino rivolto all’indietro sul sedile del passeggero, l’airbag aprendosi colpirebbe il seggiolino con grande forza mettendo in pericolo la vita del bambino: deve essere disattivato.",
+      "en": "With a rear-facing seat on the front passenger seat, the inflating airbag would hit the seat with great force and endanger the child’s life – it must be deactivated.",
+      "pt": "Com uma cadeira virada para trás no lugar do pendura, o airbag ao inflar bateria na cadeira com grande força e poria a vida da criança em risco: tem de estar desativado."
+    },
+    "image": null
+  },
+  {
+    "id": "q401",
+    "category": "both",
+    "topic": "assistenz",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Bei Nässe bricht das Heck deines Autos in der Kurve aus (Übersteuern). Was tust du?",
+      "es": "Con lluvia, la parte trasera de tu coche se desliza en la curva (sobreviraje). ¿Qué haces?",
+      "fr": "Sur chaussée mouillée, l’arrière de ta voiture dérape dans le virage (survirage). Que fais-tu ?",
+      "it": "Con il bagnato il posteriore della tua auto scivola in curva (sovrasterzo). Cosa fai?",
+      "en": "On a wet road the rear of your car slides out in a bend (oversteer). What do you do?",
+      "pt": "Com piso molhado, a traseira do teu carro derrapa na curva (sobreviragem). O que fazes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Gas wegnehmen und in Richtung des ausbrechenden Hecks gegenlenken – nicht hart bremsen",
+          "es": "Soltar el acelerador y contravolantear hacia el lado donde se va la trasera, sin frenar bruscamente",
+          "fr": "Lever le pied de l’accélérateur et contre-braquer du côté où part l’arrière, sans freiner brutalement",
+          "it": "Sollevare il piede dall’acceleratore e controsterzare verso il lato in cui scivola il posteriore, senza frenare bruscamente",
+          "en": "Ease off the throttle and steer into the direction the rear is sliding – do not brake hard",
+          "pt": "Tirar o pé do acelerador e contra-virar para o lado para onde a traseira escorrega, sem travar a fundo"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Voll bremsen und das Lenkrad festhalten",
+          "es": "Frenar a fondo y sujetar el volante",
+          "fr": "Freiner à fond et tenir fermement le volant",
+          "it": "Frenare a fondo e tenere saldo il volante",
+          "en": "Brake fully and hold the steering wheel firmly",
+          "pt": "Travar a fundo e segurar o volante com força"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Stark beschleunigen, um wieder Grip zu bekommen",
+          "es": "Acelerar fuerte para recuperar agarre",
+          "fr": "Accélérer fort pour retrouver de l’adhérence",
+          "it": "Accelerare forte per ritrovare aderenza",
+          "en": "Accelerate hard to regain grip",
+          "pt": "Acelerar a fundo para recuperar aderência"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Beim Ausbrechen des Hecks hilft sanftes Gaswegnehmen und Gegenlenken in die Richtung, in die das Heck rutscht. Hartes Bremsen oder Gasgeben verschärft das Schleudern; ESP unterstützt, ersetzt aber nicht die angepasste Fahrweise.",
+      "es": "Cuando se va la trasera ayuda soltar suavemente el acelerador y contravolantear hacia el lado del deslizamiento. Frenar o acelerar bruscamente agrava el derrape; el ESP ayuda, pero no sustituye una conducción adaptada.",
+      "fr": "Quand l’arrière part, il faut lever doucement le pied et contre-braquer du côté du dérapage. Un freinage ou une accélération brutale aggrave le dérapage ; l’ESP aide mais ne remplace pas une conduite adaptée.",
+      "it": "Quando il posteriore scivola aiuta sollevare dolcemente il piede dall’acceleratore e controsterzare dal lato dello scivolamento. Frenare o accelerare bruscamente peggiora lo slittamento; l’ESP aiuta ma non sostituisce una guida adeguata.",
+      "en": "When the rear slides, easing off the throttle gently and steering into the slide helps. Hard braking or accelerating makes the skid worse; ESP assists but does not replace an adapted driving style.",
+      "pt": "Quando a traseira derrapa, ajuda tirar suavemente o pé do acelerador e contra-virar para o lado da derrapagem. Travar ou acelerar com força agrava a derrapagem; o ESP ajuda, mas não substitui uma condução adaptada."
+    },
+    "image": null
+  },
+  {
+    "id": "q402",
+    "category": "both",
+    "topic": "fahrzeug",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Wann muss ein neuer Personenwagen in der Schweiz zur ersten periodischen Fahrzeugprüfung (MFK)?",
+      "es": "¿Cuándo debe pasar un turismo nuevo en Suiza su primera inspección periódica (MFK)?",
+      "fr": "Quand une voiture de tourisme neuve doit-elle passer son premier contrôle périodique (MFK) en Suisse ?",
+      "it": "Quando un’auto nuova deve sottoporsi in Svizzera alla prima revisione periodica (MFK)?",
+      "en": "When must a new passenger car in Switzerland go to its first periodic inspection (MFK)?",
+      "pt": "Quando é que um automóvel novo na Suíça tem de ir à primeira inspeção periódica (MFK)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Nach 4 Jahren – danach nach 3 Jahren und dann alle 2 Jahre",
+          "es": "Tras 4 años; luego a los 3 años y después cada 2 años",
+          "fr": "Après 4 ans, puis après 3 ans, ensuite tous les 2 ans",
+          "it": "Dopo 4 anni, poi dopo 3 anni e quindi ogni 2 anni",
+          "en": "After 4 years – then after 3 years and then every 2 years",
+          "pt": "Aos 4 anos; depois aos 3 anos e a seguir de 2 em 2 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Jedes Jahr ab dem ersten Tag",
+          "es": "Cada año desde el primer día",
+          "fr": "Chaque année dès le premier jour",
+          "it": "Ogni anno dal primo giorno",
+          "en": "Every year from day one",
+          "pt": "Todos os anos desde o primeiro dia"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Nur wenn die Polizei es verlangt",
+          "es": "Solo si lo exige la policía",
+          "fr": "Seulement si la police l’exige",
+          "it": "Solo se lo richiede la polizia",
+          "en": "Only if the police require it",
+          "pt": "Só se a polícia o exigir"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Neue Personenwagen müssen nach 4 Jahren erstmals zur amtlichen Prüfung, dann nach weiteren 3 Jahren und anschliessend alle 2 Jahre. Das Strassenverkehrsamt bietet dich dazu auf.",
+      "es": "Los turismos nuevos pasan la primera inspección oficial a los 4 años, luego 3 años más tarde y después cada 2 años. La oficina de tráfico te cita para ello.",
+      "fr": "Les voitures de tourisme neuves passent leur premier contrôle officiel après 4 ans, puis 3 ans plus tard et ensuite tous les 2 ans. Le service des automobiles te convoque.",
+      "it": "Le auto nuove vanno alla prima verifica ufficiale dopo 4 anni, poi dopo altri 3 anni e quindi ogni 2 anni. L’ufficio della circolazione ti convoca.",
+      "en": "New passenger cars go to their first official inspection after 4 years, then 3 years later and every 2 years after that. The road traffic office summons you.",
+      "pt": "Os automóveis novos vão à primeira inspeção oficial aos 4 anos, depois 3 anos mais tarde e a seguir de 2 em 2 anos. O serviço de viação convoca-te."
+    },
+    "image": null
+  },
+  {
+    "id": "q403",
+    "category": "both",
+    "topic": "geschwindigkeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Du fährst in einer Tempo-30-Zone und kommst an eine Einmündung ohne Signale. Wer hat Vortritt?",
+      "es": "Circulas por una zona 30 y llegas a un cruce sin señales. ¿Quién tiene prioridad?",
+      "fr": "Tu roules dans une zone 30 et arrives à une jonction sans signaux. Qui a la priorité ?",
+      "it": "Circoli in una zona 30 e arrivi a un incrocio senza segnali. Chi ha la precedenza?",
+      "en": "You drive in a 30 km/h zone and reach a junction without signs. Who has priority?",
+      "pt": "Circulas numa zona 30 e chegas a um cruzamento sem sinais. Quem tem prioridade?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Es gilt der Rechtsvortritt, wie üblich ohne Signalisation",
+          "es": "Rige la prioridad de la derecha, como de costumbre sin señalización",
+          "fr": "La priorité de droite s’applique, comme d’habitude sans signalisation",
+          "it": "Vale la precedenza da destra, come di consueto senza segnaletica",
+          "en": "The right-of-way-from-the-right rule applies, as usual without signs",
+          "pt": "Aplica-se a prioridade da direita, como é habitual sem sinalização"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Wer schneller fährt",
+          "es": "Quien va más rápido",
+          "fr": "Celui qui roule le plus vite",
+          "it": "Chi va più veloce",
+          "en": "Whoever drives faster",
+          "pt": "Quem vai mais depressa"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Wer zuerst ankommt",
+          "es": "Quien llegue primero",
+          "fr": "Celui qui arrive le premier",
+          "it": "Chi arriva per primo",
+          "en": "Whoever arrives first",
+          "pt": "Quem chegar primeiro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "In Tempo-30-Zonen gibt es in der Regel keine Vortrittssignale: Es gilt der Rechtsvortritt wie überall, wo nichts anderes signalisiert ist.",
+      "es": "En las zonas 30 normalmente no hay señales de prioridad: rige la prioridad de la derecha, como en cualquier sitio donde no se indique otra cosa.",
+      "fr": "Dans les zones 30, il n’y a en principe pas de signaux de priorité : la priorité de droite s’applique, comme partout où rien d’autre n’est signalé.",
+      "it": "Nelle zone 30 di norma non ci sono segnali di precedenza: vale la precedenza da destra, come ovunque non sia segnalato altro.",
+      "en": "In 30 km/h zones there are usually no priority signs: the right-of-way-from-the-right rule applies, as everywhere where nothing else is signposted.",
+      "pt": "Nas zonas 30 normalmente não há sinais de prioridade: aplica-se a prioridade da direita, como em qualquer sítio onde nada mais esteja sinalizado."
+    },
+    "image": null
+  },
+  {
+    "id": "q404",
+    "category": "both",
+    "topic": "geschwindigkeit",
+    "type": "multiple_choice",
+    "points": 3,
+    "question": {
+      "de": "Ab welcher Geschwindigkeit innerorts (Limit 50 km/h) gilt in der Schweiz ein Raserdelikt?",
+      "es": "¿A partir de qué velocidad dentro de poblado (límite 50 km/h) hay en Suiza delito de exceso de velocidad extremo (Raserdelikt)?",
+      "fr": "À partir de quelle vitesse en localité (limite 50 km/h) y a-t-il en Suisse un délit de chauffard (Raserdelikt) ?",
+      "it": "A partire da quale velocità nei centri abitati (limite 50 km/h) in Svizzera si configura il reato di “pirata della strada” (Raserdelikt)?",
+      "en": "From what speed in a built-up area (limit 50 km/h) is there a “Raserdelikt” (extreme speeding offence) in Switzerland?",
+      "pt": "A partir de que velocidade dentro de localidades (limite 50 km/h) existe na Suíça um crime de excesso de velocidade extremo (Raserdelikt)?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ab 100 km/h (50 km/h zu schnell)",
+          "es": "A partir de 100 km/h (50 km/h de más)",
+          "fr": "À partir de 100 km/h (50 km/h de trop)",
+          "it": "A partire da 100 km/h (50 km/h in più)",
+          "en": "From 100 km/h (50 km/h over)",
+          "pt": "A partir de 100 km/h (50 km/h acima)"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ab 70 km/h",
+          "es": "A partir de 70 km/h",
+          "fr": "À partir de 70 km/h",
+          "it": "A partire da 70 km/h",
+          "en": "From 70 km/h",
+          "pt": "A partir de 70 km/h"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ab 120 km/h",
+          "es": "A partir de 120 km/h",
+          "fr": "À partir de 120 km/h",
+          "it": "A partire da 120 km/h",
+          "en": "From 120 km/h",
+          "pt": "A partir de 120 km/h"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ein Raserdelikt liegt vor, wenn man innerorts mit 50 km/h Limite mindestens 50 km/h zu schnell fährt (ab 100), ausserorts bei Limite 80 mindestens 60 km/h zu schnell (ab 140) und auf der Autobahn mindestens 80 km/h zu schnell (ab 200).",
+      "es": "Hay delito de exceso de velocidad extremo cuando, con límite de 50 km/h en poblado, se circula al menos 50 km/h por encima (desde 100), fuera de poblado con límite 80 al menos 60 km/h por encima (desde 140) y en autopista al menos 80 km/h por encima (desde 200).",
+      "fr": "Il y a délit de chauffard lorsque, avec une limite de 50 km/h en localité, on roule au moins 50 km/h trop vite (dès 100), hors localité avec limite 80 au moins 60 km/h trop vite (dès 140) et sur l’autoroute au moins 80 km/h trop vite (dès 200).",
+      "it": "C’è reato di “pirata della strada” quando nei centri abitati con limite 50 si supera il limite di almeno 50 km/h (da 100), fuori dai centri con limite 80 di almeno 60 km/h (da 140) e in autostrada di almeno 80 km/h (da 200).",
+      "en": "A Raserdelikt exists when you drive at least 50 km/h over the limit in a 50 km/h built-up area (from 100), at least 60 km/h over a limit of 80 outside built-up areas (from 140) and at least 80 km/h over on the motorway (from 200).",
+      "pt": "Há Raserdelikt quando se circula pelo menos 50 km/h acima do limite de 50 dentro de localidades (a partir de 100), pelo menos 60 km/h acima do limite de 80 fora de localidades (a partir de 140) e pelo menos 80 km/h acima na autoestrada (a partir de 200)."
+    },
+    "image": null
+  },
+  {
+    "id": "q405",
+    "category": "both",
+    "topic": "alkohol",
+    "type": "multiple_choice",
+    "points": 2,
+    "question": {
+      "de": "Ab welchem Alter müssen Fahrzeuglenker alle zwei Jahre zur ärztlichen Kontrolluntersuchung?",
+      "es": "¿A partir de qué edad deben los conductores someterse cada dos años a un control médico?",
+      "fr": "À partir de quel âge les conducteurs doivent-ils passer un contrôle médical tous les deux ans ?",
+      "it": "A partire da quale età i conducenti devono sottoporsi ogni due anni a un controllo medico?",
+      "en": "From what age must drivers undergo a medical check-up every two years?",
+      "pt": "A partir de que idade os condutores têm de fazer um controlo médico de dois em dois anos?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "de": "Ab 75 Jahren",
+          "es": "A partir de los 75 años",
+          "fr": "À partir de 75 ans",
+          "it": "A partire da 75 anni",
+          "en": "From age 75",
+          "pt": "A partir dos 75 anos"
+        },
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": {
+          "de": "Ab 60 Jahren",
+          "es": "A partir de los 60 años",
+          "fr": "À partir de 60 ans",
+          "it": "A partire da 60 anni",
+          "en": "From age 60",
+          "pt": "A partir dos 60 anos"
+        },
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": {
+          "de": "Ab 90 Jahren",
+          "es": "A partir de los 90 años",
+          "fr": "À partir de 90 ans",
+          "it": "A partire da 90 anni",
+          "en": "From age 90",
+          "pt": "A partir dos 90 anos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "de": "Ab dem 75. Geburtstag verlangt das Strassenverkehrsamt alle zwei Jahre eine ärztliche Kontrolluntersuchung, um die Fahreignung zu überprüfen.",
+      "es": "Desde los 75 años, la oficina de tráfico exige cada dos años un control médico para comprobar la aptitud para conducir.",
+      "fr": "Dès 75 ans, le service des automobiles exige tous les deux ans un contrôle médical pour vérifier l’aptitude à la conduite.",
+      "it": "Dal compimento dei 75 anni l’ufficio della circolazione richiede ogni due anni un controllo medico per verificare l’idoneità alla guida.",
+      "en": "From the age of 75 the road traffic office requires a medical check-up every two years to verify fitness to drive.",
+      "pt": "A partir dos 75 anos, o serviço de viação exige de dois em dois anos um controlo médico para verificar a aptidão para conduzir."
     },
     "image": null
   }

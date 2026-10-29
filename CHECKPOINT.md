@@ -8,6 +8,52 @@ recordar.
 
 ---
 
+## 2026-10-29 — Seguimiento: contenido a main, refactor de mazos, vocabulario, desglose por tema
+
+**Incidente de ramas:** el PR #20 (apilado sobre #19) se mergeó en `claude/ui-design-animations` *después* de
+que #19 ya estuviera en `main`, así que el contenido no llegó a `main` y la corrección de remolques (commit
+posterior) tampoco. Se llevó a `main` con #21 (rama `claude/content-to-main`). **Lección:** no apilar un PR
+sobre una rama cuyo PR ya se va a mergear; abrir siempre contra `main` (si el anterior se mergea antes, el diff
+se reduce solo).
+**Hecho:** (1) Primeros auxilios, VKU y Señales usan `CardDeck` (−300 líneas; `backIcon` y `speakText` son props;
+`CardDeck` marca el día de estudio al pulsar «me la sé», que antes esos tres mazos no hacían);
+(2) `Vocab.jsx` + `src/data/vocab.js`: 67 términos en alemán con explicación en 6 idiomas, buscador y tarjetas;
+(3) resultado del examen desglosado por tema (hasta 6 temas con fallos); (4) en Estadísticas cada tema es un
+botón hacia el modo estudio filtrado; (5) revisión visual en modo oscuro de Home, Cifras clave, Vocabulario,
+Marcas viales y tarjetas de Señales.
+**Pendiente / ideas:** más señales (el mazo tiene 64; Wegweiser 4, Hinweis 12; cada señal requiere dibujo en
+`SignSprite`), marcar preguntas para repasar, más preguntas con imagen (14 % hoy), partir el banco por idioma
+si el chunk (1,16 MB) llega al umbral de 1200 KB.
+
+---
+
+## 2026-10-26 — Ronda de contenido: moto, marcas viales, cifras clave, carnet a prueba
+
+**Contexto:** el usuario pidió investigar qué faltaba (temas, flashcards) y hacerlo de lo fácil a lo difícil.
+Análisis por palabras clave en alemán sobre el banco. **Corrección:** el análisis dio falsos huecos en
+drogas/medicamentos/accidente (ya cubiertos en q018, q082, q083, q088, q153 con otras palabras); antes de
+escribir un tema, leer las preguntas relacionadas y no fiarse del conteo de keywords.
+**Hecho:** (1) interruptor «DE» en `QuestionCard` (`storage.getShowDe`, clave global `showDe`);
+(2) vista `Numbers` + `src/data/numbers.js` (tabla y mazo SRS desde la misma lista, 45 filas) y
+`CardDeck.jsx` reutilizable (FirstAid/Vku/Signs aún tienen su copia propia del mazo: candidato a refactor);
+(3) 18 preguntas de moto (q363–q380, categoría A); (4) marcas viales: `MarkingSprite`, `markings.js`,
+vista `Markings` dentro del hub de Señales, tema `markierungen` con 14 preguntas (q381–q394) y imágenes
+`type: "marking"`; (5) 11 preguntas: `probezeit` (4), `assistenz` (3), MFK, zona 30, Raserdelikt, control
+médico ≥75 (q395–q405). Banco: 405 preguntas (375 B / 405 A). Nuevo `questions.test.js` valida ids únicos,
+6 idiomas, temas y referencias de imagen; también `Numbers.test.jsx` y `Markings.test.jsx`.
+**No hecho (a propósito):** partir el banco en chunks (ver ROADMAP: no mejora nada por tema).
+**A verificar con una fuente oficial antes de publicar:** cifras nuevas escritas de memoria sobre el
+derecho vigente — Raserdelikt (100/140/200), control médico a los 75, MFK 4-3-2, Velostreifen amarillo,
+zigzag = Halteverbot, disco en la «siguiente media hora».
+**Remolques (resuelto, 2026-10-26):** q150, q300 y q302 parecían contradecirse. Según TCS, ASTRA y las oficinas
+de tráfico de TG, SO y BL, desde el 1-1-2021 un vehículo ligero con remolque ≤ 3,5 t circula a 100 km/h en
+autopista/Autostrasse si el remolque está homologado para 100 (campo 24 del permiso; sin inspección), si no
+80 km/h; más de 3,5 t: 80. q150 y q300 se reescribieron para preguntar por el caso concreto (sin homologación
+→ 80) y por la condición (≤ 3,5 t y homologado → 100); q302 estaba bien; fila n09 de `numbers.js` actualizada.
+Sin acceso al texto de la VRV (fedlex bloqueado en el sandbox): confirmar contra Art. 5 VRV si se puede.
+
+---
+
 ## 2026-10-25 — Pulido de UI y animaciones (rojo suizo se mantiene)
 
 **Qué se hizo:** tokens de diseño nuevos en `index.css` (`--shadow-raised`, `--color-success/danger`,

@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event'
 import App from '../App'
 import { t } from '../i18n'
 import { storage } from '../storage'
+import { topicLabel } from '../data/topics'
 import questions from '../data/questions.json'
 
 const LANG = 'de'
@@ -88,5 +89,19 @@ describe('Estadísticas', () => {
 
     expect(await screen.findByText(t('importDone', LANG))).toBeInTheDocument()
     confirmSpy.mockRestore()
+  })
+
+  it('pulsar un tema del desglose abre el modo estudio filtrado por ese tema', async () => {
+    const q = questions[0]
+    storage.recordAnswer(q.id, false)
+
+    const user = userEvent.setup()
+    render(<App />)
+    await openStats(user)
+    await user.click(await screen.findByRole('button', { name: new RegExp(topicLabel(q.topic, LANG)) }))
+
+    // Study arranca con el chip del tema activo: la pregunta 1 es de ese tema
+    const expected = questions.filter((x) => x.topic === q.topic && ['both', 'B'].includes(x.category)).length
+    expect(await screen.findByText(`${t('question', LANG)} 1 ${t('of', LANG)} ${expected}`)).toBeInTheDocument()
   })
 })

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useLang, t, tr, dateLocale } from '../i18n'
+import { useLang, t, tr } from '../i18n'
 import { storage } from '../storage'
 import { shuffle, canSpeak, speakDe } from '../utils'
 import { SIGN_CATEGORIES, SIGNS } from '../data/signs'
@@ -8,10 +8,9 @@ import Confetti from './Confetti'
 import {
   IconWarningSign,
   IconStack,
+  IconRuler,
   IconCards,
   IconQuestionBubble,
-  IconConfetti,
-  IconTap,
   IconSpeaker,
   IconTrophy,
   IconThumbsUp,
@@ -21,8 +20,13 @@ import {
   IconCross,
 } from './Icons'
 import MenuCard from './MenuCard'
+import CardDeck from './CardDeck'
+import Markings from './Markings'
 
 const QUIZ_SIZE = 10
+
+// Flashcards de señales: la cara delantera es el dibujo, la trasera nombre y significado.
+const SIGN_CARDS = SIGNS.map((s) => ({ id: s.id, front: s.name, back: s.meaning, name: s.name, draw: s.draw }))
 
 function Explore() {
   const { lang } = useLang()
@@ -92,111 +96,6 @@ function SignDetail({ sign }) {
         </div>
         <p className="mt-1 text-xs text-muted">{sign.name[lang === 'de' ? 'es' : 'de']}</p>
         <p className="mt-2 text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</p>
-      </div>
-    </div>
-  )
-}
-
-function Flashcards() {
-  const { lang } = useLang()
-  const [deck, setDeck] = useState(() => {
-    const dueIds = new Set(storage.srsDueIds('signs', SIGNS.map((s) => s.id)))
-    return shuffle(SIGNS.filter((s) => dueIds.has(s.id)))
-  })
-  const [flipped, setFlipped] = useState(false)
-  const { inReview } = storage.srsCounts('signs', SIGNS.map((s) => s.id))
-  const sign = deck[0]
-
-  function markKnown() {
-    storage.srsPromote('signs', sign.id)
-    setDeck((d) => d.slice(1))
-    setFlipped(false)
-  }
-
-  function repeatLater() {
-    storage.srsDemote('signs', sign.id)
-    setDeck((d) => [...d.slice(1), d[0]])
-    setFlipped(false)
-  }
-
-  if (!sign) {
-    const nextDue = storage.srsNextDue('signs')
-    return (
-      <div className="rounded-2xl bg-surface p-8 text-center shadow-sm ring-1 ring-line">
-        <IconConfetti className="mx-auto h-10 w-10 text-swiss" />
-        <p className="mt-3 text-lg font-semibold text-ink">{t('allCaughtUp', lang)}</p>
-        {nextDue && (
-          <p className="mt-1 text-sm text-muted">
-            {t('nextReview', lang)}: {new Date(nextDue).toLocaleDateString(dateLocale(lang))}
-          </p>
-        )}
-        <button
-          onClick={() => {
-            setDeck(shuffle([...SIGNS]))
-            setFlipped(false)
-          }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
-        >
-          {t('practiceAnyway', lang)}
-        </button>
-      </div>
-    )
-  }
-
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between text-sm text-muted">
-        <span className="inline-flex items-center gap-1">
-          <IconCards className="h-4 w-4" /> {deck.length} {t('dueToday', lang)}
-        </span>
-        <span className="flex items-center gap-2">
-          {canSpeak() && (
-            <button
-              onClick={() => speakDe(`${sign.name.de}. ${sign.meaning.de}`)}
-              aria-label={t('listenDe', lang)}
-              className="rounded-full opacity-70 hover:opacity-100"
-            >
-              <IconSpeaker className="h-4 w-4" />
-            </button>
-          )}
-          ✓ {inReview}/{SIGNS.length} {t('cardsLearned', lang)}
-        </span>
-      </div>
-
-      <button
-        onClick={() => setFlipped((f) => !f)}
-        className={`flex min-h-64 w-full flex-col items-center justify-center gap-3 rounded-2xl p-6 text-center shadow-sm ring-1 transition-colors ${
-          flipped ? 'bg-red-50 dark:bg-red-900/30 ring-swiss/40' : 'bg-surface ring-line'
-        }`}
-      >
-        <span key={String(flipped)} className="flip-in flex flex-col items-center gap-3">
-          {flipped ? (
-            <>
-              <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(sign.name, lang)}</span>
-              <span className="text-sm leading-relaxed text-body">{tr(sign.meaning, lang)}</span>
-            </>
-          ) : (
-            <SignSprite draw={sign.draw} size={130} />
-          )}
-        </span>
-        <span className="mt-1 inline-flex items-center gap-1 text-xs text-muted">
-          <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
-        </span>
-      </button>
-
-      <div className="flex gap-2">
-        <button
-          onClick={repeatLater}
-          className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
-        >
-          ↻ {t('repeatCard', lang)}
-        </button>
-        <button
-          onClick={markKnown}
-          className="flex-1 rounded-xl bg-green-600 py-3 font-semibold text-white hover:bg-green-700"
-        >
-          ✓ {t('iKnowIt', lang)}
-        </button>
       </div>
     </div>
   )
@@ -356,8 +255,22 @@ export default function Signs() {
           ‹ {t('menuSigns', lang)}
         </button>
         {view === 'explore' && <Explore />}
-        {view === 'cards' && <Flashcards />}
+        {view === 'cards' && (
+          <CardDeck
+            module="signs"
+            cards={SIGN_CARDS}
+            speakText={(card) => `${card.name.de}. ${card.back.de}`}
+            renderFront={(card) => <SignSprite draw={card.draw} size={130} />}
+            renderBack={(card, lang) => (
+              <>
+                <span className="text-lg font-bold leading-snug text-swiss-dark dark:text-red-300">{tr(card.name, lang)}</span>
+                <span className="mt-3 text-sm leading-relaxed text-body">{tr(card.back, lang)}</span>
+              </>
+            )}
+          />
+        )}
         {view === 'quiz' && <Quiz />}
+        {view === 'markings' && <Markings />}
       </div>
     )
   }
@@ -377,6 +290,7 @@ export default function Signs() {
           badge={unknown}
         />
         <MenuCard i={2} tint="amber" onClick={() => setView('quiz')} icon={<IconQuestionBubble className="h-6 w-6" />} label={t('faQuizTitle', lang)} sub={t('signsQuizSub', lang)} />
+        <MenuCard i={3} tint="red" onClick={() => setView('markings')} icon={<IconRuler className="h-6 w-6" />} label={t('markingsTitle', lang)} sub={t('markingsSub', lang)} />
       </div>
     </div>
   )

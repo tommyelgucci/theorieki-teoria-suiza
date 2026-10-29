@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
-import { useLang, t, tr, dateLocale } from '../i18n'
+import { useLang, t, tr } from '../i18n'
 import { storage } from '../storage'
-import { shuffle, isAnswerCorrect, canSpeak, speakDe } from '../utils'
+import { shuffle, isAnswerCorrect } from '../utils'
 import { FIRSTAID_TOPICS, FIRSTAID_CARDS, FIRSTAID_QUESTIONS } from '../data/firstaid'
 import QuestionCard from './QuestionCard'
 import Confetti from './Confetti'
@@ -10,10 +10,7 @@ import {
   IconBookOpen,
   IconCards,
   IconQuestionBubble,
-  IconConfetti,
   IconAmbulance,
-  IconTap,
-  IconSpeaker,
   IconTrophy,
   IconThumbsUp,
   IconCheck,
@@ -21,6 +18,7 @@ import {
   Icon,
 } from './Icons'
 import MenuCard from './MenuCard'
+import CardDeck from './CardDeck'
 
 const QUIZ_SIZE = 10
 
@@ -56,110 +54,6 @@ function Topics() {
           </div>
         )
       })}
-    </div>
-  )
-}
-
-function Flashcards() {
-  const { lang } = useLang()
-  const [deck, setDeck] = useState(() => {
-    const dueIds = new Set(storage.srsDueIds('firstaid', FIRSTAID_CARDS.map((c) => c.id)))
-    return shuffle(FIRSTAID_CARDS.filter((c) => dueIds.has(c.id)))
-  })
-  const [flipped, setFlipped] = useState(false)
-  const { inReview } = storage.srsCounts('firstaid', FIRSTAID_CARDS.map((c) => c.id))
-
-  const card = deck[0]
-
-  function markKnown() {
-    storage.srsPromote('firstaid', card.id)
-    setDeck((d) => d.slice(1))
-    setFlipped(false)
-  }
-
-  function repeatLater() {
-    storage.srsDemote('firstaid', card.id)
-    setDeck((d) => [...d.slice(1), d[0]])
-    setFlipped(false)
-  }
-
-  if (!card) {
-    const nextDue = storage.srsNextDue('firstaid')
-    return (
-      <div className="rounded-2xl bg-surface p-8 text-center shadow-sm ring-1 ring-line">
-        <IconConfetti className="mx-auto h-10 w-10 text-swiss" />
-        <p className="mt-3 text-lg font-semibold text-ink">{t('allCaughtUp', lang)}</p>
-        {nextDue && (
-          <p className="mt-1 text-sm text-muted">
-            {t('nextReview', lang)}: {new Date(nextDue).toLocaleDateString(dateLocale(lang))}
-          </p>
-        )}
-        <button
-          onClick={() => {
-            setDeck(shuffle([...FIRSTAID_CARDS]))
-            setFlipped(false)
-          }}
-          className="mt-4 rounded-xl bg-swiss px-5 py-2.5 font-semibold text-white hover:bg-swiss-dark transition-all active:scale-[0.98]"
-        >
-          {t('practiceAnyway', lang)}
-        </button>
-      </div>
-    )
-  }
-
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between text-sm text-muted">
-        <span className="inline-flex items-center gap-1">
-          <IconCards className="h-4 w-4" /> {deck.length} {t('dueToday', lang)}
-        </span>
-        <span className="flex items-center gap-2">
-          {canSpeak() && (
-            <button
-              onClick={() => speakDe(flipped ? card.back.de : card.front.de)}
-              aria-label={t('listenDe', lang)}
-              className="rounded-full opacity-70 hover:opacity-100"
-            >
-              <IconSpeaker className="h-4 w-4" />
-            </button>
-          )}
-          ✓ {inReview}/{FIRSTAID_CARDS.length} {t('cardsLearned', lang)}
-        </span>
-      </div>
-
-      <button
-        onClick={() => setFlipped((f) => !f)}
-        className={`flex min-h-56 w-full flex-col items-center justify-center rounded-2xl p-6 text-center shadow-sm ring-1 transition-colors ${
-          flipped ? 'bg-red-50 dark:bg-red-900/30 ring-swiss/40' : 'bg-surface ring-line'
-        }`}
-      >
-        <span key={String(flipped)} className="flip-in flex flex-col items-center">
-        <span className="mb-2 text-faint">
-          {flipped ? <IconAmbulance className="h-6 w-6" /> : <IconQuestionBubble className="h-6 w-6" />}
-        </span>
-        <span className={`text-lg leading-snug ${flipped ? 'font-bold text-swiss-dark dark:text-red-300' : 'font-semibold text-ink'}`}>
-          {flipped ? tr(card.back, lang) : tr(card.front, lang)}
-        </span>
-        </span>
-        <span className="mt-4 inline-flex items-center gap-1 text-xs text-muted">
-          <IconTap className="h-3.5 w-3.5" /> {t('tapToFlip', lang)}
-        </span>
-      </button>
-
-      <div className="flex gap-2">
-        <button
-          onClick={repeatLater}
-          className="flex-1 rounded-xl bg-surface py-3 font-semibold text-body ring-1 ring-line-strong hover:bg-sunken"
-        >
-          ↻ {t('repeatCard', lang)}
-        </button>
-        <button
-          onClick={markKnown}
-          className="flex-1 rounded-xl bg-green-600 py-3 font-semibold text-white hover:bg-green-700"
-        >
-          ✓ {t('iKnowIt', lang)}
-        </button>
-      </div>
     </div>
   )
 }
@@ -290,7 +184,7 @@ export default function FirstAid() {
           ‹ {t('menuFirstAid', lang)}
         </button>
         {view === 'topics' && <Topics />}
-        {view === 'cards' && <Flashcards />}
+        {view === 'cards' && <CardDeck module="firstaid" cards={FIRSTAID_CARDS} backIcon={IconAmbulance} />}
         {view === 'quiz' && <Quiz />}
       </div>
     )

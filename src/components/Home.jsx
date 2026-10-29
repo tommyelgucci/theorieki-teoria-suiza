@@ -21,6 +21,8 @@ import {
   IconBarChart,
   IconFlame,
   IconStack,
+  IconRuler,
+  IconSpeaker,
   IconCheck,
   IconCross,
 } from './Icons'
@@ -213,9 +215,24 @@ export default function Home({ category, setCategory, navigate, profile }) {
           tint="blue"
         />
 
-        <GroupLabel i={10}>{t('groupPractical', lang)}</GroupLabel>
-        <MenuCard i={11} onClick={() => navigate('vku')} icon={<IconThoughtBubble className="h-6 w-6" />} label={t('menuVku', lang)} sub={t('menuVkuSub', lang)} tint="green" />
-        <MenuCard i={12}
+        <MenuCard i={10}
+          onClick={() => navigate('numbers')}
+          icon={<IconRuler className="h-6 w-6" />}
+          label={t('menuNumbers', lang)}
+          sub={t('menuNumbersSub', lang)}
+          tint="blue"
+        />
+        <MenuCard i={11}
+          onClick={() => navigate('vocab')}
+          icon={<IconSpeaker className="h-6 w-6" />}
+          label={t('menuVocab', lang)}
+          sub={t('menuVocabSub', lang)}
+          tint="blue"
+        />
+
+        <GroupLabel i={12}>{t('groupPractical', lang)}</GroupLabel>
+        <MenuCard i={13} onClick={() => navigate('vku')} icon={<IconThoughtBubble className="h-6 w-6" />} label={t('menuVku', lang)} sub={t('menuVkuSub', lang)} tint="green" />
+        <MenuCard i={14}
           onClick={() => navigate('maneuvers')}
           icon={<IconSteeringWheel className="h-6 w-6" />}
           label={t('menuManeuvers', lang)}
@@ -223,20 +240,20 @@ export default function Home({ category, setCategory, navigate, profile }) {
           badge={maneuverCount}
           tint="green"
         />
-        <MenuCard i={13} onClick={() => navigate('tips')} icon={<IconTarget className="h-6 w-6" />} label={t('menuTips', lang)} sub={t('menuTipsSub', lang)} tint="green" />
+        <MenuCard i={15} onClick={() => navigate('tips')} icon={<IconTarget className="h-6 w-6" />} label={t('menuTips', lang)} sub={t('menuTipsSub', lang)} tint="green" />
 
-        <GroupLabel i={14}>{t('groupSpecial', lang)}</GroupLabel>
-        <MenuCard i={15}
+        <GroupLabel i={16}>{t('groupSpecial', lang)}</GroupLabel>
+        <MenuCard i={17}
           onClick={() => navigate('kontrollfahrt')}
           icon={<IconIdCard className="h-6 w-6" />}
           label={t('menuKontrollfahrt', lang)}
           sub={t('menuKontrollfahrtSub', lang)}
           tint="amber"
         />
-        <MenuCard i={16} onClick={() => navigate('wab')} icon={<IconGraduationCap className="h-6 w-6" />} label={t('menuWab', lang)} sub={t('menuWabSub', lang)} tint="amber" />
+        <MenuCard i={18} onClick={() => navigate('wab')} icon={<IconGraduationCap className="h-6 w-6" />} label={t('menuWab', lang)} sub={t('menuWabSub', lang)} tint="amber" />
 
         <div className="pt-1">
-          <MenuCard i={17}
+          <MenuCard i={19}
             onClick={() => navigate('stats')}
             icon={<IconBarChart className="h-6 w-6" />}
             label={t('menuStats', lang)}
